@@ -22,6 +22,9 @@ class OrganizationResource extends JsonResource
                 "name" => $this->name,
                 "slug" => $this->slug,
                 "bio" => $this->bio,
+                "logo" =>
+                    //  TODO: Remove logo placeholder for organizations
+                    "https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "website" => $this->website,
                 "sector" => $this->sector->name,
                 "location" =>
