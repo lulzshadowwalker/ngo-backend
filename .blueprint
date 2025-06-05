@@ -1,0 +1,42 @@
+created:
+    - database/factories/IndividualFactory.php
+    - database/factories/SkillFactory.php
+    - database/factories/VolunteeringInterestFactory.php
+    - database/factories/IndividualPreferenceFactory.php
+    - database/factories/OrganizationFactory.php
+    - database/factories/OrganizationPreferenceFactory.php
+    - database/factories/LocationFactory.php
+    - database/factories/SectorFactory.php
+    - database/factories/PostFactory.php
+    - database/migrations/2025_06_05_093449_create_individuals_table.php
+    - database/migrations/2025_06_05_093450_create_skills_table.php
+    - database/migrations/2025_06_05_093451_create_volunteering_interests_table.php
+    - database/migrations/2025_06_05_093452_create_individual_preferences_table.php
+    - database/migrations/2025_06_05_093453_create_organizations_table.php
+    - database/migrations/2025_06_05_093454_create_organization_preferences_table.php
+    - database/migrations/2025_06_05_093455_create_locations_table.php
+    - database/migrations/2025_06_05_093456_create_sectors_table.php
+    - database/migrations/2025_06_05_093457_create_posts_table.php
+    - app/Models/Individual.php
+    - app/Models/Skill.php
+    - app/Models/VolunteeringInterest.php
+    - app/Models/IndividualPreference.php
+    - app/Models/Organization.php
+    - app/Models/OrganizationPreference.php
+    - app/Models/Location.php
+    - app/Models/Sector.php
+    - app/Models/Post.php
+models:
+    Comment: { user_id: integer, body: text, commentable_type: string, commentable_id: integer }
+    Follow: { user_id: integer, followable_type: string, followable_id: integer }
+    Like: { user_id: integer, likeable_type: string, likeable_id: integer }
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string nullable' }
+    Individual: { name: string, bio: 'string, nullable', birthdate: 'date, nullable', relationships: { belongsTo: Location, hasMany: 'Skill, VolunteeringInterest, IndividualPreference' } }
+    Skill: { name: string, description: 'string, nullable', relationships: { belongsTo: Individual } }
+    VolunteeringInterest: { name: string, relationships: { belongsTo: Individual } }
+    IndividualPreference: { email_notifications: 'boolean, default:true', push_notifications: 'boolean, default:true', language: 'string, default:"en"', appearance: 'enum:light,dark,system default:system', profile_visibility: 'enum:public,private default:public', relationships: { belongsTo: Individual } }
+    Organization: { name: string, bio: 'string, nullable', website: 'string, nullable', relationships: { belongsTo: 'Sector, Location', hasMany: 'Post, OrganizationPreference' } }
+    OrganizationPreference: { email_notifications: 'boolean, default:true', push_notifications: 'boolean, default:true', language: 'string, default:"en"', appearance: 'enum:light,dark,system default:system', relationships: { belongsTo: Organization } }
+    Location: { city: string, country: string, relationships: { hasMany: 'Individual, Organization' }, indexes: [{ unique: 'city, country' }] }
+    Sector: { name: string, description: 'string, nullable', relationships: { hasMany: Organization } }
+    Post: { title: string, content: text, relationships: { belongsTo: Organization } }

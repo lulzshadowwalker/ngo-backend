@@ -1,0 +1,87 @@
+models:
+  Individual:
+    name: string
+    # email
+    # password
+    # avatar
+    bio: string, nullable
+    birthdate: date, nullable
+    relationships:
+      belongsTo: Location
+      hasMany: Skill, VolunteeringInterest, IndividualPreference
+
+  Skill:
+    name: string
+    description: string, nullable
+    relationships:
+      belongsTo: Individual
+
+  VolunteeringInterest:
+    name: string
+    relationships:
+      belongsTo: Individual
+
+  IndividualPreference:
+    email_notifications: boolean, default:true
+    push_notifications: boolean, default:true
+    language: string, default:"en"
+    appearance: enum:light,dark,system default:system
+    profile_visibility: enum:public,private default:public
+    relationships:
+      belongsTo: Individual
+
+  # #  TODO:
+  #  Profile Visibiliy enum
+  #  Appearance enum
+
+  #  TODO:
+  #  Comment
+  #  Like
+  #  Follow
+
+  #  TODO:
+  #  avatar
+
+  #  TODO:
+  #  banner
+
+  Organization:
+    name: string
+    # logo
+    # banner
+    bio: string, nullable
+    website: string, nullable
+    relationships:
+      belongsTo: Sector, Location
+      hasMany: Post, OrganizationPreference
+
+  OrganizationPreference:
+    email_notifications: boolean, default:true
+    push_notifications: boolean, default:true
+    language: string, default:"en"
+    appearance: enum:light,dark,system default:system
+    relationships:
+      belongsTo: Organization
+
+  Location:
+    city: string
+    country: string
+    relationships:
+      hasMany: Individual, Organization
+    indexes:
+      - unique: city, country
+
+  Sector:
+    name: string
+    description: string, nullable
+    relationships:
+      hasMany: Organization
+
+  Post:
+    title: string
+    content: text
+    relationships:
+      belongsTo: Organization
+
+controllers:
+  # ...
