@@ -38,8 +38,6 @@ class DatabaseSeeder extends Seeder
 
         Skill::factory(10)->create();
 
-        \App\Models\VolunteeringInterest::factory(10)->create();
-
         User::factory()->create([
             "name" => "Test User",
             "email" => "test@example.com",
