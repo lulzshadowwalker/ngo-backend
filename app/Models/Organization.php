@@ -2,11 +2,14 @@
 
 namespace App\Models;
 
+use App\Observers\OrganizationObserver;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
+#[ObservedBy(OrganizationObserver::class)]
 class Organization extends Model
 {
     use HasFactory;
@@ -17,11 +20,12 @@ class Organization extends Model
      * @var array
      */
     protected $fillable = [
-        'name',
-        'bio',
-        'website',
-        'sector_id',
-        'location_id',
+        "name",
+        "slug",
+        "bio",
+        "website",
+        "sector_id",
+        "location_id",
     ];
 
     /**
@@ -32,9 +36,9 @@ class Organization extends Model
     protected function casts(): array
     {
         return [
-            'id' => 'integer',
-            'sector_id' => 'integer',
-            'location_id' => 'integer',
+            "id" => "integer",
+            "sector_id" => "integer",
+            "location_id" => "integer",
         ];
     }
 
@@ -60,6 +64,6 @@ class Organization extends Model
 
     public function follows()
     {
-        return $this->morphMany(Follow::class, 'followable');
+        return $this->morphMany(Follow::class, "followable");
     }
 }
