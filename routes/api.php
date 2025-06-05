@@ -55,6 +55,8 @@ Route::get("/skills/{skill}", [SkillController::class, "show"])->name(
     "api.skills.show"
 );
 
+Route::get("/posts", [PostController::class, "index"])->name("api.posts.index");
+
 Route::get("/posts/{post:slug}", [PostController::class, "show"])->name(
     "api.posts.show"
 );
