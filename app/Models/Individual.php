@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Individual extends Model
@@ -16,12 +17,7 @@ class Individual extends Model
      *
      * @var array
      */
-    protected $fillable = [
-        'name',
-        'bio',
-        'birthdate',
-        'location_id',
-    ];
+    protected $fillable = ["name", "bio", "birthdate", "location_id"];
 
     /**
      * Get the attributes that should be cast.
@@ -31,8 +27,8 @@ class Individual extends Model
     protected function casts(): array
     {
         return [
-            'id' => 'integer',
-            'location_id' => 'integer',
+            "id" => "integer",
+            "location_id" => "integer",
         ];
     }
 
@@ -41,9 +37,9 @@ class Individual extends Model
         return $this->belongsTo(Location::class);
     }
 
-    public function skills(): HasMany
+    public function skills(): BelongsToMany
     {
-        return $this->hasMany(Skill::class);
+        return $this->belongsToMany(Skill::class);
     }
 
     public function volunteeringInterests(): HasMany

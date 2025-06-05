@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Skill;
 use App\Models\User;
 use App\Models\Organization;
 use App\Models\Post;
@@ -35,9 +36,11 @@ class DatabaseSeeder extends Seeder
         Comment::factory(10)->create();
         Like::factory(10)->create();
 
+        Skill::factory(10)->create();
+
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            "name" => "Test User",
+            "email" => "test@example.com",
         ]);
     }
 }
