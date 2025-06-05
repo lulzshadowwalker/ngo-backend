@@ -63,7 +63,7 @@ class PostResource extends JsonResource
                     }),
                 ],
             ],
-            "includes" => (object) [
+            "includes" => [
                 "organization" => new OrganizationResource(
                     $this->whenLoaded("organization")
                 ),
