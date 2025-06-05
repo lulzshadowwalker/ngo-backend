@@ -12,18 +12,18 @@ class Comment extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id',
-        'body',
-        'commentable_id',
-        'commentable_type',
+        "user_id",
+        "content",
+        "commentable_id",
+        "commentable_type",
     ];
 
     protected function casts(): array
     {
         return [
-            'id' => 'integer',
-            'user_id' => 'integer',
-            'commentable_id' => 'integer',
+            "id" => "integer",
+            "user_id" => "integer",
+            "commentable_id" => "integer",
         ];
     }
 

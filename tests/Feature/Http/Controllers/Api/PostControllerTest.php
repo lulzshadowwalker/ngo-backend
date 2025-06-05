@@ -1,0 +1,38 @@
+<?php
+
+namespace Tests\Feature\Http\Controllers\Api;
+
+use App\Http\Resources\PostResource;
+use App\Models\Post;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Tests\TestCase;
+
+class PostControllerTest extends TestCase
+{
+    use RefreshDatabase;
+
+    public function test_it_lists_posts()
+    {
+        $posts = Post::factory()->count(3)->create();
+        $resource = PostResource::collection($posts);
+
+        $response = $this->getJson(route('api.posts.index', ['language' => 'en']));
+
+        $response->assertOk();
+        $response->assertJson($resource->response()->getData(true));
+    }
+
+    public function test_it_shows_post()
+    {
+        $post = Post::factory()->create();
+        $resource = PostResource::make($post);
+
+        $response = $this->getJson(route('api.posts.show', [
+            'language' => 'en',
+            'post' => $post->slug,
+        ]));
+
+        $response->assertOk();
+        $response->assertJson($resource->response()->getData(true));
+    }
+}

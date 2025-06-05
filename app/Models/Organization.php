@@ -36,9 +36,9 @@ class Organization extends Model
     protected function casts(): array
     {
         return [
-            "id" => "integer",
-            "sector_id" => "integer",
-            "location_id" => "integer",
+            'id' => 'integer',
+            'sector_id' => 'integer',
+            'location_id' => 'integer',
         ];
     }
 
@@ -64,6 +64,6 @@ class Organization extends Model
 
     public function follows()
     {
-        return $this->morphMany(Follow::class, "followable");
+        return $this->morphMany(Follow::class, 'followable');
     }
 }
