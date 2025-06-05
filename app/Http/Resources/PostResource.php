@@ -21,6 +21,8 @@ class PostResource extends JsonResource
             "attributes" => [
                 "title" => $this->title,
                 "slug" => $this->slug,
+                "likeCount" => $this->likes()->count(),
+                "commentCount" => $this->comments()->count(),
                 "content" => $this->content,
                 "createdAt" => $this->created_at->toIso8601String(),
                 "createdAtReadable" => $this->created_at->diffForHumans(),
