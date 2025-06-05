@@ -17,20 +17,20 @@ class LanguageMiddleware
 
     public function handle(Request $request, Closure $next): Response
     {
-        $lang = $request->route("lang");
+        $language = $request->route("language");
         $supported = config("app.supported_locales");
 
-        if (!in_array($lang, $supported)) {
+        if (!in_array($language, $supported)) {
             return $this->response
                 ->error(
                     title: "Language not supported",
-                    detail: "The language '$lang' is not supported.",
+                    detail: "The language '$language' is not supported.",
                     code: HttpResponse::HTTP_NOT_FOUND
                 )
                 ->build(HttpResponse::HTTP_NOT_FOUND);
         }
 
-        app()->setLocale($lang);
+        app()->setLocale($language);
 
         return $next($request);
     }
