@@ -37,16 +37,6 @@ Route::get("/locations/{location}", [LocationController::class, "show"])->name(
     "api.locations.show"
 );
 
-Route::get("/volunteering-interests", [
-    VolunteeringInterestController::class,
-    "index",
-])->name("api.volunteering-interests.index");
-
-Route::get("/volunteering-interests/{volunteeringInterest}", [
-    VolunteeringInterestController::class,
-    "show",
-])->name("api.volunteering-interests.show");
-
 Route::get("/skills", [SkillController::class, "index"])->name(
     "api.skills.index"
 );

@@ -50,7 +50,7 @@ class PostResource extends JsonResource
                             ->all();
                     }),
                 ],
-                "likes" => [
+                "likes" => (object) [
                     "data" => $this->whenLoaded("likes", function () {
                         return $this->likes
                             ->map(function ($like) {
@@ -63,7 +63,7 @@ class PostResource extends JsonResource
                     }),
                 ],
             ],
-            "includes" => [
+            "includes" => (object) [
                 "organization" => new OrganizationResource(
                     $this->whenLoaded("organization")
                 ),
