@@ -16,7 +16,7 @@ class OrganizationControllerTest extends TestCase
         $organizations = Organization::factory()->count(3)->create();
         $resource = OrganizationResource::collection($organizations);
 
-        $response = $this->getJson(route('api.organizations.index'));
+        $response = $this->getJson(route('api.v1.organizations.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -27,7 +27,7 @@ class OrganizationControllerTest extends TestCase
         $organization = Organization::factory()->create();
         $resource = OrganizationResource::make($organization);
 
-        $response = $this->getJson(route('api.organizations.show', [
+        $response = $this->getJson(route('api.v1.organizations.show', [
             'organization' => $organization->slug,
         ]));
 

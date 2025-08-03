@@ -16,7 +16,7 @@ class SkillControllerTest extends TestCase
         $skills = Skill::factory()->count(3)->create();
         $resource = SkillResource::collection($skills);
 
-        $response = $this->getJson(route('api.skills.index'));
+        $response = $this->getJson(route('api.v1.skills.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -27,7 +27,7 @@ class SkillControllerTest extends TestCase
         $skill = Skill::factory()->create();
         $resource = SkillResource::make($skill);
 
-        $response = $this->getJson(route('api.skills.show', [
+        $response = $this->getJson(route('api.v1.skills.show', [
             'skill' => $skill->id,
         ]));
 
