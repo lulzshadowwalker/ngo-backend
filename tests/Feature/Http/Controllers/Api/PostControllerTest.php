@@ -16,7 +16,7 @@ class PostControllerTest extends TestCase
         $posts = Post::factory()->count(3)->create();
         $resource = PostResource::collection($posts);
 
-        $response = $this->getJson(route('api.posts.index', ['language' => 'en']));
+        $response = $this->getJson(route('api.posts.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -28,7 +28,6 @@ class PostControllerTest extends TestCase
         $resource = PostResource::make($post);
 
         $response = $this->getJson(route('api.posts.show', [
-            'language' => 'en',
             'post' => $post->slug,
         ]));
 

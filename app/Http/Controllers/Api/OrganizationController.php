@@ -20,7 +20,7 @@ class OrganizationController extends Controller
     /**
      * @return OrganizationResource
      */
-    public function show(string $language, Organization $organization)
+    public function show(Organization $organization)
     {
         return OrganizationResource::make($organization);
     }

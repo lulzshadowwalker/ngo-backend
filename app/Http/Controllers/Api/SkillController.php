@@ -20,7 +20,7 @@ class SkillController extends Controller
     /**
      * @return SkillResource
      */
-    public function show(string $language, Skill $skill)
+    public function show(Skill $skill)
     {
         return SkillResource::make($skill);
     }

@@ -16,7 +16,7 @@ class LocationControllerTest extends TestCase
         $locations = Location::factory()->count(3)->create();
         $resource = LocationResource::collection($locations);
 
-        $response = $this->getJson(route('api.locations.index', ['language' => 'en']));
+        $response = $this->getJson(route('api.locations.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -28,7 +28,6 @@ class LocationControllerTest extends TestCase
         $resource = LocationResource::make($location);
 
         $response = $this->getJson(route('api.locations.show', [
-            'language' => 'en',
             'location' => $location->id,
         ]));
 
