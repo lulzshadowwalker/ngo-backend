@@ -7,6 +7,7 @@ use App\Http\Controllers\Api\SkillController;
 use App\Http\Controllers\Api\LocationController;
 use App\Http\Controllers\Api\UserPreferencesController;
 use App\Http\Controllers\Api\PageController;
+use App\Http\Controllers\Api\SupportTicketController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
@@ -32,3 +33,7 @@ Route::delete('/posts/{post:slug}/like', [LikePostController::class, 'destroy'])
 
 Route::get('/pages', [PageController::class, 'index'])->name('api.v1.pages.index');
 Route::get('/pages/{page}', [PageController::class, 'show'])->name('api.v1.pages.show');
+
+Route::get('/support-tickets', [SupportTicketController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.support-tickets.index');
+Route::get('/support-tickets/{supportTicket}', [SupportTicketController::class, 'show'])->middleware('auth:sanctum')->name('api.v1.support-tickets.show');
+Route::post('/support-tickets', [SupportTicketController::class, 'store'])->name('api.v1.support-tickets.store');
