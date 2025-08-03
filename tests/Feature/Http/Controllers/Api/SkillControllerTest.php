@@ -16,7 +16,7 @@ class SkillControllerTest extends TestCase
         $skills = Skill::factory()->count(3)->create();
         $resource = SkillResource::collection($skills);
 
-        $response = $this->getJson(route('api.skills.index', ['language' => 'en']));
+        $response = $this->getJson(route('api.skills.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -28,7 +28,6 @@ class SkillControllerTest extends TestCase
         $resource = SkillResource::make($skill);
 
         $response = $this->getJson(route('api.skills.show', [
-            'language' => 'en',
             'skill' => $skill->id,
         ]));
 

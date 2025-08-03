@@ -21,7 +21,7 @@ class PostController extends ApiController
     /**
      * @return PostResource
      */
-    public function show(string $language, Post $post)
+    public function show(Post $post)
     {
         $includes = ["likes", "comments", "organization"];
         foreach ($includes as $include) {

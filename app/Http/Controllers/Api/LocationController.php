@@ -20,7 +20,7 @@ class LocationController extends Controller
     /**
      * @return LocationResource
      */
-    public function show(string $language, Location $location)
+    public function show(Location $location)
     {
         return LocationResource::make($location);
     }
