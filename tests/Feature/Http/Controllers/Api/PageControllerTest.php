@@ -16,7 +16,7 @@ class PageControllerTest extends TestCase
         $pages = Page::factory()->count(3)->create();
         $resource = PageResource::collection($pages);
 
-        $response = $this->getJson(route('api.pages.index'));
+        $response = $this->getJson(route('api.v1.pages.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -27,7 +27,7 @@ class PageControllerTest extends TestCase
         $page = Page::factory()->create();
         $resource = PageResource::make($page);
 
-        $response = $this->getJson(route('api.pages.show', [
+        $response = $this->getJson(route('api.v1.pages.show', [
             'page' => $page->slug,
         ]));
 

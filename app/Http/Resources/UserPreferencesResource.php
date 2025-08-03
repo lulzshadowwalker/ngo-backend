@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class UserPreferencesResource extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @return array<string, mixed>
+     */
+    public function toArray(Request $request): array
+    {
+        return [
+            'type' => 'user-preferences',
+            'id' => (string) $this->id,
+            'attributes' => [
+                'language' => $this->language,
+                'emailNotifications' => $this->email_notifications,
+                'pushNotifications' => $this->push_notifications,
+                'createdAt' => $this->created_at,
+                'updatedAt' => $this->updated_at,
+            ],
+        ];
+    }
+}

@@ -16,7 +16,7 @@ class PostControllerTest extends TestCase
         $posts = Post::factory()->count(3)->create();
         $resource = PostResource::collection($posts);
 
-        $response = $this->getJson(route('api.posts.index'));
+        $response = $this->getJson(route('api.v1.posts.index'));
 
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
@@ -27,7 +27,7 @@ class PostControllerTest extends TestCase
         $post = Post::factory()->create();
         $resource = PostResource::make($post);
 
-        $response = $this->getJson(route('api.posts.show', [
+        $response = $this->getJson(route('api.v1.posts.show', [
             'post' => $post->slug,
         ]));
 

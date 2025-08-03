@@ -11,4 +11,9 @@ enum Language: string
     {
         return array_map(fn($e) => $e->value, self::cases());
     }
+
+    public static function default(): string
+    {
+        return self::en->value;
+    }
 }
