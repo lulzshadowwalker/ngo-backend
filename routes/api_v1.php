@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\CommentPostController;
 use App\Http\Controllers\Api\LikePostController;
 use App\Http\Controllers\Api\OrganizationController;
 use App\Http\Controllers\Api\PostController;
@@ -29,7 +30,7 @@ Route::get('/posts/{post:slug}', [PostController::class, 'show'])->name('api.v1.
 Route::post('/posts/{post:slug}/like', [LikePostController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.posts.likes.store');
 Route::delete('/posts/{post:slug}/like', [LikePostController::class, 'destroy'])->middleware('auth:sanctum')->name('api.v1.posts.likes.destroy');
 
-// Route::post('/posts/{post:slug}/comments', [CommentPostController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.posts.comments.store');
+Route::post('/posts/{post:slug}/comments', [CommentPostController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.posts.comments.store');
 
 Route::get('/pages', [PageController::class, 'index'])->name('api.v1.pages.index');
 Route::get('/pages/{page}', [PageController::class, 'show'])->name('api.v1.pages.show');
