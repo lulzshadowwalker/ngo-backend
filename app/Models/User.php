@@ -3,16 +3,22 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Spatie\Permission\Traits\HasRoles;
+use App\Enums\Role;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable, HasApiTokens;
+    use HasFactory, Notifiable, HasApiTokens, HasRoles;
 
 
     /**
@@ -42,6 +48,42 @@ class User extends Authenticatable
         ];
     }
 
+    public function isIndividual(): Attribute
+    {
+        return Attribute::get(fn(): bool => $this->hasRole(Role::individual->value));
+    }
+
+    public function isOrganization(): Attribute
+    {
+        return Attribute::get(fn(): bool => $this->hasRole(Role::organization->value));
+    }
+
+    public function isAdmin(): Attribute
+    {
+        return Attribute::get(fn(): bool => $this->hasRole(Role::admin->value));
+    }
+
+    public function scopeIndividuals(Builder $query): Builder
+    {
+        return $query->whereHas('roles', function (Builder $query) {
+            $query->where('name', Role::individual->value);
+        });
+    }
+
+    public function scopeOrganizations(Builder $query): Builder
+    {
+        return $query->whereHas('roles', function (Builder $query) {
+            $query->where('name', Role::organization->value);
+        });
+    }
+
+    public function scopeAdmins(Builder $query): Builder
+    {
+        return $query->whereHas('roles', function (Builder $query) {
+            $query->where('name', Role::admin->value);
+        });
+    }
+
     public function comments()
     {
         return $this->hasMany(Comment::class);
@@ -60,5 +102,10 @@ class User extends Authenticatable
     public function preferences(): HasOne
     {
         return $this->hasOne(UserPreferences::class);
+    }
+
+    public function supportTickets(): HasMany
+    {
+        return $this->hasMany(SupportTicket::class);
     }
 }
