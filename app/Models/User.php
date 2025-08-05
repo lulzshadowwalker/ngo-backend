@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Notifications\Notification;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 use App\Enums\Role;
@@ -107,5 +108,12 @@ class User extends Authenticatable
     public function supportTickets(): HasMany
     {
         return $this->hasMany(SupportTicket::class);
+    }
+
+    public function routeNotificationForPush(Notification $notification): array
+    {
+        // TODO: Implement a method to retrieve device tokens for push notifications.
+        return [];
+        return $this->deviceTokens->pluck("token")->toArray();
     }
 }

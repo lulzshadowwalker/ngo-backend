@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\LocationController;
 use App\Http\Controllers\Api\UserPreferencesController;
 use App\Http\Controllers\Api\PageController;
 use App\Http\Controllers\Api\SupportTicketController;
+use App\Http\Controllers\Api\NotificationController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
@@ -38,3 +39,22 @@ Route::get('/pages/{page}', [PageController::class, 'show'])->name('api.v1.pages
 Route::get('/support-tickets', [SupportTicketController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.support-tickets.index');
 Route::get('/support-tickets/{supportTicket}', [SupportTicketController::class, 'show'])->middleware('auth:sanctum')->name('api.v1.support-tickets.show');
 Route::post('/support-tickets', [SupportTicketController::class, 'store'])->name('api.v1.support-tickets.store');
+
+Route::get('/notifications', [NotificationController::class, 'index'])
+->middleware('auth:sanctum')
+->name('api.v1.notifications.index');
+Route::get('/notifications/{notification}', [NotificationController::class, 'show'])
+->middleware('auth:sanctum')
+->name('api.v1.notifications.show');
+Route::patch('/notifications/{notification}/read', [NotificationController::class, 'markAsRead'])
+->middleware('auth:sanctum')
+->name('api.v1.notifications.mark-as-read');
+Route::patch('/notifications/read', [NotificationController::class, 'markAllAsRead'])
+->middleware('auth:sanctum')
+->name('api.v1.notifications.mark-all-as-read');
+Route::delete('/notifications/{notification}', [NotificationController::class, 'destroy'])
+->middleware('auth:sanctum')
+->name('api.v1.notifications.destroy.single');
+Route::delete('/notifications', [NotificationController::class, 'destroyAll'])
+->middleware('auth:sanctum')
+->name('api.v1.notifications.destroy.all');
