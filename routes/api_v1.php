@@ -6,6 +6,7 @@ use App\Http\Controllers\Api\OrganizationController;
 use App\Http\Controllers\Api\PostController;
 use App\Http\Controllers\Api\SkillController;
 use App\Http\Controllers\Api\LocationController;
+use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\UserPreferencesController;
 use App\Http\Controllers\Api\PageController;
 use App\Http\Controllers\Api\SupportTicketController;
@@ -14,6 +15,7 @@ use App\Http\Controllers\Api\RegisterIndividualController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/auth/register/individuals', [RegisterIndividualController::class, 'store'])->name('api.v1.auth.register.individuals');
+Route::post('/auth/login', [LoginController::class, 'store'])->name('api.v1.auth.login');
 
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');
