@@ -108,7 +108,7 @@ endpoints:
         name: data.attributes.pushNotifications
         description: ''
         required: false
-        example: false
+        example: true
         type: boolean
         enumValues: []
         exampleWasSpecified: false
@@ -118,7 +118,7 @@ endpoints:
         name: data.attributes.emailNotifications
         description: ''
         required: false
-        example: true
+        example: false
         type: boolean
         enumValues: []
         exampleWasSpecified: false
@@ -178,8 +178,8 @@ endpoints:
       data:
         attributes:
           language: ar
-          pushNotifications: false
-          emailNotifications: true
+          pushNotifications: true
+          emailNotifications: false
       language: en
       appearance: dark
       email_notifications: true
