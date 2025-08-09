@@ -18,35 +18,6 @@ class LocationController extends Controller
      * @group Skills & Locations
      * @unauthenticated
      * 
-     * @response 200 scenario="Success" {
-     *   "data": [
-     *     {
-     *       "id": 1,
-     *       "name": "New York City",
-     *       "slug": "new-york-city",
-     *       "country": "United States",
-     *       "state": "New York",
-     *       "city": "New York City",
-     *       "latitude": 40.7128,
-     *       "longitude": -74.0060,
-     *       "created_at": "2024-01-15T10:00:00.000000Z",
-     *       "updated_at": "2024-01-15T10:00:00.000000Z"
-     *     },
-     *     {
-     *       "id": 2,
-     *       "name": "London",
-     *       "slug": "london",
-     *       "country": "United Kingdom",
-     *       "state": "England",
-     *       "city": "London",
-     *       "latitude": 51.5074,
-     *       "longitude": -0.1278,
-     *       "created_at": "2024-01-15T10:00:00.000000Z",
-     *       "updated_at": "2024-01-15T10:00:00.000000Z"
-     *     }
-     *   ]
-     * }
-     * 
      * @return AnonymousResourceCollection
      */
     public function index()
@@ -64,26 +35,6 @@ class LocationController extends Controller
      * @unauthenticated
      * 
      * @urlParam location integer required The ID of the location. Example: 1
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": 1,
-     *     "name": "New York City",
-     *     "slug": "new-york-city",
-     *     "country": "United States",
-     *     "state": "New York",
-     *     "city": "New York City",
-     *     "latitude": 40.7128,
-     *     "longitude": -74.0060,
-     *     "timezone": "America/New_York",
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:00:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 404 scenario="Location not found" {
-     *   "message": "Location not found"
-     * }
      * 
      * @return LocationResource
      */

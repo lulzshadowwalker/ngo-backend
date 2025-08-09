@@ -327,6 +327,18 @@
                                                                                     </div>
 
                                                                             </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-authentication-POSTapi-v1-auth-login">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="User login">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#authentication-POSTapi-v1-auth-login">
+                                                    User login
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
                                                             </div>
                                             </div>
                                     <div class="expandable">
@@ -499,6 +511,30 @@
                                                                                     </div>
 
                                                                             </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-comments-likes-GETapi-v1-posts--post_slug--comments">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="List post comments">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#comments-likes-GETapi-v1-posts--post_slug--comments">
+                                                    List post comments
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-comments-likes-POSTapi-v1-posts--post_slug--comments">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Create a new comment">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#comments-likes-POSTapi-v1-posts--post_slug--comments">
+                                                    Create a new comment
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
                                                             </div>
                                             </div>
                                     <div class="expandable">
@@ -561,6 +597,104 @@
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
                                                    href="#skills-locations-GETapi-v1-locations--id-">
                                                     Get location details
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                            </div>
+                                            </div>
+                                    <div class="expandable">
+                        <div title="Pages" id="toc-item-pages"
+                             class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-4 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none">
+                            <a href="#pages"
+                               class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0">Pages</a>
+                                                            <div class="sl-flex sl-items-center sl-text-xs expansion-chevrons">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                         data-icon="chevron-right"
+                                         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor"
+                                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                                    </svg>
+                                </div>
+                                                    </div>
+
+                                                    <div class="children" style="display: none;">
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-pages-GETapi-v1-pages">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="List all pages">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#pages-GETapi-v1-pages">
+                                                    List all pages
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-pages-GETapi-v1-pages--slug-">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Get page details">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#pages-GETapi-v1-pages--slug-">
+                                                    Get page details
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                            </div>
+                                            </div>
+                                    <div class="expandable">
+                        <div title="Support Tickets" id="toc-item-support-tickets"
+                             class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-4 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none">
+                            <a href="#support-tickets"
+                               class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0">Support Tickets</a>
+                                                            <div class="sl-flex sl-items-center sl-text-xs expansion-chevrons">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                         data-icon="chevron-right"
+                                         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor"
+                                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                                    </svg>
+                                </div>
+                                                    </div>
+
+                                                    <div class="children" style="display: none;">
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-support-tickets-GETapi-v1-support-tickets">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="List user support tickets">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#support-tickets-GETapi-v1-support-tickets">
+                                                    List user support tickets
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-support-tickets-GETapi-v1-support-tickets--supportTicket_id-">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Get support ticket details">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#support-tickets-GETapi-v1-support-tickets--supportTicket_id-">
+                                                    Get support ticket details
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-support-tickets-POSTapi-v1-support-tickets">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Create a new support ticket">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#support-tickets-POSTapi-v1-support-tickets">
+                                                    Create a new support ticket
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -659,97 +793,6 @@
                                                                             </div>
                                                             </div>
                                             </div>
-                                    <div class="expandable">
-                        <div title="General Endpoints" id="toc-item-general-endpoints"
-                             class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-4 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none">
-                            <a href="#general-endpoints"
-                               class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0">General Endpoints</a>
-                                                            <div class="sl-flex sl-items-center sl-text-xs expansion-chevrons">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                         data-icon="chevron-right"
-                                         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
-                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <path fill="currentColor"
-                                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                                    </svg>
-                                </div>
-                                                    </div>
-
-                                                    <div class="children" style="display: none;">
-                                                                    <div class="expandable">
-                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-general-endpoints-POSTapi-v1-posts--post_slug--comments">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="POST api/v1/posts/{post_slug}/comments">
-                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#general-endpoints-POSTapi-v1-posts--post_slug--comments">
-                                                    POST api/v1/posts/{post_slug}/comments
-                                                </a>
-                                            </div>
-                                                                                    </div>
-
-                                                                            </div>
-                                                                    <div class="expandable">
-                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-general-endpoints-GETapi-v1-pages">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="GET api/v1/pages">
-                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#general-endpoints-GETapi-v1-pages">
-                                                    GET api/v1/pages
-                                                </a>
-                                            </div>
-                                                                                    </div>
-
-                                                                            </div>
-                                                                    <div class="expandable">
-                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-general-endpoints-GETapi-v1-pages--slug-">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="GET api/v1/pages/{slug}">
-                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#general-endpoints-GETapi-v1-pages--slug-">
-                                                    GET api/v1/pages/{slug}
-                                                </a>
-                                            </div>
-                                                                                    </div>
-
-                                                                            </div>
-                                                                    <div class="expandable">
-                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-general-endpoints-GETapi-v1-support-tickets">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="GET api/v1/support-tickets">
-                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#general-endpoints-GETapi-v1-support-tickets">
-                                                    GET api/v1/support-tickets
-                                                </a>
-                                            </div>
-                                                                                    </div>
-
-                                                                            </div>
-                                                                    <div class="expandable">
-                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-general-endpoints-GETapi-v1-support-tickets--supportTicket_id-">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="GET api/v1/support-tickets/{supportTicket_id}">
-                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#general-endpoints-GETapi-v1-support-tickets--supportTicket_id-">
-                                                    GET api/v1/support-tickets/{supportTicket_id}
-                                                </a>
-                                            </div>
-                                                                                    </div>
-
-                                                                            </div>
-                                                                    <div class="expandable">
-                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-general-endpoints-POSTapi-v1-support-tickets">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="POST api/v1/support-tickets">
-                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#general-endpoints-POSTapi-v1-support-tickets">
-                                                    POST api/v1/support-tickets
-                                                </a>
-                                            </div>
-                                                                                    </div>
-
-                                                                            </div>
-                                                            </div>
-                                            </div>
                             </div>
 
         </div>
@@ -788,20 +831,20 @@
 </aside>
 <pre><code>Welcome to the NGO Backend API documentation. This API serves as the backbone for NGO operations, providing comprehensive endpoints for:
 
-- **User Management**: Registration and preferences for individuals and organizations
-- **Content Management**: Posts, comments, and page management
-- **Organization Features**: Browse and discover NGOs with detailed profiles
-- **Community Interaction**: Like posts, comment on content, and engage with the community
-- **Support System**: Ticket management and notifications
-- **Location &amp; Skills**: Manage location data and skill categories
+- User Management: Registration and preferences for individuals and organizations
+- Content Management: Posts, comments, and page management
+- Organization Features: Browse and discover NGOs with detailed profiles
+- Community Interaction: Like posts, comment on content, and engage with the community
+- Support System: Ticket management and notifications
+- Location &amp; Skills: Manage location data and skill categories
 
-&lt;aside&gt;As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
-You can switch the language used with the tabs at the top right (or from the nav menu at the top left on mobile).&lt;/aside&gt;
+As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
+You can switch the language used with the tabs at the top right (or from the nav menu at the top left on mobile).
 
-## Base URL
-All API requests should be made to: `{base_url}/api/v1`
+Base URL
+All API requests should be made to: {base_url}/api/v1
 
-## Response Format
+Response Format
 All responses are returned in JSON format with consistent structure.</code></pre>
 
                 <h1 id="authenticating-requests">Authenticating requests</h1>
@@ -1049,7 +1092,7 @@ and location. Returns an authentication token upon successful registration.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php7AgNH2
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpuxuEea
                     </div>
                 </div>
             </div>
@@ -1302,7 +1345,7 @@ and location. Returns an authentication token upon successful registration.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpqgAz3m
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpUutcVu
                     </div>
                 </div>
             </div>
@@ -1636,8 +1679,8 @@ You can check the Dev Tools console for debugging information.</p>
     --form "password=securePassword123"\
     --form "password_confirmation=securePassword123"\
     --form "location_id=1"\
-    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php7AgNH2" \
-    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpqgAz3m" </code></pre>                                        </div>
+    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpuxuEea" \
+    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpUutcVu" </code></pre>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="sl-bg-canvas-100 example-request example-request-javascript"
@@ -1720,11 +1763,11 @@ $response = $client-&gt;post(
             ],
             [
                 'name' =&gt; 'data[attributes][avatar]',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php7AgNH2', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpuxuEea', 'r')
             ],
             [
                 'name' =&gt; 'avatar',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpqgAz3m', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpUutcVu', 'r')
             ],
         ],
     ]
@@ -1750,8 +1793,8 @@ files = {
   'password': (None, 'securePassword123'),
   'password_confirmation': (None, 'securePassword123'),
   'location_id': (None, '1'),
-  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php7AgNH2', 'rb'),
-  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpqgAz3m', 'rb')}
+  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpuxuEea', 'rb'),
+  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpUutcVu', 'rb')}
 payload = {
     "data": {
         "attributes": {
@@ -1782,69 +1825,480 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-POSTapi-v1-auth-register-individuals-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('POSTapi-v1-auth-register-individuals', event.target.value);">
-                                                                                                            <option value="0">201, Registration successful</option>
-                                                                                                            <option value="1">422, Validation error</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
                             </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-POSTapi-v1-auth-register-individuals example-response-POSTapi-v1-auth-register-individuals-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;access_token&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...&quot;,
-        &quot;token_type&quot;: &quot;Bearer&quot;,
-        &quot;role&quot;: &quot;individual&quot;,
-        &quot;expires_in&quot;: null
-    }
-}</code></pre>
-                                                                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="authentication-POSTapi-v1-auth-login">
+                    User login
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/auth/login"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: black;"
+                        >
+                            POST
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/auth/login</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Authenticate a user with email and password. Returns an access token upon successful authentication.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
+
+                                <div class="sl-text-sm">
+                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">attributes</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">email</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The user's email address.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        john.doe@example.com
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">password</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The user's password (minimum 8 characters).</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        securePassword123
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+                            </div>
+                        </div>
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="POST"
+              data-path="api/v1/auth/login"
+              data-hasfiles="0"
+              data-hasjsonbody="1">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-auth-login-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-POSTapi-v1-auth-login-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
                                 </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-POSTapi-v1-auth-register-individuals example-response-POSTapi-v1-auth-register-individuals-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;The given data was invalid.&quot;,
-    &quot;errors&quot;: {
-        &quot;email&quot;: [
-            &quot;The email has already been taken.&quot;
-        ],
-        &quot;password&quot;: [
-            &quot;The password field is required.&quot;
-        ]
-    }
-}</code></pre>
-                                                                            </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-auth-login-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-POSTapi-v1-auth-login-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
                                 </div>
                                                     </div>
+                    </div>
+                </div>
+            
+            
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Body
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                                                    <div class="TextRequestBody sl-p-4">
+                                <div class="code-editor language-json"
+                                     id="json-body-POSTapi-v1-auth-login"
+                                     style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
+                                >{
+    "data": {
+        "attributes": {
+            "email": "john.doe@example.com",
+            "password": "securePassword123"
+        }
+    }
+}</div>
+                            </div>
+                                            </div>
+                </div>
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="POSTapi-v1-auth-login"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="POSTapi-v1-auth-login"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="POSTapi-v1-auth-login"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/v1/auth/login" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"data\": {
+        \"attributes\": {
+            \"email\": \"john.doe@example.com\",
+            \"password\": \"securePassword123\"
+        }
+    }
+}"
+</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/auth/login"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "data": {
+        "attributes": {
+            "email": "john.doe@example.com",
+            "password": "securePassword123"
+        }
+    }
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/auth/login';
+$response = $client-&gt;post(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'data' =&gt; [
+                'attributes' =&gt; [
+                    'email' =&gt; 'john.doe@example.com',
+                    'password' =&gt; 'securePassword123',
+                ],
+            ],
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/auth/login'
+payload = {
+    "data": {
+        "attributes": {
+            "email": "john.doe@example.com",
+            "password": "securePassword123"
+        }
+    }
+}
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('POST', url, headers=headers, json=payload)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
                             </div>
     </div>
 </div>
@@ -2226,8 +2680,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-me-preferences-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-me-preferences', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
+                                                                                                            <option value="0">401</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -2247,27 +2700,31 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-me-preferences example-response-GETapi-v1-me-preferences-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;user_id&quot;: 1,
-        &quot;language&quot;: &quot;en&quot;,
-        &quot;appearance&quot;: &quot;light&quot;,
-        &quot;email_notifications&quot;: true,
-        &quot;push_notifications&quot;: false,
-        &quot;profile_visibility&quot;: &quot;public&quot;,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-me-preferences example-response-GETapi-v1-me-preferences-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;message&quot;: &quot;Unauthenticated.&quot;
@@ -2448,7 +2905,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        en
+                        ar
                     </div>
                 </div>
             </div>
@@ -2470,7 +2927,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        true
+                        false
                     </div>
                 </div>
             </div>
@@ -2492,7 +2949,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        false
+                        true
                     </div>
                 </div>
             </div>
@@ -2753,9 +3210,9 @@ other preferences will remain unchanged.</p>
                                 >{
     "data": {
         "attributes": {
-            "language": "en",
-            "pushNotifications": true,
-            "emailNotifications": false
+            "language": "ar",
+            "pushNotifications": false,
+            "emailNotifications": true
         }
     },
     "language": "en",
@@ -2863,9 +3320,9 @@ You can check the Dev Tools console for debugging information.</p>
     --data "{
     \"data\": {
         \"attributes\": {
-            \"language\": \"en\",
-            \"pushNotifications\": true,
-            \"emailNotifications\": false
+            \"language\": \"ar\",
+            \"pushNotifications\": false,
+            \"emailNotifications\": true
         }
     },
     \"language\": \"en\",
@@ -2894,9 +3351,9 @@ const headers = {
 let body = {
     "data": {
         "attributes": {
-            "language": "en",
-            "pushNotifications": true,
-            "emailNotifications": false
+            "language": "ar",
+            "pushNotifications": false,
+            "emailNotifications": true
         }
     },
     "language": "en",
@@ -2930,9 +3387,9 @@ $response = $client-&gt;patch(
         'json' =&gt; [
             'data' =&gt; [
                 'attributes' =&gt; [
-                    'language' =&gt; 'en',
-                    'pushNotifications' =&gt; true,
-                    'emailNotifications' =&gt; false,
+                    'language' =&gt; 'ar',
+                    'pushNotifications' =&gt; false,
+                    'emailNotifications' =&gt; true,
                 ],
             ],
             'language' =&gt; 'en',
@@ -2958,9 +3415,9 @@ url = 'http://localhost/api/v1/me/preferences'
 payload = {
     "data": {
         "attributes": {
-            "language": "en",
-            "pushNotifications": true,
-            "emailNotifications": false
+            "language": "ar",
+            "pushNotifications": false,
+            "emailNotifications": true
         }
     },
     "language": "en",
@@ -2981,82 +3438,6 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-PATCHapi-v1-me-preferences-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('PATCHapi-v1-me-preferences', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                            <option value="2">422, Validation error</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-me-preferences example-response-PATCHapi-v1-me-preferences-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;user_id&quot;: 1,
-        &quot;language&quot;: &quot;en&quot;,
-        &quot;appearance&quot;: &quot;dark&quot;,
-        &quot;email_notifications&quot;: true,
-        &quot;push_notifications&quot;: false,
-        &quot;profile_visibility&quot;: &quot;public&quot;,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:30:00.000000Z&quot;
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-me-preferences example-response-PATCHapi-v1-me-preferences-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-me-preferences example-response-PATCHapi-v1-me-preferences-2"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;The given data was invalid.&quot;,
-    &quot;errors&quot;: {
-        &quot;appearance&quot;: [
-            &quot;The selected appearance is invalid.&quot;
-        ]
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
                             </div>
     </div>
 </div>
@@ -3377,7 +3758,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-organizations-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-organizations', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -3397,20 +3778,1153 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-organizations example-response-GETapi-v1-organizations-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Green Earth Foundation&quot;,
-            &quot;slug&quot;: &quot;green-earth-foundation&quot;,
-            &quot;description&quot;: &quot;Environmental conservation organization&quot;,
-            &quot;email&quot;: &quot;contact@greenearth.org&quot;,
-            &quot;website&quot;: &quot;https://greenearth.org&quot;,
-            &quot;phone&quot;: &quot;+1234567890&quot;,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Ms. Loraine Lind I&quot;,
+                &quot;slug&quot;: &quot;mslorainelindi&quot;,
+                &quot;bio&quot;: &quot;Aut numquam et quisquam esse cum ut.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://schaefer.com/ut-pariatur-voluptas-omnis-voluptas-libero-est-et-in.html&quot;,
+                &quot;sector&quot;: &quot;Roel Mohr&quot;,
+                &quot;location&quot;: &quot;Port Christop, Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;1&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;1&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Eleanora Huel&quot;,
+                &quot;slug&quot;: &quot;eleanorahuel&quot;,
+                &quot;bio&quot;: &quot;Perspiciatis qui quia ut dolores deleniti adipisci sit dolor.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://cremin.net/rerum-omnis-aut-vel-voluptatem-et.html&quot;,
+                &quot;sector&quot;: &quot;Otilia Abshire&quot;,
+                &quot;location&quot;: &quot;North Bellaberg, Kuwait&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;2&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;2&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dewitt Armstrong&quot;,
+                &quot;slug&quot;: &quot;dewittarmstrong&quot;,
+                &quot;bio&quot;: &quot;Itaque mollitia veniam occaecati ipsa quod et quia ea.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.hoeger.net/hic-ducimus-et-nam-distinctio-vel-odit-culpa&quot;,
+                &quot;sector&quot;: &quot;Filiberto Marvin&quot;,
+                &quot;location&quot;: &quot;Kayaview, Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;3&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;3&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Katelyn Torphy&quot;,
+                &quot;slug&quot;: &quot;drkatelyntorphy&quot;,
+                &quot;bio&quot;: &quot;Molestiae dicta error illum id impedit enim omnis.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.deckow.com/&quot;,
+                &quot;sector&quot;: &quot;Raina Koelpin IV&quot;,
+                &quot;location&quot;: &quot;Lake Katheryn, Pakistan&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;4&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;4&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Joaquin Schinner&quot;,
+                &quot;slug&quot;: &quot;joaquinschinner&quot;,
+                &quot;bio&quot;: &quot;In dignissimos sint earum rerum sed perferendis fugiat.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.effertz.biz/quo-assumenda-et-voluptatem&quot;,
+                &quot;sector&quot;: &quot;Mr. Domenic Gutmann PhD&quot;,
+                &quot;location&quot;: &quot;Russelfort, Angola&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;5&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;5&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Elise Gutkowski&quot;,
+                &quot;slug&quot;: &quot;drelisegutkowski&quot;,
+                &quot;bio&quot;: &quot;Et sunt numquam maxime accusantium quam adipisci.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://reichert.info/officiis-tempora-qui-sequi-veritatis-natus-consequatur-rerum-at&quot;,
+                &quot;sector&quot;: &quot;Virgil Effertz III&quot;,
+                &quot;location&quot;: &quot;Dachside, Montserrat&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;6&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;6&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Nelson Lowe&quot;,
+                &quot;slug&quot;: &quot;nelsonlowe&quot;,
+                &quot;bio&quot;: &quot;Voluptatibus quas accusantium neque ut quam.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.marks.org/&quot;,
+                &quot;sector&quot;: &quot;Dr. Fred Casper MD&quot;,
+                &quot;location&quot;: &quot;Brownport, Bermuda&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;7&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;7&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Hillary Schaden&quot;,
+                &quot;slug&quot;: &quot;hillaryschaden&quot;,
+                &quot;bio&quot;: &quot;Sint in quaerat molestiae quasi fugit suscipit.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.schuppe.com/autem-perferendis-laborum-odit-ducimus-qui&quot;,
+                &quot;sector&quot;: &quot;Ms. Alia Miller&quot;,
+                &quot;location&quot;: &quot;McDermottmouth, Equatorial Guinea&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;8&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;8&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Ava Considine&quot;,
+                &quot;slug&quot;: &quot;avaconsidine&quot;,
+                &quot;bio&quot;: &quot;Voluptatem nulla illo omnis est.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.franecki.info/&quot;,
+                &quot;sector&quot;: &quot;Sedrick Gutkowski&quot;,
+                &quot;location&quot;: &quot;East Faustino, Panama&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;9&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;9&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Fermin D&#039;Amore&quot;,
+                &quot;slug&quot;: &quot;fermindamore&quot;,
+                &quot;bio&quot;: &quot;Nam aut odio dolorum omnis.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.barton.info/reiciendis-ratione-et-rem-aspernatur-aperiam&quot;,
+                &quot;sector&quot;: &quot;Otto Abbott&quot;,
+                &quot;location&quot;: &quot;Lake Makenziefort, Czech Republic&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;10&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;10&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;11&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Skylar Casper&quot;,
+                &quot;slug&quot;: &quot;skylarcasper&quot;,
+                &quot;bio&quot;: &quot;Et veniam ea non in illum quisquam.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.beier.info/a-non-dolorum-saepe-quo-ut-vero-provident&quot;,
+                &quot;sector&quot;: &quot;Jeffery Crist DVM&quot;,
+                &quot;location&quot;: &quot;Delialand, Heard Island and McDonald Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;11&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;11&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;12&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Garrison Gibson&quot;,
+                &quot;slug&quot;: &quot;garrisongibson&quot;,
+                &quot;bio&quot;: &quot;Exercitationem aut perferendis sit est.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://sauer.info/temporibus-et-quaerat-quos-delectus-porro-harum-exercitationem&quot;,
+                &quot;sector&quot;: &quot;Orlando Carter&quot;,
+                &quot;location&quot;: &quot;Lake Dougmouth, Belarus&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;12&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;12&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;13&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Bethany Sauer&quot;,
+                &quot;slug&quot;: &quot;drbethanysauer&quot;,
+                &quot;bio&quot;: &quot;Omnis sed provident voluptate autem earum dolor.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.prosacco.com/aliquid-officiis-hic-soluta-pariatur-qui&quot;,
+                &quot;sector&quot;: &quot;Burley Armstrong&quot;,
+                &quot;location&quot;: &quot;Pourosview, Reunion&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;13&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;13&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;14&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Maryse Trantow&quot;,
+                &quot;slug&quot;: &quot;drmarysetrantow&quot;,
+                &quot;bio&quot;: &quot;Dolor ipsa in est doloribus aspernatur ut quasi eum.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.kessler.com/dolores-ex-cumque-nesciunt-quasi-omnis.html&quot;,
+                &quot;sector&quot;: &quot;Chadd Hackett&quot;,
+                &quot;location&quot;: &quot;East Shawnachester, Greenland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;14&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;14&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;15&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Carmelo Rolfson&quot;,
+                &quot;slug&quot;: &quot;carmelorolfson&quot;,
+                &quot;bio&quot;: &quot;Incidunt inventore cumque in enim ad eveniet aut.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://zemlak.com/officia-at-ipsa-temporibus-est-aut-consequatur.html&quot;,
+                &quot;sector&quot;: &quot;Mr. Enrique Sporer Jr.&quot;,
+                &quot;location&quot;: &quot;Lindseymouth, Jersey&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;15&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;15&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;16&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Carlos Kovacek&quot;,
+                &quot;slug&quot;: &quot;carloskovacek&quot;,
+                &quot;bio&quot;: &quot;Voluptatem commodi voluptas ipsam et et voluptas dolores.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.schmitt.com/possimus-labore-suscipit-dignissimos-doloremque-tenetur-sapiente.html&quot;,
+                &quot;sector&quot;: &quot;Delta Glover Sr.&quot;,
+                &quot;location&quot;: &quot;West Easter, Canada&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;16&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;16&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;17&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Vickie Braun&quot;,
+                &quot;slug&quot;: &quot;vickiebraun&quot;,
+                &quot;bio&quot;: &quot;Ut quia quia assumenda sequi ducimus.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://schneider.org/quidem-fugit-aperiam-rerum-possimus-ea-sunt.html&quot;,
+                &quot;sector&quot;: &quot;Delphine Heathcote&quot;,
+                &quot;location&quot;: &quot;West Montanamouth, Yemen&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;17&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;17&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;18&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Mrs. Aurelia Gutkowski&quot;,
+                &quot;slug&quot;: &quot;mrsaureliagutkowski&quot;,
+                &quot;bio&quot;: &quot;Reprehenderit delectus non aut et quos.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://gorczany.com/qui-saepe-et-distinctio-quia-nesciunt-pariatur.html&quot;,
+                &quot;sector&quot;: &quot;Carter Lueilwitz&quot;,
+                &quot;location&quot;: &quot;Volkmanton, Timor-Leste&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;18&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;18&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;19&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Hailey Stokes&quot;,
+                &quot;slug&quot;: &quot;haileystokes&quot;,
+                &quot;bio&quot;: &quot;Dignissimos quaerat in sit vitae voluptatem.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://davis.com/&quot;,
+                &quot;sector&quot;: &quot;Mrs. Tressa Renner&quot;,
+                &quot;location&quot;: &quot;Agustinahaven, Korea&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;19&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;19&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;20&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dawson Abernathy&quot;,
+                &quot;slug&quot;: &quot;dawsonabernathy&quot;,
+                &quot;bio&quot;: &quot;Dolores quis in beatae quas quae.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.lehner.com/&quot;,
+                &quot;sector&quot;: &quot;Lyla Wisozk&quot;,
+                &quot;location&quot;: &quot;South Leifside, Saint Martin&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;20&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;20&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;21&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Darien Huel I&quot;,
+                &quot;slug&quot;: &quot;drdarienhueli&quot;,
+                &quot;bio&quot;: &quot;Incidunt sunt aut voluptas provident.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.leannon.org/corporis-debitis-quas-repellat-similique-ut-corporis-ut&quot;,
+                &quot;sector&quot;: &quot;Jermain Kohler&quot;,
+                &quot;location&quot;: &quot;West Luciuschester, Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;21&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;21&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;22&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Tremayne Durgan&quot;,
+                &quot;slug&quot;: &quot;tremaynedurgan&quot;,
+                &quot;bio&quot;: &quot;Eaque nihil fugit dolores quia.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://boyer.net/architecto-nihil-ad-itaque-id-occaecati-aut&quot;,
+                &quot;sector&quot;: &quot;Dr. Sylvan Veum DVM&quot;,
+                &quot;location&quot;: &quot;Reynoldston, Cape Verde&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;22&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;22&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;23&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Ms. Abigale Schimmel V&quot;,
+                &quot;slug&quot;: &quot;msabigaleschimmelv&quot;,
+                &quot;bio&quot;: &quot;Quaerat sint rerum delectus aut ipsam vel alias.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://fisher.com/exercitationem-corporis-est-deleniti-consequatur.html&quot;,
+                &quot;sector&quot;: &quot;Gregg Tremblay&quot;,
+                &quot;location&quot;: &quot;West Maxburgh, Thailand&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;23&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;23&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;24&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dessie Macejkovic&quot;,
+                &quot;slug&quot;: &quot;dessiemacejkovic&quot;,
+                &quot;bio&quot;: &quot;Quas ex voluptatibus voluptas sequi et alias atque.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://parker.net/sed-nam-qui-laboriosam.html&quot;,
+                &quot;sector&quot;: &quot;Frederik Anderson Sr.&quot;,
+                &quot;location&quot;: &quot;Lake Genevieveville, Ireland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;24&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;24&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;25&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Name Jacobson&quot;,
+                &quot;slug&quot;: &quot;namejacobson&quot;,
+                &quot;bio&quot;: &quot;Sint inventore atque libero explicabo culpa natus aliquid.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.mckenzie.com/perferendis-quasi-corporis-voluptate-adipisci.html&quot;,
+                &quot;sector&quot;: &quot;Ahmed Kuphal&quot;,
+                &quot;location&quot;: &quot;New Esther, South Africa&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;25&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;25&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;26&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Rogers Kuhlman&quot;,
+                &quot;slug&quot;: &quot;rogerskuhlman&quot;,
+                &quot;bio&quot;: &quot;Nulla et fuga nam sit reiciendis sapiente distinctio.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.koch.biz/fugit-nisi-voluptas-porro-sapiente&quot;,
+                &quot;sector&quot;: &quot;Tamara Erdman&quot;,
+                &quot;location&quot;: &quot;Diannaburgh, Germany&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;26&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;26&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;27&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Jamal Prosacco II&quot;,
+                &quot;slug&quot;: &quot;jamalprosaccoii&quot;,
+                &quot;bio&quot;: &quot;Explicabo quasi totam asperiores repellat.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://ferry.com/vel-cumque-dolorem-quidem-laudantium-qui-reprehenderit&quot;,
+                &quot;sector&quot;: &quot;Athena Gutmann&quot;,
+                &quot;location&quot;: &quot;Dayanaberg, Norway&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;27&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;27&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;28&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Miss Jessyca Christiansen II&quot;,
+                &quot;slug&quot;: &quot;missjessycachristiansenii&quot;,
+                &quot;bio&quot;: &quot;Voluptate porro saepe aut rerum.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://kemmer.com/alias-eaque-fugit-assumenda.html&quot;,
+                &quot;sector&quot;: &quot;Prof. Adolphus Mosciski V&quot;,
+                &quot;location&quot;: &quot;East Crystalview, Antarctica (the territory South of 60 deg S)&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;28&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;28&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;29&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Afton Bergnaum V&quot;,
+                &quot;slug&quot;: &quot;aftonbergnaumv&quot;,
+                &quot;bio&quot;: &quot;Aliquam qui odit et et.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.donnelly.net/modi-placeat-excepturi-ut-ut-excepturi-rerum-cumque&quot;,
+                &quot;sector&quot;: &quot;Mrs. Stephanie Miller Jr.&quot;,
+                &quot;location&quot;: &quot;West Brice, Saint Vincent and the Grenadines&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;29&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;29&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;30&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Vesta Barrows&quot;,
+                &quot;slug&quot;: &quot;vestabarrows&quot;,
+                &quot;bio&quot;: &quot;Ut quam impedit et magni enim sed autem rerum.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;https://www.beier.com/et-aut-nihil-praesentium-hic-eos-est-quaerat&quot;,
+                &quot;sector&quot;: &quot;Ms. Lydia Grimes I&quot;,
+                &quot;location&quot;: &quot;South Seamusmouth, Norway&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;30&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;30&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;31&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dianna Zboncak&quot;,
+                &quot;slug&quot;: &quot;diannazboncak&quot;,
+                &quot;bio&quot;: &quot;Architecto quia tenetur atque maiores.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://ziemann.com/sit-dolorem-quam-quia-molestiae-ex-ea-molestiae&quot;,
+                &quot;sector&quot;: &quot;Dr. Marley Jakubowski V&quot;,
+                &quot;location&quot;: &quot;Borerside, Turks and Caicos Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;31&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;31&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;32&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Lorine Gerhold&quot;,
+                &quot;slug&quot;: &quot;drlorinegerhold&quot;,
+                &quot;bio&quot;: &quot;Fuga illum ratione iure.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://jaskolski.org/deserunt-harum-temporibus-assumenda-autem-necessitatibus-magnam&quot;,
+                &quot;sector&quot;: &quot;Mrs. Gladys Yost&quot;,
+                &quot;location&quot;: &quot;East Ivahhaven, Cape Verde&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;32&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;32&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;33&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Miss Ana Deckow IV&quot;,
+                &quot;slug&quot;: &quot;missanadeckowiv&quot;,
+                &quot;bio&quot;: &quot;Sequi quam nemo voluptatem voluptates rerum unde atque.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.gerlach.com/dolores-et-iste-eligendi-blanditiis.html&quot;,
+                &quot;sector&quot;: &quot;Ms. Candice Terry PhD&quot;,
+                &quot;location&quot;: &quot;Fabiolaberg, Saint Vincent and the Grenadines&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;33&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;33&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;34&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;General Braun&quot;,
+                &quot;slug&quot;: &quot;generalbraun&quot;,
+                &quot;bio&quot;: &quot;Voluptatem doloremque ex et error sint recusandae.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.hyatt.com/sequi-et-tenetur-et-veritatis-est-recusandae-harum&quot;,
+                &quot;sector&quot;: &quot;Camylle Altenwerth&quot;,
+                &quot;location&quot;: &quot;Cronaborough, British Virgin Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;34&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;34&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;organizations&quot;,
+            &quot;id&quot;: &quot;35&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Prof. Mathias Tromp PhD&quot;,
+                &quot;slug&quot;: &quot;profmathiastrompphd&quot;,
+                &quot;bio&quot;: &quot;Et ut nihil modi sint quae reprehenderit.&quot;,
+                &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
+                &quot;website&quot;: &quot;http://www.hudson.com/exercitationem-eum-aut-alias-eum.html&quot;,
+                &quot;sector&quot;: &quot;Odell O&#039;Keefe&quot;,
+                &quot;location&quot;: &quot;Port Tatyana, Costa Rica&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;sector&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;sectors&quot;,
+                        &quot;id&quot;: &quot;35&quot;
+                    }
+                },
+                &quot;location&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;locations&quot;,
+                        &quot;id&quot;: &quot;35&quot;
+                    }
+                },
+                &quot;posts&quot;: [],
+                &quot;organizationPreferences&quot;: [],
+                &quot;follows&quot;: []
+            }
         }
     ]
 }</code></pre>
@@ -3828,8 +5342,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-organizations--slug--toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-organizations--slug-', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">404, Organization not found</option>
+                                                                                                            <option value="0">404</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -3849,30 +5362,34 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-organizations--slug- example-response-GETapi-v1-organizations--slug--0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Green Earth Foundation&quot;,
-        &quot;slug&quot;: &quot;green-earth-foundation&quot;,
-        &quot;description&quot;: &quot;Environmental conservation organization&quot;,
-        &quot;email&quot;: &quot;contact@greenearth.org&quot;,
-        &quot;website&quot;: &quot;https://greenearth.org&quot;,
-        &quot;phone&quot;: &quot;+1234567890&quot;,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-organizations--slug- example-response-GETapi-v1-organizations--slug--1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Organization not found&quot;
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Organization] 1&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -4384,7 +5901,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-posts-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-posts', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -4404,19 +5921,3048 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-posts example-response-GETapi-v1-posts-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 1,
-            &quot;title&quot;: &quot;Environmental Conservation Initiative&quot;,
-            &quot;slug&quot;: &quot;environmental-conservation-initiative&quot;,
-            &quot;content&quot;: &quot;Join us in our mission to protect the environment...&quot;,
-            &quot;excerpt&quot;: &quot;Join us in our mission to protect...&quot;,
-            &quot;published_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Vel neque aspernatur voluptate.&quot;,
+                &quot;slug&quot;: &quot;vel-neque-aspernatur-voluptate&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Expedita ea nostrum ut sit sed assumenda. Iusto dolores ut corrupti. Ratione ut rem sint provident quisquam.\n\nProvident nisi dolorem recusandae beatae molestiae qui. Repudiandae nisi quasi eius assumenda quisquam placeat corporis. Ab minus voluptatum ipsam quo alias ducimus ipsa laboriosam.\n\nPlaceat numquam qui sunt ipsam distinctio aut in. Optio magni ab illum. Aut laudantium nemo nostrum eos nobis cumque.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;1&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;1&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;2&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;1&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;2&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;3&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;4&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;1&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Sed earum qui sapiente accusantium vel cupiditate.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;11&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;2&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Error dolor nihil rem eum porro.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;12&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;1&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;2&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;3&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;4&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Accusantium architecto aut qui autem.&quot;,
+                &quot;slug&quot;: &quot;accusantium-architecto-aut-qui-autem&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Illum dicta asperiores iure ut. Sunt consectetur necessitatibus voluptatibus fugiat rerum ut. Repellendus sit aut repudiandae ut eaque blanditiis. Unde ducimus omnis quo quidem.\n\nEt sed provident veniam dignissimos. Sed perferendis incidunt fuga facere. Repellendus illum qui quod itaque non et nesciunt sequi. Laudantium quia voluptatem qui impedit error nesciunt officia.\n\nDolores a non qui voluptatem ut voluptas. Omnis adipisci neque libero beatae eaque. Ea consectetur incidunt velit et. Ex molestiae et ipsa magnam soluta doloribus ipsa. In porro delectus temporibus saepe aut quia reiciendis nihil.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;1&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;3&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;4&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;5&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;6&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;7&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;8&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;3&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Voluptas tenetur non saepe.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;17&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;4&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Sit quod sunt et rem.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;18&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;5&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;6&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;7&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;8&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Autem fugiat sit.&quot;,
+                &quot;slug&quot;: &quot;autem-fugiat-sit&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Sunt odio nulla odit odio. Officiis commodi dolorem dolores ad quidem hic similique similique. Tempora est similique voluptatem velit praesentium modi temporibus. Saepe deleniti voluptas expedita qui dignissimos.\n\nIusto aliquid qui incidunt quaerat. Id debitis minus fuga odit sunt voluptatem eius. Id ipsa blanditiis et est officia officiis.\n\nDolores porro quas iste. Ut repellat sit atque dolorem reprehenderit. Modi qui voluptates omnis ullam accusantium quasi ut. Et quam quisquam dolore amet sed.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;1&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;5&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;6&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;9&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;10&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;11&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;12&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;5&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Voluptatem quia totam perspiciatis deserunt ea.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;23&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;6&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Sunt maiores eveniet ipsa molestias.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;24&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;9&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;10&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;11&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;12&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Laboriosam nemo accusantium commodi.&quot;,
+                &quot;slug&quot;: &quot;laboriosam-nemo-accusantium-commodi&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Voluptatem et voluptas quae dolores. Aut sit architecto at incidunt nihil dolor. Eos qui doloribus eligendi ipsum.\n\nQui assumenda aut rerum dicta rerum sunt. Sed et sit saepe corporis. Cumque sunt omnis aperiam id. Tenetur rerum facilis sit inventore architecto consequatur.\n\nModi ut quidem hic dolorum eveniet voluptatibus accusamus sint. Velit incidunt quia sit. Ut soluta officia sit mollitia. Qui ipsa quaerat dolorum sint saepe voluptas excepturi. Ea nulla itaque ut reiciendis quia est.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;2&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;7&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;8&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;13&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;14&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;15&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;16&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;7&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Tenetur nihil enim rem odio id non.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;29&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;8&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Non eius quis doloribus consequatur qui sed quaerat.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;30&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;13&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;14&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;15&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;16&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Sunt odio esse voluptatibus dolorum.&quot;,
+                &quot;slug&quot;: &quot;sunt-odio-esse-voluptatibus-dolorum&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Blanditiis maiores enim et consequatur aut natus doloremque cumque. At vel adipisci sed dolorum aut autem.\n\nSit ut doloribus dignissimos ratione. Molestias voluptas sint ad molestiae. Harum eveniet sit corrupti vel et cum qui. Sequi est dolorem est harum perspiciatis quasi non.\n\nRatione dolore omnis dolorum esse nulla consequuntur. Doloremque iure et natus a voluptate in quisquam. Eius voluptas et assumenda corporis voluptatibus. Accusamus sunt voluptatum et vitae asperiores explicabo molestiae.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;2&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;9&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;10&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;17&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;18&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;19&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;20&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;9&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Harum et omnis commodi dolorem.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;35&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;10&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Assumenda autem eveniet et qui voluptas quasi quas.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;36&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;17&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;18&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;19&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;20&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Qui pariatur atque et quam.&quot;,
+                &quot;slug&quot;: &quot;qui-pariatur-atque-et-quam&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Enim ullam ea quibusdam et eveniet ab. Eum accusamus quisquam doloremque est cum reiciendis dolores. Corrupti necessitatibus et voluptatem illum quaerat. Sed exercitationem ipsa id tenetur illo. Tempore et eligendi odio odit quas ipsum.\n\nAutem corrupti unde enim soluta deleniti. Blanditiis sit illum nulla repellendus nesciunt quo. Cum blanditiis aspernatur atque suscipit voluptas illo.\n\nEst consequuntur laboriosam eum quibusdam. Fugit suscipit expedita dolor aut. Mollitia dolores quis in maxime.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;2&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;11&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;12&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;21&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;22&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;23&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;24&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;11&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Quia iusto neque aut earum quos non dolorum ea.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;41&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;12&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Assumenda exercitationem dolorem rem rem explicabo dolores praesentium dicta.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;42&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;21&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;22&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;23&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;24&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Et asperiores nihil iste natus.&quot;,
+                &quot;slug&quot;: &quot;et-asperiores-nihil-iste-natus&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Laudantium placeat deleniti fuga minus consequuntur dignissimos eligendi. Ratione aspernatur maxime rerum nobis odit molestiae ex. At aut iure qui.\n\nTempore expedita ut possimus rem error aliquam. Enim omnis porro quo voluptas omnis rem quo placeat. Officia sequi veniam odio officiis et optio dolor.\n\nIn non aliquid et minima voluptatem laborum suscipit. Libero harum ut inventore consectetur. Voluptatum enim doloribus officia et totam omnis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;3&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;13&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;14&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;25&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;26&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;27&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;28&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;13&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Soluta delectus eveniet ratione earum fugit recusandae amet.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;47&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;14&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Voluptas dolorum debitis qui ipsum.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;48&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;25&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;26&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;27&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;28&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Sed quo sed tempora.&quot;,
+                &quot;slug&quot;: &quot;sed-quo-sed-tempora&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Vel nisi voluptatem sequi fuga accusamus aspernatur facilis laborum. Rem eligendi est voluptatem. Facilis delectus repudiandae deleniti deleniti vel. Qui nemo et provident dolor suscipit nihil magni consequatur.\n\nDistinctio eveniet ut quia. Ea eos eligendi dolorem enim nemo quis velit. Consequatur eos asperiores recusandae aut excepturi.\n\nQuo perferendis consequatur error omnis nostrum incidunt eveniet. Eligendi dolorem possimus est quo accusamus. Magnam et voluptatem ut quas blanditiis. Blanditiis velit necessitatibus quibusdam est non odio ut sit.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;3&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;15&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;16&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;29&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;30&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;31&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;32&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;15&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Sint laudantium numquam voluptatem.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;53&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;16&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Animi et consequatur aspernatur et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;54&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;29&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;30&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;31&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;32&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Ab voluptatem quae explicabo.&quot;,
+                &quot;slug&quot;: &quot;ab-voluptatem-quae-explicabo&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Magnam voluptas qui ipsum maiores iure nemo ratione. Velit doloribus voluptatem numquam exercitationem libero vel. Unde quia voluptas dolorem nihil.\n\nOdit omnis exercitationem illo molestiae sed non ut ut. Recusandae reiciendis deleniti ratione officia molestias voluptatem dicta. Sint distinctio minus et totam consequuntur dolor nemo.\n\nMolestias sit dicta qui accusantium doloremque. Rerum voluptates ut et quasi placeat. Nihil rerum est dolor rerum autem quae iure.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;3&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;17&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;18&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;33&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;34&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;35&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;36&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;17&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Molestiae ut quam maxime deleniti quas ut reprehenderit.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;59&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;18&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Optio aut delectus dolores architecto aliquam autem et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;60&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;33&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;34&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;35&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;36&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Rerum non hic.&quot;,
+                &quot;slug&quot;: &quot;rerum-non-hic&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Rerum est quia voluptatem laboriosam veritatis et. Non ea aut quaerat cumque earum doloremque esse.\n\nAnimi vel aut magni non. Dolorum quia id iste minus omnis ut. Est iste tenetur quisquam vitae excepturi eum. Unde blanditiis quis quia commodi.\n\nVoluptas eveniet enim voluptatem ad est neque. Culpa eos necessitatibus debitis unde. Sapiente voluptatem aperiam repellat culpa aut. Ad dicta quia nihil debitis modi architecto sequi.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;4&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;19&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;20&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;37&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;38&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;39&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;40&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;19&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Error id ut fuga in repellat.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;65&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;20&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Et consequuntur exercitationem aliquam quia amet saepe maxime.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;66&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;37&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;38&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;39&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;40&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;11&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Dolore consequatur quos quia.&quot;,
+                &quot;slug&quot;: &quot;dolore-consequatur-quos-quia&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Esse illum fuga at et dolorem iusto. Tempore doloribus distinctio sapiente ut et. Et adipisci qui consequuntur consectetur ea.\n\nQuo et harum veritatis doloribus labore. Ea a ea voluptatem. Eius dolor iure sit perspiciatis et. Rerum et doloribus dolores quia.\n\nPlaceat sunt neque cum animi ipsa quos. Nihil omnis a maiores explicabo ratione ea animi. Quibusdam qui quaerat qui architecto officiis autem dignissimos.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;4&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;21&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;22&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;41&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;42&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;43&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;44&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;21&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Saepe ea et iusto reprehenderit quia quod.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;71&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;22&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Aliquid sed voluptas sint atque soluta omnis eius.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;72&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;41&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;42&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;43&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;44&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;12&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Harum sint vel ipsa.&quot;,
+                &quot;slug&quot;: &quot;harum-sint-vel-ipsa&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Distinctio expedita est qui fuga. A perspiciatis esse sunt. Fugiat et doloremque qui. Sint voluptatem adipisci voluptatum quibusdam. Temporibus id autem esse labore repellendus molestiae repellendus.\n\nUt dolorem excepturi id beatae. Tempora voluptatem cupiditate consequuntur expedita suscipit est aliquid quisquam. Error perferendis nobis sunt et omnis cupiditate nobis dolore.\n\nVoluptatum voluptatem et ipsum et et animi. Vitae nostrum ratione error odio ut. Quod itaque voluptates iusto voluptas quae exercitationem.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;4&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;23&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;24&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;45&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;46&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;47&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;48&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;23&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Minima non impedit dignissimos explicabo.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;77&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;24&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Beatae laborum corporis voluptate nulla debitis.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;78&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;45&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;46&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;47&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;48&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;13&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Architecto sapiente ea aperiam culpa.&quot;,
+                &quot;slug&quot;: &quot;architecto-sapiente-ea-aperiam-culpa&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Enim cumque sequi repellendus officiis aliquid enim. Nemo architecto soluta ut reiciendis. Sunt ea libero aliquid suscipit.\n\nSit impedit ipsam est totam. Molestiae eaque id nam minima inventore sit nihil sint. Odit voluptatem vero aut magni. Possimus porro aut ex eum minima dolorem fuga.\n\nVoluptatem commodi at maiores tempore repudiandae laborum. Incidunt eos ea vitae illum excepturi. Molestiae dolorem aut autem voluptas. Aut a perspiciatis voluptas eius quasi optio a.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;5&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;25&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;26&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;49&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;50&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;51&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;52&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;25&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Dolores facere accusamus dolore sunt.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;83&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;26&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Et cumque voluptas repellendus quisquam dolores velit.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;84&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;49&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;50&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;51&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;52&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;14&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Rem totam sit incidunt et quis.&quot;,
+                &quot;slug&quot;: &quot;rem-totam-sit-incidunt-et-quis&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Est possimus accusamus aut sed velit. Enim ea eos mollitia quidem veritatis ut rerum. Id quo eum ut commodi minima fuga commodi.\n\nEst eligendi quae dolor sit ipsa aliquam et. Impedit totam ipsam quo deserunt velit placeat. Et vero id dignissimos dolorem vitae. Totam vel expedita ea velit aut quia.\n\nQuod corporis tempore recusandae laboriosam. Harum enim quidem et eum aperiam. Delectus voluptas maxime doloremque molestiae aut et sunt. Quae accusamus fugiat minus ex sunt aliquam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;5&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;27&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;28&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;53&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;54&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;55&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;56&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;27&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Quia unde inventore accusantium perferendis tempora dolore voluptatum.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;89&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;28&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Quia dignissimos ipsa qui voluptatem ipsum nobis.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;90&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;53&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;54&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;55&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;56&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;15&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Sit accusantium autem voluptatem ea.&quot;,
+                &quot;slug&quot;: &quot;sit-accusantium-autem-voluptatem-ea&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 4,
+                &quot;commentCount&quot;: 2,
+                &quot;content&quot;: &quot;Quisquam ullam omnis dolorum et eum et incidunt. Rerum enim debitis harum fugit. Deleniti voluptates voluptatem impedit at vitae suscipit repellendus.\n\nOfficia dolor quaerat consequatur incidunt ipsa autem. Voluptas eaque molestiae voluptates. Maiores laboriosam corporis optio fugiat voluptatem tempora ipsa. Expedita impedit maiores sit sunt qui quisquam.\n\nFacilis voluptates minima occaecati autem distinctio officiis dolore laborum. Sed deserunt at libero culpa eum voluptate reprehenderit. Blanditiis dolore magni rem quam accusamus quia. Unde non qui occaecati.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;5&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;29&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;30&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;57&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;58&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;59&quot;
+                        },
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;60&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;29&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Eaque voluptas aut facilis repellendus.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;95&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    },
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;30&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Ut doloribus aperiam ipsa sed.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;96&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;57&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;58&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;59&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    },
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;60&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;16&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Deleniti eligendi sequi laboriosam libero.&quot;,
+                &quot;slug&quot;: &quot;deleniti-eligendi-sequi-laboriosam-libero&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Animi illum sit corrupti. Eum voluptatum corrupti ut molestiae rerum atque animi. Doloremque a quo hic commodi quas veniam laborum.\n\nEa repudiandae facere unde sed. Facere maxime aut enim aut ad perspiciatis fugit. Aut laborum autem a incidunt at distinctio veritatis. Id beatae officiis delectus.\n\nOmnis culpa repellendus molestias inventore et dolor. Qui sunt sint et est enim laborum. Eum omnis illum explicabo ad inventore eveniet doloribus.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;16&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;31&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;31&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Tempore quas dolorum dicta sapiente nostrum aspernatur ex.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;111&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;17&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Adipisci in ut aut maiores.&quot;,
+                &quot;slug&quot;: &quot;adipisci-in-ut-aut-maiores&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Eum expedita iste quia quaerat accusantium atque. Corporis id saepe in saepe velit et. Excepturi soluta aperiam quaerat praesentium dolores neque.\n\nQuibusdam ea magnam porro enim hic et. Quis quia praesentium id aut ipsam ut nobis. Ut nostrum commodi similique eveniet. Adipisci vero nihil odit aut.\n\nQuia enim laudantium hic possimus sit qui quo. Quae rem qui esse aperiam dolor. Molestiae optio iste at et. Sequi consequatur blanditiis aut nam. Repellat repellendus dolorem saepe quis eius ad.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;17&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;32&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;32&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Ducimus quis totam distinctio accusamus atque ipsa quam.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;112&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;18&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Quisquam sed animi.&quot;,
+                &quot;slug&quot;: &quot;quisquam-sed-animi&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Fugiat quisquam dicta commodi quibusdam quidem. Eos id impedit quibusdam reprehenderit distinctio ab. Quo atque deserunt minima velit est. Quae rerum tempore sunt assumenda ipsum laborum quisquam.\n\nDolor illo iusto autem. Voluptas necessitatibus iusto qui. Id eveniet ut voluptatem quis ut. Unde fugiat repellat eos.\n\nEst dolor illum illum voluptas voluptas. Voluptatem molestiae blanditiis ipsa ut. Reiciendis ex a libero sed dolore cumque molestiae. Sequi laboriosam sequi veniam et rerum reiciendis. Non est occaecati perspiciatis et ad cupiditate ullam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;18&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;33&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;33&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Minus deserunt dolor autem saepe tempora maiores tempore.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;113&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;19&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Adipisci aliquid error tenetur sed.&quot;,
+                &quot;slug&quot;: &quot;adipisci-aliquid-error-tenetur-sed&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Iste voluptas rerum doloribus. Et ut illo suscipit explicabo sed atque asperiores. Cumque nobis quis commodi. Distinctio voluptatem assumenda doloribus officia autem consequatur.\n\nEos quibusdam amet architecto tempora ut. Quibusdam fugiat aut illo dolorum qui. Molestiae quis sint qui eos quo consequatur rem. Similique doloribus rerum numquam culpa iure vel enim.\n\nExcepturi excepturi et provident qui nobis eum. Laudantium animi pariatur ducimus assumenda veniam beatae. Aut ut qui omnis aut.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;19&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;34&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;34&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Et cum atque iusto eligendi rerum laboriosam officia.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;114&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;20&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Maxime sed minima.&quot;,
+                &quot;slug&quot;: &quot;maxime-sed-minima&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Laborum ut est natus et. Minus est et nam provident veniam et sit tenetur. A sequi ratione molestiae rem quaerat et numquam. Quo quis commodi et eligendi et rerum.\n\nRatione modi quos recusandae libero expedita autem. Debitis natus quam illum omnis. Corporis distinctio ut aut quis totam ea neque. Quia repellendus eos recusandae quidem labore maiores repellat.\n\nQuis qui vitae et commodi est. Odit aut quo odit architecto et nihil. Dolores ut exercitationem reprehenderit molestiae. Corporis voluptas et animi alias aspernatur labore.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;20&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;35&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;35&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Quia non qui iste ratione et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;115&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;21&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Sunt rerum corporis labore earum nihil.&quot;,
+                &quot;slug&quot;: &quot;sunt-rerum-corporis-labore-earum-nihil&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Totam est qui iusto eaque eos. Sed quas explicabo quo qui et. Quidem voluptas cupiditate ea pariatur et debitis. Magni quasi labore facere eum at ut.\n\nLibero id porro quo optio voluptatem. Soluta sed dolorem sint nemo quidem temporibus et. Voluptatem animi aspernatur doloremque non. Eaque est fugit nulla dolorem illum cum.\n\nQuae temporibus non quos. Ratione iusto dolorem unde recusandae. Porro qui veniam et. Recusandae sed et et quia. Minima qui sequi et voluptatem ut doloribus eum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;21&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;36&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;36&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Iste iste quia asperiores ipsa omnis inventore repudiandae numquam.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;116&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;22&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Rerum et rerum ut optio mollitia.&quot;,
+                &quot;slug&quot;: &quot;rerum-et-rerum-ut-optio-mollitia&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Et consequatur dolore est commodi. Ab voluptate eveniet ut eligendi explicabo sed culpa quod. Debitis in sit sequi natus autem. Dignissimos sint deserunt aut ducimus nisi magni qui quis. Non nobis illum expedita repellat.\n\nEst exercitationem consequatur et nihil et at minus a. Quasi dolore deserunt commodi totam. Enim labore dignissimos et dolor aut culpa. At sit saepe dolorem et ut.\n\nUt vel omnis et. Unde aut fugiat qui. Omnis ut sapiente et praesentium qui quis. Ut tempora ipsam excepturi blanditiis ea eum voluptatem id. Id et et architecto earum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;22&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;37&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;37&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Et quo aperiam unde hic illo repudiandae velit.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;117&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;23&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Ducimus aut officiis rerum.&quot;,
+                &quot;slug&quot;: &quot;ducimus-aut-officiis-rerum&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Enim eum repellendus quaerat. Quis modi accusamus suscipit voluptas molestiae deleniti eligendi necessitatibus. Qui consectetur qui exercitationem voluptatem. Perspiciatis corrupti commodi asperiores dolor facere quia. Explicabo aspernatur et iure est.\n\nPlaceat modi sit illum qui laborum velit quo. Voluptatum qui ut assumenda et quia doloribus. Vel fugiat officia eum repellat ducimus molestiae. Quia sed consequatur suscipit qui qui.\n\nSuscipit pariatur libero corrupti qui. Voluptatem reprehenderit consequatur est delectus eum neque. Eum fugiat eum optio dolores nihil.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;23&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;38&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;38&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Minima recusandae sed suscipit.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;118&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;24&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Tempora cum reiciendis.&quot;,
+                &quot;slug&quot;: &quot;tempora-cum-reiciendis&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Quae rerum molestiae dolor pariatur qui eum recusandae. Minima adipisci accusamus est quis ab et illo. Ut perspiciatis et reiciendis consequatur pariatur quis nam. Ex voluptatem consectetur quo consequatur.\n\nRepudiandae sit dolorum voluptates iste itaque. Ea ad et et. Numquam ut eaque eum inventore voluptates.\n\nEx rerum ex sed corrupti fugit possimus. Optio eum modi et dolor autem. Distinctio in blanditiis dolorum voluptas. Corporis consequatur nostrum voluptates nostrum illum adipisci.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;24&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;39&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;39&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Commodi sunt repellat praesentium veritatis ut enim.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;119&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;25&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Nostrum error nihil sunt.&quot;,
+                &quot;slug&quot;: &quot;nostrum-error-nihil-sunt&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 0,
+                &quot;commentCount&quot;: 1,
+                &quot;content&quot;: &quot;Mollitia omnis quo rerum possimus. Magni earum voluptate velit cum sed. Molestiae molestiae quibusdam debitis mollitia ea ipsam deleniti eaque.\n\nRepellat quia harum sint aut et. Non sapiente laudantium id deserunt dolorem doloremque. Quia expedita quaerat molestiae autem numquam maxime. Blanditiis quod molestiae iure blanditiis.\n\nSaepe enim aut aut quam delectus et repudiandae. Totam nesciunt reprehenderit est ea aut. Repellendus blanditiis iste quia et tempore. Amet atque officia saepe quae reprehenderit enim quo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;25&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;comments&quot;,
+                            &quot;id&quot;: &quot;40&quot;
+                        }
+                    ]
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: []
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [
+                    {
+                        &quot;type&quot;: &quot;comments&quot;,
+                        &quot;id&quot;: &quot;40&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;content&quot;: &quot;Assumenda sunt est aut et itaque.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26.000000Z&quot;
+                        },
+                        &quot;relationships&quot;: {
+                            &quot;user&quot;: {
+                                &quot;data&quot;: {
+                                    &quot;type&quot;: &quot;users&quot;,
+                                    &quot;id&quot;: &quot;120&quot;
+                                }
+                            }
+                        },
+                        &quot;includes&quot;: {}
+                    }
+                ],
+                &quot;likes&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;26&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Eos possimus rem optio in.&quot;,
+                &quot;slug&quot;: &quot;eos-possimus-rem-optio-in&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Qui sit omnis veniam nulla non quis repudiandae. Harum quisquam laudantium accusamus ea nam id iste. Ullam voluptatem voluptas architecto ipsum odio repellat.\n\nQuo sequi et fuga aperiam fugit quaerat deleniti. Inventore est quo soluta ullam ipsa labore. Consequatur architecto totam et ea id. Rerum itaque qui et itaque labore iste.\n\nNostrum aliquam illum nesciunt nemo. Magnam est error et quia suscipit beatae esse. Non molestias a aut aperiam voluptates id molestiae quis. Aut minima mollitia aut.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;26&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;61&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;61&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;27&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Totam sint asperiores.&quot;,
+                &quot;slug&quot;: &quot;totam-sint-asperiores&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Cumque praesentium vero repellendus facilis. Magnam et quis illo quasi error saepe consequatur cupiditate. Praesentium quia assumenda sit et. Quisquam non similique incidunt et quia dicta quos.\n\nQui nostrum excepturi ut quis vel ea dolor. Et ut quod consequatur alias optio animi officia.\n\nDelectus eum suscipit esse eos. Quia et ullam quibusdam aut. Aut quae sed sapiente. Pariatur explicabo recusandae sint magnam quia et ullam. Voluptatibus magnam aliquam autem in.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;27&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;62&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;62&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;28&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Voluptatem dolor nemo eum officiis.&quot;,
+                &quot;slug&quot;: &quot;voluptatem-dolor-nemo-eum-officiis&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Maiores dicta quo et. Sit omnis molestias et consequatur ea non. Veritatis numquam praesentium sapiente iusto. Aut quis adipisci hic sequi itaque nam.\n\nQuis eos optio beatae doloribus. Atque quis quam quasi recusandae eos qui. Quidem facere deleniti repellat dolorem qui. Officiis quia sit harum enim.\n\nUt quia ea reiciendis doloremque. Error eum quasi voluptatem ullam quas. Earum ullam nobis rerum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;28&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;63&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;63&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;29&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Molestiae voluptate omnis aut.&quot;,
+                &quot;slug&quot;: &quot;molestiae-voluptate-omnis-aut&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Vel facilis ducimus laboriosam cumque. Delectus nostrum sunt deleniti rem praesentium nobis porro et. Ratione maxime sed doloribus quas unde odio. Autem magnam aut alias dolor est explicabo.\n\nArchitecto animi sunt unde ipsum ex qui. Id porro amet quaerat hic accusamus et suscipit. Nobis occaecati molestiae at consectetur maxime. Porro officia earum beatae ab.\n\nExpedita ut exercitationem blanditiis quia qui est harum. Neque atque ad quia facere nostrum. Temporibus ut molestiae itaque non.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;29&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;64&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;64&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;30&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Consequuntur culpa ad molestiae.&quot;,
+                &quot;slug&quot;: &quot;consequuntur-culpa-ad-molestiae&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Sit in et praesentium tempora culpa dolore debitis. Laborum pariatur placeat cum tempore. Odio eos itaque aperiam voluptas.\n\nNatus illum quia similique nemo optio cupiditate iusto. Magni reiciendis voluptatem quae eaque. Et quisquam rem similique quasi distinctio quia. Est ut tempore fugiat temporibus modi. Necessitatibus officiis rem quibusdam voluptatem quia.\n\nCumque asperiores voluptas temporibus error est unde. Facilis ex nesciunt iure suscipit. Eligendi nulla aut ipsam hic sed.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;30&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;65&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;65&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;31&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Ut iusto atque deleniti sit debitis.&quot;,
+                &quot;slug&quot;: &quot;ut-iusto-atque-deleniti-sit-debitis&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Quia vero nam voluptatibus qui libero id. Cum error quos vitae nisi. Quaerat dolor ipsam praesentium id sed. Quia quo molestiae fuga amet est inventore eaque soluta. Corporis incidunt harum est id voluptatem blanditiis.\n\nExplicabo quia ut et qui cupiditate est. Dolorem ducimus ut et repellat consequatur non. Consequuntur quia facilis quis voluptatum.\n\nQui aliquid aut totam inventore ad. Et sapiente est sunt rerum aut. Magnam laudantium beatae blanditiis placeat debitis ad cupiditate.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;31&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;66&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;66&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;32&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Dolore nobis ut qui qui.&quot;,
+                &quot;slug&quot;: &quot;dolore-nobis-ut-qui-qui&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Molestias aliquam facilis ex ad suscipit. Consequatur vitae qui quo ut sed voluptas. Sunt molestias natus et eligendi. Vel iste sequi error et ad.\n\nTempora veritatis perferendis asperiores sunt suscipit dolorem sint. Placeat odit eius neque tempore tempore. Omnis eum quibusdam recusandae impedit.\n\nQui et ducimus laborum ipsum. Quidem aut eligendi perspiciatis voluptatibus quis consectetur illum molestias. Molestiae dolorem voluptas rem reprehenderit.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;32&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;67&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;67&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;33&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Perferendis perferendis quaerat officia ut.&quot;,
+                &quot;slug&quot;: &quot;perferendis-perferendis-quaerat-officia-ut&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Aspernatur est maiores nulla alias. Natus quia aspernatur consequuntur accusantium deleniti. Consequatur similique voluptas nulla ullam.\n\nA reiciendis dolores minus adipisci dolor itaque et. Recusandae maiores facere optio enim beatae soluta excepturi aspernatur. Molestiae ratione aliquam ad. Et consequatur consequatur dolorem reprehenderit iste ipsam.\n\nEt ut et delectus sint molestiae labore necessitatibus. Animi doloribus omnis ratione voluptatibus. Et ad molestiae quia non necessitatibus quis molestias omnis. Vel harum sed voluptas aperiam iure illo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;33&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;68&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;68&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;34&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Perferendis qui maiores.&quot;,
+                &quot;slug&quot;: &quot;perferendis-qui-maiores&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Fugit repudiandae ut eum odio accusamus sint dolor molestiae. Qui architecto necessitatibus quia tempore quia cumque rem aliquid.\n\nNihil distinctio sed ipsum rem voluptas ut magnam. Et in et eius fuga culpa et. Aut quibusdam et veniam autem.\n\nQuam omnis magnam repellat error distinctio odio velit. Tempora inventore architecto et voluptas cupiditate qui. Provident voluptatibus rem eos culpa. Culpa exercitationem non vel dolores molestiae inventore. Facilis molestiae aut facere et.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;34&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;69&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;69&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;type&quot;: &quot;posts&quot;,
+            &quot;id&quot;: &quot;35&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Id dolor ut asperiores qui.&quot;,
+                &quot;slug&quot;: &quot;id-dolor-ut-asperiores-qui&quot;,
+                &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
+                &quot;likeCount&quot;: 1,
+                &quot;commentCount&quot;: 0,
+                &quot;content&quot;: &quot;Praesentium quisquam magnam consequuntur et repudiandae. Hic non quia repudiandae omnis qui atque. Dicta maiores aut sed quia. Atque placeat sunt molestias dolorem.\n\nPossimus accusamus sed qui neque. Nemo pariatur voluptatem ipsa dicta dolorum.\n\nSoluta assumenda quam odit. Hic quia eveniet non.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;5 days ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;organization&quot;: {
+                    &quot;data&quot;: {
+                        &quot;type&quot;: &quot;organizations&quot;,
+                        &quot;id&quot;: &quot;35&quot;
+                    }
+                },
+                &quot;comments&quot;: {
+                    &quot;data&quot;: []
+                },
+                &quot;likes&quot;: {
+                    &quot;data&quot;: [
+                        {
+                            &quot;type&quot;: &quot;likes&quot;,
+                            &quot;id&quot;: &quot;70&quot;
+                        }
+                    ]
+                }
+            },
+            &quot;includes&quot;: {
+                &quot;comments&quot;: [],
+                &quot;likes&quot;: [
+                    {
+                        &quot;type&quot;: &quot;likes&quot;,
+                        &quot;id&quot;: &quot;70&quot;,
+                        &quot;attributes&quot;: {
+                            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+                        }
+                    }
+                ]
+            }
         }
     ]
 }</code></pre>
@@ -4908,8 +9454,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-posts--slug--toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-posts--slug-', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">404, Post not found</option>
+                                                                                                            <option value="0">404</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -4929,36 +9474,34 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-posts--slug- example-response-GETapi-v1-posts--slug--0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;title&quot;: &quot;Environmental Conservation Initiative&quot;,
-        &quot;slug&quot;: &quot;environmental-conservation-initiative&quot;,
-        &quot;content&quot;: &quot;Join us in our mission to protect the environment and create a sustainable future for generations to come...&quot;,
-        &quot;excerpt&quot;: &quot;Join us in our mission to protect the environment...&quot;,
-        &quot;published_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;organization&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Green Earth Foundation&quot;,
-            &quot;slug&quot;: &quot;green-earth-foundation&quot;
-        },
-        &quot;likes_count&quot;: 15,
-        &quot;comments_count&quot;: 3,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-posts--slug- example-response-GETapi-v1-posts--slug--1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Post not found&quot;
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Post] 1&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -5432,63 +9975,6 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-POSTapi-v1-posts--post_slug--like-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('POSTapi-v1-posts--post_slug--like', event.target.value);">
-                                                                                                            <option value="0">204, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                            <option value="2">404, Post not found</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-POSTapi-v1-posts--post_slug--like example-response-POSTapi-v1-posts--post_slug--like-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                    <pre><code>[Empty response]</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-POSTapi-v1-posts--post_slug--like example-response-POSTapi-v1-posts--post_slug--like-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-POSTapi-v1-posts--post_slug--like example-response-POSTapi-v1-posts--post_slug--like-2"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Post not found&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
                             </div>
     </div>
 </div>
@@ -5950,6 +10436,404 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="comments-likes-GETapi-v1-posts--post_slug--comments">
+                    List post comments
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/posts/{post_slug}/comments"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/posts/{post_slug}/comments</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve all comments for a specific post.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
+
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">post_slug</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The slug of the post.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">post</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The slug of the post.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        environmental-conservation-initiative
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/posts/{post_slug}/comments"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-posts--post_slug--comments-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-posts--post_slug--comments-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-posts--post_slug--comments-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-posts--post_slug--comments-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            URL Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-posts--post_slug--comments-post_slug">post_slug</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="post_slug" name="post_slug"
+                                               id="urlparam-GETapi-v1-posts--post_slug--comments-post_slug"
+                                               placeholder="The slug of the post."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-posts--post_slug--comments-post">post</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="post" name="post"
+                                               id="urlparam-GETapi-v1-posts--post_slug--comments-post"
+                                               placeholder="The slug of the post."
+                                               value="environmental-conservation-initiative" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-posts--post_slug--comments"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-posts--post_slug--comments"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-posts--post_slug--comments"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/posts/1/comments" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/posts/1/comments"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/posts/1/comments';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/posts/1/comments'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
                                             <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
                             <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
                                 <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
@@ -5958,12 +10842,10 @@ response.json()</code></pre>                                        </div>
                                             <div class="sl-mb-2 sl-inline-block">Example response:</div>
                                             <div class="sl-mb-2 sl-inline-block">
                                                 <select
-                                                        class="example-response-DELETEapi-v1-posts--post_slug--like-toggle sl-text-base"
+                                                        class="example-response-GETapi-v1-posts--post_slug--comments-toggle sl-text-base"
                                                         aria-label="Response sample"
-                                                        onchange="switchExampleResponse('DELETEapi-v1-posts--post_slug--like', event.target.value);">
-                                                                                                            <option value="0">204, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                            <option value="2">404, Post not found</option>
+                                                        onchange="switchExampleResponse('GETapi-v1-posts--post_slug--comments', event.target.value);">
+                                                                                                            <option value="0">401</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -5980,33 +10862,775 @@ response.json()</code></pre>                                        </div>
                                     </div>
                                 </button>
                             </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-posts--post_slug--like example-response-DELETEapi-v1-posts--post_slug--like-0"
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-posts--post_slug--comments example-response-GETapi-v1-posts--post_slug--comments-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                    <pre><code>[Empty response]</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-posts--post_slug--like example-response-DELETEapi-v1-posts--post_slug--like-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;message&quot;: &quot;Unauthenticated.&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-posts--post_slug--like example-response-DELETEapi-v1-posts--post_slug--like-2"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Post not found&quot;
-}</code></pre>
-                                                                            </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="comments-likes-POSTapi-v1-posts--post_slug--comments">
+                    Create a new comment
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/posts/{post_slug}/comments"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: black;"
+                        >
+                            POST
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/posts/{post_slug}/comments</div>
+                    </div>
+
+                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
+                                 style="background-color: darkred"
+                            >requires authentication
+                            </div>
+                                                            </div>
+        </div>
+
+        <p>Add a new comment to a specific post. Authentication is required.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        Bearer Bearer {YOUR_AUTH_TOKEN}
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
+
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">post_slug</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The slug of the post.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">post</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The slug of the post to comment on.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        environmental-conservation-initiative
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
+
+                                <div class="sl-text-sm">
+                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">relationships</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">comments</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">attributes</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">content</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        architecto
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">content</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The comment content.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        This is a great initiative!
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+                            </div>
+                        </div>
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="POST"
+              data-path="api/v1/posts/{post_slug}/comments"
+              data-hasfiles="0"
+              data-hasjsonbody="1">
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Auth
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                            <label aria-hidden="true"
+                                   for="auth-POSTapi-v1-posts--post_slug--comments">Authorization</label>
+                            <span class="sl-mx-3">:</span>
+                            <div class="sl-flex sl-flex-1">
+                                <div class="sl-input sl-flex-1 sl-relative">
+                                    <code>Bearer </code>
+                                    <input aria-label="Authorization"
+                                           id="auth-POSTapi-v1-posts--post_slug--comments"
+                                           data-component="header"
+                                           data-prefix="Bearer "
+                                           name="Authorization"
+                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
+                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-posts--post_slug--comments-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-POSTapi-v1-posts--post_slug--comments-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-posts--post_slug--comments-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-POSTapi-v1-posts--post_slug--comments-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
                                 </div>
                                                     </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            URL Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                            <label aria-hidden="true"
+                                       for="urlparam-POSTapi-v1-posts--post_slug--comments-post_slug">post_slug</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="post_slug" name="post_slug"
+                                               id="urlparam-POSTapi-v1-posts--post_slug--comments-post_slug"
+                                               placeholder="The slug of the post."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                            <label aria-hidden="true"
+                                       for="urlparam-POSTapi-v1-posts--post_slug--comments-post">post</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="post" name="post"
+                                               id="urlparam-POSTapi-v1-posts--post_slug--comments-post"
+                                               placeholder="The slug of the post to comment on."
+                                               value="environmental-conservation-initiative" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Body
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                                                    <div class="TextRequestBody sl-p-4">
+                                <div class="code-editor language-json"
+                                     id="json-body-POSTapi-v1-posts--post_slug--comments"
+                                     style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
+                                >{
+    "data": {
+        "relationships": {
+            "comments": {
+                "data": {
+                    "attributes": {
+                        "content": "architecto"
+                    }
+                }
+            }
+        }
+    },
+    "content": "This is a great initiative!"
+}</div>
+                            </div>
+                                            </div>
+                </div>
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="POSTapi-v1-posts--post_slug--comments"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="POSTapi-v1-posts--post_slug--comments"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="POSTapi-v1-posts--post_slug--comments"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/v1/posts/1/comments" \
+    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"data\": {
+        \"relationships\": {
+            \"comments\": {
+                \"data\": {
+                    \"attributes\": {
+                        \"content\": \"architecto\"
+                    }
+                }
+            }
+        }
+    },
+    \"content\": \"This is a great initiative!\"
+}"
+</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/posts/1/comments"
+);
+
+const headers = {
+    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "data": {
+        "relationships": {
+            "comments": {
+                "data": {
+                    "attributes": {
+                        "content": "architecto"
+                    }
+                }
+            }
+        }
+    },
+    "content": "This is a great initiative!"
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/posts/1/comments';
+$response = $client-&gt;post(
+    $url,
+    [
+        'headers' =&gt; [
+            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'data' =&gt; [
+                'relationships' =&gt; [
+                    'comments' =&gt; [
+                        'data' =&gt; [
+                            'attributes' =&gt; [
+                                'content' =&gt; 'architecto',
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+            'content' =&gt; 'This is a great initiative!',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/posts/1/comments'
+payload = {
+    "data": {
+        "relationships": {
+            "comments": {
+                "data": {
+                    "attributes": {
+                        "content": "architecto"
+                    }
+                }
+            }
+        }
+    },
+    "content": "This is a great initiative!"
+}
+headers = {
+  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('POST', url, headers=headers, json=payload)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
                             </div>
     </div>
 </div>
@@ -6326,7 +11950,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-skills-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-skills', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -6346,27 +11970,133 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-skills example-response-GETapi-v1-skills-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Environmental Science&quot;,
-            &quot;slug&quot;: &quot;environmental-science&quot;,
-            &quot;description&quot;: &quot;Knowledge and expertise in environmental conservation&quot;,
-            &quot;category&quot;: &quot;Science&quot;,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Cara Bernhard&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
         },
         {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Community Outreach&quot;,
-            &quot;slug&quot;: &quot;community-outreach&quot;,
-            &quot;description&quot;: &quot;Experience in community engagement and outreach programs&quot;,
-            &quot;category&quot;: &quot;Social&quot;,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Glennie Stark&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Mr. Donnell Gutmann Jr.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Clotilde Denesik&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Keaton Wilderman&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Monica Abshire III&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Prof. Kiarra Balistreri&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dolores Gutkowski&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Jadon Dickens PhD&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;skills&quot;,
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Stephon Schamberger II&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
         }
     ]
 }</code></pre>
@@ -6783,8 +12513,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-skills--id--toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-skills--id-', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">404, Skill not found</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -6804,28 +12533,43 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-skills--id- example-response-GETapi-v1-skills--id--0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Environmental Science&quot;,
-        &quot;slug&quot;: &quot;environmental-science&quot;,
-        &quot;description&quot;: &quot;Knowledge and expertise in environmental conservation and sustainability practices&quot;,
-        &quot;category&quot;: &quot;Science&quot;,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+        &quot;type&quot;: &quot;skills&quot;,
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;attributes&quot;: {
+            &quot;name&quot;: &quot;Cara Bernhard&quot;,
+            &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+        },
+        &quot;relationships&quot;: {}
     }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-skills--id- example-response-GETapi-v1-skills--id--1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Skill not found&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -7141,7 +12885,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-locations-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-locations', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -7161,33 +12905,523 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-locations example-response-GETapi-v1-locations-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;New York City&quot;,
-            &quot;slug&quot;: &quot;new-york-city&quot;,
-            &quot;country&quot;: &quot;United States&quot;,
-            &quot;state&quot;: &quot;New York&quot;,
-            &quot;city&quot;: &quot;New York City&quot;,
-            &quot;latitude&quot;: 40.7128,
-            &quot;longitude&quot;: -74.006,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Port Christop&quot;,
+                &quot;country&quot;: &quot;Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
         },
         {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;London&quot;,
-            &quot;slug&quot;: &quot;london&quot;,
-            &quot;country&quot;: &quot;United Kingdom&quot;,
-            &quot;state&quot;: &quot;England&quot;,
-            &quot;city&quot;: &quot;London&quot;,
-            &quot;latitude&quot;: 51.5074,
-            &quot;longitude&quot;: -0.1278,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;North Bellaberg&quot;,
+                &quot;country&quot;: &quot;Kuwait&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Kayaview&quot;,
+                &quot;country&quot;: &quot;Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Lake Katheryn&quot;,
+                &quot;country&quot;: &quot;Pakistan&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Russelfort&quot;,
+                &quot;country&quot;: &quot;Angola&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Dachside&quot;,
+                &quot;country&quot;: &quot;Montserrat&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Brownport&quot;,
+                &quot;country&quot;: &quot;Bermuda&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;McDermottmouth&quot;,
+                &quot;country&quot;: &quot;Equatorial Guinea&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;East Faustino&quot;,
+                &quot;country&quot;: &quot;Panama&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Lake Makenziefort&quot;,
+                &quot;country&quot;: &quot;Czech Republic&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;11&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Delialand&quot;,
+                &quot;country&quot;: &quot;Heard Island and McDonald Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;12&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Lake Dougmouth&quot;,
+                &quot;country&quot;: &quot;Belarus&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;13&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Pourosview&quot;,
+                &quot;country&quot;: &quot;Reunion&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;14&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;East Shawnachester&quot;,
+                &quot;country&quot;: &quot;Greenland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;15&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Lindseymouth&quot;,
+                &quot;country&quot;: &quot;Jersey&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;16&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;West Easter&quot;,
+                &quot;country&quot;: &quot;Canada&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;17&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;West Montanamouth&quot;,
+                &quot;country&quot;: &quot;Yemen&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;18&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Volkmanton&quot;,
+                &quot;country&quot;: &quot;Timor-Leste&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;19&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Agustinahaven&quot;,
+                &quot;country&quot;: &quot;Korea&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;20&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;South Leifside&quot;,
+                &quot;country&quot;: &quot;Saint Martin&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;21&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;West Luciuschester&quot;,
+                &quot;country&quot;: &quot;Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;22&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Reynoldston&quot;,
+                &quot;country&quot;: &quot;Cape Verde&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;23&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;West Maxburgh&quot;,
+                &quot;country&quot;: &quot;Thailand&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;24&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Lake Genevieveville&quot;,
+                &quot;country&quot;: &quot;Ireland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;25&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;New Esther&quot;,
+                &quot;country&quot;: &quot;South Africa&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;26&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Diannaburgh&quot;,
+                &quot;country&quot;: &quot;Germany&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;27&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Dayanaberg&quot;,
+                &quot;country&quot;: &quot;Norway&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;28&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;East Crystalview&quot;,
+                &quot;country&quot;: &quot;Antarctica (the territory South of 60 deg S)&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;29&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;West Brice&quot;,
+                &quot;country&quot;: &quot;Saint Vincent and the Grenadines&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;30&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;South Seamusmouth&quot;,
+                &quot;country&quot;: &quot;Norway&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;31&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Borerside&quot;,
+                &quot;country&quot;: &quot;Turks and Caicos Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;32&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;East Ivahhaven&quot;,
+                &quot;country&quot;: &quot;Cape Verde&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;33&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Fabiolaberg&quot;,
+                &quot;country&quot;: &quot;Saint Vincent and the Grenadines&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;34&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Cronaborough&quot;,
+                &quot;country&quot;: &quot;British Virgin Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
+        },
+        {
+            &quot;type&quot;: &quot;locations&quot;,
+            &quot;id&quot;: &quot;35&quot;,
+            &quot;attributes&quot;: {
+                &quot;city&quot;: &quot;Port Tatyana&quot;,
+                &quot;country&quot;: &quot;Costa Rica&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-03T16:53:26+00:00&quot;
+            },
+            &quot;relationships&quot;: {
+                &quot;individuals&quot;: [],
+                &quot;organizations&quot;: []
+            }
         }
     ]
 }</code></pre>
@@ -7604,8 +13838,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-locations--id--toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-locations--id-', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">404, Location not found</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -7625,36 +13858,2467 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-locations--id- example-response-GETapi-v1-locations--id--0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;New York City&quot;,
-        &quot;slug&quot;: &quot;new-york-city&quot;,
-        &quot;country&quot;: &quot;United States&quot;,
-        &quot;state&quot;: &quot;New York&quot;,
-        &quot;city&quot;: &quot;New York City&quot;,
-        &quot;latitude&quot;: 40.7128,
-        &quot;longitude&quot;: -74.006,
-        &quot;timezone&quot;: &quot;America/New_York&quot;,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
+        &quot;type&quot;: &quot;locations&quot;,
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;attributes&quot;: {
+            &quot;city&quot;: &quot;Port Christop&quot;,
+            &quot;country&quot;: &quot;Tuvalu&quot;,
+            &quot;createdAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;,
+            &quot;updatedAt&quot;: &quot;2025-08-03T16:53:25+00:00&quot;
+        },
+        &quot;relationships&quot;: {
+            &quot;individuals&quot;: [],
+            &quot;organizations&quot;: []
+        }
     }
 }</code></pre>
                                                                             </div>
                                 </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-locations--id- example-response-GETapi-v1-locations--id--1"
-                                     style=" display: none;"
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                <h1 id="pages"
+        class="sl-text-5xl sl-leading-tight sl-font-prose sl-text-heading"
+    >
+        Pages
+    </h1>
+
+    
+
+                                <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="pages-GETapi-v1-pages">
+                    List all pages
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/pages"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/pages</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve a list of all static pages in the system.
+Pages contain static content like About Us, Terms of Service, etc.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/pages"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-pages-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-pages-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-pages-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-pages-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-pages"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-pages"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-pages"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/pages" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/pages"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/pages';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/pages'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-pages-toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-pages', event.target.value);">
+                                                                                                            <option value="0">200</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-pages example-response-GETapi-v1-pages-0"
+                                     style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Location not found&quot;
+    &quot;data&quot;: [
+        {
+            &quot;type&quot;: &quot;page&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;About Us&quot;,
+                &quot;slug&quot;: &quot;about-us&quot;,
+                &quot;content&quot;: &quot;About us content&quot;
+            }
+        },
+        {
+            &quot;type&quot;: &quot;page&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Terms and conditions&quot;,
+                &quot;slug&quot;: &quot;terms-and-conditions&quot;,
+                &quot;content&quot;: &quot;Terms and conditions content&quot;
+            }
+        },
+        {
+            &quot;type&quot;: &quot;page&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Privacy policy&quot;,
+                &quot;slug&quot;: &quot;privacy-policy&quot;,
+                &quot;content&quot;: &quot;Privacy policy content&quot;
+            }
+        }
+    ]
 }</code></pre>
                                                                             </div>
                                 </div>
                                                     </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="pages-GETapi-v1-pages--slug-">
+                    Get page details
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/pages/{slug}"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/pages/{slug}</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve detailed information about a specific page including its content.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
+
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">slug</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The slug of the page.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        about-us
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">page</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the page.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/pages/{slug}"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-pages--slug--Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-pages--slug--Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-pages--slug--Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-pages--slug--Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            URL Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-pages--slug--slug">slug</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="slug" name="slug"
+                                               id="urlparam-GETapi-v1-pages--slug--slug"
+                                               placeholder="The slug of the page."
+                                               value="about-us" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-pages--slug--page">page</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="page" name="page"
+                                               id="urlparam-GETapi-v1-pages--slug--page"
+                                               placeholder="The ID of the page."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-pages--slug-"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-pages--slug-"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-pages--slug-"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/pages/about-us" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/pages/about-us"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/pages/about-us';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/pages/about-us'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-pages--slug--toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-pages--slug-', event.target.value);">
+                                                                                                            <option value="0">200</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-pages--slug- example-response-GETapi-v1-pages--slug--0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;data&quot;: {
+        &quot;type&quot;: &quot;page&quot;,
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;attributes&quot;: {
+            &quot;title&quot;: &quot;About Us&quot;,
+            &quot;slug&quot;: &quot;about-us&quot;,
+            &quot;content&quot;: &quot;About us content&quot;
+        }
+    }
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                <h1 id="support-tickets"
+        class="sl-text-5xl sl-leading-tight sl-font-prose sl-text-heading"
+    >
+        Support Tickets
+    </h1>
+
+    
+
+                                <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="support-tickets-GETapi-v1-support-tickets">
+                    List user support tickets
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/support-tickets"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/support-tickets</div>
+                    </div>
+
+                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
+                                 style="background-color: darkred"
+                            >requires authentication
+                            </div>
+                                                            </div>
+        </div>
+
+        <p>Retrieve all support tickets for the authenticated user.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        Bearer Bearer {YOUR_AUTH_TOKEN}
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/support-tickets"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Auth
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                            <label aria-hidden="true"
+                                   for="auth-GETapi-v1-support-tickets">Authorization</label>
+                            <span class="sl-mx-3">:</span>
+                            <div class="sl-flex sl-flex-1">
+                                <div class="sl-input sl-flex-1 sl-relative">
+                                    <code>Bearer </code>
+                                    <input aria-label="Authorization"
+                                           id="auth-GETapi-v1-support-tickets"
+                                           data-component="header"
+                                           data-prefix="Bearer "
+                                           name="Authorization"
+                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
+                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-support-tickets-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-support-tickets-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-support-tickets-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-support-tickets-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-support-tickets"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-support-tickets"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-support-tickets"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/support-tickets" \
+    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/support-tickets"
+);
+
+const headers = {
+    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/support-tickets';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/support-tickets'
+headers = {
+  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-support-tickets-toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-support-tickets', event.target.value);">
+                                                                                                            <option value="0">401</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-support-tickets example-response-GETapi-v1-support-tickets-0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="support-tickets-GETapi-v1-support-tickets--supportTicket_id-">
+                    Get support ticket details
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/support-tickets/{supportTicket_id}"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/support-tickets/{supportTicket_id}</div>
+                    </div>
+
+                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
+                                 style="background-color: darkred"
+                            >requires authentication
+                            </div>
+                                                            </div>
+        </div>
+
+        <p>Retrieve detailed information about a specific support ticket.
+The ticket must belong to the authenticated user.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        Bearer Bearer {YOUR_AUTH_TOKEN}
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
+
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">supportTicket_id</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the supportTicket.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        16
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">supportTicket</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the support ticket.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/support-tickets/{supportTicket_id}"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Auth
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                            <label aria-hidden="true"
+                                   for="auth-GETapi-v1-support-tickets--supportTicket_id-">Authorization</label>
+                            <span class="sl-mx-3">:</span>
+                            <div class="sl-flex sl-flex-1">
+                                <div class="sl-input sl-flex-1 sl-relative">
+                                    <code>Bearer </code>
+                                    <input aria-label="Authorization"
+                                           id="auth-GETapi-v1-support-tickets--supportTicket_id-"
+                                           data-component="header"
+                                           data-prefix="Bearer "
+                                           name="Authorization"
+                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
+                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-support-tickets--supportTicket_id--Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-support-tickets--supportTicket_id--Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-support-tickets--supportTicket_id--Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-support-tickets--supportTicket_id--Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            URL Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket_id">supportTicket_id</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="supportTicket_id" name="supportTicket_id"
+                                               id="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket_id"
+                                               placeholder="The ID of the supportTicket."
+                                               value="16" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket">supportTicket</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="supportTicket" name="supportTicket"
+                                               id="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket"
+                                               placeholder="The ID of the support ticket."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-support-tickets--supportTicket_id-"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-support-tickets--supportTicket_id-"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-support-tickets--supportTicket_id-"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/support-tickets/16" \
+    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/support-tickets/16"
+);
+
+const headers = {
+    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/support-tickets/16';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/support-tickets/16'
+headers = {
+  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-support-tickets--supportTicket_id--toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-support-tickets--supportTicket_id-', event.target.value);">
+                                                                                                            <option value="0">401</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-support-tickets--supportTicket_id- example-response-GETapi-v1-support-tickets--supportTicket_id--0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="support-tickets-POSTapi-v1-support-tickets">
+                    Create a new support ticket
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/support-tickets"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: black;"
+                        >
+                            POST
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/support-tickets</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Submit a new support ticket. Can be used by both authenticated and unauthenticated users.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
+
+                                <div class="sl-text-sm">
+                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">attributes</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">subject</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        architecto
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">message</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        architecto
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">subject</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The subject of the support ticket.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        Account login issue
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">message</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The detailed message describing the issue.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        I am unable to log into my account after password reset.
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">email</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The contact email address.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        user@example.com
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">priority</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>optional The priority level (low, medium, high).</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        medium
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+                            </div>
+                        </div>
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="POST"
+              data-path="api/v1/support-tickets"
+              data-hasfiles="0"
+              data-hasjsonbody="1">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-support-tickets-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-POSTapi-v1-support-tickets-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-support-tickets-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-POSTapi-v1-support-tickets-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Body
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                                                    <div class="TextRequestBody sl-p-4">
+                                <div class="code-editor language-json"
+                                     id="json-body-POSTapi-v1-support-tickets"
+                                     style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
+                                >{
+    "data": {
+        "attributes": {
+            "subject": "architecto",
+            "message": "architecto"
+        }
+    },
+    "subject": "Account login issue",
+    "message": "I am unable to log into my account after password reset.",
+    "email": "user@example.com",
+    "priority": "medium"
+}</div>
+                            </div>
+                                            </div>
+                </div>
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="POSTapi-v1-support-tickets"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="POSTapi-v1-support-tickets"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="POSTapi-v1-support-tickets"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/v1/support-tickets" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"data\": {
+        \"attributes\": {
+            \"subject\": \"architecto\",
+            \"message\": \"architecto\"
+        }
+    },
+    \"subject\": \"Account login issue\",
+    \"message\": \"I am unable to log into my account after password reset.\",
+    \"email\": \"user@example.com\",
+    \"priority\": \"medium\"
+}"
+</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/support-tickets"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "data": {
+        "attributes": {
+            "subject": "architecto",
+            "message": "architecto"
+        }
+    },
+    "subject": "Account login issue",
+    "message": "I am unable to log into my account after password reset.",
+    "email": "user@example.com",
+    "priority": "medium"
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/support-tickets';
+$response = $client-&gt;post(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'data' =&gt; [
+                'attributes' =&gt; [
+                    'subject' =&gt; 'architecto',
+                    'message' =&gt; 'architecto',
+                ],
+            ],
+            'subject' =&gt; 'Account login issue',
+            'message' =&gt; 'I am unable to log into my account after password reset.',
+            'email' =&gt; 'user@example.com',
+            'priority' =&gt; 'medium',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/support-tickets'
+payload = {
+    "data": {
+        "attributes": {
+            "subject": "architecto",
+            "message": "architecto"
+        }
+    },
+    "subject": "Account login issue",
+    "message": "I am unable to log into my account after password reset.",
+    "email": "user@example.com",
+    "priority": "medium"
+}
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('POST', url, headers=headers, json=payload)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
                             </div>
     </div>
 </div>
@@ -8036,8 +16700,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-notifications-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-notifications', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
+                                                                                                            <option value="0">401</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -8057,30 +16720,31 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-notifications example-response-GETapi-v1-notifications-0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: &quot;9d785c8a-1234-5678-9abc-123456789012&quot;,
-            &quot;type&quot;: &quot;App\\Notifications\\PostLiked&quot;,
-            &quot;data&quot;: {
-                &quot;message&quot;: &quot;Your post was liked by John Doe&quot;,
-                &quot;post_id&quot;: 1,
-                &quot;user_name&quot;: &quot;John Doe&quot;
-            },
-            &quot;read_at&quot;: null,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
-        }
-    ]
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-notifications example-response-GETapi-v1-notifications-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;message&quot;: &quot;Unauthenticated.&quot;
@@ -8560,9 +17224,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-notifications--id--toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-notifications--id-', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                            <option value="2">404, Notification not found</option>
+                                                                                                            <option value="0">401</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -8582,41 +17244,34 @@ response.json()</code></pre>                                        </div>
                                                             <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-notifications--id- example-response-GETapi-v1-notifications--id--0"
                                      style=" "
                                 >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;id&quot;: &quot;9d785c8a-1234-5678-9abc-123456789012&quot;,
-        &quot;type&quot;: &quot;App\\Notifications\\PostLiked&quot;,
-        &quot;data&quot;: {
-            &quot;message&quot;: &quot;Your post was liked by John Doe&quot;,
-            &quot;post_id&quot;: 1,
-            &quot;user_name&quot;: &quot;John Doe&quot;
-        },
-        &quot;read_at&quot;: null,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-notifications--id- example-response-GETapi-v1-notifications--id--1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-notifications--id- example-response-GETapi-v1-notifications--id--2"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Notification not found&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -9082,78 +17737,6 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-PATCHapi-v1-notifications--notification_id--read-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('PATCHapi-v1-notifications--notification_id--read', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                            <option value="2">404, Notification not found</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-notifications--notification_id--read example-response-PATCHapi-v1-notifications--notification_id--read-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;id&quot;: &quot;9d785c8a-1234-5678-9abc-123456789012&quot;,
-        &quot;type&quot;: &quot;App\\Notifications\\PostLiked&quot;,
-        &quot;data&quot;: {
-            &quot;message&quot;: &quot;Your post was liked by John Doe&quot;,
-            &quot;post_id&quot;: 1,
-            &quot;user_name&quot;: &quot;John Doe&quot;
-        },
-        &quot;read_at&quot;: &quot;2024-01-15T10:30:00.000000Z&quot;,
-        &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2024-01-15T10:30:00.000000Z&quot;
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-notifications--notification_id--read example-response-PATCHapi-v1-notifications--notification_id--read-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-notifications--notification_id--read example-response-PATCHapi-v1-notifications--notification_id--read-2"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Notification not found&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
                             </div>
     </div>
 </div>
@@ -9516,69 +18099,6 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-PATCHapi-v1-notifications-read-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('PATCHapi-v1-notifications-read', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-notifications-read example-response-PATCHapi-v1-notifications-read-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: &quot;9d785c8a-1234-5678-9abc-123456789012&quot;,
-            &quot;type&quot;: &quot;App\\Notifications\\PostLiked&quot;,
-            &quot;data&quot;: {
-                &quot;message&quot;: &quot;Your post was liked by John Doe&quot;,
-                &quot;post_id&quot;: 1,
-                &quot;user_name&quot;: &quot;John Doe&quot;
-            },
-            &quot;read_at&quot;: &quot;2024-01-15T10:30:00.000000Z&quot;,
-            &quot;created_at&quot;: &quot;2024-01-15T10:00:00.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2024-01-15T10:30:00.000000Z&quot;
-        }
-    ]
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-PATCHapi-v1-notifications-read example-response-PATCHapi-v1-notifications-read-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
                             </div>
     </div>
 </div>
@@ -10040,67 +18560,6 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-DELETEapi-v1-notifications--notification_id--toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('DELETEapi-v1-notifications--notification_id-', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                            <option value="2">404, Notification not found</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-notifications--notification_id- example-response-DELETEapi-v1-notifications--notification_id--0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;notification deleted successfully&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-notifications--notification_id- example-response-DELETEapi-v1-notifications--notification_id--1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-notifications--notification_id- example-response-DELETEapi-v1-notifications--notification_id--2"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Notification not found&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
                             </div>
     </div>
 </div>
@@ -10458,2744 +18917,6 @@ headers = {
 }
 
 response = requests.request('DELETE', url, headers=headers)
-response.json()</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-DELETEapi-v1-notifications-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('DELETEapi-v1-notifications', event.target.value);">
-                                                                                                            <option value="0">200, Success</option>
-                                                                                                            <option value="1">401, Unauthenticated</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-notifications example-response-DELETEapi-v1-notifications-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;all notifications deleted successfully&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-DELETEapi-v1-notifications example-response-DELETEapi-v1-notifications-1"
-                                     style=" display: none;"
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                                                                                                                
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
-                            </div>
-    </div>
-</div>
-
-                <h1 id="general-endpoints"
-        class="sl-text-5xl sl-leading-tight sl-font-prose sl-text-heading"
-    >
-        General Endpoints
-    </h1>
-
-    
-
-                                <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
-    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-        <div class="sl-relative">
-            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
-                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="general-endpoints-POSTapi-v1-posts--post_slug--comments">
-                    POST api/v1/posts/{post_slug}/comments
-                </h2>
-            </div>
-        </div>
-
-        <div class="sl-relative">
-            <div title="http://localhost/api/v1/posts/{post_slug}/comments"
-                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
-                >
-                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
-                             style="background-color: black;"
-                        >
-                            POST
-                        </div>
-                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
-                        <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
-                        <div class="sl-flex-1 sl-font-semibold">/api/v1/posts/{post_slug}/comments</div>
-                    </div>
-
-                                                            </div>
-        </div>
-
-        
-    </div>
-    <div class="sl-flex">
-        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
-            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
-                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
-                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
-                                Headers
-                            </h3>
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
-
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">post_slug</div>
-                                            <span class="sl-truncate sl-text-muted">integer</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
-            <p>The slug of the post.</p>
-        </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        1
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-
-                    
-                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
-
-                                <div class="sl-text-sm">
-                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">relationships</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">comments</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">attributes</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">content</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        architecto
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-                            </div>
-                        </div>
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
-            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-
-                                    <div class="sl-inverted">
-    <div class="sl-overflow-y-hidden sl-rounded-lg">
-        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
-              data-method="POST"
-              data-path="api/v1/posts/{post_slug}/comments"
-              data-hasfiles="0"
-              data-hasjsonbody="1">
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Headers
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                                                            <label aria-hidden="true"
-                                       for="header-POSTapi-v1-posts--post_slug--comments-Content-Type">Content-Type</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Content-Type" name="Content-Type"
-                                               id="header-POSTapi-v1-posts--post_slug--comments-Content-Type"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                                                            <label aria-hidden="true"
-                                       for="header-POSTapi-v1-posts--post_slug--comments-Accept">Accept</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Accept" name="Accept"
-                                               id="header-POSTapi-v1-posts--post_slug--comments-Accept"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            URL Parameters
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                            <label aria-hidden="true"
-                                       for="urlparam-POSTapi-v1-posts--post_slug--comments-post_slug">post_slug</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="post_slug" name="post_slug"
-                                               id="urlparam-POSTapi-v1-posts--post_slug--comments-post_slug"
-                                               placeholder="The slug of the post."
-                                               value="1" data-component="url"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Body
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                                                    <div class="TextRequestBody sl-p-4">
-                                <div class="code-editor language-json"
-                                     id="json-body-POSTapi-v1-posts--post_slug--comments"
-                                     style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
-                                >{
-    "data": {
-        "relationships": {
-            "comments": {
-                "data": {
-                    "attributes": {
-                        "content": "architecto"
-                    }
-                }
-            }
-        }
-    }
-}</div>
-                            </div>
-                                            </div>
-                </div>
-            
-            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
-                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
-                    <button type="button" data-endpoint="POSTapi-v1-posts--post_slug--comments"
-                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
-                    >
-                        Send Request 💥
-                    </button>
-                </div>
-            </div>
-
-            <div data-endpoint="POSTapi-v1-posts--post_slug--comments"
-                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
-                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                     role="button">
-                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                 data-icon="caret-down"
-                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                            </svg>
-                        </div>
-                        Request failed with error
-                    </div>
-                </div>
-                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                    <div class="sl-panel__content sl-p-4">
-                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
-                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
-If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
-You can check the Dev Tools console for debugging information.</p>
-                    </div>
-                </div>
-            </div>
-
-                <div data-endpoint="POSTapi-v1-posts--post_slug--comments"
-                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Received response
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="sl-panel__content sl-p-4">
-                            <p class="sl-pb-2 response-status"></p>
-                            <pre><code class="sl-pb-2 response-content language-json"
-                                       data-empty-response-text="<Empty response>"
-                                       style="max-height: 300px;"></code></pre>
-                        </div>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-                
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                                    <div class="sl--ml-2">
-                                        Example request:
-                                        <select class="example-request-lang-toggle sl-text-base"
-                                                aria-label="Request Sample Language"
-                                                onchange="switchExampleLanguage(event.target.value);">
-                                                                                            <option>bash</option>
-                                                                                            <option>javascript</option>
-                                                                                            <option>php</option>
-                                                                                            <option>python</option>
-                                                                                    </select>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
-                                     style="">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/posts/1/comments" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"data\": {
-        \"relationships\": {
-            \"comments\": {
-                \"data\": {
-                    \"attributes\": {
-                        \"content\": \"architecto\"
-                    }
-                }
-            }
-        }
-    }
-}"
-</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/posts/1/comments"
-);
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "data": {
-        "relationships": {
-            "comments": {
-                "data": {
-                    "attributes": {
-                        "content": "architecto"
-                    }
-                }
-            }
-        }
-    }
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/posts/1/comments';
-$response = $client-&gt;post(
-    $url,
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'data' =&gt; [
-                'relationships' =&gt; [
-                    'comments' =&gt; [
-                        'data' =&gt; [
-                            'attributes' =&gt; [
-                                'content' =&gt; 'architecto',
-                            ],
-                        ],
-                    ],
-                ],
-            ],
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-python">import requests
-import json
-
-url = 'http://localhost/api/v1/posts/1/comments'
-payload = {
-    "data": {
-        "relationships": {
-            "comments": {
-                "data": {
-                    "attributes": {
-                        "content": "architecto"
-                    }
-                }
-            }
-        }
-    }
-}
-headers = {
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-
-response = requests.request('POST', url, headers=headers, json=payload)
-response.json()</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    
-                            </div>
-    </div>
-</div>
-
-                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
-    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-        <div class="sl-relative">
-            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
-                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="general-endpoints-GETapi-v1-pages">
-                    GET api/v1/pages
-                </h2>
-            </div>
-        </div>
-
-        <div class="sl-relative">
-            <div title="http://localhost/api/v1/pages"
-                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
-                >
-                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
-                             style="background-color: green;"
-                        >
-                            GET
-                        </div>
-                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
-                        <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
-                        <div class="sl-flex-1 sl-font-semibold">/api/v1/pages</div>
-                    </div>
-
-                                                            </div>
-        </div>
-
-        
-    </div>
-    <div class="sl-flex">
-        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
-            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
-                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
-                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
-                                Headers
-                            </h3>
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-                    
-
-                    
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
-            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-
-                                    <div class="sl-inverted">
-    <div class="sl-overflow-y-hidden sl-rounded-lg">
-        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
-              data-method="GET"
-              data-path="api/v1/pages"
-              data-hasfiles="0"
-              data-hasjsonbody="0">
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Headers
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-pages-Content-Type">Content-Type</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Content-Type" name="Content-Type"
-                                               id="header-GETapi-v1-pages-Content-Type"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-pages-Accept">Accept</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Accept" name="Accept"
-                                               id="header-GETapi-v1-pages-Accept"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-            
-            
-            
-            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
-                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
-                    <button type="button" data-endpoint="GETapi-v1-pages"
-                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
-                    >
-                        Send Request 💥
-                    </button>
-                </div>
-            </div>
-
-            <div data-endpoint="GETapi-v1-pages"
-                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
-                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                     role="button">
-                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                 data-icon="caret-down"
-                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                            </svg>
-                        </div>
-                        Request failed with error
-                    </div>
-                </div>
-                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                    <div class="sl-panel__content sl-p-4">
-                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
-                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
-If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
-You can check the Dev Tools console for debugging information.</p>
-                    </div>
-                </div>
-            </div>
-
-                <div data-endpoint="GETapi-v1-pages"
-                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Received response
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="sl-panel__content sl-p-4">
-                            <p class="sl-pb-2 response-status"></p>
-                            <pre><code class="sl-pb-2 response-content language-json"
-                                       data-empty-response-text="<Empty response>"
-                                       style="max-height: 300px;"></code></pre>
-                        </div>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-                
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                                    <div class="sl--ml-2">
-                                        Example request:
-                                        <select class="example-request-lang-toggle sl-text-base"
-                                                aria-label="Request Sample Language"
-                                                onchange="switchExampleLanguage(event.target.value);">
-                                                                                            <option>bash</option>
-                                                                                            <option>javascript</option>
-                                                                                            <option>php</option>
-                                                                                            <option>python</option>
-                                                                                    </select>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
-                                     style="">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/pages" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/pages"
-);
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/pages';
-$response = $client-&gt;get(
-    $url,
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-python">import requests
-import json
-
-url = 'http://localhost/api/v1/pages'
-headers = {
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-
-response = requests.request('GET', url, headers=headers)
-response.json()</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-GETapi-v1-pages-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('GETapi-v1-pages', event.target.value);">
-                                                                                                            <option value="0">200</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-pages example-response-GETapi-v1-pages-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
-                                                <summary style="cursor: pointer; list-style: none;">
-                                                    <small>
-                                                        <span class="expansion-chevrons">
-
-    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-         data-icon="chevron-right"
-         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
-         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-        <path fill="currentColor"
-              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-    </svg>
-                                                            </span>
-                                                        Headers
-                                                    </small>
-                                                </summary>
-                                                <pre><code class="language-http">                                                            cache-control
-                                                            : no-cache, private
-                                                                                                                    content-type
-                                                            : application/json
-                                                                                                                    access-control-allow-origin
-                                                            : *
-                                                         </code></pre>
-                                            </details>
-                                                                                                                                                                        
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: [
-        {
-            &quot;type&quot;: &quot;page&quot;,
-            &quot;id&quot;: &quot;1&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;About Us&quot;,
-                &quot;slug&quot;: &quot;about-us&quot;,
-                &quot;content&quot;: &quot;About us content&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;page&quot;,
-            &quot;id&quot;: &quot;2&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Terms and conditions&quot;,
-                &quot;slug&quot;: &quot;terms-and-conditions&quot;,
-                &quot;content&quot;: &quot;Terms and conditions content&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;page&quot;,
-            &quot;id&quot;: &quot;3&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Privacy policy&quot;,
-                &quot;slug&quot;: &quot;privacy-policy&quot;,
-                &quot;content&quot;: &quot;Privacy policy content&quot;
-            }
-        }
-    ]
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
-                            </div>
-    </div>
-</div>
-
-                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
-    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-        <div class="sl-relative">
-            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
-                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="general-endpoints-GETapi-v1-pages--slug-">
-                    GET api/v1/pages/{slug}
-                </h2>
-            </div>
-        </div>
-
-        <div class="sl-relative">
-            <div title="http://localhost/api/v1/pages/{slug}"
-                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
-                >
-                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
-                             style="background-color: green;"
-                        >
-                            GET
-                        </div>
-                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
-                        <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
-                        <div class="sl-flex-1 sl-font-semibold">/api/v1/pages/{slug}</div>
-                    </div>
-
-                                                            </div>
-        </div>
-
-        
-    </div>
-    <div class="sl-flex">
-        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
-            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
-                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
-                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
-                                Headers
-                            </h3>
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
-
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">slug</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
-            <p>The slug of the page.</p>
-        </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        about-us
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-
-                    
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
-            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-
-                                    <div class="sl-inverted">
-    <div class="sl-overflow-y-hidden sl-rounded-lg">
-        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
-              data-method="GET"
-              data-path="api/v1/pages/{slug}"
-              data-hasfiles="0"
-              data-hasjsonbody="0">
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Headers
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-pages--slug--Content-Type">Content-Type</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Content-Type" name="Content-Type"
-                                               id="header-GETapi-v1-pages--slug--Content-Type"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-pages--slug--Accept">Accept</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Accept" name="Accept"
-                                               id="header-GETapi-v1-pages--slug--Accept"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            URL Parameters
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                            <label aria-hidden="true"
-                                       for="urlparam-GETapi-v1-pages--slug--slug">slug</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="slug" name="slug"
-                                               id="urlparam-GETapi-v1-pages--slug--slug"
-                                               placeholder="The slug of the page."
-                                               value="about-us" data-component="url"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-            
-            
-            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
-                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
-                    <button type="button" data-endpoint="GETapi-v1-pages--slug-"
-                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
-                    >
-                        Send Request 💥
-                    </button>
-                </div>
-            </div>
-
-            <div data-endpoint="GETapi-v1-pages--slug-"
-                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
-                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                     role="button">
-                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                 data-icon="caret-down"
-                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                            </svg>
-                        </div>
-                        Request failed with error
-                    </div>
-                </div>
-                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                    <div class="sl-panel__content sl-p-4">
-                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
-                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
-If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
-You can check the Dev Tools console for debugging information.</p>
-                    </div>
-                </div>
-            </div>
-
-                <div data-endpoint="GETapi-v1-pages--slug-"
-                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Received response
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="sl-panel__content sl-p-4">
-                            <p class="sl-pb-2 response-status"></p>
-                            <pre><code class="sl-pb-2 response-content language-json"
-                                       data-empty-response-text="<Empty response>"
-                                       style="max-height: 300px;"></code></pre>
-                        </div>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-                
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                                    <div class="sl--ml-2">
-                                        Example request:
-                                        <select class="example-request-lang-toggle sl-text-base"
-                                                aria-label="Request Sample Language"
-                                                onchange="switchExampleLanguage(event.target.value);">
-                                                                                            <option>bash</option>
-                                                                                            <option>javascript</option>
-                                                                                            <option>php</option>
-                                                                                            <option>python</option>
-                                                                                    </select>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
-                                     style="">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/pages/about-us" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/pages/about-us"
-);
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/pages/about-us';
-$response = $client-&gt;get(
-    $url,
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-python">import requests
-import json
-
-url = 'http://localhost/api/v1/pages/about-us'
-headers = {
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-
-response = requests.request('GET', url, headers=headers)
-response.json()</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-GETapi-v1-pages--slug--toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('GETapi-v1-pages--slug-', event.target.value);">
-                                                                                                            <option value="0">200</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-pages--slug- example-response-GETapi-v1-pages--slug--0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
-                                                <summary style="cursor: pointer; list-style: none;">
-                                                    <small>
-                                                        <span class="expansion-chevrons">
-
-    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-         data-icon="chevron-right"
-         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
-         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-        <path fill="currentColor"
-              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-    </svg>
-                                                            </span>
-                                                        Headers
-                                                    </small>
-                                                </summary>
-                                                <pre><code class="language-http">                                                            cache-control
-                                                            : no-cache, private
-                                                                                                                    content-type
-                                                            : application/json
-                                                                                                                    access-control-allow-origin
-                                                            : *
-                                                         </code></pre>
-                                            </details>
-                                                                                                                                                                        
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: {
-        &quot;type&quot;: &quot;page&quot;,
-        &quot;id&quot;: &quot;1&quot;,
-        &quot;attributes&quot;: {
-            &quot;title&quot;: &quot;About Us&quot;,
-            &quot;slug&quot;: &quot;about-us&quot;,
-            &quot;content&quot;: &quot;About us content&quot;
-        }
-    }
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
-                            </div>
-    </div>
-</div>
-
-                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
-    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-        <div class="sl-relative">
-            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
-                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="general-endpoints-GETapi-v1-support-tickets">
-                    GET api/v1/support-tickets
-                </h2>
-            </div>
-        </div>
-
-        <div class="sl-relative">
-            <div title="http://localhost/api/v1/support-tickets"
-                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
-                >
-                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
-                             style="background-color: green;"
-                        >
-                            GET
-                        </div>
-                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
-                        <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
-                        <div class="sl-flex-1 sl-font-semibold">/api/v1/support-tickets</div>
-                    </div>
-
-                                                            </div>
-        </div>
-
-        
-    </div>
-    <div class="sl-flex">
-        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
-            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
-                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
-                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
-                                Headers
-                            </h3>
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-                    
-
-                    
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
-            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-
-                                    <div class="sl-inverted">
-    <div class="sl-overflow-y-hidden sl-rounded-lg">
-        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
-              data-method="GET"
-              data-path="api/v1/support-tickets"
-              data-hasfiles="0"
-              data-hasjsonbody="0">
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Headers
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-support-tickets-Content-Type">Content-Type</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Content-Type" name="Content-Type"
-                                               id="header-GETapi-v1-support-tickets-Content-Type"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-support-tickets-Accept">Accept</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Accept" name="Accept"
-                                               id="header-GETapi-v1-support-tickets-Accept"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-            
-            
-            
-            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
-                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
-                    <button type="button" data-endpoint="GETapi-v1-support-tickets"
-                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
-                    >
-                        Send Request 💥
-                    </button>
-                </div>
-            </div>
-
-            <div data-endpoint="GETapi-v1-support-tickets"
-                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
-                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                     role="button">
-                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                 data-icon="caret-down"
-                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                            </svg>
-                        </div>
-                        Request failed with error
-                    </div>
-                </div>
-                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                    <div class="sl-panel__content sl-p-4">
-                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
-                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
-If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
-You can check the Dev Tools console for debugging information.</p>
-                    </div>
-                </div>
-            </div>
-
-                <div data-endpoint="GETapi-v1-support-tickets"
-                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Received response
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="sl-panel__content sl-p-4">
-                            <p class="sl-pb-2 response-status"></p>
-                            <pre><code class="sl-pb-2 response-content language-json"
-                                       data-empty-response-text="<Empty response>"
-                                       style="max-height: 300px;"></code></pre>
-                        </div>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-                
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                                    <div class="sl--ml-2">
-                                        Example request:
-                                        <select class="example-request-lang-toggle sl-text-base"
-                                                aria-label="Request Sample Language"
-                                                onchange="switchExampleLanguage(event.target.value);">
-                                                                                            <option>bash</option>
-                                                                                            <option>javascript</option>
-                                                                                            <option>php</option>
-                                                                                            <option>python</option>
-                                                                                    </select>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
-                                     style="">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/support-tickets" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/support-tickets"
-);
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/support-tickets';
-$response = $client-&gt;get(
-    $url,
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-python">import requests
-import json
-
-url = 'http://localhost/api/v1/support-tickets'
-headers = {
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-
-response = requests.request('GET', url, headers=headers)
-response.json()</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-GETapi-v1-support-tickets-toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('GETapi-v1-support-tickets', event.target.value);">
-                                                                                                            <option value="0">401</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-support-tickets example-response-GETapi-v1-support-tickets-0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
-                                                <summary style="cursor: pointer; list-style: none;">
-                                                    <small>
-                                                        <span class="expansion-chevrons">
-
-    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-         data-icon="chevron-right"
-         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
-         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-        <path fill="currentColor"
-              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-    </svg>
-                                                            </span>
-                                                        Headers
-                                                    </small>
-                                                </summary>
-                                                <pre><code class="language-http">                                                            cache-control
-                                                            : no-cache, private
-                                                                                                                    content-type
-                                                            : application/json
-                                                                                                                    access-control-allow-origin
-                                                            : *
-                                                         </code></pre>
-                                            </details>
-                                                                                                                                                                        
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
-                            </div>
-    </div>
-</div>
-
-                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
-    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-        <div class="sl-relative">
-            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
-                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="general-endpoints-GETapi-v1-support-tickets--supportTicket_id-">
-                    GET api/v1/support-tickets/{supportTicket_id}
-                </h2>
-            </div>
-        </div>
-
-        <div class="sl-relative">
-            <div title="http://localhost/api/v1/support-tickets/{supportTicket_id}"
-                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
-                >
-                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
-                             style="background-color: green;"
-                        >
-                            GET
-                        </div>
-                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
-                        <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
-                        <div class="sl-flex-1 sl-font-semibold">/api/v1/support-tickets/{supportTicket_id}</div>
-                    </div>
-
-                                                            </div>
-        </div>
-
-        
-    </div>
-    <div class="sl-flex">
-        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
-            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
-                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
-                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
-                                Headers
-                            </h3>
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
-
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">supportTicket_id</div>
-                                            <span class="sl-truncate sl-text-muted">integer</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
-            <p>The ID of the supportTicket.</p>
-        </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        16
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-
-                    
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
-            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-
-                                    <div class="sl-inverted">
-    <div class="sl-overflow-y-hidden sl-rounded-lg">
-        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
-              data-method="GET"
-              data-path="api/v1/support-tickets/{supportTicket_id}"
-              data-hasfiles="0"
-              data-hasjsonbody="0">
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Headers
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-support-tickets--supportTicket_id--Content-Type">Content-Type</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Content-Type" name="Content-Type"
-                                               id="header-GETapi-v1-support-tickets--supportTicket_id--Content-Type"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                                                            <label aria-hidden="true"
-                                       for="header-GETapi-v1-support-tickets--supportTicket_id--Accept">Accept</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Accept" name="Accept"
-                                               id="header-GETapi-v1-support-tickets--supportTicket_id--Accept"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            URL Parameters
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                            <label aria-hidden="true"
-                                       for="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket_id">supportTicket_id</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="supportTicket_id" name="supportTicket_id"
-                                               id="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket_id"
-                                               placeholder="The ID of the supportTicket."
-                                               value="16" data-component="url"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-            
-            
-            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
-                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
-                    <button type="button" data-endpoint="GETapi-v1-support-tickets--supportTicket_id-"
-                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
-                    >
-                        Send Request 💥
-                    </button>
-                </div>
-            </div>
-
-            <div data-endpoint="GETapi-v1-support-tickets--supportTicket_id-"
-                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
-                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                     role="button">
-                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                 data-icon="caret-down"
-                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                            </svg>
-                        </div>
-                        Request failed with error
-                    </div>
-                </div>
-                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                    <div class="sl-panel__content sl-p-4">
-                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
-                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
-If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
-You can check the Dev Tools console for debugging information.</p>
-                    </div>
-                </div>
-            </div>
-
-                <div data-endpoint="GETapi-v1-support-tickets--supportTicket_id-"
-                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Received response
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="sl-panel__content sl-p-4">
-                            <p class="sl-pb-2 response-status"></p>
-                            <pre><code class="sl-pb-2 response-content language-json"
-                                       data-empty-response-text="<Empty response>"
-                                       style="max-height: 300px;"></code></pre>
-                        </div>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-                
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                                    <div class="sl--ml-2">
-                                        Example request:
-                                        <select class="example-request-lang-toggle sl-text-base"
-                                                aria-label="Request Sample Language"
-                                                onchange="switchExampleLanguage(event.target.value);">
-                                                                                            <option>bash</option>
-                                                                                            <option>javascript</option>
-                                                                                            <option>php</option>
-                                                                                            <option>python</option>
-                                                                                    </select>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
-                                     style="">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/support-tickets/16" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/support-tickets/16"
-);
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/support-tickets/16';
-$response = $client-&gt;get(
-    $url,
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-python">import requests
-import json
-
-url = 'http://localhost/api/v1/support-tickets/16'
-headers = {
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-
-response = requests.request('GET', url, headers=headers)
-response.json()</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
-                                    <div class="sl--ml-2">
-                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
-                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
-                                            <div class="sl-mb-2 sl-inline-block">
-                                                <select
-                                                        class="example-response-GETapi-v1-support-tickets--supportTicket_id--toggle sl-text-base"
-                                                        aria-label="Response sample"
-                                                        onchange="switchExampleResponse('GETapi-v1-support-tickets--supportTicket_id-', event.target.value);">
-                                                                                                            <option value="0">401</option>
-                                                                                                    </select></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="button"
-                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
-                                    <div class="sl-mx-0">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
-                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
-                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="currentColor"
-                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
-                                        </svg>
-                                    </div>
-                                </button>
-                            </div>
-                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-support-tickets--supportTicket_id- example-response-GETapi-v1-support-tickets--supportTicket_id--0"
-                                     style=" "
-                                >
-                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
-                                                <summary style="cursor: pointer; list-style: none;">
-                                                    <small>
-                                                        <span class="expansion-chevrons">
-
-    <svg aria-hidden="true" focusable="false" data-prefix="fas"
-         data-icon="chevron-right"
-         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
-         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-        <path fill="currentColor"
-              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-    </svg>
-                                                            </span>
-                                                        Headers
-                                                    </small>
-                                                </summary>
-                                                <pre><code class="language-http">                                                            cache-control
-                                                            : no-cache, private
-                                                                                                                    content-type
-                                                            : application/json
-                                                                                                                    access-control-allow-origin
-                                                            : *
-                                                         </code></pre>
-                                            </details>
-                                                                                                                                                                        
-                                            <pre><code style="max-height: 300px;"
-                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code></pre>
-                                                                            </div>
-                                </div>
-                                                    </div>
-                            </div>
-    </div>
-</div>
-
-                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
-    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-        <div class="sl-relative">
-            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
-                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="general-endpoints-POSTapi-v1-support-tickets">
-                    POST api/v1/support-tickets
-                </h2>
-            </div>
-        </div>
-
-        <div class="sl-relative">
-            <div title="http://localhost/api/v1/support-tickets"
-                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
-                >
-                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
-                             style="background-color: black;"
-                        >
-                            POST
-                        </div>
-                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
-                        <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
-                        <div class="sl-flex-1 sl-font-semibold">/api/v1/support-tickets</div>
-                    </div>
-
-                                                            </div>
-        </div>
-
-        
-    </div>
-    <div class="sl-flex">
-        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
-            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
-                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
-                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
-                                Headers
-                            </h3>
-                            <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        application/json
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-                                                            </div>
-                        </div>
-                    
-                    
-
-                    
-                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
-
-                                <div class="sl-text-sm">
-                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
-                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
-                    </svg>
-                </div>
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">attributes</div>
-                                            <span class="sl-truncate sl-text-muted">object</span>
-                                    </div>
-                                    </div>
-                                    </div>
-</div>
-
-                    <div class="children" style="display: none;">
-                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">subject</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        architecto
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-
-            </div>
-    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
-        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">message</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        architecto
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
-
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-                            </div>
-                        </div>
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
-            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
-
-                                    <div class="sl-inverted">
-    <div class="sl-overflow-y-hidden sl-rounded-lg">
-        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
-              data-method="POST"
-              data-path="api/v1/support-tickets"
-              data-hasfiles="0"
-              data-hasjsonbody="1">
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Headers
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                                                                                            <label aria-hidden="true"
-                                       for="header-POSTapi-v1-support-tickets-Content-Type">Content-Type</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Content-Type" name="Content-Type"
-                                               id="header-POSTapi-v1-support-tickets-Content-Type"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                                                            <label aria-hidden="true"
-                                       for="header-POSTapi-v1-support-tickets-Accept">Accept</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="Accept" name="Accept"
-                                               id="header-POSTapi-v1-support-tickets-Accept"
-                                               value="application/json" data-component="header"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            
-            
-            
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Body
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                                                    <div class="TextRequestBody sl-p-4">
-                                <div class="code-editor language-json"
-                                     id="json-body-POSTapi-v1-support-tickets"
-                                     style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
-                                >{
-    "data": {
-        "attributes": {
-            "subject": "architecto",
-            "message": "architecto"
-        }
-    }
-}</div>
-                            </div>
-                                            </div>
-                </div>
-            
-            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
-                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
-                    <button type="button" data-endpoint="POSTapi-v1-support-tickets"
-                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
-                    >
-                        Send Request 💥
-                    </button>
-                </div>
-            </div>
-
-            <div data-endpoint="POSTapi-v1-support-tickets"
-                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
-                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                     role="button">
-                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                 data-icon="caret-down"
-                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                            </svg>
-                        </div>
-                        Request failed with error
-                    </div>
-                </div>
-                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                    <div class="sl-panel__content sl-p-4">
-                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
-                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
-If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
-You can check the Dev Tools console for debugging information.</p>
-                    </div>
-                </div>
-            </div>
-
-                <div data-endpoint="POSTapi-v1-support-tickets"
-                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Received response
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="sl-panel__content sl-p-4">
-                            <p class="sl-pb-2 response-status"></p>
-                            <pre><code class="sl-pb-2 response-content language-json"
-                                       data-empty-response-text="<Empty response>"
-                                       style="max-height: 300px;"></code></pre>
-                        </div>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-                
-                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
-                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
-                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                                    <div class="sl--ml-2">
-                                        Example request:
-                                        <select class="example-request-lang-toggle sl-text-base"
-                                                aria-label="Request Sample Language"
-                                                onchange="switchExampleLanguage(event.target.value);">
-                                                                                            <option>bash</option>
-                                                                                            <option>javascript</option>
-                                                                                            <option>php</option>
-                                                                                            <option>python</option>
-                                                                                    </select>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
-                                     style="">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/support-tickets" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"data\": {
-        \"attributes\": {
-            \"subject\": \"architecto\",
-            \"message\": \"architecto\"
-        }
-    }
-}"
-</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/support-tickets"
-);
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "data": {
-        "attributes": {
-            "subject": "architecto",
-            "message": "architecto"
-        }
-    }
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/support-tickets';
-$response = $client-&gt;post(
-    $url,
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'data' =&gt; [
-                'attributes' =&gt; [
-                    'subject' =&gt; 'architecto',
-                    'message' =&gt; 'architecto',
-                ],
-            ],
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre>                                        </div>
-                                    </div>
-                                </div>
-                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
-                                     style="display: none;">
-                                    <div class="sl-px-0 sl-py-1">
-                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
-                                            <pre><code class="language-python">import requests
-import json
-
-url = 'http://localhost/api/v1/support-tickets'
-payload = {
-    "data": {
-        "attributes": {
-            "subject": "architecto",
-            "message": "architecto"
-        }
-    }
-}
-headers = {
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-
-response = requests.request('POST', url, headers=headers, json=payload)
 response.json()</code></pre>                                        </div>
                                     </div>
                                 </div>

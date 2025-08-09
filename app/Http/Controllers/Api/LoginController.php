@@ -10,6 +10,17 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
+    /**
+     * User login
+     * 
+     * Authenticate a user with email and password. Returns an access token upon successful authentication.
+     *
+     * @group Authentication
+     * @unauthenticated
+     * 
+     * @bodyParam data.attributes.email string required The user's email address. Example: john.doe@example.com
+     * @bodyParam data.attributes.password string required The user's password (minimum 8 characters). Example: securePassword123
+     */
     public function store(Request $request)
     {
         $request->validate([

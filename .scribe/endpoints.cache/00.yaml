@@ -207,34 +207,82 @@ endpoints:
         attributes:
           avatar: null
       avatar: null
-    responses:
-      -
-        status: 201
-        content: |-
-          {
-            "data": {
-              "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...",
-              "token_type": "Bearer",
-              "role": "individual",
-              "expires_in": null
-            }
-          }
-        headers: []
-        description: 'Registration successful'
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/auth/login
+    metadata:
+      groupName: Authentication
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User login'
+      description: 'Authenticate a user with email and password. Returns an access token upon successful authentication.'
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      data.attributes:
+        name: data.attributes
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
         custom: []
-      -
-        status: 422
-        content: |-
-          {
-            "message": "The given data was invalid.",
-            "errors": {
-              "email": ["The email has already been taken."],
-              "password": ["The password field is required."]
-            }
-          }
-        headers: []
-        description: 'Validation error'
+      data:
+        name: data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
         custom: []
+      data.attributes.email:
+        name: data.attributes.email
+        description: "The user's email address."
+        required: true
+        example: john.doe@example.com
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      data.attributes.password:
+        name: data.attributes.password
+        description: "The user's password (minimum 8 characters)."
+        required: true
+        example: securePassword123
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      data:
+        attributes:
+          email: john.doe@example.com
+          password: securePassword123
+    fileParameters: []
+    responses: []
     responseFields: []
     auth: []
     controller: null

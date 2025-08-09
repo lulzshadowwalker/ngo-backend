@@ -28,23 +28,6 @@ class RegisterIndividualController extends Controller
      * @bodyParam password_confirmation string required Password confirmation (must match password). Example: securePassword123
      * @bodyParam location_id integer required The ID of the user's location. Example: 1
      * @bodyParam avatar file optional Profile avatar image (jpg, png, gif, max 2MB).
-     *
-     * @response 201 scenario="Registration successful" {
-     *   "data": {
-     *     "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...",
-     *     "token_type": "Bearer",
-     *     "role": "individual",
-     *     "expires_in": null
-     *   }
-     * }
-     *
-     * @response 422 scenario="Validation error" {
-     *   "message": "The given data was invalid.",
-     *   "errors": {
-     *     "email": ["The email has already been taken."],
-     *     "password": ["The password field is required."]
-     *   }
-     * }
      */
     public function store(StoreRegisterIndividualRequest $request)
     {

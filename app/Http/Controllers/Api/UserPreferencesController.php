@@ -17,24 +17,6 @@ class UserPreferencesController extends Controller
      *
      * @group User Management
      * @authenticated
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": 1,
-     *     "user_id": 1,
-     *     "language": "en",
-     *     "appearance": "light",
-     *     "email_notifications": true,
-     *     "push_notifications": false,
-     *     "profile_visibility": "public",
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:00:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
      */
     public function index()
     {
@@ -59,31 +41,6 @@ class UserPreferencesController extends Controller
      * @bodyParam email_notifications boolean optional Enable/disable email notifications. Example: true
      * @bodyParam push_notifications boolean optional Enable/disable push notifications. Example: false
      * @bodyParam profile_visibility string optional Profile visibility (public, private, friends). Example: public
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": 1,
-     *     "user_id": 1,
-     *     "language": "en",
-     *     "appearance": "dark",
-     *     "email_notifications": true,
-     *     "push_notifications": false,
-     *     "profile_visibility": "public",
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:30:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
-     * 
-     * @response 422 scenario="Validation error" {
-     *   "message": "The given data was invalid.",
-     *   "errors": {
-     *     "appearance": ["The selected appearance is invalid."]
-     *   }
-     * }
      */
     public function update(UpdateUserPreferencesRequest $request)
     {

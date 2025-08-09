@@ -19,22 +19,6 @@ class OrganizationController extends Controller
      * @group Organizations
      * @unauthenticated
      * 
-     * @response 200 scenario="Success" {
-     *   "data": [
-     *     {
-     *       "id": 1,
-     *       "name": "Green Earth Foundation",
-     *       "slug": "green-earth-foundation",
-     *       "description": "Environmental conservation organization",
-     *       "email": "contact@greenearth.org",
-     *       "website": "https://greenearth.org",
-     *       "phone": "+1234567890",
-     *       "created_at": "2024-01-15T10:00:00.000000Z",
-     *       "updated_at": "2024-01-15T10:00:00.000000Z"
-     *     }
-     *   ]
-     * }
-     * 
      * @return AnonymousResourceCollection
      */
     public function index()
@@ -53,24 +37,6 @@ class OrganizationController extends Controller
      * @unauthenticated
      * 
      * @urlParam organization string required The slug of the organization. Example: green-earth-foundation
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": 1,
-     *     "name": "Green Earth Foundation",
-     *     "slug": "green-earth-foundation",
-     *     "description": "Environmental conservation organization",
-     *     "email": "contact@greenearth.org",
-     *     "website": "https://greenearth.org",
-     *     "phone": "+1234567890",
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:00:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 404 scenario="Organization not found" {
-     *   "message": "Organization not found"
-     * }
      * 
      * @return OrganizationResource
      */

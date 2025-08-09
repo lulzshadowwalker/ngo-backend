@@ -50,31 +50,7 @@ endpoints:
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
-    responses:
-      -
-        status: 204
-        content: '{}'
-        headers: []
-        description: Success
-        custom: []
-      -
-        status: 401
-        content: |-
-          {
-            "message": "Unauthenticated."
-          }
-        headers: []
-        description: Unauthenticated
-        custom: []
-      -
-        status: 404
-        content: |-
-          {
-            "message": "Post not found"
-          }
-        headers: []
-        description: 'Post not found'
-        custom: []
+    responses: []
     responseFields: []
     auth:
       - headers
@@ -133,31 +109,203 @@ endpoints:
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/posts/{post_slug}/comments'
+    metadata:
+      groupName: 'Comments & Likes'
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'List post comments'
+      description: 'Retrieve all comments for a specific post.'
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      post_slug:
+        name: post_slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      post:
+        name: post
+        description: 'The slug of the post.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      post_slug: 1
+      post: environmental-conservation-initiative
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
     responses:
       -
-        status: 204
-        content: '{}'
-        headers: []
-        description: Success
-        custom: []
-      -
         status: 401
-        content: |-
-          {
-            "message": "Unauthenticated."
-          }
-        headers: []
-        description: Unauthenticated
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
         custom: []
-      -
-        status: 404
-        content: |-
-          {
-            "message": "Post not found"
-          }
-        headers: []
-        description: 'Post not found'
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/v1/posts/{post_slug}/comments'
+    metadata:
+      groupName: 'Comments & Likes'
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Create a new comment'
+      description: 'Add a new comment to a specific post. Authentication is required.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      post_slug:
+        name: post_slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
         custom: []
+      post:
+        name: post
+        description: 'The slug of the post to comment on.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      post_slug: 1
+      post: environmental-conservation-initiative
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      data.relationships.comments.data.attributes:
+        name: data.relationships.comments.data.attributes
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.comments.data:
+        name: data.relationships.comments.data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.comments:
+        name: data.relationships.comments
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships:
+        name: data.relationships
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data:
+        name: data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.comments.data.attributes.content:
+        name: data.relationships.comments.data.attributes.content
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      content:
+        name: content
+        description: 'The comment content.'
+        required: true
+        example: 'This is a great initiative!'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      data:
+        relationships:
+          comments:
+            data:
+              attributes:
+                content: architecto
+      content: 'This is a great initiative!'
+    fileParameters: []
+    responses: []
     responseFields: []
     auth:
       - headers

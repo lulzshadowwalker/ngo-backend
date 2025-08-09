@@ -18,27 +18,6 @@ class NotificationController extends ApiController
      *
      * @group Notifications
      * @authenticated
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": [
-     *     {
-     *       "id": "9d785c8a-1234-5678-9abc-123456789012",
-     *       "type": "App\\Notifications\\PostLiked",
-     *       "data": {
-     *         "message": "Your post was liked by John Doe",
-     *         "post_id": 1,
-     *         "user_name": "John Doe"
-     *       },
-     *       "read_at": null,
-     *       "created_at": "2024-01-15T10:00:00.000000Z",
-     *       "updated_at": "2024-01-15T10:00:00.000000Z"
-     *     }
-     *   ]
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
      */
     public function index()
     {
@@ -55,29 +34,6 @@ class NotificationController extends ApiController
      * @authenticated
      * 
      * @urlParam notification string required The UUID of the notification. Example: 9d785c8a-1234-5678-9abc-123456789012
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": "9d785c8a-1234-5678-9abc-123456789012",
-     *     "type": "App\\Notifications\\PostLiked",
-     *     "data": {
-     *       "message": "Your post was liked by John Doe",
-     *       "post_id": 1,
-     *       "user_name": "John Doe"
-     *     },
-     *     "read_at": null,
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:00:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
-     * 
-     * @response 404 scenario="Notification not found" {
-     *   "message": "Notification not found"
-     * }
      */
     public function show(DatabaseNotification $notification)
     {
@@ -94,29 +50,6 @@ class NotificationController extends ApiController
      * @authenticated
      * 
      * @urlParam notification string required The UUID of the notification to mark as read. Example: 9d785c8a-1234-5678-9abc-123456789012
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": "9d785c8a-1234-5678-9abc-123456789012",
-     *     "type": "App\\Notifications\\PostLiked",
-     *     "data": {
-     *       "message": "Your post was liked by John Doe",
-     *       "post_id": 1,
-     *       "user_name": "John Doe"
-     *     },
-     *     "read_at": "2024-01-15T10:30:00.000000Z",
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:30:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
-     * 
-     * @response 404 scenario="Notification not found" {
-     *   "message": "Notification not found"
-     * }
      */
     public function markAsRead(DatabaseNotification $notification)
     {
@@ -133,27 +66,6 @@ class NotificationController extends ApiController
      *
      * @group Notifications
      * @authenticated
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": [
-     *     {
-     *       "id": "9d785c8a-1234-5678-9abc-123456789012",
-     *       "type": "App\\Notifications\\PostLiked",
-     *       "data": {
-     *         "message": "Your post was liked by John Doe",
-     *         "post_id": 1,
-     *         "user_name": "John Doe"
-     *       },
-     *       "read_at": "2024-01-15T10:30:00.000000Z",
-     *       "created_at": "2024-01-15T10:00:00.000000Z",
-     *       "updated_at": "2024-01-15T10:30:00.000000Z"
-     *     }
-     *   ]
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
      */
     public function markAllAsRead()
     {
@@ -172,18 +84,6 @@ class NotificationController extends ApiController
      * @authenticated
      * 
      * @urlParam notification string required The UUID of the notification to delete. Example: 9d785c8a-1234-5678-9abc-123456789012
-     * 
-     * @response 200 scenario="Success" {
-     *   "message": "notification deleted successfully"
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
-     * 
-     * @response 404 scenario="Notification not found" {
-     *   "message": "Notification not found"
-     * }
      */
     public function destroy(DatabaseNotification $notification)
     {
@@ -202,14 +102,6 @@ class NotificationController extends ApiController
      *
      * @group Notifications
      * @authenticated
-     * 
-     * @response 200 scenario="Success" {
-     *   "message": "all notifications deleted successfully"
-     * }
-     * 
-     * @response 401 scenario="Unauthenticated" {
-     *   "message": "Unauthenticated."
-     * }
      */
     public function destroyAll()
     {

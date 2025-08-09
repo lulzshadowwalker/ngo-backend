@@ -30,31 +30,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: |-
-          {
-            "data": [
-              {
-                "id": 1,
-                "name": "Environmental Science",
-                "slug": "environmental-science",
-                "description": "Knowledge and expertise in environmental conservation",
-                "category": "Science",
-                "created_at": "2024-01-15T10:00:00.000000Z",
-                "updated_at": "2024-01-15T10:00:00.000000Z"
-              },
-              {
-                "id": 2,
-                "name": "Community Outreach",
-                "slug": "community-outreach",
-                "description": "Experience in community engagement and outreach programs",
-                "category": "Social",
-                "created_at": "2024-01-15T10:00:00.000000Z",
-                "updated_at": "2024-01-15T10:00:00.000000Z"
-              }
-            ]
-          }
-        headers: []
-        description: Success
+        content: '{"data":[{"type":"skills","id":"1","attributes":{"name":"Cara Bernhard","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"2","attributes":{"name":"Glennie Stark","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"3","attributes":{"name":"Mr. Donnell Gutmann Jr.","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"4","attributes":{"name":"Clotilde Denesik","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"5","attributes":{"name":"Keaton Wilderman","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"6","attributes":{"name":"Monica Abshire III","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"7","attributes":{"name":"Prof. Kiarra Balistreri","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"8","attributes":{"name":"Dolores Gutkowski","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"9","attributes":{"name":"Jadon Dickens PhD","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}},{"type":"skills","id":"10","attributes":{"name":"Dr. Stephon Schamberger II","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
         custom: []
     responseFields: []
     auth: []
@@ -113,29 +94,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: |-
-          {
-            "data": {
-              "id": 1,
-              "name": "Environmental Science",
-              "slug": "environmental-science",
-              "description": "Knowledge and expertise in environmental conservation and sustainability practices",
-              "category": "Science",
-              "created_at": "2024-01-15T10:00:00.000000Z",
-              "updated_at": "2024-01-15T10:00:00.000000Z"
-            }
-          }
-        headers: []
-        description: Success
-        custom: []
-      -
-        status: 404
-        content: |-
-          {
-            "message": "Skill not found"
-          }
-        headers: []
-        description: 'Skill not found'
+        content: '{"data":{"type":"skills","id":"1","attributes":{"name":"Cara Bernhard","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{}}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
         custom: []
     responseFields: []
     auth: []
@@ -172,37 +136,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: |-
-          {
-            "data": [
-              {
-                "id": 1,
-                "name": "New York City",
-                "slug": "new-york-city",
-                "country": "United States",
-                "state": "New York",
-                "city": "New York City",
-                "latitude": 40.7128,
-                "longitude": -74.0060,
-                "created_at": "2024-01-15T10:00:00.000000Z",
-                "updated_at": "2024-01-15T10:00:00.000000Z"
-              },
-              {
-                "id": 2,
-                "name": "London",
-                "slug": "london",
-                "country": "United Kingdom",
-                "state": "England",
-                "city": "London",
-                "latitude": 51.5074,
-                "longitude": -0.1278,
-                "created_at": "2024-01-15T10:00:00.000000Z",
-                "updated_at": "2024-01-15T10:00:00.000000Z"
-              }
-            ]
-          }
-        headers: []
-        description: Success
+        content: '{"data":[{"type":"locations","id":"1","attributes":{"city":"Port Christop","country":"Tuvalu","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"2","attributes":{"city":"North Bellaberg","country":"Kuwait","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"3","attributes":{"city":"Kayaview","country":"Tuvalu","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"4","attributes":{"city":"Lake Katheryn","country":"Pakistan","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"5","attributes":{"city":"Russelfort","country":"Angola","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"6","attributes":{"city":"Dachside","country":"Montserrat","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"7","attributes":{"city":"Brownport","country":"Bermuda","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"8","attributes":{"city":"McDermottmouth","country":"Equatorial Guinea","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"9","attributes":{"city":"East Faustino","country":"Panama","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"10","attributes":{"city":"Lake Makenziefort","country":"Czech Republic","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"11","attributes":{"city":"Delialand","country":"Heard Island and McDonald Islands","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"12","attributes":{"city":"Lake Dougmouth","country":"Belarus","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"13","attributes":{"city":"Pourosview","country":"Reunion","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"14","attributes":{"city":"East Shawnachester","country":"Greenland","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"15","attributes":{"city":"Lindseymouth","country":"Jersey","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"16","attributes":{"city":"West Easter","country":"Canada","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"17","attributes":{"city":"West Montanamouth","country":"Yemen","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"18","attributes":{"city":"Volkmanton","country":"Timor-Leste","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"19","attributes":{"city":"Agustinahaven","country":"Korea","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"20","attributes":{"city":"South Leifside","country":"Saint Martin","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"21","attributes":{"city":"West Luciuschester","country":"Tuvalu","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"22","attributes":{"city":"Reynoldston","country":"Cape Verde","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"23","attributes":{"city":"West Maxburgh","country":"Thailand","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"24","attributes":{"city":"Lake Genevieveville","country":"Ireland","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"25","attributes":{"city":"New Esther","country":"South Africa","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"26","attributes":{"city":"Diannaburgh","country":"Germany","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"27","attributes":{"city":"Dayanaberg","country":"Norway","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"28","attributes":{"city":"East Crystalview","country":"Antarctica (the territory South of 60 deg S)","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"29","attributes":{"city":"West Brice","country":"Saint Vincent and the Grenadines","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"30","attributes":{"city":"South Seamusmouth","country":"Norway","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"31","attributes":{"city":"Borerside","country":"Turks and Caicos Islands","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"32","attributes":{"city":"East Ivahhaven","country":"Cape Verde","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"33","attributes":{"city":"Fabiolaberg","country":"Saint Vincent and the Grenadines","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"34","attributes":{"city":"Cronaborough","country":"British Virgin Islands","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"35","attributes":{"city":"Port Tatyana","country":"Costa Rica","createdAt":"2025-08-03T16:53:26+00:00","updatedAt":"2025-08-03T16:53:26+00:00"},"relationships":{"individuals":[],"organizations":[]}}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
         custom: []
     responseFields: []
     auth: []
@@ -261,33 +200,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: |-
-          {
-            "data": {
-              "id": 1,
-              "name": "New York City",
-              "slug": "new-york-city",
-              "country": "United States",
-              "state": "New York",
-              "city": "New York City",
-              "latitude": 40.7128,
-              "longitude": -74.0060,
-              "timezone": "America/New_York",
-              "created_at": "2024-01-15T10:00:00.000000Z",
-              "updated_at": "2024-01-15T10:00:00.000000Z"
-            }
-          }
-        headers: []
-        description: Success
-        custom: []
-      -
-        status: 404
-        content: |-
-          {
-            "message": "Location not found"
-          }
-        headers: []
-        description: 'Location not found'
+        content: '{"data":{"type":"locations","id":"1","attributes":{"city":"Port Christop","country":"Tuvalu","createdAt":"2025-08-03T16:53:25+00:00","updatedAt":"2025-08-03T16:53:25+00:00"},"relationships":{"individuals":[],"organizations":[]}}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
         custom: []
     responseFields: []
     auth: []

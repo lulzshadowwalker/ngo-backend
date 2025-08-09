@@ -24,21 +24,6 @@ class PostController extends ApiController
      * @queryParam search string Search posts by title or content. Example: environment
      * @queryParam include string Include related data (comma-separated: likes,comments,organization). Example: likes,comments
      * 
-     * @response 200 scenario="Success" {
-     *   "data": [
-     *     {
-     *       "id": 1,
-     *       "title": "Environmental Conservation Initiative",
-     *       "slug": "environmental-conservation-initiative",
-     *       "content": "Join us in our mission to protect the environment...",
-     *       "excerpt": "Join us in our mission to protect...",
-     *       "published_at": "2024-01-15T10:00:00.000000Z",
-     *       "created_at": "2024-01-15T10:00:00.000000Z",
-     *       "updated_at": "2024-01-15T10:00:00.000000Z"
-     *     }
-     *   ]
-     * }
-     * 
      * @return AnonymousResourceCollection
      */
     public function index(PostFilter $filters)
@@ -58,30 +43,6 @@ class PostController extends ApiController
      * 
      * @urlParam post string required The slug of the post. Example: environmental-conservation-initiative
      * @queryParam include string Include related data (comma-separated: likes,comments,organization). Example: likes,comments,organization
-     * 
-     * @response 200 scenario="Success" {
-     *   "data": {
-     *     "id": 1,
-     *     "title": "Environmental Conservation Initiative",
-     *     "slug": "environmental-conservation-initiative",
-     *     "content": "Join us in our mission to protect the environment and create a sustainable future for generations to come...",
-     *     "excerpt": "Join us in our mission to protect the environment...",
-     *     "published_at": "2024-01-15T10:00:00.000000Z",
-     *     "organization": {
-     *       "id": 1,
-     *       "name": "Green Earth Foundation",
-     *       "slug": "green-earth-foundation"
-     *     },
-     *     "likes_count": 15,
-     *     "comments_count": 3,
-     *     "created_at": "2024-01-15T10:00:00.000000Z",
-     *     "updated_at": "2024-01-15T10:00:00.000000Z"
-     *   }
-     * }
-     * 
-     * @response 404 scenario="Post not found" {
-     *   "message": "Post not found"
-     * }
      * 
      * @return PostResource
      */
