@@ -44,20 +44,20 @@ Route::get('/support-tickets/{supportTicket}', [SupportTicketController::class, 
 Route::post('/support-tickets', [SupportTicketController::class, 'store'])->name('api.v1.support-tickets.store');
 
 Route::get('/notifications', [NotificationController::class, 'index'])
-->middleware('auth:sanctum')
-->name('api.v1.notifications.index');
+    ->middleware('auth:sanctum')
+    ->name('api.v1.notifications.index');
 Route::get('/notifications/{notification}', [NotificationController::class, 'show'])
-->middleware('auth:sanctum')
-->name('api.v1.notifications.show');
+    ->middleware('auth:sanctum')
+    ->name('api.v1.notifications.show');
 Route::patch('/notifications/{notification}/read', [NotificationController::class, 'markAsRead'])
-->middleware('auth:sanctum')
-->name('api.v1.notifications.mark-as-read');
+    ->middleware('auth:sanctum')
+    ->name('api.v1.notifications.mark-as-read');
 Route::patch('/notifications/read', [NotificationController::class, 'markAllAsRead'])
-->middleware('auth:sanctum')
-->name('api.v1.notifications.mark-all-as-read');
+    ->middleware('auth:sanctum')
+    ->name('api.v1.notifications.mark-all-as-read');
 Route::delete('/notifications/{notification}', [NotificationController::class, 'destroy'])
-->middleware('auth:sanctum')
-->name('api.v1.notifications.destroy.single');
+    ->middleware('auth:sanctum')
+    ->name('api.v1.notifications.destroy.single');
 Route::delete('/notifications', [NotificationController::class, 'destroyAll'])
-->middleware('auth:sanctum')
-->name('api.v1.notifications.destroy.all');
+    ->middleware('auth:sanctum')
+    ->name('api.v1.notifications.destroy.all');

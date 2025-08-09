@@ -1,0 +1,201 @@
+name: Posts
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/posts
+    metadata:
+      groupName: Posts
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'List all posts'
+      description: |-
+        Retrieve a paginated list of posts with optional filtering capabilities.
+        Posts can be filtered by various criteria such as organization, date, or status.
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters:
+      organization_id:
+        name: organization_id
+        description: 'Filter posts by organization ID.'
+        required: false
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      status:
+        name: status
+        description: 'Filter posts by status (active, draft, archived).'
+        required: false
+        example: active
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      search:
+        name: search
+        description: 'Search posts by title or content.'
+        required: false
+        example: environment
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      include:
+        name: include
+        description: 'Include related data (comma-separated: likes,comments,organization).'
+        required: false
+        example: 'likes,comments'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      organization_id: 1
+      status: active
+      search: environment
+      include: 'likes,comments'
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "data": [
+              {
+                "id": 1,
+                "title": "Environmental Conservation Initiative",
+                "slug": "environmental-conservation-initiative",
+                "content": "Join us in our mission to protect the environment...",
+                "excerpt": "Join us in our mission to protect...",
+                "published_at": "2024-01-15T10:00:00.000000Z",
+                "created_at": "2024-01-15T10:00:00.000000Z",
+                "updated_at": "2024-01-15T10:00:00.000000Z"
+              }
+            ]
+          }
+        headers: []
+        description: Success
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/posts/{slug}'
+    metadata:
+      groupName: Posts
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get post details'
+      description: |-
+        Retrieve detailed information about a specific post using its slug.
+        You can include related data such as likes, comments, and organization details
+        using the include parameter.
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      slug:
+        name: slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      post:
+        name: post
+        description: 'The slug of the post.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      slug: 1
+      post: environmental-conservation-initiative
+    queryParameters:
+      include:
+        name: include
+        description: 'Include related data (comma-separated: likes,comments,organization).'
+        required: false
+        example: 'likes,comments,organization'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      include: 'likes,comments,organization'
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "data": {
+              "id": 1,
+              "title": "Environmental Conservation Initiative",
+              "slug": "environmental-conservation-initiative",
+              "content": "Join us in our mission to protect the environment and create a sustainable future for generations to come...",
+              "excerpt": "Join us in our mission to protect the environment...",
+              "published_at": "2024-01-15T10:00:00.000000Z",
+              "organization": {
+                "id": 1,
+                "name": "Green Earth Foundation",
+                "slug": "green-earth-foundation"
+              },
+              "likes_count": 15,
+              "comments_count": 3,
+              "created_at": "2024-01-15T10:00:00.000000Z",
+              "updated_at": "2024-01-15T10:00:00.000000Z"
+            }
+          }
+        headers: []
+        description: Success
+        custom: []
+      -
+        status: 404
+        content: |-
+          {
+            "message": "Post not found"
+          }
+        headers: []
+        description: 'Post not found'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
