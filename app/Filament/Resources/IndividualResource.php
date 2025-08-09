@@ -210,7 +210,6 @@ class IndividualResource extends Resource
                     ->label('Skills')
                     ->badge()
                     ->listWithLineBreaks()
-                    ->bulleted()
                     ->limitList(3)
                     ->expandableLimitedList()
                     ->getStateUsing(fn ($record) => $record->skills->pluck('name')),
