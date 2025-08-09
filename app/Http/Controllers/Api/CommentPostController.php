@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StorePostCommentRequest;
+use App\Http\Resources\CommentResource;
 use App\Http\Resources\PostResource;
 use App\Models\Post;
 
@@ -11,14 +12,19 @@ use App\Models\Post;
 
 class CommentPostController extends Controller
 {
+    public function index(Post $post)
+    {
+        return CommentResource::collection($post->comments);
+    }
+
     public function store(StorePostCommentRequest $request, Post $post)
     {
-        $post->comments()->create([
+        $comment = $post->comments()->create([
             'user_id' => $request->user()->id,
             'content' => $request->content(),
         ]);
 
-        return PostResource::make($post->fresh()->load('comments'))
+        return CommentResource::make($comment)
             ->response()
             ->setStatusCode(201);
     }

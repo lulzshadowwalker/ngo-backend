@@ -9,21 +9,21 @@ class LikePostController extends Controller
 {
     /**
      * Like a post
-     * 
+     *
      * Add a like to a specific post. If the user has already liked the post,
      * this endpoint will update the existing like record. Authentication is required.
      *
      * @group Comments & Likes
      * @authenticated
-     * 
+     *
      * @urlParam post string required The slug of the post to like. Example: environmental-conservation-initiative
-     * 
+     *
      * @response 204 scenario="Success" {}
-     * 
+     *
      * @response 401 scenario="Unauthenticated" {
      *   "message": "Unauthenticated."
      * }
-     * 
+     *
      * @response 404 scenario="Post not found" {
      *   "message": "Post not found"
      * }
@@ -40,21 +40,21 @@ class LikePostController extends Controller
 
     /**
      * Unlike a post
-     * 
+     *
      * Remove a like from a specific post. If the user hasn't liked the post,
      * this endpoint will have no effect. Authentication is required.
      *
      * @group Comments & Likes
      * @authenticated
-     * 
+     *
      * @urlParam post string required The slug of the post to unlike. Example: environmental-conservation-initiative
-     * 
+     *
      * @response 204 scenario="Success" {}
-     * 
+     *
      * @response 401 scenario="Unauthenticated" {
      *   "message": "Unauthenticated."
      * }
-     * 
+     *
      * @response 404 scenario="Post not found" {
      *   "message": "Post not found"
      * }

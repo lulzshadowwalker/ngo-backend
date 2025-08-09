@@ -34,6 +34,7 @@ Route::get('/posts/{post:slug}', [PostController::class, 'show'])->name('api.v1.
 Route::post('/posts/{post:slug}/like', [LikePostController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.posts.likes.store');
 Route::delete('/posts/{post:slug}/like', [LikePostController::class, 'destroy'])->middleware('auth:sanctum')->name('api.v1.posts.likes.destroy');
 
+Route::get('/posts/{post:slug}/comments', [CommentPostController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.posts.comments.index');
 Route::post('/posts/{post:slug}/comments', [CommentPostController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.posts.comments.store');
 
 Route::get('/pages', [PageController::class, 'index'])->name('api.v1.pages.index');
