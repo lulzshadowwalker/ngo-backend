@@ -32,7 +32,7 @@ trait InteractsWithFirebase
     /**
      * Get the Firebase access token.
      * Scopes are set to messaging only.
-     *
+     * 
      * @return string
      */
     protected static function accessToken(): string

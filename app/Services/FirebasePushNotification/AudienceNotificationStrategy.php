@@ -17,9 +17,9 @@ class AudienceNotificationStrategy implements NotificationStrategy
     /**
      * @param PushNotification $notification
      * @param Audience $notifiable
-     *
+     * 
      * @throws Exception
-     *
+     * 
      * @return void
      */
     public static function send(PushNotification $notification, $audience): void
