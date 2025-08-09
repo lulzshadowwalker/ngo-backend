@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class IndividualResource extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @return array<string, mixed>
+     */
+    public function toArray(Request $request): array
+    {
+        return [
+            'type' => 'individual',
+            'id' => (string) $this->id,
+            'attributes' => [
+                'name' => $this->user->name,
+                'email' => $this->user->email,
+                'avatar' => $this->user->avatar,
+                'bio' => $this->bio,
+                'birthdate' => $this->birthdate,
+            ],
+            'includes' => [
+                'location' => LocationResource::make($this->location),
+                'skills' => SkillResource::collection($this->skills),
+                // 'volunteeringInterests' => VolunteeringInterestResource::collection($this->volunteeringInterests),
+            ],
+        ];
+    }
+}

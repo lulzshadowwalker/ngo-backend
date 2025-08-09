@@ -12,6 +12,7 @@ use App\Http\Controllers\Api\PageController;
 use App\Http\Controllers\Api\FollowOrganizationController;
 use App\Http\Controllers\Api\SupportTicketController;
 use App\Http\Controllers\Api\NotificationController;
+use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\RegisterIndividualController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,7 +21,7 @@ Route::post('/auth/login', [LoginController::class, 'store'])->name('api.v1.auth
 
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');
-// Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
+Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
 
 Route::get('/organizations', [OrganizationController::class, 'index'])->name('api.v1.organizations.index');
 Route::get('/organizations/{organization:slug}', [OrganizationController::class, 'show',])->name('api.v1.organizations.show');
