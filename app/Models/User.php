@@ -18,8 +18,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Support\Str;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
 
-class User extends Authenticatable implements HasMedia
+class User extends Authenticatable implements HasMedia, FilamentUser
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable, HasApiTokens, HasRoles, InteractsWithMedia;
@@ -157,5 +159,18 @@ class User extends Authenticatable implements HasMedia
         return Attribute::get(
             fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_AVATAR) ?: null
         );
+    }
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        if ($panel->getId() === 'admin') {
+            return $this->isAdmin;
+        }
+
+        if ($panel->getId() === 'organizer') {
+            return $this->isOrganizer;
+        }
+
+        return false;
     }
 }

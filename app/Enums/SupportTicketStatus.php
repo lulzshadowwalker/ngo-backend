@@ -2,13 +2,13 @@
 
 namespace App\Enums;
 
-// use Filament\Support\Contracts\HasColor;
-// use Filament\Support\Contracts\HasIcon;
-// use Filament\Support\Contracts\HasLabel;
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
 
 // TODO: Rename enum cases to follow a consistent naming convention (lowercase)
 
-enum SupportTicketStatus: string // implements HasLabel, HasColor, HasIcon
+enum SupportTicketStatus: string implements HasLabel, HasColor, HasIcon
 {
     case Open = 'open';
     case InProgress = 'in-progress';
@@ -45,9 +45,9 @@ enum SupportTicketStatus: string // implements HasLabel, HasColor, HasIcon
     public function getIcon(): ?string
     {
         return match ($this) {
-            self::Open => 'far-folder-open',
-            self::InProgress => 'fas-arrows-rotate',
-            self::Resolved => 'far-folder',
+            self::Open => 'heroicon-o-folder-open',
+            self::InProgress => 'heroicon-o-arrow-path',
+            self::Resolved => 'heroicon-o-check-circle',
         };
     }
 }
