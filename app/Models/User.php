@@ -15,11 +15,14 @@ use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 use App\Enums\Role;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+use Illuminate\Support\Str;
 
-class User extends Authenticatable
+class User extends Authenticatable implements HasMedia
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable, HasApiTokens, HasRoles;
+    use HasFactory, Notifiable, HasApiTokens, HasRoles, InteractsWithMedia;
 
 
     /**
@@ -54,7 +57,7 @@ class User extends Authenticatable
         return Attribute::get(fn(): bool => $this->hasRole(Role::individual->value));
     }
 
-    public function isOrganization(): Attribute
+    public function isOrganizer(): Attribute
     {
         return Attribute::get(fn(): bool => $this->hasRole(Role::organization->value));
     }
@@ -84,6 +87,13 @@ class User extends Authenticatable
             $query->where('name', Role::admin->value);
         });
     }
+
+    public function individual()
+    {
+        return $this->hasOne(Individual::class);
+    }
+
+    //  TODO: We need an organizer model and link the organizer model to the organization model
 
     public function comments()
     {
@@ -115,5 +125,37 @@ class User extends Authenticatable
         // TODO: Implement a method to retrieve device tokens for push notifications.
         return [];
         return $this->deviceTokens->pluck("token")->toArray();
+    }
+
+    const MEDIA_COLLECTION_AVATAR = 'avatar';
+
+    public function registerMediaCollections(): void
+    {
+        $name = Str::replace(" ", "+", $this->name);
+
+        $this->addMediaCollection(self::MEDIA_COLLECTION_AVATAR)
+            ->singleFile()
+            ->useFallbackUrl("https://ui-avatars.com/api/?name={$name}");
+    }
+
+    /**
+     * Get the user's avatar URL.
+     */
+    public function avatar(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_AVATAR) ?:
+                null
+        );
+    }
+
+    /**
+     * Get the user's avatar file.
+     */
+    public function avatarFile(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_AVATAR) ?: null
+        );
     }
 }
