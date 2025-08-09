@@ -17,7 +17,8 @@ class Individual extends Model
      *
      * @var array
      */
-    protected $fillable = ["name", "bio", "birthdate", "location_id"];
+    // TODO: we need to add user id + relation methods
+    protected $fillable = ["bio", "birthdate", "location_id", "user_id"];
 
     /**
      * Get the attributes that should be cast.
@@ -30,6 +31,11 @@ class Individual extends Model
             "id" => "integer",
             "location_id" => "integer",
         ];
+    }
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
     }
 
     public function location(): BelongsTo

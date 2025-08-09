@@ -3,9 +3,9 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use App\Models\Individual;
 use App\Models\Location;
+use App\Models\User;
 
 class IndividualFactory extends Factory
 {
@@ -22,9 +22,9 @@ class IndividualFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
-            'bio' => fake()->sentence(),
-            'birthdate' => fake()->date(),
+            'user_id' => User::factory(),
+            'bio' => fake()->optional()->sentence(),
+            'birthdate' => fake()->optional()->date(),
             'location_id' => Location::factory(),
         ];
     }
