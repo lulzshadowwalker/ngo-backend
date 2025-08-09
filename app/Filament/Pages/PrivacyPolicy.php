@@ -41,7 +41,7 @@ class PrivacyPolicy extends Page
         $page = ModelsPage::where('slug', ModelsPage::PRIVACY_POLICY)->first();
 
         $this->form->fill([
-            'content' => $page->content,
+            'content' => $page->getTranslations('content'),
         ]);
     }
 
@@ -57,7 +57,8 @@ class PrivacyPolicy extends Page
                         Forms\Components\Textarea::make('content')
                             ->label('Content')
                             ->rows(10)
-                            ->required(),
+                            ->required()
+                            ->translatable(),
                     ]),
             ]);
     }

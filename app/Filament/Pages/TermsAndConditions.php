@@ -41,7 +41,7 @@ class TermsAndConditions extends Page
         $page = ModelsPage::where('slug', ModelsPage::TERMS_AND_CONDITIONS)->first();
 
         $this->form->fill([
-            'content' => $page->content,
+            'content' => $page->getTranslations('content'),
         ]);
     }
 
@@ -57,7 +57,8 @@ class TermsAndConditions extends Page
                         Forms\Components\Textarea::make('content')
                             ->label('Content')
                             ->rows(10)
-                            ->required(),
+                            ->required()
+                            ->translatable(),
                     ]),
             ]);
     }
