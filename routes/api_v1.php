@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\LocationController;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\UserPreferencesController;
 use App\Http\Controllers\Api\PageController;
+use App\Http\Controllers\Api\FollowOrganizationController;
 use App\Http\Controllers\Api\SupportTicketController;
 use App\Http\Controllers\Api\NotificationController;
 use App\Http\Controllers\Api\RegisterIndividualController;
@@ -23,6 +24,8 @@ Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->m
 
 Route::get('/organizations', [OrganizationController::class, 'index'])->name('api.v1.organizations.index');
 Route::get('/organizations/{organization:slug}', [OrganizationController::class, 'show',])->name('api.v1.organizations.show');
+Route::post('/organizations/{organization:slug}/follows', [FollowOrganizationController::class, 'store',])->name('api.v1.organizations.follows.store')->middleware('auth:sanctum');
+Route::delete('/organizations/{organization:slug}/follows', [FollowOrganizationController::class, 'destroy',])->name('api.v1.organizations.follows.destroy')->middleware('auth:sanctum');
 
 Route::get('/skills', [SkillController::class, 'index'])->name('api.v1.skills.index');
 Route::get('/skills/{skill}', [SkillController::class, 'show'])->name('api.v1.skills.show');
