@@ -30,6 +30,8 @@ class Individual extends Model
         return [
             "id" => "integer",
             "location_id" => "integer",
+            "user_id" => "integer",
+            "birthdate" => "date",
         ];
     }
 
