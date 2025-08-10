@@ -17,6 +17,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/telescope": "^5.11",
         "laravel/tinker": "^2.10.1",
+        "outerweb/filament-translatable-fields": "^2.1",
         "predis/predis": "^3.2",
         "spatie/laravel-medialibrary": "^11.13",
         "spatie/laravel-permission": "^6.21",

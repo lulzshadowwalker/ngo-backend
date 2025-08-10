@@ -19,7 +19,7 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-// use Outerweb\FilamentTranslatableFields\Filament\Plugins\FilamentTranslatableFieldsPlugin;
+use Outerweb\FilamentTranslatableFields\Filament\Plugins\FilamentTranslatableFieldsPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -88,11 +88,11 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->plugins([
-                //  FilamentTranslatableFieldsPlugin::make()
-                //     ->supportedLocales([
-                //         'en' => 'English',
-                //         'ar' => 'Arabic',
-                //     ]),
+                 FilamentTranslatableFieldsPlugin::make()
+                    ->supportedLocales([
+                        'en' => 'English',
+                        'ar' => 'Arabic',
+                    ]),
             ]);
     }
 }
