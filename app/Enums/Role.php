@@ -2,11 +2,11 @@
 
 namespace App\Enums;
 
-// use Filament\Support\Contracts\HasColor;
-// use Filament\Support\Contracts\HasIcon;
-// use Filament\Support\Contracts\HasLabel;
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
 
-enum Role: string // implements HasLabel, HasColor, HasIcon
+enum Role: string implements HasLabel, HasColor, HasIcon
 {
     case individual = 'individual';
     // TODO: what if organizations may have multiple users. I don't believe an organization should be a role

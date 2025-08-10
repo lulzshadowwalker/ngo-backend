@@ -30,7 +30,7 @@ class ProfileControllerTest extends TestCase
                         'email' => $individual->user->email,
                         'avatar' => $individual->user->avatar,
                         'bio' => $individual->bio,
-                        'birthdate' => $individual->birthdate,
+                        'birthdate' => $individual->birthdate?->toISOString(),
                     ],
                 ],
             ]);

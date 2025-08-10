@@ -23,7 +23,7 @@ class PushNotificationTest extends TestCase
     {
         Livewire::test(PushNotification::class)
             ->fillForm([
-                'audience' => Audience::Clients->value,
+                'audience' => Audience::individuals->value,
                 'image' => null,
                 'title' => 'Test Title',
                 'body' => 'Test Body',

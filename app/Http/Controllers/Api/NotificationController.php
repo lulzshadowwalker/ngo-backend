@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Api\V1;
+namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Api\ApiController;
-use App\Http\Resources\V1\NotificationResource;
+use App\Http\Resources\NotificationResource;
 use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;

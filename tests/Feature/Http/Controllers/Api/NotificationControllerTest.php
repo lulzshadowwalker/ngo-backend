@@ -1,9 +1,8 @@
 <?php
 
-namespace Tests\Feature\Http\Controllers\Api\V1;
+namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Enums\Language;
-use App\Http\Resources\V1\NotificationResource;
+use App\Http\Resources\NotificationResource;
 use App\Models\User;
 use App\Notifications\FakeDatabaseNotification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -33,9 +32,9 @@ class NotificationControllerTest extends TestCase
     {
         FacadesNotification::send($this->user, new FakeDatabaseNotification);
         $resource = NotificationResource::collection($this->user->notifications);
-        $request = Request::create(route('api.v1.notifications.index', ['lang' => Language::En]), 'get');
+        $request = Request::create(route('api.v1.notifications.index'), 'get');
 
-        $this->getJson(route('api.v1.notifications.index', ['lang' => Language::En]))
+        $this->getJson(route('api.v1.notifications.index'))
             ->assertStatus(Response::HTTP_OK)
             ->assertExactJson(
                 $resource->response($request)->getData(true),
@@ -48,12 +47,10 @@ class NotificationControllerTest extends TestCase
         $notification = $this->user->notifications->first();
         $resource = NotificationResource::make($notification);
         $request = Request::create(route('api.v1.notifications.show', [
-            'lang' => Language::En,
             'notification' => $notification
         ]), 'get');
 
         $this->getJson(route('api.v1.notifications.show', [
-            'lang' => Language::En,
             'notification' => $notification
         ]))
             ->assertStatus(Response::HTTP_OK)
@@ -72,13 +69,11 @@ class NotificationControllerTest extends TestCase
 
         $resource = NotificationResource::make($readNotification);
         $request = Request::create(route('api.v1.notifications.mark-as-read', [
-            'lang' => Language::En,
             'notification' => $notification
         ]), 'patch');
 
 
         $this->patchJson(route('api.v1.notifications.mark-as-read', [
-            'lang' => Language::En,
             'notification' => $notification
         ]))
             ->assertStatus(Response::HTTP_OK)
@@ -91,9 +86,9 @@ class NotificationControllerTest extends TestCase
     {
         FacadesNotification::send($this->user, new FakeDatabaseNotification);
         $resource = NotificationResource::collection($this->user->notifications);
-        $request = Request::create(route('api.v1.notifications.mark-all-as-read', ['lang' => Language::En]), 'patch');
+        $request = Request::create(route('api.v1.notifications.mark-all-as-read'), 'patch');
 
-        $this->patchJson(route('api.v1.notifications.mark-all-as-read', ['lang' => Language::En]))
+        $this->patchJson(route('api.v1.notifications.mark-all-as-read'))
             ->assertStatus(Response::HTTP_OK)
             ->assertExactJson(
                 $resource->response($request)->getData(true),
@@ -106,12 +101,10 @@ class NotificationControllerTest extends TestCase
         $notification = $this->user->notifications->first();
 
         $request = Request::create(route('api.v1.notifications.destroy.single', [
-            'lang' => Language::En,
             'notification' => $notification
         ]), 'delete');
 
         $this->deleteJson(route('api.v1.notifications.destroy.single', [
-            'lang' => Language::En,
             'notification' => $notification
         ]))
             ->assertStatus(Response::HTTP_OK);
@@ -120,9 +113,9 @@ class NotificationControllerTest extends TestCase
     public function test_it_deletes_all_notifications()
     {
         FacadesNotification::send($this->user, new FakeDatabaseNotification);
-        $request = Request::create(route('api.v1.notifications.destroy.all', ['lang' => Language::En]), 'delete');
+        $request = Request::create(route('api.v1.notifications.destroy.all'), 'delete');
 
-        $this->deleteJson(route('api.v1.notifications.destroy.all', ['lang' => Language::En]))
+        $this->deleteJson(route('api.v1.notifications.destroy.all'))
             ->assertStatus(Response::HTTP_OK);
     }
 }
