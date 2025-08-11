@@ -24,7 +24,7 @@ class ProfileController extends Controller
 
         switch (true) {
             case $user->isIndividual:
-                return IndividualResource::make($user->individual);
+                return IndividualResource::make($user->individual->load(['location', 'skills']));
             case $user->isOrganizer:
                 throw new Exception('User type not recognized');
             default:

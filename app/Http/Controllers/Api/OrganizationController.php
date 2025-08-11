@@ -23,7 +23,7 @@ class OrganizationController extends Controller
      */
     public function index()
     {
-        return OrganizationResource::collection(Organization::all());
+        return OrganizationResource::collection(Organization::with('location', 'sector')->get());
     }
 
     /**
@@ -42,6 +42,7 @@ class OrganizationController extends Controller
      */
     public function show(Organization $organization)
     {
+        $organization->load('location', 'sector');
         return OrganizationResource::make($organization);
     }
 }
