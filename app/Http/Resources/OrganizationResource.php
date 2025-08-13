@@ -29,6 +29,7 @@ class OrganizationResource extends JsonResource
                 "sector" => $this->sector->name,
                 "location" =>
                     $this->location->city . ", " . $this->location->country,
+                "following" => $this->following,
                 "createdAt" => $this->created_at->toIso8601String(),
                 "updatedAt" => $this->updated_at->toIso8601String(),
             ],

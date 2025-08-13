@@ -4,10 +4,12 @@ namespace App\Models;
 
 use App\Observers\OrganizationObserver;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Auth;
 
 #[ObservedBy(OrganizationObserver::class)]
 class Organization extends Model
@@ -65,5 +67,19 @@ class Organization extends Model
     public function follows()
     {
         return $this->morphMany(Follow::class, 'followable');
+    }
+
+    /**
+     * Check if the authenticated user is following this organization.
+     */
+    public function following(): Attribute
+    {
+        return Attribute::get(function (): bool {
+            if (! Auth::check()) return false;
+
+            return $this->follows()
+                ->where('user_id', Auth::id())
+                ->exists();
+        });
     }
 }
