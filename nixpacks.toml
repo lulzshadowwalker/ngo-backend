@@ -10,15 +10,6 @@ cmds = [
     "..."
 ]
 
-[phases.postbuild]
-cmds = [
-    # Nixpacks automatically detects npm ci and composer install 
-    "npm run build",
-    "php /app/artisan migrate --force",
-    "php /app/artisan cache:clear",
-]
-dependsOn = ["build"]
-
 [start]
 cmd = '/assets/start.sh'
 
