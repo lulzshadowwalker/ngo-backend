@@ -10,6 +10,14 @@ cmds = [
     "..."
 ]
 
+[phases.postbuild]
+cmds = [
+    # Nixpacks automatically detects npm ci and composer install 
+    "npm run build",
+    "php /app/artisan migrate --force",
+    "php /app/artisan cache:clear",
+]
+
 [start]
 cmd = '/assets/start.sh'
 
@@ -129,7 +137,7 @@ http {
     server {
         listen ${PORT};
         listen [::]:${PORT};
-        server_name localhost;
+        server_name staging.ngo.lulzie.online;
 
         $if(NIXPACKS_PHP_ROOT_DIR) (
             root ${NIXPACKS_PHP_ROOT_DIR};
