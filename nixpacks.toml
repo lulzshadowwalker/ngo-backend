@@ -17,6 +17,7 @@ cmds = [
     "php /app/artisan migrate --force",
     "php /app/artisan cache:clear",
 ]
+dependsOn = ["build"]
 
 [start]
 cmd = '/assets/start.sh'
