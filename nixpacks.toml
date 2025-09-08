@@ -5,12 +5,12 @@ nixPkgs = ["...", "python311Packages.supervisor"]
 cmds = [
     # Create required directories in one command
     "mkdir -p /var/log /app/storage/framework/{views,cache,sessions} /app/bootstrap/cache /etc/supervisor/conf.d",
-    
+
     # Set permissions in a single command
     "chown -R www-data:www-data /var/log /app/storage /app/bootstrap/cache",
-    
+
     # Copy and setup config files
-    "cp /assets/worker-*.conf /etc/supervisor/conf.d/", 
+    "cp /assets/worker-*.conf /etc/supervisor/conf.d/",
     "cp /assets/supervisord.conf /etc/supervisord.conf",
 
     "chmod +x /assets/start.sh",
@@ -105,6 +105,12 @@ pm.start_servers = 18
 clear_env = no
 php_admin_value[post_max_size] = 35M
 php_admin_value[upload_max_filesize] = 30M
+php_admin_value[memory_limit] = 64M
+php_admin_value[opcache.memory_consumption] = 32
+php_admin_value[opcache.max_accelerated_files] = 2000
+php_admin_value[opcache.revalidate_freq] = 60
+php_admin_value[opcache.enable] = 1
+php_admin_value[opcache.validate_timestamps] = 0
 '''
 
 "nginx.template.conf" = '''
@@ -135,7 +141,7 @@ http {
     server {
         listen ${PORT};
         listen [::]:${PORT};
-        server_name staging.ngo.lulzie.online;
+        server_name sandbox.ngo.lulzie.tech;
 
         $if(NIXPACKS_PHP_ROOT_DIR) (
             root ${NIXPACKS_PHP_ROOT_DIR};
