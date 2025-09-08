@@ -10,11 +10,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Auth;
+use Laravel\Scout\Searchable;
 
 #[ObservedBy(OrganizationObserver::class)]
 class Organization extends Model
 {
-    use HasFactory;
+    use HasFactory, Searchable;
 
     /**
      * The attributes that are mass assignable.
@@ -81,5 +82,20 @@ class Organization extends Model
                 ->where('user_id', Auth::id())
                 ->exists();
         });
+    }
+
+    public function toSearchableArray(): array
+    {
+        return [
+            // TODO: Organization model should be localized
+            'id' => (string) $this->id,
+            'name' => $this->name,
+            'slug' => $this->slug,
+            'bio' => $this->bio,
+            'website' => $this->website,
+            'created_at' => $this->created_at?->timestamp,
+            'sector_id' => $this->sector_id,
+            'location_id' => $this->location_id,
+        ];
     }
 }

@@ -15,13 +15,15 @@
         "laravel/nightwatch": "^1.11",
         "laravel/pulse": "^1.4",
         "laravel/sanctum": "^4.0",
+        "laravel/scout": "^10.19",
         "laravel/telescope": "^5.11",
         "laravel/tinker": "^2.10.1",
         "outerweb/filament-translatable-fields": "^2.1",
         "predis/predis": "^3.2",
         "spatie/laravel-medialibrary": "^11.13",
         "spatie/laravel-permission": "^6.21",
-        "spatie/laravel-translatable": "^6.11"
+        "spatie/laravel-translatable": "^6.11",
+        "typesense/typesense-php": "^5.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

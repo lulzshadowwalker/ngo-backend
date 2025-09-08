@@ -26,6 +26,8 @@ Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->m
 Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
 
 Route::get('/organizations', [OrganizationController::class, 'index'])->name('api.v1.organizations.index');
+// NOTE: /search needs to be above /{organization:slug} to avoid route conflict
+Route::get('/organizations/search', [OrganizationController::class, 'search'])->name('api.v1.organizations.search');
 Route::get('/organizations/{organization:slug}', [OrganizationController::class, 'show',])->name('api.v1.organizations.show');
 Route::post('/organizations/{organization:slug}/follows', [FollowOrganizationController::class, 'store',])->name('api.v1.organizations.follows.store')->middleware('auth:sanctum');
 Route::delete('/organizations/{organization:slug}/follows', [FollowOrganizationController::class, 'destroy',])->name('api.v1.organizations.follows.destroy')->middleware('auth:sanctum');
