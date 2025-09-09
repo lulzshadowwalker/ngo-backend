@@ -1,27 +1,165 @@
-name: Pages
+name: 'Comments & Likes'
 description: ''
 endpoints:
   -
     httpMethods:
-      - GET
-    uri: api/v1/pages
+      - POST
+    uri: 'api/v1/posts/{post_slug}/like'
     metadata:
-      groupName: Pages
+      groupName: 'Comments & Likes'
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'List all pages'
+      title: 'Like a post'
       description: |-
-        Retrieve a list of all static pages in the system.
-        Pages contain static content like About Us, Terms of Service, etc.
+        Add a like to a specific post. If the user has already liked the post,
+        this endpoint will update the existing like record. Authentication is required.
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      post_slug:
+        name: post_slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      post:
+        name: post
+        description: 'The slug of the post to like.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      post_slug: 1
+      post: environmental-conservation-initiative
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/posts/{post_slug}/like'
+    metadata:
+      groupName: 'Comments & Likes'
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Unlike a post'
+      description: |-
+        Remove a like from a specific post. If the user hasn't liked the post,
+        this endpoint will have no effect. Authentication is required.
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      post_slug:
+        name: post_slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      post:
+        name: post
+        description: 'The slug of the post to unlike.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      post_slug: 1
+      post: environmental-conservation-initiative
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/posts/{post_slug}/comments'
+    metadata:
+      groupName: 'Comments & Likes'
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'List post comments'
+      description: 'Retrieve all comments for a specific post.'
       authenticated: false
       deprecated: false
       custom: []
     headers:
       Content-Type: application/json
       Accept: application/json
-    urlParameters: []
-    cleanUrlParameters: []
+    urlParameters:
+      post_slug:
+        name: post_slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      post:
+        name: post
+        description: 'The slug of the post.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      post_slug: 1
+      post: environmental-conservation-initiative
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -29,8 +167,8 @@ endpoints:
     fileParameters: []
     responses:
       -
-        status: 200
-        content: '{"data":[]}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -45,25 +183,102 @@ endpoints:
     custom: []
   -
     httpMethods:
-      - GET
-    uri: 'api/v1/pages/{slug}'
+      - POST
+    uri: 'api/v1/posts/{post_slug}/comments'
     metadata:
-      groupName: Pages
+      groupName: 'Comments & Likes'
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Get page details'
-      description: 'Retrieve detailed information about a specific page including its content.'
-      authenticated: false
+      title: 'Create a new comment'
+      description: 'Add a new comment to a specific post. Authentication is required.'
+      authenticated: true
       deprecated: false
       custom: []
     headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
     urlParameters:
-      slug:
-        name: slug
-        description: 'The slug of the page.'
+      post_slug:
+        name: post_slug
+        description: 'The slug of the post.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      post:
+        name: post
+        description: 'The slug of the post to comment on.'
+        required: true
+        example: environmental-conservation-initiative
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      post_slug: 1
+      post: environmental-conservation-initiative
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      data.relationships.comments.data.attributes:
+        name: data.relationships.comments.data.attributes
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.comments.data:
+        name: data.relationships.comments.data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.comments:
+        name: data.relationships.comments
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships:
+        name: data.relationships
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data:
+        name: data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.comments.data.attributes.content:
+        name: data.relationships.comments.data.attributes.content
+        description: ''
         required: true
         example: architecto
         type: string
@@ -71,39 +286,31 @@ endpoints:
         exampleWasSpecified: false
         nullable: false
         custom: []
-      page:
-        name: page
-        description: 'The ID of the page.'
+      content:
+        name: content
+        description: 'The comment content.'
         required: true
-        example: 1
-        type: integer
+        example: 'This is a great initiative!'
+        type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
         custom: []
-    cleanUrlParameters:
-      slug: architecto
-      page: 1
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
+    cleanBodyParameters:
+      data:
+        relationships:
+          comments:
+            data:
+              attributes:
+                content: architecto
+      content: 'This is a great initiative!'
     fileParameters: []
-    responses:
-      -
-        status: 404
-        content: |-
-          {
-              "message": "No query results for model [App\\Models\\Page] architecto"
-          }
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-        custom: []
+    responses: []
     responseFields: []
-    auth: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
     controller: null
     method: null
     route: null

@@ -1,129 +1,19 @@
-name: 'Support Tickets'
+name: Pages
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/v1/support-tickets
+    uri: api/v1/pages
     metadata:
-      groupName: 'Support Tickets'
+      groupName: Pages
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'List user support tickets'
-      description: 'Retrieve all support tickets for the authenticated user.'
-      authenticated: true
-      deprecated: false
-      custom: []
-    headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    cleanUrlParameters: []
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses:
-      -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-        custom: []
-    responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - GET
-    uri: 'api/v1/support-tickets/{supportTicket_id}'
-    metadata:
-      groupName: 'Support Tickets'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Get support ticket details'
+      title: 'List all pages'
       description: |-
-        Retrieve detailed information about a specific support ticket.
-        The ticket must belong to the authenticated user.
-      authenticated: true
-      deprecated: false
-      custom: []
-    headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      supportTicket_id:
-        name: supportTicket_id
-        description: 'The ID of the supportTicket.'
-        required: true
-        example: 16
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      supportTicket:
-        name: supportTicket
-        description: 'The ID of the support ticket.'
-        required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanUrlParameters:
-      supportTicket_id: 16
-      supportTicket: 1
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses:
-      -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-        custom: []
-    responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - POST
-    uri: api/v1/support-tickets
-    metadata:
-      groupName: 'Support Tickets'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Create a new support ticket'
-      description: 'Submit a new support ticket. Can be used by both authenticated and unauthenticated users.'
+        Retrieve a list of all static pages in the system.
+        Pages contain static content like About Us, Terms of Service, etc.
       authenticated: false
       deprecated: false
       custom: []
@@ -134,98 +24,81 @@ endpoints:
     cleanUrlParameters: []
     queryParameters: []
     cleanQueryParameters: []
-    bodyParameters:
-      data.attributes:
-        name: data.attributes
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data:
-        name: data
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.attributes.subject:
-        name: data.attributes.subject
-        description: ''
-        required: false
-        example: architecto
-        type: string
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.attributes.message:
-        name: data.attributes.message
-        description: ''
-        required: true
-        example: architecto
-        type: string
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      subject:
-        name: subject
-        description: 'The subject of the support ticket.'
-        required: true
-        example: 'Account login issue'
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-      message:
-        name: message
-        description: 'The detailed message describing the issue.'
-        required: true
-        example: 'I am unable to log into my account after password reset.'
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-      email:
-        name: email
-        description: 'The contact email address.'
-        required: true
-        example: user@example.com
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-      priority:
-        name: priority
-        description: 'optional The priority level (low, medium, high).'
-        required: false
-        example: medium
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanBodyParameters:
-      data:
-        attributes:
-          subject: architecto
-          message: architecto
-      subject: 'Account login issue'
-      message: 'I am unable to log into my account after password reset.'
-      email: user@example.com
-      priority: medium
+    bodyParameters: []
+    cleanBodyParameters: []
     fileParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[{"type":"page","id":"1","attributes":{"title":"About Us","slug":"about-us","content":"sasdsds"}},{"type":"page","id":"2","attributes":{"title":"Terms and conditions","slug":"terms-and-conditions","content":"Terms and conditions content"}},{"type":"page","id":"3","attributes":{"title":"Privacy policy","slug":"privacy-policy","content":"Privacy policy content"}}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/pages/{slug}'
+    metadata:
+      groupName: Pages
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get page details'
+      description: 'Retrieve detailed information about a specific page including its content.'
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      slug:
+        name: slug
+        description: 'The slug of the page.'
+        required: true
+        example: about-us
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      page:
+        name: page
+        description: 'The ID of the page.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      slug: about-us
+      page: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"type":"page","id":"1","attributes":{"title":"About Us","slug":"about-us","content":"sasdsds"}}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
     responseFields: []
     auth: []
     controller: null

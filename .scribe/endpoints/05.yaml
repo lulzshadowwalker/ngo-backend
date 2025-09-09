@@ -1,174 +1,80 @@
-name: 'Comments & Likes'
+name: Posts
 description: ''
 endpoints:
   -
     httpMethods:
-      - POST
-    uri: 'api/v1/posts/{post_slug}/like'
-    metadata:
-      groupName: 'Comments & Likes'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Like a post'
-      description: |-
-        Add a like to a specific post. If the user has already liked the post,
-        this endpoint will update the existing like record. Authentication is required.
-      authenticated: true
-      deprecated: false
-      custom: []
-    headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      post:
-        name: post
-        description: 'The slug of the post to like.'
-        required: true
-        example: environmental-conservation-initiative
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - DELETE
-    uri: 'api/v1/posts/{post_slug}/like'
-    metadata:
-      groupName: 'Comments & Likes'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Unlike a post'
-      description: |-
-        Remove a like from a specific post. If the user hasn't liked the post,
-        this endpoint will have no effect. Authentication is required.
-      authenticated: true
-      deprecated: false
-      custom: []
-    headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      post:
-        name: post
-        description: 'The slug of the post to unlike.'
-        required: true
-        example: environmental-conservation-initiative
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
       - GET
-    uri: 'api/v1/posts/{post_slug}/comments'
+    uri: api/v1/posts
     metadata:
-      groupName: 'Comments & Likes'
+      groupName: Posts
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'List post comments'
-      description: 'Retrieve all comments for a specific post.'
+      title: 'List all posts'
+      description: |-
+        Retrieve a paginated list of posts with optional filtering capabilities.
+        Posts can be filtered by various criteria such as organization, date, or status.
       authenticated: false
       deprecated: false
       custom: []
     headers:
       Content-Type: application/json
       Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters:
+      organization_id:
+        name: organization_id
+        description: 'Filter posts by organization ID.'
+        required: false
         example: 1
         type: integer
         enumValues: []
-        exampleWasSpecified: false
+        exampleWasSpecified: true
         nullable: false
         custom: []
-      post:
-        name: post
-        description: 'The slug of the post.'
-        required: true
-        example: environmental-conservation-initiative
+      status:
+        name: status
+        description: 'Filter posts by status (active, draft, archived).'
+        required: false
+        example: active
         type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
         custom: []
-    cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
+      search:
+        name: search
+        description: 'Search posts by title or content.'
+        required: false
+        example: environment
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      include:
+        name: include
+        description: 'Include related data (comma-separated: likes,comments,organization).'
+        required: false
+        example: 'likes,comments'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      organization_id: 1
+      status: active
+      search: environment
+      include: 'likes,comments'
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 200
+        content: '{"data":[{"type":"posts","id":"1","attributes":{"title":"Enim vitae quia veritatis.","slug":"enim-vitae-quia-veritatis","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Totam laborum illum illo omnis. Rerum quasi voluptatum inventore quod aperiam omnis sit. Occaecati quos est aut reiciendis rem.\n\nDolor odio sed iusto assumenda dolor nam dolore. Reprehenderit est vero laborum quaerat suscipit placeat sunt earum.\n\nOmnis totam illum adipisci ab nisi eum. Assumenda qui corrupti aperiam nulla. Dolorum sit id nesciunt voluptatem est officiis.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"1"}},"comments":{"data":[{"type":"comments","id":"1"},{"type":"comments","id":"2"}]},"likes":{"data":[{"type":"likes","id":"1"},{"type":"likes","id":"2"},{"type":"likes","id":"3"},{"type":"likes","id":"4"}]}},"includes":{"comments":[{"type":"comments","id":"1","attributes":{"content":"Fugiat quas eius mollitia sunt aut eos qui.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"13"}}},"includes":{}},{"type":"comments","id":"2","attributes":{"content":"Aspernatur quo eaque similique molestiae saepe iusto.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"14"}}},"includes":{}}],"likes":[{"type":"likes","id":"1","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"2","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"3","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"4","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"2","attributes":{"title":"Eum fugiat sed animi quisquam ipsam.","slug":"eum-fugiat-sed-animi-quisquam-ipsam","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Iste repellendus dolorum libero aspernatur ratione laudantium saepe consequatur. Ullam commodi iusto sequi tempore commodi architecto. Inventore quaerat aut commodi quo. Id debitis ea aliquam qui maiores rem cum.\n\nDolor iusto alias debitis sunt exercitationem sed. Maxime fuga in placeat aliquid dolorum. Eos odit et maxime consequatur laudantium commodi. Dolorem ipsam dolore voluptate et quidem sed iste.\n\nDolores et itaque voluptas deleniti dolores. Accusamus illo sed ipsam dolorum dolor dolorum. Ipsa debitis quia quod qui laudantium. Voluptatem quod modi placeat commodi voluptas deleniti.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"1"}},"comments":{"data":[{"type":"comments","id":"3"},{"type":"comments","id":"4"}]},"likes":{"data":[{"type":"likes","id":"5"},{"type":"likes","id":"6"},{"type":"likes","id":"7"},{"type":"likes","id":"8"}]}},"includes":{"comments":[{"type":"comments","id":"3","attributes":{"content":"Vel dolorem repellendus dolores molestiae quidem modi.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"19"}}},"includes":{}},{"type":"comments","id":"4","attributes":{"content":"Cupiditate hic corrupti ratione aut laudantium sed.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"20"}}},"includes":{}}],"likes":[{"type":"likes","id":"5","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"6","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"7","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"8","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"3","attributes":{"title":"Quibusdam ducimus placeat ea doloribus.","slug":"quibusdam-ducimus-placeat-ea-doloribus","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Ipsum odio voluptatem assumenda expedita exercitationem. Distinctio quisquam enim ab nam eos. Ea vitae incidunt rerum est ullam.\n\nVoluptate ipsum officia consequatur repellendus recusandae ad. Autem unde quas aut fuga totam distinctio adipisci. Consequatur ex exercitationem quae sunt totam quis. Est quisquam at dolorem aut laborum. Dolorum voluptates quia eos et modi.\n\nExercitationem porro consequatur et aut. Eum qui hic officiis officiis fuga. Accusamus soluta dolor recusandae voluptatum non fugiat sint. A voluptatem ut rem sunt doloremque natus magnam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"1"}},"comments":{"data":[{"type":"comments","id":"5"},{"type":"comments","id":"6"}]},"likes":{"data":[{"type":"likes","id":"9"},{"type":"likes","id":"10"},{"type":"likes","id":"11"},{"type":"likes","id":"12"}]}},"includes":{"comments":[{"type":"comments","id":"5","attributes":{"content":"Eos sed nihil qui.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"25"}}},"includes":{}},{"type":"comments","id":"6","attributes":{"content":"Sint rerum quibusdam sed autem eos qui.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"26"}}},"includes":{}}],"likes":[{"type":"likes","id":"9","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"10","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"11","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"12","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"4","attributes":{"title":"Est dolorem sed excepturi repudiandae dolorum.","slug":"est-dolorem-sed-excepturi-repudiandae-dolorum","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Dolor at quia minima libero sed sit. Tenetur quas in aperiam iste ut. Qui quo ut et quam possimus et debitis.\n\nEnim eum quam est sunt sit ad dolore. Soluta excepturi aliquid explicabo dolorem fugiat nihil voluptates.\n\nOmnis quas officiis quia voluptas quis architecto et non. Consectetur consequatur modi ab blanditiis fuga sint. Minus voluptas consequatur quia blanditiis deleniti repellat delectus sit.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"2"}},"comments":{"data":[{"type":"comments","id":"7"},{"type":"comments","id":"8"}]},"likes":{"data":[{"type":"likes","id":"13"},{"type":"likes","id":"14"},{"type":"likes","id":"15"},{"type":"likes","id":"16"}]}},"includes":{"comments":[{"type":"comments","id":"7","attributes":{"content":"Ea laborum fugit modi.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"31"}}},"includes":{}},{"type":"comments","id":"8","attributes":{"content":"Libero voluptatum aut dolorem ut et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"32"}}},"includes":{}}],"likes":[{"type":"likes","id":"13","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"14","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"15","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"16","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"5","attributes":{"title":"Voluptates doloremque iure cupiditate totam voluptatibus.","slug":"voluptates-doloremque-iure-cupiditate-totam-voluptatibus","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Odit quia possimus atque molestiae voluptatem sit repellat. Voluptatum ipsum odit et sed aliquid voluptates id. Sit ut velit nesciunt et. Perferendis molestias sed quia cum sapiente provident et.\n\nQuisquam dolor soluta ut velit perferendis aut. Ea praesentium sit quos omnis. Est temporibus numquam ratione iste exercitationem autem. Occaecati excepturi doloribus ipsam cupiditate consequatur.\n\nSed aut dolores consectetur amet sed. Dolore consequatur autem perspiciatis libero ad saepe. Nihil sint autem temporibus dolore. Possimus veniam facere nihil sint sint blanditiis.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"2"}},"comments":{"data":[{"type":"comments","id":"9"},{"type":"comments","id":"10"}]},"likes":{"data":[{"type":"likes","id":"17"},{"type":"likes","id":"18"},{"type":"likes","id":"19"},{"type":"likes","id":"20"}]}},"includes":{"comments":[{"type":"comments","id":"9","attributes":{"content":"Et placeat totam est quasi ut in aliquam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"37"}}},"includes":{}},{"type":"comments","id":"10","attributes":{"content":"Fugit et veniam repellat tenetur.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"38"}}},"includes":{}}],"likes":[{"type":"likes","id":"17","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"18","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"19","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"20","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"6","attributes":{"title":"Aut voluptatem deserunt.","slug":"aut-voluptatem-deserunt","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Aut et dolorem dolorem veniam aspernatur. Non aut est necessitatibus nisi. Unde ipsum velit sit nam quod. Deleniti excepturi dolore non voluptatibus aut molestiae facilis adipisci. Non ratione et qui suscipit.\n\nQuo officia consequatur unde similique natus nam. Voluptas alias nisi ut blanditiis in beatae voluptates corrupti. Suscipit repudiandae eos exercitationem fugit.\n\nOdio iste ipsa ab quia quod et sunt. Quasi corporis nihil ratione enim. Nihil veniam praesentium eveniet earum eum alias. Eius hic repellat corporis et. Sint voluptatem et modi vel quo quo.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"2"}},"comments":{"data":[{"type":"comments","id":"11"},{"type":"comments","id":"12"}]},"likes":{"data":[{"type":"likes","id":"21"},{"type":"likes","id":"22"},{"type":"likes","id":"23"},{"type":"likes","id":"24"}]}},"includes":{"comments":[{"type":"comments","id":"11","attributes":{"content":"Totam velit cumque dicta.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"43"}}},"includes":{}},{"type":"comments","id":"12","attributes":{"content":"Libero odit quia rem aut neque voluptatem iure illum.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"44"}}},"includes":{}}],"likes":[{"type":"likes","id":"21","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"22","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"23","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"24","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"7","attributes":{"title":"Architecto est rem rem.","slug":"architecto-est-rem-rem","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Sint consequuntur vel maiores dicta laborum quam. Quas explicabo soluta quas impedit rem aut voluptas ducimus. Tempore autem omnis illo occaecati rerum praesentium sunt. Aut sit nemo exercitationem voluptate culpa. Facilis quia voluptas reiciendis quos non.\n\nSint dolore et dolor ut aut nam et eos. Repellendus deleniti doloribus libero maiores corporis. Tempora eum voluptatibus eveniet consequuntur asperiores qui.\n\nAperiam labore ut id sed pariatur qui sequi quaerat. Aspernatur earum nisi nisi sequi velit quaerat. Eligendi ad at ipsam tempore libero facilis.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"3"}},"comments":{"data":[{"type":"comments","id":"13"},{"type":"comments","id":"14"}]},"likes":{"data":[{"type":"likes","id":"25"},{"type":"likes","id":"26"},{"type":"likes","id":"27"},{"type":"likes","id":"28"}]}},"includes":{"comments":[{"type":"comments","id":"13","attributes":{"content":"Quis itaque asperiores quia illo.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"49"}}},"includes":{}},{"type":"comments","id":"14","attributes":{"content":"Itaque enim sit odio amet provident illo ab ipsa.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"50"}}},"includes":{}}],"likes":[{"type":"likes","id":"25","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"26","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"27","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"28","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"8","attributes":{"title":"Ipsa necessitatibus et minima hic.","slug":"ipsa-necessitatibus-et-minima-hic","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Voluptatem eius nulla dolorem velit eius dolorum. Rerum dicta eveniet id quae. Quia et sunt similique molestiae veniam.\n\nItaque dolor ea rerum deleniti. Non autem enim non quod est. Quis quas voluptatem nam deserunt.\n\nEst excepturi molestiae impedit. Voluptatem qui vero rem nostrum beatae autem illo voluptatem. Incidunt dolorem et aut eos quos eligendi. Et sint expedita necessitatibus quia.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"3"}},"comments":{"data":[{"type":"comments","id":"15"},{"type":"comments","id":"16"}]},"likes":{"data":[{"type":"likes","id":"29"},{"type":"likes","id":"30"},{"type":"likes","id":"31"},{"type":"likes","id":"32"}]}},"includes":{"comments":[{"type":"comments","id":"15","attributes":{"content":"Est numquam quis iste dignissimos nisi ipsa repellendus.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"55"}}},"includes":{}},{"type":"comments","id":"16","attributes":{"content":"Quia laudantium quis et deserunt.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"56"}}},"includes":{}}],"likes":[{"type":"likes","id":"29","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"30","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"31","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"32","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"9","attributes":{"title":"Odio praesentium sit iste consequatur molestiae.","slug":"odio-praesentium-sit-iste-consequatur-molestiae","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Optio autem sunt rem laboriosam et id. Dicta culpa quae sint ea. Quia modi maxime qui neque iusto non animi.\n\nEt odio ducimus quia consequatur velit ut voluptas. Neque alias sunt odio voluptates accusantium animi non. Dolore eum quo vitae labore. Voluptas qui rerum reiciendis perspiciatis eligendi recusandae.\n\nVoluptatum quae in quod ratione dicta quis. Quia suscipit necessitatibus sed ad et est quidem quam. Voluptate magni autem et incidunt et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"3"}},"comments":{"data":[{"type":"comments","id":"17"},{"type":"comments","id":"18"}]},"likes":{"data":[{"type":"likes","id":"33"},{"type":"likes","id":"34"},{"type":"likes","id":"35"},{"type":"likes","id":"36"}]}},"includes":{"comments":[{"type":"comments","id":"17","attributes":{"content":"Quasi praesentium soluta natus deleniti.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"61"}}},"includes":{}},{"type":"comments","id":"18","attributes":{"content":"Ut consequatur qui accusantium porro exercitationem et vel.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"62"}}},"includes":{}}],"likes":[{"type":"likes","id":"33","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"34","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"35","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"36","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"10","attributes":{"title":"Omnis laborum quis cupiditate.","slug":"omnis-laborum-quis-cupiditate","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Omnis rerum aspernatur et molestias. Ut magni id similique cumque nemo. Corrupti voluptas et quia. Quidem cum ipsum corporis dolor voluptas odit sed.\n\nNon adipisci aliquid voluptates. Enim dolorum qui autem deserunt reiciendis dignissimos ullam. Dolor omnis eius velit dolores quibusdam necessitatibus et. Aliquam debitis perferendis molestiae inventore.\n\nEt consequatur dolorem occaecati eveniet aliquid provident qui quo. Explicabo dolorum et quam quo non minus dolorem dicta. Asperiores aliquid voluptate ut voluptatem modi ut.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"4"}},"comments":{"data":[{"type":"comments","id":"19"},{"type":"comments","id":"20"}]},"likes":{"data":[{"type":"likes","id":"37"},{"type":"likes","id":"38"},{"type":"likes","id":"39"},{"type":"likes","id":"40"}]}},"includes":{"comments":[{"type":"comments","id":"19","attributes":{"content":"Nobis occaecati esse esse ipsam rem.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"67"}}},"includes":{}},{"type":"comments","id":"20","attributes":{"content":"Reiciendis voluptas officiis libero et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"68"}}},"includes":{}}],"likes":[{"type":"likes","id":"37","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"38","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"39","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"40","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"11","attributes":{"title":"Error reiciendis adipisci dolor.","slug":"error-reiciendis-adipisci-dolor","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Delectus molestias deleniti accusamus voluptatum sint corrupti vel nam. Itaque quis nostrum quis nulla. Adipisci voluptatem molestiae nemo non.\n\nSoluta inventore qui eaque eius non qui ratione sit. Dolore eaque veritatis repellendus magni. Ipsam et quae ipsam culpa laboriosam eligendi odio nostrum.\n\nVoluptatum non quos eum sunt. Debitis inventore ipsa dolorem sed necessitatibus et. Debitis voluptas ipsam accusantium aut dolorem deleniti. Accusamus in aut quaerat rem.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"4"}},"comments":{"data":[{"type":"comments","id":"21"},{"type":"comments","id":"22"}]},"likes":{"data":[{"type":"likes","id":"41"},{"type":"likes","id":"42"},{"type":"likes","id":"43"},{"type":"likes","id":"44"}]}},"includes":{"comments":[{"type":"comments","id":"21","attributes":{"content":"Ut quibusdam ut maiores in perferendis est.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"73"}}},"includes":{}},{"type":"comments","id":"22","attributes":{"content":"Incidunt et dolorum necessitatibus sunt culpa illo ipsam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"74"}}},"includes":{}}],"likes":[{"type":"likes","id":"41","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"42","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"43","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"44","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"12","attributes":{"title":"Adipisci officiis est omnis inventore doloremque.","slug":"adipisci-officiis-est-omnis-inventore-doloremque","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Nam eos facere laborum qui voluptatem. Rem iure blanditiis vero odio eveniet non soluta. Id amet aut aut quo fuga ut. Placeat quia porro ab aut nam consequatur.\n\nDolor hic placeat magnam magnam doloremque et. Ipsum et et tempora aperiam dicta quis. Facere aut autem labore error.\n\nQuia consectetur adipisci eos placeat non maiores. Placeat odio dolor quis quo est aut distinctio sint. Reprehenderit corrupti ipsum fugiat. Optio unde in fugiat voluptatibus illo.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"4"}},"comments":{"data":[{"type":"comments","id":"23"},{"type":"comments","id":"24"}]},"likes":{"data":[{"type":"likes","id":"45"},{"type":"likes","id":"46"},{"type":"likes","id":"47"},{"type":"likes","id":"48"}]}},"includes":{"comments":[{"type":"comments","id":"23","attributes":{"content":"Omnis accusantium temporibus beatae sint nesciunt aut.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"79"}}},"includes":{}},{"type":"comments","id":"24","attributes":{"content":"Et perspiciatis facere exercitationem error.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"80"}}},"includes":{}}],"likes":[{"type":"likes","id":"45","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"46","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"47","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"48","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"13","attributes":{"title":"Distinctio accusantium dolorem.","slug":"distinctio-accusantium-dolorem","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Quis quia et quasi voluptatem sed in voluptatum. Veritatis pariatur iusto placeat delectus amet expedita labore. Magni non voluptatem ipsam ratione.\n\nIn dolor doloremque quis illo sit corrupti. Officia eligendi aut odio optio est dicta atque et. Porro facere perferendis est possimus dolore ratione. Deleniti eos laborum nihil unde et. Quam culpa culpa maxime et atque eaque earum.\n\nAlias iusto non ut et. Fuga error quibusdam reprehenderit. A dolorum maxime aliquam illum et omnis.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"5"}},"comments":{"data":[{"type":"comments","id":"25"},{"type":"comments","id":"26"}]},"likes":{"data":[{"type":"likes","id":"49"},{"type":"likes","id":"50"},{"type":"likes","id":"51"},{"type":"likes","id":"52"}]}},"includes":{"comments":[{"type":"comments","id":"25","attributes":{"content":"Nesciunt et reprehenderit natus qui.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"85"}}},"includes":{}},{"type":"comments","id":"26","attributes":{"content":"In culpa voluptatem dolor nisi sapiente incidunt facilis.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"86"}}},"includes":{}}],"likes":[{"type":"likes","id":"49","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"50","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"51","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"52","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"14","attributes":{"title":"Id qui possimus cum veniam.","slug":"id-qui-possimus-cum-veniam","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Deleniti quod sed voluptas ex velit. Architecto vitae qui perferendis deleniti ad impedit. Quibusdam corrupti id aperiam veritatis tempore. Eveniet dolor nostrum in quia quod numquam sint.\n\nQuis repudiandae quia neque sequi ipsum ut. Hic qui sunt iusto qui. Maiores magnam sint et nobis quia sequi repellendus quam. Et nostrum sit asperiores suscipit repellat dolores.\n\nEa deleniti dolores quo dolores sit natus. Amet dolores id adipisci sequi distinctio ut. Quam ut explicabo enim et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"5"}},"comments":{"data":[{"type":"comments","id":"27"},{"type":"comments","id":"28"}]},"likes":{"data":[{"type":"likes","id":"53"},{"type":"likes","id":"54"},{"type":"likes","id":"55"},{"type":"likes","id":"56"}]}},"includes":{"comments":[{"type":"comments","id":"27","attributes":{"content":"Aut placeat qui quaerat id ut aut.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"91"}}},"includes":{}},{"type":"comments","id":"28","attributes":{"content":"Autem vitae eius est et eum vero iste delectus.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"92"}}},"includes":{}}],"likes":[{"type":"likes","id":"53","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"54","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"55","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"56","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"15","attributes":{"title":"Architecto accusantium ipsa est.","slug":"architecto-accusantium-ipsa-est","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":4,"commentCount":2,"content":"Quia voluptatibus ratione sunt ex. Et reprehenderit dignissimos quas aut quis modi enim. Et sapiente placeat temporibus necessitatibus voluptate aspernatur. Dolores a dignissimos reprehenderit necessitatibus odio nobis et.\n\nQui molestiae repellendus tenetur molestiae blanditiis quibusdam ullam. Non ducimus deserunt voluptate fuga corrupti quam perspiciatis. Saepe et eaque vel voluptatibus sapiente est.\n\nSimilique eveniet ab aut laborum aut. Incidunt placeat maiores laborum occaecati vel. Excepturi numquam excepturi consectetur accusamus quibusdam voluptatum consequatur.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"5"}},"comments":{"data":[{"type":"comments","id":"29"},{"type":"comments","id":"30"}]},"likes":{"data":[{"type":"likes","id":"57"},{"type":"likes","id":"58"},{"type":"likes","id":"59"},{"type":"likes","id":"60"}]}},"includes":{"comments":[{"type":"comments","id":"29","attributes":{"content":"Architecto odit consequatur et error repellat.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"97"}}},"includes":{}},{"type":"comments","id":"30","attributes":{"content":"Eius ratione magni ut aut repellat quos.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"98"}}},"includes":{}}],"likes":[{"type":"likes","id":"57","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"58","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"59","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}},{"type":"likes","id":"60","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"16","attributes":{"title":"Nam consequatur voluptatem sit.","slug":"nam-consequatur-voluptatem-sit","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Officia blanditiis qui dolor totam in mollitia porro repudiandae. Voluptatem officiis mollitia eos accusamus nemo. Facilis eius impedit vitae fugiat quasi sit sunt. Nobis ipsa facere optio aut voluptatum nam omnis.\n\nFacilis cum est dignissimos eos quia nemo iste. Similique hic est dolorum occaecati exercitationem impedit dignissimos est. Porro reiciendis quisquam minima explicabo eveniet.\n\nEsse laboriosam provident quo culpa officia ea. Tenetur rem aut eius ut quae voluptate magnam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"16"}},"comments":{"data":[{"type":"comments","id":"31"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"31","attributes":{"content":"Quia nostrum aliquam voluptas velit aut nam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"113"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"17","attributes":{"title":"Tempore praesentium expedita.","slug":"tempore-praesentium-expedita","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Sit nam debitis in ut culpa et reprehenderit eos. Fugit voluptas fugit quo.\n\nNecessitatibus praesentium enim quaerat repudiandae et velit dolorem. Dignissimos omnis nihil eligendi in. Facere occaecati et et saepe.\n\nAmet qui id aut error. Quo architecto nihil aut non laudantium. Eum sed sed neque. Ut optio voluptate corrupti ipsam. Ut ut eaque sequi nobis qui ipsam est.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"17"}},"comments":{"data":[{"type":"comments","id":"32"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"32","attributes":{"content":"Ipsum laborum ut eum et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"114"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"18","attributes":{"title":"Aperiam vitae odio exercitationem natus.","slug":"aperiam-vitae-odio-exercitationem-natus","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Reiciendis fugiat iusto in nisi odio. Aspernatur inventore temporibus saepe et et tenetur. Sit nulla illum ut quia.\n\nNon ut officia quia sunt. Sunt non inventore ut et deserunt. Molestiae voluptatem repellendus voluptatibus optio velit autem et dolore. Repellendus tempora voluptatem in omnis.\n\nOdit in rerum et enim. Quae in dolor ratione. Praesentium accusamus eligendi nesciunt perferendis dolor.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"18"}},"comments":{"data":[{"type":"comments","id":"33"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"33","attributes":{"content":"Quia possimus quasi est quo est.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"115"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"19","attributes":{"title":"Dignissimos quo aliquid debitis et officiis.","slug":"dignissimos-quo-aliquid-debitis-et-officiis","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Dolore voluptates officiis quis impedit aspernatur quam asperiores. Nobis aut enim et accusantium. Asperiores enim sint ut et aut.\n\nUt quia earum amet nam quisquam molestiae omnis. Occaecati et sequi ullam sunt accusamus placeat autem. Et occaecati voluptas rerum rerum non qui.\n\nConsequatur beatae similique voluptate nisi veritatis dolorem eos. Et blanditiis quia earum. Cupiditate illo suscipit harum fuga dignissimos quia vel. Laborum rerum cum quae totam dolor non provident. Provident ab dolore et rem eos ea.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"19"}},"comments":{"data":[{"type":"comments","id":"34"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"34","attributes":{"content":"Vero et rerum eos repudiandae explicabo et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"116"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"20","attributes":{"title":"Error reprehenderit aut omnis.","slug":"error-reprehenderit-aut-omnis","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Sed consequatur similique commodi illo aliquam ut laboriosam earum. Voluptas quos expedita nihil voluptatum molestiae amet voluptas.\n\nEnim dicta reiciendis tempora molestiae aut aspernatur est. Quasi laborum vel odit minima. Voluptas et expedita et voluptate. Quos veritatis eum soluta sunt voluptas qui atque praesentium.\n\nDoloremque magni quo iste et. Sint voluptatem facilis quia soluta dolor adipisci id. Alias animi et et adipisci vero. Id non labore quaerat velit. Aut doloremque odio ratione officiis quis dolor.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"20"}},"comments":{"data":[{"type":"comments","id":"35"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"35","attributes":{"content":"Et tenetur quis mollitia nihil voluptas.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"117"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"21","attributes":{"title":"Consectetur est possimus minus.","slug":"consectetur-est-possimus-minus","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Eos animi quo minus ex non aspernatur quod. Ratione enim quis nemo atque. Fuga minus ut architecto rem. Quia qui iusto laudantium corporis ut vitae.\n\nAut sequi quia est illo ea cum magnam. Reprehenderit natus nisi a aliquam est. Quidem nam vel facere sint eveniet illo. Odit ipsa similique cumque aut architecto rerum et.\n\nUt doloribus et sequi sed sit. Tempore sunt quibusdam ipsum assumenda voluptas enim. Sunt explicabo nulla iste optio. Placeat et rerum inventore sit et nulla dolorem.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"21"}},"comments":{"data":[{"type":"comments","id":"36"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"36","attributes":{"content":"Nostrum qui a ullam et quos repudiandae fuga voluptas.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"118"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"22","attributes":{"title":"Eos occaecati incidunt et occaecati qui.","slug":"eos-occaecati-incidunt-et-occaecati-qui","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Corporis et repellat iusto itaque distinctio fugiat. Occaecati adipisci eum voluptatem accusamus incidunt unde. Laborum velit suscipit assumenda laborum sint in facilis possimus. Quo quas sed voluptas magni.\n\nPerspiciatis neque molestias rem culpa necessitatibus. Pariatur quis officia qui fugiat soluta itaque. Ut ratione aperiam cumque modi.\n\nVoluptatem et aut occaecati. Nisi illo laudantium a quam ullam exercitationem eveniet autem. Aliquid aliquam corrupti rerum veritatis et quibusdam rerum.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"22"}},"comments":{"data":[{"type":"comments","id":"37"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"37","attributes":{"content":"Beatae omnis nobis deserunt repellat nihil incidunt vero.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"119"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"23","attributes":{"title":"Dolores cumque repellendus rerum aut.","slug":"dolores-cumque-repellendus-rerum-aut","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Nihil animi exercitationem dolorem. Voluptatum hic culpa hic suscipit aperiam sed nisi. Ducimus dignissimos sed deleniti illo delectus. Ipsum tempore sunt debitis sunt esse autem qui.\n\nRerum doloremque eveniet voluptas ut et distinctio. Mollitia ut blanditiis saepe ea consequuntur. Dolores perferendis quia et soluta nulla odio repellendus amet. Adipisci officia molestiae eos delectus.\n\nEarum ab minus inventore sint quibusdam nihil. Quisquam nemo minus quis voluptas facilis id deleniti quae. Eos autem ratione et nulla ea quis. Doloremque et quia quibusdam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"23"}},"comments":{"data":[{"type":"comments","id":"38"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"38","attributes":{"content":"Vero voluptatem aut porro fugiat ad aut et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"120"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"24","attributes":{"title":"Aut omnis tempore nisi.","slug":"aut-omnis-tempore-nisi","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Eaque deleniti qui dolor ratione reprehenderit voluptas. Similique et nisi fugiat nam. Animi sit quo eum ratione id sint excepturi sit.\n\nVero expedita qui corrupti est culpa omnis exercitationem. Perferendis quo et sit temporibus incidunt totam ab sequi. Qui cupiditate similique corrupti est. Aut voluptatem enim deleniti et quae ullam.\n\nAspernatur cum aperiam aspernatur provident dolore ut iure aut. Dolores cum odit modi. Officiis velit accusantium iure possimus. Cumque quidem aliquam repellendus quia non ipsum totam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"24"}},"comments":{"data":[{"type":"comments","id":"39"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"39","attributes":{"content":"Accusamus sit ipsam et.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"121"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"25","attributes":{"title":"Officia delectus velit distinctio.","slug":"officia-delectus-velit-distinctio","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":0,"commentCount":1,"content":"Unde et asperiores enim voluptate voluptatem dolores id sunt. Voluptas soluta perspiciatis voluptate quis. Ut voluptates cupiditate cumque earum reiciendis reiciendis. Natus repellat cupiditate et esse deserunt.\n\nRecusandae omnis blanditiis iure similique totam qui amet. Commodi rerum qui quo ipsum deserunt unde enim quis. Atque unde non tenetur qui qui voluptas repudiandae. Voluptatem autem omnis neque omnis temporibus aut necessitatibus.\n\nVoluptate rem et rem dolor. Est vel totam sit nisi iste accusantium mollitia fuga. Maiores quos officia eveniet ullam ex. Ea sunt deserunt soluta et consequatur eum. Accusamus velit qui fugit reiciendis culpa.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"25"}},"comments":{"data":[{"type":"comments","id":"40"}]},"likes":{"data":[]}},"includes":{"comments":[{"type":"comments","id":"40","attributes":{"content":"Et in earum aut ducimus.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13.000000Z"},"relationships":{"user":{"data":{"type":"users","id":"122"}}},"includes":{}}],"likes":[]}},{"type":"posts","id":"26","attributes":{"title":"Ab quae molestias est sequi.","slug":"ab-quae-molestias-est-sequi","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Quo dolor voluptate voluptatem rerum optio quia. Ut eum a laboriosam ut minus. Et ut quia velit temporibus.\n\nDolorem iste atque qui qui quam voluptatem earum. Nihil molestiae adipisci numquam nulla quo. Dolorem natus totam non vero eos vel debitis.\n\nPorro exercitationem nihil optio saepe et facere. Et odio dignissimos consectetur eos. Optio eveniet et omnis similique nihil sint. Pariatur rem sit doloribus et ducimus harum.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"26"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"61"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"61","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"27","attributes":{"title":"Sunt quaerat et quia facilis quisquam.","slug":"sunt-quaerat-et-quia-facilis-quisquam","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Et ut aut eos cupiditate ea ab praesentium. Ab minus omnis quia dolorem. In placeat a aut sequi aut omnis pariatur. Ut ea ut repudiandae sunt et eum ut. Aut facilis sed amet aliquid vel placeat quidem.\n\nNon natus sunt cupiditate ut sint voluptatum aut. Est delectus qui officia sed. Hic rerum accusamus aspernatur rerum harum facere.\n\nDicta quo asperiores tenetur quia itaque iure. Asperiores facilis laudantium adipisci qui. Aut odio consectetur deleniti quia corporis ullam. Est exercitationem quis vel assumenda consequuntur amet.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"27"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"62"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"62","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"28","attributes":{"title":"Nulla quas aut dicta.","slug":"nulla-quas-aut-dicta","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Rerum quia odit doloremque officiis assumenda. Sapiente aliquam ullam illo veritatis sint dolore quia. Repudiandae porro commodi quis eos nemo cum eligendi.\n\nSit sint recusandae eum exercitationem quisquam aperiam. Exercitationem consectetur molestiae odio laudantium eveniet. Quis at nemo ullam laudantium.\n\nDicta error numquam blanditiis ut. Velit voluptas veniam eaque quis rem molestiae neque modi. Voluptatem quibusdam repellat praesentium dolor.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"28"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"63"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"63","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"29","attributes":{"title":"Pariatur aut dolores porro.","slug":"pariatur-aut-dolores-porro","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Non explicabo ab quas occaecati voluptate ut. Quidem libero eveniet et quisquam molestiae hic accusamus. Voluptatum aut voluptatem earum inventore. Possimus ducimus quis quia cupiditate iure.\n\nQuam voluptas quia sint vel voluptatum sint ut. Doloribus harum qui minima officiis porro et. Et illum nisi itaque. Commodi sunt dolorem veniam aliquid porro modi.\n\nExpedita animi amet expedita qui. Commodi quo nihil itaque. Pariatur necessitatibus et ad.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"29"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"64"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"64","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"30","attributes":{"title":"Occaecati velit amet maxime sit.","slug":"occaecati-velit-amet-maxime-sit","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Modi neque nisi consequatur nihil qui libero et voluptas. Iusto ad saepe iusto ea expedita. Ut accusamus veritatis perferendis est recusandae quibusdam.\n\nVelit ducimus dolorem accusantium. Voluptatem quis ad aut ut ducimus. Sit sit est sed fugiat sed assumenda.\n\nEst labore accusantium rerum corrupti. Vel sequi doloremque excepturi quibusdam. Delectus vitae explicabo id porro ipsum.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"30"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"65"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"65","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"31","attributes":{"title":"Sapiente quae architecto et quo.","slug":"sapiente-quae-architecto-et-quo","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Omnis similique labore quidem atque. Accusantium deserunt dolorem dolor modi qui ullam molestias. Repellat dignissimos hic voluptatem et voluptatem impedit natus.\n\nEarum sed error ut. Laudantium dolores nam repudiandae sed. Voluptatum quam rem eum adipisci. Voluptas aspernatur recusandae quibusdam aliquid voluptatum vero et. Autem quaerat fugit unde possimus qui eaque voluptatum.\n\nQuasi quasi accusamus molestias sint quia vitae at. Officia voluptas odio consequatur praesentium. Expedita quo ipsam exercitationem ea alias expedita. Deleniti dolorum occaecati illo ratione quam quia reiciendis.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"31"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"66"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"66","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"32","attributes":{"title":"Maiores quo asperiores sit.","slug":"maiores-quo-asperiores-sit","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Deserunt dolorum nostrum deserunt aperiam nobis temporibus. Ut sit nulla assumenda perferendis sed est. Qui labore hic magnam eos sint.\n\nVoluptas voluptatem velit esse non. Ea itaque ipsum voluptates. Beatae vero possimus soluta ratione et qui. Dolorum et est possimus dolorem quia consequatur porro.\n\nAutem placeat rem et aspernatur suscipit qui consequatur quae. Eaque est libero dicta velit architecto.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"32"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"67"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"67","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"33","attributes":{"title":"Amet dolores exercitationem vel.","slug":"amet-dolores-exercitationem-vel","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Qui nisi corrupti ea quia. Esse molestias delectus placeat eaque.\n\nEt soluta cumque itaque possimus ea fugiat. Facilis provident reprehenderit ab aspernatur repudiandae excepturi. Quo inventore sunt omnis est dolor sed fugit. Odio aut possimus sit harum incidunt.\n\nPariatur quisquam eligendi facere rerum. Tempore facere consequatur tempore ex occaecati. Quam nobis quia sequi nemo voluptas atque et. Blanditiis qui est sunt ratione.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"33"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"68"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"68","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"34","attributes":{"title":"Illum voluptate quis totam et.","slug":"illum-voluptate-quis-totam-et","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Deserunt ut aut doloribus velit voluptas est nam. Hic voluptatem voluptatem qui nisi eum. Saepe animi voluptatibus cum soluta at. Voluptatem magni soluta aut quidem.\n\nTempora libero est ducimus et optio ipsum dolor quas. Repellat fuga in assumenda nisi recusandae consequuntur. Eius et voluptatum reiciendis ullam illo. Deleniti hic similique dolore.\n\nVoluptatibus id eum in velit voluptatem vero sint. Modi delectus laborum aliquid quia molestiae ea. Accusamus est modi animi et voluptas eligendi voluptas.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"34"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"69"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"69","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}},{"type":"posts","id":"35","attributes":{"title":"Voluptates minus ad distinctio qui.","slug":"voluptates-minus-ad-distinctio-qui","cover":"https:\/\/images.unsplash.com\/photo-1488521787991-ed7bbaae773c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D","likeCount":1,"commentCount":0,"content":"Ad pariatur sequi sed veniam molestiae consequatur. Nesciunt nam enim non praesentium. Quo omnis ea aut quas qui ipsum adipisci dolorum.\n\nQui voluptas cum eum nihil et expedita quo laudantium. Perspiciatis sed maiores sit adipisci. Ullam perferendis accusantium ut ea mollitia et molestiae. Et recusandae veritatis et pariatur. Id sequi perspiciatis vero eos ipsam enim.\n\nCorporis rem non dolor officiis nobis quibusdam. Omnis excepturi recusandae ratione itaque incidunt distinctio nihil. Quas quidem illo iste provident nemo. Illum quis nesciunt molestiae deleniti provident quisquam.","createdAt":"2025-08-09T14:32:13+00:00","createdAtReadable":"4 weeks ago","updatedAt":"2025-08-09T14:32:13+00:00"},"relationships":{"organization":{"data":{"type":"organizations","id":"35"}},"comments":{"data":[]},"likes":{"data":[{"type":"likes","id":"70"}]}},"includes":{"comments":[],"likes":[{"type":"likes","id":"70","attributes":{"createdAt":"2025-08-09T14:32:13+00:00","updatedAt":"2025-08-09T14:32:13+00:00"}}]}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -183,25 +89,27 @@ endpoints:
     custom: []
   -
     httpMethods:
-      - POST
-    uri: 'api/v1/posts/{post_slug}/comments'
+      - GET
+    uri: 'api/v1/posts/{slug}'
     metadata:
-      groupName: 'Comments & Likes'
+      groupName: Posts
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Create a new comment'
-      description: 'Add a new comment to a specific post. Authentication is required.'
-      authenticated: true
+      title: 'Get post details'
+      description: |-
+        Retrieve detailed information about a specific post using its slug.
+        You can include related data such as likes, comments, and organization details
+        using the include parameter.
+      authenticated: false
       deprecated: false
       custom: []
     headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
     urlParameters:
-      post_slug:
-        name: post_slug
+      slug:
+        name: slug
         description: 'The slug of the post.'
         required: true
         example: 1
@@ -212,7 +120,7 @@ endpoints:
         custom: []
       post:
         name: post
-        description: 'The slug of the post to comment on.'
+        description: 'The slug of the post.'
         required: true
         example: environmental-conservation-initiative
         type: string
@@ -221,96 +129,39 @@ endpoints:
         nullable: false
         custom: []
     cleanUrlParameters:
-      post_slug: 1
+      slug: 1
       post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters:
-      data.relationships.comments.data.attributes:
-        name: data.relationships.comments.data.attributes
-        description: ''
+    queryParameters:
+      include:
+        name: include
+        description: 'Include related data (comma-separated: likes,comments,organization).'
         required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships.comments.data:
-        name: data.relationships.comments.data
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships.comments:
-        name: data.relationships.comments
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships:
-        name: data.relationships
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data:
-        name: data
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships.comments.data.attributes.content:
-        name: data.relationships.comments.data.attributes.content
-        description: ''
-        required: true
-        example: architecto
-        type: string
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      content:
-        name: content
-        description: 'The comment content.'
-        required: true
-        example: 'This is a great initiative!'
+        example: 'likes,comments,organization'
         type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
         custom: []
-    cleanBodyParameters:
-      data:
-        relationships:
-          comments:
-            data:
-              attributes:
-                content: architecto
-      content: 'This is a great initiative!'
+    cleanQueryParameters:
+      include: 'likes,comments,organization'
+    bodyParameters: []
+    cleanBodyParameters: []
     fileParameters: []
-    responses: []
+    responses:
+      -
+        status: 404
+        content: |-
+          {
+              "message": "No query results for model [App\\Models\\Post] 1"
+          }
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
     responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
+    auth: []
     controller: null
     method: null
     route: null

@@ -329,6 +329,18 @@
                                                                             </div>
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-authentication-POSTapi-v1-auth-register-organizations">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Register a new individual user">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#authentication-POSTapi-v1-auth-register-organizations">
+                                                    Register a new individual user
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
                                              id="toc-item-authentication-POSTapi-v1-auth-login">
                                             <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="User login">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
@@ -420,6 +432,18 @@
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
                                                    href="#organizations-GETapi-v1-organizations">
                                                     List all organizations
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-organizations-GETapi-v1-organizations-search">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Search organizations">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#organizations-GETapi-v1-organizations-search">
+                                                    Search organizations
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -739,10 +763,10 @@
                                                             </div>
                                             </div>
                                     <div class="expandable">
-                        <div title="Notifications" id="toc-item-notifications"
+                        <div title="General Endpoints" id="toc-item-general-endpoints"
                              class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-4 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none">
-                            <a href="#notifications"
-                               class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0">Notifications</a>
+                            <a href="#general-endpoints"
+                               class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0">General Endpoints</a>
                                                             <div class="sl-flex sl-items-center sl-text-xs expansion-chevrons">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas"
                                          data-icon="chevron-right"
@@ -757,11 +781,11 @@
                                                     <div class="children" style="display: none;">
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-notifications-GETapi-v1-notifications">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="List user notifications">
+                                             id="toc-item-general-endpoints-GETapi-v1-notifications">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="GET api/v1/notifications">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#notifications-GETapi-v1-notifications">
-                                                    List user notifications
+                                                   href="#general-endpoints-GETapi-v1-notifications">
+                                                    GET api/v1/notifications
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -769,11 +793,11 @@
                                                                             </div>
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-notifications-GETapi-v1-notifications--id-">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Get notification details">
+                                             id="toc-item-general-endpoints-GETapi-v1-notifications--id-">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="GET api/v1/notifications/{id}">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#notifications-GETapi-v1-notifications--id-">
-                                                    Get notification details
+                                                   href="#general-endpoints-GETapi-v1-notifications--id-">
+                                                    GET api/v1/notifications/{id}
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -781,11 +805,11 @@
                                                                             </div>
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-notifications-PATCHapi-v1-notifications--notification_id--read">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Mark notification as read">
+                                             id="toc-item-general-endpoints-PATCHapi-v1-notifications--notification_id--read">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="PATCH api/v1/notifications/{notification_id}/read">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#notifications-PATCHapi-v1-notifications--notification_id--read">
-                                                    Mark notification as read
+                                                   href="#general-endpoints-PATCHapi-v1-notifications--notification_id--read">
+                                                    PATCH api/v1/notifications/{notification_id}/read
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -793,11 +817,11 @@
                                                                             </div>
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-notifications-PATCHapi-v1-notifications-read">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Mark all notifications as read">
+                                             id="toc-item-general-endpoints-PATCHapi-v1-notifications-read">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="PATCH api/v1/notifications/read">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#notifications-PATCHapi-v1-notifications-read">
-                                                    Mark all notifications as read
+                                                   href="#general-endpoints-PATCHapi-v1-notifications-read">
+                                                    PATCH api/v1/notifications/read
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -805,11 +829,11 @@
                                                                             </div>
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-notifications-DELETEapi-v1-notifications--notification_id-">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Delete a notification">
+                                             id="toc-item-general-endpoints-DELETEapi-v1-notifications--notification_id-">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="DELETE api/v1/notifications/{notification_id}">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#notifications-DELETEapi-v1-notifications--notification_id-">
-                                                    Delete a notification
+                                                   href="#general-endpoints-DELETEapi-v1-notifications--notification_id-">
+                                                    DELETE api/v1/notifications/{notification_id}
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -817,11 +841,54 @@
                                                                             </div>
                                                                     <div class="expandable">
                                         <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
-                                             id="toc-item-notifications-DELETEapi-v1-notifications">
-                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Delete all notifications">
+                                             id="toc-item-general-endpoints-DELETEapi-v1-notifications">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="DELETE api/v1/notifications">
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
-                                                   href="#notifications-DELETEapi-v1-notifications">
-                                                    Delete all notifications
+                                                   href="#general-endpoints-DELETEapi-v1-notifications">
+                                                    DELETE api/v1/notifications
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                            </div>
+                                            </div>
+                                    <div class="expandable">
+                        <div title="Sectors" id="toc-item-sectors"
+                             class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-4 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none">
+                            <a href="#sectors"
+                               class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0">Sectors</a>
+                                                            <div class="sl-flex sl-items-center sl-text-xs expansion-chevrons">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                         data-icon="chevron-right"
+                                         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor"
+                                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                                    </svg>
+                                </div>
+                                                    </div>
+
+                                                    <div class="children" style="display: none;">
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-sectors-GETapi-v1-sectors">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="List all sectors">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#sectors-GETapi-v1-sectors">
+                                                    List all sectors
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-sectors-GETapi-v1-sectors--id-">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Get sector details">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#sectors-GETapi-v1-sectors--id-">
+                                                    Get sector details
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -833,7 +900,7 @@
 
         </div>
         <div class="sl-flex sl-items-center sl-px-4 sl-py-3 sl-border-t">
-            Last updated: August 9, 2025
+            Last updated: September 9, 2025
         </div>
 
         <div class="sl-flex sl-items-center sl-px-4 sl-py-3 sl-border-t">
@@ -1128,7 +1195,7 @@ and location. Returns an authentication token upon successful registration.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpEzoJOd
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phprlcgzw
                     </div>
                 </div>
             </div>
@@ -1381,7 +1448,7 @@ and location. Returns an authentication token upon successful registration.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phptUgYt6
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phppu4CH1
                     </div>
                 </div>
             </div>
@@ -1715,8 +1782,8 @@ You can check the Dev Tools console for debugging information.</p>
     --form "password=securePassword123"\
     --form "password_confirmation=securePassword123"\
     --form "location_id=1"\
-    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpEzoJOd" \
-    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phptUgYt6" </code></pre>                                        </div>
+    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phprlcgzw" \
+    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phppu4CH1" </code></pre>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="sl-bg-canvas-100 example-request example-request-javascript"
@@ -1799,11 +1866,11 @@ $response = $client-&gt;post(
             ],
             [
                 'name' =&gt; 'data[attributes][avatar]',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpEzoJOd', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phprlcgzw', 'r')
             ],
             [
                 'name' =&gt; 'avatar',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phptUgYt6', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phppu4CH1', 'r')
             ],
         ],
     ]
@@ -1829,8 +1896,975 @@ files = {
   'password': (None, 'securePassword123'),
   'password_confirmation': (None, 'securePassword123'),
   'location_id': (None, '1'),
-  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpEzoJOd', 'rb'),
-  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phptUgYt6', 'rb')}
+  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phprlcgzw', 'rb'),
+  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phppu4CH1', 'rb')}
+payload = {
+    "data": {
+        "attributes": {
+            "name": "b",
+            "email": "zbailey@example.net",
+            "password": "-0pBNvYgxw"
+        },
+        "relationships": {
+            "location": {
+                "data": []
+            }
+        }
+    },
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "securePassword123",
+    "password_confirmation": "securePassword123",
+    "location_id": 1
+}
+headers = {
+  'Content-Type': 'multipart/form-data',
+  'Accept': 'application/json'
+}
+
+response = requests.request('POST', url, headers=headers, files=files)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="authentication-POSTapi-v1-auth-register-organizations">
+                    Register a new individual user
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/auth/register/organizations"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: black;"
+                        >
+                            POST
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/auth/register/organizations</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Register a new individual user account in the system. This endpoint creates
+a new user with the 'individual' role, along with their profile information
+and location. Returns an authentication token upon successful registration.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        multipart/form-data
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
+
+                                <div class="sl-text-sm">
+                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">attributes</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">name</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>Must not be greater than 255 characters.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        b
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">email</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>Must be a valid email address. Must not be greater than 255 characters.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        zbailey@example.net
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">password</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>Must be at least 8 characters.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        -0pBNvYgxw
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">avatar</div>
+                                            <span class="sl-truncate sl-text-muted">file</span>
+                                    </div>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>Must be an image. Must not be greater than 4048 kilobytes.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php78FnCJ
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+            </div>
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">relationships</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">location</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2  sl-cursor-pointer ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                            <div class="sl-flex sl-justify-center sl-w-8 sl--ml-8 sl-pl-3 sl-text-muted expansion-chevrons" role="button">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                         class="svg-inline--fa fa-chevron-right fa-fw fa-sm sl-icon" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+                    </svg>
+                </div>
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">data</div>
+                                            <span class="sl-truncate sl-text-muted">object</span>
+                                    </div>
+                                    </div>
+                                    </div>
+</div>
+
+                    <div class="children" style="display: none;">
+                <div class="expandable sl-text-sm sl-border-l sl-ml-7">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">id</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The <code>id</code> of an existing record in the locations table.</p>
+        </div>
+                                    </div>
+</div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">name</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The full name of the individual.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        John Doe
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">email</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The email address (must be unique).</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        john.doe@example.com
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">password</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The password (minimum 8 characters).</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        securePassword123
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">password_confirmation</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>Password confirmation (must match password).</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        securePassword123
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">location_id</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the user's location.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">avatar</div>
+                                            <span class="sl-truncate sl-text-muted">file</span>
+                                    </div>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>optional Profile avatar image (jpg, png, gif, max 2MB).</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpn3ggL6
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+                            </div>
+                        </div>
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="POST"
+              data-path="api/v1/auth/register/organizations"
+              data-hasfiles="1"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-auth-register-organizations-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-POSTapi-v1-auth-register-organizations-Content-Type"
+                                               value="multipart/form-data" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-POSTapi-v1-auth-register-organizations-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-POSTapi-v1-auth-register-organizations-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Body
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                                                    <div class="ParameterGrid sl-p-4">
+                                                                                                                                                                                <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.name">data.attributes.name</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="data.attributes.name" name="data.attributes.name"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.name"
+                                                       placeholder="Must not be greater than 255 characters."
+                                                       value="b" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.email">data.attributes.email</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="data.attributes.email" name="data.attributes.email"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.email"
+                                                       placeholder="Must be a valid email address. Must not be greater than 255 characters."
+                                                       value="zbailey@example.net" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.password">data.attributes.password</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="data.attributes.password" name="data.attributes.password"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.password"
+                                                       placeholder="Must be at least 8 characters."
+                                                       value="-0pBNvYgxw" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.avatar">data.attributes.avatar</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="data.attributes.avatar" name="data.attributes.avatar"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-data.attributes.avatar"
+                                                       type="file" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                                                                    <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-data.relationships.location.data.id">data.relationships.location.data.id</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="data.relationships.location.data.id" name="data.relationships.location.data.id"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-data.relationships.location.data.id"
+                                                       placeholder="The &lt;code&gt;id&lt;/code&gt; of an existing record in the locations table."
+                                                       value="" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-name">name</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="name" name="name"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-name"
+                                                       placeholder="The full name of the individual."
+                                                       value="John Doe" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-email">email</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="email" name="email"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-email"
+                                                       placeholder="The email address (must be unique)."
+                                                       value="john.doe@example.com" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-password">password</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="password" name="password"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-password"
+                                                       placeholder="The password (minimum 8 characters)."
+                                                       value="securePassword123" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-password_confirmation">password_confirmation</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="password_confirmation" name="password_confirmation"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-password_confirmation"
+                                                       placeholder="Password confirmation (must match password)."
+                                                       value="securePassword123" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-location_id">location_id</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="location_id" name="location_id"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-location_id"
+                                                       placeholder="The ID of the user&#039;s location."
+                                                       value="1" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                                                                        <label aria-hidden="true"
+                                           for="bodyparam-POSTapi-v1-auth-register-organizations-avatar">avatar</label>
+                                    <span class="sl-mx-3">:</span>
+                                    <div class="sl-flex sl-flex-1">
+                                        <div class="sl-input sl-flex-1 sl-relative">
+                                                                                            <input aria-label="avatar" name="avatar"
+                                                       id="bodyparam-POSTapi-v1-auth-register-organizations-avatar"
+                                                       type="file" data-component="body"
+                                                       class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                                >
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                                            </div>
+                </div>
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="POSTapi-v1-auth-register-organizations"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="POSTapi-v1-auth-register-organizations"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="POSTapi-v1-auth-register-organizations"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/v1/auth/register/organizations" \
+    --header "Content-Type: multipart/form-data" \
+    --header "Accept: application/json" \
+    --form "data[attributes][name]=b"\
+    --form "data[attributes][email]=zbailey@example.net"\
+    --form "data[attributes][password]=-0pBNvYgxw"\
+    --form "name=John Doe"\
+    --form "email=john.doe@example.com"\
+    --form "password=securePassword123"\
+    --form "password_confirmation=securePassword123"\
+    --form "location_id=1"\
+    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php78FnCJ" \
+    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpn3ggL6" </code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/auth/register/organizations"
+);
+
+const headers = {
+    "Content-Type": "multipart/form-data",
+    "Accept": "application/json",
+};
+
+const body = new FormData();
+body.append('data[attributes][name]', 'b');
+body.append('data[attributes][email]', 'zbailey@example.net');
+body.append('data[attributes][password]', '-0pBNvYgxw');
+body.append('name', 'John Doe');
+body.append('email', 'john.doe@example.com');
+body.append('password', 'securePassword123');
+body.append('password_confirmation', 'securePassword123');
+body.append('location_id', '1');
+body.append('data[attributes][avatar]', document.querySelector('input[name="data[attributes][avatar]"]').files[0]);
+body.append('avatar', document.querySelector('input[name="avatar"]').files[0]);
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/auth/register/organizations';
+$response = $client-&gt;post(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'multipart/form-data',
+            'Accept' =&gt; 'application/json',
+        ],
+        'multipart' =&gt; [
+            [
+                'name' =&gt; 'data[attributes][name]',
+                'contents' =&gt; 'b'
+            ],
+            [
+                'name' =&gt; 'data[attributes][email]',
+                'contents' =&gt; 'zbailey@example.net'
+            ],
+            [
+                'name' =&gt; 'data[attributes][password]',
+                'contents' =&gt; '-0pBNvYgxw'
+            ],
+            [
+                'name' =&gt; 'name',
+                'contents' =&gt; 'John Doe'
+            ],
+            [
+                'name' =&gt; 'email',
+                'contents' =&gt; 'john.doe@example.com'
+            ],
+            [
+                'name' =&gt; 'password',
+                'contents' =&gt; 'securePassword123'
+            ],
+            [
+                'name' =&gt; 'password_confirmation',
+                'contents' =&gt; 'securePassword123'
+            ],
+            [
+                'name' =&gt; 'location_id',
+                'contents' =&gt; '1'
+            ],
+            [
+                'name' =&gt; 'data[attributes][avatar]',
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php78FnCJ', 'r')
+            ],
+            [
+                'name' =&gt; 'avatar',
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpn3ggL6', 'r')
+            ],
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/auth/register/organizations'
+files = {
+  'data[attributes][name]': (None, 'b'),
+  'data[attributes][email]': (None, 'zbailey@example.net'),
+  'data[attributes][password]': (None, '-0pBNvYgxw'),
+  'name': (None, 'John Doe'),
+  'email': (None, 'john.doe@example.com'),
+  'password': (None, 'securePassword123'),
+  'password_confirmation': (None, 'securePassword123'),
+  'location_id': (None, '1'),
+  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/php78FnCJ', 'rb'),
+  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpn3ggL6', 'rb')}
 payload = {
     "data": {
         "attributes": {
@@ -2963,7 +3997,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        true
+                        false
                     </div>
                 </div>
             </div>
@@ -3247,7 +4281,7 @@ other preferences will remain unchanged.</p>
     "data": {
         "attributes": {
             "language": "en",
-            "pushNotifications": true,
+            "pushNotifications": false,
             "emailNotifications": true
         }
     },
@@ -3357,7 +4391,7 @@ You can check the Dev Tools console for debugging information.</p>
     \"data\": {
         \"attributes\": {
             \"language\": \"en\",
-            \"pushNotifications\": true,
+            \"pushNotifications\": false,
             \"emailNotifications\": true
         }
     },
@@ -3388,7 +4422,7 @@ let body = {
     "data": {
         "attributes": {
             "language": "en",
-            "pushNotifications": true,
+            "pushNotifications": false,
             "emailNotifications": true
         }
     },
@@ -3424,7 +4458,7 @@ $response = $client-&gt;patch(
             'data' =&gt; [
                 'attributes' =&gt; [
                     'language' =&gt; 'en',
-                    'pushNotifications' =&gt; true,
+                    'pushNotifications' =&gt; false,
                     'emailNotifications' =&gt; true,
                 ],
             ],
@@ -3452,7 +4486,7 @@ payload = {
     "data": {
         "attributes": {
             "language": "en",
-            "pushNotifications": true,
+            "pushNotifications": false,
             "emailNotifications": true
         }
     },
@@ -4271,15 +5305,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;1&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Sherwood Hilpert&quot;,
-                &quot;slug&quot;: &quot;sherwoodhilpert&quot;,
-                &quot;bio&quot;: &quot;Ut aliquam maxime sit.&quot;,
+                &quot;name&quot;: &quot;Elizabeth West&quot;,
+                &quot;slug&quot;: &quot;elizabethwest&quot;,
+                &quot;bio&quot;: &quot;Est qui repellendus aut omnis molestiae assumenda blanditiis.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://oberbrunner.com/&quot;,
-                &quot;sector&quot;: &quot;Raphaelle Hartmann&quot;,
-                &quot;location&quot;: &quot;Flatleyland, Ukraine&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://prosacco.net/quasi-ut-omnis-vitae-doloremque-incidunt&quot;,
+                &quot;sector&quot;: &quot;Orval Schuster DVM&quot;,
+                &quot;location&quot;: &quot;Lindgrenburgh, Finland&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4303,15 +5338,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;2&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Josephine Walter&quot;,
-                &quot;slug&quot;: &quot;josephinewalter&quot;,
-                &quot;bio&quot;: &quot;Error quod quaerat necessitatibus amet recusandae et.&quot;,
+                &quot;name&quot;: &quot;Berta Brown&quot;,
+                &quot;slug&quot;: &quot;bertabrown&quot;,
+                &quot;bio&quot;: &quot;Modi cupiditate in eveniet.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://aufderhar.com/voluptas-optio-necessitatibus-natus-quis-repudiandae-quia-suscipit&quot;,
-                &quot;sector&quot;: &quot;Danial Pfannerstill&quot;,
-                &quot;location&quot;: &quot;New Benny, Afghanistan&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.williamson.com/&quot;,
+                &quot;sector&quot;: &quot;Dixie Quigley&quot;,
+                &quot;location&quot;: &quot;West Jarrod, Greenland&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4335,15 +5371,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;3&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Ms. Misty Gutkowski&quot;,
-                &quot;slug&quot;: &quot;msmistygutkowski&quot;,
-                &quot;bio&quot;: &quot;Accusamus rerum eos provident voluptatem.&quot;,
+                &quot;name&quot;: &quot;Dr. Derek Howell&quot;,
+                &quot;slug&quot;: &quot;drderekhowell&quot;,
+                &quot;bio&quot;: &quot;Accusamus est labore fuga molestiae suscipit enim quod.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://ledner.com/est-laborum-fuga-quod-assumenda-sit-eaque-voluptas.html&quot;,
-                &quot;sector&quot;: &quot;Amina Powlowski Jr.&quot;,
-                &quot;location&quot;: &quot;East Makenzie, Vanuatu&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://quitzon.com/hic-ex-distinctio-adipisci.html&quot;,
+                &quot;sector&quot;: &quot;Cathrine Mertz&quot;,
+                &quot;location&quot;: &quot;Rennerland, Panama&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4367,15 +5404,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;4&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Tracey Kuhn Jr.&quot;,
-                &quot;slug&quot;: &quot;traceykuhnjr&quot;,
-                &quot;bio&quot;: &quot;Rerum doloribus amet eos.&quot;,
+                &quot;name&quot;: &quot;Tristian Thiel&quot;,
+                &quot;slug&quot;: &quot;tristianthiel&quot;,
+                &quot;bio&quot;: &quot;Dolores quisquam in incidunt qui qui.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://koelpin.com/corporis-voluptatum-vitae-quaerat-repellendus-reprehenderit&quot;,
-                &quot;sector&quot;: &quot;Ms. Sabryna Baumbach DVM&quot;,
-                &quot;location&quot;: &quot;North Jalyn, Puerto Rico&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://armstrong.info/sit-quasi-quod-necessitatibus-exercitationem&quot;,
+                &quot;sector&quot;: &quot;Mr. Brenden Huel Sr.&quot;,
+                &quot;location&quot;: &quot;Ernserstad, Tunisia&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4399,15 +5437,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;5&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Darlene Conn&quot;,
-                &quot;slug&quot;: &quot;darleneconn&quot;,
-                &quot;bio&quot;: &quot;Optio sit labore iure possimus recusandae omnis rerum.&quot;,
+                &quot;name&quot;: &quot;Krystina Quitzon&quot;,
+                &quot;slug&quot;: &quot;krystinaquitzon&quot;,
+                &quot;bio&quot;: &quot;Sit accusantium nostrum illum cumque.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://swift.com/ut-eum-ut-unde-ut-dicta-est-qui&quot;,
-                &quot;sector&quot;: &quot;Prof. Jacky Cassin DDS&quot;,
-                &quot;location&quot;: &quot;New Ottiliechester, Timor-Leste&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.bauch.info/id-ex-eum-quod-perspiciatis-eligendi.html&quot;,
+                &quot;sector&quot;: &quot;Alison Emard&quot;,
+                &quot;location&quot;: &quot;New Jarod, Norway&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4431,15 +5470,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;6&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Dr. Felix Cruickshank II&quot;,
-                &quot;slug&quot;: &quot;drfelixcruickshankii&quot;,
-                &quot;bio&quot;: &quot;Itaque non voluptas dolor fugiat alias.&quot;,
+                &quot;name&quot;: &quot;Alejandra Klocko&quot;,
+                &quot;slug&quot;: &quot;alejandraklocko&quot;,
+                &quot;bio&quot;: &quot;Nulla totam minima accusantium numquam consequatur.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;https://www.moore.com/molestiae-quia-quisquam-rerum-dolores-tenetur-sint-omnis&quot;,
-                &quot;sector&quot;: &quot;Mrs. Jeanette Beatty DVM&quot;,
-                &quot;location&quot;: &quot;South Joy, Angola&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.dietrich.net/magni-beatae-et-ex.html&quot;,
+                &quot;sector&quot;: &quot;Kaylah Champlin II&quot;,
+                &quot;location&quot;: &quot;Parkerton, New Zealand&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4463,15 +5503,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;7&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Remington Crooks Sr.&quot;,
-                &quot;slug&quot;: &quot;remingtoncrookssr&quot;,
-                &quot;bio&quot;: &quot;Dolore occaecati eveniet voluptatem odit est natus.&quot;,
+                &quot;name&quot;: &quot;Ms. Sarai Rempel IV&quot;,
+                &quot;slug&quot;: &quot;mssarairempeliv&quot;,
+                &quot;bio&quot;: &quot;Dolores explicabo quia reprehenderit necessitatibus.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.schmidt.info/voluptatibus-hic-aperiam-fugiat-ipsum-quod-dicta-consequatur-quis.html&quot;,
-                &quot;sector&quot;: &quot;Vladimir Dibbert&quot;,
-                &quot;location&quot;: &quot;West Ernie, Svalbard &amp; Jan Mayen Islands&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://marvin.com/facere-vel-est-tempore.html&quot;,
+                &quot;sector&quot;: &quot;Jeramy Koepp&quot;,
+                &quot;location&quot;: &quot;Bergehaven, Gabon&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4495,15 +5536,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;8&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Miss Jessika Wolff I&quot;,
-                &quot;slug&quot;: &quot;missjessikawolffi&quot;,
-                &quot;bio&quot;: &quot;Necessitatibus ducimus et molestias earum sunt.&quot;,
+                &quot;name&quot;: &quot;Dorcas Wolff I&quot;,
+                &quot;slug&quot;: &quot;dorcaswolffi&quot;,
+                &quot;bio&quot;: &quot;Perferendis odio accusamus ut.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://rohan.net/qui-voluptatum-saepe-voluptas-et&quot;,
-                &quot;sector&quot;: &quot;Agnes Huels&quot;,
-                &quot;location&quot;: &quot;East Vickie, Italy&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.hane.info/consequuntur-voluptas-qui-doloremque-minima-sint&quot;,
+                &quot;sector&quot;: &quot;Freddie Gusikowski&quot;,
+                &quot;location&quot;: &quot;Devanshire, Heard Island and McDonald Islands&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4527,15 +5569,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;9&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Dr. John Pollich DVM&quot;,
-                &quot;slug&quot;: &quot;drjohnpollichdvm&quot;,
-                &quot;bio&quot;: &quot;Ad vel maiores repudiandae dicta.&quot;,
+                &quot;name&quot;: &quot;Mason Muller&quot;,
+                &quot;slug&quot;: &quot;masonmuller&quot;,
+                &quot;bio&quot;: &quot;Aperiam neque quo veniam vel est ut saepe.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://conroy.com/sint-est-voluptatibus-est-ipsum-aliquam-debitis-accusamus&quot;,
-                &quot;sector&quot;: &quot;Octavia Cummerata IV&quot;,
-                &quot;location&quot;: &quot;Grahamton, Turkmenistan&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://kessler.com/consectetur-odit-quae-qui-aut-et-voluptatem-vitae-quas&quot;,
+                &quot;sector&quot;: &quot;Randal Stark&quot;,
+                &quot;location&quot;: &quot;Kerlukebury, Malta&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4559,15 +5602,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;10&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Emile Grady&quot;,
-                &quot;slug&quot;: &quot;emilegrady&quot;,
-                &quot;bio&quot;: &quot;Dolor at adipisci odit possimus laborum occaecati.&quot;,
+                &quot;name&quot;: &quot;Dr. Clark Hermiston&quot;,
+                &quot;slug&quot;: &quot;drclarkhermiston&quot;,
+                &quot;bio&quot;: &quot;Qui ratione tenetur quo recusandae.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://brakus.biz/quam-alias-aut-dolor-ut-ad&quot;,
-                &quot;sector&quot;: &quot;Dr. Georgianna Skiles II&quot;,
-                &quot;location&quot;: &quot;Elnoraview, El Salvador&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;https://www.lebsack.com/similique-odio-dignissimos-consequatur-possimus-possimus-ipsa-hic&quot;,
+                &quot;sector&quot;: &quot;Citlalli Kilback Jr.&quot;,
+                &quot;location&quot;: &quot;North Hershelside, Puerto Rico&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4591,15 +5635,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;11&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Kailyn Littel&quot;,
-                &quot;slug&quot;: &quot;kailynlittel&quot;,
-                &quot;bio&quot;: &quot;Vero earum assumenda ipsum aperiam et qui velit nulla.&quot;,
+                &quot;name&quot;: &quot;Mae McLaughlin&quot;,
+                &quot;slug&quot;: &quot;maemclaughlin&quot;,
+                &quot;bio&quot;: &quot;Quaerat fugit totam in iusto ullam dolorem occaecati qui.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.cummings.info/et-voluptatem-culpa-ut-quam-sit.html&quot;,
-                &quot;sector&quot;: &quot;Dr. Manley Leannon MD&quot;,
-                &quot;location&quot;: &quot;Port Erika, Ukraine&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://gaylord.com/ab-sunt-soluta-temporibus-minima.html&quot;,
+                &quot;sector&quot;: &quot;Alexane Swaniawski&quot;,
+                &quot;location&quot;: &quot;West Schuylershire, Thailand&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4623,15 +5668,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;12&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Maida Smitham&quot;,
-                &quot;slug&quot;: &quot;maidasmitham&quot;,
-                &quot;bio&quot;: &quot;Molestiae ab delectus explicabo nemo deleniti accusantium a.&quot;,
+                &quot;name&quot;: &quot;Prof. Judy Lubowitz IV&quot;,
+                &quot;slug&quot;: &quot;profjudylubowitziv&quot;,
+                &quot;bio&quot;: &quot;Aut culpa magnam voluptatem.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://kiehn.com/&quot;,
-                &quot;sector&quot;: &quot;Taya King V&quot;,
-                &quot;location&quot;: &quot;East Charlotte, El Salvador&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://shanahan.com/&quot;,
+                &quot;sector&quot;: &quot;Dillan Gibson&quot;,
+                &quot;location&quot;: &quot;North Jettiehaven, New Caledonia&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4655,15 +5701,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;13&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Mrs. Aimee Steuber Sr.&quot;,
-                &quot;slug&quot;: &quot;mrsaimeesteubersr&quot;,
-                &quot;bio&quot;: &quot;Iste iure id impedit.&quot;,
+                &quot;name&quot;: &quot;Ethan Stracke&quot;,
+                &quot;slug&quot;: &quot;ethanstracke&quot;,
+                &quot;bio&quot;: &quot;In voluptatibus voluptas qui voluptatem adipisci ut qui.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://walter.info/&quot;,
-                &quot;sector&quot;: &quot;Novella Lakin&quot;,
-                &quot;location&quot;: &quot;South Santino, Macedonia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://oconner.com/deleniti-et-sapiente-animi-minus-illum-est-pariatur-quod&quot;,
+                &quot;sector&quot;: &quot;Cara Kreiger&quot;,
+                &quot;location&quot;: &quot;Sallymouth, Wallis and Futuna&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4687,15 +5734,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;14&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Adriel Dare&quot;,
-                &quot;slug&quot;: &quot;adrieldare&quot;,
-                &quot;bio&quot;: &quot;Quis eos quasi laboriosam voluptatem accusamus.&quot;,
+                &quot;name&quot;: &quot;Brandyn Hettinger&quot;,
+                &quot;slug&quot;: &quot;brandynhettinger&quot;,
+                &quot;bio&quot;: &quot;Libero et totam soluta quas excepturi veritatis.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.dooley.net/et-repellendus-sequi-suscipit-sed-cupiditate-aut-voluptatem-ut&quot;,
-                &quot;sector&quot;: &quot;Rebekah Waelchi&quot;,
-                &quot;location&quot;: &quot;Schmittberg, Cape Verde&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://lindgren.com/ut-voluptatem-enim-repellat-fugiat-architecto&quot;,
+                &quot;sector&quot;: &quot;Michele Huel&quot;,
+                &quot;location&quot;: &quot;Raustad, Tuvalu&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4719,15 +5767,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;15&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Verda Goldner&quot;,
-                &quot;slug&quot;: &quot;verdagoldner&quot;,
-                &quot;bio&quot;: &quot;Aperiam ducimus voluptatem consequatur similique neque impedit.&quot;,
+                &quot;name&quot;: &quot;Prof. Filomena Roob&quot;,
+                &quot;slug&quot;: &quot;proffilomenaroob&quot;,
+                &quot;bio&quot;: &quot;Enim ea accusamus rem rerum rerum sit necessitatibus.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://ankunding.com/maiores-est-eveniet-sapiente-quos-molestiae-sed-quia.html&quot;,
-                &quot;sector&quot;: &quot;Corene Fay&quot;,
-                &quot;location&quot;: &quot;Lake Horacio, South Africa&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.jenkins.net/exercitationem-modi-et-quidem-ut-sed-aut-dolore.html&quot;,
+                &quot;sector&quot;: &quot;Joe Corkery&quot;,
+                &quot;location&quot;: &quot;Port Phoebe, British Indian Ocean Territory (Chagos Archipelago)&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4751,15 +5800,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;16&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Mr. Kacey Marks V&quot;,
-                &quot;slug&quot;: &quot;mrkaceymarksv&quot;,
-                &quot;bio&quot;: &quot;Adipisci fuga ea explicabo ipsa est est.&quot;,
+                &quot;name&quot;: &quot;Pat Labadie&quot;,
+                &quot;slug&quot;: &quot;patlabadie&quot;,
+                &quot;bio&quot;: &quot;Repellendus recusandae atque voluptatibus itaque voluptas tenetur iusto.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.wisoky.com/dignissimos-dolor-odit-accusamus-rerum-incidunt-dicta-omnis&quot;,
-                &quot;sector&quot;: &quot;Freddy Koch&quot;,
-                &quot;location&quot;: &quot;Mablefort, Sweden&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://von.com/saepe-est-praesentium-cum-quis-optio-dolores&quot;,
+                &quot;sector&quot;: &quot;Alfredo White&quot;,
+                &quot;location&quot;: &quot;South Ellsworthborough, Luxembourg&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4783,15 +5833,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;17&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Jaleel Dooley&quot;,
-                &quot;slug&quot;: &quot;jaleeldooley&quot;,
-                &quot;bio&quot;: &quot;Quos voluptatem et velit amet sit autem.&quot;,
+                &quot;name&quot;: &quot;Skye Walker&quot;,
+                &quot;slug&quot;: &quot;skyewalker&quot;,
+                &quot;bio&quot;: &quot;Ipsum nesciunt et at maxime in dolorum.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.rippin.info/sint-officia-quia-maxime-sit-eum-inventore-quos-velit&quot;,
-                &quot;sector&quot;: &quot;Agnes Emard&quot;,
-                &quot;location&quot;: &quot;Kassulkefort, Guernsey&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.murazik.info/&quot;,
+                &quot;sector&quot;: &quot;Ms. Crystel Effertz I&quot;,
+                &quot;location&quot;: &quot;Parkerborough, Pitcairn Islands&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4815,15 +5866,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;18&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Mr. Garrick Goodwin&quot;,
-                &quot;slug&quot;: &quot;mrgarrickgoodwin&quot;,
-                &quot;bio&quot;: &quot;Sit necessitatibus iure inventore.&quot;,
+                &quot;name&quot;: &quot;Jason Bartell&quot;,
+                &quot;slug&quot;: &quot;jasonbartell&quot;,
+                &quot;bio&quot;: &quot;Dolorem autem consequatur similique nulla non nulla iste.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://rolfson.com/dolore-unde-tenetur-doloribus&quot;,
-                &quot;sector&quot;: &quot;Mr. Ari Predovic Sr.&quot;,
-                &quot;location&quot;: &quot;South Brayanton, Korea&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://lynch.com/&quot;,
+                &quot;sector&quot;: &quot;Mr. Carmelo Champlin&quot;,
+                &quot;location&quot;: &quot;East Leilani, Thailand&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4847,15 +5899,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;19&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Prof. Brooklyn McGlynn PhD&quot;,
-                &quot;slug&quot;: &quot;profbrooklynmcglynnphd&quot;,
-                &quot;bio&quot;: &quot;Doloribus sapiente saepe voluptates non harum autem itaque repellat.&quot;,
+                &quot;name&quot;: &quot;Glenda Berge&quot;,
+                &quot;slug&quot;: &quot;glendaberge&quot;,
+                &quot;bio&quot;: &quot;Harum ex velit omnis ullam.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.parisian.com/dolore-quis-aliquid-fugit-at-sit-temporibus-doloribus&quot;,
-                &quot;sector&quot;: &quot;Anderson Kulas DVM&quot;,
-                &quot;location&quot;: &quot;North Kaleb, Saint Helena&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://runolfsson.com/porro-in-sunt-sint-id-minus-molestiae-ratione.html&quot;,
+                &quot;sector&quot;: &quot;Dr. Jessyca Casper&quot;,
+                &quot;location&quot;: &quot;Ashleeshire, Romania&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4879,15 +5932,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;20&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Mrs. Ivah Hermiston Sr.&quot;,
-                &quot;slug&quot;: &quot;mrsivahhermistonsr&quot;,
-                &quot;bio&quot;: &quot;Rerum itaque voluptatibus ad.&quot;,
+                &quot;name&quot;: &quot;Brooks Dibbert&quot;,
+                &quot;slug&quot;: &quot;brooksdibbert&quot;,
+                &quot;bio&quot;: &quot;Ipsam autem quis in et nulla qui.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://schneider.com/praesentium-expedita-optio-officia-minus-exercitationem-qui-voluptas&quot;,
-                &quot;sector&quot;: &quot;Omari Gorczany&quot;,
-                &quot;location&quot;: &quot;South Carolynechester, Nicaragua&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://veum.net/eum-iure-debitis-a-illum-consequatur&quot;,
+                &quot;sector&quot;: &quot;Hilario Wyman&quot;,
+                &quot;location&quot;: &quot;Wilmastad, Hong Kong&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4911,15 +5965,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;21&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Carmelo Huel Sr.&quot;,
-                &quot;slug&quot;: &quot;carmelohuelsr&quot;,
-                &quot;bio&quot;: &quot;Qui molestias unde et ex mollitia necessitatibus qui.&quot;,
+                &quot;name&quot;: &quot;Godfrey Bogisich V&quot;,
+                &quot;slug&quot;: &quot;godfreybogisichv&quot;,
+                &quot;bio&quot;: &quot;Labore nihil sed eveniet quisquam reprehenderit deserunt neque.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://kautzer.com/eum-eum-error-culpa-placeat-voluptatem-voluptatem-ipsam.html&quot;,
-                &quot;sector&quot;: &quot;Dr. Humberto Watsica I&quot;,
-                &quot;location&quot;: &quot;Schaeferborough, Guatemala&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;https://www.bayer.com/consequuntur-et-quae-cumque-labore-assumenda-voluptatem-fuga&quot;,
+                &quot;sector&quot;: &quot;Mrs. Laura Stehr&quot;,
+                &quot;location&quot;: &quot;Labadiefort, Singapore&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4943,15 +5998,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;22&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Savanah Spinka&quot;,
-                &quot;slug&quot;: &quot;savanahspinka&quot;,
-                &quot;bio&quot;: &quot;Ad id alias assumenda recusandae dolores voluptatem vero.&quot;,
+                &quot;name&quot;: &quot;Elvera Schamberger DVM&quot;,
+                &quot;slug&quot;: &quot;elveraschambergerdvm&quot;,
+                &quot;bio&quot;: &quot;Natus ea earum ducimus non non nulla sed.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://jacobs.biz/&quot;,
-                &quot;sector&quot;: &quot;Mr. Leif Nitzsche DDS&quot;,
-                &quot;location&quot;: &quot;Port Joey, Kiribati&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.emmerich.com/officia-nesciunt-molestiae-nihil-explicabo&quot;,
+                &quot;sector&quot;: &quot;Fletcher Monahan&quot;,
+                &quot;location&quot;: &quot;Schulistbury, Libyan Arab Jamahiriya&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -4975,15 +6031,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;23&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Eldon Mohr V&quot;,
-                &quot;slug&quot;: &quot;eldonmohrv&quot;,
-                &quot;bio&quot;: &quot;Atque reprehenderit totam sunt aperiam.&quot;,
+                &quot;name&quot;: &quot;Stephon Leffler&quot;,
+                &quot;slug&quot;: &quot;stephonleffler&quot;,
+                &quot;bio&quot;: &quot;Praesentium corrupti laudantium numquam quis vitae.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://gislason.com/illum-error-nobis-aut-culpa&quot;,
-                &quot;sector&quot;: &quot;Madie Sawayn&quot;,
-                &quot;location&quot;: &quot;New Estell, Oman&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.tremblay.org/tempora-ratione-voluptatem-fugit&quot;,
+                &quot;sector&quot;: &quot;Alexis Gislason&quot;,
+                &quot;location&quot;: &quot;New Aliza, Liechtenstein&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5007,15 +6064,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;24&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Dustin Boehm&quot;,
-                &quot;slug&quot;: &quot;dustinboehm&quot;,
-                &quot;bio&quot;: &quot;A dolor accusamus sapiente dolorem est ea qui.&quot;,
+                &quot;name&quot;: &quot;Dr. Garrison Metz DVM&quot;,
+                &quot;slug&quot;: &quot;drgarrisonmetzdvm&quot;,
+                &quot;bio&quot;: &quot;Et quas amet sit autem asperiores enim.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://cormier.com/quia-necessitatibus-sed-quia&quot;,
-                &quot;sector&quot;: &quot;Brad Blick&quot;,
-                &quot;location&quot;: &quot;North Kodyshire, Israel&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://gibson.com/aut-deleniti-magni-possimus-amet-illo-sint-velit.html&quot;,
+                &quot;sector&quot;: &quot;Lance Wolf&quot;,
+                &quot;location&quot;: &quot;Dylanport, Belize&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5039,15 +6097,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;25&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Napoleon Stracke&quot;,
-                &quot;slug&quot;: &quot;napoleonstracke&quot;,
-                &quot;bio&quot;: &quot;Perspiciatis autem rerum eius omnis.&quot;,
+                &quot;name&quot;: &quot;Nova Friesen II&quot;,
+                &quot;slug&quot;: &quot;novafriesenii&quot;,
+                &quot;bio&quot;: &quot;Magnam accusantium quia aut rerum facere exercitationem sit.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.yost.info/dolores-repellendus-ea-necessitatibus-voluptas.html&quot;,
-                &quot;sector&quot;: &quot;Bobbie Donnelly&quot;,
-                &quot;location&quot;: &quot;Port Dallin, Nauru&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://dibbert.org/quam-rerum-non-voluptatem-natus-debitis-et.html&quot;,
+                &quot;sector&quot;: &quot;Eryn McGlynn&quot;,
+                &quot;location&quot;: &quot;East Virgil, Luxembourg&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5071,15 +6130,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;26&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Enrico Cruickshank&quot;,
-                &quot;slug&quot;: &quot;enricocruickshank&quot;,
-                &quot;bio&quot;: &quot;Et vero repellat sunt consequatur aut.&quot;,
+                &quot;name&quot;: &quot;Alycia Bogan DVM&quot;,
+                &quot;slug&quot;: &quot;alyciabogandvm&quot;,
+                &quot;bio&quot;: &quot;Accusamus officia et quibusdam ea eos ullam eum commodi.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://daniel.com/&quot;,
-                &quot;sector&quot;: &quot;Casey Labadie&quot;,
-                &quot;location&quot;: &quot;West Hollis, Mongolia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://waters.biz/officia-eos-delectus-quae-aspernatur-natus-reprehenderit-inventore&quot;,
+                &quot;sector&quot;: &quot;Vallie Borer&quot;,
+                &quot;location&quot;: &quot;New Alyce, Tajikistan&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5103,15 +6163,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;27&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Prof. Felicity Sanford PhD&quot;,
-                &quot;slug&quot;: &quot;proffelicitysanfordphd&quot;,
-                &quot;bio&quot;: &quot;Corrupti expedita harum temporibus ipsa tenetur quos.&quot;,
+                &quot;name&quot;: &quot;Hyman Homenick MD&quot;,
+                &quot;slug&quot;: &quot;hymanhomenickmd&quot;,
+                &quot;bio&quot;: &quot;Odio ducimus eos et aut corporis est.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;https://www.fadel.org/expedita-esse-eos-at-fugit-dolorem&quot;,
-                &quot;sector&quot;: &quot;Francesca Schowalter V&quot;,
-                &quot;location&quot;: &quot;Juliusfurt, Zambia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://robel.com/magnam-ut-qui-qui-dolorem&quot;,
+                &quot;sector&quot;: &quot;Kristina Jacobi&quot;,
+                &quot;location&quot;: &quot;West Raymundo, Oman&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5135,15 +6196,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;28&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Mr. Wiley Franecki IV&quot;,
-                &quot;slug&quot;: &quot;mrwileyfraneckiiv&quot;,
-                &quot;bio&quot;: &quot;Laudantium omnis enim rerum et.&quot;,
+                &quot;name&quot;: &quot;Guiseppe Lebsack I&quot;,
+                &quot;slug&quot;: &quot;guiseppelebsacki&quot;,
+                &quot;bio&quot;: &quot;Voluptatem hic non dolore facere voluptatem qui.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;https://harber.com/velit-cumque-cupiditate-dolores-ipsam-et.html&quot;,
-                &quot;sector&quot;: &quot;Mr. Collin Schinner&quot;,
-                &quot;location&quot;: &quot;West Madonnafort, Cambodia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://marks.com/a-incidunt-vitae-illum-sapiente&quot;,
+                &quot;sector&quot;: &quot;Miss Suzanne Lind&quot;,
+                &quot;location&quot;: &quot;New Ameliaberg, Iceland&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5167,15 +6229,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;29&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Sandrine Labadie&quot;,
-                &quot;slug&quot;: &quot;sandrinelabadie&quot;,
-                &quot;bio&quot;: &quot;Ex dolorem voluptas asperiores qui ut.&quot;,
+                &quot;name&quot;: &quot;Dannie Stanton&quot;,
+                &quot;slug&quot;: &quot;danniestanton&quot;,
+                &quot;bio&quot;: &quot;Est eos minus impedit omnis soluta nostrum.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.bauch.com/&quot;,
-                &quot;sector&quot;: &quot;Deshaun Prosacco&quot;,
-                &quot;location&quot;: &quot;South Clifton, Bhutan&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.marks.com/&quot;,
+                &quot;sector&quot;: &quot;Jovani Hagenes&quot;,
+                &quot;location&quot;: &quot;New Roy, Paraguay&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5199,15 +6262,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;30&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Prof. Zula Stamm&quot;,
-                &quot;slug&quot;: &quot;profzulastamm&quot;,
-                &quot;bio&quot;: &quot;Aut sequi hic sint perferendis.&quot;,
+                &quot;name&quot;: &quot;Dandre Gislason&quot;,
+                &quot;slug&quot;: &quot;dandregislason&quot;,
+                &quot;bio&quot;: &quot;Qui et iste sed.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.stiedemann.org/exercitationem-earum-repellat-ad-ab-odit-sint.html&quot;,
-                &quot;sector&quot;: &quot;Faye Tremblay&quot;,
-                &quot;location&quot;: &quot;Leannonfurt, Cook Islands&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;https://www.erdman.info/sit-rerum-laudantium-hic-ut-eos-reprehenderit-voluptatem&quot;,
+                &quot;sector&quot;: &quot;Prof. Beaulah Kreiger I&quot;,
+                &quot;location&quot;: &quot;Kristinside, New Caledonia&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5231,15 +6295,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;31&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Tracy Langosh Jr.&quot;,
-                &quot;slug&quot;: &quot;tracylangoshjr&quot;,
-                &quot;bio&quot;: &quot;Qui in voluptatem quibusdam quam.&quot;,
+                &quot;name&quot;: &quot;Mrs. Karen Cormier&quot;,
+                &quot;slug&quot;: &quot;mrskarencormier&quot;,
+                &quot;bio&quot;: &quot;Consectetur nihil ut harum tempora.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;https://runte.biz/deserunt-voluptas-aut-non-veritatis-corrupti-consequatur-vero.html&quot;,
-                &quot;sector&quot;: &quot;Elyssa Lind&quot;,
-                &quot;location&quot;: &quot;Colinberg, Colombia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;https://www.wunsch.com/fugiat-inventore-excepturi-quibusdam-corporis-consequuntur&quot;,
+                &quot;sector&quot;: &quot;Shana Bernier&quot;,
+                &quot;location&quot;: &quot;South Alize, Finland&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5263,15 +6328,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;32&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Ms. Pascale Bednar&quot;,
-                &quot;slug&quot;: &quot;mspascalebednar&quot;,
-                &quot;bio&quot;: &quot;Sed animi sunt non nobis dolorem.&quot;,
+                &quot;name&quot;: &quot;Otha Glover&quot;,
+                &quot;slug&quot;: &quot;othaglover&quot;,
+                &quot;bio&quot;: &quot;Est deleniti eius nihil adipisci.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.beer.com/architecto-sed-quas-provident-porro-amet.html&quot;,
-                &quot;sector&quot;: &quot;Santa Roberts DDS&quot;,
-                &quot;location&quot;: &quot;West Ruby, Maldives&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://murphy.biz/velit-nesciunt-corrupti-molestiae-vero-delectus-consequuntur&quot;,
+                &quot;sector&quot;: &quot;Stanford Gleason II&quot;,
+                &quot;location&quot;: &quot;Kreigerhaven, Bhutan&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5295,15 +6361,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;33&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Mariana Kuphal I&quot;,
-                &quot;slug&quot;: &quot;marianakuphali&quot;,
-                &quot;bio&quot;: &quot;Quia omnis aspernatur soluta porro rem et.&quot;,
+                &quot;name&quot;: &quot;Verna Bode&quot;,
+                &quot;slug&quot;: &quot;vernabode&quot;,
+                &quot;bio&quot;: &quot;Assumenda porro ut id placeat blanditiis id perferendis quam.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;https://www.rohan.org/ut-sed-nemo-culpa-dolorum-earum-sunt-voluptatem&quot;,
-                &quot;sector&quot;: &quot;Arthur Nader III&quot;,
-                &quot;location&quot;: &quot;Lake Marianoland, Australia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.breitenberg.info/nostrum-saepe-et-eum-eveniet&quot;,
+                &quot;sector&quot;: &quot;Tad Zboncak DVM&quot;,
+                &quot;location&quot;: &quot;South Jaidenhaven, Andorra&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5327,15 +6394,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;34&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Maya Brekke III&quot;,
-                &quot;slug&quot;: &quot;mayabrekkeiii&quot;,
-                &quot;bio&quot;: &quot;Aut rerum sed magnam occaecati qui qui debitis nisi.&quot;,
+                &quot;name&quot;: &quot;Isabelle Tromp&quot;,
+                &quot;slug&quot;: &quot;isabelletromp&quot;,
+                &quot;bio&quot;: &quot;Sequi aliquam aliquam aut nesciunt.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://hilpert.com/ipsum-cum-incidunt-pariatur-sapiente-qui.html&quot;,
-                &quot;sector&quot;: &quot;Jerod Crooks&quot;,
-                &quot;location&quot;: &quot;Altenwerthport, Macao&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://hudson.org/&quot;,
+                &quot;sector&quot;: &quot;Prof. Shayna Kunze II&quot;,
+                &quot;location&quot;: &quot;North Joliemouth, Malaysia&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5359,15 +6427,16 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;organizations&quot;,
             &quot;id&quot;: &quot;35&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Prof. Magali Waelchi&quot;,
-                &quot;slug&quot;: &quot;profmagaliwaelchi&quot;,
-                &quot;bio&quot;: &quot;Incidunt fugit fuga ratione ea enim consequatur.&quot;,
+                &quot;name&quot;: &quot;Dr. Rick Macejkovic Jr.&quot;,
+                &quot;slug&quot;: &quot;drrickmacejkovicjr&quot;,
+                &quot;bio&quot;: &quot;Dolorem sunt deleniti ea nostrum fugit.&quot;,
                 &quot;logo&quot;: &quot;https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;,
-                &quot;website&quot;: &quot;http://www.pagac.org/&quot;,
-                &quot;sector&quot;: &quot;Savion Waelchi&quot;,
-                &quot;location&quot;: &quot;North Lelandland, Holy See (Vatican City State)&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;website&quot;: &quot;http://www.jaskolski.net/vero-veniam-praesentium-fuga-sit-et-aliquam-ut&quot;,
+                &quot;sector&quot;: &quot;Prof. Flossie Feeney DDS&quot;,
+                &quot;location&quot;: &quot;Shanahanside, Bulgaria&quot;,
+                &quot;following&quot;: false,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;sector&quot;: {
@@ -5388,6 +6457,548 @@ response.json()</code></pre>                                        </div>
             }
         }
     ]
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="organizations-GETapi-v1-organizations-search">
+                    Search organizations
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/organizations/search"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/organizations/search</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Search for organizations based on a query string. This endpoint allows users
+to find organizations by name or description, facilitating easier discovery of NGOs.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                                                <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                                <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Query Parameters</h3>
+
+                                <div class="sl-text-sm">
+                                                                            <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">query</div>
+                                            <span class="sl-truncate sl-text-muted">string</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The search query string.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        health
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">Body Parameters</h3>
+
+                                <div class="sl-text-sm">
+                                    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">sector</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The <code>id</code> of an existing record in the sectors table.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        16
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+    <div class="expandable sl-text-sm sl-border-l sl-ml-px">
+        <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">location</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The <code>id</code> of an existing record in the locations table.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        16
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+            </div>
+                            </div>
+                        </div>
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/organizations/search"
+              data-hasfiles="0"
+              data-hasjsonbody="1">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-organizations-search-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-organizations-search-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-organizations-search-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-organizations-search-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Query Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="queryparam-GETapi-v1-organizations-search-query">query</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                                                                    <input aria-label="query" name="query"
+                                                   id="queryparam-GETapi-v1-organizations-search-query"
+                                                   placeholder="The search query string."
+                                                   value="health" data-component="query"
+                                                   class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border"
+                                            >
+                                                                            </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Body
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                                                    <div class="TextRequestBody sl-p-4">
+                                <div class="code-editor language-json"
+                                     id="json-body-GETapi-v1-organizations-search"
+                                     style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
+                                >{
+    "sector": 16,
+    "location": 16
+}</div>
+                            </div>
+                                            </div>
+                </div>
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-organizations-search"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-organizations-search"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-organizations-search"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/organizations/search?query=health" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"sector\": 16,
+    \"location\": 16
+}"
+</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/organizations/search"
+);
+
+const params = {
+    "query": "health",
+};
+Object.keys(params)
+    .forEach(key =&gt; url.searchParams.append(key, params[key]));
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "sector": 16,
+    "location": 16
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/organizations/search';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'query' =&gt; 'health',
+        ],
+        'json' =&gt; [
+            'sector' =&gt; 16,
+            'location' =&gt; 16,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/organizations/search'
+payload = {
+    "sector": 16,
+    "location": 16
+}
+params = {
+  'query': 'health',
+}
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers, json=payload, params=params)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-organizations-search-toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-organizations-search', event.target.value);">
+                                                                                                            <option value="0">200</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-organizations-search example-response-GETapi-v1-organizations-search-0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;data&quot;: []
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -7336,15 +8947,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;1&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Non consequuntur sapiente.&quot;,
-                &quot;slug&quot;: &quot;non-consequuntur-sapiente&quot;,
+                &quot;title&quot;: &quot;Enim vitae quia veritatis.&quot;,
+                &quot;slug&quot;: &quot;enim-vitae-quia-veritatis&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Est esse nam molestias quo suscipit consequatur ipsa. In enim et quas perferendis consequuntur a suscipit doloremque. Iste assumenda odio mollitia quia quo voluptatem. Sed distinctio culpa iure accusamus voluptatem.\n\nRepudiandae quisquam ut saepe nostrum velit facilis. Dolores tenetur vitae voluptate quis inventore molestias. Reiciendis voluptatem tempora rem laudantium quam quaerat numquam eum. Aut excepturi est fugiat sapiente.\n\nAt quibusdam et doloremque explicabo culpa. Sed eos nemo ea ea.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Totam laborum illum illo omnis. Rerum quasi voluptatum inventore quod aperiam omnis sit. Occaecati quos est aut reiciendis rem.\n\nDolor odio sed iusto assumenda dolor nam dolore. Reprehenderit est vero laborum quaerat suscipit placeat sunt earum.\n\nOmnis totam illum adipisci ab nisi eum. Assumenda qui corrupti aperiam nulla. Dolorum sit id nesciunt voluptatem est officiis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -7392,16 +9003,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;1&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Aut aperiam molestias qui est architecto dolorem et.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Fugiat quas eius mollitia sunt aut eos qui.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;12&quot;
+                                    &quot;id&quot;: &quot;13&quot;
                                 }
                             }
                         },
@@ -7411,16 +9022,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;2&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Mollitia temporibus sunt aut cupiditate.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Aspernatur quo eaque similique molestiae saepe iusto.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;13&quot;
+                                    &quot;id&quot;: &quot;14&quot;
                                 }
                             }
                         },
@@ -7432,32 +9043,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;1&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;2&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;3&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;4&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -7467,15 +9078,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;2&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Dolorum officiis unde optio dolore.&quot;,
-                &quot;slug&quot;: &quot;dolorum-officiis-unde-optio-dolore&quot;,
+                &quot;title&quot;: &quot;Eum fugiat sed animi quisquam ipsam.&quot;,
+                &quot;slug&quot;: &quot;eum-fugiat-sed-animi-quisquam-ipsam&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Fugiat id velit aut esse similique. Vel sit fugiat saepe laboriosam illo pariatur. Dolor adipisci atque suscipit ut necessitatibus dolorem molestiae. Numquam aut dolore praesentium sequi accusantium rem.\n\nAutem earum voluptas odit sit aut odio qui vitae. Sed repellendus corporis aliquid voluptas sed. Explicabo placeat cum quo occaecati. Quibusdam et voluptas dolor.\n\nSit quis minus dolor iure dolore. Distinctio excepturi velit quo soluta. Eveniet modi quo voluptas neque sequi ad quo. Perspiciatis et quis itaque maiores. Eum dolores quas vel quam dicta natus vero.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Iste repellendus dolorum libero aspernatur ratione laudantium saepe consequatur. Ullam commodi iusto sequi tempore commodi architecto. Inventore quaerat aut commodi quo. Id debitis ea aliquam qui maiores rem cum.\n\nDolor iusto alias debitis sunt exercitationem sed. Maxime fuga in placeat aliquid dolorum. Eos odit et maxime consequatur laudantium commodi. Dolorem ipsam dolore voluptate et quidem sed iste.\n\nDolores et itaque voluptas deleniti dolores. Accusamus illo sed ipsam dolorum dolor dolorum. Ipsa debitis quia quod qui laudantium. Voluptatem quod modi placeat commodi voluptas deleniti.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -7523,16 +9134,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;3&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Accusamus et placeat aspernatur aut dolore tempora est magnam.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Vel dolorem repellendus dolores molestiae quidem modi.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;18&quot;
+                                    &quot;id&quot;: &quot;19&quot;
                                 }
                             }
                         },
@@ -7542,16 +9153,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;4&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Qui nihil eos eum nihil id autem eligendi labore.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Cupiditate hic corrupti ratione aut laudantium sed.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;19&quot;
+                                    &quot;id&quot;: &quot;20&quot;
                                 }
                             }
                         },
@@ -7563,32 +9174,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;5&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;6&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;7&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;8&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -7598,15 +9209,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;3&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ducimus sunt officiis.&quot;,
-                &quot;slug&quot;: &quot;ducimus-sunt-officiis&quot;,
+                &quot;title&quot;: &quot;Quibusdam ducimus placeat ea doloribus.&quot;,
+                &quot;slug&quot;: &quot;quibusdam-ducimus-placeat-ea-doloribus&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Eum vitae distinctio qui dolores et aut. Nesciunt debitis eius aut similique ea. Autem dignissimos aut dolorem accusantium vel. Non ut nam est optio et. Expedita id sit nobis voluptas expedita.\n\nFuga suscipit debitis ut ratione. Omnis molestiae asperiores temporibus vero atque ut. Accusamus sequi beatae voluptatem explicabo tempora sunt.\n\nEos et quia aliquam officiis maxime perferendis. Aut hic rerum quisquam quas. Ipsum laborum et sunt suscipit non qui. Dicta fugit est voluptatem sed.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Ipsum odio voluptatem assumenda expedita exercitationem. Distinctio quisquam enim ab nam eos. Ea vitae incidunt rerum est ullam.\n\nVoluptate ipsum officia consequatur repellendus recusandae ad. Autem unde quas aut fuga totam distinctio adipisci. Consequatur ex exercitationem quae sunt totam quis. Est quisquam at dolorem aut laborum. Dolorum voluptates quia eos et modi.\n\nExercitationem porro consequatur et aut. Eum qui hic officiis officiis fuga. Accusamus soluta dolor recusandae voluptatum non fugiat sint. A voluptatem ut rem sunt doloremque natus magnam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -7654,16 +9265,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;5&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Minima sit beatae ea quis.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Eos sed nihil qui.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;24&quot;
+                                    &quot;id&quot;: &quot;25&quot;
                                 }
                             }
                         },
@@ -7673,16 +9284,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;6&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Ex sit aut saepe atque.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Sint rerum quibusdam sed autem eos qui.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;25&quot;
+                                    &quot;id&quot;: &quot;26&quot;
                                 }
                             }
                         },
@@ -7694,32 +9305,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;9&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;10&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;11&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;12&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -7729,15 +9340,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;4&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Totam ratione voluptas ipsum quia.&quot;,
-                &quot;slug&quot;: &quot;totam-ratione-voluptas-ipsum-quia&quot;,
+                &quot;title&quot;: &quot;Est dolorem sed excepturi repudiandae dolorum.&quot;,
+                &quot;slug&quot;: &quot;est-dolorem-sed-excepturi-repudiandae-dolorum&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Molestiae itaque est cum provident. Eum et illum voluptas inventore atque ut. Iste eveniet sed facilis recusandae labore dolor aut. Mollitia qui omnis autem amet mollitia.\n\nLibero qui similique dolorum ratione placeat nobis beatae. Occaecati tempora sint et omnis nesciunt assumenda. Qui dicta nesciunt aut eum.\n\nNihil non quaerat fuga qui omnis nobis. Omnis deleniti incidunt asperiores fuga rem illo. Ipsum laboriosam aliquid rerum fugit. Perspiciatis maxime sint quia quidem harum tenetur perspiciatis. Ut pariatur voluptatibus voluptate doloremque eos.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Dolor at quia minima libero sed sit. Tenetur quas in aperiam iste ut. Qui quo ut et quam possimus et debitis.\n\nEnim eum quam est sunt sit ad dolore. Soluta excepturi aliquid explicabo dolorem fugiat nihil voluptates.\n\nOmnis quas officiis quia voluptas quis architecto et non. Consectetur consequatur modi ab blanditiis fuga sint. Minus voluptas consequatur quia blanditiis deleniti repellat delectus sit.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -7785,16 +9396,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;7&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Voluptatem harum quam reiciendis perferendis.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Ea laborum fugit modi.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;30&quot;
+                                    &quot;id&quot;: &quot;31&quot;
                                 }
                             }
                         },
@@ -7804,16 +9415,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;8&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Enim vel necessitatibus nihil et iste non.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Libero voluptatum aut dolorem ut et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;31&quot;
+                                    &quot;id&quot;: &quot;32&quot;
                                 }
                             }
                         },
@@ -7825,32 +9436,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;13&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;14&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;15&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;16&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -7860,15 +9471,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;5&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Quia tempore fugit maxime aspernatur ut.&quot;,
-                &quot;slug&quot;: &quot;quia-tempore-fugit-maxime-aspernatur-ut&quot;,
+                &quot;title&quot;: &quot;Voluptates doloremque iure cupiditate totam voluptatibus.&quot;,
+                &quot;slug&quot;: &quot;voluptates-doloremque-iure-cupiditate-totam-voluptatibus&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Cupiditate animi molestiae magnam accusamus blanditiis minus. Autem dolore nihil harum autem. Quia qui earum provident placeat non aspernatur unde.\n\nVoluptas beatae placeat nemo suscipit tempora praesentium. Distinctio fugiat sunt libero ut voluptatibus temporibus.\n\nOdio animi quis debitis deserunt sapiente et. Cum quaerat et non itaque vero corrupti. Rerum quo et tempore distinctio eos et voluptate. Eum rem ut quidem.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Odit quia possimus atque molestiae voluptatem sit repellat. Voluptatum ipsum odit et sed aliquid voluptates id. Sit ut velit nesciunt et. Perferendis molestias sed quia cum sapiente provident et.\n\nQuisquam dolor soluta ut velit perferendis aut. Ea praesentium sit quos omnis. Est temporibus numquam ratione iste exercitationem autem. Occaecati excepturi doloribus ipsam cupiditate consequatur.\n\nSed aut dolores consectetur amet sed. Dolore consequatur autem perspiciatis libero ad saepe. Nihil sint autem temporibus dolore. Possimus veniam facere nihil sint sint blanditiis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -7916,16 +9527,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;9&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Nam vel voluptatem placeat modi in ad.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Et placeat totam est quasi ut in aliquam.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;36&quot;
+                                    &quot;id&quot;: &quot;37&quot;
                                 }
                             }
                         },
@@ -7935,16 +9546,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;10&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Voluptatem excepturi quisquam sint quis commodi.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Fugit et veniam repellat tenetur.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;37&quot;
+                                    &quot;id&quot;: &quot;38&quot;
                                 }
                             }
                         },
@@ -7956,32 +9567,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;17&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;18&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;19&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;20&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -7991,15 +9602,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;6&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Maiores aut commodi dolore.&quot;,
-                &quot;slug&quot;: &quot;maiores-aut-commodi-dolore&quot;,
+                &quot;title&quot;: &quot;Aut voluptatem deserunt.&quot;,
+                &quot;slug&quot;: &quot;aut-voluptatem-deserunt&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Non quia laborum et id dolores quisquam et et. Culpa voluptatem et velit commodi illum pariatur. Magni voluptatibus iste dolorem et voluptates.\n\nSed et dolore similique quod consectetur exercitationem a. Ducimus corrupti molestiae id modi aliquid quo. Asperiores maxime ipsa et modi perferendis voluptatem qui aperiam.\n\nMinus impedit est et excepturi quo eveniet suscipit. Dolor autem ut qui sed eos quia. Provident repellat voluptatem ipsam nostrum ut est. Ea suscipit sequi in vitae et voluptas eligendi.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Aut et dolorem dolorem veniam aspernatur. Non aut est necessitatibus nisi. Unde ipsum velit sit nam quod. Deleniti excepturi dolore non voluptatibus aut molestiae facilis adipisci. Non ratione et qui suscipit.\n\nQuo officia consequatur unde similique natus nam. Voluptas alias nisi ut blanditiis in beatae voluptates corrupti. Suscipit repudiandae eos exercitationem fugit.\n\nOdio iste ipsa ab quia quod et sunt. Quasi corporis nihil ratione enim. Nihil veniam praesentium eveniet earum eum alias. Eius hic repellat corporis et. Sint voluptatem et modi vel quo quo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8047,16 +9658,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;11&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Quibusdam tempore libero magnam corrupti eligendi quo laudantium.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Totam velit cumque dicta.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;42&quot;
+                                    &quot;id&quot;: &quot;43&quot;
                                 }
                             }
                         },
@@ -8066,16 +9677,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;12&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Ad et ea amet laboriosam minima.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Libero odit quia rem aut neque voluptatem iure illum.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;43&quot;
+                                    &quot;id&quot;: &quot;44&quot;
                                 }
                             }
                         },
@@ -8087,32 +9698,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;21&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;22&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;23&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;24&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8122,15 +9733,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;7&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Earum sit numquam omnis qui.&quot;,
-                &quot;slug&quot;: &quot;earum-sit-numquam-omnis-qui&quot;,
+                &quot;title&quot;: &quot;Architecto est rem rem.&quot;,
+                &quot;slug&quot;: &quot;architecto-est-rem-rem&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Eligendi eos soluta optio placeat illum quo. Quo ipsam blanditiis dolorem repellendus. Numquam ducimus qui qui dolorem id architecto quasi. Architecto dolorum culpa enim et nostrum.\n\nVoluptates minus corrupti tempora esse consequatur in natus. Rem blanditiis repudiandae ullam fuga rerum eveniet quos molestiae. Nihil sequi libero fugit corporis incidunt ut.\n\nRem facere aliquam et ipsum voluptates eos accusantium. Voluptatem ea iure est eius. Id blanditiis expedita est quis et qui.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Sint consequuntur vel maiores dicta laborum quam. Quas explicabo soluta quas impedit rem aut voluptas ducimus. Tempore autem omnis illo occaecati rerum praesentium sunt. Aut sit nemo exercitationem voluptate culpa. Facilis quia voluptas reiciendis quos non.\n\nSint dolore et dolor ut aut nam et eos. Repellendus deleniti doloribus libero maiores corporis. Tempora eum voluptatibus eveniet consequuntur asperiores qui.\n\nAperiam labore ut id sed pariatur qui sequi quaerat. Aspernatur earum nisi nisi sequi velit quaerat. Eligendi ad at ipsam tempore libero facilis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8178,16 +9789,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;13&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Placeat sit natus voluptas voluptatum.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Quis itaque asperiores quia illo.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;48&quot;
+                                    &quot;id&quot;: &quot;49&quot;
                                 }
                             }
                         },
@@ -8197,16 +9808,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;14&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Occaecati enim eius quo saepe omnis.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Itaque enim sit odio amet provident illo ab ipsa.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;49&quot;
+                                    &quot;id&quot;: &quot;50&quot;
                                 }
                             }
                         },
@@ -8218,32 +9829,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;25&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;26&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;27&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;28&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8253,15 +9864,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;8&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Dolorem delectus quis.&quot;,
-                &quot;slug&quot;: &quot;dolorem-delectus-quis&quot;,
+                &quot;title&quot;: &quot;Ipsa necessitatibus et minima hic.&quot;,
+                &quot;slug&quot;: &quot;ipsa-necessitatibus-et-minima-hic&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Non officiis provident quia odio in labore. Excepturi voluptas non rerum et. Debitis accusamus provident blanditiis culpa commodi quaerat vel.\n\nVoluptas ipsum ut sunt id voluptas numquam. Tempora porro eligendi ratione voluptas sequi et. Unde soluta unde qui natus omnis.\n\nPlaceat quae aliquam aut. Ea nesciunt consequatur fugit ducimus ea iure dolorem sint. Nemo neque ad fugiat at quo.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Voluptatem eius nulla dolorem velit eius dolorum. Rerum dicta eveniet id quae. Quia et sunt similique molestiae veniam.\n\nItaque dolor ea rerum deleniti. Non autem enim non quod est. Quis quas voluptatem nam deserunt.\n\nEst excepturi molestiae impedit. Voluptatem qui vero rem nostrum beatae autem illo voluptatem. Incidunt dolorem et aut eos quos eligendi. Et sint expedita necessitatibus quia.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8309,16 +9920,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;15&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Omnis sint quaerat veritatis voluptas.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Est numquam quis iste dignissimos nisi ipsa repellendus.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;54&quot;
+                                    &quot;id&quot;: &quot;55&quot;
                                 }
                             }
                         },
@@ -8328,16 +9939,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;16&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Possimus fugit sint repudiandae dolor aut distinctio.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Quia laudantium quis et deserunt.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;55&quot;
+                                    &quot;id&quot;: &quot;56&quot;
                                 }
                             }
                         },
@@ -8349,32 +9960,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;29&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;30&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;31&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;32&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8384,15 +9995,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;9&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Corrupti ut vel.&quot;,
-                &quot;slug&quot;: &quot;corrupti-ut-vel&quot;,
+                &quot;title&quot;: &quot;Odio praesentium sit iste consequatur molestiae.&quot;,
+                &quot;slug&quot;: &quot;odio-praesentium-sit-iste-consequatur-molestiae&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Dolore iure aliquid ut. Voluptate ut odit unde ad cum tempora eaque.\n\nRerum sequi dolorum et ducimus et ut et rem. Quia minima amet impedit veritatis aperiam. Ea eligendi molestiae placeat molestias quam modi minus id.\n\nReiciendis dolorem sint eos et. Deserunt natus sint excepturi hic tenetur enim. Aliquam quam exercitationem quis libero error. Provident aspernatur ut aspernatur.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Optio autem sunt rem laboriosam et id. Dicta culpa quae sint ea. Quia modi maxime qui neque iusto non animi.\n\nEt odio ducimus quia consequatur velit ut voluptas. Neque alias sunt odio voluptates accusantium animi non. Dolore eum quo vitae labore. Voluptas qui rerum reiciendis perspiciatis eligendi recusandae.\n\nVoluptatum quae in quod ratione dicta quis. Quia suscipit necessitatibus sed ad et est quidem quam. Voluptate magni autem et incidunt et.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8440,16 +10051,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;17&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Et quo voluptatibus sequi officiis est laudantium.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Quasi praesentium soluta natus deleniti.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;60&quot;
+                                    &quot;id&quot;: &quot;61&quot;
                                 }
                             }
                         },
@@ -8459,16 +10070,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;18&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Consequatur rerum ea doloremque quidem sit quis.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Ut consequatur qui accusantium porro exercitationem et vel.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;61&quot;
+                                    &quot;id&quot;: &quot;62&quot;
                                 }
                             }
                         },
@@ -8480,32 +10091,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;33&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;34&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;35&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;36&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8515,15 +10126,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;10&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Omnis incidunt quasi.&quot;,
-                &quot;slug&quot;: &quot;omnis-incidunt-quasi&quot;,
+                &quot;title&quot;: &quot;Omnis laborum quis cupiditate.&quot;,
+                &quot;slug&quot;: &quot;omnis-laborum-quis-cupiditate&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Libero enim incidunt autem et nihil dolore. Dolorem fugit non eaque aliquid ad ut modi. Voluptatem debitis laboriosam natus ullam et.\n\nQuia molestiae aut deleniti eum rerum facere commodi. Quo eos dolorem deleniti. Maxime voluptatibus saepe sint aspernatur nihil quia ipsam. Et et saepe optio numquam quidem.\n\nEt est sed dolorem ut. Id voluptatibus architecto adipisci culpa sit. Beatae velit vitae perspiciatis minus sint ut tempora. Dolor odio iure et voluptatibus qui assumenda.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Omnis rerum aspernatur et molestias. Ut magni id similique cumque nemo. Corrupti voluptas et quia. Quidem cum ipsum corporis dolor voluptas odit sed.\n\nNon adipisci aliquid voluptates. Enim dolorum qui autem deserunt reiciendis dignissimos ullam. Dolor omnis eius velit dolores quibusdam necessitatibus et. Aliquam debitis perferendis molestiae inventore.\n\nEt consequatur dolorem occaecati eveniet aliquid provident qui quo. Explicabo dolorum et quam quo non minus dolorem dicta. Asperiores aliquid voluptate ut voluptatem modi ut.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8571,16 +10182,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;19&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Velit autem corrupti illum veritatis est qui.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Nobis occaecati esse esse ipsam rem.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;66&quot;
+                                    &quot;id&quot;: &quot;67&quot;
                                 }
                             }
                         },
@@ -8590,16 +10201,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;20&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Repudiandae eius unde voluptatem voluptatem ducimus et sint dolor.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Reiciendis voluptas officiis libero et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;67&quot;
+                                    &quot;id&quot;: &quot;68&quot;
                                 }
                             }
                         },
@@ -8611,32 +10222,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;37&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;38&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;39&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;40&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8646,15 +10257,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;11&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Eveniet vitae ipsa.&quot;,
-                &quot;slug&quot;: &quot;eveniet-vitae-ipsa&quot;,
+                &quot;title&quot;: &quot;Error reiciendis adipisci dolor.&quot;,
+                &quot;slug&quot;: &quot;error-reiciendis-adipisci-dolor&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Explicabo aliquam sunt similique quis nisi. Dolores optio sed ipsum rerum et sit. Et laboriosam cupiditate quis vel dolores accusantium consectetur ullam. Quidem aspernatur nobis eum ipsum sit aliquam quidem. Sequi vero tenetur quidem.\n\nVoluptatibus modi ipsam officiis placeat ullam sapiente recusandae. Eos quia provident quo ut eveniet et. Velit velit voluptas impedit est officiis veritatis. Rerum adipisci tempore quia.\n\nSit quis ipsam ratione et consequatur voluptate non voluptatibus. Alias autem odit eum ut dolores dolorem. Qui repudiandae qui accusamus.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Delectus molestias deleniti accusamus voluptatum sint corrupti vel nam. Itaque quis nostrum quis nulla. Adipisci voluptatem molestiae nemo non.\n\nSoluta inventore qui eaque eius non qui ratione sit. Dolore eaque veritatis repellendus magni. Ipsam et quae ipsam culpa laboriosam eligendi odio nostrum.\n\nVoluptatum non quos eum sunt. Debitis inventore ipsa dolorem sed necessitatibus et. Debitis voluptas ipsam accusantium aut dolorem deleniti. Accusamus in aut quaerat rem.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8702,16 +10313,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;21&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Facilis tenetur ea est similique.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Ut quibusdam ut maiores in perferendis est.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;72&quot;
+                                    &quot;id&quot;: &quot;73&quot;
                                 }
                             }
                         },
@@ -8721,16 +10332,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;22&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Maxime culpa eveniet sapiente est a.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Incidunt et dolorum necessitatibus sunt culpa illo ipsam.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;73&quot;
+                                    &quot;id&quot;: &quot;74&quot;
                                 }
                             }
                         },
@@ -8742,32 +10353,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;41&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;42&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;43&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;44&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8777,15 +10388,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;12&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nam rem rem.&quot;,
-                &quot;slug&quot;: &quot;nam-rem-rem&quot;,
+                &quot;title&quot;: &quot;Adipisci officiis est omnis inventore doloremque.&quot;,
+                &quot;slug&quot;: &quot;adipisci-officiis-est-omnis-inventore-doloremque&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Ullam rerum consequatur sapiente sit doloremque est. Saepe sunt animi dignissimos facilis reprehenderit sit incidunt. Itaque maiores natus commodi. Repudiandae quia a dicta minus.\n\nVeniam magni adipisci quia quo sequi deserunt. Et velit et sit quia et ab. Cupiditate iure nobis hic natus dolore. Corporis molestias aspernatur dolor reprehenderit voluptate.\n\nId veniam et hic ad magni dolor. Eos error dolorem possimus vel inventore sunt qui corrupti. Quis qui eum ipsam est vero et. Deserunt aliquid totam non dolores aut.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Nam eos facere laborum qui voluptatem. Rem iure blanditiis vero odio eveniet non soluta. Id amet aut aut quo fuga ut. Placeat quia porro ab aut nam consequatur.\n\nDolor hic placeat magnam magnam doloremque et. Ipsum et et tempora aperiam dicta quis. Facere aut autem labore error.\n\nQuia consectetur adipisci eos placeat non maiores. Placeat odio dolor quis quo est aut distinctio sint. Reprehenderit corrupti ipsum fugiat. Optio unde in fugiat voluptatibus illo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8833,16 +10444,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;23&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Sint qui eveniet dolorem.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Omnis accusantium temporibus beatae sint nesciunt aut.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;78&quot;
+                                    &quot;id&quot;: &quot;79&quot;
                                 }
                             }
                         },
@@ -8852,16 +10463,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;24&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Dolorem quia corporis doloribus eligendi.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Et perspiciatis facere exercitationem error.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;79&quot;
+                                    &quot;id&quot;: &quot;80&quot;
                                 }
                             }
                         },
@@ -8873,32 +10484,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;45&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;46&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;47&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;48&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -8908,15 +10519,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;13&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Non ut cumque atque.&quot;,
-                &quot;slug&quot;: &quot;non-ut-cumque-atque&quot;,
+                &quot;title&quot;: &quot;Distinctio accusantium dolorem.&quot;,
+                &quot;slug&quot;: &quot;distinctio-accusantium-dolorem&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Ut aut corporis repellat fugit cupiditate. Recusandae non ut est qui officia. Minus dicta aut itaque debitis molestiae et quis. Veritatis aliquid enim dolorem sint facere facere.\n\nQui sed sit libero ut molestias. Minus rerum sed sapiente velit iusto quia. Et aspernatur magnam reiciendis consequatur et delectus.\n\nAsperiores quibusdam pariatur est. In quo eaque hic doloremque perferendis nobis vitae. Reiciendis et necessitatibus omnis ut rerum exercitationem praesentium.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Quis quia et quasi voluptatem sed in voluptatum. Veritatis pariatur iusto placeat delectus amet expedita labore. Magni non voluptatem ipsam ratione.\n\nIn dolor doloremque quis illo sit corrupti. Officia eligendi aut odio optio est dicta atque et. Porro facere perferendis est possimus dolore ratione. Deleniti eos laborum nihil unde et. Quam culpa culpa maxime et atque eaque earum.\n\nAlias iusto non ut et. Fuga error quibusdam reprehenderit. A dolorum maxime aliquam illum et omnis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -8964,16 +10575,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;25&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Hic expedita qui voluptas error harum.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Nesciunt et reprehenderit natus qui.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;84&quot;
+                                    &quot;id&quot;: &quot;85&quot;
                                 }
                             }
                         },
@@ -8983,16 +10594,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;26&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Sit nihil ut qui velit quo.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;In culpa voluptatem dolor nisi sapiente incidunt facilis.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;85&quot;
+                                    &quot;id&quot;: &quot;86&quot;
                                 }
                             }
                         },
@@ -9004,32 +10615,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;49&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;50&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;51&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;52&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -9039,15 +10650,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;14&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Illo est corporis.&quot;,
-                &quot;slug&quot;: &quot;illo-est-corporis&quot;,
+                &quot;title&quot;: &quot;Id qui possimus cum veniam.&quot;,
+                &quot;slug&quot;: &quot;id-qui-possimus-cum-veniam&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Rerum dolore dolores natus aliquid. Quo cumque reprehenderit maiores magni. Eos ut eveniet quisquam qui et. Quas qui optio voluptatem aut officia itaque quia.\n\nVelit quo numquam quia aut necessitatibus velit. Aspernatur sapiente molestias possimus atque doloribus dolor. Aut voluptas illum qui cupiditate assumenda.\n\nMolestiae similique quasi ad vel dignissimos adipisci repellendus. Animi vitae explicabo rem odio consequatur enim. Adipisci in veritatis et suscipit hic dignissimos voluptas alias. Tempora quibusdam dolor maxime sit provident sint assumenda.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Deleniti quod sed voluptas ex velit. Architecto vitae qui perferendis deleniti ad impedit. Quibusdam corrupti id aperiam veritatis tempore. Eveniet dolor nostrum in quia quod numquam sint.\n\nQuis repudiandae quia neque sequi ipsum ut. Hic qui sunt iusto qui. Maiores magnam sint et nobis quia sequi repellendus quam. Et nostrum sit asperiores suscipit repellat dolores.\n\nEa deleniti dolores quo dolores sit natus. Amet dolores id adipisci sequi distinctio ut. Quam ut explicabo enim et.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9095,16 +10706,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;27&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Dolores eum ea est voluptatibus voluptates aut nam.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Aut placeat qui quaerat id ut aut.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;90&quot;
+                                    &quot;id&quot;: &quot;91&quot;
                                 }
                             }
                         },
@@ -9114,16 +10725,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;28&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Est velit sint veritatis aut sit recusandae repellat quis.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Autem vitae eius est et eum vero iste delectus.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;91&quot;
+                                    &quot;id&quot;: &quot;92&quot;
                                 }
                             }
                         },
@@ -9135,32 +10746,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;53&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;54&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;55&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;56&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -9170,15 +10781,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;15&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nesciunt quia excepturi dolor voluptates.&quot;,
-                &quot;slug&quot;: &quot;nesciunt-quia-excepturi-dolor-voluptates&quot;,
+                &quot;title&quot;: &quot;Architecto accusantium ipsa est.&quot;,
+                &quot;slug&quot;: &quot;architecto-accusantium-ipsa-est&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 4,
                 &quot;commentCount&quot;: 2,
-                &quot;content&quot;: &quot;Repudiandae ut eum ducimus commodi ut ut. Incidunt eveniet voluptatem maiores et dolorum quia iure repudiandae. Blanditiis in qui dolorem provident voluptates occaecati beatae ut. Ipsum doloribus quam odio libero.\n\nAb qui iste voluptate veritatis cum eveniet. Ut numquam hic illum non placeat voluptatem. Molestiae consequuntur est quasi voluptatum. Voluptatem ipsa qui soluta suscipit corporis qui deserunt.\n\nSuscipit delectus quos et vel voluptate. Voluptates voluptates exercitationem qui eveniet. Magnam est perferendis numquam. At saepe ipsam omnis rerum sunt nemo.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Quia voluptatibus ratione sunt ex. Et reprehenderit dignissimos quas aut quis modi enim. Et sapiente placeat temporibus necessitatibus voluptate aspernatur. Dolores a dignissimos reprehenderit necessitatibus odio nobis et.\n\nQui molestiae repellendus tenetur molestiae blanditiis quibusdam ullam. Non ducimus deserunt voluptate fuga corrupti quam perspiciatis. Saepe et eaque vel voluptatibus sapiente est.\n\nSimilique eveniet ab aut laborum aut. Incidunt placeat maiores laborum occaecati vel. Excepturi numquam excepturi consectetur accusamus quibusdam voluptatum consequatur.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9226,16 +10837,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;29&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Magnam enim incidunt aut provident ullam.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Architecto odit consequatur et error repellat.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;96&quot;
+                                    &quot;id&quot;: &quot;97&quot;
                                 }
                             }
                         },
@@ -9245,16 +10856,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;30&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Deserunt cupiditate odio molestiae aut necessitatibus et.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Eius ratione magni ut aut repellat quos.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;97&quot;
+                                    &quot;id&quot;: &quot;98&quot;
                                 }
                             }
                         },
@@ -9266,32 +10877,32 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;57&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;58&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;59&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     },
                     {
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;60&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -9301,15 +10912,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;16&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Et laudantium tenetur occaecati aut unde.&quot;,
-                &quot;slug&quot;: &quot;et-laudantium-tenetur-occaecati-aut-unde&quot;,
+                &quot;title&quot;: &quot;Nam consequatur voluptatem sit.&quot;,
+                &quot;slug&quot;: &quot;nam-consequatur-voluptatem-sit&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Asperiores qui ratione tempore similique. Cumque corporis aut dolores error rerum praesentium sint.\n\nAut officiis et rerum optio. Ullam eos aut voluptates totam minima. Voluptas fuga totam qui.\n\nExplicabo voluptatem quia fugiat. Ut voluptatibus doloremque aperiam voluptatum aut facere voluptatem odio. Pariatur harum id minus soluta officiis nihil vitae.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Officia blanditiis qui dolor totam in mollitia porro repudiandae. Voluptatem officiis mollitia eos accusamus nemo. Facilis eius impedit vitae fugiat quasi sit sunt. Nobis ipsa facere optio aut voluptatum nam omnis.\n\nFacilis cum est dignissimos eos quia nemo iste. Similique hic est dolorum occaecati exercitationem impedit dignissimos est. Porro reiciendis quisquam minima explicabo eveniet.\n\nEsse laboriosam provident quo culpa officia ea. Tenetur rem aut eius ut quae voluptate magnam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9336,16 +10947,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;31&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Quia ipsam ullam qui quia sint.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Quia nostrum aliquam voluptas velit aut nam.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;112&quot;
+                                    &quot;id&quot;: &quot;113&quot;
                                 }
                             }
                         },
@@ -9359,15 +10970,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;17&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;A autem praesentium molestiae.&quot;,
-                &quot;slug&quot;: &quot;a-autem-praesentium-molestiae&quot;,
+                &quot;title&quot;: &quot;Tempore praesentium expedita.&quot;,
+                &quot;slug&quot;: &quot;tempore-praesentium-expedita&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Ut sed veritatis repellendus eveniet. Earum soluta optio dolor sapiente alias. Laudantium autem voluptates ut quisquam incidunt neque.\n\nDolores a odit perspiciatis repudiandae provident reiciendis quibusdam praesentium. Sit facilis quisquam perspiciatis earum quod nulla possimus sunt. Fugit maiores corrupti dolores facilis aut. Ea unde aperiam hic unde.\n\nAutem ducimus consequuntur similique. Velit sint provident ut ut quis molestias. Ex libero laborum et id eveniet in.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Sit nam debitis in ut culpa et reprehenderit eos. Fugit voluptas fugit quo.\n\nNecessitatibus praesentium enim quaerat repudiandae et velit dolorem. Dignissimos omnis nihil eligendi in. Facere occaecati et et saepe.\n\nAmet qui id aut error. Quo architecto nihil aut non laudantium. Eum sed sed neque. Ut optio voluptate corrupti ipsam. Ut ut eaque sequi nobis qui ipsam est.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9394,16 +11005,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;32&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Et consectetur voluptas deserunt voluptatibus.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Ipsum laborum ut eum et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;113&quot;
+                                    &quot;id&quot;: &quot;114&quot;
                                 }
                             }
                         },
@@ -9417,15 +11028,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;18&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Est sunt totam.&quot;,
-                &quot;slug&quot;: &quot;est-sunt-totam&quot;,
+                &quot;title&quot;: &quot;Aperiam vitae odio exercitationem natus.&quot;,
+                &quot;slug&quot;: &quot;aperiam-vitae-odio-exercitationem-natus&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Consequuntur voluptate laborum quia saepe consequatur qui. Mollitia fugit tempora voluptas dolorem. Corporis ipsa eligendi ex sunt pariatur.\n\nNon eligendi ad ipsum omnis dolorum dolor. Repellat quo ut magnam nesciunt enim nulla non ab. Velit ut accusantium deleniti aliquam iusto quam voluptas. Facilis quas eum sed quia.\n\nIpsa voluptatibus rem occaecati quo pariatur laboriosam. Ratione et maxime commodi. Numquam alias dolores debitis perferendis. Omnis incidunt quasi quidem quis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Reiciendis fugiat iusto in nisi odio. Aspernatur inventore temporibus saepe et et tenetur. Sit nulla illum ut quia.\n\nNon ut officia quia sunt. Sunt non inventore ut et deserunt. Molestiae voluptatem repellendus voluptatibus optio velit autem et dolore. Repellendus tempora voluptatem in omnis.\n\nOdit in rerum et enim. Quae in dolor ratione. Praesentium accusamus eligendi nesciunt perferendis dolor.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9452,16 +11063,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;33&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Asperiores alias velit occaecati officia unde dolor odit.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Quia possimus quasi est quo est.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;114&quot;
+                                    &quot;id&quot;: &quot;115&quot;
                                 }
                             }
                         },
@@ -9475,15 +11086,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;19&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Alias et occaecati reiciendis quaerat.&quot;,
-                &quot;slug&quot;: &quot;alias-et-occaecati-reiciendis-quaerat&quot;,
+                &quot;title&quot;: &quot;Dignissimos quo aliquid debitis et officiis.&quot;,
+                &quot;slug&quot;: &quot;dignissimos-quo-aliquid-debitis-et-officiis&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Adipisci doloremque vel vel voluptatum. Iste sed et quidem vitae maxime in. Quam repudiandae accusamus omnis quas dignissimos et molestiae sapiente.\n\nTemporibus a inventore dolore exercitationem assumenda. Velit vero aut non perferendis. Reprehenderit quia reiciendis repudiandae asperiores quo nobis. Consequatur nobis dolore illo ea unde fugiat dolore velit.\n\nEt voluptatem quisquam doloribus sed molestiae. Rem nesciunt rerum atque architecto culpa commodi eum. Tempora et aut repellat dignissimos eius saepe facere ut. Voluptatem recusandae et molestiae sed nihil.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Dolore voluptates officiis quis impedit aspernatur quam asperiores. Nobis aut enim et accusantium. Asperiores enim sint ut et aut.\n\nUt quia earum amet nam quisquam molestiae omnis. Occaecati et sequi ullam sunt accusamus placeat autem. Et occaecati voluptas rerum rerum non qui.\n\nConsequatur beatae similique voluptate nisi veritatis dolorem eos. Et blanditiis quia earum. Cupiditate illo suscipit harum fuga dignissimos quia vel. Laborum rerum cum quae totam dolor non provident. Provident ab dolore et rem eos ea.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9510,16 +11121,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;34&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Eos rem in aliquid est ea voluptatem nobis repellat.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Vero et rerum eos repudiandae explicabo et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;115&quot;
+                                    &quot;id&quot;: &quot;116&quot;
                                 }
                             }
                         },
@@ -9533,15 +11144,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;20&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Rerum soluta cum est enim maxime.&quot;,
-                &quot;slug&quot;: &quot;rerum-soluta-cum-est-enim-maxime&quot;,
+                &quot;title&quot;: &quot;Error reprehenderit aut omnis.&quot;,
+                &quot;slug&quot;: &quot;error-reprehenderit-aut-omnis&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Nihil repellat repudiandae nisi voluptatem. Eius eum odit velit consequatur sed minima. Nobis consequuntur similique aut consequatur necessitatibus sed perferendis. Molestiae ut iste architecto ad.\n\nCumque quisquam quibusdam sit est adipisci autem sint. Possimus recusandae placeat aut facere autem adipisci ipsum impedit. Architecto aut odit consectetur eum quos impedit.\n\nVoluptatum unde officia veritatis doloremque. Itaque autem architecto illo dolor odit minus. Quis vero sed numquam nisi distinctio. Labore est omnis laboriosam beatae occaecati error iste.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Sed consequatur similique commodi illo aliquam ut laboriosam earum. Voluptas quos expedita nihil voluptatum molestiae amet voluptas.\n\nEnim dicta reiciendis tempora molestiae aut aspernatur est. Quasi laborum vel odit minima. Voluptas et expedita et voluptate. Quos veritatis eum soluta sunt voluptas qui atque praesentium.\n\nDoloremque magni quo iste et. Sint voluptatem facilis quia soluta dolor adipisci id. Alias animi et et adipisci vero. Id non labore quaerat velit. Aut doloremque odio ratione officiis quis dolor.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9568,16 +11179,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;35&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Autem fugit veniam rerum repellat.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Et tenetur quis mollitia nihil voluptas.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;116&quot;
+                                    &quot;id&quot;: &quot;117&quot;
                                 }
                             }
                         },
@@ -9591,15 +11202,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;21&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Laudantium doloremque quo recusandae.&quot;,
-                &quot;slug&quot;: &quot;laudantium-doloremque-quo-recusandae&quot;,
+                &quot;title&quot;: &quot;Consectetur est possimus minus.&quot;,
+                &quot;slug&quot;: &quot;consectetur-est-possimus-minus&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Numquam nesciunt qui aliquam quas. Possimus qui qui officia. Libero qui sit at sint quaerat. Dolor repellendus dolorem tempora neque quaerat vitae sit voluptatem.\n\nArchitecto asperiores corrupti iste possimus. Nam ab omnis et dolorum maiores similique. Eius beatae non molestiae aut voluptas voluptatem voluptas. Aut omnis explicabo asperiores cum dolores dolor sint architecto.\n\nEt voluptatibus aut voluptate aut aut ratione sit. Error fugit et omnis. Est repellat dolorem et a dignissimos eos accusamus. Ut voluptatem ipsam et ut animi doloribus sed.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Eos animi quo minus ex non aspernatur quod. Ratione enim quis nemo atque. Fuga minus ut architecto rem. Quia qui iusto laudantium corporis ut vitae.\n\nAut sequi quia est illo ea cum magnam. Reprehenderit natus nisi a aliquam est. Quidem nam vel facere sint eveniet illo. Odit ipsa similique cumque aut architecto rerum et.\n\nUt doloribus et sequi sed sit. Tempore sunt quibusdam ipsum assumenda voluptas enim. Sunt explicabo nulla iste optio. Placeat et rerum inventore sit et nulla dolorem.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9626,16 +11237,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;36&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Eius voluptatem aut molestias odio eaque dolorem placeat nisi.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Nostrum qui a ullam et quos repudiandae fuga voluptas.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;117&quot;
+                                    &quot;id&quot;: &quot;118&quot;
                                 }
                             }
                         },
@@ -9649,15 +11260,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;22&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Molestiae minus maxime sint non.&quot;,
-                &quot;slug&quot;: &quot;molestiae-minus-maxime-sint-non&quot;,
+                &quot;title&quot;: &quot;Eos occaecati incidunt et occaecati qui.&quot;,
+                &quot;slug&quot;: &quot;eos-occaecati-incidunt-et-occaecati-qui&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Aspernatur eveniet in itaque similique molestias. Tempore quo molestias in ullam quo repellendus at. Quis ratione porro exercitationem atque.\n\nRepellat autem totam non quia quidem. Enim dolor autem rerum sapiente reprehenderit suscipit sint. Quae quis molestiae ipsa fugiat sed tenetur. Quia velit quas voluptas.\n\nQuasi non laboriosam ipsum qui quia consequatur unde aut. Molestias facilis sed voluptas voluptates at voluptatum. Voluptas aut velit molestiae quo ut quibusdam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Corporis et repellat iusto itaque distinctio fugiat. Occaecati adipisci eum voluptatem accusamus incidunt unde. Laborum velit suscipit assumenda laborum sint in facilis possimus. Quo quas sed voluptas magni.\n\nPerspiciatis neque molestias rem culpa necessitatibus. Pariatur quis officia qui fugiat soluta itaque. Ut ratione aperiam cumque modi.\n\nVoluptatem et aut occaecati. Nisi illo laudantium a quam ullam exercitationem eveniet autem. Aliquid aliquam corrupti rerum veritatis et quibusdam rerum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9684,16 +11295,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;37&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Dolores et eos molestiae reprehenderit iure et repellendus necessitatibus.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Beatae omnis nobis deserunt repellat nihil incidunt vero.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;118&quot;
+                                    &quot;id&quot;: &quot;119&quot;
                                 }
                             }
                         },
@@ -9707,15 +11318,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;23&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Harum animi non.&quot;,
-                &quot;slug&quot;: &quot;harum-animi-non&quot;,
+                &quot;title&quot;: &quot;Dolores cumque repellendus rerum aut.&quot;,
+                &quot;slug&quot;: &quot;dolores-cumque-repellendus-rerum-aut&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Eius optio omnis repudiandae vel totam debitis sed. Aut quia provident impedit dicta aliquam ut. Dolorem at id nam iste. Exercitationem optio et aut quo quia.\n\nEum perspiciatis dignissimos sit autem excepturi. Provident accusamus odit vero facilis.\n\nDicta laudantium ratione dolore quia. Et mollitia occaecati repudiandae magni eligendi molestiae. Est sed cum qui. Voluptas consectetur minus quas et. Nihil nihil dolor nemo rem voluptates dolore.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Nihil animi exercitationem dolorem. Voluptatum hic culpa hic suscipit aperiam sed nisi. Ducimus dignissimos sed deleniti illo delectus. Ipsum tempore sunt debitis sunt esse autem qui.\n\nRerum doloremque eveniet voluptas ut et distinctio. Mollitia ut blanditiis saepe ea consequuntur. Dolores perferendis quia et soluta nulla odio repellendus amet. Adipisci officia molestiae eos delectus.\n\nEarum ab minus inventore sint quibusdam nihil. Quisquam nemo minus quis voluptas facilis id deleniti quae. Eos autem ratione et nulla ea quis. Doloremque et quia quibusdam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9742,16 +11353,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;38&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Sint molestiae voluptatem reiciendis et aliquid est.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Vero voluptatem aut porro fugiat ad aut et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;119&quot;
+                                    &quot;id&quot;: &quot;120&quot;
                                 }
                             }
                         },
@@ -9765,15 +11376,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;24&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Numquam dicta alias reprehenderit.&quot;,
-                &quot;slug&quot;: &quot;numquam-dicta-alias-reprehenderit&quot;,
+                &quot;title&quot;: &quot;Aut omnis tempore nisi.&quot;,
+                &quot;slug&quot;: &quot;aut-omnis-tempore-nisi&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Corrupti ipsa incidunt unde aut harum voluptate id. Delectus quam vel hic error quaerat voluptas. Odit sint libero in est eligendi. Veritatis fuga labore animi repellendus.\n\nImpedit quae architecto officiis non aliquid doloribus et. Deleniti fuga perspiciatis aspernatur ipsa.\n\nDoloremque quia odio dolorem eum ea odit. Blanditiis fugiat cum sapiente consequuntur. Nostrum quia itaque laborum veniam aut labore culpa nam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Eaque deleniti qui dolor ratione reprehenderit voluptas. Similique et nisi fugiat nam. Animi sit quo eum ratione id sint excepturi sit.\n\nVero expedita qui corrupti est culpa omnis exercitationem. Perferendis quo et sit temporibus incidunt totam ab sequi. Qui cupiditate similique corrupti est. Aut voluptatem enim deleniti et quae ullam.\n\nAspernatur cum aperiam aspernatur provident dolore ut iure aut. Dolores cum odit modi. Officiis velit accusantium iure possimus. Cumque quidem aliquam repellendus quia non ipsum totam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9800,16 +11411,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;39&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Tempore voluptas consequatur sit iusto.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Accusamus sit ipsam et.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;120&quot;
+                                    &quot;id&quot;: &quot;121&quot;
                                 }
                             }
                         },
@@ -9823,15 +11434,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;25&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Cum quia et rerum.&quot;,
-                &quot;slug&quot;: &quot;cum-quia-et-rerum&quot;,
+                &quot;title&quot;: &quot;Officia delectus velit distinctio.&quot;,
+                &quot;slug&quot;: &quot;officia-delectus-velit-distinctio&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 0,
                 &quot;commentCount&quot;: 1,
-                &quot;content&quot;: &quot;Id ex quis amet enim assumenda. Voluptatem reiciendis illum in ducimus. Et distinctio dolorum corporis non et eius et omnis.\n\nSint aperiam fugiat ducimus qui occaecati asperiores sequi. Est animi et consequuntur sed voluptas. Sit voluptatem debitis quia tenetur et ut enim. Accusantium consequuntur aliquam architecto natus veritatis placeat omnis.\n\nVoluptas sunt magnam magni ratione doloribus. Veritatis dolore quas nemo a sed optio error. Quis sit quia praesentium ut eum assumenda fugit.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Unde et asperiores enim voluptate voluptatem dolores id sunt. Voluptas soluta perspiciatis voluptate quis. Ut voluptates cupiditate cumque earum reiciendis reiciendis. Natus repellat cupiditate et esse deserunt.\n\nRecusandae omnis blanditiis iure similique totam qui amet. Commodi rerum qui quo ipsum deserunt unde enim quis. Atque unde non tenetur qui qui voluptas repudiandae. Voluptatem autem omnis neque omnis temporibus aut necessitatibus.\n\nVoluptate rem et rem dolor. Est vel totam sit nisi iste accusantium mollitia fuga. Maiores quos officia eveniet ullam ex. Ea sunt deserunt soluta et consequatur eum. Accusamus velit qui fugit reiciendis culpa.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9858,16 +11469,16 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;comments&quot;,
                         &quot;id&quot;: &quot;40&quot;,
                         &quot;attributes&quot;: {
-                            &quot;content&quot;: &quot;Quod et illo deleniti deleniti ipsum dolor.&quot;,
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47.000000Z&quot;
+                            &quot;content&quot;: &quot;Et in earum aut ducimus.&quot;,
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
                             &quot;user&quot;: {
                                 &quot;data&quot;: {
                                     &quot;type&quot;: &quot;users&quot;,
-                                    &quot;id&quot;: &quot;121&quot;
+                                    &quot;id&quot;: &quot;122&quot;
                                 }
                             }
                         },
@@ -9881,15 +11492,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;26&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Eius iure eaque et.&quot;,
-                &quot;slug&quot;: &quot;eius-iure-eaque-et&quot;,
+                &quot;title&quot;: &quot;Ab quae molestias est sequi.&quot;,
+                &quot;slug&quot;: &quot;ab-quae-molestias-est-sequi&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Delectus molestiae aliquid explicabo rerum quaerat delectus dolore. Et velit omnis inventore consectetur. Consequatur quas deserunt dolorum sequi.\n\nTenetur occaecati ea sunt. Eaque aperiam deleniti nemo dicta quibusdam qui voluptas. Voluptatem distinctio et quis cumque asperiores soluta nihil. Mollitia quibusdam dignissimos ipsum non provident harum.\n\nUt libero cumque recusandae illum sit cupiditate qui. Debitis qui quis maxime et. Est ea dolores nihil illo ea quia rerum. Consequatur tenetur nesciunt excepturi error laudantium aspernatur voluptatem. Eveniet odit voluptate labore soluta sunt aspernatur.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Quo dolor voluptate voluptatem rerum optio quia. Ut eum a laboriosam ut minus. Et ut quia velit temporibus.\n\nDolorem iste atque qui qui quam voluptatem earum. Nihil molestiae adipisci numquam nulla quo. Dolorem natus totam non vero eos vel debitis.\n\nPorro exercitationem nihil optio saepe et facere. Et odio dignissimos consectetur eos. Optio eveniet et omnis similique nihil sint. Pariatur rem sit doloribus et ducimus harum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9917,8 +11528,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;61&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -9928,15 +11539,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;27&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Rerum pariatur officia sunt autem eos.&quot;,
-                &quot;slug&quot;: &quot;rerum-pariatur-officia-sunt-autem-eos&quot;,
+                &quot;title&quot;: &quot;Sunt quaerat et quia facilis quisquam.&quot;,
+                &quot;slug&quot;: &quot;sunt-quaerat-et-quia-facilis-quisquam&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Quae iste vero sed sed cumque neque. Eius similique dolorem nihil occaecati molestiae vel amet. Dolorem eos quia cum et. Dolores commodi neque a eius dolorum sit.\n\nDeserunt iusto deleniti est voluptatibus quae error. Consectetur et eveniet molestiae consequuntur architecto expedita natus assumenda. Velit reprehenderit ut vitae aspernatur aperiam omnis. Quis assumenda necessitatibus fuga recusandae tempore. Vero vitae cum ullam perferendis consequatur.\n\nQuo in laboriosam labore qui enim aspernatur. Commodi quam fugiat expedita nemo non necessitatibus reiciendis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Et ut aut eos cupiditate ea ab praesentium. Ab minus omnis quia dolorem. In placeat a aut sequi aut omnis pariatur. Ut ea ut repudiandae sunt et eum ut. Aut facilis sed amet aliquid vel placeat quidem.\n\nNon natus sunt cupiditate ut sint voluptatum aut. Est delectus qui officia sed. Hic rerum accusamus aspernatur rerum harum facere.\n\nDicta quo asperiores tenetur quia itaque iure. Asperiores facilis laudantium adipisci qui. Aut odio consectetur deleniti quia corporis ullam. Est exercitationem quis vel assumenda consequuntur amet.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -9964,8 +11575,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;62&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -9975,15 +11586,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;28&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Non vero et velit dolores.&quot;,
-                &quot;slug&quot;: &quot;non-vero-et-velit-dolores&quot;,
+                &quot;title&quot;: &quot;Nulla quas aut dicta.&quot;,
+                &quot;slug&quot;: &quot;nulla-quas-aut-dicta&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Voluptatem voluptatem numquam nulla tempora maxime. Rerum aut ducimus quis expedita nihil quis tempora. In qui temporibus debitis ut eligendi rerum. Dignissimos quia neque quis officiis architecto qui repellat rerum.\n\nDolores dolorem qui voluptas et totam odit corporis ut. Eos quos est praesentium iusto nobis voluptatum. Est nihil iste nesciunt magni. Aut voluptates architecto fuga quod aut pariatur asperiores.\n\nVoluptatem facere eius qui sit unde et ut. Pariatur itaque repudiandae fuga eum in. Iste velit et aut quidem laborum in consequatur consequuntur. Hic dolor fuga quam error quas adipisci.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Rerum quia odit doloremque officiis assumenda. Sapiente aliquam ullam illo veritatis sint dolore quia. Repudiandae porro commodi quis eos nemo cum eligendi.\n\nSit sint recusandae eum exercitationem quisquam aperiam. Exercitationem consectetur molestiae odio laudantium eveniet. Quis at nemo ullam laudantium.\n\nDicta error numquam blanditiis ut. Velit voluptas veniam eaque quis rem molestiae neque modi. Voluptatem quibusdam repellat praesentium dolor.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10011,8 +11622,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;63&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10022,15 +11633,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;29&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Error occaecati non animi architecto aut.&quot;,
-                &quot;slug&quot;: &quot;error-occaecati-non-animi-architecto-aut&quot;,
+                &quot;title&quot;: &quot;Pariatur aut dolores porro.&quot;,
+                &quot;slug&quot;: &quot;pariatur-aut-dolores-porro&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Non vero ipsam tempore laboriosam omnis. Expedita dolor vel aliquid illo temporibus. Omnis et fuga ipsa veritatis est aut. Tempore accusantium accusamus distinctio laboriosam praesentium qui.\n\nVero ad consequatur rerum rerum. Fuga sed atque laudantium incidunt eos maiores. Est hic quia eos et veniam ullam.\n\nVoluptas asperiores deleniti voluptatem voluptate mollitia itaque delectus. Sunt fuga eos quod reiciendis amet id unde. Doloremque vel qui enim autem magni aliquam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Non explicabo ab quas occaecati voluptate ut. Quidem libero eveniet et quisquam molestiae hic accusamus. Voluptatum aut voluptatem earum inventore. Possimus ducimus quis quia cupiditate iure.\n\nQuam voluptas quia sint vel voluptatum sint ut. Doloribus harum qui minima officiis porro et. Et illum nisi itaque. Commodi sunt dolorem veniam aliquid porro modi.\n\nExpedita animi amet expedita qui. Commodi quo nihil itaque. Pariatur necessitatibus et ad.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10058,8 +11669,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;64&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10069,15 +11680,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;30&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Est porro ducimus et aliquid in.&quot;,
-                &quot;slug&quot;: &quot;est-porro-ducimus-et-aliquid-in&quot;,
+                &quot;title&quot;: &quot;Occaecati velit amet maxime sit.&quot;,
+                &quot;slug&quot;: &quot;occaecati-velit-amet-maxime-sit&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Quae distinctio exercitationem est sit. Neque et ut quia et dolorem ab. Enim qui itaque non dolores. Magni odio consectetur et et eligendi incidunt sunt. Rerum ea unde laborum.\n\nNon at adipisci sunt. Et temporibus temporibus sint illo qui hic incidunt. Veniam illo rerum quod fuga quia eius. Suscipit consequatur quisquam ut.\n\nQui qui ea temporibus voluptas adipisci laborum eaque. Quae at rerum sint illo voluptas nemo sed. Tempore voluptatum assumenda quis maiores inventore ex.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Modi neque nisi consequatur nihil qui libero et voluptas. Iusto ad saepe iusto ea expedita. Ut accusamus veritatis perferendis est recusandae quibusdam.\n\nVelit ducimus dolorem accusantium. Voluptatem quis ad aut ut ducimus. Sit sit est sed fugiat sed assumenda.\n\nEst labore accusantium rerum corrupti. Vel sequi doloremque excepturi quibusdam. Delectus vitae explicabo id porro ipsum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10105,8 +11716,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;65&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10116,15 +11727,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;31&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nam est aut saepe.&quot;,
-                &quot;slug&quot;: &quot;nam-est-aut-saepe&quot;,
+                &quot;title&quot;: &quot;Sapiente quae architecto et quo.&quot;,
+                &quot;slug&quot;: &quot;sapiente-quae-architecto-et-quo&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Eveniet sed cum fugit voluptate mollitia fugit consequuntur. Atque quaerat consectetur maxime. Et aspernatur vero numquam sit placeat et ut.\n\nId suscipit ut et saepe. Omnis non itaque fuga qui eum illum doloribus. Quis iure maxime dignissimos vitae sequi rerum. Magnam voluptate sapiente nisi unde ea repellat est.\n\nId perferendis perspiciatis nemo beatae quos. Ea repudiandae dignissimos recusandae eaque. Quo architecto quis voluptatem illum qui.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Omnis similique labore quidem atque. Accusantium deserunt dolorem dolor modi qui ullam molestias. Repellat dignissimos hic voluptatem et voluptatem impedit natus.\n\nEarum sed error ut. Laudantium dolores nam repudiandae sed. Voluptatum quam rem eum adipisci. Voluptas aspernatur recusandae quibusdam aliquid voluptatum vero et. Autem quaerat fugit unde possimus qui eaque voluptatum.\n\nQuasi quasi accusamus molestias sint quia vitae at. Officia voluptas odio consequatur praesentium. Expedita quo ipsam exercitationem ea alias expedita. Deleniti dolorum occaecati illo ratione quam quia reiciendis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10152,8 +11763,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;66&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10163,15 +11774,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;32&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptate laborum consequatur vero.&quot;,
-                &quot;slug&quot;: &quot;voluptate-laborum-consequatur-vero&quot;,
+                &quot;title&quot;: &quot;Maiores quo asperiores sit.&quot;,
+                &quot;slug&quot;: &quot;maiores-quo-asperiores-sit&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Qui voluptatem unde cupiditate voluptatem et consequatur optio. Dolores illo commodi voluptatem iure ut ut eos eum. Quis modi necessitatibus possimus tenetur fugit. Possimus ut molestiae et quae.\n\nQuo repudiandae minus rerum mollitia aut animi. Debitis est quia officia. Eum nam sapiente aut molestiae.\n\nArchitecto voluptatem voluptatem occaecati alias. Enim sed nihil dicta quia aliquid eos qui. Laborum facilis sapiente officia fuga cum. Amet reiciendis eum vel nobis laborum porro.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Deserunt dolorum nostrum deserunt aperiam nobis temporibus. Ut sit nulla assumenda perferendis sed est. Qui labore hic magnam eos sint.\n\nVoluptas voluptatem velit esse non. Ea itaque ipsum voluptates. Beatae vero possimus soluta ratione et qui. Dolorum et est possimus dolorem quia consequatur porro.\n\nAutem placeat rem et aspernatur suscipit qui consequatur quae. Eaque est libero dicta velit architecto.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10199,8 +11810,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;67&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10210,15 +11821,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;33&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Illo quidem ad ut.&quot;,
-                &quot;slug&quot;: &quot;illo-quidem-ad-ut&quot;,
+                &quot;title&quot;: &quot;Amet dolores exercitationem vel.&quot;,
+                &quot;slug&quot;: &quot;amet-dolores-exercitationem-vel&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Numquam quo tempora eum aut eaque consequatur aut. Animi aperiam porro quo dignissimos. Odio nam rerum consequuntur ut in animi. Aut sequi ipsam adipisci voluptas distinctio iure necessitatibus nihil.\n\nRerum tempora molestiae neque aut mollitia deserunt. Repudiandae sit est itaque ut culpa est laborum. Et nemo sunt ea quis molestiae repudiandae doloribus iure. Consequatur voluptatem ut perspiciatis et voluptates.\n\nDolorem sequi aliquam rerum et. Error recusandae deleniti provident aut aut corporis. Provident et ullam quaerat id.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Qui nisi corrupti ea quia. Esse molestias delectus placeat eaque.\n\nEt soluta cumque itaque possimus ea fugiat. Facilis provident reprehenderit ab aspernatur repudiandae excepturi. Quo inventore sunt omnis est dolor sed fugit. Odio aut possimus sit harum incidunt.\n\nPariatur quisquam eligendi facere rerum. Tempore facere consequatur tempore ex occaecati. Quam nobis quia sequi nemo voluptas atque et. Blanditiis qui est sunt ratione.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10246,8 +11857,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;68&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10257,15 +11868,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;34&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Tenetur modi quod doloribus.&quot;,
-                &quot;slug&quot;: &quot;tenetur-modi-quod-doloribus&quot;,
+                &quot;title&quot;: &quot;Illum voluptate quis totam et.&quot;,
+                &quot;slug&quot;: &quot;illum-voluptate-quis-totam-et&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Sit id expedita harum aliquid repudiandae autem. Sunt et quis beatae repellat accusantium cumque voluptas error. Possimus dicta fugiat qui amet. Omnis rerum ad necessitatibus odit nemo.\n\nDolor consectetur nisi in voluptas consectetur. Quia ipsum et harum ea quasi non autem. Consequatur qui et temporibus beatae nihil. Dolorem dolore qui repudiandae eos.\n\nSaepe dolor inventore iusto eum odio saepe. Error sunt quia voluptatem beatae laboriosam quo. Tempore repellat et necessitatibus unde et. Et dolore debitis culpa aspernatur sit mollitia. Non atque expedita iusto doloremque voluptates ut iste non.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Deserunt ut aut doloribus velit voluptas est nam. Hic voluptatem voluptatem qui nisi eum. Saepe animi voluptatibus cum soluta at. Voluptatem magni soluta aut quidem.\n\nTempora libero est ducimus et optio ipsum dolor quas. Repellat fuga in assumenda nisi recusandae consequuntur. Eius et voluptatum reiciendis ullam illo. Deleniti hic similique dolore.\n\nVoluptatibus id eum in velit voluptatem vero sint. Modi delectus laborum aliquid quia molestiae ea. Accusamus est modi animi et voluptas eligendi voluptas.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10293,8 +11904,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;69&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -10304,15 +11915,15 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;posts&quot;,
             &quot;id&quot;: &quot;35&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Mollitia tempore occaecati qui.&quot;,
-                &quot;slug&quot;: &quot;mollitia-tempore-occaecati-qui&quot;,
+                &quot;title&quot;: &quot;Voluptates minus ad distinctio qui.&quot;,
+                &quot;slug&quot;: &quot;voluptates-minus-ad-distinctio-qui&quot;,
                 &quot;cover&quot;: &quot;https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZvbHVudGVlcnxlbnwwfHwwfHx8MA%3D%3D&quot;,
                 &quot;likeCount&quot;: 1,
                 &quot;commentCount&quot;: 0,
-                &quot;content&quot;: &quot;Doloremque quidem error debitis ex enim amet alias. Iure et ut debitis accusantium aut. Numquam rerum reiciendis enim ipsam libero. Dolorem dolores harum ea qui quisquam. Impedit veritatis sed consequuntur hic velit provident doloribus.\n\nRatione distinctio omnis quidem ab delectus sit. Soluta dolor quia nisi in. Rerum voluptatem aliquam et dolores et inventore.\n\nVoluptatem ipsam nihil aut sit iste omnis. In ut molestiae id omnis odio. Eos eos ratione et quisquam quia neque neque. Ex quam officiis cumque provident exercitationem corporis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;51 minutes ago&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;content&quot;: &quot;Ad pariatur sequi sed veniam molestiae consequatur. Nesciunt nam enim non praesentium. Quo omnis ea aut quas qui ipsum adipisci dolorum.\n\nQui voluptas cum eum nihil et expedita quo laudantium. Perspiciatis sed maiores sit adipisci. Ullam perferendis accusantium ut ea mollitia et molestiae. Et recusandae veritatis et pariatur. Id sequi perspiciatis vero eos ipsam enim.\n\nCorporis rem non dolor officiis nobis quibusdam. Omnis excepturi recusandae ratione itaque incidunt distinctio nihil. Quas quidem illo iste provident nemo. Illum quis nesciunt molestiae deleniti provident quisquam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;createdAtReadable&quot;: &quot;4 weeks ago&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;organization&quot;: {
@@ -10340,8 +11951,8 @@ response.json()</code></pre>                                        </div>
                         &quot;type&quot;: &quot;likes&quot;,
                         &quot;id&quot;: &quot;70&quot;,
                         &quot;attributes&quot;: {
-                            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
                         }
                     }
                 ]
@@ -13385,9 +14996,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;1&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Dr. Millie Kuphal&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Dr. Kian Rempel DDS&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13395,9 +15006,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;2&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Vivien Dooley&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Lucile Zieme&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13405,9 +15016,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;3&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Dr. Mireya Prohaska&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Theron Prosacco&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13415,9 +15026,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;4&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Sadie Hirthe&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Dr. Malinda Walsh&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13425,9 +15036,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;5&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Ellsworth Bernhard&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Cydney Kuvalis&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13435,9 +15046,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;6&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Bernie Brakus&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Mallory Cruickshank&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13445,9 +15056,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;7&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Sylvia Price&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Prof. Osbaldo Pollich&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13455,9 +15066,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;8&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Abigail Boyer&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Mr. Dwight Jacobi I&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13465,9 +15076,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;9&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Miss Mara Hegmann I&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Maybell Kuhic&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         },
@@ -13475,9 +15086,9 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;skills&quot;,
             &quot;id&quot;: &quot;10&quot;,
             &quot;attributes&quot;: {
-                &quot;name&quot;: &quot;Braeden Reilly&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;name&quot;: &quot;Davonte Weissnat&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {}
         }
@@ -13947,9 +15558,9 @@ response.json()</code></pre>                                        </div>
         &quot;type&quot;: &quot;skills&quot;,
         &quot;id&quot;: &quot;1&quot;,
         &quot;attributes&quot;: {
-            &quot;name&quot;: &quot;Dr. Millie Kuphal&quot;,
-            &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+            &quot;name&quot;: &quot;Dr. Kian Rempel DDS&quot;,
+            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
         },
         &quot;relationships&quot;: {}
     }
@@ -14320,10 +15931,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;1&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Jeniferberg&quot;,
-                &quot;country&quot;: &quot;Timor-Leste&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:46+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:46+00:00&quot;
+                &quot;city&quot;: &quot;Evelineland&quot;,
+                &quot;country&quot;: &quot;Martinique&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14334,10 +15945,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;2&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Flatleyland&quot;,
-                &quot;country&quot;: &quot;Ukraine&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Lindgrenburgh&quot;,
+                &quot;country&quot;: &quot;Finland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14348,10 +15959,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;3&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;New Benny&quot;,
-                &quot;country&quot;: &quot;Afghanistan&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;West Jarrod&quot;,
+                &quot;country&quot;: &quot;Greenland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14362,10 +15973,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;4&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;East Makenzie&quot;,
-                &quot;country&quot;: &quot;Vanuatu&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Rennerland&quot;,
+                &quot;country&quot;: &quot;Panama&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14376,10 +15987,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;5&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;North Jalyn&quot;,
-                &quot;country&quot;: &quot;Puerto Rico&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Ernserstad&quot;,
+                &quot;country&quot;: &quot;Tunisia&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14390,10 +16001,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;6&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;New Ottiliechester&quot;,
-                &quot;country&quot;: &quot;Timor-Leste&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;New Jarod&quot;,
+                &quot;country&quot;: &quot;Norway&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14404,10 +16015,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;7&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;South Joy&quot;,
-                &quot;country&quot;: &quot;Angola&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Parkerton&quot;,
+                &quot;country&quot;: &quot;New Zealand&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14418,10 +16029,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;8&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;West Ernie&quot;,
-                &quot;country&quot;: &quot;Svalbard &amp; Jan Mayen Islands&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Bergehaven&quot;,
+                &quot;country&quot;: &quot;Gabon&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14432,10 +16043,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;9&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;East Vickie&quot;,
-                &quot;country&quot;: &quot;Italy&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Devanshire&quot;,
+                &quot;country&quot;: &quot;Heard Island and McDonald Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14446,10 +16057,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;10&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Grahamton&quot;,
-                &quot;country&quot;: &quot;Turkmenistan&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Kerlukebury&quot;,
+                &quot;country&quot;: &quot;Malta&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14460,10 +16071,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;11&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Elnoraview&quot;,
-                &quot;country&quot;: &quot;El Salvador&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;North Hershelside&quot;,
+                &quot;country&quot;: &quot;Puerto Rico&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14474,10 +16085,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;12&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Port Erika&quot;,
-                &quot;country&quot;: &quot;Ukraine&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;West Schuylershire&quot;,
+                &quot;country&quot;: &quot;Thailand&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14488,10 +16099,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;13&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;East Charlotte&quot;,
-                &quot;country&quot;: &quot;El Salvador&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;North Jettiehaven&quot;,
+                &quot;country&quot;: &quot;New Caledonia&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14502,10 +16113,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;14&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;South Santino&quot;,
-                &quot;country&quot;: &quot;Macedonia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Sallymouth&quot;,
+                &quot;country&quot;: &quot;Wallis and Futuna&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14516,10 +16127,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;15&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Schmittberg&quot;,
-                &quot;country&quot;: &quot;Cape Verde&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Raustad&quot;,
+                &quot;country&quot;: &quot;Tuvalu&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14530,10 +16141,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;16&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Lake Horacio&quot;,
-                &quot;country&quot;: &quot;South Africa&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Port Phoebe&quot;,
+                &quot;country&quot;: &quot;British Indian Ocean Territory (Chagos Archipelago)&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14544,10 +16155,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;17&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Mablefort&quot;,
-                &quot;country&quot;: &quot;Sweden&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;South Ellsworthborough&quot;,
+                &quot;country&quot;: &quot;Luxembourg&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14558,10 +16169,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;18&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Kassulkefort&quot;,
-                &quot;country&quot;: &quot;Guernsey&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Parkerborough&quot;,
+                &quot;country&quot;: &quot;Pitcairn Islands&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14572,10 +16183,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;19&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;South Brayanton&quot;,
-                &quot;country&quot;: &quot;Korea&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;East Leilani&quot;,
+                &quot;country&quot;: &quot;Thailand&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14586,10 +16197,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;20&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;North Kaleb&quot;,
-                &quot;country&quot;: &quot;Saint Helena&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Ashleeshire&quot;,
+                &quot;country&quot;: &quot;Romania&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14600,10 +16211,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;21&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;South Carolynechester&quot;,
-                &quot;country&quot;: &quot;Nicaragua&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Wilmastad&quot;,
+                &quot;country&quot;: &quot;Hong Kong&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14614,10 +16225,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;22&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Schaeferborough&quot;,
-                &quot;country&quot;: &quot;Guatemala&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Labadiefort&quot;,
+                &quot;country&quot;: &quot;Singapore&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14628,10 +16239,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;23&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Port Joey&quot;,
-                &quot;country&quot;: &quot;Kiribati&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Schulistbury&quot;,
+                &quot;country&quot;: &quot;Libyan Arab Jamahiriya&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14642,10 +16253,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;24&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;New Estell&quot;,
-                &quot;country&quot;: &quot;Oman&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;New Aliza&quot;,
+                &quot;country&quot;: &quot;Liechtenstein&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14656,10 +16267,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;25&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;North Kodyshire&quot;,
-                &quot;country&quot;: &quot;Israel&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Dylanport&quot;,
+                &quot;country&quot;: &quot;Belize&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14670,10 +16281,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;26&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Port Dallin&quot;,
-                &quot;country&quot;: &quot;Nauru&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;East Virgil&quot;,
+                &quot;country&quot;: &quot;Luxembourg&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14684,10 +16295,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;27&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;West Hollis&quot;,
-                &quot;country&quot;: &quot;Mongolia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;New Alyce&quot;,
+                &quot;country&quot;: &quot;Tajikistan&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14698,10 +16309,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;28&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Juliusfurt&quot;,
-                &quot;country&quot;: &quot;Zambia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;West Raymundo&quot;,
+                &quot;country&quot;: &quot;Oman&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14712,10 +16323,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;29&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;West Madonnafort&quot;,
-                &quot;country&quot;: &quot;Cambodia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;New Ameliaberg&quot;,
+                &quot;country&quot;: &quot;Iceland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14726,10 +16337,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;30&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;South Clifton&quot;,
-                &quot;country&quot;: &quot;Bhutan&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;New Roy&quot;,
+                &quot;country&quot;: &quot;Paraguay&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14740,10 +16351,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;31&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Leannonfurt&quot;,
-                &quot;country&quot;: &quot;Cook Islands&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Kristinside&quot;,
+                &quot;country&quot;: &quot;New Caledonia&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14754,10 +16365,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;32&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Colinberg&quot;,
-                &quot;country&quot;: &quot;Colombia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;South Alize&quot;,
+                &quot;country&quot;: &quot;Finland&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14768,10 +16379,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;33&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;West Ruby&quot;,
-                &quot;country&quot;: &quot;Maldives&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Kreigerhaven&quot;,
+                &quot;country&quot;: &quot;Bhutan&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14782,10 +16393,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;34&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Lake Marianoland&quot;,
-                &quot;country&quot;: &quot;Australia&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;South Jaidenhaven&quot;,
+                &quot;country&quot;: &quot;Andorra&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14796,10 +16407,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;35&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;Altenwerthport&quot;,
-                &quot;country&quot;: &quot;Macao&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;North Joliemouth&quot;,
+                &quot;country&quot;: &quot;Malaysia&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -14810,10 +16421,10 @@ response.json()</code></pre>                                        </div>
             &quot;type&quot;: &quot;locations&quot;,
             &quot;id&quot;: &quot;36&quot;,
             &quot;attributes&quot;: {
-                &quot;city&quot;: &quot;North Lelandland&quot;,
-                &quot;country&quot;: &quot;Holy See (Vatican City State)&quot;,
-                &quot;createdAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;,
-                &quot;updatedAt&quot;: &quot;2025-08-09T12:43:47+00:00&quot;
+                &quot;city&quot;: &quot;Shanahanside&quot;,
+                &quot;country&quot;: &quot;Bulgaria&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
             },
             &quot;relationships&quot;: {
                 &quot;individuals&quot;: [],
@@ -15286,10 +16897,10 @@ response.json()</code></pre>                                        </div>
         &quot;type&quot;: &quot;locations&quot;,
         &quot;id&quot;: &quot;1&quot;,
         &quot;attributes&quot;: {
-            &quot;city&quot;: &quot;Jeniferberg&quot;,
-            &quot;country&quot;: &quot;Timor-Leste&quot;,
-            &quot;createdAt&quot;: &quot;2025-08-09T12:43:46+00:00&quot;,
-            &quot;updatedAt&quot;: &quot;2025-08-09T12:43:46+00:00&quot;
+            &quot;city&quot;: &quot;Evelineland&quot;,
+            &quot;country&quot;: &quot;Martinique&quot;,
+            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
         },
         &quot;relationships&quot;: {
             &quot;individuals&quot;: [],
@@ -15666,7 +17277,35 @@ response.json()</code></pre>                                        </div>
                                                                                                                                                                         
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: []
+    &quot;data&quot;: [
+        {
+            &quot;type&quot;: &quot;page&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;About Us&quot;,
+                &quot;slug&quot;: &quot;about-us&quot;,
+                &quot;content&quot;: &quot;sasdsds&quot;
+            }
+        },
+        {
+            &quot;type&quot;: &quot;page&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Terms and conditions&quot;,
+                &quot;slug&quot;: &quot;terms-and-conditions&quot;,
+                &quot;content&quot;: &quot;Terms and conditions content&quot;
+            }
+        },
+        {
+            &quot;type&quot;: &quot;page&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Privacy policy&quot;,
+                &quot;slug&quot;: &quot;privacy-policy&quot;,
+                &quot;content&quot;: &quot;Privacy policy content&quot;
+            }
+        }
+    ]
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -15776,7 +17415,7 @@ response.json()</code></pre>                                        </div>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        architecto
+                        about-us
                     </div>
                 </div>
             </div>
@@ -15897,7 +17536,7 @@ response.json()</code></pre>                                        </div>
                                         <input aria-label="slug" name="slug"
                                                id="urlparam-GETapi-v1-pages--slug--slug"
                                                placeholder="The slug of the page."
-                                               value="architecto" data-component="url"
+                                               value="about-us" data-component="url"
                                                class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
                                     </div>
                                 </div>
@@ -16007,7 +17646,7 @@ You can check the Dev Tools console for debugging information.</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/pages/architecto" \
+    --get "http://localhost/api/v1/pages/about-us" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -16017,7 +17656,7 @@ You can check the Dev Tools console for debugging information.</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/pages/architecto"
+    "http://localhost/api/v1/pages/about-us"
 );
 
 const headers = {
@@ -16036,7 +17675,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/pages/architecto';
+$url = 'http://localhost/api/v1/pages/about-us';
 $response = $client-&gt;get(
     $url,
     [
@@ -16057,7 +17696,7 @@ print_r(json_decode((string) $body));</code></pre>                              
                                             <pre><code class="language-python">import requests
 import json
 
-url = 'http://localhost/api/v1/pages/architecto'
+url = 'http://localhost/api/v1/pages/about-us'
 headers = {
   'Content-Type': 'application/json',
   'Accept': 'application/json'
@@ -16080,7 +17719,7 @@ response.json()</code></pre>                                        </div>
                                                         class="example-response-GETapi-v1-pages--slug--toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-v1-pages--slug-', event.target.value);">
-                                                                                                            <option value="0">404</option>
+                                                                                                            <option value="0">200</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -16127,7 +17766,15 @@ response.json()</code></pre>                                        </div>
                                                                                                                                                                         
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\Page] architecto&quot;
+    &quot;data&quot;: {
+        &quot;type&quot;: &quot;page&quot;,
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;attributes&quot;: {
+            &quot;title&quot;: &quot;About Us&quot;,
+            &quot;slug&quot;: &quot;about-us&quot;,
+            &quot;content&quot;: &quot;sasdsds&quot;
+        }
+    }
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -16692,7 +18339,7 @@ The ticket must belong to the authenticated user.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        16
+                        1
                     </div>
                 </div>
             </div>
@@ -16849,7 +18496,7 @@ The ticket must belong to the authenticated user.</p>
                                         <input aria-label="supportTicket_id" name="supportTicket_id"
                                                id="urlparam-GETapi-v1-support-tickets--supportTicket_id--supportTicket_id"
                                                placeholder="The ID of the supportTicket."
-                                               value="16" data-component="url"
+                                               value="1" data-component="url"
                                                class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
                                     </div>
                                 </div>
@@ -16959,7 +18606,7 @@ You can check the Dev Tools console for debugging information.</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/support-tickets/16" \
+    --get "http://localhost/api/v1/support-tickets/1" \
     --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -16970,7 +18617,7 @@ You can check the Dev Tools console for debugging information.</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/support-tickets/16"
+    "http://localhost/api/v1/support-tickets/1"
 );
 
 const headers = {
@@ -16990,7 +18637,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$url = 'http://localhost/api/v1/support-tickets/16';
+$url = 'http://localhost/api/v1/support-tickets/1';
 $response = $client-&gt;get(
     $url,
     [
@@ -17012,7 +18659,7 @@ print_r(json_decode((string) $body));</code></pre>                              
                                             <pre><code class="language-python">import requests
 import json
 
-url = 'http://localhost/api/v1/support-tickets/16'
+url = 'http://localhost/api/v1/support-tickets/1'
 headers = {
   'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
@@ -17684,10 +19331,10 @@ response.json()</code></pre>                                        </div>
     </div>
 </div>
 
-                <h1 id="notifications"
+                <h1 id="general-endpoints"
         class="sl-text-5xl sl-leading-tight sl-font-prose sl-text-heading"
     >
-        Notifications
+        General Endpoints
     </h1>
 
     
@@ -17697,8 +19344,8 @@ response.json()</code></pre>                                        </div>
         <div class="sl-relative">
             <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
                 <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="notifications-GETapi-v1-notifications">
-                    List user notifications
+                    id="general-endpoints-GETapi-v1-notifications">
+                    GET api/v1/notifications
                 </h2>
             </div>
         </div>
@@ -17718,15 +19365,10 @@ response.json()</code></pre>                                        </div>
                         <div class="sl-flex-1 sl-font-semibold">/api/v1/notifications</div>
                     </div>
 
-                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
-                                 style="background-color: darkred"
-                            >requires authentication
-                            </div>
                                                             </div>
         </div>
 
-        <p>Retrieve all notifications for the authenticated user, including both
-read and unread notifications. Notifications are returned in chronological order.</p>
+        
     </div>
     <div class="sl-flex">
         <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
@@ -17737,24 +19379,6 @@ read and unread notifications. Notifications are returned in chronological order
                                 Headers
                             </h3>
                             <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        Bearer Bearer {YOUR_AUTH_TOKEN}
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                                     <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
     <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
     <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
@@ -17812,42 +19436,6 @@ read and unread notifications. Notifications are returned in chronological order
               data-path="api/v1/notifications"
               data-hasfiles="0"
               data-hasjsonbody="0">
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Auth
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                            <label aria-hidden="true"
-                                   for="auth-GETapi-v1-notifications">Authorization</label>
-                            <span class="sl-mx-3">:</span>
-                            <div class="sl-flex sl-flex-1">
-                                <div class="sl-input sl-flex-1 sl-relative">
-                                    <code>Bearer </code>
-                                    <input aria-label="Authorization"
-                                           id="auth-GETapi-v1-notifications"
-                                           data-component="header"
-                                           data-prefix="Bearer "
-                                           name="Authorization"
-                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
-                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                             <div class="sl-panel sl-outline-none sl-w-full expandable">
                     <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
@@ -17867,7 +19455,7 @@ read and unread notifications. Notifications are returned in chronological order
                     </div>
                     <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
                         <div class="ParameterGrid sl-p-4">
-                                                                                                                            <label aria-hidden="true"
+                                                                                            <label aria-hidden="true"
                                        for="header-GETapi-v1-notifications-Content-Type">Content-Type</label>
                                 <span class="sl-mx-3">:</span>
                                 <div class="sl-flex sl-flex-1">
@@ -17985,7 +19573,6 @@ You can check the Dev Tools console for debugging information.</p>
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
     --get "http://localhost/api/v1/notifications" \
-    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -17999,7 +19586,6 @@ You can check the Dev Tools console for debugging information.</p>
 );
 
 const headers = {
-    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 };
@@ -18020,7 +19606,6 @@ $response = $client-&gt;get(
     $url,
     [
         'headers' =&gt; [
-            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
@@ -18039,7 +19624,6 @@ import json
 
 url = 'http://localhost/api/v1/notifications'
 headers = {
-  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
@@ -18122,8 +19706,8 @@ response.json()</code></pre>                                        </div>
         <div class="sl-relative">
             <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
                 <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="notifications-GETapi-v1-notifications--id-">
-                    Get notification details
+                    id="general-endpoints-GETapi-v1-notifications--id-">
+                    GET api/v1/notifications/{id}
                 </h2>
             </div>
         </div>
@@ -18143,15 +19727,10 @@ response.json()</code></pre>                                        </div>
                         <div class="sl-flex-1 sl-font-semibold">/api/v1/notifications/{id}</div>
                     </div>
 
-                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
-                                 style="background-color: darkred"
-                            >requires authentication
-                            </div>
                                                             </div>
         </div>
 
-        <p>Retrieve detailed information about a specific notification.
-The notification must belong to the authenticated user.</p>
+        
     </div>
     <div class="sl-flex">
         <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
@@ -18162,24 +19741,6 @@ The notification must belong to the authenticated user.</p>
                                 Headers
                             </h3>
                             <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        Bearer Bearer {YOUR_AUTH_TOKEN}
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                                     <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
     <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
     <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
@@ -18247,30 +19808,6 @@ The notification must belong to the authenticated user.</p>
             </div>
             </div>
 </div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">notification</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
-            <p>The UUID of the notification.</p>
-        </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        9d785c8a-1234-5678-9abc-123456789012
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                             </div>
                         </div>
                     
@@ -18291,42 +19828,6 @@ The notification must belong to the authenticated user.</p>
               data-path="api/v1/notifications/{id}"
               data-hasfiles="0"
               data-hasjsonbody="0">
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Auth
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                            <label aria-hidden="true"
-                                   for="auth-GETapi-v1-notifications--id-">Authorization</label>
-                            <span class="sl-mx-3">:</span>
-                            <div class="sl-flex sl-flex-1">
-                                <div class="sl-input sl-flex-1 sl-relative">
-                                    <code>Bearer </code>
-                                    <input aria-label="Authorization"
-                                           id="auth-GETapi-v1-notifications--id-"
-                                           data-component="header"
-                                           data-prefix="Bearer "
-                                           name="Authorization"
-                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
-                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                             <div class="sl-panel sl-outline-none sl-w-full expandable">
                     <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
@@ -18346,7 +19847,7 @@ The notification must belong to the authenticated user.</p>
                     </div>
                     <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
                         <div class="ParameterGrid sl-p-4">
-                                                                                                                            <label aria-hidden="true"
+                                                                                            <label aria-hidden="true"
                                        for="header-GETapi-v1-notifications--id--Content-Type">Content-Type</label>
                                 <span class="sl-mx-3">:</span>
                                 <div class="sl-flex sl-flex-1">
@@ -18399,18 +19900,6 @@ The notification must belong to the authenticated user.</p>
                                                id="urlparam-GETapi-v1-notifications--id--id"
                                                placeholder="The ID of the notification."
                                                value="architecto" data-component="url"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                            <label aria-hidden="true"
-                                       for="urlparam-GETapi-v1-notifications--id--notification">notification</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="notification" name="notification"
-                                               id="urlparam-GETapi-v1-notifications--id--notification"
-                                               placeholder="The UUID of the notification."
-                                               value="9d785c8a-1234-5678-9abc-123456789012" data-component="url"
                                                class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
                                     </div>
                                 </div>
@@ -18509,7 +19998,6 @@ You can check the Dev Tools console for debugging information.</p>
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
     --get "http://localhost/api/v1/notifications/architecto" \
-    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -18523,7 +20011,6 @@ You can check the Dev Tools console for debugging information.</p>
 );
 
 const headers = {
-    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 };
@@ -18544,7 +20031,6 @@ $response = $client-&gt;get(
     $url,
     [
         'headers' =&gt; [
-            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
@@ -18563,7 +20049,6 @@ import json
 
 url = 'http://localhost/api/v1/notifications/architecto'
 headers = {
-  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
@@ -18646,8 +20131,8 @@ response.json()</code></pre>                                        </div>
         <div class="sl-relative">
             <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
                 <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="notifications-PATCHapi-v1-notifications--notification_id--read">
-                    Mark notification as read
+                    id="general-endpoints-PATCHapi-v1-notifications--notification_id--read">
+                    PATCH api/v1/notifications/{notification_id}/read
                 </h2>
             </div>
         </div>
@@ -18667,15 +20152,10 @@ response.json()</code></pre>                                        </div>
                         <div class="sl-flex-1 sl-font-semibold">/api/v1/notifications/{notification_id}/read</div>
                     </div>
 
-                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
-                                 style="background-color: darkred"
-                            >requires authentication
-                            </div>
                                                             </div>
         </div>
 
-        <p>Mark a specific notification as read. The notification must belong to
-the authenticated user.</p>
+        
     </div>
     <div class="sl-flex">
         <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
@@ -18686,24 +20166,6 @@ the authenticated user.</p>
                                 Headers
                             </h3>
                             <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        Bearer Bearer {YOUR_AUTH_TOKEN}
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                                     <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
     <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
     <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
@@ -18771,30 +20233,6 @@ the authenticated user.</p>
             </div>
             </div>
 </div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">notification</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
-            <p>The UUID of the notification to mark as read.</p>
-        </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        9d785c8a-1234-5678-9abc-123456789012
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                             </div>
                         </div>
                     
@@ -18815,42 +20253,6 @@ the authenticated user.</p>
               data-path="api/v1/notifications/{notification_id}/read"
               data-hasfiles="0"
               data-hasjsonbody="0">
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Auth
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                            <label aria-hidden="true"
-                                   for="auth-PATCHapi-v1-notifications--notification_id--read">Authorization</label>
-                            <span class="sl-mx-3">:</span>
-                            <div class="sl-flex sl-flex-1">
-                                <div class="sl-input sl-flex-1 sl-relative">
-                                    <code>Bearer </code>
-                                    <input aria-label="Authorization"
-                                           id="auth-PATCHapi-v1-notifications--notification_id--read"
-                                           data-component="header"
-                                           data-prefix="Bearer "
-                                           name="Authorization"
-                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
-                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                             <div class="sl-panel sl-outline-none sl-w-full expandable">
                     <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
@@ -18870,7 +20272,7 @@ the authenticated user.</p>
                     </div>
                     <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
                         <div class="ParameterGrid sl-p-4">
-                                                                                                                            <label aria-hidden="true"
+                                                                                            <label aria-hidden="true"
                                        for="header-PATCHapi-v1-notifications--notification_id--read-Content-Type">Content-Type</label>
                                 <span class="sl-mx-3">:</span>
                                 <div class="sl-flex sl-flex-1">
@@ -18923,18 +20325,6 @@ the authenticated user.</p>
                                                id="urlparam-PATCHapi-v1-notifications--notification_id--read-notification_id"
                                                placeholder="The ID of the notification."
                                                value="architecto" data-component="url"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                            <label aria-hidden="true"
-                                       for="urlparam-PATCHapi-v1-notifications--notification_id--read-notification">notification</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="notification" name="notification"
-                                               id="urlparam-PATCHapi-v1-notifications--notification_id--read-notification"
-                                               placeholder="The UUID of the notification to mark as read."
-                                               value="9d785c8a-1234-5678-9abc-123456789012" data-component="url"
                                                class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
                                     </div>
                                 </div>
@@ -19033,7 +20423,6 @@ You can check the Dev Tools console for debugging information.</p>
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request PATCH \
     "http://localhost/api/v1/notifications/architecto/read" \
-    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -19047,7 +20436,6 @@ You can check the Dev Tools console for debugging information.</p>
 );
 
 const headers = {
-    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 };
@@ -19068,7 +20456,6 @@ $response = $client-&gt;patch(
     $url,
     [
         'headers' =&gt; [
-            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
@@ -19087,7 +20474,6 @@ import json
 
 url = 'http://localhost/api/v1/notifications/architecto/read'
 headers = {
-  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
@@ -19107,8 +20493,8 @@ response.json()</code></pre>                                        </div>
         <div class="sl-relative">
             <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
                 <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="notifications-PATCHapi-v1-notifications-read">
-                    Mark all notifications as read
+                    id="general-endpoints-PATCHapi-v1-notifications-read">
+                    PATCH api/v1/notifications/read
                 </h2>
             </div>
         </div>
@@ -19128,15 +20514,10 @@ response.json()</code></pre>                                        </div>
                         <div class="sl-flex-1 sl-font-semibold">/api/v1/notifications/read</div>
                     </div>
 
-                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
-                                 style="background-color: darkred"
-                            >requires authentication
-                            </div>
                                                             </div>
         </div>
 
-        <p>Mark all unread notifications for the authenticated user as read.
-Returns the updated list of all user notifications.</p>
+        
     </div>
     <div class="sl-flex">
         <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
@@ -19147,24 +20528,6 @@ Returns the updated list of all user notifications.</p>
                                 Headers
                             </h3>
                             <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        Bearer Bearer {YOUR_AUTH_TOKEN}
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                                     <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
     <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
     <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
@@ -19222,42 +20585,6 @@ Returns the updated list of all user notifications.</p>
               data-path="api/v1/notifications/read"
               data-hasfiles="0"
               data-hasjsonbody="0">
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Auth
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                            <label aria-hidden="true"
-                                   for="auth-PATCHapi-v1-notifications-read">Authorization</label>
-                            <span class="sl-mx-3">:</span>
-                            <div class="sl-flex sl-flex-1">
-                                <div class="sl-input sl-flex-1 sl-relative">
-                                    <code>Bearer </code>
-                                    <input aria-label="Authorization"
-                                           id="auth-PATCHapi-v1-notifications-read"
-                                           data-component="header"
-                                           data-prefix="Bearer "
-                                           name="Authorization"
-                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
-                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                             <div class="sl-panel sl-outline-none sl-w-full expandable">
                     <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
@@ -19277,7 +20604,7 @@ Returns the updated list of all user notifications.</p>
                     </div>
                     <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
                         <div class="ParameterGrid sl-p-4">
-                                                                                                                            <label aria-hidden="true"
+                                                                                            <label aria-hidden="true"
                                        for="header-PATCHapi-v1-notifications-read-Content-Type">Content-Type</label>
                                 <span class="sl-mx-3">:</span>
                                 <div class="sl-flex sl-flex-1">
@@ -19395,7 +20722,6 @@ You can check the Dev Tools console for debugging information.</p>
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request PATCH \
     "http://localhost/api/v1/notifications/read" \
-    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -19409,7 +20735,6 @@ You can check the Dev Tools console for debugging information.</p>
 );
 
 const headers = {
-    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 };
@@ -19430,7 +20755,6 @@ $response = $client-&gt;patch(
     $url,
     [
         'headers' =&gt; [
-            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
@@ -19449,7 +20773,6 @@ import json
 
 url = 'http://localhost/api/v1/notifications/read'
 headers = {
-  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
@@ -19469,8 +20792,8 @@ response.json()</code></pre>                                        </div>
         <div class="sl-relative">
             <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
                 <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="notifications-DELETEapi-v1-notifications--notification_id-">
-                    Delete a notification
+                    id="general-endpoints-DELETEapi-v1-notifications--notification_id-">
+                    DELETE api/v1/notifications/{notification_id}
                 </h2>
             </div>
         </div>
@@ -19490,15 +20813,10 @@ response.json()</code></pre>                                        </div>
                         <div class="sl-flex-1 sl-font-semibold">/api/v1/notifications/{notification_id}</div>
                     </div>
 
-                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
-                                 style="background-color: darkred"
-                            >requires authentication
-                            </div>
                                                             </div>
         </div>
 
-        <p>Permanently delete a specific notification. The notification must belong to
-the authenticated user.</p>
+        
     </div>
     <div class="sl-flex">
         <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
@@ -19509,24 +20827,6 @@ the authenticated user.</p>
                                 Headers
                             </h3>
                             <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        Bearer Bearer {YOUR_AUTH_TOKEN}
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                                     <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
     <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
     <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
@@ -19594,30 +20894,6 @@ the authenticated user.</p>
             </div>
             </div>
 </div>
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">notification</div>
-                                            <span class="sl-truncate sl-text-muted">string</span>
-                                    </div>
-                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
-                    <span class="sl-ml-2 sl-text-warning">required</span>
-                                    </div>
-                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
-            <p>The UUID of the notification to delete.</p>
-        </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        9d785c8a-1234-5678-9abc-123456789012
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                             </div>
                         </div>
                     
@@ -19638,42 +20914,6 @@ the authenticated user.</p>
               data-path="api/v1/notifications/{notification_id}"
               data-hasfiles="0"
               data-hasjsonbody="0">
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Auth
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                            <label aria-hidden="true"
-                                   for="auth-DELETEapi-v1-notifications--notification_id-">Authorization</label>
-                            <span class="sl-mx-3">:</span>
-                            <div class="sl-flex sl-flex-1">
-                                <div class="sl-input sl-flex-1 sl-relative">
-                                    <code>Bearer </code>
-                                    <input aria-label="Authorization"
-                                           id="auth-DELETEapi-v1-notifications--notification_id-"
-                                           data-component="header"
-                                           data-prefix="Bearer "
-                                           name="Authorization"
-                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
-                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                             <div class="sl-panel sl-outline-none sl-w-full expandable">
                     <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
@@ -19693,7 +20933,7 @@ the authenticated user.</p>
                     </div>
                     <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
                         <div class="ParameterGrid sl-p-4">
-                                                                                                                            <label aria-hidden="true"
+                                                                                            <label aria-hidden="true"
                                        for="header-DELETEapi-v1-notifications--notification_id--Content-Type">Content-Type</label>
                                 <span class="sl-mx-3">:</span>
                                 <div class="sl-flex sl-flex-1">
@@ -19746,18 +20986,6 @@ the authenticated user.</p>
                                                id="urlparam-DELETEapi-v1-notifications--notification_id--notification_id"
                                                placeholder="The ID of the notification."
                                                value="architecto" data-component="url"
-                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                    </div>
-                                </div>
-                                                            <label aria-hidden="true"
-                                       for="urlparam-DELETEapi-v1-notifications--notification_id--notification">notification</label>
-                                <span class="sl-mx-3">:</span>
-                                <div class="sl-flex sl-flex-1">
-                                    <div class="sl-input sl-flex-1 sl-relative">
-                                        <input aria-label="notification" name="notification"
-                                               id="urlparam-DELETEapi-v1-notifications--notification_id--notification"
-                                               placeholder="The UUID of the notification to delete."
-                                               value="9d785c8a-1234-5678-9abc-123456789012" data-component="url"
                                                class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
                                     </div>
                                 </div>
@@ -19856,7 +21084,6 @@ You can check the Dev Tools console for debugging information.</p>
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request DELETE \
     "http://localhost/api/v1/notifications/architecto" \
-    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -19870,7 +21097,6 @@ You can check the Dev Tools console for debugging information.</p>
 );
 
 const headers = {
-    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 };
@@ -19891,7 +21117,6 @@ $response = $client-&gt;delete(
     $url,
     [
         'headers' =&gt; [
-            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
@@ -19910,7 +21135,6 @@ import json
 
 url = 'http://localhost/api/v1/notifications/architecto'
 headers = {
-  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
@@ -19930,8 +21154,8 @@ response.json()</code></pre>                                        </div>
         <div class="sl-relative">
             <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
                 <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
-                    id="notifications-DELETEapi-v1-notifications">
-                    Delete all notifications
+                    id="general-endpoints-DELETEapi-v1-notifications">
+                    DELETE api/v1/notifications
                 </h2>
             </div>
         </div>
@@ -19951,15 +21175,10 @@ response.json()</code></pre>                                        </div>
                         <div class="sl-flex-1 sl-font-semibold">/api/v1/notifications</div>
                     </div>
 
-                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
-                                 style="background-color: darkred"
-                            >requires authentication
-                            </div>
                                                             </div>
         </div>
 
-        <p>Permanently delete all notifications for the authenticated user.
-This action cannot be undone.</p>
+        
     </div>
     <div class="sl-flex">
         <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
@@ -19970,24 +21189,6 @@ This action cannot be undone.</p>
                                 Headers
                             </h3>
                             <div class="sl-text-sm">
-                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
-    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
-    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
-        <div class="sl-flex sl-items-center sl-max-w-full">
-                                        <div class="sl-flex sl-items-baseline sl-text-base">
-                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
-                                    </div>
-                                    </div>
-                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
-                <span>Example:</span> <!-- <span> important for spacing -->
-                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
-                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        Bearer Bearer {YOUR_AUTH_TOKEN}
-                    </div>
-                </div>
-            </div>
-            </div>
-</div>
                                                                     <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
     <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
     <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
@@ -20045,42 +21246,6 @@ This action cannot be undone.</p>
               data-path="api/v1/notifications"
               data-hasfiles="0"
               data-hasjsonbody="0">
-                            <div class="sl-panel sl-outline-none sl-w-full expandable">
-                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
-                         role="button">
-                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
-                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                     data-icon="caret-down"
-                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
-                                </svg>
-                            </div>
-                            Auth
-                        </div>
-                    </div>
-                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
-                        <div class="ParameterGrid sl-p-4">
-                            <label aria-hidden="true"
-                                   for="auth-DELETEapi-v1-notifications">Authorization</label>
-                            <span class="sl-mx-3">:</span>
-                            <div class="sl-flex sl-flex-1">
-                                <div class="sl-input sl-flex-1 sl-relative">
-                                    <code>Bearer </code>
-                                    <input aria-label="Authorization"
-                                           id="auth-DELETEapi-v1-notifications"
-                                           data-component="header"
-                                           data-prefix="Bearer "
-                                           name="Authorization"
-                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
-                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                             <div class="sl-panel sl-outline-none sl-w-full expandable">
                     <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
@@ -20100,7 +21265,7 @@ This action cannot be undone.</p>
                     </div>
                     <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
                         <div class="ParameterGrid sl-p-4">
-                                                                                                                            <label aria-hidden="true"
+                                                                                            <label aria-hidden="true"
                                        for="header-DELETEapi-v1-notifications-Content-Type">Content-Type</label>
                                 <span class="sl-mx-3">:</span>
                                 <div class="sl-flex sl-flex-1">
@@ -20218,7 +21383,6 @@ You can check the Dev Tools console for debugging information.</p>
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request DELETE \
     "http://localhost/api/v1/notifications" \
-    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -20232,7 +21396,6 @@ You can check the Dev Tools console for debugging information.</p>
 );
 
 const headers = {
-    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 };
@@ -20253,7 +21416,6 @@ $response = $client-&gt;delete(
     $url,
     [
         'headers' =&gt; [
-            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
@@ -20272,7 +21434,6 @@ import json
 
 url = 'http://localhost/api/v1/notifications'
 headers = {
-  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
@@ -20283,6 +21444,1233 @@ response.json()</code></pre>                                        </div>
                                 </div>
                                                     </div>
                     
+                            </div>
+    </div>
+</div>
+
+                <h1 id="sectors"
+        class="sl-text-5xl sl-leading-tight sl-font-prose sl-text-heading"
+    >
+        Sectors
+    </h1>
+
+    
+
+                                <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="sectors-GETapi-v1-sectors">
+                    List all sectors
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/sectors"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/sectors</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve a list of all available sectors in the system.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/sectors"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-sectors-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-sectors-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-sectors-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-sectors-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-sectors"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-sectors"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-sectors"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/sectors" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/sectors"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/sectors';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/sectors'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-sectors-toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-sectors', event.target.value);">
+                                                                                                            <option value="0">200</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-sectors example-response-GETapi-v1-sectors-0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;data&quot;: [
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Orval Schuster DVM&quot;,
+                &quot;description&quot;: &quot;Sit voluptas aperiam nihil.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dixie Quigley&quot;,
+                &quot;description&quot;: &quot;Placeat eum et debitis amet ut architecto quo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Cathrine Mertz&quot;,
+                &quot;description&quot;: &quot;Tenetur dolores et quidem perspiciatis et est est.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Mr. Brenden Huel Sr.&quot;,
+                &quot;description&quot;: &quot;Similique ea vitae dolor officia culpa sed.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Alison Emard&quot;,
+                &quot;description&quot;: &quot;Maiores natus saepe voluptate illo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Kaylah Champlin II&quot;,
+                &quot;description&quot;: &quot;Qui natus eligendi sint ratione nisi voluptas culpa quos.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Jeramy Koepp&quot;,
+                &quot;description&quot;: &quot;Et accusamus qui ad vel voluptates impedit rem.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Freddie Gusikowski&quot;,
+                &quot;description&quot;: &quot;Non laborum consectetur velit perspiciatis voluptates enim.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Randal Stark&quot;,
+                &quot;description&quot;: &quot;Laudantium dignissimos qui omnis eos omnis molestiae nemo omnis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Citlalli Kilback Jr.&quot;,
+                &quot;description&quot;: &quot;Molestias aspernatur dolore cum quas.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;11&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Alexane Swaniawski&quot;,
+                &quot;description&quot;: &quot;Aut enim dolor rerum corrupti saepe tempore.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;12&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dillan Gibson&quot;,
+                &quot;description&quot;: &quot;Necessitatibus in magni odio accusamus cupiditate repellat qui.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;13&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Cara Kreiger&quot;,
+                &quot;description&quot;: &quot;Tempore ea voluptatibus perspiciatis fuga quod.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;14&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Michele Huel&quot;,
+                &quot;description&quot;: &quot;Est autem voluptatem qui aliquid et.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;15&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Joe Corkery&quot;,
+                &quot;description&quot;: &quot;Et dolore voluptatum fugit laudantium.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;16&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Alfredo White&quot;,
+                &quot;description&quot;: &quot;Reprehenderit numquam corrupti quo repudiandae nulla aliquam iure vel.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;17&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Ms. Crystel Effertz I&quot;,
+                &quot;description&quot;: &quot;Velit sapiente qui nulla nostrum impedit deserunt.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;18&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Mr. Carmelo Champlin&quot;,
+                &quot;description&quot;: &quot;Sunt ut dignissimos a amet placeat labore dolores.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;19&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Dr. Jessyca Casper&quot;,
+                &quot;description&quot;: &quot;Aspernatur quis aspernatur est saepe totam et corrupti neque.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;20&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Hilario Wyman&quot;,
+                &quot;description&quot;: &quot;Ea nobis repudiandae quibusdam fugiat alias.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;21&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Mrs. Laura Stehr&quot;,
+                &quot;description&quot;: &quot;Vitae debitis architecto nisi.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;22&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Fletcher Monahan&quot;,
+                &quot;description&quot;: &quot;Architecto quod ullam quia ipsa nisi omnis ut at.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;23&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Alexis Gislason&quot;,
+                &quot;description&quot;: &quot;Assumenda temporibus qui quia sapiente numquam modi quia.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;24&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Lance Wolf&quot;,
+                &quot;description&quot;: &quot;Et consequatur omnis sed cumque aut quaerat.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;25&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Eryn McGlynn&quot;,
+                &quot;description&quot;: &quot;Voluptate ut voluptatem dolorum.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;26&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Vallie Borer&quot;,
+                &quot;description&quot;: &quot;Commodi culpa et sed quam sequi.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;27&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Kristina Jacobi&quot;,
+                &quot;description&quot;: &quot;Ducimus et vel libero voluptatum nihil.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;28&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Miss Suzanne Lind&quot;,
+                &quot;description&quot;: &quot;Harum natus fugit ea consequatur vel aut.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;29&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Jovani Hagenes&quot;,
+                &quot;description&quot;: &quot;Quibusdam aut ratione autem rerum quis velit.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;30&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Prof. Beaulah Kreiger I&quot;,
+                &quot;description&quot;: &quot;Tempore libero illum explicabo molestiae.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;31&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Shana Bernier&quot;,
+                &quot;description&quot;: &quot;Amet omnis dolores sunt ut molestiae.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;32&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Stanford Gleason II&quot;,
+                &quot;description&quot;: &quot;In voluptas voluptatum veniam consequuntur recusandae numquam.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;33&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Tad Zboncak DVM&quot;,
+                &quot;description&quot;: &quot;Eaque et sunt omnis dicta doloribus temporibus.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;34&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Prof. Shayna Kunze II&quot;,
+                &quot;description&quot;: &quot;Dolores et sint dolorem ut.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        },
+        {
+            &quot;type&quot;: &quot;sectors&quot;,
+            &quot;id&quot;: &quot;35&quot;,
+            &quot;attributes&quot;: {
+                &quot;name&quot;: &quot;Prof. Flossie Feeney DDS&quot;,
+                &quot;description&quot;: &quot;Nulla molestias magnam doloremque accusantium quo sapiente cupiditate atque.&quot;,
+                &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+                &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+            },
+            &quot;relationships&quot;: {}
+        }
+    ]
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="sectors-GETapi-v1-sectors--id-">
+                    Get sector details
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="http://localhost/api/v1/sectors/{id}"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/sectors/{id}</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve detailed information about a specific sector.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
+
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">id</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the sector.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">sector</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the sector.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/sectors/{id}"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-sectors--id--Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-sectors--id--Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-sectors--id--Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-sectors--id--Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            URL Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-sectors--id--id">id</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="id" name="id"
+                                               id="urlparam-GETapi-v1-sectors--id--id"
+                                               placeholder="The ID of the sector."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-sectors--id--sector">sector</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="sector" name="sector"
+                                               id="urlparam-GETapi-v1-sectors--id--sector"
+                                               placeholder="The ID of the sector."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-sectors--id-"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-sectors--id-"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-sectors--id-"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/v1/sectors/1" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/v1/sectors/1"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'http://localhost/api/v1/sectors/1';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'http://localhost/api/v1/sectors/1'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-sectors--id--toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-sectors--id-', event.target.value);">
+                                                                                                            <option value="0">200</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-sectors--id- example-response-GETapi-v1-sectors--id--0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;data&quot;: {
+        &quot;type&quot;: &quot;sectors&quot;,
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;attributes&quot;: {
+            &quot;name&quot;: &quot;Orval Schuster DVM&quot;,
+            &quot;description&quot;: &quot;Sit voluptas aperiam nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;,
+            &quot;updatedAt&quot;: &quot;2025-08-09T14:32:13+00:00&quot;
+        },
+        &quot;relationships&quot;: {}
+    }
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
                             </div>
     </div>
 </div>
