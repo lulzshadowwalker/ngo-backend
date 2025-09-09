@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Validation\ValidationException;
@@ -26,6 +27,17 @@ class ForgotPasswordController extends Controller
         ]);
 
         $email = $request->input('data.attributes.email');
+
+        if (! User::where('email', $email)->exists()) {
+            return response()->json([
+                'data' => [
+                    'type' => 'password-reset-request',
+                    'attributes' => [
+                        'message' => 'Password reset link sent to your email address.',
+                    ]
+                ]
+            ], 200);
+        }
 
         $status = Password::sendResetLink(['email' => $email]);
 
