@@ -73,7 +73,7 @@ class OrganizationController extends Controller
             $q->where('location_id', (int) $request->input('location'));
         });
 
-        $$organizations = $query->get();
+        $organizations = $query->get();
 
         return OrganizationResource::collection($organizations);
     }
