@@ -55,6 +55,11 @@
             background-color: #f8d7da;
             border-color: #f5c6cb;
         }
+        .alert-success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
     </style>
 </head>
 <body>
@@ -62,6 +67,12 @@
         <h1>Reset Password</h1>
         <p>Please enter your email and new password below.</p>
         
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+
         @if ($errors->any())
             <div class="alert alert-danger">
                 <ul style="margin: 0; padding-left: 20px;">
@@ -72,26 +83,24 @@
             </div>
         @endif
 
-        <form method="POST" action="{{ route('api.v1.auth.reset-password') }}">
+        <form method="POST" action="{{ route('password.update') }}">
             @csrf
             <input type="hidden" name="token" value="{{ $token }}">
             
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="data[attributes][email]" value="{{ $email ?? old('data.attributes.email') }}" required>
+                <input type="email" id="email" name="email" value="{{ $email ?? old('email') }}" required>
             </div>
 
             <div class="form-group">
                 <label for="password">New Password</label>
-                <input type="password" id="password" name="data[attributes][password]" required minlength="8">
+                <input type="password" id="password" name="password" required minlength="8">
             </div>
 
             <div class="form-group">
                 <label for="password_confirmation">Confirm New Password</label>
-                <input type="password" id="password_confirmation" name="data[attributes][password_confirmation]" required minlength="8">
+                <input type="password" id="password_confirmation" name="password_confirmation" required minlength="8">
             </div>
-
-            <input type="hidden" name="data[attributes][token]" value="{{ $token }}">
 
             <button type="submit">Reset Password</button>
         </form>

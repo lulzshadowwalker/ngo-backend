@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Notification;
-use Illuminate\Auth\Notifications\ResetPassword;
+use App\Notifications\CustomResetPasswordNotification;
 use Tests\TestCase;
 
 class PasswordResetFlowTest extends TestCase
@@ -44,7 +44,7 @@ class PasswordResetFlowTest extends TestCase
             ]);
 
         // Verify notification was sent
-        Notification::assertSentTo($user, ResetPassword::class);
+        Notification::assertSentTo($user, CustomResetPasswordNotification::class);
 
         // Step 2: Generate a token (simulating what would be in the email)
         $token = Password::createToken($user);

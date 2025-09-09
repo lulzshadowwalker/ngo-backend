@@ -6,7 +6,7 @@ use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Notification;
-use Illuminate\Auth\Notifications\ResetPassword;
+use App\Notifications\CustomResetPasswordNotification;
 use Tests\TestCase;
 
 class ForgotPasswordControllerTest extends TestCase
@@ -39,7 +39,7 @@ class ForgotPasswordControllerTest extends TestCase
                 ],
             ]);
 
-        Notification::assertSentTo($user, ResetPassword::class);
+        Notification::assertSentTo($user, CustomResetPasswordNotification::class);
     }
 
     public function test_it_returns_error_for_invalid_email()
