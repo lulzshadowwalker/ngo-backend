@@ -28,6 +28,7 @@ class OrganizationFactory extends Factory
             'website' => fake()->url(),
             'sector_id' => Sector::factory(),
             'location_id' => Location::factory(),
+            'contact_email' => fake()->optional()->safeEmail(),
         ];
     }
 }

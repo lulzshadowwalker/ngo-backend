@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Spatie\Permission\Models\Role as SpatieRole;
 use App\Enums\Role;
 use App\Models\Skill;
 use App\Models\User;
@@ -39,6 +40,13 @@ class DatabaseSeeder extends Seeder
         $individual->user->assignRole(Role::individual->value);
 
         Organization::factory(5)
+            ->has(
+                User::factory()
+                    ->state(function (array $attributes, Organization $organization) {
+                        return ['organization_id' => $organization->id];
+                    })
+                    ->hasAttached(SpatieRole::where('name', Role::organization->value)->first())
+            )
             ->has(
                 Post::factory(3)
                     ->has(Comment::factory(2))

@@ -17,8 +17,12 @@ class StoreRegisterOrganizationRequest extends BaseFormRequest
             'data.attributes.name' => 'required|string|max:255',
             'data.attributes.email' => ['required', 'email', 'max:255', new UniqueEmailRule()],
             'data.attributes.password' => 'required|string|min:8',
-            'data.attributes.avatar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
+            'data.attributes.logo' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
             'data.relationships.location.data.id' => 'nullable|exists:locations,id',
+            'data.relationships.sector.data.id' => 'nullable|exists:sectors,id',
+            'data.attributes.contactEmail' => 'nullable|email|max:255',
+            'data.attributes.website' => 'nullable|string|max:255|url',
+            'data.attributes.bio' => 'nullable|string|max:1000',
         ];
     }
 
@@ -39,11 +43,31 @@ class StoreRegisterOrganizationRequest extends BaseFormRequest
 
     public function avatar()
     {
-        return $this->file('data.attributes.avatar');
+        return $this->file('data.attributes.logo');
     }
 
     public function location(): ?int
     {
         return $this->input('data.relationships.location.data.id');
+    }
+
+    public function sector(): ?int
+    {
+        return $this->input('data.relationships.sector.data.id');
+    }
+
+    public function contactEmail(): ?string
+    {
+        return $this->input('data.attributes.contactEmail');
+    }
+
+    public function website(): ?string
+    {
+        return $this->input('data.attributes.website');
+    }
+
+    public function bio(): ?string
+    {
+        return $this->input('data.attributes.bio');
     }
 }

@@ -27,6 +27,7 @@ class Organization extends Model
         "slug",
         "bio",
         "website",
+        "contact_email",
         "sector_id",
         "location_id",
     ];
@@ -43,6 +44,11 @@ class Organization extends Model
             'sector_id' => 'integer',
             'location_id' => 'integer',
         ];
+    }
+
+    public function users(): HasMany
+    {
+        return $this->hasMany(User::class);
     }
 
     public function sector(): BelongsTo

@@ -33,7 +33,8 @@ class User extends Authenticatable implements HasMedia, FilamentUser
      *
      * @var list<string>
      */
-    protected $fillable = ["name", "email", "password"];
+    protected $fillable = ["name", "email", "password", "organization_id"];
+
 
     /**
      * The attributes that should be hidden for serialization.
@@ -94,6 +95,11 @@ class User extends Authenticatable implements HasMedia, FilamentUser
     public function individual()
     {
         return $this->hasOne(Individual::class);
+    }
+
+    public function organization()
+    {
+        return $this->belongsTo(Organization::class);
     }
 
     //  TODO: We need an organizer model and link the organizer model to the organization model
