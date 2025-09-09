@@ -5,6 +5,7 @@ use App\Http\Controllers\Api\LikePostController;
 use App\Http\Controllers\Api\OrganizationController;
 use App\Http\Controllers\Api\PostController;
 use App\Http\Controllers\Api\SkillController;
+use App\Http\Controllers\Api\SectorController;
 use App\Http\Controllers\Api\LocationController;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\UserPreferencesController;
@@ -34,6 +35,9 @@ Route::delete('/organizations/{organization:slug}/follows', [FollowOrganizationC
 
 Route::get('/skills', [SkillController::class, 'index'])->name('api.v1.skills.index');
 Route::get('/skills/{skill}', [SkillController::class, 'show'])->name('api.v1.skills.show');
+
+Route::get('/sectors', [SectorController::class, 'index'])->name('api.v1.sectors.index');
+Route::get('/sectors/{sector}', [SectorController::class, 'show'])->name('api.v1.sectors.show');
 
 Route::get('/locations', [LocationController::class, 'index'])->name('api.v1.locations.index');
 Route::get('/locations/{location}', [LocationController::class, 'show'])->name('api.v1.locations.show');
