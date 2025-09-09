@@ -42,7 +42,7 @@ class ForgotPasswordControllerTest extends TestCase
         Notification::assertSentTo($user, CustomResetPasswordNotification::class);
     }
 
-    public function test_it_returns_error_for_invalid_email()
+    public function test_it_returns_success_for_nonexistent_email_for_security()
     {
         Notification::fake();
 
@@ -54,8 +54,16 @@ class ForgotPasswordControllerTest extends TestCase
             ],
         ]);
 
-        $response->assertStatus(422)
-            ->assertJsonValidationErrors(['data.attributes.email']);
+        // Should return success to prevent email enumeration attacks
+        $response->assertStatus(200)
+            ->assertJson([
+                'data' => [
+                    'type' => 'password-reset-request',
+                    'attributes' => [
+                        'message' => 'Password reset link sent to your email address.',
+                    ],
+                ],
+            ]);
 
         Notification::assertNothingSent();
     }
