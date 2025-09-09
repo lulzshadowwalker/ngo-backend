@@ -223,11 +223,11 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Register a new individual user'
+      title: 'Register a new organization user'
       description: |-
-        Register a new individual user account in the system. This endpoint creates
-        a new user with the 'individual' role, along with their profile information
-        and location. Returns an authentication token upon successful registration.
+        Register a new organization user account in the system. This endpoint creates
+        a new user with the 'organization' role, along with their organization profile
+        information and location. Returns an authentication token upon successful registration.
       authenticated: false
       deprecated: false
       custom: []
@@ -289,8 +289,8 @@ endpoints:
         exampleWasSpecified: false
         nullable: false
         custom: []
-      data.attributes.avatar:
-        name: data.attributes.avatar
+      data.attributes.logo:
+        name: data.attributes.logo
         description: 'Must be an image. Must not be greater than 4048 kilobytes.'
         required: false
         example: null
@@ -339,11 +339,71 @@ endpoints:
         exampleWasSpecified: false
         nullable: true
         custom: []
+      data.relationships.sector.data:
+        name: data.relationships.sector.data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.sector:
+        name: data.relationships.sector
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.relationships.sector.data.id:
+        name: data.relationships.sector.data.id
+        description: 'The <code>id</code> of an existing record in the sectors table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+      data.attributes.contactEmail:
+        name: data.attributes.contactEmail
+        description: 'Must be a valid email address. Must not be greater than 255 characters.'
+        required: false
+        example: cormier.nick@example.com
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+      data.attributes.website:
+        name: data.attributes.website
+        description: 'Must be a valid URL. Must not be greater than 255 characters.'
+        required: false
+        example: 'y'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+      data.attributes.bio:
+        name: data.attributes.bio
+        description: 'Must not be greater than 1000 characters.'
+        required: false
+        example: u
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
       name:
         name: name
-        description: 'The full name of the individual.'
+        description: 'The full name of the organization.'
         required: true
-        example: 'John Doe'
+        example: 'Helping Hands'
         type: string
         enumValues: []
         exampleWasSpecified: true
@@ -351,9 +411,9 @@ endpoints:
         custom: []
       email:
         name: email
-        description: 'The email address (must be unique).'
+        description: 'The email address for login (must be unique).'
         required: true
-        example: john.doe@example.com
+        example: org@example.com
         type: string
         enumValues: []
         exampleWasSpecified: true
@@ -381,10 +441,50 @@ endpoints:
         custom: []
       location_id:
         name: location_id
-        description: "The ID of the user's location."
+        description: "The ID of the organization's location."
         required: true
         example: 1
         type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      sector_id:
+        name: sector_id
+        description: "The ID of the organization's sector."
+        required: true
+        example: 2
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      contact_email:
+        name: contact_email
+        description: 'The contact email for the organization.'
+        required: true
+        example: contact@org.com
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      website:
+        name: website
+        description: "optional The organization's website URL."
+        required: false
+        example: 'https://org.com'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      bio:
+        name: bio
+        description: 'optional A short description of the organization.'
+        required: false
+        example: 'We help communities thrive.'
+        type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
@@ -405,18 +505,27 @@ endpoints:
           name: b
           email: zbailey@example.net
           password: '-0pBNvYgxw'
+          contactEmail: cormier.nick@example.com
+          website: 'y'
+          bio: u
         relationships:
           location:
             data: []
-      name: 'John Doe'
-      email: john.doe@example.com
+          sector:
+            data: []
+      name: 'Helping Hands'
+      email: org@example.com
       password: securePassword123
       password_confirmation: securePassword123
       location_id: 1
+      sector_id: 2
+      contact_email: contact@org.com
+      website: 'https://org.com'
+      bio: 'We help communities thrive.'
     fileParameters:
       data:
         attributes:
-          avatar: null
+          logo: null
       avatar: null
     responses: []
     responseFields: []
