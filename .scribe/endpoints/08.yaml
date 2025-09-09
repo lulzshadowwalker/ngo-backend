@@ -70,7 +70,7 @@ endpoints:
         name: supportTicket_id
         description: 'The ID of the supportTicket.'
         required: true
-        example: 1
+        example: 16
         type: integer
         enumValues: []
         exampleWasSpecified: false
@@ -87,7 +87,7 @@ endpoints:
         nullable: false
         custom: []
     cleanUrlParameters:
-      supportTicket_id: 1
+      supportTicket_id: 16
       supportTicket: 1
     queryParameters: []
     cleanQueryParameters: []

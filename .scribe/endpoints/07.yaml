@@ -30,7 +30,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":[{"type":"page","id":"1","attributes":{"title":"About Us","slug":"about-us","content":"sasdsds"}},{"type":"page","id":"2","attributes":{"title":"Terms and conditions","slug":"terms-and-conditions","content":"Terms and conditions content"}},{"type":"page","id":"3","attributes":{"title":"Privacy policy","slug":"privacy-policy","content":"Privacy policy content"}}]}'
+        content: '{"data":[]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -65,7 +65,7 @@ endpoints:
         name: slug
         description: 'The slug of the page.'
         required: true
-        example: about-us
+        example: architecto
         type: string
         enumValues: []
         exampleWasSpecified: false
@@ -82,7 +82,7 @@ endpoints:
         nullable: false
         custom: []
     cleanUrlParameters:
-      slug: about-us
+      slug: architecto
       page: 1
     queryParameters: []
     cleanQueryParameters: []
@@ -91,8 +91,11 @@ endpoints:
     fileParameters: []
     responses:
       -
-        status: 200
-        content: '{"data":{"type":"page","id":"1","attributes":{"title":"About Us","slug":"about-us","content":"sasdsds"}}}'
+        status: 404
+        content: |-
+          {
+              "message": "No query results for model [App\\Models\\Page] architecto"
+          }
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
