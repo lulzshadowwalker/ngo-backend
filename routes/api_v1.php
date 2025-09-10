@@ -10,6 +10,7 @@ use App\Http\Controllers\Api\LocationController;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\ForgotPasswordController;
 use App\Http\Controllers\Api\ResetPasswordController;
+use App\Http\Controllers\Api\ChangePasswordController;
 use App\Http\Controllers\Api\UserPreferencesController;
 use App\Http\Controllers\Api\PageController;
 use App\Http\Controllers\Api\FollowOrganizationController;
@@ -25,6 +26,7 @@ Route::post('/auth/register/organizations', [RegisterOrganizationController::cla
 Route::post('/auth/login', [LoginController::class, 'store'])->name('api.v1.auth.login');
 Route::post('/auth/forgot-password', [ForgotPasswordController::class, 'store'])->name('api.v1.auth.forgot-password');
 Route::post('/auth/reset-password', [ResetPasswordController::class, 'store'])->name('api.v1.auth.reset-password');
+Route::post('/auth/change-password', [ChangePasswordController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.auth.change-password');
 
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');

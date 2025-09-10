@@ -30,7 +30,8 @@ class LoginController extends Controller
         $email = $request->input('data.attributes.email');
         $password = $request->input('data.attributes.password');
 
-        if (!auth()->attempt([
+        // Use the web guard for authentication attempt
+        if (!auth('web')->attempt([
             'email' => $email,
             'password' => $password,
         ])) {
@@ -38,9 +39,9 @@ class LoginController extends Controller
             throw new \Illuminate\Auth\AuthenticationException('Invalid credentials');
         }
 
-        $user = auth()->user();
+        $user = auth('web')->user();
 
-        $accessToken = auth()->user()->createToken(config('app.name'))->plainTextToken;
+        $accessToken = $user->createToken(config('app.name'))->plainTextToken;
 
         return AuthTokenResource::make(
             new AccessToken(
