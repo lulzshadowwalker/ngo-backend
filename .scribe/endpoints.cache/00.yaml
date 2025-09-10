@@ -770,3 +770,93 @@ endpoints:
     method: null
     route: null
     custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/auth/change-password
+    metadata:
+      groupName: Authentication
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Change user password'
+      description: "Change the authenticated user's password by providing current password and new password."
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      data.attributes:
+        name: data.attributes
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data:
+        name: data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.attributes.current_password:
+        name: data.attributes.current_password
+        description: "The user's current password."
+        required: true
+        example: currentPassword123
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      data.attributes.new_password:
+        name: data.attributes.new_password
+        description: 'The new password (minimum 8 characters).'
+        required: true
+        example: newSecurePassword123
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      data.attributes.new_password_confirmation:
+        name: data.attributes.new_password_confirmation
+        description: 'New password confirmation.'
+        required: true
+        example: newSecurePassword123
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      data:
+        attributes:
+          current_password: currentPassword123
+          new_password: newSecurePassword123
+          new_password_confirmation: newSecurePassword123
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []

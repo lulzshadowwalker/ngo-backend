@@ -96,7 +96,7 @@ endpoints:
         name: data.attributes.language
         description: ''
         required: false
-        example: en
+        example: ar
         type: string
         enumValues:
           - en
@@ -118,7 +118,7 @@ endpoints:
         name: data.attributes.emailNotifications
         description: ''
         required: false
-        example: true
+        example: false
         type: boolean
         enumValues: []
         exampleWasSpecified: false
@@ -177,9 +177,9 @@ endpoints:
     cleanBodyParameters:
       data:
         attributes:
-          language: en
+          language: ar
           pushNotifications: true
-          emailNotifications: true
+          emailNotifications: false
       language: en
       appearance: dark
       email_notifications: true
