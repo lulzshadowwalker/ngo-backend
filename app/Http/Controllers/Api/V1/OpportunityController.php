@@ -150,6 +150,8 @@ class OpportunityController extends Controller
             ->where('status', OpportunityStatus::Active)
             ->findOrFail($id);
 
+        views($opportunity)->record();
+
         return response()->json([
             'data' => new OpportunityResource($opportunity),
         ]);

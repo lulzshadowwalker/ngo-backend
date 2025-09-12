@@ -10,11 +10,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Spatie\Translatable\HasTranslations;
+use CyrildeWit\EloquentViewable\InteractsWithViews;
+use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Laravel\Scout\Searchable;
 
-class Opportunity extends Model
+class Opportunity extends Model implements Viewable
 {
-    use HasFactory, HasTranslations, BelongsToOrganization, Searchable;
+    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews;
 
     /**
      * The attributes that are mass assignable.

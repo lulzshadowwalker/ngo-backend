@@ -9,11 +9,13 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Translatable\HasTranslations;
+use CyrildeWit\EloquentViewable\InteractsWithViews;
+use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Laravel\Scout\Searchable;
 
-class Program extends Model
+class Program extends Model implements Viewable
 {
-    use HasFactory, HasTranslations, BelongsToOrganization, Searchable;
+    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews;
 
     /**
      * The attributes that are mass assignable.
