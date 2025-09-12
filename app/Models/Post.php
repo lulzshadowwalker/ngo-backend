@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use App\Filters\QueryFilter;
+use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Builder;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
@@ -17,7 +18,7 @@ use Laravel\Scout\Searchable;
 #[ObservedBy(PostObserver::class)]
 class Post extends Model implements Viewable
 {
-    use HasFactory, InteractsWithViews, Searchable;
+    use HasFactory, InteractsWithViews, Searchable, BelongsToOrganization;
 
     /**
      * The attributes that are mass assignable.

@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\OpportunityStatus;
+use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -10,7 +11,7 @@ use Spatie\Translatable\HasTranslations;
 
 class Opportunity extends Model
 {
-    use HasFactory, HasTranslations;
+    use HasFactory, HasTranslations, BelongsToOrganization;
 
     /**
      * The attributes that are mass assignable.
