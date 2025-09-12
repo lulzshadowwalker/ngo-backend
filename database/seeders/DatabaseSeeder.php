@@ -45,7 +45,7 @@ class DatabaseSeeder extends Seeder
             'password' => 'password',
         ]);
         $organizer->assignRole(Role::organization->value);
-        $organizer->organization()->save(Organization::factory()->make());
+        $organizer->organization()->associate(Organization::factory()->create());
 
         Organization::factory(5)
             ->has(
