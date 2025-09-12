@@ -70,8 +70,8 @@ class OpportunityResource extends JsonResource
                     'id' => $this->applicationForm->id,
                     'title' => $this->applicationForm->title,
                     'description' => $this->whenNotNull($this->applicationForm->description),
-                    'formFields' => $this->whenLoaded('applicationForm.formFields', function () {
-                        return $this->applicationForm->formFields->map(function ($field) {
+                    'formFields' => $this->applicationForm->relationLoaded('formFields')
+                        ? $this->applicationForm->formFields->map(function ($field) {
                             return [
                                 'id' => $field->id,
                                 'type' => $field->type,
@@ -83,8 +83,8 @@ class OpportunityResource extends JsonResource
                                 'options' => $field->options,
                                 'validationRules' => $field->validation_rules,
                             ];
-                        });
-                    }),
+                        })
+                        : null,
                 ];
             }),
         ];
