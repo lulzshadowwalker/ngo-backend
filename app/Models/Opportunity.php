@@ -76,6 +76,7 @@ class Opportunity extends Model
             'expiry_date' => 'date',
             'latitude' => 'decimal:8',
             'longitude' => 'decimal:8',
+            'tags' => 'array',
             'key_responsibilities' => 'array',
             'required_skills' => 'array',
             'time_commitment' => 'array',

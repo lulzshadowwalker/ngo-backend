@@ -88,18 +88,26 @@ class OpportunityResource extends Resource
                             ->translatable(),
 
                         Forms\Components\TagsInput::make('tags')
-                            ->label('Tags (comma-separated)')
-                            ->helperText('Enter comma-separated tags for this opportunity')
+                            ->label('Tags')
+                            ->helperText('Enter relevant tags for this opportunity (max 20 tags)')
+                            ->separator(',')
+                            ->splitKeys(['Tab', 'Enter', ','])
                             ->translatable(),
 
                         Forms\Components\TextInput::make('duration')
                             ->label('Duration')
                             ->numeric()
                             ->suffix('Days')
-                            ->helperText('Duration in days'),
+                            ->helperText('Duration in days (1-365 days)')
+                            ->minValue(1)
+                            ->maxValue(365)
+                            ->step(1),
 
                         Forms\Components\DatePicker::make('expiry_date')
-                            ->label('Application Deadline'),
+                            ->label('Application Deadline')
+                            ->minDate(now()->addDays(1))
+                            ->helperText('Deadline must be in the future')
+                            ->displayFormat('M d, Y'),
 
                         Forms\Components\Select::make('sector_id')
                             ->label('Sector')
@@ -113,12 +121,12 @@ class OpportunityResource extends Resource
                     ->schema([
                         Forms\Components\TagsInput::make('key_responsibilities')
                             ->label('Key Responsibilities')
-                            ->helperText('Enter each responsibility as a separate item')
+                            ->helperText('Enter each responsibility as a separate item (max 10 items)')
                             ->translatable(),
 
                         Forms\Components\TagsInput::make('required_skills')
                             ->label('Required Skills')
-                            ->helperText('Enter each skill as a separate item')
+                            ->helperText('Enter each skill as a separate item (max 15 items)')
                             ->translatable(),
 
                         Forms\Components\TagsInput::make('time_commitment')
@@ -128,7 +136,7 @@ class OpportunityResource extends Resource
 
                         Forms\Components\TagsInput::make('benefits')
                             ->label('Benefits')
-                            ->helperText('Enter each benefit as a separate item')
+                            ->helperText('Enter each benefit as a separate item (max 10 items)')
                             ->translatable(),
                     ])
                     ->columns(2),
@@ -144,12 +152,20 @@ class OpportunityResource extends Resource
                         Forms\Components\TextInput::make('latitude')
                             ->label('Latitude')
                             ->numeric()
-                            ->step(0.00000001),
+                            ->step(0.00000001)
+                            ->minValue(-90)
+                            ->maxValue(90)
+                            ->placeholder('e.g., 31.9539')
+                            ->helperText('Latitude coordinate (-90 to 90)'),
 
                         Forms\Components\TextInput::make('longitude')
                             ->label('Longitude')
                             ->numeric()
-                            ->step(0.00000001),
+                            ->step(0.00000001)
+                            ->minValue(-180)
+                            ->maxValue(180)
+                            ->placeholder('e.g., 35.9106')
+                            ->helperText('Longitude coordinate (-180 to 180)'),
 
                         Forms\Components\Textarea::make('location_description')
                             ->label('Location Description')
