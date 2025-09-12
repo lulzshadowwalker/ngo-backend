@@ -174,7 +174,7 @@ class User extends Authenticatable implements HasMedia, FilamentUser
             return $this->isAdmin;
         }
 
-        if ($panel->getId() === 'organizer') {
+        if ($panel->getId() === 'cms') {
             return $this->isOrganizer;
         }
 
