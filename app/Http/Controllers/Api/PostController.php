@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Filters\PostFilter;
-use App\Http\Controllers\Controller;
 use App\Http\Requests\SearchPostRequest;
 use App\Http\Resources\PostResource;
 use App\Models\Post;
@@ -85,6 +84,8 @@ class PostController extends ApiController
         });
 
         $posts = $query->get();
+
+        $posts->load(['organization', 'sector', 'likes', 'comments']);
 
         return PostResource::collection($posts);
     }
