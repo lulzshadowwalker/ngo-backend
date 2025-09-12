@@ -10,11 +10,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use App\Filters\QueryFilter;
 use Illuminate\Database\Eloquent\Builder;
+use CyrildeWit\EloquentViewable\InteractsWithViews;
+use CyrildeWit\EloquentViewable\Contracts\Viewable;
 
 #[ObservedBy(PostObserver::class)]
-class Post extends Model
+class Post extends Model implements Viewable
 {
-    use HasFactory;
+    use HasFactory, InteractsWithViews;
 
     /**
      * The attributes that are mass assignable.

@@ -37,12 +37,12 @@ class PostResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('title')
                     ->searchable(),
-                // Tables\Columns\TextColumn::make('views_count')
-                //     ->getStateUsing(fn(Post $record): int => 12)
-                //     ->alignRight()
-                //     ->badge()
-                //     ->icon('heroicon-o-eye')
-                //     ->sortable(),
+                Tables\Columns\TextColumn::make('views_count')
+                    ->getStateUsing(fn(Post $record): int => views($record)->count())
+                    ->alignRight()
+                    ->badge()
+                    ->icon('heroicon-o-eye')
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Published At')
                     ->description(fn(Post $record): string => $record->created_at?->diffForHumans() ?? '')

@@ -7,6 +7,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "cyrildewit/eloquent-viewable": "^7.0",
         "filament/filament": "^3.3",
         "google/apiclient": "^2.18",
         "knuckleswtf/scribe": "^5.3",

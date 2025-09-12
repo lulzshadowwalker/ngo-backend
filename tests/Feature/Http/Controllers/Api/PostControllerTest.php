@@ -34,4 +34,18 @@ class PostControllerTest extends TestCase
         $response->assertOk();
         $response->assertJson($resource->response()->getData(true));
     }
+
+    public function test_it_records_a_view_when_showing_post()
+    {
+        $post = Post::factory()->create();
+
+        $this->assertEquals(0, views($post)->count());
+
+        $this->getJson(route('api.v1.posts.show', [
+            'post' => $post->slug,
+        ]));
+
+        $post->refresh();
+        $this->assertEquals(1, views($post)->count());
+    }
 }
