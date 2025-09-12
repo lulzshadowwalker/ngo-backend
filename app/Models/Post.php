@@ -23,7 +23,7 @@ class Post extends Model implements Viewable
      *
      * @var array
      */
-    protected $fillable = ["title", "slug", "content", "organization_id"];
+    protected $fillable = ["title", "slug", "content", "organization_id", "sector_id"];
 
     /**
      * Get the attributes that should be cast.
@@ -68,5 +68,10 @@ class Post extends Model implements Viewable
     public function scopeFilter(Builder $builder, QueryFilter $filters): Builder
     {
         return $filters->apply($builder);
+    }
+
+    public function sector(): BelongsTo
+    {
+        return $this->belongsTo(Sector::class);
     }
 }

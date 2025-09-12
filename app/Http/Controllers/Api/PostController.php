@@ -50,7 +50,7 @@ class PostController extends ApiController
     {
         views($post)->record();
 
-        $includes = ["likes", "comments", "organization"];
+        $includes = ["likes", "comments", "organization", "sector"];
         foreach ($includes as $include) {
             if ($this->include($include)) {
                 $post->load($include);

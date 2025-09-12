@@ -11,7 +11,7 @@ class PostFilter extends QueryFilter
 
     public function include($relationships)
     {
-        $allowedRelationships = ["likes", "comments", "organization"];
+        $allowedRelationships = ["likes", "comments", "organization", "sector"];
 
         $relationships = explode(",", $relationships);
         $relationships = array_intersect($relationships, $allowedRelationships);
