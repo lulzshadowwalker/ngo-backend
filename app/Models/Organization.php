@@ -76,6 +76,16 @@ class Organization extends Model
         return $this->morphMany(Follow::class, 'followable');
     }
 
+    public function programs(): HasMany
+    {
+        return $this->hasMany(Program::class);
+    }
+
+    public function opportunities(): HasMany
+    {
+        return $this->hasMany(Opportunity::class);
+    }
+
     /**
      * Check if the authenticated user is following this organization.
      */

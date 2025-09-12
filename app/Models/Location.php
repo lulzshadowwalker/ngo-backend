@@ -41,4 +41,9 @@ class Location extends Model
     {
         return $this->hasMany(Organization::class);
     }
+
+    public function opportunities(): HasMany
+    {
+        return $this->hasMany(Opportunity::class);
+    }
 }

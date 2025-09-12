@@ -2,13 +2,16 @@
 
 namespace App\Models;
 
+use App\Enums\ProgramStatus;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Spatie\Translatable\HasTranslations;
 
-class Sector extends Model
+class Program extends Model
 {
-    use HasFactory;
+    use HasFactory, HasTranslations;
 
     /**
      * The attributes that are mass assignable.
@@ -16,9 +19,18 @@ class Sector extends Model
      * @var array
      */
     protected $fillable = [
-        'name',
+        'title',
         'description',
+        'status',
+        'organization_id',
     ];
+
+    /**
+     * The translatable attributes.
+     *
+     * @var array
+     */
+    public $translatable = ['title', 'description'];
 
     /**
      * Get the attributes that should be cast.
@@ -29,17 +41,14 @@ class Sector extends Model
     {
         return [
             'id' => 'integer',
+            'organization_id' => 'integer',
+            'status' => ProgramStatus::class,
         ];
     }
 
-    public function organizations(): HasMany
+    public function organization(): BelongsTo
     {
-        return $this->hasMany(Organization::class);
-    }
-
-    public function posts(): HasMany
-    {
-        return $this->hasMany(Post::class);
+        return $this->belongsTo(Organization::class);
     }
 
     public function opportunities(): HasMany
