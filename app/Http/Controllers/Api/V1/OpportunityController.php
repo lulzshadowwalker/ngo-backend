@@ -52,7 +52,7 @@ class OpportunityController extends Controller
             foreach ($tags as $tag) {
                 $query->where(function ($q) use ($tag) {
                     $q->whereJsonContains('tags->en', $tag)
-                      ->orWhereJsonContains('tags->ar', $tag);
+                        ->orWhereJsonContains('tags->ar', $tag);
                 });
             }
         }
@@ -94,16 +94,16 @@ class OpportunityController extends Controller
             $search = $request->search;
             $query->where(function ($q) use ($search) {
                 $q->whereJsonContains('title->en', $search)
-                  ->orWhereJsonContains('title->ar', $search)
-                  ->orWhereJsonContains('description->en', $search)
-                  ->orWhereJsonContains('description->ar', $search);
+                    ->orWhereJsonContains('title->ar', $search)
+                    ->orWhereJsonContains('description->en', $search)
+                    ->orWhereJsonContains('description->ar', $search);
             });
         }
 
         // Sorting
         $sortField = $request->get('sort_by', 'created_at');
         $sortDirection = $request->get('sort_direction', 'desc');
-        
+
         $allowedSortFields = ['created_at', 'expiry_date', 'duration'];
         if (in_array($sortField, $allowedSortFields)) {
             $query->orderBy($sortField, $sortDirection);
@@ -145,8 +145,8 @@ class OpportunityController extends Controller
                 $query->orderBy('sort_order');
             }
         ])
-        ->where('status', OpportunityStatus::Active)
-        ->findOrFail($id);
+            ->where('status', OpportunityStatus::Active)
+            ->findOrFail($id);
 
         return response()->json([
             'data' => new OpportunityResource($opportunity),

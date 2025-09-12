@@ -38,7 +38,7 @@ class OpportunityResource extends JsonResource
             'extra' => $this->extra,
             'createdAt' => $this->created_at,
             'updatedAt' => $this->updated_at,
-            
+
             // Relationships
             'organization' => $this->whenLoaded('organization', function () {
                 return [
@@ -49,7 +49,7 @@ class OpportunityResource extends JsonResource
                     'locationId' => $this->whenNotNull($this->organization->location_id),
                 ];
             }),
-            
+
             'program' => $this->whenLoaded('program', function () {
                 return [
                     'id' => $this->program->id,
@@ -57,14 +57,14 @@ class OpportunityResource extends JsonResource
                     'description' => $this->whenNotNull($this->program->description),
                 ];
             }),
-            
+
             'sector' => $this->whenLoaded('sector', function () {
                 return [
                     'id' => $this->sector->id,
                     'name' => $this->sector->name,
                 ];
             }),
-            
+
             'applicationForm' => $this->whenLoaded('applicationForm', function () {
                 return [
                     'id' => $this->applicationForm->id,
