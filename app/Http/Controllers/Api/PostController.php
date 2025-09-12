@@ -75,9 +75,9 @@ class PostController extends ApiController
      */
     public function search(SearchPostRequest $request)
     {
-        $query = $request->input('query', '');
+        $query = $request->input('query', '') ?? '';
 
-        $query = Post::search($query ?? '');
+        $query = Post::search($query);
 
         $query->when($request->has('sector'), function ($q) use ($request) {
             $q->where('sector_id', (int) $request->input('sector'));

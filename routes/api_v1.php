@@ -54,6 +54,7 @@ Route::get('/locations/{location}', [LocationController::class, 'show'])->name('
 Route::get('/opportunities', [OpportunityController::class, 'index'])->name('api.v1.opportunities.index');
 Route::get('/opportunities/featured', [OpportunityController::class, 'featured'])->name('api.v1.opportunities.featured');
 Route::get('/opportunities/stats', [OpportunityController::class, 'stats'])->name('api.v1.opportunities.stats');
+Route::get('/opportunities/search', [OpportunityController::class, 'search'])->name('api.v1.opportunities.search');
 Route::get('/opportunities/{id}', [OpportunityController::class, 'show'])->name('api.v1.opportunities.show');
 
 // Applications API

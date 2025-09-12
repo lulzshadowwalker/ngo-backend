@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\OpportunityStatus;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\SearchOpportunityRequest;
+use App\Http\Requests\SearchPostRequest;
 use App\Http\Resources\OpportunityResource;
 use App\Models\Opportunity;
 use Illuminate\Http\JsonResponse;
@@ -151,6 +153,23 @@ class OpportunityController extends Controller
         return response()->json([
             'data' => new OpportunityResource($opportunity),
         ]);
+    }
+
+    public function search(SearchOpportunityRequest $request)
+    {
+        $query = $request->input('query', '') ?? '';
+
+        $query = Opportunity::search($query);
+
+        $query->when($request->has('sector'), function ($q) use ($request) {
+            $q->where('sector_id', (int) $request->input('sector'));
+        });
+
+        $opportunities = $query->get();
+
+        $opportunities->load(['organization', 'sector', 'program', 'applicationForm']);
+
+        return OpportunityResource::collection($opportunities);
     }
 
     /**

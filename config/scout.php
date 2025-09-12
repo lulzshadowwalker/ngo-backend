@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Opportunity;
 use App\Models\Organization;
 use App\Models\Post;
 
@@ -247,7 +248,28 @@ return [
                     'exhaustive_search' => true,
                 ]
             ],
+
+            Opportunity::class => [
+                'collection-schema' => [
+                    'fields' => [
+                        ['name' => 'id', 'type' => 'string'],
+                        ['name' => 'title_en', 'type' => 'string', 'locale' => 'en'],
+                        ['name' => 'title_ar', 'type' => 'string', 'locale' => 'ar'],
+                        ['name' => 'description_en', 'type' => 'string', 'locale' => 'en'],
+                        ['name' => 'description_ar', 'type' => 'string', 'locale' => 'ar'],
+                        ['name' => 'organization_id', 'type' => 'int32'],
+                        ['name' => 'sector_id', 'type' => 'int32'],
+                        ['name' => 'tags_en', 'type' => 'string[]', 'locale' => 'en'],
+                        ['name' => 'tags_ar', 'type' => 'string[]', 'locale' => 'ar'],
+                        ['name' => 'created_at', 'type' => 'int64'],
+                    ],
+                    'default_sorting_field' => 'created_at',
+                ],
+                'search-parameters' => [
+                    'query_by' => 'title_en,title_ar,description_en,description_ar,tags_en,tags_ar',
+                    'exhaustive_search' => true,
+                ]
+            ],
         ],
     ],
-
 ];
