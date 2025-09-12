@@ -39,6 +39,14 @@ class DatabaseSeeder extends Seeder
         ]))->create();
         $individual->user->assignRole(Role::individual->value);
 
+        $organizer = User::factory()->create([
+            'name' => 'Organizer Sam',
+            'email' => 'organizer@example.com',
+            'password' => 'password',
+        ]);
+        $organizer->assignRole(Role::organization->value);
+        $organizer->organization()->save(Organization::factory()->make());
+
         Organization::factory(5)
             ->has(
                 User::factory()
