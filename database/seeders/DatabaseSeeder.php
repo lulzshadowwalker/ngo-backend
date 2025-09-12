@@ -12,6 +12,8 @@ use App\Models\Comment;
 use App\Models\Like;
 use App\Models\Follow;
 use App\Models\Individual;
+use App\Models\Opportunity;
+use App\Models\Program;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -77,5 +79,15 @@ class DatabaseSeeder extends Seeder
             "name" => "Test User",
             "email" => "test@example.com",
         ]);
+
+        foreach (Organization::all() as $organization) {
+            $programs = Program::factory(2)->for($organization)->create();
+            foreach ($programs as $program) {
+                Opportunity::factory(3)
+                    ->for($organization)
+                    ->for($program)
+                    ->create();
+            }
+        }
     }
 }
