@@ -19,6 +19,7 @@ use App\Http\Controllers\Api\NotificationController;
 use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\RegisterIndividualController;
 use App\Http\Controllers\Api\RegisterOrganizationController;
+use App\Http\Controllers\Api\V1\OpportunityController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/auth/register/individuals', [RegisterIndividualController::class, 'store'])->name('api.v1.auth.register.individuals');
@@ -47,6 +48,12 @@ Route::get('/sectors/{sector}', [SectorController::class, 'show'])->name('api.v1
 
 Route::get('/locations', [LocationController::class, 'index'])->name('api.v1.locations.index');
 Route::get('/locations/{location}', [LocationController::class, 'show'])->name('api.v1.locations.show');
+
+// Opportunities API
+Route::get('/opportunities', [OpportunityController::class, 'index'])->name('api.v1.opportunities.index');
+Route::get('/opportunities/featured', [OpportunityController::class, 'featured'])->name('api.v1.opportunities.featured');
+Route::get('/opportunities/stats', [OpportunityController::class, 'stats'])->name('api.v1.opportunities.stats');
+Route::get('/opportunities/{id}', [OpportunityController::class, 'show'])->name('api.v1.opportunities.show');
 
 Route::get('/posts', [PostController::class, 'index'])->name('api.v1.posts.index');
 Route::get('/posts/search', [PostController::class, 'search'])->name('api.v1.posts.search');
