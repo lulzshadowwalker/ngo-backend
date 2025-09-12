@@ -7,6 +7,8 @@ use Filament\Support\Contracts\HasLabel;
 enum FormFieldType: string implements HasLabel
 {
     case Text = 'text';
+    case Email = 'email';
+    case Phone = 'phone';
     case Textarea = 'textarea';
     case Date = 'date';
     case Select = 'select';
@@ -22,6 +24,8 @@ enum FormFieldType: string implements HasLabel
     {
         return match ($this) {
             self::Text => 'Text Input',
+            self::Email => 'Email Input',
+            self::Phone => 'Phone Input',
             self::Textarea => 'Textarea',
             self::Date => 'Date Picker',
             self::Select => 'Dropdown Select',
