@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Filters\PostFilter;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\SearchPostRequest;
 use App\Http\Resources\PostResource;
 use App\Models\Post;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
@@ -58,5 +59,33 @@ class PostController extends ApiController
         }
 
         return PostResource::make($post);
+    }
+
+    /**
+     * Search Posts
+     *
+     * Search for posts based on a query string. This endpoint allows users
+     * to find posts by title or content, facilitating easier discovery of relevant information.
+     *
+     * @group Posts
+     * @unauthenticated
+     *
+     * @queryParam query string required The search query string. Example: health
+     *
+     * @return AnonymousResourceCollection
+     */
+    public function search(SearchPostRequest $request)
+    {
+        $query = $request->input('query', '');
+
+        $query = Post::search($query);
+
+        $query->when($request->has('sector'), function ($q) use ($request) {
+            $q->where('sector_id', (int) $request->input('sector'));
+        });
+
+        $posts = $query->get();
+
+        return PostResource::collection($posts);
     }
 }

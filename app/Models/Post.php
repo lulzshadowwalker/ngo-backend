@@ -12,11 +12,12 @@ use App\Filters\QueryFilter;
 use Illuminate\Database\Eloquent\Builder;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
+use Laravel\Scout\Searchable;
 
 #[ObservedBy(PostObserver::class)]
 class Post extends Model implements Viewable
 {
-    use HasFactory, InteractsWithViews;
+    use HasFactory, InteractsWithViews, Searchable;
 
     /**
      * The attributes that are mass assignable.
@@ -73,5 +74,18 @@ class Post extends Model implements Viewable
     public function sector(): BelongsTo
     {
         return $this->belongsTo(Sector::class);
+    }
+
+    public function toSearchableArray(): array
+    {
+        return [
+            'id' => (string) $this->id,
+            'title' => $this->title,
+            'slug' => $this->slug,
+            'content' => $this->content,
+            'organization_id' => $this->organization_id,
+            'sector_id' => $this->sector_id,
+            'created_at' => $this->created_at?->timestamp,
+        ];
     }
 }

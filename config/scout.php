@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Organization;
+use App\Models\Post;
 
 return [
 
@@ -223,6 +224,26 @@ return [
                 ],
                 'search-parameters' => [
                     'query_by' => 'name,slug,bio,website',
+                    'exhaustive_search' => true,
+                ]
+            ],
+
+            Post::class => [
+                'collection-schema' => [
+                    'fields' => [
+                        ['name' => 'id', 'type' => 'string'],
+                        // TODO: Handle Arabic locale
+                        ['name' => 'title', 'type' => 'string'],
+                        ['name' => 'slug', 'type' => 'string'],
+                        ['name' => 'content', 'type' => 'string'],
+                        ['name' => 'organization_id', 'type' => 'int32'],
+                        ['name' => 'sector_id', 'type' => 'int32'],
+                        ['name' => 'created_at', 'type' => 'int64'],
+                    ],
+                    'default_sorting_field' => 'created_at',
+                ],
+                'search-parameters' => [
+                    'query_by' => 'title,slug,content',
                     'exhaustive_search' => true,
                 ]
             ],

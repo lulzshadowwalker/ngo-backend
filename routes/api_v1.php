@@ -49,6 +49,7 @@ Route::get('/locations', [LocationController::class, 'index'])->name('api.v1.loc
 Route::get('/locations/{location}', [LocationController::class, 'show'])->name('api.v1.locations.show');
 
 Route::get('/posts', [PostController::class, 'index'])->name('api.v1.posts.index');
+Route::get('/posts/search', [PostController::class, 'search'])->name('api.v1.posts.search');
 Route::get('/posts/{post:slug}', [PostController::class, 'show'])->name('api.v1.posts.show');
 
 Route::post('/posts/{post:slug}/like', [LikePostController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.posts.likes.store');
