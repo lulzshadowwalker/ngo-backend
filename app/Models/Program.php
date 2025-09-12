@@ -9,10 +9,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Translatable\HasTranslations;
+use Laravel\Scout\Searchable;
 
 class Program extends Model
 {
-    use HasFactory, HasTranslations, BelongsToOrganization;
+    use HasFactory, HasTranslations, BelongsToOrganization, Searchable;
 
     /**
      * The attributes that are mass assignable.
@@ -55,5 +56,17 @@ class Program extends Model
     public function opportunities(): HasMany
     {
         return $this->hasMany(Opportunity::class);
+    }
+
+    public function toSearchableArray(): array
+    {
+        return [
+            'id' => (string) $this->id,
+            'title_en' => $this->getTranslation('title', 'en'),
+            'title_ar' => $this->getTranslation('title', 'ar'),
+            'description_en' => $this->getTranslation('description', 'en'),
+            'description_ar' => $this->getTranslation('description', 'ar'),
+            'created_at' => $this->created_at?->timestamp,
+        ];
     }
 }

@@ -21,6 +21,7 @@ use App\Http\Controllers\Api\RegisterIndividualController;
 use App\Http\Controllers\Api\RegisterOrganizationController;
 use App\Http\Controllers\Api\V1\ApplicationController;
 use App\Http\Controllers\Api\V1\OpportunityController;
+use App\Http\Controllers\Api\V1\ProgramController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/auth/register/individuals', [RegisterIndividualController::class, 'store'])->name('api.v1.auth.register.individuals');
@@ -50,14 +51,16 @@ Route::get('/sectors/{sector}', [SectorController::class, 'show'])->name('api.v1
 Route::get('/locations', [LocationController::class, 'index'])->name('api.v1.locations.index');
 Route::get('/locations/{location}', [LocationController::class, 'show'])->name('api.v1.locations.show');
 
-// Opportunities API
+Route::get('/programs', [ProgramController::class, 'index'])->name('api.v1.programs.index');
+Route::get('/programs/search', [ProgramController::class, 'search'])->name('api.v1.programs.search');
+Route::get('/programs/{program}', [ProgramController::class, 'show'])->name('api.v1.programs.show');
+
 Route::get('/opportunities', [OpportunityController::class, 'index'])->name('api.v1.opportunities.index');
 Route::get('/opportunities/featured', [OpportunityController::class, 'featured'])->name('api.v1.opportunities.featured');
 Route::get('/opportunities/stats', [OpportunityController::class, 'stats'])->name('api.v1.opportunities.stats');
 Route::get('/opportunities/search', [OpportunityController::class, 'search'])->name('api.v1.opportunities.search');
 Route::get('/opportunities/{id}', [OpportunityController::class, 'show'])->name('api.v1.opportunities.show');
 
-// Applications API
 Route::get('/applications', [ApplicationController::class, 'index'])->name('api.v1.applications.index');
 Route::post('/applications', [ApplicationController::class, 'store'])->name('api.v1.applications.store');
 Route::get('/applications/{id}', [ApplicationController::class, 'show'])->name('api.v1.applications.show');
