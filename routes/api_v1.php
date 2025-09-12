@@ -20,6 +20,7 @@ use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\RegisterIndividualController;
 use App\Http\Controllers\Api\RegisterOrganizationController;
 use App\Http\Controllers\Api\V1\ApplicationController;
+use App\Http\Controllers\Api\V1\FeedController;
 use App\Http\Controllers\Api\V1\OpportunityController;
 use App\Http\Controllers\Api\V1\ProgramController;
 use Illuminate\Support\Facades\Route;
@@ -34,6 +35,8 @@ Route::post('/auth/change-password', [ChangePasswordController::class, 'store'])
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');
 Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
+
+Route::get('/feed/search', [FeedController::class, 'search'])->name('api.v1.feed.search');
 
 Route::get('/organizations', [OrganizationController::class, 'index'])->name('api.v1.organizations.index');
 // NOTE: /search needs to be above /{organization:slug} to avoid route conflict
