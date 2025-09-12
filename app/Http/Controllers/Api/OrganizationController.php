@@ -64,7 +64,7 @@ class OrganizationController extends Controller
     {
         $query = $request->input('query', '');
 
-        $query = Organization::search($query);
+        $query = Organization::search($query ?? '');
 
         $query->when($request->has('sector'), function ($q) use ($request) {
             $q->where('sector_id', (int) $request->input('sector'));
