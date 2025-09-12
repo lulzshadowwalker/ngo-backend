@@ -19,6 +19,7 @@ use App\Http\Controllers\Api\NotificationController;
 use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\RegisterIndividualController;
 use App\Http\Controllers\Api\RegisterOrganizationController;
+use App\Http\Controllers\Api\V1\ApplicationController;
 use App\Http\Controllers\Api\V1\OpportunityController;
 use Illuminate\Support\Facades\Route;
 
@@ -54,6 +55,13 @@ Route::get('/opportunities', [OpportunityController::class, 'index'])->name('api
 Route::get('/opportunities/featured', [OpportunityController::class, 'featured'])->name('api.v1.opportunities.featured');
 Route::get('/opportunities/stats', [OpportunityController::class, 'stats'])->name('api.v1.opportunities.stats');
 Route::get('/opportunities/{id}', [OpportunityController::class, 'show'])->name('api.v1.opportunities.show');
+
+// Applications API
+Route::get('/applications', [ApplicationController::class, 'index'])->name('api.v1.applications.index');
+Route::post('/applications', [ApplicationController::class, 'store'])->name('api.v1.applications.store');
+Route::get('/applications/{id}', [ApplicationController::class, 'show'])->name('api.v1.applications.show');
+Route::patch('/applications/{id}', [ApplicationController::class, 'update'])->name('api.v1.applications.update');
+Route::delete('/applications/{id}', [ApplicationController::class, 'destroy'])->name('api.v1.applications.destroy');
 
 Route::get('/posts', [PostController::class, 'index'])->name('api.v1.posts.index');
 Route::get('/posts/search', [PostController::class, 'search'])->name('api.v1.posts.search');
