@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use App\Services\TagParser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
@@ -23,7 +24,7 @@ class OpportunityResource extends JsonResource
             'isFeatured' => $this->is_featured,
             'organizationId' => $this->organization_id,
             'programId' => $this->program_id,
-            'tags' => $this->tags,
+            'tags' => ! is_array($this->tags) ? (new TagParser)->parse($this->tags ?? '') : (array) $this->tags,
             'duration' => $this->duration,
             'expiryDate' => $this->expiry_date,
             'aboutTheRole' => $this->about_the_role,
