@@ -45,10 +45,8 @@ class CompleteWorkflowTest extends TestCase
 
     /**
      * Test the complete workflow from opportunity creation to application management
-     *
-     * @test
      */
-    public function complete_volunteer_application_workflow()
+    public function test_complete_volunteer_application_workflow()
     {
         // Step 1: Test opportunity discovery API
         $this->testOpportunityDiscoveryEndpoints();
@@ -459,8 +457,6 @@ class CompleteWorkflowTest extends TestCase
 
     /**
      * Test error handling scenarios
-     *
-     * @test
      */
     public function test_error_handling_scenarios()
     {
