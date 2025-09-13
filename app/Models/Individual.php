@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -58,5 +59,32 @@ class Individual extends Model
     public function individualPreferences(): HasOne
     {
         return $this->hasOne(IndividualPreference::class);
+    }
+
+    /**
+     * Calculate profile completion percentage based on key fields.
+     *
+     * @return Attribute<int, never>
+     */
+    public function profileCompletion(): Attribute
+    {
+        return Attribute::get(function (): int {
+            $completionPoints = 0;
+            $totalPoints = 3;
+
+            if (!empty($this->bio)) {
+                $completionPoints++;
+            }
+
+            if ($this->location_id !== null) {
+                $completionPoints++;
+            }
+
+            if ($this->skills()->exists()) {
+                $completionPoints++;
+            }
+
+            return (int) round(($completionPoints / $totalPoints) * 100);
+        });
     }
 }

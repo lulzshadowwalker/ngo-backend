@@ -1,24 +1,24 @@
 <?php
 
-use App\Http\Controllers\Api\CommentPostController;
-use App\Http\Controllers\Api\LikePostController;
-use App\Http\Controllers\Api\OrganizationController;
-use App\Http\Controllers\Api\PostController;
-use App\Http\Controllers\Api\SkillController;
-use App\Http\Controllers\Api\SectorController;
-use App\Http\Controllers\Api\LocationController;
-use App\Http\Controllers\Api\LoginController;
-use App\Http\Controllers\Api\ForgotPasswordController;
-use App\Http\Controllers\Api\ResetPasswordController;
-use App\Http\Controllers\Api\ChangePasswordController;
-use App\Http\Controllers\Api\UserPreferencesController;
-use App\Http\Controllers\Api\PageController;
-use App\Http\Controllers\Api\FollowOrganizationController;
-use App\Http\Controllers\Api\SupportTicketController;
-use App\Http\Controllers\Api\NotificationController;
-use App\Http\Controllers\Api\ProfileController;
-use App\Http\Controllers\Api\RegisterIndividualController;
-use App\Http\Controllers\Api\RegisterOrganizationController;
+use App\Http\Controllers\Api\V1\CommentPostController;
+use App\Http\Controllers\Api\V1\LikePostController;
+use App\Http\Controllers\Api\V1\OrganizationController;
+use App\Http\Controllers\Api\V1\PostController;
+use App\Http\Controllers\Api\V1\SkillController;
+use App\Http\Controllers\Api\V1\SectorController;
+use App\Http\Controllers\Api\V1\LocationController;
+use App\Http\Controllers\Api\V1\LoginController;
+use App\Http\Controllers\Api\V1\ForgotPasswordController;
+use App\Http\Controllers\Api\V1\ResetPasswordController;
+use App\Http\Controllers\Api\V1\ChangePasswordController;
+use App\Http\Controllers\Api\V1\UserPreferencesController;
+use App\Http\Controllers\Api\V1\PageController;
+use App\Http\Controllers\Api\V1\FollowOrganizationController;
+use App\Http\Controllers\Api\V1\SupportTicketController;
+use App\Http\Controllers\Api\V1\NotificationController;
+use App\Http\Controllers\Api\V1\ProfileController;
+use App\Http\Controllers\Api\V1\RegisterIndividualController;
+use App\Http\Controllers\Api\V1\RegisterOrganizationController;
 use App\Http\Controllers\Api\V1\ApplicationController;
 use App\Http\Controllers\Api\V1\FeedController;
 use App\Http\Controllers\Api\V1\OpportunityController;
@@ -37,6 +37,8 @@ Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->m
 Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
 
 Route::get('/feed/search', [FeedController::class, 'search'])->name('api.v1.feed.search');
+Route::get('/feed/following', [FeedController::class, 'following'])->middleware('auth:sanctum')->name('api.v1.feed.following');
+Route::get('/feed/recent', [FeedController::class, 'recent'])->name('api.v1.feed.recent');
 
 Route::get('/organizations', [OrganizationController::class, 'index'])->name('api.v1.organizations.index');
 // NOTE: /search needs to be above /{organization:slug} to avoid route conflict

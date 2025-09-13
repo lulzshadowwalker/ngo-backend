@@ -12,8 +12,10 @@ use App\Models\Comment;
 use App\Models\Like;
 use App\Models\Follow;
 use App\Models\Individual;
+use App\Models\IndividualPreference;
 use App\Models\Opportunity;
 use App\Models\Program;
+use Database\Factories\IndividualPreferenceFactory;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -38,7 +40,8 @@ class DatabaseSeeder extends Seeder
         $individual = Individual::factory()->for(User::factory()->state([
             'email' => 'individual@example.com',
             'password' => 'password',
-        ]))->create();
+        ]))->has(IndividualPreference::factory())
+            ->create();
         $individual->user->assignRole(Role::individual->value);
 
         $organization = Organization::factory()->create();

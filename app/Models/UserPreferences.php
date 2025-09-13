@@ -47,10 +47,10 @@ class UserPreferences extends Model
 
     public function notificationChannels(): Attribute
     {
-        return Attribute::get(fn(): array => array_filter([
+        return Attribute::get(fn(): array => array_keys(array_filter([
             'database' => true,
             'mail' => $this->email_notifications,
             'push' => $this->push_notifications,
-        ]));
+        ])));
     }
 }
