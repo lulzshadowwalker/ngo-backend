@@ -5,4 +5,8 @@ return [
         'title' => 'New post from :organization',
         'body' => ':organization has published a new post: ":title"',
     ],
+    'program-created' => [
+        'title' => 'New program from :organization',
+        'body' => ':organization has launched a new program: ":title"',
+    ],
 ];

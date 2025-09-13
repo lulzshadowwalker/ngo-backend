@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\ProgramStatus;
+use App\Observers\ProgramObserver;
 use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -11,8 +12,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Translatable\HasTranslations;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Laravel\Scout\Searchable;
 
+#[ObservedBy(ProgramObserver::class)]
 class Program extends Model implements Viewable
 {
     use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews;

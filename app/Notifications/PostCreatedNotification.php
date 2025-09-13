@@ -36,7 +36,7 @@ class PostCreatedNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         $language = $notifiable->preferences->language->value;
-        $organization = $this->post->organization->getTranslation('name', $language);
+        $organization = $this->post->organization->name;
         $title = trans('notifications.post-created.title', ['organization' => $organization], $language);
         $body = trans('notifications.post-created.body', ['organization' => $organization, 'title' => $this->post->getTranslation('title', $language)], $language);
 
@@ -48,7 +48,7 @@ class PostCreatedNotification extends Notification
     public function toPush(object $notifiable): PushNotification
     {
         $language = $notifiable->preferences->language->value;
-        $organization = $this->post->organization->getTranslation('name', $language);
+        $organization = $this->post->organization->name;
         $title = trans('notifications.post-created.title', ['organization' => $organization], $language);
         $body = trans('notifications.post-created.body', ['organization' => $organization, 'title' => $this->post->getTranslation('title', $language)], $language);
 
@@ -66,12 +66,10 @@ class PostCreatedNotification extends Notification
     public function toArray(object $notifiable): array
     {
         $language = $notifiable->preferences->language->value;
-        $organization = $this->post->organization->getTranslation('name', $language);
+        $organization = $this->post->organization->name;
         return [
             "title" => trans('notifications.post-created.title', ['organization' => $organization], $language),
             "body" => trans('notifications.post-created.body', ['organization' => $organization, 'title' => $this->post->getTranslation('title', $language)], $language),
         ];
     }
-
-    // ...existing code...
 }
