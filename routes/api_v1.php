@@ -35,6 +35,7 @@ Route::post('/auth/change-password', [ChangePasswordController::class, 'store'])
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');
 Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
+Route::patch('/me', [ProfileController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.update');
 
 Route::get('/feed/search', [FeedController::class, 'search'])->name('api.v1.feed.search');
 Route::get('/feed/following', [FeedController::class, 'following'])->middleware('auth:sanctum')->name('api.v1.feed.following');

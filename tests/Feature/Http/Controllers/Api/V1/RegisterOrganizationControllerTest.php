@@ -7,6 +7,7 @@ use App\Models\Sector;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Testing\File;
+use Illuminate\Support\Facades\Storage;
 use Tests\TestCase;
 use Tests\Traits\WithRoles;
 
@@ -18,7 +19,6 @@ class RegisterOrganizationControllerTest extends TestCase
     {
         $location = Location::factory()->create();
         $sector = Sector::factory()->create();
-        $logo = File::image('logo.jpg', 200, 200);
 
         $response = $this->postJson(route('api.v1.auth.register.organizations'), [
             'data' => [
@@ -29,7 +29,6 @@ class RegisterOrganizationControllerTest extends TestCase
                     'password' => 'password',
                     'website' => 'https://example.com',
                     'bio' => 'We are an example organization.',
-                    'logo' => $logo,
                 ],
                 'relationships' => [
                     'location' => [

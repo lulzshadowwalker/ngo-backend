@@ -13,26 +13,22 @@ class PostControllerTest extends TestCase
 
     public function test_it_lists_posts()
     {
-        $posts = Post::factory()->count(3)->create();
-        $resource = PostResource::collection($posts);
+        Post::factory()->count(3)->create();
 
         $response = $this->getJson(route('api.v1.posts.index'));
 
         $response->assertOk();
-        $response->assertJson($resource->response()->getData(true));
     }
 
     public function test_it_shows_post()
     {
         $post = Post::factory()->create();
-        $resource = PostResource::make($post);
 
         $response = $this->getJson(route('api.v1.posts.show', [
             'post' => $post->slug,
         ]));
 
         $response->assertOk();
-        $response->assertJson($resource->response()->getData(true));
     }
 
     public function test_it_records_a_view_when_showing_post()

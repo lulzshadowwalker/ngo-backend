@@ -48,7 +48,8 @@ class Individual extends Model
 
     public function skills(): BelongsToMany
     {
-        return $this->belongsToMany(Skill::class);
+        return $this->belongsToMany(Skill::class, 'individual_skill', 'individual_id', 'skill_id')
+            ->withTimestamps();
     }
 
     public function volunteeringInterests(): HasMany
