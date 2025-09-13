@@ -4,8 +4,7 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\OpportunityStatus;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\SearchOpportunityRequest;
-use App\Http\Requests\SearchPostRequest;
+use App\Http\Requests\V1\SearchOpportunityRequest;
 use App\Http\Resources\OpportunityResource;
 use App\Models\Opportunity;
 use Illuminate\Http\JsonResponse;

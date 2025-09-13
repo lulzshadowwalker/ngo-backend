@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\V1;
 
 use App\Enums\Language;
 use App\Http\Requests\BaseFormRequest;

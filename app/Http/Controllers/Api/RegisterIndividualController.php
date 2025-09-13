@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Enums\Role;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreRegisterIndividualRequest;
+use App\Http\Requests\V1\StoreRegisterIndividualRequest;
 use App\Http\Resources\AuthTokenResource;
 use App\Models\User;
 use App\Support\AccessToken;

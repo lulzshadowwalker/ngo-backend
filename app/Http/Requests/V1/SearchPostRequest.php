@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\V1;
 
-class SearchOpportunityRequest extends BaseFormRequest
+use App\Http\Requests\BaseFormRequest;
+
+class SearchPostRequest extends BaseFormRequest
 {
     /**
      * Get the validation rules that apply to the request.

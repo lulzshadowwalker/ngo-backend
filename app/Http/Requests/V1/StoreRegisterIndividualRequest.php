@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\V1;
 
+use App\Http\Requests\BaseFormRequest;
 use App\Rules\UniqueEmailRule;
 
 class StoreRegisterIndividualRequest extends BaseFormRequest

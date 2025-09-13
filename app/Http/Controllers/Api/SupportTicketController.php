@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Api\ApiController;
-use App\Http\Requests\StoreSupportTicketRequest;
+use App\Http\Requests\V1\StoreSupportTicketRequest;
 use App\Http\Resources\SupportTicketResource;
 use App\Models\SupportTicket;
 use Illuminate\Support\Facades\Auth;

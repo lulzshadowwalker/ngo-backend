@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\V1;
 
-class SearchFeedRequest extends BaseFormRequest
+use App\Http\Requests\BaseFormRequest;
+
+class SearchOpportunityRequest extends BaseFormRequest
 {
     /**
      * Get the validation rules that apply to the request.
@@ -12,7 +14,7 @@ class SearchFeedRequest extends BaseFormRequest
     public function rules(): array
     {
         return [
-            'type' => 'sometimes|string|in:organization,program,opportunity',
+            'sector' => 'sometimes|integer|exists:sectors,id',
         ];
     }
 }
