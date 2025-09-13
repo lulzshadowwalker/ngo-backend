@@ -13,4 +13,13 @@ return [
         'title' => 'فرصة جديدة من :organization :program',
         'body' => ':organization نشر فرصة جديدة في :program: ":title"',
     ],
+    'application-status-changed' => [
+        'title' => 'الطلب :status',
+        'approved' => [
+            'body' => 'تهانينا! تم قبول طلبك لـ ":opportunity" في :organization.',
+        ],
+        'rejected' => [
+            'body' => 'نأسف لإعلامك أنه تم رفض طلبك لـ ":opportunity" في :organization.',
+        ],
+    ],
 ];

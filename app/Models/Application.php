@@ -3,11 +3,14 @@
 namespace App\Models;
 
 use App\Enums\ApplicationStatus;
+use App\Observers\ApplicationObserver;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
+#[ObservedBy(ApplicationObserver::class)]
 class Application extends Model
 {
     use HasFactory;
