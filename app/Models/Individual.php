@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Individual extends Model
 {
@@ -54,8 +55,8 @@ class Individual extends Model
         return $this->hasMany(VolunteeringInterest::class);
     }
 
-    public function individualPreferences(): HasMany
+    public function individualPreferences(): HasOne
     {
-        return $this->hasMany(IndividualPreference::class);
+        return $this->hasOne(IndividualPreference::class);
     }
 }
