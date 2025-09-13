@@ -24,11 +24,27 @@ class OpportunityResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
 
+    protected static ?string $navigationGroup = 'Content Management';
+
     protected static ?string $navigationLabel = 'Opportunities';
 
     protected static ?string $pluralModelLabel = 'Opportunities';
 
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 3;
+
+    public static function getNavigationBadge(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        return $count > 0 ? (string) $count : null;
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        if ($count === 0) return 'danger';
+        if ($count <= 25) return 'warning';
+        return 'success';
+    }
 
     public static function getEloquentQuery(): Builder
     {
@@ -41,6 +57,8 @@ class OpportunityResource extends Resource
         return $form
             ->schema([
                 Forms\Components\Section::make('Basic Information')
+                    ->description('Essential opportunity details and categorization')
+                    ->aside()
                     ->schema([
                         SpatieMediaLibraryFileUpload::make('cover')
                             ->collection(Opportunity::MEDIA_COLLECTION_COVER)
@@ -88,6 +106,8 @@ class OpportunityResource extends Resource
                     ->columns(2),
 
                 Forms\Components\Section::make('Opportunity Details')
+                    ->description('Specific role information and requirements')
+                    ->aside()
                     ->schema([
                         Forms\Components\Textarea::make('about_the_role')
                             ->label('About the Role')
@@ -125,6 +145,8 @@ class OpportunityResource extends Resource
                     ->columns(2),
 
                 Forms\Components\Section::make('Requirements & Responsibilities')
+                    ->description('Key responsibilities and skills required for this opportunity')
+                    ->aside()
                     ->schema([
                         Forms\Components\TagsInput::make('key_responsibilities')
                             ->label('Key Responsibilities')
@@ -149,6 +171,8 @@ class OpportunityResource extends Resource
                     ->columns(2),
 
                 Forms\Components\Section::make('Location Information')
+                    ->description('Geographic details and location specifics')
+                    ->aside()
                     ->schema([
                         Forms\Components\Select::make('location_id')
                             ->label('Location')
@@ -184,6 +208,8 @@ class OpportunityResource extends Resource
                     ->columns(3),
 
                 Forms\Components\Section::make('Additional Information')
+                    ->description('Extra details and supplementary information')
+                    ->aside()
                     ->schema([
                         Forms\Components\MarkdownEditor::make('extra')
                             ->label('Extra Information')
@@ -222,13 +248,15 @@ class OpportunityResource extends Resource
 
                 Tables\Columns\TextColumn::make('sector.name')
                     ->label('Sector')
-                    ->sortable(),
+                    ->sortable()
+                    ->toggleable(),
 
                 Tables\Columns\TextColumn::make('duration')
                     ->label('Duration')
                     ->sortable()
                     ->suffix(' days')
-                    ->alignRight(),
+                    ->alignRight()
+                    ->toggleable(),
 
                 Tables\Columns\TextColumn::make('expiry_date')
                     ->label('Deadline')
@@ -238,15 +266,18 @@ class OpportunityResource extends Resource
 
                 Tables\Columns\TextColumn::make('views_count')
                     ->getStateUsing(fn(Opportunity $record): int => views($record)->count())
+                    ->label('Views')
                     ->badge()
                     ->icon('heroicon-o-eye')
-                    ->sortable(),
+                    ->sortable()
+                    ->toggleable(),
 
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Created')
                     ->dateTime('M j, Y')
                     ->sortable()
-                    ->since(),
+                    ->since()
+                    ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('status')
@@ -257,6 +288,14 @@ class OpportunityResource extends Resource
 
                 Tables\Filters\SelectFilter::make('sector')
                     ->relationship('sector', 'name'),
+
+                Tables\Filters\Filter::make('active_opportunities')
+                    ->query(fn(\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->where('status', OpportunityStatus::Active))
+                    ->label('Active Only'),
+
+                Tables\Filters\Filter::make('expiring_soon')
+                    ->query(fn(\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->whereBetween('expiry_date', [now(), now()->addDays(7)]))
+                    ->label('Expiring Soon'),
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
@@ -268,6 +307,22 @@ class OpportunityResource extends Resource
                 ]),
             ])
             ->defaultSort('created_at', 'desc');
+    }
+
+    public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
+    {
+        return $record->title . ' (' . ($record->program?->title ?? 'No Program') . ')';
+    }
+
+    public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
+    {
+        return [
+            'Program' => $record->program?->title ?? 'Not specified',
+            'Status' => $record->status->getLabel(),
+            'Sector' => $record->sector?->name ?? 'Not specified',
+            'Duration' => $record->duration ? $record->duration . ' days' : 'Not specified',
+            'Deadline' => $record->expiry_date?->format('M j, Y') ?? 'No deadline',
+        ];
     }
 
     public static function getRelations(): array

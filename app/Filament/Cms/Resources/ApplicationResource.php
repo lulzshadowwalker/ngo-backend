@@ -19,11 +19,27 @@ class ApplicationResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-clipboard-document-list';
 
+    protected static ?string $navigationGroup = 'Application Management';
+
     protected static ?string $navigationLabel = 'Applications';
 
     protected static ?string $pluralModelLabel = 'Applications';
 
-    protected static ?int $navigationSort = 4;
+    protected static ?int $navigationSort = 2;
+
+    public static function getNavigationBadge(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        return $count > 0 ? (string) $count : null;
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        if ($count === 0) return 'danger';
+        if ($count <= 25) return 'warning';
+        return 'success';
+    }
 
     public static function getEloquentQuery(): Builder
     {
@@ -37,6 +53,8 @@ class ApplicationResource extends Resource
         return $form
             ->schema([
                 Forms\Components\Section::make('Application Details')
+                    ->description('Application status and review information')
+                    ->aside()
                     ->schema([
                         Forms\Components\Select::make('status')
                             ->label('Application Status')
@@ -63,6 +81,8 @@ class ApplicationResource extends Resource
                     ->columns(2),
 
                 Forms\Components\Section::make('Application Information')
+                    ->description('Read-only application and applicant details')
+                    ->aside()
                     ->schema([
                         Forms\Components\TextInput::make('user.name')
                             ->label('Applicant')
@@ -88,6 +108,8 @@ class ApplicationResource extends Resource
                     ->collapsed(),
 
                 Forms\Components\Section::make('Application Responses')
+                    ->description('Applicant responses to form fields')
+                    ->aside()
                     ->schema([
                         Forms\Components\Repeater::make('responses')
                             ->relationship()
@@ -124,7 +146,8 @@ class ApplicationResource extends Resource
                     ->label('Email')
                     ->searchable()
                     ->sortable()
-                    ->limit(30),
+                    ->limit(30)
+                    ->toggleable(),
 
                 Tables\Columns\TextColumn::make('opportunity.title')
                     ->label('Opportunity')
@@ -147,7 +170,8 @@ class ApplicationResource extends Resource
                     ->label('Reviewed')
                     ->dateTime('M j, Y')
                     ->sortable()
-                    ->placeholder('Not reviewed'),
+                    ->placeholder('Not reviewed')
+                    ->toggleable(),
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('status')
@@ -207,6 +231,22 @@ class ApplicationResource extends Resource
                 ]),
             ])
             ->defaultSort('submitted_at', 'desc');
+    }
+
+    public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
+    {
+        return ($record->user?->name ?? 'Unknown User') . ' - ' . ($record->opportunity?->title ?? 'Unknown Opportunity');
+    }
+
+    public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
+    {
+        return [
+            'Applicant' => $record->user?->name ?? 'Unknown User',
+            'Email' => $record->user?->email ?? 'No email',
+            'Opportunity' => $record->opportunity?->title ?? 'Unknown',
+            'Status' => $record->status->getLabel(),
+            'Submitted' => $record->submitted_at?->format('M j, Y g:i A') ?? 'Unknown',
+        ];
     }
 
     public static function getRelations(): array

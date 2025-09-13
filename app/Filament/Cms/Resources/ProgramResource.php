@@ -21,11 +21,27 @@ class ProgramResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-academic-cap';
 
+    protected static ?string $navigationGroup = 'Content Management';
+
     protected static ?string $navigationLabel = 'Programs';
 
     protected static ?string $pluralModelLabel = 'Programs';
 
-    protected static ?int $navigationSort = 1;
+    protected static ?int $navigationSort = 2;
+
+    public static function getNavigationBadge(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        return $count > 0 ? (string) $count : null;
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        if ($count === 0) return 'danger';
+        if ($count <= 25) return 'warning';
+        return 'success';
+    }
 
     public static function getEloquentQuery(): Builder
     {
@@ -37,7 +53,9 @@ class ProgramResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Section::make('Program Details')
+                Forms\Components\Section::make('Program Information')
+                    ->description('Basic program details and content')
+                    ->aside()
                     ->schema([
                         SpatieMediaLibraryFileUpload::make('cover')
                             ->collection(Program::MEDIA_COLLECTION_COVER)
@@ -50,13 +68,6 @@ class ProgramResource extends Resource
                             ->maxLength(255)
                             ->translatable(),
 
-                        Forms\Components\Textarea::make('description')
-                            ->label('Description')
-                            ->required()
-                            ->rows(4)
-                            ->columnSpanFull()
-                            ->translatable(),
-
                         Forms\Components\Select::make('status')
                             ->label('Status')
                             ->options(ProgramStatus::class)
@@ -64,6 +75,18 @@ class ProgramResource extends Resource
                             ->default(ProgramStatus::Active),
                     ])
                     ->columns(2),
+
+                Forms\Components\Section::make('Description')
+                    ->description('Detailed program description and objectives')
+                    ->aside()
+                    ->schema([
+                        Forms\Components\Textarea::make('description')
+                            ->label('Description')
+                            ->required()
+                            ->rows(4)
+                            ->columnSpanFull()
+                            ->translatable(),
+                    ]),
             ]);
     }
 
@@ -80,6 +103,7 @@ class ProgramResource extends Resource
                 Tables\Columns\TextColumn::make('title')
                     ->searchable()
                     ->sortable()
+                    ->limit(50)
                     ->wrap(),
 
                 Tables\Columns\TextColumn::make('status')
@@ -90,10 +114,12 @@ class ProgramResource extends Resource
                     ->counts('opportunities')
                     ->label('Opportunities')
                     ->badge()
-                    ->color('gray'),
+                    ->color('gray')
+                    ->sortable(),
 
                 Tables\Columns\TextColumn::make('views_count')
                     ->getStateUsing(fn(Program $record): int => views($record)->count())
+                    ->label('Views')
                     ->badge()
                     ->icon('heroicon-o-eye')
                     ->sortable(),
@@ -103,6 +129,12 @@ class ProgramResource extends Resource
                     ->dateTime('M j, Y')
                     ->sortable()
                     ->since(),
+
+                Tables\Columns\TextColumn::make('updated_at')
+                    ->label('Last Updated')
+                    ->dateTime('M j, Y g:i A')
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('status')
@@ -118,6 +150,21 @@ class ProgramResource extends Resource
                 ]),
             ])
             ->defaultSort('created_at', 'desc');
+    }
+
+    public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
+    {
+        return $record->title;
+    }
+
+    public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
+    {
+        return [
+            'Status' => $record->status->getLabel(),
+            'Opportunities' => $record->opportunities_count ?? 0 . ' opportunities',
+            'Views' => views($record)->count() . ' views',
+            'Created' => $record->created_at?->format('M j, Y') ?? 'Unknown',
+        ];
     }
 
     public static function getRelations(): array

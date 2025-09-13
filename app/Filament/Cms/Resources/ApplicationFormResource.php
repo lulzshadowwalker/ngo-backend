@@ -20,11 +20,27 @@ class ApplicationFormResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
+    protected static ?string $navigationGroup = 'Application Management';
+
     protected static ?string $navigationLabel = 'Application Forms';
 
     protected static ?string $pluralModelLabel = 'Application Forms';
 
-    protected static ?int $navigationSort = 3;
+    protected static ?int $navigationSort = 1;
+
+    public static function getNavigationBadge(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        return $count > 0 ? (string) $count : null;
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+        if ($count === 0) return 'danger';
+        if ($count <= 25) return 'warning';
+        return 'success';
+    }
 
     public static function getEloquentQuery(): Builder
     {
@@ -37,6 +53,8 @@ class ApplicationFormResource extends Resource
         return $form
             ->schema([
                 Forms\Components\Section::make('Form Configuration')
+                    ->description('Basic form settings and opportunity association')
+                    ->aside()
                     ->schema([
                         Forms\Components\Placeholder::make('no_opportunities_notice')
                             ->label('')
@@ -97,6 +115,8 @@ class ApplicationFormResource extends Resource
                     ->columns(2),
 
                 Forms\Components\Section::make('Form Fields')
+                    ->description('Configure the fields that applicants will fill out')
+                    ->aside()
                     ->schema([
                         Forms\Components\Repeater::make('formFields')
                             ->relationship()
@@ -180,13 +200,17 @@ class ApplicationFormResource extends Resource
                     ->label('Fields')
                     ->counts('formFields')
                     ->suffix(' fields')
-                    ->sortable(),
+                    ->sortable()
+                    ->badge()
+                    ->color('gray'),
 
                 Tables\Columns\TextColumn::make('applications_count')
                     ->label('Applications')
                     ->counts('applications')
                     ->suffix(' submitted')
-                    ->sortable(),
+                    ->sortable()
+                    ->badge()
+                    ->color('info'),
 
                 Tables\Columns\IconColumn::make('is_active')
                     ->label('Active')
@@ -198,6 +222,12 @@ class ApplicationFormResource extends Resource
                     ->dateTime('M j, Y')
                     ->sortable()
                     ->since(),
+
+                Tables\Columns\TextColumn::make('updated_at')
+                    ->label('Last Updated')
+                    ->dateTime('M j, Y g:i A')
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
                 Tables\Filters\TernaryFilter::make('is_active')
@@ -216,6 +246,22 @@ class ApplicationFormResource extends Resource
                 ]),
             ])
             ->defaultSort('created_at', 'desc');
+    }
+
+    public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
+    {
+        return $record->title . ' (' . ($record->opportunity?->title ?? 'No Opportunity') . ')';
+    }
+
+    public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
+    {
+        return [
+            'Opportunity' => $record->opportunity?->title ?? 'Not specified',
+            'Fields' => $record->formFields()->count() . ' fields',
+            'Applications' => $record->applications()->count() . ' submitted',
+            'Status' => $record->is_active ? 'Active' : 'Inactive',
+            'Created' => $record->created_at?->format('M j, Y') ?? 'Unknown',
+        ];
     }
 
     public static function getRelations(): array
