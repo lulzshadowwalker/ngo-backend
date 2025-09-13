@@ -2,12 +2,9 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
-use App\Models\Individual;
 use App\Models\Skill;
 
-class SkillFactory extends Factory
+class SkillFactory extends BaseFactory
 {
     /**
      * The name of the factory's corresponding model.
@@ -22,7 +19,7 @@ class SkillFactory extends Factory
     public function definition(): array
     {
         return [
-            "name" => fake()->name(),
+            "name" => $this->localized(fn() => fake()->name()),
         ];
     }
 }

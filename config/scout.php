@@ -213,7 +213,6 @@ return [
                 'collection-schema' => [
                     'fields' => [
                         ['name' => 'id', 'type' => 'string'],
-                        // TODO: Handle Arabic locale
                         ['name' => 'name', 'type' => 'string'],
                         ['name' => 'slug', 'type' => 'string'],
                         ['name' => 'bio', 'type' => 'string'],
@@ -234,10 +233,11 @@ return [
                 'collection-schema' => [
                     'fields' => [
                         ['name' => 'id', 'type' => 'string'],
-                        // TODO: Handle Arabic locale
-                        ['name' => 'title', 'type' => 'string'],
+                        ['name' => 'title_en', 'type' => 'string', 'locale' => 'en'],
+                        ['name' => 'title_ar', 'type' => 'string', 'locale' => 'ar'],
                         ['name' => 'slug', 'type' => 'string'],
-                        ['name' => 'content', 'type' => 'string'],
+                        ['name' => 'content_en', 'type' => 'string', 'locale' => 'en'],
+                        ['name' => 'content_ar', 'type' => 'string', 'locale' => 'ar'],
                         ['name' => 'organization_id', 'type' => 'int32'],
                         ['name' => 'sector_id', 'type' => 'int32'],
                         ['name' => 'created_at', 'type' => 'int64'],
@@ -245,7 +245,7 @@ return [
                     'default_sorting_field' => 'created_at',
                 ],
                 'search-parameters' => [
-                    'query_by' => 'title,slug,content',
+                    'query_by' => 'title_en,title_ar,content_en,content_ar,slug',
                     'exhaustive_search' => true,
                 ]
             ],

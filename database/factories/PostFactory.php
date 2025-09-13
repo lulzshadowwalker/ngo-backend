@@ -2,13 +2,11 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use App\Models\Organization;
 use App\Models\Post;
 use App\Models\Sector;
 
-class PostFactory extends Factory
+class PostFactory extends BaseFactory
 {
     /**
      * The name of the factory's corresponding model.
@@ -23,8 +21,8 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => fake()->sentence(4),
-            'content' => fake()->paragraphs(3, true),
+            'title' => $this->localized(fn() => fake()->sentence(4)),
+            'content' => $this->localized(fn() => fake()->paragraphs(3, true)),
             'organization_id' => Organization::factory(),
             'sector_id' => Sector::factory(),
         ];

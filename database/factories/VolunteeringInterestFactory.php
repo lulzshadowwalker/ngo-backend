@@ -2,12 +2,10 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use App\Models\Individual;
 use App\Models\VolunteeringInterest;
 
-class VolunteeringInterestFactory extends Factory
+class VolunteeringInterestFactory extends BaseFactory
 {
     /**
      * The name of the factory's corresponding model.
@@ -22,7 +20,7 @@ class VolunteeringInterestFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
+            'name' => $this->localized(fn() => fake()->name()),
             'individual_id' => Individual::factory(),
         ];
     }

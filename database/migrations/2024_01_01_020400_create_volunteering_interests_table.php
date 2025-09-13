@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('volunteering_interests', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->json('name');
             $table->foreignId('individual_id');
             $table->timestamps();
         });

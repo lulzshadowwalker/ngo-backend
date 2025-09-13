@@ -17,7 +17,6 @@ class Individual extends Model
      *
      * @var array
      */
-    // TODO: we need to add user id + relation methods
     protected $fillable = ["bio", "birthdate", "location_id", "user_id"];
 
     /**

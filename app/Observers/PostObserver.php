@@ -16,7 +16,7 @@ class PostObserver
     public function creating(Post $post)
     {
         if (empty($post->slug)) {
-            $baseSlug = Str::slug($post->title);
+            $baseSlug = Str::slug($post->getTranslation('title', 'en'));
             $slug = $baseSlug;
             $i = 1;
             while (Post::where('slug', $slug)->exists()) {

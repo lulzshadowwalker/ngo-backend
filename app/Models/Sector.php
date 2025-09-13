@@ -5,20 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Spatie\Translatable\HasTranslations;
 
 class Sector extends Model
 {
-    use HasFactory;
+    use HasFactory, HasTranslations;
 
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $fillable = [
-        'name',
-        'description',
-    ];
+    protected $fillable = ['name'];
 
     /**
      * Get the attributes that should be cast.
@@ -31,6 +29,8 @@ class Sector extends Model
             'id' => 'integer',
         ];
     }
+
+    public $translatable = ['name'];
 
     public function organizations(): HasMany
     {

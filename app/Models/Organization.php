@@ -103,7 +103,6 @@ class Organization extends Model
     public function toSearchableArray(): array
     {
         return [
-            // TODO: Organization model should be localized
             'id' => (string) $this->id,
             'name' => $this->name,
             'slug' => $this->slug,

@@ -5,10 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Spatie\Translatable\HasTranslations;
 
 class VolunteeringInterest extends Model
 {
-    use HasFactory;
+    use HasFactory, HasTranslations;
 
     /**
      * The attributes that are mass assignable.
@@ -32,6 +33,8 @@ class VolunteeringInterest extends Model
             'individual_id' => 'integer',
         ];
     }
+
+    public $translatable = ['name'];
 
     public function individual(): BelongsTo
     {

@@ -2,11 +2,9 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use App\Models\Sector;
 
-class SectorFactory extends Factory
+class SectorFactory extends BaseFactory
 {
     /**
      * The name of the factory's corresponding model.
@@ -21,8 +19,7 @@ class SectorFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
-            'description' => fake()->sentence(),
+            'name' => $this->localized(fn() => fake()->name()),
         ];
     }
 }

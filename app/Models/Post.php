@@ -14,11 +14,12 @@ use Illuminate\Database\Eloquent\Builder;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Laravel\Scout\Searchable;
+use Spatie\Translatable\HasTranslations;
 
 #[ObservedBy(PostObserver::class)]
 class Post extends Model implements Viewable
 {
-    use HasFactory, InteractsWithViews, Searchable, BelongsToOrganization;
+    use HasFactory, InteractsWithViews, Searchable, BelongsToOrganization, HasTranslations;
 
     /**
      * The attributes that are mass assignable.
@@ -39,6 +40,8 @@ class Post extends Model implements Viewable
             "organization_id" => "integer",
         ];
     }
+
+    public $translatable = ["title", "content"];
 
     /**
      * @return BelongsTo<Organization,Post>
@@ -81,9 +84,11 @@ class Post extends Model implements Viewable
     {
         return [
             'id' => (string) $this->id,
-            'title' => $this->title,
+            'title_en' => $this->getTranslation('title', 'en'),
+            'title_ar' => $this->getTranslation('title', 'ar'),
             'slug' => $this->slug,
-            'content' => $this->content,
+            'content_en' => $this->getTranslation('content', 'en'),
+            'content_ar' => $this->getTranslation('content', 'ar'),
             'organization_id' => $this->organization_id,
             'sector_id' => $this->sector_id,
             'created_at' => $this->created_at?->timestamp,
