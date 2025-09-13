@@ -22,10 +22,7 @@ class UserPreferencesResource extends JsonResource
                 'language' => $this->language,
                 'emailNotifications' => $this->email_notifications,
                 'pushNotifications' => $this->push_notifications,
-                'profileVisibility' => $this->mergeWhen(
-                    Auth::user()->isIndividual,
-                    fn() => (bool) Auth::user()->individual?->individualPreferences?->profile_visibility,
-                ),
+                'profileVisibility' => Auth::user()->individual?->individualPreferences?->profile_visibility?->value,
                 'createdAt' => $this->created_at,
                 'updatedAt' => $this->updated_at,
             ],
