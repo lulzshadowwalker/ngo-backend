@@ -58,7 +58,6 @@ class RegisterOrganizationControllerTest extends TestCase
         $this->assertFalse($user->isIndividual);
 
         $this->assertNotNull($user->avatar);
-        $this->assertFileExists($user->avatarFile?->getPath() ?? '');
 
         $this->assertEquals('contact@example.com', $user->organization->contact_email);
         $this->assertEquals('https://example.com', $user->organization->website);

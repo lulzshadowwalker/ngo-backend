@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Filters\PostFilter;
+use App\Http\Controllers\Api\ApiController;
 use App\Http\Requests\V1\SearchPostRequest;
 use App\Http\Resources\V1\PostResource;
 use App\Models\Post;

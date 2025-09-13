@@ -11,7 +11,7 @@ class ApplicationObserver
     public function updated(Application $application): void
     {
         if ($application->wasChanged('status')) {
-            $previousStatus = ApplicationStatus::from($application->getOriginal('status'));
+            $previousStatus = $application->getOriginal('status');
             $newStatus = $application->status;
 
             if (

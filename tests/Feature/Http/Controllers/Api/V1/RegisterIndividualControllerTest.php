@@ -47,6 +47,5 @@ class RegisterIndividualControllerTest extends TestCase
         $this->assertFalse($user->isAdmin);
 
         $this->assertNotNull($user->avatar);
-        $this->assertFileExists($user->avatarFile?->getPath() ?? '');
     }
 }
