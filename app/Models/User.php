@@ -119,6 +119,12 @@ class User extends Authenticatable implements HasMedia, FilamentUser
         return $this->hasMany(Follow::class);
     }
 
+    public function followingOrganizations()
+    {
+        return $this->belongsToMany(Organization::class, 'follows', 'user_id', 'organization_id')
+            ->withTimestamps();
+    }
+
     public function preferences(): HasOne
     {
         return $this->hasOne(UserPreferences::class);
@@ -187,5 +193,10 @@ class User extends Authenticatable implements HasMedia, FilamentUser
     public function sendPasswordResetNotification($token): void
     {
         $this->notify(new CustomResetPasswordNotification($token));
+    }
+
+    public function applications(): HasMany
+    {
+        return $this->hasMany(Application::class);
     }
 }
