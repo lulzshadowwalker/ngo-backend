@@ -96,7 +96,7 @@ endpoints:
         name: data.attributes.language
         description: ''
         required: false
-        example: en
+        example: ar
         type: string
         enumValues:
           - en
@@ -108,7 +108,7 @@ endpoints:
         name: data.attributes.pushNotifications
         description: ''
         required: false
-        example: true
+        example: false
         type: boolean
         enumValues: []
         exampleWasSpecified: false
@@ -124,21 +124,23 @@ endpoints:
         exampleWasSpecified: false
         nullable: false
         custom: []
+      data.attributes.profileVisibility:
+        name: data.attributes.profileVisibility
+        description: ''
+        required: false
+        example: private
+        type: string
+        enumValues:
+          - public
+          - private
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
       language:
         name: language
         description: 'optional The preferred language (en, es, fr, etc.).'
         required: false
         example: en
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-      appearance:
-        name: appearance
-        description: 'optional The appearance theme (light, dark, auto).'
-        required: false
-        example: dark
         type: string
         enumValues: []
         exampleWasSpecified: true
@@ -177,11 +179,11 @@ endpoints:
     cleanBodyParameters:
       data:
         attributes:
-          language: en
-          pushNotifications: true
+          language: ar
+          pushNotifications: false
           emailNotifications: true
+          profileVisibility: private
       language: en
-      appearance: dark
       email_notifications: true
       push_notifications: false
       profile_visibility: public

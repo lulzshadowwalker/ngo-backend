@@ -1,21 +1,22 @@
-name: 'General Endpoints'
+name: 'Support Tickets'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/v1/notifications
+    uri: api/v1/support-tickets
     metadata:
-      groupName: 'General Endpoints'
+      groupName: 'Support Tickets'
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: ''
-      description: ''
-      authenticated: false
+      title: 'List user support tickets'
+      description: 'Retrieve all support tickets for the authenticated user.'
+      authenticated: true
       deprecated: false
       custom: []
     headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
     urlParameters: []
@@ -36,7 +37,10 @@ endpoints:
         description: null
         custom: []
     responseFields: []
-    auth: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
     controller: null
     method: null
     route: null
@@ -44,33 +48,47 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/v1/notifications/{id}'
+    uri: 'api/v1/support-tickets/{supportTicket_id}'
     metadata:
-      groupName: 'General Endpoints'
+      groupName: 'Support Tickets'
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: ''
-      description: ''
-      authenticated: false
+      title: 'Get support ticket details'
+      description: |-
+        Retrieve detailed information about a specific support ticket.
+        The ticket must belong to the authenticated user.
+      authenticated: true
       deprecated: false
       custom: []
     headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
     urlParameters:
-      id:
-        name: id
-        description: 'The ID of the notification.'
+      supportTicket_id:
+        name: supportTicket_id
+        description: 'The ID of the supportTicket.'
         required: true
-        example: architecto
-        type: string
+        example: 16
+        type: integer
         enumValues: []
         exampleWasSpecified: false
         nullable: false
         custom: []
+      supportTicket:
+        name: supportTicket
+        description: 'The ID of the support ticket.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
     cleanUrlParameters:
-      id: architecto
+      supportTicket_id: 16
+      supportTicket: 1
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -87,64 +105,25 @@ endpoints:
         description: null
         custom: []
     responseFields: []
-    auth: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
     controller: null
     method: null
     route: null
     custom: []
   -
     httpMethods:
-      - PATCH
-    uri: 'api/v1/notifications/{notification_id}/read'
+      - POST
+    uri: api/v1/support-tickets
     metadata:
-      groupName: 'General Endpoints'
+      groupName: 'Support Tickets'
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: ''
-      description: ''
-      authenticated: false
-      deprecated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      notification_id:
-        name: notification_id
-        description: 'The ID of the notification.'
-        required: true
-        example: architecto
-        type: string
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-    cleanUrlParameters:
-      notification_id: architecto
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth: []
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - PATCH
-    uri: api/v1/notifications/read
-    metadata:
-      groupName: 'General Endpoints'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: ''
-      description: ''
+      title: 'Create a new support ticket'
+      description: 'Submit a new support ticket. Can be used by both authenticated and unauthenticated users.'
       authenticated: false
       deprecated: false
       custom: []
@@ -155,37 +134,40 @@ endpoints:
     cleanUrlParameters: []
     queryParameters: []
     cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth: []
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - DELETE
-    uri: 'api/v1/notifications/{notification_id}'
-    metadata:
-      groupName: 'General Endpoints'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: ''
-      description: ''
-      authenticated: false
-      deprecated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      notification_id:
-        name: notification_id
-        description: 'The ID of the notification.'
+    bodyParameters:
+      data.attributes:
+        name: data.attributes
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data:
+        name: data
+        description: ''
+        required: false
+        example: []
+        type: object
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.attributes.subject:
+        name: data.attributes.subject
+        description: ''
+        required: false
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      data.attributes.message:
+        name: data.attributes.message
+        description: ''
         required: true
         example: architecto
         type: string
@@ -193,43 +175,55 @@ endpoints:
         exampleWasSpecified: false
         nullable: false
         custom: []
-    cleanUrlParameters:
-      notification_id: architecto
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth: []
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - DELETE
-    uri: api/v1/notifications
-    metadata:
-      groupName: 'General Endpoints'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: ''
-      description: ''
-      authenticated: false
-      deprecated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    cleanUrlParameters: []
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
+      subject:
+        name: subject
+        description: 'The subject of the support ticket.'
+        required: true
+        example: 'Account login issue'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      message:
+        name: message
+        description: 'The detailed message describing the issue.'
+        required: true
+        example: 'I am unable to log into my account after password reset.'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      email:
+        name: email
+        description: 'The contact email address.'
+        required: true
+        example: user@example.com
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      priority:
+        name: priority
+        description: 'optional The priority level (low, medium, high).'
+        required: false
+        example: medium
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      data:
+        attributes:
+          subject: architecto
+          message: architecto
+      subject: 'Account login issue'
+      message: 'I am unable to log into my account after password reset.'
+      email: user@example.com
+      priority: medium
     fileParameters: []
     responses: []
     responseFields: []

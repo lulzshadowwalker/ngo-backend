@@ -3,7 +3,7 @@
 NGO Backend API provides endpoints for managing organizations, posts, users, comments, notifications, and support tickets. This API enables NGO operations including user registration, content management, and community interaction.
 
 <aside>
-    <strong>Base URL</strong>: <code>http://localhost</code>
+    <strong>Base URL</strong>: <code>https://ngo-backend.test</code>
 </aside>
 
     Welcome to the NGO Backend API documentation. This API serves as the backbone for NGO operations, providing comprehensive endpoints for:

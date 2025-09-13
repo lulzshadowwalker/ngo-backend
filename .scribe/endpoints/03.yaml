@@ -1,19 +1,20 @@
-name: 'Skills & Locations'
+name: Organizations
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/v1/skills
+    uri: api/v1/organizations
     metadata:
-      groupName: 'Skills & Locations'
+      groupName: Organizations
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'List all skills'
+      title: 'List all organizations'
       description: |-
-        Retrieve a list of all available skills in the system.
-        Skills are used to categorize user expertise and organization needs.
+        Retrieve a list of all registered organizations in the system.
+        This endpoint provides information about NGOs including their basic details,
+        contact information, and operational status.
       authenticated: false
       deprecated: false
       custom: []
@@ -30,7 +31,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":[{"type":"skills","id":"1","attributes":{"name":"Mr. Herman Gerhold II","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"2","attributes":{"name":"Mrs. Nova Huel II","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"3","attributes":{"name":"Dr. Dandre Boyer IV","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"4","attributes":{"name":"Ava Metz","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"5","attributes":{"name":"Gavin McCullough III","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"6","attributes":{"name":"Kelvin Ullrich","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"7","attributes":{"name":"Marilyne Lehner","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"8","attributes":{"name":"Nathanael Gutkowski","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"9","attributes":{"name":"Ms. Cayla Bartoletti","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}},{"type":"skills","id":"10","attributes":{"name":"Maureen Bailey","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}}]}'
+        content: '{"data":[{"type":"organizations","id":"1","attributes":{"name":"Claude Jenkins","slug":"claudejenkins","bio":"Deserunt aliquid veniam ut sed voluptates illum vel reprehenderit.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.lesch.org\/quaerat-dicta-numquam-hic-itaque-dignissimos-voluptatem.html","sector":"Destinee Dach","location":"East Kaylatown, Kiribati","following":false,"createdAt":"2025-09-13T13:07:06+00:00","updatedAt":"2025-09-13T13:07:06+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"1"}},"location":{"data":{"type":"locations","id":"2"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"2","attributes":{"name":"Nikko Howell","slug":"nikkohowell","bio":"Adipisci aspernatur placeat a.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/roob.info\/neque-ipsa-cumque-quis","sector":"Sid Larkin","location":"Kulasmouth, Bangladesh","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"2"}},"location":{"data":{"type":"locations","id":"3"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"3","attributes":{"name":"Tomasa Grady","slug":"tomasagrady","bio":"Similique aut dolor repudiandae minima est.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/bernier.com\/nihil-magnam-distinctio-minus-modi-consequuntur-molestias","sector":"Kaylee Barrows","location":"Lake Lauriane, Zambia","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"3"}},"location":{"data":{"type":"locations","id":"4"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"4","attributes":{"name":"Elmo Leffler","slug":"elmoleffler","bio":"Consectetur est tempore consequatur quo ut voluptas sed ut.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/kirlin.com\/asperiores-consequatur-debitis-non-voluptas-voluptas","sector":"Mr. Hans Tillman II","location":"Bednarland, Serbia","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"4"}},"location":{"data":{"type":"locations","id":"5"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"5","attributes":{"name":"Ashlynn Simonis","slug":"ashlynnsimonis","bio":"Voluptatibus impedit repellendus delectus consequatur sequi beatae.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.gulgowski.biz\/facere-tempore-laboriosam-numquam-recusandae","sector":"Catherine Schmidt","location":"Haneshire, Bosnia and Herzegovina","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"5"}},"location":{"data":{"type":"locations","id":"6"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"6","attributes":{"name":"Dr. Cassandre Barrows II","slug":"drcassandrebarrowsii","bio":"Id praesentium qui sed velit.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/gaylord.com\/alias-iure-velit-ea-voluptas.html","sector":"Prof. Onie Goodwin","location":"Lake Brayanberg, Kiribati","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"6"}},"location":{"data":{"type":"locations","id":"7"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"7","attributes":{"name":"Walton Haag","slug":"waltonhaag","bio":"Ea recusandae nam ullam consequatur consequatur eos.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"https:\/\/www.nienow.org\/eligendi-rem-nisi-pariatur-cupiditate-soluta-eum-quaerat","sector":"Mrs. Vivianne Bode","location":"Brakusville, Marshall Islands","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"22"}},"location":{"data":{"type":"locations","id":"8"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"8","attributes":{"name":"Russel Langworth III","slug":"russellangworthiii","bio":"Qui beatae consectetur qui eveniet voluptatum.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/zboncak.com\/id-porro-et-magnam-asperiores.html","sector":"Mr. Ellis Pfannerstill Sr.","location":"Cummingsville, Lao People''s Democratic Republic","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"23"}},"location":{"data":{"type":"locations","id":"9"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"9","attributes":{"name":"Bethel Pfeffer","slug":"bethelpfeffer","bio":"Tempora eaque autem delectus id quas.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.green.org\/a-fugit-fuga-perspiciatis-enim-rerum-aspernatur","sector":"Jett Steuber","location":"New Citlalli, United States Minor Outlying Islands","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"24"}},"location":{"data":{"type":"locations","id":"10"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"10","attributes":{"name":"Lyla Waters","slug":"lylawaters","bio":"Sunt distinctio harum totam corrupti.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/olson.biz\/","sector":"Mr. Mikel Hoeger","location":"South Bianka, Slovenia","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"25"}},"location":{"data":{"type":"locations","id":"11"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"11","attributes":{"name":"Loren Bahringer DDS","slug":"lorenbahringerdds","bio":"Dolorum est nam deleniti quis veniam est.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.koelpin.org\/","sector":"Misael Purdy III","location":"West Alvahstad, Cayman Islands","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"26"}},"location":{"data":{"type":"locations","id":"12"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"12","attributes":{"name":"Miss Breanna Blanda PhD","slug":"missbreannablandaphd","bio":"Vero error officiis nihil.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/harris.org\/esse-aut-possimus-iure-nisi-ea-enim","sector":"Stella Yost","location":"Braunside, Suriname","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"27"}},"location":{"data":{"type":"locations","id":"13"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"13","attributes":{"name":"Mollie Moen","slug":"molliemoen","bio":"Et non rem dolorem rerum omnis dolorum quaerat.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/beahan.net\/ipsum-neque-error-voluptatibus-dicta-quo-et.html","sector":"Prof. Alyson Hintz V","location":"Lillianstad, Timor-Leste","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"28"}},"location":{"data":{"type":"locations","id":"14"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"14","attributes":{"name":"Miss Concepcion Braun","slug":"missconcepcionbraun","bio":"Ipsam aliquam saepe sit explicabo velit occaecati expedita.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"https:\/\/harris.com\/nemo-maiores-ullam-excepturi-voluptas.html","sector":"Paxton Sawayn II","location":"Port Armanishire, Sierra Leone","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"29"}},"location":{"data":{"type":"locations","id":"15"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"15","attributes":{"name":"Dr. Waldo Daniel MD","slug":"drwaldodanielmd","bio":"Quia amet quod est consequuntur placeat.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"https:\/\/beahan.com\/earum-quasi-ut-ea-quis-voluptates.html","sector":"Ethelyn Grimes","location":"North Jakobton, Bolivia","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"30"}},"location":{"data":{"type":"locations","id":"16"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"16","attributes":{"name":"Darby Lemke","slug":"darbylemke","bio":"Laborum explicabo quibusdam et.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.effertz.com\/hic-quia-velit-voluptatem-exercitationem-sunt.html","sector":"Juston Skiles","location":"Olsonside, Serbia","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"31"}},"location":{"data":{"type":"locations","id":"17"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"17","attributes":{"name":"Mylene Jast","slug":"mylenejast","bio":"Odit molestias voluptatem dolor modi vel consequatur.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/bashirian.info\/","sector":"Prof. Rupert Bruen MD","location":"North Virginiestad, Norway","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"32"}},"location":{"data":{"type":"locations","id":"18"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"18","attributes":{"name":"Julius Raynor","slug":"juliusraynor","bio":"Nam facere ad doloremque dolores non.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"https:\/\/turcotte.com\/est-ea-aspernatur-in-saepe-doloribus-atque-perferendis-qui.html","sector":"Prof. Alia Stamm DVM","location":"Homenickview, South Georgia and the South Sandwich Islands","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"34"}},"location":{"data":{"type":"locations","id":"19"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"19","attributes":{"name":"Taya Bogisich II","slug":"tayabogisichii","bio":"Ipsum excepturi perspiciatis id exercitationem et rerum.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.bauch.biz\/facilis-at-at-aut-quasi-dicta-est","sector":"Ms. Beulah Mosciski","location":"Port Logan, Burundi","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"36"}},"location":{"data":{"type":"locations","id":"20"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"20","attributes":{"name":"Henriette Christiansen","slug":"henriettechristiansen","bio":"Commodi dolores nisi quis sint asperiores.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/ledner.com\/sit-vero-explicabo-quam-non-rerum-eum","sector":"Mr. Oren Boyer Sr.","location":"West Ramonfurt, Finland","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"38"}},"location":{"data":{"type":"locations","id":"21"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"21","attributes":{"name":"Malachi Walker","slug":"malachiwalker","bio":"Non eaque perferendis officia recusandae quibusdam ut voluptatum ea.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.kunde.com\/voluptas-tenetur-expedita-est-aut-ipsa-aspernatur","sector":"Dr. Demarcus Frami","location":"Irmaview, Kyrgyz Republic","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"40"}},"location":{"data":{"type":"locations","id":"22"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"22","attributes":{"name":"Bettie Ferry I","slug":"bettieferryi","bio":"Eaque eveniet alias fugiat unde maiores.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.beier.info\/","sector":"Prof. Eli Russel","location":"East Misael, Denmark","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"42"}},"location":{"data":{"type":"locations","id":"23"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"23","attributes":{"name":"Winifred Gerhold","slug":"winifredgerhold","bio":"Quo ducimus non rem voluptate.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.kunze.com\/","sector":"Ms. Ivah Botsford","location":"Metzchester, Saint Helena","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"44"}},"location":{"data":{"type":"locations","id":"24"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"24","attributes":{"name":"Lilian Shanahan","slug":"lilianshanahan","bio":"Occaecati beatae cupiditate voluptatibus amet accusantium id.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.grant.com\/expedita-voluptate-nihil-accusamus","sector":"Gerhard Kutch I","location":"Gibsonhaven, Croatia","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"46"}},"location":{"data":{"type":"locations","id":"25"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"25","attributes":{"name":"Thelma Hettinger I","slug":"thelmahettingeri","bio":"Voluptas optio omnis veritatis.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.mcglynn.com\/aut-nemo-distinctio-laborum","sector":"Miss Luz Erdman MD","location":"Port Harley, Singapore","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"48"}},"location":{"data":{"type":"locations","id":"26"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"26","attributes":{"name":"Prof. Muhammad Romaguera Jr.","slug":"profmuhammadromaguerajr","bio":"Dolorem ut placeat rerum ea voluptatum sit voluptatum.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/schneider.org\/voluptatem-unde-non-cupiditate-quas-corrupti.html","sector":"Candice White","location":"East Graysonfort, Yemen","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"50"}},"location":{"data":{"type":"locations","id":"27"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"27","attributes":{"name":"Mr. Terrence Zemlak","slug":"mrterrencezemlak","bio":"Illo rem quos molestias et.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/muller.com\/ducimus-ut-dolor-amet-reprehenderit-maiores-est-ut","sector":"Brisa Reinger","location":"South Hortense, Turks and Caicos Islands","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"52"}},"location":{"data":{"type":"locations","id":"28"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"28","attributes":{"name":"Dr. Joshua Skiles V","slug":"drjoshuaskilesv","bio":"In aut voluptas impedit qui.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.lubowitz.com\/et-omnis-perferendis-ab-officiis","sector":"Colby Bauch","location":"South Sydniberg, Kyrgyz Republic","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"54"}},"location":{"data":{"type":"locations","id":"29"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"29","attributes":{"name":"Zackery Ruecker","slug":"zackeryruecker","bio":"Maiores quibusdam in inventore dicta ea in.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/batz.com\/quaerat-mollitia-labore-facere-praesentium-qui-repudiandae","sector":"Lempi Ryan III","location":"Jonesshire, Nicaragua","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"56"}},"location":{"data":{"type":"locations","id":"30"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"30","attributes":{"name":"Prof. Susana Reilly","slug":"profsusanareilly","bio":"Et ex enim omnis vel esse consectetur.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"https:\/\/www.hauck.com\/cumque-velit-maxime-nihil-inventore","sector":"Prof. Vern Heaney","location":"Karlieview, Burkina Faso","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"58"}},"location":{"data":{"type":"locations","id":"31"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"31","attributes":{"name":"Cale Simonis","slug":"calesimonis","bio":"Labore quia autem velit sunt dignissimos veritatis suscipit.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.damore.org\/repudiandae-nesciunt-magni-ullam-voluptas-explicabo-provident","sector":"Dr. Ronny Kuphal","location":"West Odessa, Cyprus","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"60"}},"location":{"data":{"type":"locations","id":"32"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"32","attributes":{"name":"Marcella Wisoky MD","slug":"marcellawisokymd","bio":"Aspernatur et dolor natus veniam ut aut enim.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.kassulke.net\/nam-expedita-magnam-iusto-sint-aliquid.html","sector":"Aliza Kreiger","location":"Port Elvafort, Haiti","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"62"}},"location":{"data":{"type":"locations","id":"33"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"33","attributes":{"name":"Sonya Hills","slug":"sonyahills","bio":"Velit sit aut sed quos deleniti voluptatem ea.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/kozey.net\/molestiae-architecto-et-totam-non-dignissimos-occaecati","sector":"Sister Ondricka","location":"Lisabury, El Salvador","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"64"}},"location":{"data":{"type":"locations","id":"34"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"34","attributes":{"name":"Flo Deckow MD","slug":"flodeckowmd","bio":"Consequuntur tenetur officiis impedit adipisci maxime id ut.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/schinner.com\/est-quis-corrupti-tenetur-officiis-tempore.html","sector":"Herminia Treutel","location":"Baileystad, Saint Barthelemy","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"66"}},"location":{"data":{"type":"locations","id":"35"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"35","attributes":{"name":"Otha Skiles","slug":"othaskiles","bio":"Error repudiandae sint inventore est aut.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.hansen.biz\/rerum-enim-non-iusto-sunt-cumque","sector":"Sydni Farrell","location":"Port Bennett, Tajikistan","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"68"}},"location":{"data":{"type":"locations","id":"36"}},"posts":[],"organizationPreferences":[],"follows":[]}},{"type":"organizations","id":"36","attributes":{"name":"Lisa McGlynn","slug":"lisamcglynn","bio":"Unde aut ut officia facere dolorem velit suscipit.","logo":"https:\/\/images.unsplash.com\/photo-1562307534-a03738d2a81a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","website":"http:\/\/www.bailey.com\/officia-ratione-rerum-expedita-rem-dolor-sunt-est-omnis","sector":"Lesley Beer","location":"North Camillefort, Tonga","following":false,"createdAt":"2025-09-13T13:07:07+00:00","updatedAt":"2025-09-13T13:07:07+00:00"},"relationships":{"sector":{"data":{"type":"sectors","id":"70"}},"location":{"data":{"type":"locations","id":"37"}},"posts":[],"organizationPreferences":[],"follows":[]}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -46,134 +47,43 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/v1/skills/{id}'
+    uri: api/v1/organizations/search
     metadata:
-      groupName: 'Skills & Locations'
+      groupName: Organizations
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Get skill details'
+      title: 'Search organizations'
       description: |-
-        Retrieve detailed information about a specific skill,
-        including its description and related information.
+        Search for organizations based on a query string. This endpoint allows users
+        to find organizations by name or description, facilitating easier discovery of NGOs.
       authenticated: false
       deprecated: false
       custom: []
     headers:
       Content-Type: application/json
       Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the skill.'
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters:
+      query:
+        name: query
+        description: 'The search query string.'
         required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      skill:
-        name: skill
-        description: 'The ID of the skill.'
-        required: true
-        example: 1
-        type: integer
+        example: health
+        type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
         custom: []
-    cleanUrlParameters:
-      id: 1
-      skill: 1
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"data":{"type":"skills","id":"1","attributes":{"name":"Mr. Herman Gerhold II","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{}}}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-        custom: []
-    responseFields: []
-    auth: []
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - GET
-    uri: api/v1/locations
-    metadata:
-      groupName: 'Skills & Locations'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'List all locations'
-      description: |-
-        Retrieve a list of all available locations in the system.
-        Locations are used for user profiles and organization addresses.
-      authenticated: false
-      deprecated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    cleanUrlParameters: []
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"data":[{"type":"locations","id":"1","attributes":{"city":"Klingstad","country":"Svalbard & Jan Mayen Islands","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"2","attributes":{"city":"Port Roxaneburgh","country":"British Indian Ocean Territory (Chagos Archipelago)","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"3","attributes":{"city":"East Kadin","country":"Algeria","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"4","attributes":{"city":"South Tabitha","country":"Liechtenstein","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"5","attributes":{"city":"Odieton","country":"Mongolia","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"6","attributes":{"city":"Ellenmouth","country":"Netherlands Antilles","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"7","attributes":{"city":"Port Carissafort","country":"Jamaica","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"8","attributes":{"city":"West Orloport","country":"Norway","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"9","attributes":{"city":"New Mike","country":"Syrian Arab Republic","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"10","attributes":{"city":"New Paigemouth","country":"Bangladesh","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"11","attributes":{"city":"Alvaburgh","country":"Togo","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"12","attributes":{"city":"Kingfurt","country":"Jersey","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"13","attributes":{"city":"Hintzbury","country":"Gibraltar","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"14","attributes":{"city":"Lake Abbigail","country":"Burundi","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"15","attributes":{"city":"Murphyshire","country":"Lao People''s Democratic Republic","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"16","attributes":{"city":"Koreyfurt","country":"Dominican Republic","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"17","attributes":{"city":"Kuhlmanfurt","country":"Philippines","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"18","attributes":{"city":"Danielview","country":"Russian Federation","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"19","attributes":{"city":"Lake Jordy","country":"Belgium","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"20","attributes":{"city":"Lake Daisha","country":"Chile","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"21","attributes":{"city":"New Ezekielfort","country":"Niue","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"22","attributes":{"city":"South Winnifredfurt","country":"Haiti","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"23","attributes":{"city":"South Nathenhaven","country":"Guernsey","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"24","attributes":{"city":"Wintheiserstad","country":"France","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"25","attributes":{"city":"Gladycechester","country":"Nigeria","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"26","attributes":{"city":"New Dasialand","country":"Isle of Man","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"27","attributes":{"city":"Port Shanelleland","country":"Colombia","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"28","attributes":{"city":"Stantonton","country":"San Marino","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"29","attributes":{"city":"Selinaborough","country":"Dominican Republic","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"30","attributes":{"city":"Abelview","country":"El Salvador","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"31","attributes":{"city":"Fernandoburgh","country":"Botswana","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"32","attributes":{"city":"Wisokyberg","country":"Estonia","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"33","attributes":{"city":"Myriamstad","country":"Burkina Faso","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"34","attributes":{"city":"Bednarberg","country":"Tunisia","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"35","attributes":{"city":"Lake Jalenview","country":"Russian Federation","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"36","attributes":{"city":"Margotchester","country":"Italy","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}},{"type":"locations","id":"37","attributes":{"city":"East Timothyland","country":"Saint Helena","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-        custom: []
-    responseFields: []
-    auth: []
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - GET
-    uri: 'api/v1/locations/{id}'
-    metadata:
-      groupName: 'Skills & Locations'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Get location details'
-      description: |-
-        Retrieve detailed information about a specific location,
-        including geographic coordinates and administrative details.
-      authenticated: false
-      deprecated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the location.'
-        required: true
-        example: 1
+    cleanQueryParameters:
+      query: health
+    bodyParameters:
+      sector:
+        name: sector
+        description: 'The <code>id</code> of an existing record in the sectors table.'
+        required: false
+        example: 16
         type: integer
         enumValues: []
         exampleWasSpecified: false
@@ -181,26 +91,22 @@ endpoints:
         custom: []
       location:
         name: location
-        description: 'The ID of the location.'
-        required: true
-        example: 1
+        description: 'The <code>id</code> of an existing record in the locations table.'
+        required: false
+        example: 16
         type: integer
         enumValues: []
-        exampleWasSpecified: true
+        exampleWasSpecified: false
         nullable: false
         custom: []
-    cleanUrlParameters:
-      id: 1
-      location: 1
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
+    cleanBodyParameters:
+      sector: 16
+      location: 16
     fileParameters: []
     responses:
       -
         status: 200
-        content: '{"data":{"type":"locations","id":"1","attributes":{"city":"Klingstad","country":"Svalbard & Jan Mayen Islands","createdAt":"2025-09-12T13:43:20+00:00","updatedAt":"2025-09-12T13:43:20+00:00"},"relationships":{"individuals":[],"organizations":[]}}}'
+        content: '{"data":[]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -209,6 +115,192 @@ endpoints:
         custom: []
     responseFields: []
     auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/organizations/{slug}'
+    metadata:
+      groupName: Organizations
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get organization details'
+      description: |-
+        Retrieve detailed information about a specific organization using its slug.
+        This includes comprehensive information about the organization's mission,
+        contact details, and operational information.
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      slug:
+        name: slug
+        description: 'The slug of the organization.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      organization:
+        name: organization
+        description: 'The slug of the organization.'
+        required: true
+        example: green-earth-foundation
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      slug: 1
+      organization: green-earth-foundation
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 404
+        content: |-
+          {
+              "message": "No query results for model [App\\Models\\Organization] 1"
+          }
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/v1/organizations/{organization_slug}/follows'
+    metadata:
+      groupName: Organizations
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Follow an organization'
+      description: |-
+        Follow an organization to receive updates about their activities and posts.
+        If already following, this endpoint will have no effect.
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      organization_slug:
+        name: organization_slug
+        description: 'The slug of the organization.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      organization:
+        name: organization
+        description: 'The slug of the organization to follow.'
+        required: true
+        example: save-the-whales
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      organization_slug: 1
+      organization: save-the-whales
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/organizations/{organization_slug}/follows'
+    metadata:
+      groupName: Organizations
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Unfollow an organization'
+      description: |-
+        Stop following an organization. The user will no longer receive updates
+        about the organization's activities and posts.
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      organization_slug:
+        name: organization_slug
+        description: 'The slug of the organization.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      organization:
+        name: organization
+        description: 'The slug of the organization to unfollow.'
+        required: true
+        example: save-the-whales
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      organization_slug: 1
+      organization: save-the-whales
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
     controller: null
     method: null
     route: null
