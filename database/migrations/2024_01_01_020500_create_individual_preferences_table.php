@@ -1,7 +1,5 @@
 <?php
 
-use App\Enums\Language;
-use App\Enums\Appearance;
 use App\Enums\ProfileVisibility;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

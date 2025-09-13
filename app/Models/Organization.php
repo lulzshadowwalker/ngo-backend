@@ -66,11 +66,6 @@ class Organization extends Model
         return $this->hasMany(Post::class);
     }
 
-    public function organizationPreferences(): HasMany
-    {
-        return $this->hasMany(OrganizationPreference::class);
-    }
-
     public function follows()
     {
         return $this->morphMany(Follow::class, 'followable');

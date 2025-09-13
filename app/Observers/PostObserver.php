@@ -2,6 +2,7 @@
 
 namespace App\Observers;
 
+use App\Events\PostCreated;
 use App\Models\Post;
 use Illuminate\Support\Str;
 
@@ -24,5 +25,10 @@ class PostObserver
             }
             $post->slug = $slug;
         }
+    }
+
+    public function created(Post $post)
+    {
+        event(new PostCreated($post));
     }
 }

@@ -37,7 +37,6 @@ class UserPreferencesController extends Controller
      * @authenticated
      * 
      * @bodyParam language string optional The preferred language (en, es, fr, etc.). Example: en
-     * @bodyParam appearance string optional The appearance theme (light, dark, auto). Example: dark
      * @bodyParam email_notifications boolean optional Enable/disable email notifications. Example: true
      * @bodyParam push_notifications boolean optional Enable/disable push notifications. Example: false
      * @bodyParam profile_visibility string optional Profile visibility (public, private, friends). Example: public
