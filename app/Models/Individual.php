@@ -63,7 +63,7 @@ class Individual extends Model
     }
 
     /**
-     * Calculate profile completion percentage based on key fields.
+     * Calculate profile completion points based on key fields.
      *
      * @return Attribute<int, never>
      */
@@ -71,7 +71,6 @@ class Individual extends Model
     {
         return Attribute::get(function (): int {
             $completionPoints = 0;
-            $totalPoints = 3;
 
             if (!empty($this->bio)) {
                 $completionPoints++;
@@ -85,7 +84,7 @@ class Individual extends Model
                 $completionPoints++;
             }
 
-            return (int) round(($completionPoints / $totalPoints) * 100);
+            return $completionPoints;
         });
     }
 }
