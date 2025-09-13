@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\ProfileVisibility;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -16,10 +17,6 @@ class IndividualPreference extends Model
      * @var array
      */
     protected $fillable = [
-        'email_notifications',
-        'push_notifications',
-        'language',
-        'appearance',
         'profile_visibility',
         'individual_id',
     ];
@@ -34,6 +31,7 @@ class IndividualPreference extends Model
         return [
             'id' => 'integer',
             'individual_id' => 'integer',
+            'profile_visibility' => ProfileVisibility::class,
         ];
     }
 

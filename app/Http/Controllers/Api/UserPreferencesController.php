@@ -49,6 +49,13 @@ class UserPreferencesController extends Controller
             $request->mappedAttributes()->toArray(),
         );
 
+        if (Auth::user()->isIndividual && $request->profileVisibility()) {
+            Auth::user()->individual->preferences()->updateOrCreate(
+                ['individual_id' => Auth::user()->individual->id],
+                ['profile_visibility' => $request->profileVisibility()->value],
+            );
+        }
+
         return UserPreferencesResource::make($preferences);
     }
 }

@@ -15,17 +15,7 @@ return new class extends Migration {
     {
         Schema::create("individual_preferences", function (Blueprint $table) {
             $table->id();
-            $table->string("email_notifications")->default("true");
-            $table->string("push_notifications")->default("true");
-            $table
-                ->enum("language", Language::values())
-                ->default(Language::en->value);
-            $table
-                ->enum("appearance", Appearance::values())
-                ->default(Appearance::system->value);
-            $table
-                ->enum("profile_visibility", ProfileVisibility::values())
-                ->default(ProfileVisibility::public->value);
+            $table->enum("profile_visibility", ProfileVisibility::values())->default(ProfileVisibility::Public->value);
             $table->foreignId("individual_id");
             $table->timestamps();
         });

@@ -4,6 +4,7 @@ namespace App\Http\Resources\V1;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Facades\Auth;
 
 class UserPreferencesResource extends JsonResource
 {
@@ -21,6 +22,10 @@ class UserPreferencesResource extends JsonResource
                 'language' => $this->language,
                 'emailNotifications' => $this->email_notifications,
                 'pushNotifications' => $this->push_notifications,
+                'profileVisibility' => $this->mergeWhen(
+                    Auth::user()->isIndividual,
+                    fn() => (bool) Auth::user()->individual?->individualPreferences?->profile_visibility,
+                ),
                 'createdAt' => $this->created_at,
                 'updatedAt' => $this->updated_at,
             ],

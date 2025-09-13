@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Enums\ProfileVisibility;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use App\Models\Individual;
@@ -22,11 +23,7 @@ class IndividualPreferenceFactory extends Factory
     public function definition(): array
     {
         return [
-            'email_notifications' => fake()->boolean(),
-            'push_notifications' => fake()->boolean(),
-            'language' => fake()->languageCode(),
-            'appearance' => fake()->randomElement(["light","dark","system"]),
-            'profile_visibility' => fake()->randomElement(["public","private"]),
+            'profile_visibility' => fake()->randomElement(ProfileVisibility::values()),
             'individual_id' => Individual::factory(),
         ];
     }
