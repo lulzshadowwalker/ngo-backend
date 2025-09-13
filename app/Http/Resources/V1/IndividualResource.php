@@ -27,7 +27,7 @@ class IndividualResource extends JsonResource
             'includes' => [
                 'location' => LocationResource::make($this->location),
                 'skills' => SkillResource::collection($this->skills),
-                // 'volunteeringInterests' => VolunteeringInterestResource::collection($this->volunteeringInterests),
+                'volunteeringInterests' => VolunteeringInterestResource::collection($this->volunteeringInterests),
             ],
         ];
     }
