@@ -79,6 +79,12 @@ class ProgramResource extends Resource
                     ->badge()
                     ->color('gray'),
 
+                Tables\Columns\TextColumn::make('views_count')
+                    ->getStateUsing(fn(Program $record): int => views($record)->count())
+                    ->badge()
+                    ->icon('heroicon-o-eye')
+                    ->sortable(),
+
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Created')
                     ->dateTime('M j, Y')

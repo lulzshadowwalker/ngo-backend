@@ -221,7 +221,13 @@ class OpportunityResource extends Resource
                     ->label('Deadline')
                     ->date('M j, Y')
                     ->sortable()
-                    ->color(fn($record) => $record->expiry_date?->isPast() ? 'danger' : 'success'),
+                    ->color(fn(Opportunity $record) => $record->expiry_date?->isPast() ? 'danger' : 'success'),
+
+                Tables\Columns\TextColumn::make('views_count')
+                    ->getStateUsing(fn(Opportunity $record): int => views($record)->count())
+                    ->badge()
+                    ->icon('heroicon-o-eye')
+                    ->sortable(),
 
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Created')
