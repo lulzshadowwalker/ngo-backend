@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\OpportunityStatus;
+use App\Observers\OpportunityObserver;
 use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -12,8 +13,10 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Spatie\Translatable\HasTranslations;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Laravel\Scout\Searchable;
 
+#[ObservedBy(OpportunityObserver::class)]
 class Opportunity extends Model implements Viewable
 {
     use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews;

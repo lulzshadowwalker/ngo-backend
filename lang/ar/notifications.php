@@ -9,4 +9,8 @@ return [
         'title' => 'برنامج جديد من :organization',
         'body' => ':organization أطلق برنامجًا جديدًا: ":title"',
     ],
+    'opportunity-created' => [
+        'title' => 'فرصة جديدة من :organization :program',
+        'body' => ':organization نشر فرصة جديدة في :program: ":title"',
+    ],
 ];

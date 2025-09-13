@@ -36,8 +36,9 @@ class ProgramCreatedNotification extends Notification
     {
         $language = $notifiable->preferences->language->value ?? 'en';
         $organization = $this->program->organization;
+        $programTitle = $this->program->getTranslation('title', $language);
         $title = trans('notifications.program-created.title', ['organization' => $organization->name], $language);
-        $body = trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $this->program->getTranslation('title', $language)], $language);
+        $body = trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $programTitle], $language);
 
         return (new MailMessage)
             ->subject($title)
@@ -53,9 +54,10 @@ class ProgramCreatedNotification extends Notification
     {
         $language = $notifiable->preferences->language->value ?? 'en';
         $organization = $this->program->organization;
+        $programTitle = $this->program->getTranslation('title', $language);
         return [
             "title" => trans('notifications.program-created.title', ['organization' => $organization->name], $language),
-            "body" => trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $this->program->getTranslation('title', $language)], $language),
+            "body" => trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $programTitle], $language),
         ];
     }
 }
