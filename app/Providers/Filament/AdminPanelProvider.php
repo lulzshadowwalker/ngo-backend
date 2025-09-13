@@ -53,7 +53,7 @@ class AdminPanelProvider extends PanelProvider
                     ->url(fn(): string => app()->environment(['local', 'staging']) ? route('telescope') : '#', shouldOpenInNewTab: true)
                     ->icon('heroicon-o-chart-bar-square')
                     ->group('Monitor')
-                    ->visible(fn(): bool => !app()->environment('testing') && app()->environment(['local', 'staging']) && Auth::user()->isAdmin),
+                    ->visible(fn(): bool => !app()->environment('testing') && Auth::user()->isAdmin),
 
                 NavigationItem::make('pulse')
                     ->label('Pulse')
@@ -88,7 +88,7 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->plugins([
-                 FilamentTranslatableFieldsPlugin::make()
+                FilamentTranslatableFieldsPlugin::make()
                     ->supportedLocales([
                         'en' => 'English',
                         'ar' => 'Arabic',
