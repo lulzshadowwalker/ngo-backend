@@ -110,6 +110,115 @@ endpoints:
   -
     httpMethods:
       - GET
+    uri: api/v1/volunteering-interests
+    metadata:
+      groupName: 'Skills & Locations'
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'List all volunteering interests'
+      description: |-
+        Retrieve a list of all available volunteering interests in the system.
+        Volunteering interests are used to categorize user expertise and organization needs.
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/volunteering-interests/{volunteeringInterest_id}'
+    metadata:
+      groupName: 'Skills & Locations'
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get volunteering interest details'
+      description: |-
+        Retrieve detailed information about a specific volunteering interest,
+        including its description and related information.
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      volunteeringInterest_id:
+        name: volunteeringInterest_id
+        description: 'The ID of the volunteeringInterest.'
+        required: true
+        example: 16
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      volunteeringInterest:
+        name: volunteeringInterest
+        description: 'The ID of the volunteering interest.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      volunteeringInterest_id: 16
+      volunteeringInterest: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 404
+        content: |-
+          {
+              "message": "No query results for model [App\\Models\\VolunteeringInterest] 16"
+          }
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
     uri: api/v1/locations
     metadata:
       groupName: 'Skills & Locations'

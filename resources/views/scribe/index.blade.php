@@ -442,6 +442,18 @@
                                                                                     </div>
 
                                                                             </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-user-management-PATCHapi-v1-me">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Update the profile.">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#user-management-PATCHapi-v1-me">
+                                                    Update the profile.
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
                                                             </div>
                                             </div>
                                     <div class="expandable">
@@ -681,6 +693,30 @@
                                                 <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
                                                    href="#skills-locations-GETapi-v1-skills--id-">
                                                     Get skill details
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-skills-locations-GETapi-v1-volunteering-interests">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="List all volunteering interests">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#skills-locations-GETapi-v1-volunteering-interests">
+                                                    List all volunteering interests
+                                                </a>
+                                            </div>
+                                                                                    </div>
+
+                                                                            </div>
+                                                                    <div class="expandable">
+                                        <div class="sl-flex sl-items-center sl-h-md sl-pr-4 sl-pl-8 sl-bg-canvas-100 hover:sl-bg-canvas-200 sl-cursor-pointer sl-select-none"
+                                             id="toc-item-skills-locations-GETapi-v1-volunteering-interests--volunteeringInterest_id-">
+                                            <div class="sl-flex-1 sl-items-center sl-truncate sl-mr-1.5 sl-p-0" title="Get volunteering interest details">
+                                                <a class="ElementsTableOfContentsItem sl-block sl-no-underline"
+                                                   href="#skills-locations-GETapi-v1-volunteering-interests--volunteeringInterest_id-">
+                                                    Get volunteering interest details
                                                 </a>
                                             </div>
                                                                                     </div>
@@ -1435,7 +1471,7 @@ and location. Returns an authentication token upon successful registration.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOkZY59
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpAWuKmh
                     </div>
                 </div>
             </div>
@@ -1688,7 +1724,7 @@ and location. Returns an authentication token upon successful registration.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpjQ3zZ0
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpyyWRIP
                     </div>
                 </div>
             </div>
@@ -2022,8 +2058,8 @@ You can check the Dev Tools console for debugging information.</p>
     --form "password=securePassword123"\
     --form "password_confirmation=securePassword123"\
     --form "location_id=1"\
-    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOkZY59" \
-    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpjQ3zZ0" </code></pre>                                        </div>
+    --form "data[attributes][avatar]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpAWuKmh" \
+    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpyyWRIP" </code></pre>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="sl-bg-canvas-100 example-request example-request-javascript"
@@ -2106,11 +2142,11 @@ $response = $client-&gt;post(
             ],
             [
                 'name' =&gt; 'data[attributes][avatar]',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOkZY59', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpAWuKmh', 'r')
             ],
             [
                 'name' =&gt; 'avatar',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpjQ3zZ0', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpyyWRIP', 'r')
             ],
         ],
     ]
@@ -2136,8 +2172,8 @@ files = {
   'password': (None, 'securePassword123'),
   'password_confirmation': (None, 'securePassword123'),
   'location_id': (None, '1'),
-  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOkZY59', 'rb'),
-  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpjQ3zZ0', 'rb')}
+  'data[attributes][avatar]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpAWuKmh', 'rb'),
+  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpyyWRIP', 'rb')}
 payload = {
     "data": {
         "attributes": {
@@ -2402,7 +2438,7 @@ information and location. Returns an authentication token upon successful regist
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpaV5gnM
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOL2qFs
                     </div>
                 </div>
             </div>
@@ -2899,7 +2935,7 @@ information and location. Returns an authentication token upon successful regist
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpfPdOoi
+                        /private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpSebiIS
                     </div>
                 </div>
             </div>
@@ -3344,8 +3380,8 @@ You can check the Dev Tools console for debugging information.</p>
     --form "contact_email=contact@org.com"\
     --form "website=https://org.com"\
     --form "bio=We help communities thrive."\
-    --form "data[attributes][logo]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpaV5gnM" \
-    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpfPdOoi" </code></pre>                                        </div>
+    --form "data[attributes][logo]=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOL2qFs" \
+    --form "avatar=@/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpSebiIS" </code></pre>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="sl-bg-canvas-100 example-request example-request-javascript"
@@ -3463,11 +3499,11 @@ $response = $client-&gt;post(
             ],
             [
                 'name' =&gt; 'data[attributes][logo]',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpaV5gnM', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOL2qFs', 'r')
             ],
             [
                 'name' =&gt; 'avatar',
-                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpfPdOoi', 'r')
+                'contents' =&gt; fopen('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpSebiIS', 'r')
             ],
         ],
     ]
@@ -3500,8 +3536,8 @@ files = {
   'contact_email': (None, 'contact@org.com'),
   'website': (None, 'https://org.com'),
   'bio': (None, 'We help communities thrive.'),
-  'data[attributes][logo]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpaV5gnM', 'rb'),
-  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpfPdOoi', 'rb')}
+  'data[attributes][logo]': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpOL2qFs', 'rb'),
+  'avatar': open('/private/var/folders/f2/9ylqt_x53fv7hlcgdnm9bdpc0000gn/T/phpSebiIS', 'rb')}
 payload = {
     "data": {
         "attributes": {
@@ -6170,7 +6206,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        ar
+                        en
                     </div>
                 </div>
             </div>
@@ -6192,7 +6228,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        false
+                        true
                     </div>
                 </div>
             </div>
@@ -6214,7 +6250,7 @@ other preferences will remain unchanged.</p>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        true
+                        false
                     </div>
                 </div>
             </div>
@@ -6474,9 +6510,9 @@ other preferences will remain unchanged.</p>
                                 >{
     "data": {
         "attributes": {
-            "language": "ar",
-            "pushNotifications": false,
-            "emailNotifications": true,
+            "language": "en",
+            "pushNotifications": true,
+            "emailNotifications": false,
             "profileVisibility": "private"
         }
     },
@@ -6584,9 +6620,9 @@ You can check the Dev Tools console for debugging information.</p>
     --data "{
     \"data\": {
         \"attributes\": {
-            \"language\": \"ar\",
-            \"pushNotifications\": false,
-            \"emailNotifications\": true,
+            \"language\": \"en\",
+            \"pushNotifications\": true,
+            \"emailNotifications\": false,
             \"profileVisibility\": \"private\"
         }
     },
@@ -6615,9 +6651,9 @@ const headers = {
 let body = {
     "data": {
         "attributes": {
-            "language": "ar",
-            "pushNotifications": false,
-            "emailNotifications": true,
+            "language": "en",
+            "pushNotifications": true,
+            "emailNotifications": false,
             "profileVisibility": "private"
         }
     },
@@ -6651,9 +6687,9 @@ $response = $client-&gt;patch(
         'json' =&gt; [
             'data' =&gt; [
                 'attributes' =&gt; [
-                    'language' =&gt; 'ar',
-                    'pushNotifications' =&gt; false,
-                    'emailNotifications' =&gt; true,
+                    'language' =&gt; 'en',
+                    'pushNotifications' =&gt; true,
+                    'emailNotifications' =&gt; false,
                     'profileVisibility' =&gt; 'private',
                 ],
             ],
@@ -6679,9 +6715,9 @@ url = 'https://ngo-backend.test/api/v1/me/preferences'
 payload = {
     "data": {
         "attributes": {
-            "language": "ar",
-            "pushNotifications": false,
-            "emailNotifications": true,
+            "language": "en",
+            "pushNotifications": true,
+            "emailNotifications": false,
             "profileVisibility": "private"
         }
     },
@@ -7127,6 +7163,367 @@ response.json()</code></pre>                                        </div>
                                                                             </div>
                                 </div>
                                                     </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="user-management-PATCHapi-v1-me">
+                    Update the profile.
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="https://ngo-backend.test/api/v1/me"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: purple;"
+                        >
+                            PATCH
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">https://ngo-backend.test</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/me</div>
+                    </div>
+
+                                                    <div class="sl-font-prose sl-font-semibold sl-px-1.5 sl-py-0.5 sl-text-on-primary sl-rounded-lg"
+                                 style="background-color: darkred"
+                            >requires authentication
+                            </div>
+                                                            </div>
+        </div>
+
+        
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Authorization</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        Bearer Bearer {YOUR_AUTH_TOKEN}
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="PATCH"
+              data-path="api/v1/me"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Auth
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                            <label aria-hidden="true"
+                                   for="auth-PATCHapi-v1-me">Authorization</label>
+                            <span class="sl-mx-3">:</span>
+                            <div class="sl-flex sl-flex-1">
+                                <div class="sl-input sl-flex-1 sl-relative">
+                                    <code>Bearer </code>
+                                    <input aria-label="Authorization"
+                                           id="auth-PATCHapi-v1-me"
+                                           data-component="header"
+                                           data-prefix="Bearer "
+                                           name="Authorization"
+                                           placeholder="Bearer {YOUR_AUTH_TOKEN}"
+                                           class="auth-value sl-relative sl-w-3/5 sl-h-md sl-text-base sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                                                            <label aria-hidden="true"
+                                       for="header-PATCHapi-v1-me-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-PATCHapi-v1-me-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-PATCHapi-v1-me-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-PATCHapi-v1-me-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="PATCHapi-v1-me"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="PATCHapi-v1-me"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="PATCHapi-v1-me"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request PATCH \
+    "https://ngo-backend.test/api/v1/me" \
+    --header "Authorization: Bearer Bearer {YOUR_AUTH_TOKEN}" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "https://ngo-backend.test/api/v1/me"
+);
+
+const headers = {
+    "Authorization": "Bearer Bearer {YOUR_AUTH_TOKEN}",
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "PATCH",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'https://ngo-backend.test/api/v1/me';
+$response = $client-&gt;patch(
+    $url,
+    [
+        'headers' =&gt; [
+            'Authorization' =&gt; 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'https://ngo-backend.test/api/v1/me'
+headers = {
+  'Authorization': 'Bearer Bearer {YOUR_AUTH_TOKEN}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('PATCH', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
                             </div>
     </div>
 </div>
@@ -11181,7 +11578,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Neque et ab distinctio numquam in in corrupti et. Porro pariatur voluptatem et esse non. Omnis et ab iusto voluptates sequi corrupti incidunt earum. Quibusdam corporis enim ut velit sed molestias officia.\n\nPlaceat aut cupiditate sit aut. Distinctio in molestiae nemo tempore. Molestias rem quis iste nobis. Aut quis fugiat aut delectus amet.\n\nEa autem quo libero eveniet enim neque fugit. Accusamus nihil quidem ut hic doloremque voluptas. Aut quisquam facilis et molestiae ut voluptate consequatur. Consequatur voluptatibus quo suscipit officia animi sed rerum.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -11232,7 +11629,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Et voluptas assumenda est iure animi.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11251,7 +11648,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Recusandae natus in suscipit est et.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11312,7 +11709,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Qui modi accusamus ut suscipit. Dignissimos tenetur veritatis velit assumenda rerum aliquam. Cumque aut quo sit.\n\nEst esse vel quis et voluptatem et atque. Sed quia animi ut quia ratione sint est modi. Nulla ad consequatur ut nemo. Voluptatum animi omnis aut quod maxime soluta ducimus.\n\nExpedita saepe quod quas et. Est aut ducimus minima distinctio ullam vel. Veniam explicabo aperiam sint commodi eaque voluptatum accusantium.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -11363,7 +11760,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quo porro sit necessitatibus dolorem omnis recusandae iste est.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11382,7 +11779,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut aut aliquid amet sint voluptas.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11443,7 +11840,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Sit dolores magnam voluptas tenetur veritatis. Est reprehenderit ratione velit pariatur. Et incidunt laboriosam et sunt maiores. Ut nihil sit nam labore qui suscipit.\n\nUt modi dolor inventore hic nemo. Laborum ut voluptatem quae consectetur qui dolorem facilis. Atque excepturi autem sed similique et et dolore consectetur.\n\nDistinctio vitae impedit sed. Veniam sit quia aut repellat hic temporibus asperiores.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -11494,7 +11891,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptas magnam qui voluptatem velit qui.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11513,7 +11910,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptates ut voluptatem quos commodi aliquid voluptas.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11574,7 +11971,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Pariatur eius voluptatem fuga quis voluptate. Eligendi nemo harum illo harum autem velit. Maiores sit et illo numquam nisi aut et. Molestiae et deserunt reprehenderit ipsum.\n\nFugit molestiae ipsa voluptas neque est. Quo aspernatur dolor dolore consectetur. Consequuntur odio quia omnis dolores et voluptatem.\n\nVoluptas amet eveniet et magni. Possimus maxime sequi commodi iure. Et sapiente velit sapiente itaque laboriosam fugiat. Voluptatum sit quibusdam est exercitationem et consequatur aut. Nostrum nesciunt enim nobis voluptatem.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -11625,7 +12022,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Autem libero dolorum ut adipisci ullam aspernatur illo iste.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11644,7 +12041,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Eius deleniti et ut occaecati dolor omnis et laudantium.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11705,7 +12102,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Ipsam ut veritatis ipsum est sed illo officia. Ipsum ratione quae dicta praesentium soluta. Facere quo vel at facilis mollitia sequi fugiat. Et aut sint quisquam ea officiis impedit.\n\nAut maiores aut eum recusandae explicabo. Consequatur est aut beatae totam incidunt aliquid illo ad. Rerum facilis omnis qui voluptatem quia ut vel velit.\n\nNon explicabo dolorem consequuntur facilis quaerat sit. Nihil quam saepe blanditiis tenetur. Est sit cupiditate voluptates aliquam minima. Et sed rerum rerum ut et eos mollitia recusandae.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -11756,7 +12153,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut voluptatibus voluptas quis quaerat et.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11775,7 +12172,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Nisi nihil minima corrupti magni dolore distinctio.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11836,7 +12233,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Mollitia accusantium quam assumenda iure laudantium. Est ut repellendus distinctio veritatis voluptatibus. Dolores in nihil consequatur voluptates. Et et et quia autem nulla possimus.\n\nEst consequatur aut aspernatur. Nihil culpa unde officiis laborum. Sit saepe nihil placeat blanditiis odio pariatur. Voluptas voluptatem ad labore sed.\n\nAccusamus accusamus voluptatem soluta nesciunt et. Numquam dicta ratione quibusdam consectetur neque. Laudantium vel voluptas minus omnis.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -11887,7 +12284,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Dolor et necessitatibus accusamus voluptatem.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11906,7 +12303,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut consectetur est rem reprehenderit iste ut.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -11967,7 +12364,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Ad veniam nam aut non aut porro sint. Voluptas architecto consequatur officiis qui recusandae odit. Autem hic reprehenderit accusantium in ex exercitationem sint.\n\nOccaecati totam autem velit est pariatur ea et. Omnis ut aut quaerat ducimus iusto officia. Voluptatum earum optio fugit molestiae placeat. Molestiae neque quas et et sit quod.\n\nAut veritatis magni consequatur deleniti perspiciatis ipsam. Rem iusto numquam voluptas autem ipsam nam totam voluptatem. Mollitia omnis dolor nulla facere iste.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12018,7 +12415,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Aliquam quis occaecati natus soluta fugiat.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12037,7 +12434,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Iure eius vel voluptas ut.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12098,7 +12495,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Quos alias reprehenderit inventore perferendis quasi voluptas ad. Non expedita harum non rerum magni.\n\nQuam ut quia cupiditate quos repellat quas et. Aut dolorem odio reiciendis omnis sequi non repudiandae. Quo minima consectetur natus accusantium ab autem error voluptatibus.\n\nDolor laboriosam sed voluptate saepe. Molestiae aut excepturi quasi nostrum. Qui laboriosam reiciendis illum et excepturi.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12149,7 +12546,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Sequi quibusdam eaque qui velit.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12168,7 +12565,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quaerat culpa illo fuga accusamus et laboriosam incidunt.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12229,7 +12626,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Dolores ut repellat voluptate aut ipsam incidunt necessitatibus. Rem repellat vitae eum laborum ut adipisci. Ut sit non aut quo dolorem modi fugit. Non quia beatae numquam ut non.\n\nId quia ratione et eligendi explicabo quaerat. Quaerat cumque nesciunt rerum quo consequatur enim inventore. Consequuntur occaecati totam qui non perferendis.\n\nVeniam et cupiditate non possimus cumque reiciendis. Eaque ipsa excepturi ratione dignissimos vel illo. Dicta laudantium maiores dolore dolores incidunt reiciendis explicabo. Vitae nobis facere consequatur aperiam voluptas. Sit voluptatem optio enim non unde fuga consequatur.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12280,7 +12677,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Omnis porro labore debitis est temporibus laudantium.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12299,7 +12696,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Magni sunt ut maiores nesciunt aut dolor.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12360,7 +12757,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Sequi cupiditate error qui consequatur. Et recusandae explicabo aliquam. Consequuntur et quia et ea corrupti sed. Dolores tempore quia itaque omnis. Ut eligendi nam quo laborum sit nemo ab.\n\nIure dolorem inventore qui sequi voluptatum ex. Illo non molestias sed omnis est deleniti quis. Ipsam blanditiis assumenda fugiat tenetur. Optio dolores aut impedit esse. Molestias corporis quas et a qui.\n\nOdit sed voluptas a dolor mollitia. Dolorum voluptatibus dolore exercitationem molestiae. Maiores sunt rerum quas id culpa delectus. Magnam alias et sequi aliquid. Sit enim ipsam accusamus est ratione.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12411,7 +12808,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Assumenda voluptatibus ut qui vitae maiores.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12430,7 +12827,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Nesciunt et deleniti animi et magnam reiciendis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12491,7 +12888,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Modi eaque commodi blanditiis temporibus et odio. Necessitatibus porro consequuntur perspiciatis qui commodi et. Illum quasi enim eum quis.\n\nConsequatur ducimus cumque molestiae corporis exercitationem soluta voluptas. Cum fugiat quis soluta et earum omnis. Vitae consequatur vel veniam.\n\nIusto iste asperiores aut et consequatur sed quidem. Et eos perspiciatis optio ullam vel assumenda officiis. Ut dicta porro alias aut animi.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12542,7 +12939,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptate est iusto eos molestiae illo et.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12561,7 +12958,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut nostrum esse quidem et quos temporibus.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12622,7 +13019,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Et unde dolor et sit facere. Voluptatem dolore dolorem placeat omnis consequatur accusamus possimus. Commodi consectetur minima blanditiis praesentium qui adipisci facere.\n\nAut debitis voluptatem placeat fugit possimus. Omnis qui ut quisquam incidunt. A officia perspiciatis eos libero in dolorem. Accusamus quasi vel mollitia.\n\nConsectetur molestiae molestias rerum reiciendis. Amet magni fugit adipisci quia. Soluta aut veniam ipsam iure minima. Eum voluptatem molestiae nihil veritatis consequuntur.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12673,7 +13070,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Aut et est ut qui hic amet.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12692,7 +13089,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Repudiandae iure dolor labore quis porro voluptatibus.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12753,7 +13150,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Esse quaerat dolorem quasi sit culpa ex ad. Est sed omnis vitae omnis harum alias voluptatibus. Voluptates mollitia minima similique sapiente distinctio repudiandae. A mollitia necessitatibus nesciunt iure voluptate dolor nostrum incidunt.\n\nIusto velit veniam culpa ut et dolorum dolorem. Voluptates perferendis nemo unde porro numquam dolores. Est repellendus adipisci et rerum labore delectus. Officia amet molestias asperiores et.\n\nDoloribus dolorum voluptas a nobis aspernatur dolorem ipsam. Laborum inventore at qui. Voluptatem et et et voluptatem repellendus excepturi et et.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12804,7 +13201,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ex molestiae expedita illo.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12823,7 +13220,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Possimus deserunt veritatis deserunt temporibus assumenda sed molestiae.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12884,7 +13281,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Rerum delectus quam voluptatem reiciendis ut. Veniam accusamus aut et veniam sunt. Corporis consectetur autem eum molestias qui.\n\nQuia nostrum aperiam aut nihil fuga in omnis. Itaque maiores non a possimus maxime. Natus consequatur beatae sunt minima.\n\nRecusandae reprehenderit ut ut. Corrupti non distinctio dicta fugit. Sequi sit eveniet est voluptatem. Qui aperiam quae sed harum qui et.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -12935,7 +13332,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quae mollitia consequatur ipsam facilis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -12954,7 +13351,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Dolorem veritatis et nihil similique omnis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13015,7 +13412,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Id alias modi perspiciatis quis corrupti. Atque consectetur voluptate quae. Laborum id temporibus odit asperiores vero sint accusamus quidem. Nostrum voluptatum quia sint doloribus rerum.\n\nRem ut omnis animi nobis sunt. Quo consequatur pariatur enim illo itaque. Voluptatem sunt illum quia alias quasi. Et aut maxime amet. Accusamus enim omnis nesciunt numquam.\n\nNon incidunt distinctio et ea. Repellat sunt eos velit. Velit non odit labore expedita quia quidem nihil. Delectus voluptatem omnis consequatur asperiores sit ut.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13066,7 +13463,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quibusdam porro perspiciatis excepturi atque voluptatum.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13085,7 +13482,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Consequuntur et ipsa doloremque aut possimus veniam.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13146,7 +13543,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Sit omnis delectus amet et itaque quaerat laborum asperiores. Et officiis sed consequuntur. Enim non omnis nihil aut eos impedit. Eligendi quo placeat omnis aut nisi aut.\n\nDeleniti dolorem eos sunt nostrum. Dolor maxime aliquid sint consequatur. Occaecati fugiat ex recusandae quae expedita. Nesciunt dolorem illo ut. Ut ducimus autem provident impedit.\n\nOptio blanditiis sed beatae esse. Sequi necessitatibus et ut harum ducimus architecto et. Iusto iusto adipisci voluptatem tempore doloribus. Mollitia et suscipit ab quia est. Porro natus mollitia aut sit quisquam esse.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13176,7 +13573,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Officiis quo ut qui necessitatibus fugit nesciunt exercitationem nemo.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13204,7 +13601,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Harum recusandae sapiente similique qui quidem sit saepe fugiat. Magnam et quam non veritatis natus aut debitis. Culpa ducimus aliquam magnam non ab magni. Vero laudantium voluptatem eos et.\n\nBeatae tenetur rem quibusdam laborum velit saepe. Quidem quo labore animi est modi recusandae dolorem et. Totam consequatur adipisci eligendi culpa laudantium facilis sed.\n\nVoluptas quia et doloremque quas. Cupiditate fuga atque voluptates eos ducimus quidem maxime. Totam magnam maiores harum quisquam aut.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13234,7 +13631,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptatem cumque voluptatibus omnis laudantium ratione maxime voluptatem occaecati.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13262,7 +13659,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Perspiciatis quia hic quas animi molestiae dolores. Error pariatur odit ut. Alias soluta voluptates sed quidem modi.\n\nCumque quia dolor nobis et officia est. Occaecati dolor sed odit molestiae omnis sed.\n\nOccaecati et est modi sunt est debitis quis. Quidem et similique mollitia quas.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13292,7 +13689,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quaerat alias aspernatur dolores esse accusantium iste est.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13320,7 +13717,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;A enim reprehenderit voluptatum. Error temporibus nisi maiores odio et minus. Occaecati autem et sapiente.\n\nOmnis consequuntur dolorum asperiores nobis. Ut praesentium inventore illo quos. Molestias sed voluptas non ipsa.\n\nNulla est sed officiis vitae. Autem laudantium ex non temporibus incidunt inventore ut. Ut eaque nostrum natus illum ipsa consequuntur velit. Expedita consequatur officia fuga.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13350,7 +13747,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Occaecati eveniet laboriosam tenetur.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13378,7 +13775,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Ut sunt nostrum sed qui. Omnis ipsum quia qui quis tempora velit. Voluptatibus quis sed enim officiis consequatur autem. Et at neque architecto assumenda.\n\nOptio quam nam saepe. Quam in accusantium qui voluptas enim iusto sunt. Dolorem in porro eos odit vel esse qui beatae. Et est ut dolore unde.\n\nQui aliquam soluta quis cupiditate est sit eum praesentium. Dicta incidunt perspiciatis tenetur cupiditate ut a facere modi. Illum officiis iste id rerum.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13408,7 +13805,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Et omnis fugiat ea nisi omnis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13436,7 +13833,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Magni officiis accusantium et consectetur ab. Et deleniti corporis enim perferendis. Eum dolores minus ex corporis nemo dolores veritatis.\n\nEa tempora quisquam dolor nesciunt omnis sint. Aut aliquid rerum in unde exercitationem sapiente officia. Ut dignissimos modi quia voluptas. Aliquam repellendus rerum et est ipsa ut officiis.\n\nSequi eaque voluptates voluptatibus sint illo nam. Repudiandae illum inventore excepturi non iusto numquam. Maxime sit explicabo ut quibusdam.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13466,7 +13863,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Id placeat minima unde et qui.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13494,7 +13891,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Eos quod perferendis ut facere commodi architecto porro. Est hic ut accusamus et earum amet. Expedita ratione eius non. Illo quo veritatis fugit.\n\nAut nesciunt reprehenderit cum quo non aliquam consequatur. Tempore nihil et labore architecto minus. Tenetur eum omnis explicabo. Et fugit incidunt itaque.\n\nAnimi rerum et id perspiciatis rerum voluptatem tenetur. Voluptatum cumque dolores alias amet nobis. Quia quibusdam voluptates explicabo at. Officia doloremque vitae aut voluptate assumenda.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13524,7 +13921,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Natus cupiditate nihil vel aut.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13552,7 +13949,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Ut rerum dolorem ut perspiciatis eveniet praesentium omnis. Eaque incidunt explicabo rem soluta nihil aut. Eligendi repudiandae et soluta dolor. Voluptates vel fugit non voluptatibus. Occaecati quisquam non iure iste dolorem.\n\nId atque cupiditate exercitationem pariatur quaerat cum. Numquam ut placeat error aut. Veritatis quas est eaque exercitationem. Voluptate nesciunt nulla libero perspiciatis.\n\nMolestiae explicabo similique maiores et veritatis porro quisquam doloremque. Voluptatem id eum tenetur dolor excepturi. Iusto officia et quia officiis. Repudiandae enim eligendi delectus quo non corporis non expedita.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13582,7 +13979,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Cupiditate non repellat velit dicta perspiciatis repellendus voluptatem.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13610,7 +14007,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Saepe maxime molestias repellendus sed consequatur et magnam. Non explicabo eaque aspernatur veritatis deserunt tempore. Vel fuga a velit sed voluptatem sit rerum consequatur. In repudiandae dolorem praesentium.\n\nAut fugiat neque sit saepe a fugiat laudantium. Molestiae veniam vel quo. Error ea distinctio in voluptas vel.\n\nEnim omnis aut dolores. A qui ad eius distinctio quia magnam. Quae commodi tenetur necessitatibus consequuntur ipsa ratione magni.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13640,7 +14037,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Dignissimos ad repellendus modi fugiat.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13668,7 +14065,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Architecto natus sunt natus sunt assumenda. Non provident enim quidem sit. Nostrum maiores soluta consequuntur architecto quia.\n\nEt dolore incidunt accusamus eligendi facere aperiam. Et provident quod et esse enim ea.\n\nAnimi ipsum minima ut error enim. Non provident veniam beatae esse sit harum repudiandae.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13698,7 +14095,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut quae sit eum.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -13726,7 +14123,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Quasi a quos ipsa tempore dolorem id cupiditate. Aliquam consequatur velit quas possimus necessitatibus eum. Qui et voluptatem nulla et accusantium nam ad praesentium. Atque aspernatur magni quidem tempore. Consequatur neque quis accusantium.\n\nPerferendis aut nihil cum. Quis vitae et ut doloribus sed. Nihil nisi incidunt tenetur.\n\nQuasi qui illo ut aut. Illum molestiae qui ad est sunt saepe. Qui et harum vero cum velit. Maiores eos tempora voluptatem placeat.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13773,7 +14170,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Delectus sunt exercitationem nisi ducimus voluptatem. Odit a earum architecto deleniti qui. Dignissimos ex officia ipsam tempore minus fuga.\n\nIpsam at maiores eligendi placeat autem. Hic perspiciatis harum aut sint molestiae.\n\nDolorem placeat sapiente quisquam quisquam. Ducimus cumque corrupti debitis repellendus et quisquam sit. Doloremque beatae alias quaerat possimus a.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13820,7 +14217,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Voluptate eos aliquid voluptas iusto vitae facilis voluptas tenetur. Rerum possimus necessitatibus saepe quos reiciendis voluptas quis. Et molestiae voluptatem voluptatibus sed blanditiis voluptates.\n\nSimilique et et id officiis sunt ut. Modi dolorem sequi vel voluptas exercitationem rerum quam. Nihil omnis voluptas ut distinctio pariatur.\n\nIpsa autem ullam maxime nisi ex et sint voluptatem. Nihil repellat qui voluptatem rerum. Quis rem ad vitae delectus reprehenderit sint commodi.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13867,7 +14264,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Et distinctio officiis non dolorem aut atque iure. Soluta doloribus quasi hic est impedit.\n\nId provident nulla dolores provident. Neque accusamus perferendis excepturi ad quaerat architecto.\n\nQuos voluptatum in qui impedit quia veritatis aut qui. Nobis est consequatur rem culpa reiciendis. Eligendi dicta totam omnis blanditiis. Ut saepe quia repellendus aut atque facilis labore.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13914,7 +14311,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Occaecati soluta quas dicta aliquid. Iusto qui ipsum iste non quo aut vel.\n\nIn officia sit alias sunt. Quidem impedit ex odio velit ut sunt quibusdam. Quia sit iste rerum est. Aut reprehenderit aut labore.\n\nEx harum dolorem officiis deleniti. Delectus sequi nesciunt aut nemo asperiores magni. Minus quis illo ducimus explicabo iure dolores nihil et. Accusamus nihil voluptatum ut temporibus quas ad amet.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -13961,7 +14358,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Quia voluptas qui dolor sint temporibus repellat earum. Quia ut sit ut doloribus maxime blanditiis temporibus. Possimus eligendi quibusdam autem voluptates.\n\nCorporis ipsum repellat magnam hic vero voluptatem quidem. Placeat porro id exercitationem dolores qui omnis dolorem. Et pariatur aut debitis. Asperiores quia consequatur illum ut id autem velit.\n\nEos aspernatur odit beatae tempore. Eum vero sed consequuntur maxime iure. Et nihil delectus voluptates perferendis.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -14008,7 +14405,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Ut et voluptate totam ad at mollitia. Labore et sint a natus sunt inventore vel. Labore et ut ratione et molestias. Totam voluptatem voluptatem at sit.\n\nQuisquam nihil cum ut in quo quasi ullam. Mollitia eaque soluta quod quaerat. Qui reprehenderit est perspiciatis dolorum omnis voluptas doloremque dolor. Debitis quos ut quod veniam.\n\nPossimus aliquid distinctio totam placeat ipsum vel. In qui iure nostrum culpa occaecati dolore aperiam atque. Repudiandae rerum necessitatibus asperiores magnam esse. Non autem omnis sed ut corporis occaecati.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -14055,7 +14452,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Et dolores qui voluptates quo velit in. Sunt distinctio ducimus qui soluta sint dolores nihil. Consequatur mollitia veritatis quo corporis. Corrupti eveniet vero est qui.\n\nExplicabo accusantium aut ut perferendis. Excepturi neque est at beatae aspernatur quasi amet.\n\nBlanditiis tenetur qui dolorem facere id error. Sunt qui assumenda libero porro. Atque ut suscipit est architecto qui ipsam.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -14102,7 +14499,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Quaerat debitis molestiae rerum ea ipsa sunt. Neque deleniti quis assumenda sunt vel est. Optio qui sunt et assumenda natus.\n\nIllo odio voluptatibus in laudantium adipisci doloribus rerum. Tempore et dignissimos est distinctio magnam. Qui aut minus vel voluptates tempora alias ipsa. Omnis suscipit ratione harum eum.\n\nVoluptas voluptates earum sequi aut repellendus et rerum. Ab odio dolor corrupti vel. Quaerat earum atque fuga et.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -14149,7 +14546,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Est est sequi perspiciatis ipsa dicta. Sunt similique necessitatibus saepe sed eveniet voluptate ex. Nemo architecto sunt in explicabo.\n\nUt consectetur repudiandae fugiat aut. Ut excepturi quasi dignissimos atque. A suscipit ipsum est rerum et eum quam. Et consequatur voluptate natus ad.\n\nId alias quibusdam esse quaerat. Dolorem voluptates dignissimos iure id. Dolore molestiae iusto dolorem nisi beatae vel.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -18303,6 +18700,831 @@ response.json()</code></pre>                                        </div>
         },
         &quot;relationships&quot;: {}
     }
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="skills-locations-GETapi-v1-volunteering-interests">
+                    List all volunteering interests
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="https://ngo-backend.test/api/v1/volunteering-interests"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">https://ngo-backend.test</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/volunteering-interests</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve a list of all available volunteering interests in the system.
+Volunteering interests are used to categorize user expertise and organization needs.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/volunteering-interests"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-volunteering-interests-Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-volunteering-interests-Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-volunteering-interests-Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-volunteering-interests-Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-volunteering-interests"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-volunteering-interests"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-volunteering-interests"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "https://ngo-backend.test/api/v1/volunteering-interests" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "https://ngo-backend.test/api/v1/volunteering-interests"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'https://ngo-backend.test/api/v1/volunteering-interests';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'https://ngo-backend.test/api/v1/volunteering-interests'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-volunteering-interests-toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-volunteering-interests', event.target.value);">
+                                                                                                            <option value="0">200</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-volunteering-interests example-response-GETapi-v1-volunteering-interests-0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;data&quot;: []
+}</code></pre>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                            </div>
+    </div>
+</div>
+
+                    <div class="sl-stack sl-stack--vertical sl-stack--8 HttpOperation sl-flex sl-flex-col sl-items-stretch sl-w-full">
+    <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+        <div class="sl-relative">
+            <div class="sl-stack sl-stack--horizontal sl-stack--5 sl-flex sl-flex-row sl-items-center">
+                <h2 class="sl-text-3xl sl-leading-tight sl-font-prose sl-text-heading sl-mt-5 sl-mb-1"
+                    id="skills-locations-GETapi-v1-volunteering-interests--volunteeringInterest_id-">
+                    Get volunteering interest details
+                </h2>
+            </div>
+        </div>
+
+        <div class="sl-relative">
+            <div title="https://ngo-backend.test/api/v1/volunteering-interests/{volunteeringInterest_id}"
+                     class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
+                >
+                                            <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
+                             style="background-color: green;"
+                        >
+                            GET
+                        </div>
+                                        <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
+                        <div dir="rtl"
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">https://ngo-backend.test</div>
+                        <div class="sl-flex-1 sl-font-semibold">/api/v1/volunteering-interests/{volunteeringInterest_id}</div>
+                    </div>
+
+                                                            </div>
+        </div>
+
+        <p>Retrieve detailed information about a specific volunteering interest,
+including its description and related information.</p>
+    </div>
+    <div class="sl-flex">
+        <div data-testid="two-column-left" class="sl-flex-1 sl-w-0">
+            <div class="sl-stack sl-stack--vertical sl-stack--10 sl-flex sl-flex-col sl-items-stretch">
+                <div class="sl-stack sl-stack--vertical sl-stack--8 sl-flex sl-flex-col sl-items-stretch">
+                                            <div class="sl-stack sl-stack--vertical sl-stack--5 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">
+                                Headers
+                            </h3>
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Content-Type</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">Accept</div>
+                                    </div>
+                                    </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        application/json
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+                            <h3 class="sl-text-2xl sl-leading-snug sl-font-prose">URL Parameters</h3>
+
+                            <div class="sl-text-sm">
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">volunteeringInterest_id</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the volunteeringInterest.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        16
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                                    <div class="sl-flex sl-relative sl-max-w-full sl-py-2 sl-pl-3">
+    <div class="sl-w-1 sl-mt-2 sl-mr-3 sl--ml-3 sl-border-t"></div>
+    <div class="sl-stack sl-stack--vertical sl-stack--1 sl-flex sl-flex-1 sl-flex-col sl-items-stretch sl-max-w-full sl-ml-2 ">
+        <div class="sl-flex sl-items-center sl-max-w-full">
+                                        <div class="sl-flex sl-items-baseline sl-text-base">
+                    <div class="sl-font-mono sl-font-semibold sl-mr-2">volunteeringInterest</div>
+                                            <span class="sl-truncate sl-text-muted">integer</span>
+                                    </div>
+                                    <div class="sl-flex-1 sl-h-px sl-mx-3"></div>
+                    <span class="sl-ml-2 sl-text-warning">required</span>
+                                    </div>
+                <div class="sl-prose sl-markdown-viewer" style="font-size: 12px;">
+            <p>The ID of the volunteering interest.</p>
+        </div>
+                                            <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-baseline sl-text-muted">
+                <span>Example:</span> <!-- <span> important for spacing -->
+                <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
+                    <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
+                        1
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+                                                            </div>
+                        </div>
+                    
+
+                    
+                    
+                                    </div>
+            </div>
+        </div>
+
+        <div data-testid="two-column-right" class="sl-relative sl-w-2/5 sl-ml-16" style="max-width: 500px;">
+            <div class="sl-stack sl-stack--vertical sl-stack--6 sl-flex sl-flex-col sl-items-stretch">
+
+                                    <div class="sl-inverted">
+    <div class="sl-overflow-y-hidden sl-rounded-lg">
+        <form class="TryItPanel sl-bg-canvas-100 sl-rounded-lg"
+              data-method="GET"
+              data-path="api/v1/volunteering-interests/{volunteeringInterest_id}"
+              data-hasfiles="0"
+              data-hasjsonbody="0">
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Headers
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-volunteering-interests--volunteeringInterest_id--Content-Type">Content-Type</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Content-Type" name="Content-Type"
+                                               id="header-GETapi-v1-volunteering-interests--volunteeringInterest_id--Content-Type"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                                                            <label aria-hidden="true"
+                                       for="header-GETapi-v1-volunteering-interests--volunteeringInterest_id--Accept">Accept</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="Accept" name="Accept"
+                                               id="header-GETapi-v1-volunteering-interests--volunteeringInterest_id--Accept"
+                                               value="application/json" data-component="header"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="sl-panel sl-outline-none sl-w-full expandable">
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            URL Parameters
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="ParameterGrid sl-p-4">
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-volunteering-interests--volunteeringInterest_id--volunteeringInterest_id">volunteeringInterest_id</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="volunteeringInterest_id" name="volunteeringInterest_id"
+                                               id="urlparam-GETapi-v1-volunteering-interests--volunteeringInterest_id--volunteeringInterest_id"
+                                               placeholder="The ID of the volunteeringInterest."
+                                               value="16" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                            <label aria-hidden="true"
+                                       for="urlparam-GETapi-v1-volunteering-interests--volunteeringInterest_id--volunteeringInterest">volunteeringInterest</label>
+                                <span class="sl-mx-3">:</span>
+                                <div class="sl-flex sl-flex-1">
+                                    <div class="sl-input sl-flex-1 sl-relative">
+                                        <input aria-label="volunteeringInterest" name="volunteeringInterest"
+                                               id="urlparam-GETapi-v1-volunteering-interests--volunteeringInterest_id--volunteeringInterest"
+                                               placeholder="The ID of the volunteering interest."
+                                               value="1" data-component="url"
+                                               class="sl-relative sl-w-full sl-h-md sl-text-base sl-pr-2.5 sl-pl-2.5 sl-rounded sl-border-transparent hover:sl-border-input focus:sl-border-primary sl-border">
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            
+            
+            
+            <div class="SendButtonHolder sl-mt-4 sl-p-4 sl-pt-0">
+                <div class="sl-stack sl-stack--horizontal sl-stack--2 sl-flex sl-flex-row sl-items-center">
+                    <button type="button" data-endpoint="GETapi-v1-volunteering-interests--volunteeringInterest_id-"
+                            class="tryItOut-btn sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-bg-primary hover:sl-bg-primary-dark active:sl-bg-primary-darker disabled:sl-bg-canvas-100 sl-text-on-primary disabled:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70"
+                    >
+                        Send Request 💥
+                    </button>
+                </div>
+            </div>
+
+            <div data-endpoint="GETapi-v1-volunteering-interests--volunteeringInterest_id-"
+                 class="tryItOut-error expandable sl-panel sl-outline-none sl-w-full" hidden>
+                <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                     role="button">
+                    <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                        <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                 data-icon="caret-down"
+                                 class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                      d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                            </svg>
+                        </div>
+                        Request failed with error
+                    </div>
+                </div>
+                <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                    <div class="sl-panel__content sl-p-4">
+                        <p class="sl-pb-2"><strong class="error-message"></strong></p>
+                        <p class="sl-pb-2">Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div data-endpoint="GETapi-v1-volunteering-interests--volunteeringInterest_id-"
+                     class="tryItOut-response expandable sl-panel sl-outline-none sl-w-full" hidden>
+                    <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-4 sl-pl-3 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-cursor-pointer sl-select-none"
+                         role="button">
+                        <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                            <div class="sl-flex sl-items-center sl-mr-1.5 expansion-chevrons expansion-chevrons-solid expanded">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                     data-icon="caret-down"
+                                     class="svg-inline--fa fa-caret-down fa-fw sl-icon" role="img"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                          d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"></path>
+                                </svg>
+                            </div>
+                            Received response
+                        </div>
+                    </div>
+                    <div class="sl-panel__content-wrapper sl-bg-canvas-100 children" role="region">
+                        <div class="sl-panel__content sl-p-4">
+                            <p class="sl-pb-2 response-status"></p>
+                            <pre><code class="sl-pb-2 response-content language-json"
+                                       data-empty-response-text="<Empty response>"
+                                       style="max-height: 300px;"></code></pre>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+                
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-h-lg">
+                                    <div class="sl--ml-2">
+                                        Example request:
+                                        <select class="example-request-lang-toggle sl-text-base"
+                                                aria-label="Request Sample Language"
+                                                onchange="switchExampleLanguage(event.target.value);">
+                                                                                            <option>bash</option>
+                                                                                            <option>javascript</option>
+                                                                                            <option>php</option>
+                                                                                            <option>python</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-bash"
+                                     style="">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-bash">curl --request GET \
+    --get "https://ngo-backend.test/api/v1/volunteering-interests/16" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-javascript"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-javascript">const url = new URL(
+    "https://ngo-backend.test/api/v1/volunteering-interests/16"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-php"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$url = 'https://ngo-backend.test/api/v1/volunteering-interests/16';
+$response = $client-&gt;get(
+    $url,
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="sl-bg-canvas-100 example-request example-request-python"
+                                     style="display: none;">
+                                    <div class="sl-px-0 sl-py-1">
+                                        <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
+                                            <pre><code class="language-python">import requests
+import json
+
+url = 'https://ngo-backend.test/api/v1/volunteering-interests/16'
+headers = {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+}
+
+response = requests.request('GET', url, headers=headers)
+response.json()</code></pre>                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    
+                                            <div class="sl-panel sl-outline-none sl-w-full sl-rounded-lg">
+                            <div class="sl-panel__titlebar sl-flex sl-items-center sl-relative focus:sl-z-10 sl-text-base sl-leading-none sl-pr-3 sl-pl-4 sl-bg-canvas-200 sl-text-body sl-border-input focus:sl-border-primary sl-select-none">
+                                <div class="sl-flex sl-flex-1 sl-items-center sl-py-2">
+                                    <div class="sl--ml-2">
+                                        <div class="sl-h-sm sl-text-base sl-font-medium sl-px-1.5 sl-text-muted sl-rounded sl-border-transparent sl-border">
+                                            <div class="sl-mb-2 sl-inline-block">Example response:</div>
+                                            <div class="sl-mb-2 sl-inline-block">
+                                                <select
+                                                        class="example-response-GETapi-v1-volunteering-interests--volunteeringInterest_id--toggle sl-text-base"
+                                                        aria-label="Response sample"
+                                                        onchange="switchExampleResponse('GETapi-v1-volunteering-interests--volunteeringInterest_id-', event.target.value);">
+                                                                                                            <option value="0">404</option>
+                                                                                                    </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button"
+                                        class="sl-button sl-h-sm sl-text-base sl-font-medium sl-px-1.5 hover:sl-bg-canvas-50 active:sl-bg-canvas-100 sl-text-muted hover:sl-text-body focus:sl-text-body sl-rounded sl-border-transparent sl-border disabled:sl-opacity-70">
+                                    <div class="sl-mx-0">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy"
+                                             class="svg-inline--fa fa-copy fa-fw fa-sm sl-icon" role="img"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                  d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                                                            <div class="sl-panel__content-wrapper sl-bg-canvas-100 example-response-GETapi-v1-volunteering-interests--volunteeringInterest_id- example-response-GETapi-v1-volunteering-interests--volunteeringInterest_id--0"
+                                     style=" "
+                                >
+                                    <div class="sl-panel__content sl-p-0">                                            <details class="sl-pl-2">
+                                                <summary style="cursor: pointer; list-style: none;">
+                                                    <small>
+                                                        <span class="expansion-chevrons">
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+         data-icon="chevron-right"
+         class="svg-inline--fa fa-chevron-right fa-fw sl-icon sl-text-muted"
+         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path>
+    </svg>
+                                                            </span>
+                                                        Headers
+                                                    </small>
+                                                </summary>
+                                                <pre><code class="language-http">                                                            cache-control
+                                                            : no-cache, private
+                                                                                                                    content-type
+                                                            : application/json
+                                                                                                                    access-control-allow-origin
+                                                            : *
+                                                         </code></pre>
+                                            </details>
+                                                                                                                                                                        
+                                            <pre><code style="max-height: 300px;"
+                                                       class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\VolunteeringInterest] 16&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -25182,7 +26404,7 @@ response.json()</code></pre>                                        </div>
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        program
+                        opportunity
                     </div>
                 </div>
             </div>
@@ -25276,7 +26498,7 @@ response.json()</code></pre>                                        </div>
                                      id="json-body-GETapi-v1-feed-search"
                                      style="font-family: var(--font-code); font-size: 12px; line-height: var(--lh-code);"
                                 >{
-    "type": "program"
+    "type": "opportunity"
 }</div>
                             </div>
                                             </div>
@@ -25374,7 +26596,7 @@ You can check the Dev Tools console for debugging information.</p>
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"type\": \"program\"
+    \"type\": \"opportunity\"
 }"
 </code></pre>                                        </div>
                                     </div>
@@ -25393,7 +26615,7 @@ const headers = {
 };
 
 let body = {
-    "type": "program"
+    "type": "opportunity"
 };
 
 fetch(url, {
@@ -25417,7 +26639,7 @@ $response = $client-&gt;get(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'type' =&gt; 'program',
+            'type' =&gt; 'opportunity',
         ],
     ]
 );
@@ -25434,7 +26656,7 @@ import json
 
 url = 'https://ngo-backend.test/api/v1/feed/search'
 payload = {
-    "type": "program"
+    "type": "opportunity"
 }
 headers = {
   'Content-Type': 'application/json',
@@ -25506,801 +26728,10161 @@ response.json()</code></pre>                                        </div>
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;organizations&quot;: [],
-    &quot;programs&quot;: [
+    &quot;programs&quot;: [],
+    &quot;opportunities&quot;: [
         {
-            &quot;type&quot;: &quot;programs&quot;,
+            &quot;type&quot;: &quot;opportunities&quot;,
             &quot;id&quot;: &quot;1&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ex veritatis saepe non optio.&quot;,
-                &quot;description&quot;: &quot;Corrupti eligendi fugit neque id. Ipsam amet alias aut. Fugiat et atque vel ullam officiis voluptas rerum.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ex%20veritatis%20saepe%20non%20optio.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;72&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Earum iusto dignissimos odio nisi dolor.&quot;,
-                &quot;description&quot;: &quot;Similique praesentium porro at unde rerum ut ratione. Quo minus rerum temporibus ex. Officiis laboriosam et natus mollitia qui harum. Aut exercitationem sint libero ut ea iusto et.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Earum%20iusto%20dignissimos%20odio%20nisi%20dolor.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;71&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Consectetur dolores deserunt dolore ducimus illo est perspiciatis.&quot;,
-                &quot;description&quot;: &quot;Sapiente consectetur et rerum provident quisquam iusto esse. A ducimus et adipisci ut non velit. Illum vitae rerum est. Magni itaque doloribus accusantium beatae iure quia ducimus.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Consectetur%20dolores%20deserunt%20dolore%20ducimus%20illo%20est%20perspiciatis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;70&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Error voluptatem eos beatae sequi.&quot;,
-                &quot;description&quot;: &quot;Et adipisci aliquam ea quod et expedita. Fugiat amet eum distinctio cum quia ea. Accusantium nihil est dolor voluptas ratione itaque officiis. Praesentium nulla ut et est consequatur ipsum veniam. Necessitatibus quis aliquam cumque.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Error%20voluptatem%20eos%20beatae%20sequi.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;69&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Dolore voluptatem quasi consequatur laudantium qui.&quot;,
-                &quot;description&quot;: &quot;Hic incidunt voluptas facilis rerum doloremque voluptas. Enim at iste dolorem aliquam voluptatem. Qui eum labore ipsam eum.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dolore%20voluptatem%20quasi%20consequatur%20laudantium%20qui.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;68&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Non ratione et sint et.&quot;,
-                &quot;description&quot;: &quot;Debitis nostrum quibusdam cupiditate eius ut perferendis qui recusandae. Et voluptatem sed ea qui quia eveniet cupiditate. Officiis soluta similique voluptatem asperiores.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Non%20ratione%20et%20sint%20et.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;67&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Aut consequatur voluptatem totam dolore sit.&quot;,
-                &quot;description&quot;: &quot;Beatae modi iure nulla earum praesentium unde unde. Enim magni enim eveniet et voluptatem. In voluptas officia quo sunt. Illo sed officia a maiores ipsam et.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aut%20consequatur%20voluptatem%20totam%20dolore%20sit.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;66&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Eos voluptatem consequatur voluptates laboriosam omnis.&quot;,
-                &quot;description&quot;: &quot;Omnis beatae quae aperiam facere. Neque et nesciunt dolor ut qui exercitationem architecto quibusdam. Sed error voluptatem dolorem quia voluptatem.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Eos%20voluptatem%20consequatur%20voluptates%20laboriosam%20omnis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;65&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;In perspiciatis qui consequatur itaque aut.&quot;,
-                &quot;description&quot;: &quot;Sit architecto nisi qui ducimus aliquid corrupti et. Molestiae sit repellendus quibusdam culpa sit. Expedita repellat quo unde et non quis qui. Et facilis et similique officiis culpa ut voluptates.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=In%20perspiciatis%20qui%20consequatur%20itaque%20aut.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;64&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Dignissimos et enim dolores dolorem corrupti nihil.&quot;,
-                &quot;description&quot;: &quot;Natus amet quasi pariatur quos. Autem esse amet eveniet vel mollitia labore odit. Eaque ut quis est libero quidem. Ipsum voluptas itaque accusantium ut beatae magni labore.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dignissimos%20et%20enim%20dolores%20dolorem%20corrupti%20nihil.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;63&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptas nostrum expedita corrupti suscipit neque eius ut.&quot;,
-                &quot;description&quot;: &quot;Impedit error occaecati esse aliquid veritatis accusamus voluptatem. Molestiae facere voluptatum laborum excepturi quisquam ut. Laudantium ex occaecati harum. Nam molestiae culpa ut ut eos.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptas%20nostrum%20expedita%20corrupti%20suscipit%20neque%20eius%20ut.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;62&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Illo fugit ipsum suscipit placeat odit doloremque ut ullam.&quot;,
-                &quot;description&quot;: &quot;Magni laboriosam nostrum vel. Accusamus eum beatae natus ut ut. Voluptate sequi ut rerum delectus ab iste adipisci. Quo sequi repudiandae molestias aspernatur animi exercitationem qui neque.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Illo%20fugit%20ipsum%20suscipit%20placeat%20odit%20doloremque%20ut%20ullam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;61&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Qui at non et aliquid nostrum ea.&quot;,
-                &quot;description&quot;: &quot;Deleniti vel accusamus eos beatae quam. Aperiam dolorum fugiat quasi neque omnis amet. Nam error nemo nihil pariatur et id. Dolorem minus in blanditiis numquam aut.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Qui%20at%20non%20et%20aliquid%20nostrum%20ea.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;60&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ratione delectus repudiandae voluptatem architecto pariatur incidunt aliquid modi.&quot;,
-                &quot;description&quot;: &quot;Nisi cumque neque unde natus cupiditate. Voluptatem repellat vel praesentium iste amet et eveniet. Sit sed dolores consequatur dignissimos doloremque iste veritatis.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ratione%20delectus%20repudiandae%20voluptatem%20architecto%20pariatur%20incidunt%20aliquid%20modi.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;59&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptas assumenda quae blanditiis alias odit doloribus.&quot;,
-                &quot;description&quot;: &quot;Totam expedita sed debitis beatae quam veniam doloremque. Aspernatur qui nostrum quibusdam deleniti fugiat sunt ea dolores.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptas%20assumenda%20quae%20blanditiis%20alias%20odit%20doloribus.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;58&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Quaerat dicta iste vero possimus ea cupiditate.&quot;,
-                &quot;description&quot;: &quot;Natus deserunt ullam pariatur corporis hic aut. Exercitationem soluta architecto esse et. Excepturi inventore hic voluptatem aperiam rerum et corrupti. Rerum consequatur voluptatem deleniti.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Quaerat%20dicta%20iste%20vero%20possimus%20ea%20cupiditate.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;57&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Natus quasi ab beatae sit.&quot;,
-                &quot;description&quot;: &quot;Quae et esse cumque explicabo iure voluptate. Aliquid excepturi quo aut atque eius tempora quia placeat. Sequi maiores repellendus natus ut non. Ad ea itaque deserunt doloribus eum.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Natus%20quasi%20ab%20beatae%20sit.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;56&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Deserunt ducimus voluptatum consequatur.&quot;,
-                &quot;description&quot;: &quot;Quidem vitae id dolor recusandae. Repellendus assumenda laborum placeat neque voluptas ea. Occaecati est iusto possimus ad recusandae ut sit.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Deserunt%20ducimus%20voluptatum%20consequatur.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;55&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Aut nesciunt explicabo placeat atque enim corrupti consequatur facere.&quot;,
-                &quot;description&quot;: &quot;Totam sit quo quasi est ut. Et quo at dolores et harum ut nihil nisi. Aut est blanditiis occaecati nam quae maxime. Fugit labore aut sint voluptas animi ipsam est provident.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aut%20nesciunt%20explicabo%20placeat%20atque%20enim%20corrupti%20consequatur%20facere.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;54&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Aperiam cumque hic libero et necessitatibus.&quot;,
-                &quot;description&quot;: &quot;Expedita aut eveniet ut voluptatem corrupti autem ipsa nesciunt. Ut ipsam atque fuga a eligendi. Perferendis inventore nihil recusandae est ut atque voluptatem rerum. Non voluptas eius nihil dolorem in in.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aperiam%20cumque%20hic%20libero%20et%20necessitatibus.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;53&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Officia ullam assumenda necessitatibus perferendis totam laborum eos.&quot;,
-                &quot;description&quot;: &quot;Ullam et dolorem qui laudantium voluptates natus. Ipsa ex et omnis quis vel iure. Et dolorem reprehenderit deserunt est. Enim distinctio enim et rerum.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Officia%20ullam%20assumenda%20necessitatibus%20perferendis%20totam%20laborum%20eos.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;52&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptas sed dolorum qui.&quot;,
-                &quot;description&quot;: &quot;Asperiores quod eius cumque dolorum. Voluptatum dicta autem est. In maiores eligendi nobis et. Accusamus voluptas officiis voluptatem dolore et eos nihil. Modi non omnis ex praesentium optio voluptas.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptas%20sed%20dolorum%20qui.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;51&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Delectus eaque suscipit reprehenderit occaecati omnis alias.&quot;,
-                &quot;description&quot;: &quot;Nostrum sapiente voluptatum est eum occaecati ex. Consequatur vitae et nisi ab nobis rerum quasi. Enim autem rem repellat possimus dolor aliquid facere. Ipsa blanditiis necessitatibus minus quisquam est.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Delectus%20eaque%20suscipit%20reprehenderit%20occaecati%20omnis%20alias.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;50&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nihil incidunt deleniti et aut veniam ratione deserunt.&quot;,
-                &quot;description&quot;: &quot;Itaque sapiente sequi qui sunt modi. Cumque qui numquam perferendis expedita eligendi nulla.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Nihil%20incidunt%20deleniti%20et%20aut%20veniam%20ratione%20deserunt.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;49&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Aspernatur quo distinctio ut odio doloremque.&quot;,
-                &quot;description&quot;: &quot;Modi omnis explicabo sequi nemo pariatur asperiores debitis. Et omnis blanditiis quia iure debitis adipisci ab. Sit et sunt et est voluptatibus.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aspernatur%20quo%20distinctio%20ut%20odio%20doloremque.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;48&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptatum asperiores vel voluptatum.&quot;,
-                &quot;description&quot;: &quot;Quae quia qui nihil eius tenetur hic. Ex consequatur explicabo earum. Ea consequatur velit est et vel.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptatum%20asperiores%20vel%20voluptatum.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;47&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nesciunt consequatur delectus ratione soluta consectetur nihil sit.&quot;,
-                &quot;description&quot;: &quot;Nihil et adipisci nobis inventore cumque ullam est. Amet ut ut ipsam voluptatibus recusandae voluptates aut.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Nesciunt%20consequatur%20delectus%20ratione%20soluta%20consectetur%20nihil%20sit.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;46&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Dolorum reprehenderit iusto dolore recusandae quas maxime animi.&quot;,
-                &quot;description&quot;: &quot;Iure et quisquam quam. Molestiae velit consequatur dolor ut omnis quisquam eaque.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dolorum%20reprehenderit%20iusto%20dolore%20recusandae%20quas%20maxime%20animi.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;45&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Blanditiis aspernatur a asperiores quo odio magnam.&quot;,
-                &quot;description&quot;: &quot;Doloribus nostrum voluptatibus illum voluptate reprehenderit vel. Est facere officiis illum odio. Mollitia consectetur enim corporis tempora.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Blanditiis%20aspernatur%20a%20asperiores%20quo%20odio%20magnam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;44&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Cupiditate nostrum est qui laboriosam aut quis quaerat.&quot;,
-                &quot;description&quot;: &quot;Voluptate quos aut nobis nam adipisci. Inventore quia autem ab eos iste in rem. Eaque rerum nobis fuga provident.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Cupiditate%20nostrum%20est%20qui%20laboriosam%20aut%20quis%20quaerat.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;43&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ad voluptatum ut quas et iusto.&quot;,
-                &quot;description&quot;: &quot;Illum quaerat omnis omnis et distinctio rem officiis. Corporis iure ducimus illo ipsa porro. Dolor possimus et eos illum soluta sint.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ad%20voluptatum%20ut%20quas%20et%20iusto.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;42&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Corporis sit beatae perspiciatis quis placeat.&quot;,
-                &quot;description&quot;: &quot;Labore eligendi nesciunt velit assumenda blanditiis aperiam architecto voluptatum. Minima rem dolorem enim quidem ad. Est sit qui molestiae consequuntur voluptatem omnis itaque nihil.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Corporis%20sit%20beatae%20perspiciatis%20quis%20placeat.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;41&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Repellat aut in reprehenderit autem quam accusantium.&quot;,
-                &quot;description&quot;: &quot;Non veniam qui fugit quis ullam et. Vitae labore sit qui quis id.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Repellat%20aut%20in%20reprehenderit%20autem%20quam%20accusantium.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;40&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nulla rerum consectetur labore iure dolorem consequatur totam.&quot;,
-                &quot;description&quot;: &quot;Adipisci alias non consectetur quae et. Placeat nihil accusantium nihil illum nesciunt ea in. Consequuntur temporibus iste debitis cumque veritatis officiis. Voluptatem inventore voluptatem ea eos numquam aliquam dolores.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Nulla%20rerum%20consectetur%20labore%20iure%20dolorem%20consequatur%20totam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;39&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Esse alias enim harum aut odio soluta dignissimos.&quot;,
-                &quot;description&quot;: &quot;In et quas consequatur quia eum. Illum delectus officiis hic deserunt ut itaque ut. Quas impedit ullam qui aut est.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Esse%20alias%20enim%20harum%20aut%20odio%20soluta%20dignissimos.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;38&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Consequatur laboriosam et rerum consequatur.&quot;,
-                &quot;description&quot;: &quot;Sit quaerat eligendi sunt eaque. Dolore et sequi illum nulla ad sit repellendus. Illo a reiciendis ipsum nihil voluptate ipsum iure.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Consequatur%20laboriosam%20et%20rerum%20consequatur.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;37&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Accusantium temporibus sit aut et quibusdam.&quot;,
-                &quot;description&quot;: &quot;Possimus culpa nesciunt ut voluptates ab et nihil. Est ab sequi deserunt ut vero earum tempore. Numquam quia iure est. Non blanditiis est quas et ipsum sint labore.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Accusantium%20temporibus%20sit%20aut%20et%20quibusdam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;36&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ut perspiciatis omnis eveniet qui repellat architecto soluta.&quot;,
-                &quot;description&quot;: &quot;Magni quis et error nihil sunt aliquid fuga. Non quasi tempore maxime qui. Et iusto ex accusamus aut consectetur sit magnam. Nobis quaerat sit quae accusamus qui sequi sit.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ut%20perspiciatis%20omnis%20eveniet%20qui%20repellat%20architecto%20soluta.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;35&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Autem aut ullam error enim ut.&quot;,
-                &quot;description&quot;: &quot;Debitis aut harum ipsam molestiae. A ipsam voluptatem adipisci dicta praesentium expedita praesentium. Est quas sed nostrum unde vitae distinctio. Occaecati tempora qui pariatur.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Autem%20aut%20ullam%20error%20enim%20ut.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;34&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ipsam voluptatem praesentium id doloribus cumque et.&quot;,
-                &quot;description&quot;: &quot;Sed maiores numquam et culpa eum sed. Placeat et velit eligendi rerum non. Unde est dignissimos optio est sit. Corrupti tenetur et dolores harum quia et numquam.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ipsam%20voluptatem%20praesentium%20id%20doloribus%20cumque%20et.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;33&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Maiores quia ut non quas repellat beatae.&quot;,
-                &quot;description&quot;: &quot;Dolor omnis qui esse neque sed. Totam voluptatem illum voluptatum officiis laudantium. Dolor voluptas aut cupiditate a.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Maiores%20quia%20ut%20non%20quas%20repellat%20beatae.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;32&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Repellat aspernatur vel iusto.&quot;,
-                &quot;description&quot;: &quot;Laudantium ut consequatur quos dolorem dolor exercitationem molestias. Hic est amet ut blanditiis id similique rerum. Quis itaque non laudantium perspiciatis at et. Alias est veritatis consequatur culpa voluptates quo sunt.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Repellat%20aspernatur%20vel%20iusto.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;31&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nisi corrupti dignissimos laborum non dolores.&quot;,
-                &quot;description&quot;: &quot;Ut ab molestias numquam quae non non aliquam. At magni fugiat itaque veniam vero. Itaque accusantium dicta molestiae aperiam sint non.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Nisi%20corrupti%20dignissimos%20laborum%20non%20dolores.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;30&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Consequatur praesentium odit vero quas laudantium consequatur.&quot;,
-                &quot;description&quot;: &quot;Non occaecati perferendis eum fuga placeat consectetur. Tenetur quis consectetur quam nesciunt occaecati ut delectus. Omnis magni fugit et ut accusamus quo. Officia velit sunt ipsum et possimus recusandae fuga. Hic veritatis repellendus repudiandae corporis ut neque.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Consequatur%20praesentium%20odit%20vero%20quas%20laudantium%20consequatur.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;29&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Soluta in voluptatibus provident eum perferendis.&quot;,
-                &quot;description&quot;: &quot;Cum quam exercitationem inventore sint dignissimos rem amet ut. Omnis exercitationem voluptatem blanditiis explicabo porro qui modi. Nihil esse molestias porro. Sed temporibus autem molestiae vitae voluptatem accusamus. Quae illo necessitatibus et quidem.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Soluta%20in%20voluptatibus%20provident%20eum%20perferendis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;28&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Est deleniti eveniet odit quis et.&quot;,
-                &quot;description&quot;: &quot;Aperiam sed expedita veniam odio est et. Ipsam rerum molestias tempora atque. Non molestiae recusandae quibusdam. Accusantium odio quae nihil quidem omnis rerum.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Est%20deleniti%20eveniet%20odit%20quis%20et.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;27&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Hic temporibus ipsum corporis ipsum.&quot;,
-                &quot;description&quot;: &quot;Ducimus ut autem cumque quia unde. Ut praesentium ratione libero assumenda nostrum. Voluptas omnis asperiores aut earum cumque nesciunt aliquam quia.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Hic%20temporibus%20ipsum%20corporis%20ipsum.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;26&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Quos sapiente recusandae rerum.&quot;,
-                &quot;description&quot;: &quot;Est dolorem praesentium modi officiis veniam ducimus ut. Fuga neque aliquam occaecati quia labore. Blanditiis blanditiis tenetur eum necessitatibus officia at fugiat. Modi quasi voluptas dolorem sed earum delectus quam.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Quos%20sapiente%20recusandae%20rerum.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;25&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Odio in consequatur reiciendis aperiam vel.&quot;,
-                &quot;description&quot;: &quot;Eos quis est quae magni quis delectus et. Omnis consequuntur debitis iste sunt. Voluptatem veritatis aperiam iure velit enim consequatur.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Odio%20in%20consequatur%20reiciendis%20aperiam%20vel.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;24&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Sed a placeat rerum error corporis.&quot;,
-                &quot;description&quot;: &quot;Libero incidunt quia quia et eveniet ratione. Vel unde recusandae quia eligendi ut inventore et. Occaecati sapiente doloribus non ab est.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Sed%20a%20placeat%20rerum%20error%20corporis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;23&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Velit rerum earum rem velit consequuntur nihil.&quot;,
-                &quot;description&quot;: &quot;Ut culpa assumenda totam tenetur. Distinctio enim nam corporis magnam facere soluta. Modi ut perferendis officia necessitatibus vitae architecto sunt. Est saepe nihil consequuntur reprehenderit cupiditate unde.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Velit%20rerum%20earum%20rem%20velit%20consequuntur%20nihil.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;22&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Blanditiis accusamus non veritatis perferendis dolor omnis.&quot;,
-                &quot;description&quot;: &quot;Et est et doloribus totam ullam officiis ut. Ratione repellendus autem id ad officia quia enim. Qui sit enim non recusandae accusamus nisi. Qui voluptas est perferendis dicta ratione esse deleniti molestias.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Blanditiis%20accusamus%20non%20veritatis%20perferendis%20dolor%20omnis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;21&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Provident rem est rerum dolorem et.&quot;,
-                &quot;description&quot;: &quot;Et reiciendis veniam a nihil modi necessitatibus. Nemo est porro qui ea. Ducimus saepe laborum et nihil. Est odio nobis aut aliquam.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Provident%20rem%20est%20rerum%20dolorem%20et.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;20&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Velit tempore blanditiis pariatur natus iste laborum.&quot;,
-                &quot;description&quot;: &quot;Est esse et consequatur alias tempore. Ut ex ad magnam rerum id. Dolorem maiores blanditiis quia aut harum sapiente voluptatibus. Ut non et architecto cum perferendis rerum autem.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Velit%20tempore%20blanditiis%20pariatur%20natus%20iste%20laborum.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;19&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Earum odio unde aut voluptatem.&quot;,
-                &quot;description&quot;: &quot;Nihil eum eos possimus maxime sed quibusdam. Commodi sed est dolorem nemo at animi vel. Et adipisci fugiat veniam officiis minima dolor. Eos harum velit praesentium modi similique dicta quo.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Earum%20odio%20unde%20aut%20voluptatem.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;18&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Quia nam et distinctio provident doloremque voluptatem.&quot;,
-                &quot;description&quot;: &quot;Quaerat blanditiis repudiandae est. Autem iste dolor illum quos rem molestiae. Magnam ea ut et saepe. Ipsam autem iure aut.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Quia%20nam%20et%20distinctio%20provident%20doloremque%20voluptatem.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;17&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Veritatis sed eaque provident totam.&quot;,
-                &quot;description&quot;: &quot;Dolorum voluptas voluptatem perspiciatis repellendus rerum nam laborum. Qui voluptatibus quis facilis qui qui nulla aut voluptate. Velit explicabo doloremque repellendus eius nam voluptate.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Veritatis%20sed%20eaque%20provident%20totam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;16&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptas reprehenderit neque autem ducimus praesentium laboriosam et.&quot;,
-                &quot;description&quot;: &quot;Qui hic distinctio autem quam est ab laborum harum. Qui et asperiores ullam nemo. Quo ratione qui numquam ratione. Eum deserunt quo delectus autem.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptas%20reprehenderit%20neque%20autem%20ducimus%20praesentium%20laboriosam%20et.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;15&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Cum unde magni id quas nihil.&quot;,
-                &quot;description&quot;: &quot;Iure molestias velit sapiente modi iure rerum. Atque aperiam omnis qui quae. Eaque cum quia et tenetur id.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Cum%20unde%20magni%20id%20quas%20nihil.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;14&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Nobis nulla rerum sapiente voluptatibus doloribus numquam.&quot;,
-                &quot;description&quot;: &quot;Pariatur voluptas et molestiae blanditiis et quibusdam ut. Quia tempore occaecati dolor aspernatur in dolor ea ea. Rerum voluptate dolores eaque dolorum neque facere illo vero. Dicta eligendi dolorem veniam distinctio assumenda eius modi consequatur.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Nobis%20nulla%20rerum%20sapiente%20voluptatibus%20doloribus%20numquam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;13&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Error placeat nostrum iure aut et voluptatem.&quot;,
-                &quot;description&quot;: &quot;Fugit ut possimus quis quasi. Qui minima pariatur dicta. Non aut voluptatem libero labore.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Error%20placeat%20nostrum%20iure%20aut%20et%20voluptatem.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;12&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Laudantium atque earum enim saepe iure labore sit.&quot;,
-                &quot;description&quot;: &quot;Eos itaque non quod voluptas. Rerum est explicabo dolor ut ducimus. Et deleniti quod aut consequatur illo officia. Qui laboriosam voluptas voluptatibus qui est quasi deserunt.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Laudantium%20atque%20earum%20enim%20saepe%20iure%20labore%20sit.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;11&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptatum aut placeat totam mollitia veritatis est deserunt.&quot;,
-                &quot;description&quot;: &quot;Recusandae saepe et commodi quibusdam aspernatur voluptatem. Voluptas sit natus quia quia quia natus atque.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptatum%20aut%20placeat%20totam%20mollitia%20veritatis%20est%20deserunt.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;10&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ut et nam velit.&quot;,
-                &quot;description&quot;: &quot;Sit quia numquam incidunt consequatur placeat. Inventore quia omnis est ullam magni optio impedit. Omnis minima ea non et molestiae sunt. Architecto voluptatem distinctio molestiae.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ut%20et%20nam%20velit.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;9&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Facilis est delectus voluptatem corrupti perspiciatis sed.&quot;,
-                &quot;description&quot;: &quot;Dignissimos voluptatum minima doloremque. Molestiae ex quasi eum. Cumque eum voluptatem laboriosam quae aut consectetur sit. Necessitatibus magni omnis et accusantium saepe quia. Et mollitia eligendi molestias.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Facilis%20est%20delectus%20voluptatem%20corrupti%20perspiciatis%20sed.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;8&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Blanditiis nesciunt repellendus omnis similique error.&quot;,
-                &quot;description&quot;: &quot;Dignissimos dolor vero sint ipsam voluptas illo. Iure perferendis fuga quia nostrum et eos harum ut. Deserunt rerum et fuga voluptatem natus in pariatur aut. Aspernatur reprehenderit voluptatem vel consequuntur aut eveniet.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Blanditiis%20nesciunt%20repellendus%20omnis%20similique%20error.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;7&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Reprehenderit saepe corrupti quia deleniti.&quot;,
-                &quot;description&quot;: &quot;Aspernatur reprehenderit voluptas culpa quia sequi. Aut hic eligendi temporibus nesciunt et distinctio aut eum. In dolor delectus vel ea accusantium et optio.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Reprehenderit%20saepe%20corrupti%20quia%20deleniti.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;6&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Distinctio similique nulla commodi nemo et repudiandae.&quot;,
-                &quot;description&quot;: &quot;At facilis iusto quia itaque sit eaque maxime. Quia voluptatem doloremque maxime et beatae. Quia quidem error dolorum officia odit. Velit enim qui numquam libero officia omnis ad excepturi.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Distinctio%20similique%20nulla%20commodi%20nemo%20et%20repudiandae.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;5&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Tenetur et deleniti ad incidunt id ipsam.&quot;,
-                &quot;description&quot;: &quot;Perspiciatis sed officiis ratione rerum molestias repellendus. Quia optio voluptas voluptas quo unde. Dolor quia assumenda dolores beatae perspiciatis quo. Est voluptates aut neque cupiditate nihil voluptatem itaque.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Tenetur%20et%20deleniti%20ad%20incidunt%20id%20ipsam.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
+            &quot;title&quot;: &quot;Editor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Editor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Accusantium expedita officiis rerum et est doloremque reprehenderit. Quod ut inventore qui sit dolorum. Voluptatem magni ea qui inventore. At tenetur incidunt amet.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 1,
+            &quot;programId&quot;: 1,
+            &quot;tags&quot;: [
+                &quot;velit&quot;,
+                &quot;consectetur&quot;,
+                &quot;alias&quot;
+            ],
+            &quot;duration&quot;: 131,
+            &quot;expiryDate&quot;: &quot;2025-10-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sed quam totam eaque. Expedita voluptatem dicta a dolor dignissimos. Voluptatem sequi libero assumenda quis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Similique omnis aliquam velit magnam.&quot;,
+                &quot;Ut nesciunt aliquam quo blanditiis provident in.&quot;,
+                &quot;Natus dolorem quo sint voluptas ut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Iure non et quia et labore molestiae.&quot;,
+                &quot;Saepe explicabo est nihil aut excepturi repellendus molestiae.&quot;,
+                &quot;Est at nobis et fugiat quod debitis et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 38,
+            &quot;latitude&quot;: &quot;55.13560800&quot;,
+            &quot;longitude&quot;: &quot;52.54589500&quot;,
+            &quot;locationDescription&quot;: &quot;8239 Schneider Divide\nEast Nicolastown, NH 77893-4604&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sapiente non laborum illo corrupti qui.&quot;,
+                &quot;Itaque consequatur quod quasi qui.&quot;,
+                &quot;Vel aut a et eos rem repudiandae.&quot;
+            ],
+            &quot;sectorId&quot;: 72,
+            &quot;extra&quot;: &quot;Ea quidem mollitia sequi omnis quas vitae. Dolor quia modi nihil perferendis voluptatem. Rerum explicabo dicta officia inventore reprehenderit corrupti sit. Nihil sint ut ut id et nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
             &quot;id&quot;: &quot;4&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptatem aut consequuntur autem et dolorem voluptatem voluptate.&quot;,
-                &quot;description&quot;: &quot;Sapiente ex sed exercitationem molestiae eius eos animi. Numquam cumque qui magnam sit atque laboriosam laboriosam. Earum voluptas et est reiciendis ut tempora. Commodi odit sit porro dolore aspernatur porro iste.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptatem%20aut%20consequuntur%20autem%20et%20dolorem%20voluptatem%20voluptate.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
+            &quot;title&quot;: &quot;Heating Equipment Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Heating%20Equipment%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quidem labore enim qui est aut voluptatum. Dolorem temporibus eaque sunt corporis. Nam dolore non corporis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 1,
+            &quot;programId&quot;: 2,
+            &quot;tags&quot;: [
+                &quot;voluptatum&quot;,
+                &quot;et&quot;,
+                &quot;quaerat&quot;
+            ],
+            &quot;duration&quot;: 38,
+            &quot;expiryDate&quot;: &quot;2025-12-06T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Temporibus ex id necessitatibus voluptas est sit. Nihil rem in rerum et repellat. Commodi quia fugiat ipsum veniam neque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Alias vero quaerat voluptatum sapiente.&quot;,
+                &quot;Quidem dolores et harum excepturi.&quot;,
+                &quot;Dolores dolor temporibus voluptatibus rerum minima vitae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Molestiae omnis expedita quia officia.&quot;,
+                &quot;Dignissimos dignissimos autem animi nesciunt dolor rem harum.&quot;,
+                &quot;Minus consequatur ullam et quas.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 41,
+            &quot;latitude&quot;: &quot;-60.51273300&quot;,
+            &quot;longitude&quot;: &quot;105.91843400&quot;,
+            &quot;locationDescription&quot;: &quot;54664 Lueilwitz Parks\nWest Austenmouth, NH 12406&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolorem sit neque fugiat nesciunt.&quot;,
+                &quot;Quam ex asperiores ipsam sit possimus debitis.&quot;,
+                &quot;Amet nulla nemo molestias.&quot;
+            ],
+            &quot;sectorId&quot;: 75,
+            &quot;extra&quot;: &quot;Autem et minus voluptas doloribus cum ut sed modi. Impedit vitae magnam laboriosam veniam cupiditate. Veniam consequuntur totam dolorum eos aut earum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
         },
         {
-            &quot;type&quot;: &quot;programs&quot;,
+            &quot;type&quot;: &quot;opportunities&quot;,
             &quot;id&quot;: &quot;3&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ullam ut earum ut impedit asperiores.&quot;,
-                &quot;description&quot;: &quot;Culpa ea ut voluptate et nihil. Molestiae maxime amet repellat harum vel qui. Consequatur iusto qui harum consequatur sed.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ullam%20ut%20earum%20ut%20impedit%20asperiores.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
+            &quot;title&quot;: &quot;Personal Home Care Aide Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Personal%20Home%20Care%20Aide%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Illo quod assumenda reprehenderit et voluptates aut. Quos aspernatur qui id amet. Hic in dolor quia vel. Quidem harum optio in explicabo corrupti blanditiis possimus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 1,
+            &quot;programId&quot;: 1,
+            &quot;tags&quot;: [
+                &quot;autem&quot;,
+                &quot;distinctio&quot;,
+                &quot;facere&quot;
+            ],
+            &quot;duration&quot;: 181,
+            &quot;expiryDate&quot;: &quot;2026-01-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui exercitationem repellat magnam non reprehenderit repudiandae. Est quod in quae eos. Qui suscipit eos reprehenderit ducimus sed minima provident. Ullam id aut vel repudiandae qui non suscipit error.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nisi omnis magni quod doloribus ut ut ut.&quot;,
+                &quot;Ducimus sed at debitis explicabo aut.&quot;,
+                &quot;Consequatur eos id quia in adipisci.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et quasi et quisquam commodi autem.&quot;,
+                &quot;Iure ipsam voluptatem distinctio animi dolorem id.&quot;,
+                &quot;Aut eveniet placeat corrupti voluptatem corrupti sapiente eveniet.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 40,
+            &quot;latitude&quot;: &quot;-81.61580300&quot;,
+            &quot;longitude&quot;: &quot;84.20979700&quot;,
+            &quot;locationDescription&quot;: &quot;88209 Walsh Road Suite 147\nUnaport, VT 65039&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quis laudantium velit laudantium atque delectus.&quot;,
+                &quot;Alias facilis iure nam rem.&quot;,
+                &quot;Dolores at ad repellendus non dolorem.&quot;
+            ],
+            &quot;sectorId&quot;: 74,
+            &quot;extra&quot;: &quot;Non harum asperiores voluptates quisquam molestias dolore adipisci. Minus odio at culpa vero numquam pariatur ut quo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
         },
         {
-            &quot;type&quot;: &quot;programs&quot;,
+            &quot;type&quot;: &quot;opportunities&quot;,
             &quot;id&quot;: &quot;2&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Omnis in sit aliquid et et ad explicabo.&quot;,
-                &quot;description&quot;: &quot;Dolorem repellendus tempore nemo aut totam aut illum. Tempore magnam quae unde est asperiores architecto optio. Aut occaecati unde et odit. Qui numquam pariatur ipsam consequatur maxime.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Omnis%20in%20sit%20aliquid%20et%20et%20ad%20explicabo.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
+            &quot;title&quot;: &quot;Chemistry Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chemistry%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut voluptate sunt aliquam magnam. Autem qui et aperiam quibusdam voluptate. Molestias aut tempora laudantium sed non illum aut voluptatem. Quasi ducimus dignissimos atque unde.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 1,
+            &quot;programId&quot;: 1,
+            &quot;tags&quot;: [
+                &quot;in&quot;,
+                &quot;blanditiis&quot;,
+                &quot;fuga&quot;
+            ],
+            &quot;duration&quot;: 105,
+            &quot;expiryDate&quot;: &quot;2026-02-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Earum earum maiores qui aliquam saepe itaque. Omnis porro culpa inventore qui molestiae aperiam architecto.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ab quos et omnis eum.&quot;,
+                &quot;Aperiam voluptatem ullam et et id tenetur.&quot;,
+                &quot;Eius architecto quis ullam alias possimus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Repudiandae et officia unde vitae unde.&quot;,
+                &quot;Dicta magnam consequuntur maiores dolor est animi aut.&quot;,
+                &quot;Labore est animi veniam fugiat ut aut nam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 39,
+            &quot;latitude&quot;: &quot;-32.35998800&quot;,
+            &quot;longitude&quot;: &quot;133.01010100&quot;,
+            &quot;locationDescription&quot;: &quot;10325 Hermina Cliffs Suite 303\nSouth Gilbertview, SC 25856&quot;,
+            &quot;benefits&quot;: [
+                &quot;Accusamus facere tempora velit corporis qui laudantium.&quot;,
+                &quot;Ullam velit dolores tempore vel est temporibus quia.&quot;,
+                &quot;Voluptatibus hic dolores aut sint modi id consectetur.&quot;
+            ],
+            &quot;sectorId&quot;: 73,
+            &quot;extra&quot;: &quot;Cum et et facilis ut cumque id repellendus hic. Delectus ea facere consequatur quam occaecati voluptatum. Expedita reprehenderit est nemo a qui magnam fuga. Hic et alias asperiores repellat nulla.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;204&quot;,
+            &quot;title&quot;: &quot;Office Machine and Cash Register Servicer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Office%20Machine%20and%20Cash%20Register%20Servicer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ullam ut non labore atque et. Ipsam quam aliquid beatae totam quaerat repudiandae. Illo maxime dolore earum et repudiandae minus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 34,
+            &quot;programId&quot;: 68,
+            &quot;tags&quot;: [
+                &quot;incidunt&quot;,
+                &quot;nam&quot;,
+                &quot;fugit&quot;
+            ],
+            &quot;duration&quot;: 280,
+            &quot;expiryDate&quot;: &quot;2025-11-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Cupiditate voluptas eum non quisquam quis consequuntur non. Voluptates dolores distinctio ut molestiae non. Voluptas harum totam est sit officia officiis voluptatem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Voluptatibus at quos ea nemo commodi et veritatis.&quot;,
+                &quot;Eligendi itaque ducimus omnis deserunt omnis et.&quot;,
+                &quot;Laborum debitis necessitatibus ut sit non.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Officia aut maxime aut animi deleniti.&quot;,
+                &quot;Assumenda reprehenderit aliquid quaerat quis dolore assumenda mollitia.&quot;,
+                &quot;Repellendus cupiditate eos voluptas ipsum sunt quam rem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 241,
+            &quot;latitude&quot;: &quot;61.54369300&quot;,
+            &quot;longitude&quot;: &quot;14.81392800&quot;,
+            &quot;locationDescription&quot;: &quot;1507 Stokes Cape Suite 910\nO&#039;Keefeborough, ND 77090&quot;,
+            &quot;benefits&quot;: [
+                &quot;Provident optio itaque commodi sed hic.&quot;,
+                &quot;Aliquid reiciendis placeat et.&quot;,
+                &quot;Officia error aut autem ut.&quot;
+            ],
+            &quot;sectorId&quot;: 275,
+            &quot;extra&quot;: &quot;Itaque et mollitia alias maiores magnam dolorum. Voluptatum est id omnis quidem quod sequi. Debitis qui voluptatibus autem quaerat similique voluptatem. Dolorem molestiae est omnis veritatis omnis iste accusamus. Vel iste adipisci voluptatem repellendus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;203&quot;,
+            &quot;title&quot;: &quot;Civil Engineering Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Civil%20Engineering%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quod deleniti cupiditate tempore in adipisci labore voluptas. Laudantium et nihil aut omnis soluta. Praesentium sed voluptas et sunt. Quos esse quos omnis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 34,
+            &quot;programId&quot;: 68,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;quia&quot;,
+                &quot;libero&quot;
+            ],
+            &quot;duration&quot;: 241,
+            &quot;expiryDate&quot;: &quot;2025-11-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Illo nostrum omnis ut quia sequi nam omnis. Laudantium omnis ullam dolorem enim modi asperiores. Ut voluptatem debitis voluptatum ut. Ut ipsam tenetur qui beatae pariatur.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Rerum porro enim ab ut.&quot;,
+                &quot;Repudiandae inventore natus quis quia labore.&quot;,
+                &quot;Consequatur qui dicta quia veritatis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptate voluptatibus quia harum ut in.&quot;,
+                &quot;Quidem vitae consequatur aut quis qui illum sit unde.&quot;,
+                &quot;Autem aspernatur accusantium distinctio in fugit architecto.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 240,
+            &quot;latitude&quot;: &quot;-49.31079200&quot;,
+            &quot;longitude&quot;: &quot;-148.87429400&quot;,
+            &quot;locationDescription&quot;: &quot;85177 Price Estates Suite 591\nSouth Delphaton, OR 28225-5162&quot;,
+            &quot;benefits&quot;: [
+                &quot;Doloribus et dolores esse necessitatibus.&quot;,
+                &quot;Et hic et minus molestiae.&quot;,
+                &quot;Error iure odio et qui ea.&quot;
+            ],
+            &quot;sectorId&quot;: 274,
+            &quot;extra&quot;: &quot;Nostrum non consequatur itaque consectetur distinctio qui consequatur. Quibusdam quidem quod excepturi ut nihil eveniet est. Eveniet molestiae architecto adipisci suscipit tempore et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;202&quot;,
+            &quot;title&quot;: &quot;Stationary Engineer OR Boiler Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Stationary%20Engineer%20OR%20Boiler%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sapiente nihil voluptatibus qui est. Optio alias fuga sed accusantium fugiat. Aperiam consequatur non eaque nulla sit ut. Reprehenderit deserunt est commodi qui quam qui.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 34,
+            &quot;programId&quot;: 68,
+            &quot;tags&quot;: [
+                &quot;aliquid&quot;,
+                &quot;qui&quot;,
+                &quot;soluta&quot;
+            ],
+            &quot;duration&quot;: 196,
+            &quot;expiryDate&quot;: &quot;2025-11-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut et a eius nobis sit magni quia. Harum ratione at dolorum qui consequuntur et quam. Provident at fuga consectetur qui et ut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Itaque sunt nisi consectetur molestiae velit.&quot;,
+                &quot;Sit dolorum adipisci temporibus qui velit quam.&quot;,
+                &quot;Vel consequatur rerum non quas laboriosam corrupti maxime.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Eum perferendis illum quis eos in eum.&quot;,
+                &quot;Qui expedita dolorem eum incidunt qui rerum pariatur.&quot;,
+                &quot;Eligendi consectetur labore qui veniam quod facilis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 239,
+            &quot;latitude&quot;: &quot;-32.99880300&quot;,
+            &quot;longitude&quot;: &quot;61.56099400&quot;,
+            &quot;locationDescription&quot;: &quot;34204 Quigley Ways Suite 052\nSouth Robinport, LA 95768-2916&quot;,
+            &quot;benefits&quot;: [
+                &quot;Magni et aut atque recusandae odit.&quot;,
+                &quot;Reiciendis et sed maxime vel fugiat aut.&quot;,
+                &quot;Consequatur ut enim aut veritatis.&quot;
+            ],
+            &quot;sectorId&quot;: 273,
+            &quot;extra&quot;: &quot;Consequatur magni sapiente eum. Dolorem quia sed incidunt et quo. Adipisci aut nobis rerum voluptatem qui molestiae ab quia. Quis modi ea vel consectetur sed aspernatur accusantium vero.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;201&quot;,
+            &quot;title&quot;: &quot;Agricultural Crop Farm Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Agricultural%20Crop%20Farm%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Itaque corrupti aut qui inventore repellendus hic in. Aut et numquam architecto est ut.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 34,
+            &quot;programId&quot;: 67,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;esse&quot;,
+                &quot;dolores&quot;
+            ],
+            &quot;duration&quot;: 223,
+            &quot;expiryDate&quot;: &quot;2025-11-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui quo blanditiis rerum sit unde sed assumenda. Voluptatem impedit ducimus qui ad neque velit. Molestias quas reprehenderit vel qui officia vel.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sapiente similique alias possimus aut ut animi.&quot;,
+                &quot;Minima pariatur nulla quos repellendus nulla facilis cum.&quot;,
+                &quot;Et eligendi reprehenderit et quidem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dignissimos est quod magni sed laudantium ratione.&quot;,
+                &quot;Et nihil aspernatur error porro enim.&quot;,
+                &quot;Debitis quidem architecto eius odit sint sapiente dicta laudantium.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 238,
+            &quot;latitude&quot;: &quot;64.91940600&quot;,
+            &quot;longitude&quot;: &quot;105.32372700&quot;,
+            &quot;locationDescription&quot;: &quot;9687 Carlotta Flats Apt. 691\nHageneshaven, CA 60101-1755&quot;,
+            &quot;benefits&quot;: [
+                &quot;Deleniti asperiores id voluptatem provident.&quot;,
+                &quot;Et nesciunt vel quaerat et.&quot;,
+                &quot;Et et dolores occaecati vel est et.&quot;
+            ],
+            &quot;sectorId&quot;: 272,
+            &quot;extra&quot;: &quot;Consequatur deleniti animi facere a enim. Assumenda sunt adipisci quibusdam sit quo illum. Commodi quia delectus nostrum soluta ducimus at et. Molestias quo quae tenetur amet sed voluptatem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;200&quot;,
+            &quot;title&quot;: &quot;Coroner Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Coroner%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Enim consequatur molestiae iste. Error deleniti quis est vel. Nobis aut quas explicabo. Recusandae dolores magni iusto id.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 34,
+            &quot;programId&quot;: 67,
+            &quot;tags&quot;: [
+                &quot;tempore&quot;,
+                &quot;quae&quot;,
+                &quot;sunt&quot;
+            ],
+            &quot;duration&quot;: 68,
+            &quot;expiryDate&quot;: &quot;2026-02-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Delectus non ut maiores exercitationem voluptatem quo. Impedit architecto assumenda aliquam voluptas repudiandae voluptatem. Possimus nihil est nostrum sapiente et cupiditate veniam. Eum quia quo enim aperiam qui ea expedita.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eveniet neque ab quia neque animi eligendi aut.&quot;,
+                &quot;Et non sunt unde quis qui et.&quot;,
+                &quot;Dolores aut architecto doloremque id nesciunt a.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quas vel sit beatae voluptas iure placeat itaque.&quot;,
+                &quot;Corrupti quia et perferendis omnis beatae consectetur eligendi.&quot;,
+                &quot;Nam commodi in fuga et libero expedita.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 237,
+            &quot;latitude&quot;: &quot;-23.46863300&quot;,
+            &quot;longitude&quot;: &quot;-15.57332700&quot;,
+            &quot;locationDescription&quot;: &quot;51909 Ellis Viaduct\nSouth Madalineville, KY 53362-0956&quot;,
+            &quot;benefits&quot;: [
+                &quot;Est culpa nihil voluptatum soluta minima.&quot;,
+                &quot;Consequatur mollitia deleniti voluptatem blanditiis debitis labore.&quot;,
+                &quot;Qui sint culpa aut autem dicta laborum quod.&quot;
+            ],
+            &quot;sectorId&quot;: 271,
+            &quot;extra&quot;: &quot;Voluptas accusamus omnis ullam voluptatem deserunt et consequatur. Consectetur et quibusdam et fugit. Dicta tenetur nam tempore sunt. Quasi dolor inventore est ut ipsam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;199&quot;,
+            &quot;title&quot;: &quot;Embossing Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Embossing%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Fugit rem provident iure suscipit earum illo cum. Veritatis maxime rerum quis consequatur ea perferendis. Adipisci facilis ut provident placeat ea ipsam temporibus impedit. Ut et maxime officiis deleniti voluptatibus ut.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 34,
+            &quot;programId&quot;: 67,
+            &quot;tags&quot;: [
+                &quot;consequatur&quot;,
+                &quot;omnis&quot;,
+                &quot;sapiente&quot;
+            ],
+            &quot;duration&quot;: 120,
+            &quot;expiryDate&quot;: &quot;2026-02-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Laborum et minima suscipit cum fugiat. Omnis itaque nobis ea aut harum asperiores voluptatem. Corrupti sunt sit quo vel omnis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Delectus officiis omnis praesentium.&quot;,
+                &quot;Id provident dolorem fugiat voluptatem dignissimos et possimus.&quot;,
+                &quot;Beatae autem est odit error sequi quidem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quod rem ipsam nam iure consectetur.&quot;,
+                &quot;Voluptatem saepe ex vero et.&quot;,
+                &quot;Consequatur sunt qui amet reiciendis vitae.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 236,
+            &quot;latitude&quot;: &quot;9.40036100&quot;,
+            &quot;longitude&quot;: &quot;10.88653700&quot;,
+            &quot;locationDescription&quot;: &quot;495 Alycia Trace\nPort Careyberg, AZ 81102&quot;,
+            &quot;benefits&quot;: [
+                &quot;Temporibus laboriosam fugiat quo aut.&quot;,
+                &quot;Ipsam aliquid corrupti officiis alias ut.&quot;,
+                &quot;Tenetur sunt et earum natus autem delectus.&quot;
+            ],
+            &quot;sectorId&quot;: 270,
+            &quot;extra&quot;: &quot;Quia ab expedita odit eaque ut. Rem facilis fugit rerum aut. Aspernatur totam dolore cumque labore.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;198&quot;,
+            &quot;title&quot;: &quot;Materials Inspector Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Materials%20Inspector%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Qui et molestias omnis velit sit sequi. Nostrum eum labore commodi dicta quasi. Vel quis dignissimos et nulla sed ut aliquam. Adipisci odit eum eius explicabo unde cupiditate atque. Dolore quae sit reiciendis cupiditate.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 33,
+            &quot;programId&quot;: 66,
+            &quot;tags&quot;: [
+                &quot;eligendi&quot;,
+                &quot;officiis&quot;,
+                &quot;qui&quot;
+            ],
+            &quot;duration&quot;: 313,
+            &quot;expiryDate&quot;: &quot;2026-02-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nam voluptatem temporibus atque et laudantium placeat. Omnis aut quia sed pariatur praesentium explicabo atque. Atque quia ut labore.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Autem quae corrupti harum at reprehenderit fugiat aut.&quot;,
+                &quot;Sed omnis fugit et ab.&quot;,
+                &quot;Consequuntur dolorem et et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Maiores dicta cumque quis magni modi qui.&quot;,
+                &quot;Consequuntur provident placeat molestiae tenetur voluptas.&quot;,
+                &quot;Quia aut minus totam consequuntur dicta exercitationem fuga nostrum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 235,
+            &quot;latitude&quot;: &quot;52.86488100&quot;,
+            &quot;longitude&quot;: &quot;68.69023700&quot;,
+            &quot;locationDescription&quot;: &quot;203 Brionna Ramp\nPort Lelahside, KY 51548-6842&quot;,
+            &quot;benefits&quot;: [
+                &quot;Laudantium omnis velit culpa quam expedita aut provident.&quot;,
+                &quot;Tempore cupiditate est est et.&quot;,
+                &quot;Odit atque rerum dolores quae eum qui quidem non.&quot;
+            ],
+            &quot;sectorId&quot;: 269,
+            &quot;extra&quot;: &quot;Deserunt enim vero et eum ut animi dignissimos. Excepturi beatae labore rerum sunt perspiciatis. Ipsa voluptas sapiente commodi voluptatum sed sequi hic aliquam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;197&quot;,
+            &quot;title&quot;: &quot;Chiropractor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chiropractor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Atque suscipit veniam quia quia. Neque et et eum odio ipsam non non. Voluptates soluta possimus aliquid officiis accusamus et. Est cupiditate et nulla quasi dolore ad corporis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 33,
+            &quot;programId&quot;: 66,
+            &quot;tags&quot;: [
+                &quot;autem&quot;,
+                &quot;doloremque&quot;,
+                &quot;vel&quot;
+            ],
+            &quot;duration&quot;: 129,
+            &quot;expiryDate&quot;: &quot;2025-12-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nesciunt voluptates atque quod ipsam mollitia architecto dolore voluptatem. Minima et dicta aperiam dolore saepe impedit. Quam voluptates quaerat et explicabo repellendus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quidem debitis molestiae consequatur incidunt.&quot;,
+                &quot;Voluptate beatae voluptate rem fugit atque perferendis soluta dolores.&quot;,
+                &quot;Necessitatibus sequi in quisquam repellendus eligendi.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Omnis maiores placeat voluptatem ut temporibus qui.&quot;,
+                &quot;Consequatur fuga voluptatum facere numquam magnam explicabo porro.&quot;,
+                &quot;Blanditiis reprehenderit quia soluta perferendis qui laboriosam sunt velit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 234,
+            &quot;latitude&quot;: &quot;10.34526100&quot;,
+            &quot;longitude&quot;: &quot;168.18808800&quot;,
+            &quot;locationDescription&quot;: &quot;77166 Brandt Meadow Suite 494\nPort Deborahside, NE 08906-0997&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ex magnam aut fugiat consequatur itaque enim.&quot;,
+                &quot;Commodi suscipit vel hic et aliquid.&quot;,
+                &quot;Magni est ipsum fugiat ut.&quot;
+            ],
+            &quot;sectorId&quot;: 268,
+            &quot;extra&quot;: &quot;Deserunt eos autem veritatis. Eveniet quia architecto impedit. Ratione est recusandae velit voluptatum excepturi possimus in earum. Non similique accusamus velit.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;196&quot;,
+            &quot;title&quot;: &quot;Office Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Office%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Autem dolor hic incidunt. Ea et voluptatem nihil voluptas. Non repudiandae doloribus placeat natus veniam dignissimos non. Eligendi exercitationem quaerat voluptatem consequatur qui.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 33,
+            &quot;programId&quot;: 66,
+            &quot;tags&quot;: [
+                &quot;quisquam&quot;,
+                &quot;adipisci&quot;,
+                &quot;aliquam&quot;
+            ],
+            &quot;duration&quot;: 250,
+            &quot;expiryDate&quot;: &quot;2025-11-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sit harum impedit ducimus nihil consectetur consequatur. Dolore dolorum rerum sunt dolores. Dolorem blanditiis dicta quia dolore.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Totam et voluptatem dicta recusandae porro.&quot;,
+                &quot;Et expedita autem sint dolor.&quot;,
+                &quot;Qui sunt architecto quo.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quidem rem dolorum et aut.&quot;,
+                &quot;Distinctio hic est dolorum iste quis.&quot;,
+                &quot;Rerum temporibus consequuntur rem vero aliquid et est.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 233,
+            &quot;latitude&quot;: &quot;-83.28000600&quot;,
+            &quot;longitude&quot;: &quot;149.64000500&quot;,
+            &quot;locationDescription&quot;: &quot;97669 Steuber Street Apt. 911\nEleazarburgh, MS 12759&quot;,
+            &quot;benefits&quot;: [
+                &quot;Qui officia consequuntur et et eos itaque.&quot;,
+                &quot;Cum voluptate quos optio quasi in vel aspernatur.&quot;,
+                &quot;Nostrum vero modi error animi eaque ducimus consequatur.&quot;
+            ],
+            &quot;sectorId&quot;: 267,
+            &quot;extra&quot;: &quot;Veritatis dignissimos est quas sapiente quia. Rerum saepe repellat aut molestiae ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;195&quot;,
+            &quot;title&quot;: &quot;Instructional Coordinator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Instructional%20Coordinator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Repellat eos saepe eligendi earum. Voluptatem ratione laborum natus maiores. Dicta qui aut placeat officia magnam possimus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 33,
+            &quot;programId&quot;: 65,
+            &quot;tags&quot;: [
+                &quot;delectus&quot;,
+                &quot;dolorem&quot;,
+                &quot;sed&quot;
+            ],
+            &quot;duration&quot;: 169,
+            &quot;expiryDate&quot;: &quot;2025-09-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Libero sequi totam cumque nemo eos. Porro a ut quia sint est amet tempore. Sed rerum porro ut quia. Aut enim neque quibusdam odio molestiae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eos magni et perspiciatis et quis laudantium repellat.&quot;,
+                &quot;Voluptatem esse ipsa iste laboriosam incidunt ut reiciendis ea.&quot;,
+                &quot;Sed labore eum earum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Vitae maiores dolorem aut laborum ut qui.&quot;,
+                &quot;Et et commodi sed amet cumque.&quot;,
+                &quot;Nobis quia velit voluptatibus facilis reiciendis dolor mollitia.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 232,
+            &quot;latitude&quot;: &quot;36.73882800&quot;,
+            &quot;longitude&quot;: &quot;-141.29272800&quot;,
+            &quot;locationDescription&quot;: &quot;15276 Jerde Trace\nBoscoport, HI 89964-3885&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptates praesentium et tempora qui.&quot;,
+                &quot;Soluta facilis et mollitia corrupti.&quot;,
+                &quot;Architecto sunt repellendus sit expedita voluptate.&quot;
+            ],
+            &quot;sectorId&quot;: 266,
+            &quot;extra&quot;: &quot;Quo et id quasi esse. Dolorem voluptas excepturi nobis omnis quam. Temporibus voluptatem aliquam totam ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;194&quot;,
+            &quot;title&quot;: &quot;Chemical Equipment Controller Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chemical%20Equipment%20Controller%20Opportunity&quot;,
+            &quot;description&quot;: &quot;In optio vero non accusantium. Et id quos omnis et architecto. Asperiores qui sit est earum. Quis et voluptatem sunt maiores quia. Omnis mollitia commodi a repudiandae.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 33,
+            &quot;programId&quot;: 65,
+            &quot;tags&quot;: [
+                &quot;dolores&quot;,
+                &quot;iure&quot;,
+                &quot;hic&quot;
+            ],
+            &quot;duration&quot;: 246,
+            &quot;expiryDate&quot;: &quot;2025-10-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Hic fugiat quidem vero ratione. Iure qui temporibus cum. Ducimus perspiciatis autem quis sed qui deleniti. Voluptatem suscipit voluptatem ipsum magni aut incidunt quas.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Corrupti quo vel recusandae voluptas minima.&quot;,
+                &quot;Amet omnis non voluptatibus.&quot;,
+                &quot;Molestias delectus delectus consectetur perspiciatis maiores voluptatem aut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Alias facilis quia est corporis.&quot;,
+                &quot;Voluptas tempore expedita aperiam sunt eaque.&quot;,
+                &quot;Necessitatibus repellendus doloremque ipsam dolorem est quia nostrum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 231,
+            &quot;latitude&quot;: &quot;23.78284000&quot;,
+            &quot;longitude&quot;: &quot;143.70749100&quot;,
+            &quot;locationDescription&quot;: &quot;4822 Lina Squares Apt. 975\nHayesborough, PA 28031-1171&quot;,
+            &quot;benefits&quot;: [
+                &quot;Minus adipisci adipisci officia aliquid voluptas.&quot;,
+                &quot;Deleniti consectetur earum veritatis molestiae non voluptatem et.&quot;,
+                &quot;Qui consequatur corrupti blanditiis cum molestias voluptatum.&quot;
+            ],
+            &quot;sectorId&quot;: 265,
+            &quot;extra&quot;: &quot;Reiciendis voluptatem quas soluta qui ut et aut. Ut corporis excepturi nostrum asperiores. Mollitia ut sed necessitatibus quisquam repellat at earum in.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;193&quot;,
+            &quot;title&quot;: &quot;Stonemason Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Stonemason%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vel quia rem quia quibusdam qui. Ullam sed cumque dolores. Suscipit et est quaerat quis quo. Accusantium consequatur laudantium est.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 33,
+            &quot;programId&quot;: 65,
+            &quot;tags&quot;: [
+                &quot;maxime&quot;,
+                &quot;atque&quot;,
+                &quot;qui&quot;
+            ],
+            &quot;duration&quot;: 253,
+            &quot;expiryDate&quot;: &quot;2025-12-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Autem dolores fugit officia fugit. Laborum velit sed et deserunt. Quia ex officia recusandae sed. Eos ipsa vel dolor ad. Non maiores laboriosam velit non sed dolorem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Blanditiis aspernatur magnam ipsam mollitia accusantium.&quot;,
+                &quot;Maiores dolorum repellendus est architecto dolor.&quot;,
+                &quot;Voluptatum quibusdam adipisci commodi et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Necessitatibus vero aut explicabo quod ut.&quot;,
+                &quot;Et perferendis ad nihil voluptatem ut.&quot;,
+                &quot;In et non rerum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 230,
+            &quot;latitude&quot;: &quot;-47.52966100&quot;,
+            &quot;longitude&quot;: &quot;-169.99367700&quot;,
+            &quot;locationDescription&quot;: &quot;729 Heidenreich Street\nMurlstad, OK 35530-9268&quot;,
+            &quot;benefits&quot;: [
+                &quot;Facilis sit possimus magni id vel et et.&quot;,
+                &quot;Consequatur eveniet totam nesciunt aut quidem vero consectetur quaerat.&quot;,
+                &quot;Repellendus deserunt expedita doloribus et.&quot;
+            ],
+            &quot;sectorId&quot;: 264,
+            &quot;extra&quot;: &quot;Est delectus soluta et sunt. Nisi voluptates accusamus quis atque repellat. Dolore sit vel magni impedit aperiam eveniet architecto. Possimus ut neque eius provident rerum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;192&quot;,
+            &quot;title&quot;: &quot;Armored Assault Vehicle Officer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Armored%20Assault%20Vehicle%20Officer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Qui alias maxime placeat. Iusto et culpa voluptatibus quas sed omnis minus. Sit hic ut ex rerum quas. Fugit quae saepe et ducimus eos.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 32,
+            &quot;programId&quot;: 64,
+            &quot;tags&quot;: [
+                &quot;quam&quot;,
+                &quot;nemo&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 36,
+            &quot;expiryDate&quot;: &quot;2025-10-12T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Vitae ut aut explicabo possimus ea. Nostrum corrupti corrupti aspernatur quia. Sint ea vitae architecto quis libero. Architecto voluptas ratione est numquam esse rerum. Odio qui eius modi laudantium non adipisci.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sed autem illum ea vel vitae soluta repellendus.&quot;,
+                &quot;Hic libero voluptatem cum repellat aliquid.&quot;,
+                &quot;Sed est aspernatur hic.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Est est inventore qui ut nostrum.&quot;,
+                &quot;Dignissimos dolores ea ea.&quot;,
+                &quot;Blanditiis eum quae pariatur sed hic porro dolor at.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 229,
+            &quot;latitude&quot;: &quot;59.44691100&quot;,
+            &quot;longitude&quot;: &quot;51.34048400&quot;,
+            &quot;locationDescription&quot;: &quot;26940 Hagenes Route\nParkershire, AR 36347&quot;,
+            &quot;benefits&quot;: [
+                &quot;Velit dolor nesciunt quod commodi.&quot;,
+                &quot;Deserunt omnis dolor iusto nulla.&quot;,
+                &quot;Tenetur deleniti quis illo quo in omnis et velit.&quot;
+            ],
+            &quot;sectorId&quot;: 263,
+            &quot;extra&quot;: &quot;Ipsam ut aliquid et voluptas est cupiditate iusto. In consequatur libero voluptate qui labore. Consequatur dolorum sit non error dolores.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;191&quot;,
+            &quot;title&quot;: &quot;Sketch Artist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Sketch%20Artist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Reprehenderit nihil eum repudiandae voluptas quidem sed perferendis. Modi sed sed numquam incidunt odit. Numquam ipsam illum explicabo commodi. Et labore ut illo cumque itaque dolor ipsam sit.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 32,
+            &quot;programId&quot;: 64,
+            &quot;tags&quot;: [
+                &quot;deserunt&quot;,
+                &quot;voluptatem&quot;,
+                &quot;explicabo&quot;
+            ],
+            &quot;duration&quot;: 215,
+            &quot;expiryDate&quot;: &quot;2026-01-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatem repellendus sint ut quidem voluptates et placeat. Est numquam quia sunt. Voluptas quo non ipsa fugiat. A iste vel est magni ut omnis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Consectetur molestiae quos explicabo exercitationem sit ut accusamus voluptatem.&quot;,
+                &quot;Praesentium et ratione consequuntur temporibus non eaque doloremque repellendus.&quot;,
+                &quot;Architecto voluptas magnam provident molestiae ratione velit cumque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Cupiditate voluptas incidunt ea.&quot;,
+                &quot;Quaerat dolore incidunt natus ea id dignissimos.&quot;,
+                &quot;Qui totam sapiente provident doloremque qui.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 228,
+            &quot;latitude&quot;: &quot;1.37140300&quot;,
+            &quot;longitude&quot;: &quot;-103.89039400&quot;,
+            &quot;locationDescription&quot;: &quot;79467 Metz Brook\nEast Brandt, ID 46816-5030&quot;,
+            &quot;benefits&quot;: [
+                &quot;Id quis ducimus cupiditate.&quot;,
+                &quot;Ducimus quidem est eius laborum delectus doloribus et.&quot;,
+                &quot;Enim quis provident voluptatibus cum nam unde.&quot;
+            ],
+            &quot;sectorId&quot;: 262,
+            &quot;extra&quot;: &quot;Commodi libero consequatur necessitatibus ut quos ipsam velit. At adipisci magnam qui quas in. At quam voluptatibus rerum ipsa.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;190&quot;,
+            &quot;title&quot;: &quot;Civil Drafter Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Civil%20Drafter%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Molestiae sed molestiae animi. Omnis consequatur sunt id pariatur aut est est. Quidem dignissimos quod hic facere aliquam exercitationem. Reprehenderit dicta sint repellat non omnis ipsam.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 32,
+            &quot;programId&quot;: 64,
+            &quot;tags&quot;: [
+                &quot;ut&quot;,
+                &quot;molestiae&quot;,
+                &quot;praesentium&quot;
+            ],
+            &quot;duration&quot;: 38,
+            &quot;expiryDate&quot;: &quot;2026-03-08T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Accusantium et provident aut ratione qui amet quibusdam. Quo ut debitis perspiciatis eius culpa et libero est. Doloribus distinctio impedit dolor aperiam necessitatibus dolorem quo. Assumenda est quo perspiciatis sunt.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Corrupti corrupti quo aliquid nostrum officiis enim quasi.&quot;,
+                &quot;Illum veritatis at nobis temporibus accusantium sint.&quot;,
+                &quot;Magni odio sed ex dolor recusandae non dolorem harum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolorum necessitatibus nam ut nostrum quis repellendus aspernatur.&quot;,
+                &quot;Rerum est voluptatum dicta soluta.&quot;,
+                &quot;Nihil ut provident voluptatem non.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 227,
+            &quot;latitude&quot;: &quot;-80.70593600&quot;,
+            &quot;longitude&quot;: &quot;123.20043500&quot;,
+            &quot;locationDescription&quot;: &quot;7295 Mante Motorway\nCollinstad, WA 01018-4571&quot;,
+            &quot;benefits&quot;: [
+                &quot;Eos et accusantium molestias error cumque quis doloribus.&quot;,
+                &quot;Iusto iusto cupiditate mollitia quia.&quot;,
+                &quot;Et soluta deserunt necessitatibus sunt recusandae quae temporibus ad.&quot;
+            ],
+            &quot;sectorId&quot;: 261,
+            &quot;extra&quot;: &quot;Quod totam non sed commodi atque animi dolor. Sit rem commodi voluptates fugiat beatae possimus. Et omnis est occaecati possimus libero.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;189&quot;,
+            &quot;title&quot;: &quot;Optical Instrument Assembler Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Optical%20Instrument%20Assembler%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consequuntur aut odit blanditiis soluta. Ullam delectus tempore nulla asperiores odio quod libero. Fugiat sit voluptatum eos tempora quo a.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 32,
+            &quot;programId&quot;: 63,
+            &quot;tags&quot;: [
+                &quot;minima&quot;,
+                &quot;saepe&quot;,
+                &quot;sunt&quot;
+            ],
+            &quot;duration&quot;: 255,
+            &quot;expiryDate&quot;: &quot;2025-10-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Quia aut quia autem dolor. Explicabo quae ab qui accusantium accusamus nihil ratione. Pariatur ut ad iure similique quia. Non magnam tenetur nulla et.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Est labore dolorum quibusdam sunt eaque aut mollitia.&quot;,
+                &quot;Eos quos repudiandae distinctio odit velit facere ex.&quot;,
+                &quot;Non laborum magnam occaecati magnam ea totam voluptas.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et velit nisi sunt sit ab.&quot;,
+                &quot;Recusandae hic autem ipsum.&quot;,
+                &quot;Est ut ullam dignissimos ut itaque voluptas.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 226,
+            &quot;latitude&quot;: &quot;-27.28637800&quot;,
+            &quot;longitude&quot;: &quot;-42.17621700&quot;,
+            &quot;locationDescription&quot;: &quot;1894 Daphnee Estate\nEast Mazie, MS 48292&quot;,
+            &quot;benefits&quot;: [
+                &quot;Libero magni ea earum.&quot;,
+                &quot;Eum animi molestias ex vitae.&quot;,
+                &quot;Totam cumque nesciunt molestiae doloremque incidunt tempore.&quot;
+            ],
+            &quot;sectorId&quot;: 260,
+            &quot;extra&quot;: &quot;Ad corrupti iste at tempora voluptatibus. Nobis magnam soluta eos et ullam facilis veniam. Aut impedit nemo placeat fugiat.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;188&quot;,
+            &quot;title&quot;: &quot;Elementary and Secondary School Administrators Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Elementary%20and%20Secondary%20School%20Administrators%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Numquam beatae repudiandae nihil eos rem quia eius. Est consequuntur ut asperiores et reprehenderit. Ipsum eius minima optio consectetur libero. Labore at dicta vero sed culpa autem hic.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 32,
+            &quot;programId&quot;: 63,
+            &quot;tags&quot;: [
+                &quot;ducimus&quot;,
+                &quot;alias&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 68,
+            &quot;expiryDate&quot;: &quot;2026-03-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Molestiae harum molestiae ipsum numquam. Veritatis et sapiente inventore labore aut laudantium ratione. Sed similique quasi sint voluptatem. Quod quaerat minus quia quos ad rerum perferendis quaerat.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolorem ea accusamus temporibus id natus aliquid voluptas.&quot;,
+                &quot;Cupiditate iure perspiciatis excepturi sit quis occaecati dolorum qui.&quot;,
+                &quot;Et iusto velit ut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Odio dicta sunt sunt numquam dignissimos modi unde sint.&quot;,
+                &quot;Omnis animi reprehenderit omnis modi similique magni mollitia.&quot;,
+                &quot;Minus vitae neque et eveniet veniam eos laborum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 225,
+            &quot;latitude&quot;: &quot;10.44408400&quot;,
+            &quot;longitude&quot;: &quot;-179.60836300&quot;,
+            &quot;locationDescription&quot;: &quot;2886 Schmitt Fields\nBransonland, DE 67654-8385&quot;,
+            &quot;benefits&quot;: [
+                &quot;Accusamus fuga qui tempore recusandae reprehenderit ratione.&quot;,
+                &quot;Id iusto facilis non ut corporis.&quot;,
+                &quot;Sed quidem minus est.&quot;
+            ],
+            &quot;sectorId&quot;: 259,
+            &quot;extra&quot;: &quot;Sed aut aut in sapiente accusantium natus ad labore. Voluptas ipsum numquam in omnis voluptas et quia. Sed a iure quos sapiente. Autem impedit dolorem quas eos tempora repellendus eaque.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;187&quot;,
+            &quot;title&quot;: &quot;Paralegal Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Paralegal%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Pariatur inventore iste cumque voluptatem tempora assumenda et. Quos culpa nobis minus voluptatem. Ut provident voluptas neque veniam.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 32,
+            &quot;programId&quot;: 63,
+            &quot;tags&quot;: [
+                &quot;eum&quot;,
+                &quot;adipisci&quot;,
+                &quot;repudiandae&quot;
+            ],
+            &quot;duration&quot;: 97,
+            &quot;expiryDate&quot;: &quot;2026-01-10T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ut ipsa rerum qui quo et doloribus. Inventore nam magni quia nesciunt maxime ex quam quis. Et molestiae ut vitae culpa autem in cum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illum et iste rem vel nobis sed quasi.&quot;,
+                &quot;Ut porro sit eaque est laudantium velit.&quot;,
+                &quot;Facilis sit eos accusantium iure et quam dignissimos.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptas quidem facere blanditiis quaerat ab cum dolor voluptatem.&quot;,
+                &quot;Facilis autem illo atque.&quot;,
+                &quot;Et at deserunt harum ab voluptatem nostrum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 224,
+            &quot;latitude&quot;: &quot;-36.43015400&quot;,
+            &quot;longitude&quot;: &quot;12.54665300&quot;,
+            &quot;locationDescription&quot;: &quot;792 Burley Alley\nEinarburgh, NY 74555-0102&quot;,
+            &quot;benefits&quot;: [
+                &quot;Beatae quos molestias tempora sit.&quot;,
+                &quot;In at vel accusamus autem reprehenderit sed quidem.&quot;,
+                &quot;Provident deserunt molestiae velit tempora voluptatem est.&quot;
+            ],
+            &quot;sectorId&quot;: 258,
+            &quot;extra&quot;: &quot;Ut nemo nisi in exercitationem architecto amet. Consequatur dolore sunt quas et deserunt at quas. Soluta reprehenderit in est ipsam impedit ut blanditiis. Dolor mollitia distinctio id ipsa temporibus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;186&quot;,
+            &quot;title&quot;: &quot;Emergency Management Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Emergency%20Management%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Iure similique dolor rerum aut non occaecati maxime. Veritatis tenetur magni cumque ea aut culpa. Incidunt consectetur consequatur laudantium nam maxime nobis consequuntur voluptas. Ad ea veniam officiis suscipit quam quo. Error dolores expedita dolor earum voluptate.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 31,
+            &quot;programId&quot;: 62,
+            &quot;tags&quot;: [
+                &quot;porro&quot;,
+                &quot;unde&quot;,
+                &quot;eum&quot;
+            ],
+            &quot;duration&quot;: 311,
+            &quot;expiryDate&quot;: &quot;2025-11-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ab veritatis a et aspernatur esse ratione nihil debitis. Odit similique velit et fuga nihil modi est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nulla facilis magnam corrupti maxime.&quot;,
+                &quot;Magnam quod id pariatur laboriosam.&quot;,
+                &quot;Eveniet nihil dicta reiciendis eveniet.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Iure unde quidem molestias illum voluptate fugit.&quot;,
+                &quot;Eum cumque repellendus nesciunt sit eius.&quot;,
+                &quot;Unde qui vel quisquam velit nesciunt.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 223,
+            &quot;latitude&quot;: &quot;24.50362700&quot;,
+            &quot;longitude&quot;: &quot;-44.74274400&quot;,
+            &quot;locationDescription&quot;: &quot;819 Stanton Keys Suite 519\nNew Daytonborough, OK 00390&quot;,
+            &quot;benefits&quot;: [
+                &quot;Omnis ut atque sint nulla laborum.&quot;,
+                &quot;Vitae ipsum porro saepe necessitatibus.&quot;,
+                &quot;Voluptates quas eaque quidem consequatur reprehenderit magni maiores.&quot;
+            ],
+            &quot;sectorId&quot;: 257,
+            &quot;extra&quot;: &quot;Sunt consectetur praesentium qui neque id et distinctio. Vitae consequatur est tempora rerum velit dicta sunt velit. Aut expedita nulla quo voluptas.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;185&quot;,
+            &quot;title&quot;: &quot;Marketing Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Marketing%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aliquam nihil id amet voluptatum iusto qui. Similique aut facilis quo eos ratione similique beatae inventore. Dolor sequi doloremque blanditiis sapiente aut.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 31,
+            &quot;programId&quot;: 62,
+            &quot;tags&quot;: [
+                &quot;nisi&quot;,
+                &quot;est&quot;,
+                &quot;est&quot;
+            ],
+            &quot;duration&quot;: 104,
+            &quot;expiryDate&quot;: &quot;2026-02-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Alias ipsa commodi fugit hic numquam non. Adipisci fuga voluptatum quo ut aut asperiores molestiae. Eligendi ullam expedita qui illum. Animi et doloremque assumenda sequi laborum perferendis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eaque beatae numquam doloribus sed.&quot;,
+                &quot;Eaque voluptatem voluptatem commodi.&quot;,
+                &quot;Sequi reiciendis rerum adipisci saepe provident corrupti.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;In non quae sed expedita.&quot;,
+                &quot;Et quia quis ex ab neque.&quot;,
+                &quot;Est modi reprehenderit deserunt rerum maiores iure odio.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 222,
+            &quot;latitude&quot;: &quot;-55.97292900&quot;,
+            &quot;longitude&quot;: &quot;-116.63227700&quot;,
+            &quot;locationDescription&quot;: &quot;1320 Nayeli Viaduct\nPort Kearaburgh, AK 39572-9557&quot;,
+            &quot;benefits&quot;: [
+                &quot;Libero veniam suscipit exercitationem amet.&quot;,
+                &quot;Eveniet ipsa maxime voluptas tempore et.&quot;,
+                &quot;Occaecati ut amet est alias dolorem et.&quot;
+            ],
+            &quot;sectorId&quot;: 256,
+            &quot;extra&quot;: &quot;Veritatis et et et et dicta ut. Nisi quis consequuntur eius modi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;184&quot;,
+            &quot;title&quot;: &quot;Taxi Drivers and Chauffeur Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Taxi%20Drivers%20and%20Chauffeur%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Odio dolorum veniam eaque accusamus ex officiis quo. Repellendus et consectetur voluptatem non quam consequatur voluptatem doloribus. Maiores blanditiis debitis eos asperiores commodi ullam aut.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 31,
+            &quot;programId&quot;: 62,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;aspernatur&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 124,
+            &quot;expiryDate&quot;: &quot;2025-12-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;In omnis ad adipisci molestiae eaque qui. Voluptas officia aspernatur sed molestias similique illo illo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Est debitis nihil sunt dolor dolores.&quot;,
+                &quot;Est eos perferendis porro odio delectus omnis.&quot;,
+                &quot;Dignissimos nobis sed et odio corporis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Blanditiis nulla eos quia.&quot;,
+                &quot;Blanditiis voluptatum possimus praesentium est.&quot;,
+                &quot;Harum perferendis rerum aut praesentium.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 221,
+            &quot;latitude&quot;: &quot;82.32463800&quot;,
+            &quot;longitude&quot;: &quot;119.62823000&quot;,
+            &quot;locationDescription&quot;: &quot;75413 Cara Mountain\nBrownville, IA 47538&quot;,
+            &quot;benefits&quot;: [
+                &quot;Explicabo beatae voluptate vitae reprehenderit illo reiciendis veniam.&quot;,
+                &quot;Accusantium consequatur suscipit voluptatibus non saepe.&quot;,
+                &quot;Expedita quis et fugiat officia non magni.&quot;
+            ],
+            &quot;sectorId&quot;: 255,
+            &quot;extra&quot;: &quot;Ut possimus sapiente eos officia sunt vero quidem. Ipsa facere reprehenderit culpa rerum labore architecto. Eum quos culpa qui in officia qui. Aperiam ut porro necessitatibus quisquam dicta consequatur.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;183&quot;,
+            &quot;title&quot;: &quot;Amusement Attendant Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Amusement%20Attendant%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Deserunt totam suscipit accusantium fugiat cum vero et omnis. Sit et neque excepturi assumenda. Vero nulla atque ratione eum et pariatur modi. Dolorum quos odit hic fuga aliquam sint.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 31,
+            &quot;programId&quot;: 61,
+            &quot;tags&quot;: [
+                &quot;reprehenderit&quot;,
+                &quot;voluptates&quot;,
+                &quot;accusamus&quot;
+            ],
+            &quot;duration&quot;: 113,
+            &quot;expiryDate&quot;: &quot;2026-01-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ad enim incidunt voluptas quasi aut. Ad quos quia quibusdam deserunt. Ut eligendi est fuga est quo illo. Voluptas quas dolore porro ipsam neque. Dolor praesentium voluptates a ad veritatis quae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quas magnam reprehenderit reprehenderit commodi ducimus voluptatum.&quot;,
+                &quot;Vel architecto rerum velit.&quot;,
+                &quot;Quam deleniti sit necessitatibus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Velit ratione beatae quidem.&quot;,
+                &quot;Adipisci ipsum voluptatum in accusamus quasi eaque sit.&quot;,
+                &quot;Aut eius voluptas atque totam in qui ducimus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 220,
+            &quot;latitude&quot;: &quot;83.39187300&quot;,
+            &quot;longitude&quot;: &quot;-126.46306200&quot;,
+            &quot;locationDescription&quot;: &quot;296 Hilma Locks\nSouth Clementinaside, AK 75824-5588&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolores aut sunt non eos.&quot;,
+                &quot;Consequuntur voluptate eligendi reprehenderit sint maiores vero dolores in.&quot;,
+                &quot;Molestiae provident sed debitis quo.&quot;
+            ],
+            &quot;sectorId&quot;: 254,
+            &quot;extra&quot;: &quot;Accusamus est natus quam et. Ducimus alias accusamus architecto velit.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;182&quot;,
+            &quot;title&quot;: &quot;Radiation Therapist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Radiation%20Therapist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quis eaque dolorem pariatur omnis harum soluta doloremque. Accusantium amet placeat enim veniam sed quam. Ab est consequatur illum sit omnis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 31,
+            &quot;programId&quot;: 61,
+            &quot;tags&quot;: [
+                &quot;quis&quot;,
+                &quot;rerum&quot;,
+                &quot;sed&quot;
+            ],
+            &quot;duration&quot;: 355,
+            &quot;expiryDate&quot;: &quot;2025-12-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et libero molestiae dolor tempore eaque libero. Ea quia repellat molestiae asperiores reiciendis. Quo vero sit et laudantium voluptate magnam. At repudiandae perspiciatis numquam officiis accusantium consequatur explicabo. Aut et sed blanditiis porro sequi.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ab esse autem nihil maiores aut.&quot;,
+                &quot;Illum voluptatem error eius aspernatur.&quot;,
+                &quot;Non consequatur velit amet.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Qui quia nihil iste nesciunt qui totam eveniet.&quot;,
+                &quot;Voluptatem ex et cumque minima.&quot;,
+                &quot;Commodi nisi dolores deleniti qui ea quia eos.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 219,
+            &quot;latitude&quot;: &quot;50.41840500&quot;,
+            &quot;longitude&quot;: &quot;92.53420400&quot;,
+            &quot;locationDescription&quot;: &quot;2110 Hansen Light Apt. 829\nLake Martina, KY 89039&quot;,
+            &quot;benefits&quot;: [
+                &quot;Et ut sapiente voluptatum soluta laborum et.&quot;,
+                &quot;Tempore quo voluptatem aut est.&quot;,
+                &quot;Modi a quia aliquid sit a.&quot;
+            ],
+            &quot;sectorId&quot;: 253,
+            &quot;extra&quot;: &quot;Ut sed necessitatibus eum qui praesentium tenetur. Doloribus mollitia hic in doloremque. Et suscipit neque beatae quos et aut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;181&quot;,
+            &quot;title&quot;: &quot;Geological Data Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Geological%20Data%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Iusto quam magni tenetur qui ipsum. Exercitationem laborum atque eum voluptas commodi. Qui aliquid alias nostrum molestiae esse consequatur pariatur.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 31,
+            &quot;programId&quot;: 61,
+            &quot;tags&quot;: [
+                &quot;error&quot;,
+                &quot;qui&quot;,
+                &quot;dolores&quot;
+            ],
+            &quot;duration&quot;: 122,
+            &quot;expiryDate&quot;: &quot;2026-03-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dicta optio earum qui natus. Voluptates aspernatur pariatur expedita est. Laboriosam odit enim magnam temporibus eum fugiat.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Minima distinctio magni sequi rerum.&quot;,
+                &quot;Aperiam placeat enim reprehenderit natus qui officiis.&quot;,
+                &quot;Alias eum labore porro et quia rerum impedit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Vel et placeat provident necessitatibus minima vitae.&quot;,
+                &quot;Natus maiores repellat veritatis modi pariatur illo iste.&quot;,
+                &quot;Quo sed quos facere aut aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 218,
+            &quot;latitude&quot;: &quot;4.75319800&quot;,
+            &quot;longitude&quot;: &quot;100.82499300&quot;,
+            &quot;locationDescription&quot;: &quot;604 Tyshawn Crescent\nGladycebury, VT 93953-2185&quot;,
+            &quot;benefits&quot;: [
+                &quot;In culpa error rerum voluptas.&quot;,
+                &quot;Ut suscipit praesentium itaque quia error iure.&quot;,
+                &quot;Numquam deleniti necessitatibus soluta temporibus perferendis.&quot;
+            ],
+            &quot;sectorId&quot;: 252,
+            &quot;extra&quot;: &quot;Ratione fugit cupiditate quasi quisquam qui. Amet unde in similique quasi dolorum quae. Necessitatibus nesciunt sequi soluta aut recusandae perferendis nesciunt. Molestias quia vitae et et qui nisi ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;180&quot;,
+            &quot;title&quot;: &quot;Building Cleaning Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Building%20Cleaning%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Fuga mollitia soluta placeat. Nihil repellendus enim quia quibusdam numquam repudiandae. Nobis ullam unde doloremque placeat ut. Odio sit architecto eligendi qui deserunt.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 30,
+            &quot;programId&quot;: 60,
+            &quot;tags&quot;: [
+                &quot;dolor&quot;,
+                &quot;et&quot;,
+                &quot;voluptatem&quot;
+            ],
+            &quot;duration&quot;: 343,
+            &quot;expiryDate&quot;: &quot;2025-10-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolores ad eos nisi. Et esse ut omnis repudiandae quis. Et qui eius velit iusto. Labore sint sed fugiat delectus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Debitis voluptatem nam nesciunt.&quot;,
+                &quot;Soluta aut fuga eveniet adipisci dolorum est adipisci.&quot;,
+                &quot;Laboriosam reprehenderit pariatur rerum ipsum delectus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Nisi sunt modi voluptas deserunt iste voluptas quasi.&quot;,
+                &quot;Esse omnis aut cupiditate est facere nihil voluptatem.&quot;,
+                &quot;Rerum repudiandae qui dolorem aut provident.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 217,
+            &quot;latitude&quot;: &quot;-50.31471800&quot;,
+            &quot;longitude&quot;: &quot;-96.73952400&quot;,
+            &quot;locationDescription&quot;: &quot;151 Brisa Island Suite 781\nPort Evatown, UT 64514-4207&quot;,
+            &quot;benefits&quot;: [
+                &quot;A magni minima qui sit earum modi sit.&quot;,
+                &quot;Non blanditiis blanditiis accusantium molestiae reiciendis ducimus et.&quot;,
+                &quot;Et totam assumenda sed omnis nesciunt.&quot;
+            ],
+            &quot;sectorId&quot;: 251,
+            &quot;extra&quot;: &quot;Voluptatem earum laboriosam est dolores ipsum. At velit totam magni ea. In debitis natus animi. Repellat voluptates voluptas aliquid. Tenetur ut velit distinctio nihil atque ea.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;179&quot;,
+            &quot;title&quot;: &quot;Farmer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Farmer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptatem aut recusandae soluta ut sed. Necessitatibus autem voluptatem sunt impedit aliquid. Nulla quia doloribus vitae velit quos iure explicabo.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 30,
+            &quot;programId&quot;: 60,
+            &quot;tags&quot;: [
+                &quot;ea&quot;,
+                &quot;eum&quot;,
+                &quot;id&quot;
+            ],
+            &quot;duration&quot;: 192,
+            &quot;expiryDate&quot;: &quot;2026-01-17T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Porro voluptatum sunt et distinctio sit eveniet cumque. Eum impedit enim ea enim deserunt qui est. Dignissimos similique asperiores sapiente necessitatibus officia omnis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aut facilis tempore ipsa modi illum rerum sint tenetur.&quot;,
+                &quot;Dolorum aut possimus quo dolorem.&quot;,
+                &quot;Quo harum officiis id dolorum est voluptas.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Suscipit iste cupiditate velit non est.&quot;,
+                &quot;Aut et id temporibus.&quot;,
+                &quot;Sint at nam quo eius.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 216,
+            &quot;latitude&quot;: &quot;-83.48100700&quot;,
+            &quot;longitude&quot;: &quot;-155.28064500&quot;,
+            &quot;locationDescription&quot;: &quot;82726 Gibson Gateway Apt. 976\nSouth Bertramshire, NJ 24695-1702&quot;,
+            &quot;benefits&quot;: [
+                &quot;Labore veniam adipisci quis nostrum voluptatem nemo.&quot;,
+                &quot;Ut non eos possimus quaerat.&quot;,
+                &quot;Consequatur accusantium nihil deserunt nihil.&quot;
+            ],
+            &quot;sectorId&quot;: 250,
+            &quot;extra&quot;: &quot;Cupiditate hic quae ipsam est. Perferendis dignissimos tempora eum voluptas. Earum fugit veniam praesentium fuga et voluptatibus veritatis minus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;178&quot;,
+            &quot;title&quot;: &quot;Sawing Machine Setter Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Sawing%20Machine%20Setter%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est exercitationem quaerat corrupti quia aliquam magni et. Quis alias explicabo ut dolorum. Deleniti voluptate consequatur voluptatem sapiente. Non necessitatibus fuga numquam sequi vero.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 30,
+            &quot;programId&quot;: 60,
+            &quot;tags&quot;: [
+                &quot;sequi&quot;,
+                &quot;sunt&quot;,
+                &quot;iusto&quot;
+            ],
+            &quot;duration&quot;: 52,
+            &quot;expiryDate&quot;: &quot;2025-11-17T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eveniet alias animi voluptatem ut est velit placeat. Voluptatem quia minima nihil aliquid iusto nemo a. Rerum quia fuga quisquam. Cum expedita aut eius omnis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Rerum dolores non explicabo non dolorem.&quot;,
+                &quot;Aperiam culpa dolor ut repudiandae.&quot;,
+                &quot;Aspernatur exercitationem eos non consequuntur ipsa nisi.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Provident vitae optio mollitia.&quot;,
+                &quot;Nulla cum sit qui.&quot;,
+                &quot;Id ratione voluptas aperiam adipisci laboriosam accusamus vel ducimus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 215,
+            &quot;latitude&quot;: &quot;-77.81335500&quot;,
+            &quot;longitude&quot;: &quot;-34.74109000&quot;,
+            &quot;locationDescription&quot;: &quot;159 Edmund Ridges Apt. 408\nNorth Vincenza, FL 13350&quot;,
+            &quot;benefits&quot;: [
+                &quot;Tempora perferendis totam illo sint.&quot;,
+                &quot;Incidunt quam aut ut incidunt est quisquam eum.&quot;,
+                &quot;Sed voluptatem quas consequatur aut doloribus.&quot;
+            ],
+            &quot;sectorId&quot;: 249,
+            &quot;extra&quot;: &quot;Facere architecto sed distinctio sapiente quia. Voluptatum sed eum laboriosam ut. Dolores praesentium laboriosam omnis eveniet veniam dolorem. Dignissimos aspernatur ullam harum nemo necessitatibus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;177&quot;,
+            &quot;title&quot;: &quot;Railroad Inspector Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Railroad%20Inspector%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Id et voluptatem quod ut est voluptate laboriosam. Cupiditate eos qui facilis rerum asperiores est dolores. Repellat et consequuntur delectus aliquid veniam neque aut.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 30,
+            &quot;programId&quot;: 59,
+            &quot;tags&quot;: [
+                &quot;praesentium&quot;,
+                &quot;asperiores&quot;,
+                &quot;corrupti&quot;
+            ],
+            &quot;duration&quot;: 299,
+            &quot;expiryDate&quot;: &quot;2025-10-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Itaque iusto quia voluptatum aut. Quos aperiam maiores sed ea rerum. Voluptas rerum et at quam. Alias quo ea provident occaecati. Voluptatibus dolorem quis voluptatem voluptatum asperiores possimus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eos et natus repudiandae labore.&quot;,
+                &quot;Eveniet temporibus nulla veniam possimus vitae et qui perspiciatis.&quot;,
+                &quot;Laudantium qui voluptate dicta fuga quis illo impedit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et similique quis aperiam.&quot;,
+                &quot;Ea in quaerat perspiciatis voluptatibus et quaerat.&quot;,
+                &quot;Sunt pariatur sed illo voluptate consequatur cumque delectus rerum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 214,
+            &quot;latitude&quot;: &quot;-11.25852100&quot;,
+            &quot;longitude&quot;: &quot;-100.62264100&quot;,
+            &quot;locationDescription&quot;: &quot;139 Bayer Rapid\nNorth Anastasia, IN 82387&quot;,
+            &quot;benefits&quot;: [
+                &quot;Non aut porro qui eligendi modi.&quot;,
+                &quot;Voluptas explicabo odit recusandae optio nihil consequatur quam.&quot;,
+                &quot;Minus reiciendis inventore ut voluptates ut.&quot;
+            ],
+            &quot;sectorId&quot;: 248,
+            &quot;extra&quot;: &quot;Voluptas dolores quod quasi sit illo neque. Dolores aut repellat nisi repellat. Quo dicta accusantium vero et quo omnis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;176&quot;,
+            &quot;title&quot;: &quot;Washing Equipment Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Washing%20Equipment%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Veniam autem blanditiis nemo placeat officia eaque nisi quaerat. Aut dolor ex aliquam dolores. Ut cumque tenetur qui voluptatibus sit corporis tempora. Impedit rerum a laborum maiores.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 30,
+            &quot;programId&quot;: 59,
+            &quot;tags&quot;: [
+                &quot;officia&quot;,
+                &quot;sunt&quot;,
+                &quot;officia&quot;
+            ],
+            &quot;duration&quot;: 293,
+            &quot;expiryDate&quot;: &quot;2025-11-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Animi incidunt perspiciatis ut aut ipsam. Quia culpa aut aut. Eum delectus vitae facere recusandae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut dignissimos consequatur natus officiis quod.&quot;,
+                &quot;Fugiat velit quia reprehenderit sed sit.&quot;,
+                &quot;Atque nobis sed vero et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ea possimus provident explicabo cumque natus nisi aliquid.&quot;,
+                &quot;Et repudiandae non est at molestias.&quot;,
+                &quot;Ducimus modi sapiente est placeat eveniet ducimus dolor.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 213,
+            &quot;latitude&quot;: &quot;-47.84335600&quot;,
+            &quot;longitude&quot;: &quot;104.09950400&quot;,
+            &quot;locationDescription&quot;: &quot;998 Eliza Street Apt. 346\nNorth Christopheview, KS 47103-6871&quot;,
+            &quot;benefits&quot;: [
+                &quot;Reiciendis voluptatum nulla consequatur nihil est quia.&quot;,
+                &quot;Iure ut deserunt magnam ea.&quot;,
+                &quot;Ullam harum sed eos ipsam quae.&quot;
+            ],
+            &quot;sectorId&quot;: 247,
+            &quot;extra&quot;: &quot;Occaecati commodi ratione tempora consectetur expedita qui fugit aut. Et eligendi ducimus qui delectus laudantium et. Ab rerum consequatur in culpa numquam et consectetur. Et natus necessitatibus consequatur voluptatibus aut. Consequatur et voluptatem maxime a.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;175&quot;,
+            &quot;title&quot;: &quot;Landscaper Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Landscaper%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dignissimos aliquam nam voluptatem similique et. Et minus aut hic est magni et enim. Sint harum enim deserunt officiis voluptatem recusandae quisquam error.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 30,
+            &quot;programId&quot;: 59,
+            &quot;tags&quot;: [
+                &quot;fuga&quot;,
+                &quot;voluptatem&quot;,
+                &quot;incidunt&quot;
+            ],
+            &quot;duration&quot;: 141,
+            &quot;expiryDate&quot;: &quot;2025-12-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Labore alias voluptatum nobis earum ut voluptatem. Aliquid laborum voluptatem sunt ad eaque. Accusantium et et accusamus sunt magni sed.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Vel illum aut accusamus ea iusto et.&quot;,
+                &quot;Nihil possimus dicta nam expedita.&quot;,
+                &quot;Eius aperiam harum sit nam et impedit eaque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ex consequatur nisi vel officia similique quo.&quot;,
+                &quot;Voluptas sed officia provident velit mollitia voluptas quo.&quot;,
+                &quot;Ea ducimus accusamus rerum omnis et sed mollitia.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 212,
+            &quot;latitude&quot;: &quot;75.36083800&quot;,
+            &quot;longitude&quot;: &quot;-167.14062400&quot;,
+            &quot;locationDescription&quot;: &quot;8940 Wolf Overpass Apt. 350\nNorth Demetriusport, CT 09422&quot;,
+            &quot;benefits&quot;: [
+                &quot;Neque et pariatur est assumenda facilis.&quot;,
+                &quot;Ut aut fuga facere numquam quidem dolor atque voluptatem.&quot;,
+                &quot;Omnis ut porro et consequatur libero.&quot;
+            ],
+            &quot;sectorId&quot;: 246,
+            &quot;extra&quot;: &quot;Mollitia occaecati numquam repellendus quis ab id ut in. Qui voluptates vel aperiam repellat deserunt quidem. Eaque quia ratione totam fuga voluptatibus possimus sit. Voluptates qui nisi tempore illum rerum totam ab.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;174&quot;,
+            &quot;title&quot;: &quot;Biologist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Biologist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Minus dolorem est nulla ipsum. Sed molestias ad dolor est consequatur ut vel. Sit quam officiis voluptatum culpa. Suscipit nihil ad iste delectus sit dignissimos cupiditate. Beatae odit molestias qui atque odio odit.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 29,
+            &quot;programId&quot;: 58,
+            &quot;tags&quot;: [
+                &quot;odio&quot;,
+                &quot;atque&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 61,
+            &quot;expiryDate&quot;: &quot;2025-09-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Provident quia dolore sapiente neque expedita voluptate in. Voluptas voluptatum a illum architecto dolorem. Ut autem excepturi non et harum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illum sunt et vitae consequatur exercitationem est dignissimos.&quot;,
+                &quot;Laudantium reprehenderit doloremque sint est eaque libero laudantium possimus.&quot;,
+                &quot;Ullam eum maiores at aspernatur velit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Explicabo hic aut consectetur beatae et veritatis.&quot;,
+                &quot;Illo hic et nam.&quot;,
+                &quot;Dolorem doloremque laboriosam commodi ipsum voluptatem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 211,
+            &quot;latitude&quot;: &quot;-60.53216500&quot;,
+            &quot;longitude&quot;: &quot;-54.66311200&quot;,
+            &quot;locationDescription&quot;: &quot;139 Kirk Prairie\nRylanchester, TX 48918&quot;,
+            &quot;benefits&quot;: [
+                &quot;A ullam possimus sunt eaque.&quot;,
+                &quot;Totam odio et quia.&quot;,
+                &quot;Laudantium a ea nostrum laborum autem rerum aut.&quot;
+            ],
+            &quot;sectorId&quot;: 245,
+            &quot;extra&quot;: &quot;Illum assumenda fuga et aut libero. Omnis accusantium incidunt deserunt sunt qui aut dolor qui.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;173&quot;,
+            &quot;title&quot;: &quot;Credit Analyst Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Credit%20Analyst%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dicta ea omnis ut ut laudantium voluptas. Quaerat quia et est ut. Veniam vero vel provident voluptates. Qui ut est quasi ratione quisquam est sunt quis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 29,
+            &quot;programId&quot;: 58,
+            &quot;tags&quot;: [
+                &quot;sapiente&quot;,
+                &quot;nostrum&quot;,
+                &quot;nostrum&quot;
+            ],
+            &quot;duration&quot;: 206,
+            &quot;expiryDate&quot;: &quot;2025-12-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et unde impedit quia adipisci iure. Quos magnam veritatis odit illo. Totam consequatur id eaque sit voluptates. Perferendis explicabo ducimus sint eum hic dolor.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Distinctio accusantium et reiciendis ullam quis eius nam in.&quot;,
+                &quot;Sed cumque est iste sint veritatis culpa maiores.&quot;,
+                &quot;Dolores harum veniam occaecati facere qui similique.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quos odit doloribus eos placeat veniam vitae.&quot;,
+                &quot;Adipisci error nesciunt quae modi quia.&quot;,
+                &quot;Dignissimos laborum ex itaque maxime perspiciatis laborum rerum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 210,
+            &quot;latitude&quot;: &quot;41.92739900&quot;,
+            &quot;longitude&quot;: &quot;136.85689800&quot;,
+            &quot;locationDescription&quot;: &quot;3127 Ryan Parkway\nPort Lilyland, IL 00774-1890&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ea ea quae omnis perferendis assumenda molestiae voluptatem.&quot;,
+                &quot;Ut est est ut ullam consequatur incidunt.&quot;,
+                &quot;Nihil dolorem qui explicabo rerum officiis aliquid.&quot;
+            ],
+            &quot;sectorId&quot;: 244,
+            &quot;extra&quot;: &quot;Excepturi est dolorum labore. Esse cupiditate quisquam neque dolore. Esse maxime officiis nam ab consectetur. Quia sed non commodi minima nihil nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;172&quot;,
+            &quot;title&quot;: &quot;Coroner Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Coroner%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aut accusamus labore vitae ut reprehenderit. Et in veritatis animi debitis dolore officia. Facere reprehenderit est numquam porro illum. Sunt nesciunt neque reiciendis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 29,
+            &quot;programId&quot;: 58,
+            &quot;tags&quot;: [
+                &quot;facilis&quot;,
+                &quot;quis&quot;,
+                &quot;quo&quot;
+            ],
+            &quot;duration&quot;: 235,
+            &quot;expiryDate&quot;: &quot;2025-10-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Delectus sit dolorum vel illo aut voluptatibus a. Delectus eos rem sit nobis asperiores quos. Molestiae ut error aut accusantium corrupti. Quidem debitis alias laboriosam consectetur quia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illo totam velit numquam ad optio ipsam natus.&quot;,
+                &quot;Ratione sed sequi et voluptatem.&quot;,
+                &quot;Consequuntur assumenda aut iure.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolorum inventore possimus quia ut.&quot;,
+                &quot;Omnis dolorum vitae tempora omnis et et aut aut.&quot;,
+                &quot;Accusantium soluta at accusantium optio necessitatibus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 209,
+            &quot;latitude&quot;: &quot;11.80065000&quot;,
+            &quot;longitude&quot;: &quot;4.20079300&quot;,
+            &quot;locationDescription&quot;: &quot;77040 Maryam Road Suite 794\nLarueberg, MI 70198&quot;,
+            &quot;benefits&quot;: [
+                &quot;Vitae et recusandae incidunt exercitationem praesentium sunt delectus nobis.&quot;,
+                &quot;Dolor ut velit architecto eveniet rem veritatis qui.&quot;,
+                &quot;Accusantium saepe sit suscipit.&quot;
+            ],
+            &quot;sectorId&quot;: 243,
+            &quot;extra&quot;: &quot;Aut molestiae laborum voluptate illum itaque quisquam. Odit vel perferendis quia dolorem sit necessitatibus. Odio cum vel velit omnis sit enim.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;171&quot;,
+            &quot;title&quot;: &quot;Travel Agent Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Travel%20Agent%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Reprehenderit eos a maxime voluptas fuga ullam. Aut atque velit et consequatur et eos sint odit. Iusto enim quia aspernatur.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 29,
+            &quot;programId&quot;: 57,
+            &quot;tags&quot;: [
+                &quot;vel&quot;,
+                &quot;est&quot;,
+                &quot;corporis&quot;
+            ],
+            &quot;duration&quot;: 358,
+            &quot;expiryDate&quot;: &quot;2025-09-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolores eveniet at sed et quae minus. Numquam dolorem blanditiis tempora exercitationem cum. Itaque nesciunt est numquam porro animi voluptatibus sapiente voluptatibus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Omnis est facilis et error soluta.&quot;,
+                &quot;Quam sit sunt dolorum at distinctio.&quot;,
+                &quot;Corporis beatae libero sint voluptas et id quidem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Iure sunt incidunt perspiciatis consequatur eos suscipit.&quot;,
+                &quot;Inventore voluptatum molestiae velit ut est eum iusto et.&quot;,
+                &quot;Voluptas ipsum possimus ad et iusto.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 208,
+            &quot;latitude&quot;: &quot;17.57089300&quot;,
+            &quot;longitude&quot;: &quot;-0.13677800&quot;,
+            &quot;locationDescription&quot;: &quot;448 Josephine Point\nLake Merlinview, UT 73786-4483&quot;,
+            &quot;benefits&quot;: [
+                &quot;Labore repudiandae debitis rem nesciunt.&quot;,
+                &quot;Repudiandae rerum non quia et ut animi.&quot;,
+                &quot;Quia deserunt velit ullam tempore et animi maxime quia.&quot;
+            ],
+            &quot;sectorId&quot;: 242,
+            &quot;extra&quot;: &quot;Voluptatem nostrum atque odit. Minus sit et nulla eveniet. Quos repellendus est est autem consequuntur optio sint. Deleniti expedita veritatis labore non dolor ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;170&quot;,
+            &quot;title&quot;: &quot;Recreational Therapist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Recreational%20Therapist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Explicabo sit quae facere eius pariatur possimus odio. Vel perspiciatis ipsam eius error tenetur modi. Ea dolorem nam maxime velit.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 29,
+            &quot;programId&quot;: 57,
+            &quot;tags&quot;: [
+                &quot;consequatur&quot;,
+                &quot;vel&quot;,
+                &quot;neque&quot;
+            ],
+            &quot;duration&quot;: 148,
+            &quot;expiryDate&quot;: &quot;2025-09-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sed et dolorum eveniet asperiores commodi est. Sed animi ipsa modi iusto est. Autem nisi occaecati doloremque quo ut iste aut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Possimus est est accusamus voluptatem.&quot;,
+                &quot;Aut porro minima provident architecto nulla quo sit.&quot;,
+                &quot;Quibusdam dolorem voluptate unde soluta ut vero.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Numquam ut deserunt earum dolor sint.&quot;,
+                &quot;Adipisci velit rerum rem tempore et non blanditiis.&quot;,
+                &quot;Itaque aut minus dignissimos ipsam impedit tempora.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 207,
+            &quot;latitude&quot;: &quot;84.16695700&quot;,
+            &quot;longitude&quot;: &quot;-86.76177800&quot;,
+            &quot;locationDescription&quot;: &quot;161 Lisette Terrace\nBlickview, NJ 88662&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptates sit et rerum fugiat dicta ab.&quot;,
+                &quot;Soluta et quia dignissimos aut adipisci aut quae aut.&quot;,
+                &quot;Aut omnis repellendus doloribus inventore enim possimus corporis.&quot;
+            ],
+            &quot;sectorId&quot;: 241,
+            &quot;extra&quot;: &quot;Alias est sunt dolorum sint labore quas adipisci. Dicta molestiae debitis deleniti quis ut et. Nemo fuga sit dolorum. Et beatae vitae ipsum omnis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;169&quot;,
+            &quot;title&quot;: &quot;Travel Agent Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Travel%20Agent%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Explicabo et error similique cumque autem. In commodi molestiae aut.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 29,
+            &quot;programId&quot;: 57,
+            &quot;tags&quot;: [
+                &quot;quam&quot;,
+                &quot;odio&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 315,
+            &quot;expiryDate&quot;: &quot;2026-02-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui beatae dolores nisi quis. Laboriosam voluptatibus perferendis in est dolorum aperiam. Sed assumenda aut rerum autem dolorem. Impedit ut et ea et dolores quidem inventore.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Molestiae numquam reiciendis quasi sed ullam exercitationem.&quot;,
+                &quot;Illum molestiae ex odio dolorem quia maiores et veniam.&quot;,
+                &quot;Nemo sequi vel et saepe est tenetur nihil.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Excepturi neque dignissimos asperiores et.&quot;,
+                &quot;Dicta debitis ut pariatur animi et mollitia aspernatur voluptatem.&quot;,
+                &quot;Exercitationem et voluptatem molestiae eius libero est expedita.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 206,
+            &quot;latitude&quot;: &quot;-33.31378400&quot;,
+            &quot;longitude&quot;: &quot;-76.38842300&quot;,
+            &quot;locationDescription&quot;: &quot;9991 Frederik Branch\nWest Chanel, CT 08386&quot;,
+            &quot;benefits&quot;: [
+                &quot;Blanditiis qui quia dolor inventore deserunt.&quot;,
+                &quot;Neque ipsum vero qui est voluptates qui adipisci neque.&quot;,
+                &quot;Minima eaque earum ab quia.&quot;
+            ],
+            &quot;sectorId&quot;: 240,
+            &quot;extra&quot;: &quot;Eum optio hic eos quos ratione. Modi omnis molestiae dolorem in aut et molestiae. Velit explicabo unde sint modi ducimus tempora. Rerum blanditiis est temporibus ut qui qui quo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;168&quot;,
+            &quot;title&quot;: &quot;Umpire and Referee Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Umpire%20and%20Referee%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dignissimos aut et porro optio. Et molestiae eos repellendus eum facere vel sit. Autem dicta necessitatibus assumenda accusantium esse illo itaque. Ut dolor et dolore eaque est.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 28,
+            &quot;programId&quot;: 56,
+            &quot;tags&quot;: [
+                &quot;quis&quot;,
+                &quot;quod&quot;,
+                &quot;minima&quot;
+            ],
+            &quot;duration&quot;: 58,
+            &quot;expiryDate&quot;: &quot;2025-09-21T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Repellendus inventore qui rerum exercitationem minima minus. Eos eveniet itaque sunt neque quia vero molestiae. Aperiam labore voluptas et illo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Maiores sequi odit reprehenderit et.&quot;,
+                &quot;Rem tempore dolor ipsa velit expedita officia.&quot;,
+                &quot;Eos est excepturi facilis illum dolorem quia.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sed voluptas vero eum est voluptas dolor amet.&quot;,
+                &quot;Sit ea voluptatem sed voluptatum tenetur impedit numquam.&quot;,
+                &quot;Distinctio in quia perferendis cum maxime sequi.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 205,
+            &quot;latitude&quot;: &quot;75.84937200&quot;,
+            &quot;longitude&quot;: &quot;-78.48058700&quot;,
+            &quot;locationDescription&quot;: &quot;768 Domenick Forks Suite 423\nEast Reggieborough, CT 54347&quot;,
+            &quot;benefits&quot;: [
+                &quot;Autem sapiente aut dolor voluptatem.&quot;,
+                &quot;Et est enim et aut non.&quot;,
+                &quot;Molestiae rem quisquam eos dolores.&quot;
+            ],
+            &quot;sectorId&quot;: 239,
+            &quot;extra&quot;: &quot;Voluptatum dolorem aliquam numquam nam sint aut. Delectus aut placeat qui rerum eligendi adipisci voluptas illo. Assumenda sit officia voluptas quo consectetur quod ut. Praesentium dignissimos recusandae architecto. Ex omnis adipisci aut soluta nisi totam perferendis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;167&quot;,
+            &quot;title&quot;: &quot;Chemical Equipment Tender Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chemical%20Equipment%20Tender%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est quasi reiciendis consectetur pariatur doloremque sint nihil. Consequatur ducimus voluptas est non enim. Omnis adipisci labore labore omnis dolore ducimus. Impedit vitae et rerum placeat neque ipsa.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 28,
+            &quot;programId&quot;: 56,
+            &quot;tags&quot;: [
+                &quot;eveniet&quot;,
+                &quot;cupiditate&quot;,
+                &quot;illum&quot;
+            ],
+            &quot;duration&quot;: 123,
+            &quot;expiryDate&quot;: &quot;2026-01-21T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatum quis voluptas et nostrum et unde rem. Occaecati occaecati alias repellendus quos. Quaerat neque dolorem at expedita iste est quaerat. Eveniet qui occaecati a ratione libero impedit.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Perspiciatis omnis quo perspiciatis quae autem.&quot;,
+                &quot;Autem magni laudantium aliquid fugit fugit officia.&quot;,
+                &quot;Architecto necessitatibus beatae mollitia et eum aut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Itaque dolorum unde similique.&quot;,
+                &quot;Qui quam quisquam accusamus qui.&quot;,
+                &quot;Sint velit praesentium itaque vitae amet a repudiandae consequuntur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 204,
+            &quot;latitude&quot;: &quot;52.88390400&quot;,
+            &quot;longitude&quot;: &quot;145.03579200&quot;,
+            &quot;locationDescription&quot;: &quot;6318 Gleason Key\nEbertside, KY 36151&quot;,
+            &quot;benefits&quot;: [
+                &quot;Veniam nam fugit atque rerum iure pariatur odio.&quot;,
+                &quot;Voluptas ut ipsum repudiandae sunt rem soluta qui.&quot;,
+                &quot;Aut autem sunt nisi occaecati.&quot;
+            ],
+            &quot;sectorId&quot;: 238,
+            &quot;extra&quot;: &quot;Qui fuga sapiente et nemo et facere. Odio beatae est excepturi. Repudiandae neque aut quasi aperiam nemo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;166&quot;,
+            &quot;title&quot;: &quot;Network Systems Analyst Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Network%20Systems%20Analyst%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Blanditiis impedit quae numquam. Asperiores distinctio maiores quis architecto provident aliquid et. Accusantium ea maxime reprehenderit ipsam tempore. Saepe blanditiis deleniti qui eveniet rerum omnis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 28,
+            &quot;programId&quot;: 56,
+            &quot;tags&quot;: [
+                &quot;ipsa&quot;,
+                &quot;qui&quot;,
+                &quot;autem&quot;
+            ],
+            &quot;duration&quot;: 337,
+            &quot;expiryDate&quot;: &quot;2025-10-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Omnis minima et repudiandae. Optio eos facere earum qui. Officiis neque distinctio voluptas veritatis consequatur magnam cumque. Quas ullam atque qui velit. Deserunt voluptatem non adipisci.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Totam qui non maxime ut et non maxime.&quot;,
+                &quot;Fuga excepturi facilis quia asperiores.&quot;,
+                &quot;Repellendus dolore eveniet aspernatur nam dolore.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Qui sapiente eius accusantium aut est dolores ipsa culpa.&quot;,
+                &quot;Ratione assumenda dolor sint ut illo et.&quot;,
+                &quot;Debitis harum error et corrupti id optio.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 203,
+            &quot;latitude&quot;: &quot;24.00021600&quot;,
+            &quot;longitude&quot;: &quot;-61.74041600&quot;,
+            &quot;locationDescription&quot;: &quot;5227 Roberts Greens\nKarianeport, DE 01867&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sapiente vel fugiat reiciendis necessitatibus porro recusandae.&quot;,
+                &quot;Molestiae hic repellat sapiente ut nobis sint nihil.&quot;,
+                &quot;Quidem quam eos inventore assumenda quis.&quot;
+            ],
+            &quot;sectorId&quot;: 237,
+            &quot;extra&quot;: &quot;Dolorem dolores rerum expedita. Distinctio et vitae natus molestiae nesciunt tempore dolore. Adipisci commodi sapiente sit atque ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;165&quot;,
+            &quot;title&quot;: &quot;Supervisor of Customer Service Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Supervisor%20of%20Customer%20Service%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Maxime molestiae dolores aliquam a non accusantium ut. Harum eum sed asperiores eos. Fugiat temporibus doloribus tempora ad. Ea sint rerum eaque expedita dolor aut.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 28,
+            &quot;programId&quot;: 55,
+            &quot;tags&quot;: [
+                &quot;beatae&quot;,
+                &quot;perspiciatis&quot;,
+                &quot;voluptatibus&quot;
+            ],
+            &quot;duration&quot;: 133,
+            &quot;expiryDate&quot;: &quot;2026-01-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Omnis id laboriosam nihil qui quia sed. Iste molestiae est molestias ipsum ut voluptas corporis voluptatem. Molestias aut nam et id cum possimus asperiores asperiores.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Deserunt minus modi nihil ut possimus ut.&quot;,
+                &quot;Velit nostrum incidunt fuga quam nostrum odit natus quo.&quot;,
+                &quot;Expedita mollitia tempore delectus reiciendis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quia velit maxime pariatur totam commodi nam nisi corporis.&quot;,
+                &quot;Ut vel molestias asperiores maxime.&quot;,
+                &quot;Et et occaecati ex quia autem debitis voluptatem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 202,
+            &quot;latitude&quot;: &quot;-83.26899400&quot;,
+            &quot;longitude&quot;: &quot;-121.87969600&quot;,
+            &quot;locationDescription&quot;: &quot;6659 Bins Harbors\nSouth Devan, CT 05319&quot;,
+            &quot;benefits&quot;: [
+                &quot;Fugit velit non officiis.&quot;,
+                &quot;Cum iure perspiciatis quidem quod.&quot;,
+                &quot;Dolores delectus sint sit molestias voluptates commodi qui.&quot;
+            ],
+            &quot;sectorId&quot;: 236,
+            &quot;extra&quot;: &quot;Aliquam quis velit est dolorem. Vel ducimus quia non magnam in. Distinctio sed et alias quod molestiae sunt omnis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;164&quot;,
+            &quot;title&quot;: &quot;Jeweler Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Jeweler%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptatem atque rerum optio fugit. Voluptatem quia blanditiis impedit odit. Libero corporis fugit blanditiis error incidunt rem non. Vel distinctio ipsum excepturi perspiciatis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 28,
+            &quot;programId&quot;: 55,
+            &quot;tags&quot;: [
+                &quot;atque&quot;,
+                &quot;est&quot;,
+                &quot;nihil&quot;
+            ],
+            &quot;duration&quot;: 203,
+            &quot;expiryDate&quot;: &quot;2025-11-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Consectetur ut dicta nulla illo. Repellendus quia sit quas dicta. Amet ratione quia sint qui iusto et ex numquam. Blanditiis doloribus vitae fugiat voluptatem blanditiis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolores sint porro qui totam laudantium velit debitis accusamus.&quot;,
+                &quot;Magni nobis odit fugit eaque quo quo.&quot;,
+                &quot;Occaecati eligendi hic dolore distinctio est ipsam officiis eos.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolores cupiditate commodi in id distinctio.&quot;,
+                &quot;Non placeat rem consectetur voluptatibus repellendus et hic cumque.&quot;,
+                &quot;Ex qui non eligendi placeat.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 201,
+            &quot;latitude&quot;: &quot;-76.09565600&quot;,
+            &quot;longitude&quot;: &quot;153.85424400&quot;,
+            &quot;locationDescription&quot;: &quot;35635 Addison Point Apt. 954\nDooleyport, TN 80292&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sunt tempore labore numquam quia voluptatem aut magnam ab.&quot;,
+                &quot;Est et provident distinctio officiis ad amet.&quot;,
+                &quot;Ut suscipit porro a tenetur ipsam.&quot;
+            ],
+            &quot;sectorId&quot;: 235,
+            &quot;extra&quot;: &quot;Quia odio quam consectetur est consectetur autem illo. Iure et ullam assumenda non in architecto. Aperiam dolore consequatur illum delectus ut velit.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;163&quot;,
+            &quot;title&quot;: &quot;Aerospace Engineer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aerospace%20Engineer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Laudantium repudiandae tempora nam officia commodi. Quasi incidunt quae consectetur iusto. Illum maiores sequi incidunt facilis accusantium est veritatis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 28,
+            &quot;programId&quot;: 55,
+            &quot;tags&quot;: [
+                &quot;nihil&quot;,
+                &quot;fuga&quot;,
+                &quot;temporibus&quot;
+            ],
+            &quot;duration&quot;: 71,
+            &quot;expiryDate&quot;: &quot;2025-11-10T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ducimus dolor reprehenderit qui omnis explicabo. Alias aut qui provident nam voluptatum harum quod. Dolores eum impedit quibusdam omnis. Ipsam asperiores aspernatur saepe ut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Repellendus blanditiis mollitia consectetur aut aut et laudantium.&quot;,
+                &quot;Hic dolorem aut quibusdam.&quot;,
+                &quot;Assumenda quo tempora omnis vero sed et aliquid.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatum autem quaerat eum provident in fuga.&quot;,
+                &quot;Debitis quas repellendus harum qui cupiditate eos et.&quot;,
+                &quot;Ut aut vel nostrum odit quos.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 200,
+            &quot;latitude&quot;: &quot;60.98202900&quot;,
+            &quot;longitude&quot;: &quot;-177.01045900&quot;,
+            &quot;locationDescription&quot;: &quot;714 Arlene Roads\nVedastad, HI 48824&quot;,
+            &quot;benefits&quot;: [
+                &quot;Veniam non libero deserunt magnam rerum.&quot;,
+                &quot;Quia architecto sapiente saepe sit.&quot;,
+                &quot;Consequatur qui voluptatum quaerat quas.&quot;
+            ],
+            &quot;sectorId&quot;: 234,
+            &quot;extra&quot;: &quot;Excepturi voluptas et voluptas earum aut accusamus veniam. Quia qui et vel autem. Commodi nihil dolore consequatur est non a error doloremque. Est molestias ab consequatur perspiciatis itaque.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;162&quot;,
+            &quot;title&quot;: &quot;Central Office and PBX Installers Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Central%20Office%20and%20PBX%20Installers%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Excepturi minima aut enim eos. Nihil maxime qui et assumenda cupiditate sit. Repellendus tempora quia corrupti dolores in.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 27,
+            &quot;programId&quot;: 54,
+            &quot;tags&quot;: [
+                &quot;reiciendis&quot;,
+                &quot;enim&quot;,
+                &quot;commodi&quot;
+            ],
+            &quot;duration&quot;: 325,
+            &quot;expiryDate&quot;: &quot;2026-01-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Id voluptatibus recusandae autem dolore voluptate nobis. Rerum omnis qui quis. Assumenda numquam nam placeat neque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Reiciendis cupiditate quod delectus non.&quot;,
+                &quot;Eaque sit est sit aliquid et delectus tenetur id.&quot;,
+                &quot;Placeat qui accusamus consequatur veritatis rerum ab.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et qui velit similique.&quot;,
+                &quot;Eum rem quisquam qui odio aliquid quasi.&quot;,
+                &quot;Est repudiandae officiis molestias quam molestiae qui eaque.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 199,
+            &quot;latitude&quot;: &quot;28.02209700&quot;,
+            &quot;longitude&quot;: &quot;-121.52615500&quot;,
+            &quot;locationDescription&quot;: &quot;29121 Towne Grove Apt. 400\nWest Adalbertofurt, OR 21070-8237&quot;,
+            &quot;benefits&quot;: [
+                &quot;Fugiat animi perferendis quaerat praesentium quod.&quot;,
+                &quot;Ullam eligendi qui aspernatur rerum.&quot;,
+                &quot;Soluta aut ut eius suscipit et ut deleniti.&quot;
+            ],
+            &quot;sectorId&quot;: 233,
+            &quot;extra&quot;: &quot;Similique illo possimus fuga ab iusto minima. Ut et velit voluptatem neque voluptatibus voluptates. Esse soluta mollitia et ipsam inventore. Veniam cumque magnam dolores hic esse rerum quasi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;161&quot;,
+            &quot;title&quot;: &quot;User Experience Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=User%20Experience%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dicta sit consequatur consequatur accusantium. Sequi voluptatem quas laudantium autem. Perspiciatis alias repellendus eligendi voluptatem itaque excepturi. Ut alias nostrum quam eum earum.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 27,
+            &quot;programId&quot;: 54,
+            &quot;tags&quot;: [
+                &quot;maxime&quot;,
+                &quot;aperiam&quot;,
+                &quot;voluptas&quot;
+            ],
+            &quot;duration&quot;: 241,
+            &quot;expiryDate&quot;: &quot;2025-11-03T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Fuga voluptate modi in voluptatibus sunt omnis sed. Voluptas impedit voluptatem culpa repudiandae qui. Praesentium ea ipsum rerum exercitationem dolore voluptatem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eum delectus unde placeat reprehenderit similique quia.&quot;,
+                &quot;Nostrum id voluptatem aut dolorem accusantium qui eveniet.&quot;,
+                &quot;Accusamus reiciendis repellat iusto maiores doloremque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Error commodi dolores aspernatur officia aut.&quot;,
+                &quot;Quis fugit corrupti dignissimos consequatur inventore.&quot;,
+                &quot;Rerum vero qui molestias id ad delectus nam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 198,
+            &quot;latitude&quot;: &quot;10.53895600&quot;,
+            &quot;longitude&quot;: &quot;-55.77176200&quot;,
+            &quot;locationDescription&quot;: &quot;192 Bauch Common\nEast Wilsontown, DE 27786&quot;,
+            &quot;benefits&quot;: [
+                &quot;Deleniti enim architecto dolores quia dolores at id.&quot;,
+                &quot;Et laboriosam natus occaecati omnis.&quot;,
+                &quot;Quidem asperiores necessitatibus minus dolorem neque molestiae.&quot;
+            ],
+            &quot;sectorId&quot;: 232,
+            &quot;extra&quot;: &quot;Suscipit explicabo quia veniam id voluptas minus ullam. Sunt ipsa adipisci eveniet dolor deserunt veritatis et modi. Reiciendis reprehenderit quibusdam voluptatem officiis delectus. Et optio aut animi sit odio esse. Quasi cum odio labore a quidem est consequatur.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;160&quot;,
+            &quot;title&quot;: &quot;Short Order Cook Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Short%20Order%20Cook%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Facilis ea qui quae nam. Fugiat aut beatae assumenda velit amet assumenda dolorem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 27,
+            &quot;programId&quot;: 54,
+            &quot;tags&quot;: [
+                &quot;nihil&quot;,
+                &quot;ad&quot;,
+                &quot;corrupti&quot;
+            ],
+            &quot;duration&quot;: 54,
+            &quot;expiryDate&quot;: &quot;2025-12-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sit vel aut labore. Soluta reprehenderit eos qui expedita tenetur in ullam dolor. Vitae blanditiis consequuntur sunt provident aut voluptas.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Asperiores ea tempora eius consequatur.&quot;,
+                &quot;Et qui nihil harum repellat ut.&quot;,
+                &quot;Eos eligendi ea nesciunt officiis molestiae labore.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Optio provident aperiam impedit quia quae consequatur architecto reiciendis.&quot;,
+                &quot;Officia hic et et dicta esse.&quot;,
+                &quot;Totam et reiciendis libero voluptas vel quaerat.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 197,
+            &quot;latitude&quot;: &quot;-24.40212200&quot;,
+            &quot;longitude&quot;: &quot;-76.17260900&quot;,
+            &quot;locationDescription&quot;: &quot;2101 Nader Plains\nLake Johathan, AK 01065-5869&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolores minus iure et quia.&quot;,
+                &quot;Velit impedit labore sit ut pariatur.&quot;,
+                &quot;Odio explicabo nesciunt occaecati cupiditate aut.&quot;
+            ],
+            &quot;sectorId&quot;: 231,
+            &quot;extra&quot;: &quot;Sit et veritatis repellat dolorem odit tenetur. Dignissimos neque vitae earum est alias. Aut aut molestias voluptate illum esse consequatur. Dolorem labore aut et est sed rerum iste.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;159&quot;,
+            &quot;title&quot;: &quot;Solderer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Solderer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Non nisi aut quisquam et. Possimus laborum alias soluta placeat nam. Veniam rerum dolorem minus ipsam sit deserunt. Et asperiores sed eligendi aspernatur.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 27,
+            &quot;programId&quot;: 53,
+            &quot;tags&quot;: [
+                &quot;perferendis&quot;,
+                &quot;non&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 129,
+            &quot;expiryDate&quot;: &quot;2026-03-03T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Omnis iusto cumque neque magnam atque ut voluptas porro. Dolorum non eaque maiores inventore libero eos eligendi facere. Fugiat pariatur aut enim eius repellendus nisi. Earum vitae omnis eum sint.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quo deleniti qui neque sed inventore reprehenderit voluptatibus inventore.&quot;,
+                &quot;Consectetur qui iure officiis et.&quot;,
+                &quot;Ea commodi quasi vitae est commodi consequuntur.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sit vero est dolores quo velit optio.&quot;,
+                &quot;Et laborum porro eos quo corporis qui quia.&quot;,
+                &quot;Quia consequuntur quaerat voluptas deserunt enim eum ut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 196,
+            &quot;latitude&quot;: &quot;-71.06346300&quot;,
+            &quot;longitude&quot;: &quot;11.36287600&quot;,
+            &quot;locationDescription&quot;: &quot;940 Sauer Street\nSchillerton, RI 15855&quot;,
+            &quot;benefits&quot;: [
+                &quot;Libero id maiores iste sit ipsum ad omnis et.&quot;,
+                &quot;Officiis est quisquam quod.&quot;,
+                &quot;Animi est omnis ut odit quam sunt et.&quot;
+            ],
+            &quot;sectorId&quot;: 230,
+            &quot;extra&quot;: &quot;Ipsum voluptas aut occaecati id est. Aliquid itaque corrupti sit et. Saepe inventore sunt et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;158&quot;,
+            &quot;title&quot;: &quot;Transportation Attendant Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Transportation%20Attendant%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vel optio autem maxime accusamus aut. Soluta aperiam dolores maxime cum ut sint. Vitae eos adipisci ducimus velit nisi. Ut accusantium labore ut deserunt eligendi.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 27,
+            &quot;programId&quot;: 53,
+            &quot;tags&quot;: [
+                &quot;commodi&quot;,
+                &quot;quas&quot;,
+                &quot;totam&quot;
+            ],
+            &quot;duration&quot;: 147,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolor rem assumenda ducimus voluptas autem. Quidem eum vel voluptas. Necessitatibus qui facilis optio ratione quia quaerat. Perferendis non qui nisi ex.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Unde sint dicta dolore.&quot;,
+                &quot;Illum id exercitationem voluptates dolore facere aut qui.&quot;,
+                &quot;Officia tempore autem aliquid qui.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Facilis in natus sint veniam.&quot;,
+                &quot;Eaque repellat laboriosam temporibus alias.&quot;,
+                &quot;Expedita illo velit sit est.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 195,
+            &quot;latitude&quot;: &quot;76.17682800&quot;,
+            &quot;longitude&quot;: &quot;178.10959100&quot;,
+            &quot;locationDescription&quot;: &quot;77128 Koss Burg Apt. 685\nLoyceport, WA 39158-1238&quot;,
+            &quot;benefits&quot;: [
+                &quot;Itaque sapiente iure pariatur dolorem vero.&quot;,
+                &quot;Nihil minus dolor ullam repellat.&quot;,
+                &quot;Numquam autem quidem occaecati.&quot;
+            ],
+            &quot;sectorId&quot;: 229,
+            &quot;extra&quot;: &quot;Vero dolores illum aut blanditiis repudiandae. Minima quod aut sit provident saepe cupiditate. Quia similique nulla illum et necessitatibus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;157&quot;,
+            &quot;title&quot;: &quot;Watch Repairer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Watch%20Repairer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vel quia ex ut officiis. Molestias autem sit labore earum accusamus asperiores voluptatem qui. Maiores totam earum sunt impedit expedita asperiores molestiae. Qui eos similique qui est molestias.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 27,
+            &quot;programId&quot;: 53,
+            &quot;tags&quot;: [
+                &quot;dolorum&quot;,
+                &quot;fugit&quot;,
+                &quot;eum&quot;
+            ],
+            &quot;duration&quot;: 53,
+            &quot;expiryDate&quot;: &quot;2026-03-06T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut odit similique maxime facere. Porro ut ut nostrum aut provident. Aliquid repudiandae aut provident autem nemo quos velit non. Impedit et modi at corrupti necessitatibus libero.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ex sunt consequuntur et non ullam commodi explicabo.&quot;,
+                &quot;Sit beatae voluptas nam adipisci id quasi.&quot;,
+                &quot;Est est minus voluptatem quidem hic.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aut nisi enim molestiae consequatur fugit.&quot;,
+                &quot;Asperiores omnis qui reiciendis facere.&quot;,
+                &quot;Dolorum ipsa voluptas provident id.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 194,
+            &quot;latitude&quot;: &quot;-65.35184400&quot;,
+            &quot;longitude&quot;: &quot;50.45551800&quot;,
+            &quot;locationDescription&quot;: &quot;208 Kuvalis Forks\nLake Donavonmouth, CA 89644&quot;,
+            &quot;benefits&quot;: [
+                &quot;Doloribus voluptas dolore veritatis dolore non eligendi.&quot;,
+                &quot;Nemo rerum sit et quis eaque non suscipit.&quot;,
+                &quot;Ut aut fugit aut quam.&quot;
+            ],
+            &quot;sectorId&quot;: 228,
+            &quot;extra&quot;: &quot;Vel provident iste ducimus et. Nihil repellat ea optio et at. Exercitationem voluptas aliquid labore et voluptatem est. Debitis aspernatur et et tempora ad cupiditate.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;156&quot;,
+            &quot;title&quot;: &quot;Teacher Assistant Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Teacher%20Assistant%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Saepe rerum fugiat ut deserunt. Veritatis enim quo libero perferendis qui ut. Voluptate est officia sunt incidunt deleniti. Odio magni iste assumenda distinctio.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 26,
+            &quot;programId&quot;: 52,
+            &quot;tags&quot;: [
+                &quot;sunt&quot;,
+                &quot;laborum&quot;,
+                &quot;ullam&quot;
+            ],
+            &quot;duration&quot;: 37,
+            &quot;expiryDate&quot;: &quot;2026-03-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Magni libero voluptas consectetur dolorem hic quisquam consectetur. Omnis laboriosam velit voluptates ut doloremque iste. Ea sit at qui molestiae aliquid expedita. Mollitia quo laboriosam ut quo non sint. Rerum impedit laudantium voluptatem ut esse quia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et eaque nihil maiores.&quot;,
+                &quot;Quas perferendis rerum deleniti placeat.&quot;,
+                &quot;Voluptatem illo aut qui sunt ut officia omnis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aut quae exercitationem consequatur autem.&quot;,
+                &quot;Atque impedit suscipit blanditiis omnis perferendis maiores commodi.&quot;,
+                &quot;Voluptatem dolorem recusandae magnam molestias sequi minima.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 193,
+            &quot;latitude&quot;: &quot;-26.35756700&quot;,
+            &quot;longitude&quot;: &quot;-114.27142600&quot;,
+            &quot;locationDescription&quot;: &quot;4753 Maureen Course\nO&#039;Reillyport, OK 53672&quot;,
+            &quot;benefits&quot;: [
+                &quot;Est cum autem quod sit.&quot;,
+                &quot;Adipisci veniam voluptatem temporibus cum non.&quot;,
+                &quot;Commodi iure illum incidunt non porro ad et magni.&quot;
+            ],
+            &quot;sectorId&quot;: 227,
+            &quot;extra&quot;: &quot;Deserunt veniam officia vel sed voluptates voluptas est. Provident qui quo ducimus et. Ut eum ipsam aut earum molestiae suscipit aut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;155&quot;,
+            &quot;title&quot;: &quot;Installation and Repair Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Installation%20and%20Repair%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Alias id ipsum laboriosam veritatis aperiam. At corporis fugiat eum est quam commodi. Earum aut similique nesciunt qui.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 26,
+            &quot;programId&quot;: 52,
+            &quot;tags&quot;: [
+                &quot;vero&quot;,
+                &quot;itaque&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 98,
+            &quot;expiryDate&quot;: &quot;2026-01-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolorum qui in quis sed labore est. Illo atque in sunt dicta vitae. Et nihil et voluptates asperiores sit animi. Quia molestias hic distinctio perferendis accusantium sed animi aut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Laudantium commodi minus veniam libero aut.&quot;,
+                &quot;Ipsum et ratione aperiam tenetur odio eos.&quot;,
+                &quot;Vitae suscipit similique qui nulla in aut enim cum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Consequatur nam corporis sunt dolorem tenetur error ad.&quot;,
+                &quot;Autem soluta et neque saepe rerum quo sit.&quot;,
+                &quot;Quis eum et provident consequatur id.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 192,
+            &quot;latitude&quot;: &quot;-65.44224100&quot;,
+            &quot;longitude&quot;: &quot;46.82266200&quot;,
+            &quot;locationDescription&quot;: &quot;138 Cristopher Station\nNew Kayli, MN 36134&quot;,
+            &quot;benefits&quot;: [
+                &quot;Earum atque explicabo aliquid ea assumenda.&quot;,
+                &quot;Molestiae illum ut qui nobis.&quot;,
+                &quot;Molestiae deserunt eos delectus quae.&quot;
+            ],
+            &quot;sectorId&quot;: 226,
+            &quot;extra&quot;: &quot;Aliquid eaque maiores consequatur maxime consequatur. Maxime voluptatem est aliquam ea libero maiores. Dolor et est sunt corporis eligendi aliquid.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;154&quot;,
+            &quot;title&quot;: &quot;Travel Agent Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Travel%20Agent%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptas excepturi consectetur ea quibusdam autem. Nihil sit quasi nemo eveniet in esse.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 26,
+            &quot;programId&quot;: 52,
+            &quot;tags&quot;: [
+                &quot;occaecati&quot;,
+                &quot;nesciunt&quot;,
+                &quot;molestiae&quot;
+            ],
+            &quot;duration&quot;: 253,
+            &quot;expiryDate&quot;: &quot;2026-02-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolor quis non accusamus non qui. Et necessitatibus quod dolorem vel culpa in autem. Ipsam veritatis molestias atque ducimus. Reprehenderit cumque eligendi amet dicta consequatur quo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Id tenetur velit quia sunt commodi.&quot;,
+                &quot;Enim minus odit ipsum.&quot;,
+                &quot;Voluptatum occaecati odit eligendi deserunt deleniti aut non.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatem cupiditate et exercitationem explicabo et veniam et deserunt.&quot;,
+                &quot;Fugit explicabo suscipit labore et dolores inventore ut.&quot;,
+                &quot;Autem temporibus et aut qui et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 191,
+            &quot;latitude&quot;: &quot;-87.85933000&quot;,
+            &quot;longitude&quot;: &quot;-29.40766200&quot;,
+            &quot;locationDescription&quot;: &quot;86731 Ledner Drives Apt. 485\nEast Dejon, WV 79660&quot;,
+            &quot;benefits&quot;: [
+                &quot;Molestiae optio et magni corporis omnis placeat quia quo.&quot;,
+                &quot;Dicta facere facilis doloremque ratione.&quot;,
+                &quot;Ducimus rerum nesciunt eum nihil libero ipsa.&quot;
+            ],
+            &quot;sectorId&quot;: 225,
+            &quot;extra&quot;: &quot;Et praesentium quis repellendus in. Maiores delectus aliquid laudantium velit molestiae.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;153&quot;,
+            &quot;title&quot;: &quot;Librarian Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Librarian%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ducimus est dolorum et et aut. Optio quae veritatis perferendis velit voluptatem est. Maxime quam totam sapiente et minima reprehenderit nihil.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 26,
+            &quot;programId&quot;: 51,
+            &quot;tags&quot;: [
+                &quot;ducimus&quot;,
+                &quot;aut&quot;,
+                &quot;sint&quot;
+            ],
+            &quot;duration&quot;: 101,
+            &quot;expiryDate&quot;: &quot;2025-11-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eligendi animi voluptatem minima. Aut voluptatem ducimus error nostrum. Aspernatur reprehenderit eum delectus et animi rerum quisquam vero.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Corrupti est alias voluptatibus reprehenderit ea incidunt.&quot;,
+                &quot;Sed excepturi non minima voluptate nesciunt voluptatem id et.&quot;,
+                &quot;Eaque incidunt facere harum explicabo esse aut perferendis eum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Possimus non laborum voluptatibus qui harum consectetur.&quot;,
+                &quot;Tempora modi non voluptatem accusamus.&quot;,
+                &quot;Eum accusamus rerum id maiores fugit sunt magni repellendus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 190,
+            &quot;latitude&quot;: &quot;34.82876800&quot;,
+            &quot;longitude&quot;: &quot;-111.62733500&quot;,
+            &quot;locationDescription&quot;: &quot;3486 Skiles Trace Apt. 034\nOrlomouth, SC 20459-5596&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quas magni fuga mollitia velit.&quot;,
+                &quot;Autem sapiente sunt voluptas enim dolorum.&quot;,
+                &quot;Aut sit deserunt quia eos corporis est rem.&quot;
+            ],
+            &quot;sectorId&quot;: 224,
+            &quot;extra&quot;: &quot;Eius aperiam hic ratione omnis est repudiandae sit. Amet ea iusto dolor aut amet eum. Itaque autem qui vel nihil totam. Natus natus ea totam labore aliquid vitae. Vero ipsum eos doloribus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;152&quot;,
+            &quot;title&quot;: &quot;Cartographer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Cartographer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut voluptatem et voluptates facere occaecati dolorum. Quam consequuntur ut fuga nihil sint fugit. Quo ad accusantium accusamus maxime saepe iusto fuga.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 26,
+            &quot;programId&quot;: 51,
+            &quot;tags&quot;: [
+                &quot;dolorum&quot;,
+                &quot;sed&quot;,
+                &quot;aspernatur&quot;
+            ],
+            &quot;duration&quot;: 289,
+            &quot;expiryDate&quot;: &quot;2026-01-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui cupiditate minima optio quia tempora sapiente sunt. Excepturi dolorem et beatae quod ut et quia. Et similique laboriosam et quae in sit sed est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut qui beatae rem quis esse non doloribus quas.&quot;,
+                &quot;Nihil doloremque iste voluptatem pariatur.&quot;,
+                &quot;Non ut eveniet voluptates nihil nihil aspernatur asperiores.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Possimus natus porro maiores impedit.&quot;,
+                &quot;Voluptatem non asperiores commodi voluptatem iste sed enim.&quot;,
+                &quot;Quae eos minima soluta similique explicabo aspernatur nostrum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 189,
+            &quot;latitude&quot;: &quot;75.82150500&quot;,
+            &quot;longitude&quot;: &quot;81.19962200&quot;,
+            &quot;locationDescription&quot;: &quot;6822 Conn Street\nKingview, CO 86088-7587&quot;,
+            &quot;benefits&quot;: [
+                &quot;Numquam ea rem repellendus quia facere quia.&quot;,
+                &quot;Et ut itaque a eaque ducimus.&quot;,
+                &quot;Ducimus voluptatibus sed corrupti similique minima ipsam.&quot;
+            ],
+            &quot;sectorId&quot;: 223,
+            &quot;extra&quot;: &quot;Facere quisquam qui ut quaerat suscipit explicabo consequatur. Beatae qui eligendi nesciunt cumque fugiat molestiae. Aperiam repellendus et est corrupti accusantium dignissimos. Quo excepturi ex molestias et mollitia dolores rerum sunt. Occaecati et ducimus ex incidunt.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;151&quot;,
+            &quot;title&quot;: &quot;Fishery Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Fishery%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consequatur aliquid qui iusto ut. Perferendis nemo ipsam consequuntur id in enim necessitatibus. Harum aliquid illum eos non. Veniam non officia qui corrupti consequatur quas.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 26,
+            &quot;programId&quot;: 51,
+            &quot;tags&quot;: [
+                &quot;repudiandae&quot;,
+                &quot;facilis&quot;,
+                &quot;expedita&quot;
+            ],
+            &quot;duration&quot;: 146,
+            &quot;expiryDate&quot;: &quot;2025-11-08T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatem unde et qui adipisci ut sint omnis. Rerum totam qui optio porro eos. Maxime voluptas aut temporibus. Nihil quia libero voluptas voluptatem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Voluptas quod harum voluptate laboriosam at.&quot;,
+                &quot;Consequatur corrupti fugiat sit enim nobis officia hic ab.&quot;,
+                &quot;Quae ut asperiores error et ipsam libero sit consequatur.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Id ad quos temporibus ipsa.&quot;,
+                &quot;Accusantium quia sint porro fugiat ex laudantium nesciunt.&quot;,
+                &quot;Error tempora est et qui quas aperiam error.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 188,
+            &quot;latitude&quot;: &quot;-81.90613600&quot;,
+            &quot;longitude&quot;: &quot;66.36968000&quot;,
+            &quot;locationDescription&quot;: &quot;259 Torp Court Suite 226\nLake Derekbury, MD 82055&quot;,
+            &quot;benefits&quot;: [
+                &quot;Eum non perspiciatis facilis iusto fugit repellat.&quot;,
+                &quot;Error fuga voluptas rerum quidem.&quot;,
+                &quot;Porro est qui atque temporibus dolorem architecto.&quot;
+            ],
+            &quot;sectorId&quot;: 222,
+            &quot;extra&quot;: &quot;Vel non reprehenderit ipsum at ipsa aut. Dolorum ducimus ut cupiditate corporis. Sit voluptatem repellat molestias hic rem dolor voluptas et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;150&quot;,
+            &quot;title&quot;: &quot;Diagnostic Medical Sonographer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Diagnostic%20Medical%20Sonographer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Molestiae ipsum quasi suscipit reiciendis iure laboriosam. A fugiat voluptate sapiente. Ipsa reprehenderit vitae quisquam enim. Recusandae sed voluptatem ut rem sit.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 25,
+            &quot;programId&quot;: 50,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;ut&quot;,
+                &quot;culpa&quot;
+            ],
+            &quot;duration&quot;: 143,
+            &quot;expiryDate&quot;: &quot;2025-12-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Soluta vel ut rerum illo. Doloribus asperiores dolorem ipsum nam nihil odio dolor. Et expedita dolores nam dolore corporis delectus. Iure laudantium voluptas voluptatem recusandae amet distinctio aliquid.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Architecto assumenda praesentium nemo debitis fuga necessitatibus non.&quot;,
+                &quot;Dolorem debitis ducimus sit nostrum qui.&quot;,
+                &quot;Id aperiam et necessitatibus nam est.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Blanditiis deleniti eos eum.&quot;,
+                &quot;Magni eum a neque asperiores doloremque.&quot;,
+                &quot;Iure necessitatibus labore eum qui eligendi praesentium alias.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 187,
+            &quot;latitude&quot;: &quot;-0.90159600&quot;,
+            &quot;longitude&quot;: &quot;-108.30894300&quot;,
+            &quot;locationDescription&quot;: &quot;446 Padberg Land Suite 486\nWest Juliannemouth, VA 23363&quot;,
+            &quot;benefits&quot;: [
+                &quot;Et quia molestiae adipisci veniam laudantium sed placeat.&quot;,
+                &quot;Quo amet explicabo ut laborum blanditiis perspiciatis velit.&quot;,
+                &quot;Nihil ipsam temporibus aspernatur aut quo voluptatem repudiandae.&quot;
+            ],
+            &quot;sectorId&quot;: 221,
+            &quot;extra&quot;: &quot;Impedit distinctio totam expedita et consequatur fuga exercitationem. Qui quibusdam est cum necessitatibus sed. Quis laboriosam eum omnis qui reiciendis aut. Quia deserunt quam perferendis quaerat aut id. Et sit error illo laudantium mollitia et consequatur accusantium.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;149&quot;,
+            &quot;title&quot;: &quot;Insulation Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Insulation%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Id voluptatem ut labore qui nam ipsa deleniti aut. Quibusdam consequuntur itaque amet officia delectus nihil. Et nobis ea a deserunt corporis. Et a debitis earum. Incidunt harum excepturi maxime sapiente aut perferendis et.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 25,
+            &quot;programId&quot;: 50,
+            &quot;tags&quot;: [
+                &quot;aut&quot;,
+                &quot;itaque&quot;,
+                &quot;exercitationem&quot;
+            ],
+            &quot;duration&quot;: 74,
+            &quot;expiryDate&quot;: &quot;2025-10-17T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Repudiandae sint culpa odit a autem. Doloribus similique accusamus sunt autem quisquam. Rem aut voluptatibus molestiae minima voluptatum sunt. Et totam sed minus atque nesciunt ea.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Qui est voluptatum quae aliquid saepe.&quot;,
+                &quot;Quasi ratione animi libero molestiae numquam voluptatem.&quot;,
+                &quot;Possimus deleniti ut velit qui.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Vero et ut veritatis autem enim.&quot;,
+                &quot;Rem vero natus officia optio tempore dolores error.&quot;,
+                &quot;Ut maxime autem dolorum alias dolorum aut quam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 186,
+            &quot;latitude&quot;: &quot;-68.44883200&quot;,
+            &quot;longitude&quot;: &quot;-87.82852000&quot;,
+            &quot;locationDescription&quot;: &quot;63096 Gusikowski Avenue Suite 102\nWest Roberta, MS 70555-3711&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ut consequatur omnis sint iusto.&quot;,
+                &quot;Perferendis distinctio earum sunt pariatur.&quot;,
+                &quot;Ab quae non ut sequi at molestias.&quot;
+            ],
+            &quot;sectorId&quot;: 220,
+            &quot;extra&quot;: &quot;Saepe in fugiat dolor ea sed. Dolorem illum laborum adipisci.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;148&quot;,
+            &quot;title&quot;: &quot;Agricultural Crop Farm Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Agricultural%20Crop%20Farm%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Exercitationem dolor quaerat magni. Est dolores dolore aut voluptatem ut ullam et inventore. Aut alias numquam reiciendis in.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 25,
+            &quot;programId&quot;: 50,
+            &quot;tags&quot;: [
+                &quot;officiis&quot;,
+                &quot;aut&quot;,
+                &quot;nulla&quot;
+            ],
+            &quot;duration&quot;: 53,
+            &quot;expiryDate&quot;: &quot;2025-12-10T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et sit accusamus ut quod sed sint hic. Magnam quod omnis occaecati praesentium aut vitae. Ea eos voluptatem non dicta ut. Accusantium fugit et atque nobis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ipsum dolores pariatur inventore nostrum eius.&quot;,
+                &quot;Veniam autem soluta nemo fugiat velit necessitatibus.&quot;,
+                &quot;Eaque excepturi consequatur veritatis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dignissimos dolorem dolorem quo molestiae vitae officiis illo ut.&quot;,
+                &quot;Aspernatur eligendi placeat soluta unde repellat molestiae.&quot;,
+                &quot;Deserunt dicta illo pariatur culpa voluptas quia enim.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 185,
+            &quot;latitude&quot;: &quot;-67.50959900&quot;,
+            &quot;longitude&quot;: &quot;-12.93328100&quot;,
+            &quot;locationDescription&quot;: &quot;95758 Fatima Locks\nSouth Kacietown, ME 44821&quot;,
+            &quot;benefits&quot;: [
+                &quot;Doloribus distinctio nulla eum et repellendus qui dolores.&quot;,
+                &quot;Officiis facere voluptatem occaecati et omnis voluptas.&quot;,
+                &quot;Earum provident doloremque id.&quot;
+            ],
+            &quot;sectorId&quot;: 219,
+            &quot;extra&quot;: &quot;Excepturi placeat rem occaecati quod magnam qui sequi. Architecto provident ab non nulla sit est. Esse aut similique totam. Et eos aut aliquam beatae et nemo nisi modi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;147&quot;,
+            &quot;title&quot;: &quot;Postal Service Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Postal%20Service%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est incidunt explicabo aut quisquam. Provident maxime repellat tempora deleniti. Aut consequatur dolorem et adipisci dolor consequuntur saepe. Natus nulla consectetur dolorem quasi officiis. Labore et recusandae earum unde aperiam doloribus.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 25,
+            &quot;programId&quot;: 49,
+            &quot;tags&quot;: [
+                &quot;aut&quot;,
+                &quot;velit&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 270,
+            &quot;expiryDate&quot;: &quot;2026-01-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Unde excepturi ut sed enim. Rerum cum ea numquam consequatur eligendi ipsa. Velit provident nostrum in. Sit et atque asperiores alias fuga corrupti velit laboriosam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Hic tempore quae quis voluptas suscipit ipsam natus.&quot;,
+                &quot;Aliquid ex rerum voluptatem doloribus aut ea aut.&quot;,
+                &quot;Dolor magnam excepturi voluptatem magni voluptates aut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Illum laudantium tenetur sunt soluta est ut.&quot;,
+                &quot;Dolorem veritatis eaque similique qui pariatur et.&quot;,
+                &quot;Nam voluptas impedit velit quibusdam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 184,
+            &quot;latitude&quot;: &quot;-8.24009200&quot;,
+            &quot;longitude&quot;: &quot;-14.29973200&quot;,
+            &quot;locationDescription&quot;: &quot;11450 Amparo Pines Apt. 922\nPattieshire, LA 02818-7089&quot;,
+            &quot;benefits&quot;: [
+                &quot;Non sunt praesentium deserunt voluptatem excepturi modi doloremque eos.&quot;,
+                &quot;Voluptatum quia nobis neque adipisci ad nihil commodi omnis.&quot;,
+                &quot;Corrupti explicabo omnis qui.&quot;
+            ],
+            &quot;sectorId&quot;: 218,
+            &quot;extra&quot;: &quot;Et qui voluptatem assumenda ut nam impedit. Minima doloribus inventore tenetur ut corporis voluptatem. Tempore et consequuntur et consequuntur vel soluta eligendi. Est temporibus qui reiciendis aspernatur atque enim et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;146&quot;,
+            &quot;title&quot;: &quot;Stonemason Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Stonemason%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quo enim quam ut eum quia a fuga. Ipsam excepturi laborum consequatur. Autem in quia sed quisquam alias.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 25,
+            &quot;programId&quot;: 49,
+            &quot;tags&quot;: [
+                &quot;at&quot;,
+                &quot;nulla&quot;,
+                &quot;sit&quot;
+            ],
+            &quot;duration&quot;: 323,
+            &quot;expiryDate&quot;: &quot;2025-09-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nihil ut natus ut dolor voluptate. Nemo est aut ut dicta et deleniti. Quia magni quia velit qui ducimus aperiam dolore.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Corporis voluptates doloribus sed perspiciatis nisi corrupti.&quot;,
+                &quot;Ipsam iure incidunt voluptatem numquam rerum cumque eligendi.&quot;,
+                &quot;In nemo iure error ex et nulla.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Debitis sint veritatis itaque possimus.&quot;,
+                &quot;Nobis molestias sapiente molestias sunt rerum in.&quot;,
+                &quot;Exercitationem doloribus nostrum odio minus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 183,
+            &quot;latitude&quot;: &quot;-75.62632000&quot;,
+            &quot;longitude&quot;: &quot;-22.99329100&quot;,
+            &quot;locationDescription&quot;: &quot;76910 Jean Ferry Apt. 173\nSouth Torrance, SC 89619-8786&quot;,
+            &quot;benefits&quot;: [
+                &quot;Eligendi et laudantium illo libero.&quot;,
+                &quot;Quasi tenetur et autem cum.&quot;,
+                &quot;Et sunt magnam enim odit aut aut.&quot;
+            ],
+            &quot;sectorId&quot;: 217,
+            &quot;extra&quot;: &quot;Assumenda dolores quas sit quis. Minus voluptas a quas nisi esse molestias animi et. Quisquam labore doloremque sint illum consequatur nihil ducimus hic. Veritatis soluta ut quibusdam nulla velit et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;145&quot;,
+            &quot;title&quot;: &quot;Dredge Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dredge%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Cumque quos quos quod et sit sequi iusto. Unde perferendis autem fuga inventore atque voluptate. Perferendis corporis non nemo atque voluptatem quas. Quos cupiditate nesciunt excepturi aut ab nostrum praesentium. Voluptates asperiores modi harum a magnam ipsum possimus vitae.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 25,
+            &quot;programId&quot;: 49,
+            &quot;tags&quot;: [
+                &quot;ex&quot;,
+                &quot;amet&quot;,
+                &quot;ratione&quot;
+            ],
+            &quot;duration&quot;: 86,
+            &quot;expiryDate&quot;: &quot;2025-12-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Soluta autem dolorem quod non. Eum facilis nihil quia non. Dolor ut dolorem explicabo cumque ullam quia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quam ut voluptatem omnis et.&quot;,
+                &quot;Id omnis voluptas dolores harum eum.&quot;,
+                &quot;Facilis sequi sequi et voluptatem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Est delectus ut culpa quaerat.&quot;,
+                &quot;Nostrum rem itaque nemo pariatur possimus dolores neque.&quot;,
+                &quot;At eveniet dolore odit voluptas et autem numquam voluptate.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 182,
+            &quot;latitude&quot;: &quot;-70.33993200&quot;,
+            &quot;longitude&quot;: &quot;158.51703100&quot;,
+            &quot;locationDescription&quot;: &quot;99126 Max Views\nPort Mattieborough, AK 57712-6416&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sed qui aliquam facere omnis sit vel.&quot;,
+                &quot;Nam numquam et numquam blanditiis.&quot;,
+                &quot;Nobis possimus veritatis iure maxime quo voluptatem maxime.&quot;
+            ],
+            &quot;sectorId&quot;: 216,
+            &quot;extra&quot;: &quot;Totam quisquam cupiditate et vel id. Voluptas voluptas magni temporibus aut eos neque. Vel sapiente provident dolorum nihil et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;144&quot;,
+            &quot;title&quot;: &quot;Furnace Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Furnace%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Commodi minus consequatur perferendis nobis. Reprehenderit enim distinctio repellat dolores autem illo velit. Nesciunt consectetur aspernatur delectus molestiae qui ipsa.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 24,
+            &quot;programId&quot;: 48,
+            &quot;tags&quot;: [
+                &quot;sed&quot;,
+                &quot;molestiae&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 137,
+            &quot;expiryDate&quot;: &quot;2025-11-01T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Est hic earum saepe mollitia. Sit ut quae ratione accusantium. Et doloribus omnis sapiente cumque autem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et et magnam ad.&quot;,
+                &quot;Nihil perferendis qui tempora.&quot;,
+                &quot;Totam et necessitatibus provident laboriosam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Animi et quasi velit quam quibusdam ea.&quot;,
+                &quot;Ducimus ipsam qui nesciunt est rerum aliquid.&quot;,
+                &quot;Eos molestiae itaque omnis consequuntur omnis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 181,
+            &quot;latitude&quot;: &quot;19.33521900&quot;,
+            &quot;longitude&quot;: &quot;-64.88041300&quot;,
+            &quot;locationDescription&quot;: &quot;2991 Titus Shores\nElmoretown, HI 35362&quot;,
+            &quot;benefits&quot;: [
+                &quot;Odit aut sed deserunt cumque et.&quot;,
+                &quot;Recusandae architecto provident autem suscipit autem est.&quot;,
+                &quot;Voluptatem ut consequuntur voluptatem vitae id laborum.&quot;
+            ],
+            &quot;sectorId&quot;: 215,
+            &quot;extra&quot;: &quot;Fuga facere culpa numquam consequuntur. Quis voluptas minima non. Libero dignissimos officia ut quae molestiae nulla minus. Repudiandae expedita laboriosam culpa vel quis magni adipisci.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;143&quot;,
+            &quot;title&quot;: &quot;Title Searcher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Title%20Searcher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Atque alias perspiciatis expedita rerum vero quos possimus. Veritatis labore veritatis dolor sunt consequatur dolor voluptatem. Error commodi odio omnis doloremque illum ducimus. Ut earum et deleniti.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 24,
+            &quot;programId&quot;: 48,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;accusantium&quot;,
+                &quot;recusandae&quot;
+            ],
+            &quot;duration&quot;: 327,
+            &quot;expiryDate&quot;: &quot;2025-11-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nihil dolore ea distinctio sint veniam. Autem velit eaque debitis harum aut. Qui at quibusdam velit et aperiam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quae dolores sunt facilis quia nesciunt voluptate nesciunt.&quot;,
+                &quot;Ipsum quia molestias nisi cum.&quot;,
+                &quot;Nam fuga libero et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Repellat aspernatur voluptatem quia placeat excepturi blanditiis id.&quot;,
+                &quot;Sunt dolorem et nihil eos perspiciatis exercitationem.&quot;,
+                &quot;Porro ipsam omnis facere qui quia.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 180,
+            &quot;latitude&quot;: &quot;19.39977500&quot;,
+            &quot;longitude&quot;: &quot;30.96006900&quot;,
+            &quot;locationDescription&quot;: &quot;50700 Bella Vista\nMitchellchester, NV 97504&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sunt ut et assumenda qui quidem ut modi.&quot;,
+                &quot;Ullam quam voluptas ex magnam distinctio.&quot;,
+                &quot;Velit ut omnis culpa ipsam similique quis rem.&quot;
+            ],
+            &quot;sectorId&quot;: 214,
+            &quot;extra&quot;: &quot;Ducimus nulla et voluptas eaque. Ea corrupti deleniti accusamus et. Consequuntur laudantium facilis nihil odio provident nostrum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;142&quot;,
+            &quot;title&quot;: &quot;Materials Inspector Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Materials%20Inspector%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sequi incidunt fuga veniam recusandae aliquam. Est vel pariatur vitae voluptatibus. Similique magni rerum quo ut a. Non eum ea qui autem illo.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 24,
+            &quot;programId&quot;: 48,
+            &quot;tags&quot;: [
+                &quot;voluptatum&quot;,
+                &quot;suscipit&quot;,
+                &quot;itaque&quot;
+            ],
+            &quot;duration&quot;: 185,
+            &quot;expiryDate&quot;: &quot;2025-11-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Pariatur alias earum qui velit. Expedita iste at architecto. Quas minima est nulla.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sit doloribus exercitationem reiciendis aperiam.&quot;,
+                &quot;Recusandae ut enim veritatis natus quia nesciunt eveniet.&quot;,
+                &quot;Nemo esse cum vel dignissimos ipsum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Culpa perspiciatis id unde ut similique quia repudiandae quia.&quot;,
+                &quot;Voluptatem nihil eligendi sed commodi ex.&quot;,
+                &quot;Et ipsum in dicta labore rerum aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 179,
+            &quot;latitude&quot;: &quot;-61.29562200&quot;,
+            &quot;longitude&quot;: &quot;-167.88700300&quot;,
+            &quot;locationDescription&quot;: &quot;987 Helmer Glens\nNorth Bret, MA 56573&quot;,
+            &quot;benefits&quot;: [
+                &quot;Et error libero aspernatur unde.&quot;,
+                &quot;Qui ut ut cum ea quis consequatur.&quot;,
+                &quot;Possimus ea numquam qui iste id.&quot;
+            ],
+            &quot;sectorId&quot;: 213,
+            &quot;extra&quot;: &quot;Consequatur minus ipsum et ad aut non. At eius ut ut possimus ab. Voluptatibus delectus nam dolores vero. Enim nobis nihil et sed modi voluptatem ipsam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;141&quot;,
+            &quot;title&quot;: &quot;Highway Patrol Pilot Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Highway%20Patrol%20Pilot%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Minus aut aliquid aut neque laborum aut et tempora. Et sapiente rerum harum aut debitis. Inventore error neque consequatur qui reprehenderit aut quae eius. Quidem qui repudiandae cum sed molestias sed qui ea.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 24,
+            &quot;programId&quot;: 47,
+            &quot;tags&quot;: [
+                &quot;officiis&quot;,
+                &quot;eligendi&quot;,
+                &quot;doloribus&quot;
+            ],
+            &quot;duration&quot;: 169,
+            &quot;expiryDate&quot;: &quot;2026-03-06T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eius eos est est eius expedita doloribus aliquam dolores. Reiciendis voluptatem placeat fuga. Iste qui aut modi.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Distinctio nemo vero facilis voluptas et tenetur.&quot;,
+                &quot;In eos suscipit qui ut odit fugiat doloribus.&quot;,
+                &quot;Rerum qui suscipit voluptatem sit aperiam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quae in et veniam dolorum sed voluptas temporibus.&quot;,
+                &quot;Voluptate amet ducimus quibusdam.&quot;,
+                &quot;Facilis veritatis beatae est possimus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 178,
+            &quot;latitude&quot;: &quot;30.64032500&quot;,
+            &quot;longitude&quot;: &quot;-45.77051300&quot;,
+            &quot;locationDescription&quot;: &quot;8851 Mariela Heights Suite 321\nSouth Eloisaburgh, MS 36173&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ipsam qui doloribus alias deleniti reprehenderit.&quot;,
+                &quot;Eligendi fugit amet omnis et aut in.&quot;,
+                &quot;Porro dolorem at dolorum maxime harum.&quot;
+            ],
+            &quot;sectorId&quot;: 212,
+            &quot;extra&quot;: &quot;Cum minus enim laborum facere. Eum impedit aspernatur libero tempora. Eos temporibus laboriosam itaque optio.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;140&quot;,
+            &quot;title&quot;: &quot;Homeland Security Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Homeland%20Security%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Assumenda vel quia odio. Est numquam nihil quis nihil quae pariatur corporis. Est non et officiis excepturi quia. Doloribus cum nemo enim illo.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 24,
+            &quot;programId&quot;: 47,
+            &quot;tags&quot;: [
+                &quot;hic&quot;,
+                &quot;sunt&quot;,
+                &quot;culpa&quot;
+            ],
+            &quot;duration&quot;: 360,
+            &quot;expiryDate&quot;: &quot;2025-10-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ea earum aut sed ratione commodi consequatur. Explicabo autem totam qui earum dolorum. At velit dicta praesentium explicabo quia quia debitis quis. Harum et adipisci optio et explicabo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eos et pariatur quibusdam rem et eum sit.&quot;,
+                &quot;Ut est ut minima et id.&quot;,
+                &quot;Voluptas expedita ullam omnis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Deserunt tempora dolores voluptate odio error.&quot;,
+                &quot;Sit et blanditiis commodi molestias.&quot;,
+                &quot;Omnis facilis rem ratione quia et dolorum consequatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 177,
+            &quot;latitude&quot;: &quot;-0.56733600&quot;,
+            &quot;longitude&quot;: &quot;73.30664900&quot;,
+            &quot;locationDescription&quot;: &quot;9774 Zachariah Hill Suite 186\nEast Eldon, SD 56216&quot;,
+            &quot;benefits&quot;: [
+                &quot;Consectetur doloribus repudiandae quas incidunt facilis accusantium modi.&quot;,
+                &quot;Natus exercitationem quas est et.&quot;,
+                &quot;Natus in aut sit iste sit placeat.&quot;
+            ],
+            &quot;sectorId&quot;: 211,
+            &quot;extra&quot;: &quot;Vitae et qui earum officiis vel neque. Est nihil tenetur minima doloremque veritatis. Sed suscipit ratione beatae esse similique quasi. Molestias corporis autem est dolore dolore aliquid nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;139&quot;,
+            &quot;title&quot;: &quot;Aircraft Rigging Assembler Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aircraft%20Rigging%20Assembler%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sapiente placeat et error placeat. Illum odit mollitia eos odio accusamus est omnis. Blanditiis odio id quam et. Consequatur autem animi impedit expedita minima sed asperiores. Dignissimos quae error dolore porro.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 24,
+            &quot;programId&quot;: 47,
+            &quot;tags&quot;: [
+                &quot;ea&quot;,
+                &quot;ratione&quot;,
+                &quot;recusandae&quot;
+            ],
+            &quot;duration&quot;: 186,
+            &quot;expiryDate&quot;: &quot;2026-01-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sed qui hic est minima. Error aut eligendi est et. Non eum eum molestiae dolorem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quos voluptates ipsa rerum unde.&quot;,
+                &quot;Dolor inventore est unde cum.&quot;,
+                &quot;Quam ad rerum nesciunt beatae ipsa.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Libero ipsam eius sed rerum dolores.&quot;,
+                &quot;Quia deleniti voluptate iure culpa sit assumenda iusto.&quot;,
+                &quot;Omnis illo nihil magnam excepturi.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 176,
+            &quot;latitude&quot;: &quot;89.77620500&quot;,
+            &quot;longitude&quot;: &quot;-104.15880500&quot;,
+            &quot;locationDescription&quot;: &quot;5818 Muller Unions Suite 451\nDanielaberg, TN 42422-4440&quot;,
+            &quot;benefits&quot;: [
+                &quot;Suscipit accusantium ut est error expedita nihil quia.&quot;,
+                &quot;Itaque non nam eos nemo consequatur in.&quot;,
+                &quot;Accusantium iste est qui et nobis.&quot;
+            ],
+            &quot;sectorId&quot;: 210,
+            &quot;extra&quot;: &quot;Itaque optio ea qui nesciunt et in aut. Rerum alias nesciunt sit ex recusandae libero natus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;138&quot;,
+            &quot;title&quot;: &quot;Forest Fire Fighting Supervisor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Forest%20Fire%20Fighting%20Supervisor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Deserunt nobis quos et explicabo voluptatum consequatur veritatis. Quos molestias repellendus aliquam rerum. Beatae pariatur enim occaecati sed aspernatur.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 23,
+            &quot;programId&quot;: 46,
+            &quot;tags&quot;: [
+                &quot;error&quot;,
+                &quot;quam&quot;,
+                &quot;voluptatibus&quot;
+            ],
+            &quot;duration&quot;: 333,
+            &quot;expiryDate&quot;: &quot;2025-12-14T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Est expedita suscipit blanditiis voluptatem sunt dolores cumque. Possimus id voluptatem qui eum. Soluta molestiae rem sequi.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quisquam nihil ea odio.&quot;,
+                &quot;Dolor voluptatem iure odio et iure ab eos.&quot;,
+                &quot;Ut quidem atque tempora itaque assumenda blanditiis quia.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Laudantium est dolorem ut sit sit dicta aut eum.&quot;,
+                &quot;Accusantium similique distinctio sed atque totam.&quot;,
+                &quot;Porro sapiente tempora dolorem aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 175,
+            &quot;latitude&quot;: &quot;41.39839200&quot;,
+            &quot;longitude&quot;: &quot;104.25744700&quot;,
+            &quot;locationDescription&quot;: &quot;3113 Kuhic Springs Suite 035\nPort Gerdamouth, KS 64452&quot;,
+            &quot;benefits&quot;: [
+                &quot;Odio nesciunt quisquam dolorum nihil cupiditate sint et.&quot;,
+                &quot;Recusandae voluptatem aut qui non nisi et.&quot;,
+                &quot;Accusamus adipisci nam debitis delectus.&quot;
+            ],
+            &quot;sectorId&quot;: 209,
+            &quot;extra&quot;: &quot;Magni quaerat corporis hic voluptate ipsa. Dolor ut placeat voluptate rerum est.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;137&quot;,
+            &quot;title&quot;: &quot;User Experience Researcher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=User%20Experience%20Researcher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aut velit blanditiis voluptatibus ut unde quia. Vel expedita quia quis totam perspiciatis consequuntur consequatur. Itaque pariatur excepturi aliquid voluptatem corrupti. Tempora quas rem quo.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 23,
+            &quot;programId&quot;: 46,
+            &quot;tags&quot;: [
+                &quot;quia&quot;,
+                &quot;vel&quot;,
+                &quot;id&quot;
+            ],
+            &quot;duration&quot;: 36,
+            &quot;expiryDate&quot;: &quot;2025-12-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Velit provident ea alias unde. Ullam enim dolores et nihil voluptate aut officia. Voluptate quia ab sed perferendis totam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut aut fuga molestias neque.&quot;,
+                &quot;Iure voluptatem rerum similique hic odit possimus maiores.&quot;,
+                &quot;Aut illo blanditiis et quo cumque impedit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Officia placeat quidem et dolore.&quot;,
+                &quot;Quasi non delectus amet.&quot;,
+                &quot;Possimus commodi repudiandae quisquam qui autem omnis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 174,
+            &quot;latitude&quot;: &quot;-44.93573200&quot;,
+            &quot;longitude&quot;: &quot;4.49375800&quot;,
+            &quot;locationDescription&quot;: &quot;193 Sienna Lights\nMafaldaburgh, LA 81992-5779&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quasi laborum maxime dolor aspernatur.&quot;,
+                &quot;Et nesciunt magni libero nobis praesentium.&quot;,
+                &quot;Aliquid enim illum ipsum dolor.&quot;
+            ],
+            &quot;sectorId&quot;: 208,
+            &quot;extra&quot;: &quot;Accusantium dolor sit rerum quam mollitia. Mollitia debitis fuga molestiae magnam sed harum veritatis. Enim voluptatum et totam dicta sunt. Harum mollitia laboriosam ut dolores quae aut officiis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;136&quot;,
+            &quot;title&quot;: &quot;Plating Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Plating%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sed odit ab fugit magni et. Qui hic culpa suscipit sed. Repellendus et ratione et numquam.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 23,
+            &quot;programId&quot;: 46,
+            &quot;tags&quot;: [
+                &quot;delectus&quot;,
+                &quot;rerum&quot;,
+                &quot;facere&quot;
+            ],
+            &quot;duration&quot;: 303,
+            &quot;expiryDate&quot;: &quot;2025-12-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Vitae sint quaerat ea eaque est. Voluptatibus quasi labore eveniet quia necessitatibus. Amet hic et ea aut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Fugit et qui corrupti doloremque corrupti rem sequi officiis.&quot;,
+                &quot;Et aperiam quisquam officia accusamus.&quot;,
+                &quot;Voluptatem omnis eos ut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Eos eos numquam minus magnam aut neque officia cupiditate.&quot;,
+                &quot;Eius accusantium similique quos culpa quas.&quot;,
+                &quot;Sunt quia hic tempore consequuntur laudantium enim.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 173,
+            &quot;latitude&quot;: &quot;-46.01730600&quot;,
+            &quot;longitude&quot;: &quot;-109.04211200&quot;,
+            &quot;locationDescription&quot;: &quot;68329 Eleanora Mountains Apt. 599\nWainotown, UT 22976&quot;,
+            &quot;benefits&quot;: [
+                &quot;Praesentium velit et error.&quot;,
+                &quot;Tempore porro ut ipsam aut pariatur nisi.&quot;,
+                &quot;Vero nisi consequuntur dicta iusto est voluptate sapiente.&quot;
+            ],
+            &quot;sectorId&quot;: 207,
+            &quot;extra&quot;: &quot;Consequatur sed consequatur fugit pariatur vel voluptas et. Architecto voluptas accusamus occaecati eveniet est sit. In dolorem reiciendis enim vero tempora perspiciatis. Optio quisquam et labore aperiam minus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;135&quot;,
+            &quot;title&quot;: &quot;Civil Engineer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Civil%20Engineer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Autem ea vitae quo id. Non atque distinctio sed quas velit sunt sequi. Deleniti aliquam provident vel et. Est et soluta et vitae.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 23,
+            &quot;programId&quot;: 45,
+            &quot;tags&quot;: [
+                &quot;consequatur&quot;,
+                &quot;vel&quot;,
+                &quot;voluptas&quot;
+            ],
+            &quot;duration&quot;: 317,
+            &quot;expiryDate&quot;: &quot;2025-11-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Amet sunt quia dignissimos et. Doloremque ullam occaecati ut debitis tempore minima. Id explicabo velit impedit illum. Nulla quisquam maiores quia tempore eius ratione delectus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Autem voluptatem at vero minus.&quot;,
+                &quot;Iure ut quod quam dignissimos ipsam.&quot;,
+                &quot;Hic laudantium molestiae amet ullam expedita debitis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et fugiat aut et et est rerum.&quot;,
+                &quot;Qui repellendus non voluptas perspiciatis eaque.&quot;,
+                &quot;Repellat non magnam eveniet nemo mollitia.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 172,
+            &quot;latitude&quot;: &quot;-9.56341400&quot;,
+            &quot;longitude&quot;: &quot;145.01511200&quot;,
+            &quot;locationDescription&quot;: &quot;1672 Rodolfo Crossroad\nKylemouth, UT 21632-7476&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolorem ipsum incidunt reiciendis.&quot;,
+                &quot;Placeat voluptas adipisci blanditiis autem velit.&quot;,
+                &quot;Repudiandae aperiam et quo sit iste.&quot;
+            ],
+            &quot;sectorId&quot;: 206,
+            &quot;extra&quot;: &quot;Qui aut quam non corrupti amet eum praesentium. Saepe eum quos et est consequatur vel repellendus. Harum sed ullam explicabo voluptas. Omnis fugit et qui reprehenderit porro et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;134&quot;,
+            &quot;title&quot;: &quot;Freight Inspector Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Freight%20Inspector%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut veritatis ipsum eius voluptatem ea ut. Et soluta facere est quo alias eligendi porro quasi. Molestiae magni nemo dolore assumenda iusto.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 23,
+            &quot;programId&quot;: 45,
+            &quot;tags&quot;: [
+                &quot;distinctio&quot;,
+                &quot;omnis&quot;,
+                &quot;ratione&quot;
+            ],
+            &quot;duration&quot;: 306,
+            &quot;expiryDate&quot;: &quot;2025-11-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Cumque suscipit at asperiores. Voluptatibus aspernatur sint assumenda vel tempore ducimus distinctio.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Deserunt beatae in et.&quot;,
+                &quot;Tenetur cumque tempora vero perspiciatis.&quot;,
+                &quot;Iste dolorem culpa animi in.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Rem itaque suscipit exercitationem placeat.&quot;,
+                &quot;Velit illum est dolor vitae sint non ut dignissimos.&quot;,
+                &quot;Modi eum omnis nostrum dolorem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 171,
+            &quot;latitude&quot;: &quot;-4.68572300&quot;,
+            &quot;longitude&quot;: &quot;146.22134000&quot;,
+            &quot;locationDescription&quot;: &quot;52206 Carroll Ranch\nNew Marguerite, RI 12674-4667&quot;,
+            &quot;benefits&quot;: [
+                &quot;Velit labore accusamus vero doloremque illum in.&quot;,
+                &quot;Ut id molestiae autem.&quot;,
+                &quot;Quam omnis quam ea enim.&quot;
+            ],
+            &quot;sectorId&quot;: 205,
+            &quot;extra&quot;: &quot;Fugit nemo qui corrupti rerum. Aut qui saepe nostrum consectetur. Facilis iusto itaque qui odit consequatur laborum et. Harum nisi hic deleniti eum est reiciendis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;133&quot;,
+            &quot;title&quot;: &quot;Wholesale Buyer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Wholesale%20Buyer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptatem praesentium ea consectetur. Ut quis suscipit ut et dolores est reiciendis. Mollitia facere est vero ut eos ut minus facere.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 23,
+            &quot;programId&quot;: 45,
+            &quot;tags&quot;: [
+                &quot;dolores&quot;,
+                &quot;sed&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 232,
+            &quot;expiryDate&quot;: &quot;2025-10-31T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sed voluptate veritatis nam aut. Consequatur ut qui dolorem sed quis et. Necessitatibus facere corporis quam ab perferendis voluptatibus harum. Quod temporibus harum ea voluptatibus nihil nisi autem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Qui nesciunt inventore cum cumque ipsa ipsum sint.&quot;,
+                &quot;Et qui voluptatem aliquid placeat.&quot;,
+                &quot;Autem et hic iusto sequi.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolorem tenetur itaque delectus rem voluptatem.&quot;,
+                &quot;Voluptatem aut placeat quia est illum.&quot;,
+                &quot;Ut dicta illum dolor.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 170,
+            &quot;latitude&quot;: &quot;-80.45660300&quot;,
+            &quot;longitude&quot;: &quot;-59.05121200&quot;,
+            &quot;locationDescription&quot;: &quot;516 Judy Circle\nNorth Rhea, AZ 32327-2268&quot;,
+            &quot;benefits&quot;: [
+                &quot;Id quia eum laborum saepe.&quot;,
+                &quot;Vero explicabo qui nostrum eum.&quot;,
+                &quot;Molestiae incidunt vel adipisci earum.&quot;
+            ],
+            &quot;sectorId&quot;: 204,
+            &quot;extra&quot;: &quot;Recusandae tenetur dolorem impedit dolorem nihil reiciendis. Reiciendis ad error nostrum molestias dicta. Ipsa sunt et deserunt temporibus quasi cumque pariatur.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;132&quot;,
+            &quot;title&quot;: &quot;Community Service Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Community%20Service%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Earum pariatur perspiciatis pariatur enim. Odit dolores et facilis nemo incidunt. Quo culpa eos debitis vitae consectetur culpa alias.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 22,
+            &quot;programId&quot;: 44,
+            &quot;tags&quot;: [
+                &quot;dicta&quot;,
+                &quot;neque&quot;,
+                &quot;natus&quot;
+            ],
+            &quot;duration&quot;: 184,
+            &quot;expiryDate&quot;: &quot;2025-10-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Odit ratione natus delectus quos ullam. Corrupti iste voluptatum dolorem eveniet. Quidem laudantium nemo nisi dignissimos atque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illo iusto ut alias ipsam nulla sed.&quot;,
+                &quot;Architecto consectetur error eligendi voluptatum quia iure commodi.&quot;,
+                &quot;Fugiat in nesciunt fugiat voluptatem minima tempora nesciunt.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Incidunt labore quasi id tempora.&quot;,
+                &quot;Sit officiis qui distinctio enim quia facilis.&quot;,
+                &quot;Mollitia rerum sunt et occaecati explicabo sequi.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 169,
+            &quot;latitude&quot;: &quot;-58.57308800&quot;,
+            &quot;longitude&quot;: &quot;57.55116400&quot;,
+            &quot;locationDescription&quot;: &quot;36599 Blanda Centers Apt. 004\nLake Saigefort, RI 42636&quot;,
+            &quot;benefits&quot;: [
+                &quot;Inventore inventore et sint harum aperiam ullam maxime odio.&quot;,
+                &quot;Ut quibusdam odio asperiores saepe nihil.&quot;,
+                &quot;Ut debitis excepturi est veritatis sed omnis.&quot;
+            ],
+            &quot;sectorId&quot;: 203,
+            &quot;extra&quot;: &quot;Id consequatur dolorem rerum dolores dolores magni ad. Repudiandae fugiat vel accusantium nam nobis qui error quos. Sed et quaerat et eveniet hic explicabo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;131&quot;,
+            &quot;title&quot;: &quot;Staff Psychologist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Staff%20Psychologist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vero in praesentium blanditiis. Ea sed consectetur nemo fuga ea quia asperiores molestiae. Sed amet culpa eveniet sint voluptas.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 22,
+            &quot;programId&quot;: 44,
+            &quot;tags&quot;: [
+                &quot;aliquam&quot;,
+                &quot;aspernatur&quot;,
+                &quot;natus&quot;
+            ],
+            &quot;duration&quot;: 142,
+            &quot;expiryDate&quot;: &quot;2026-01-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Quaerat veniam fuga libero soluta esse sequi. Aspernatur sapiente voluptatem facere voluptas quia sed hic. Ab sit aperiam ut deserunt sapiente cum. Consequatur qui amet saepe et voluptatem eaque nihil sint. Autem deserunt eos qui aut maiores beatae quisquam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ipsam earum voluptatibus sunt voluptatem sed.&quot;,
+                &quot;Fugiat repudiandae porro ut consequatur nulla repudiandae minima unde.&quot;,
+                &quot;Eveniet sunt ratione similique quibusdam et consectetur quam ipsa.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quod sunt deleniti aspernatur in rerum.&quot;,
+                &quot;Inventore quas ad veritatis aut ipsum molestiae qui.&quot;,
+                &quot;Quia totam veritatis a quis quis porro.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 168,
+            &quot;latitude&quot;: &quot;-36.14207200&quot;,
+            &quot;longitude&quot;: &quot;-25.28790500&quot;,
+            &quot;locationDescription&quot;: &quot;432 Wyman Center\nLittelfort, NH 14681&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aut nobis vel autem voluptatum.&quot;,
+                &quot;Eum qui expedita quasi aut.&quot;,
+                &quot;Laudantium id autem debitis at.&quot;
+            ],
+            &quot;sectorId&quot;: 202,
+            &quot;extra&quot;: &quot;Aut nobis et laudantium cumque mollitia omnis cum amet. Esse sequi aspernatur velit sed. Nisi facilis et eum eos laboriosam error.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;130&quot;,
+            &quot;title&quot;: &quot;Library Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Library%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ipsa non aut a qui voluptas repudiandae voluptas. Dolores vitae cum eveniet. Molestiae omnis enim ut quaerat quis eos.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 22,
+            &quot;programId&quot;: 44,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;tempore&quot;,
+                &quot;ut&quot;
+            ],
+            &quot;duration&quot;: 189,
+            &quot;expiryDate&quot;: &quot;2025-10-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eos consequatur molestias beatae aliquam iusto non. At consequatur eum corporis et dignissimos consequatur reiciendis. Repellat ab libero neque quidem id. Beatae autem voluptas dignissimos culpa architecto non molestiae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quos accusantium voluptate ipsa dignissimos velit nihil doloribus.&quot;,
+                &quot;Et quisquam expedita ut aut nobis.&quot;,
+                &quot;Earum vel qui nemo quis dolor.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Placeat aliquid accusantium aut delectus dolorem aut.&quot;,
+                &quot;Odio distinctio facere et labore veniam aut.&quot;,
+                &quot;Accusantium ut aut cupiditate sint numquam explicabo tempora.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 167,
+            &quot;latitude&quot;: &quot;58.70651800&quot;,
+            &quot;longitude&quot;: &quot;126.45229400&quot;,
+            &quot;locationDescription&quot;: &quot;44024 Sanford Harbor Apt. 628\nBradfordland, NM 74707&quot;,
+            &quot;benefits&quot;: [
+                &quot;Consequatur accusantium quam et asperiores consectetur qui.&quot;,
+                &quot;Perspiciatis quos laudantium dolore quia consequuntur.&quot;,
+                &quot;Debitis vero ipsum ut iusto est quasi temporibus voluptatibus.&quot;
+            ],
+            &quot;sectorId&quot;: 201,
+            &quot;extra&quot;: &quot;Harum praesentium repellendus saepe blanditiis eos voluptates est cupiditate. Voluptas non dolore veritatis ea qui. Consequatur alias earum est quos voluptatem quis aperiam. Totam distinctio ea et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;129&quot;,
+            &quot;title&quot;: &quot;Travel Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Travel%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eaque deleniti blanditiis repellat. Impedit et voluptates corrupti et qui nemo. Non itaque aspernatur qui ab. Eum enim dolores tempora.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 22,
+            &quot;programId&quot;: 43,
+            &quot;tags&quot;: [
+                &quot;impedit&quot;,
+                &quot;laudantium&quot;,
+                &quot;veniam&quot;
+            ],
+            &quot;duration&quot;: 211,
+            &quot;expiryDate&quot;: &quot;2026-03-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sit sint eius enim et. Sit sint aut est molestiae voluptatem eius. Dolores eum odio porro sapiente. Eos sint perspiciatis quo nihil reiciendis id laboriosam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Autem atque debitis id illo dolores totam rerum.&quot;,
+                &quot;Blanditiis sint expedita repellat ad ut.&quot;,
+                &quot;Qui ex porro perferendis libero.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Tenetur delectus blanditiis dicta in.&quot;,
+                &quot;Eveniet nihil aut autem rerum omnis aperiam nesciunt.&quot;,
+                &quot;Tempore hic autem fuga quisquam quasi.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 166,
+            &quot;latitude&quot;: &quot;76.78719300&quot;,
+            &quot;longitude&quot;: &quot;-32.12897200&quot;,
+            &quot;locationDescription&quot;: &quot;562 Smith Path\nStrackebury, CA 94815-0627&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ut dolorem cupiditate inventore architecto.&quot;,
+                &quot;Iste libero dicta omnis eos voluptatem ad sunt.&quot;,
+                &quot;Nam doloremque labore ut rerum dolor.&quot;
+            ],
+            &quot;sectorId&quot;: 200,
+            &quot;extra&quot;: &quot;Qui porro doloribus earum quas. Quibusdam aspernatur qui aliquam delectus sint. Ut unde dolorem sed id. Quia dolore quos vel consequatur vitae error repudiandae.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;128&quot;,
+            &quot;title&quot;: &quot;Bus Driver Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Bus%20Driver%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aut pariatur odio sed dolor ab. Sint quisquam doloremque quae similique. Dolorem exercitationem tenetur deserunt. Ut dolores veniam itaque delectus cum.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 22,
+            &quot;programId&quot;: 43,
+            &quot;tags&quot;: [
+                &quot;reiciendis&quot;,
+                &quot;pariatur&quot;,
+                &quot;assumenda&quot;
+            ],
+            &quot;duration&quot;: 277,
+            &quot;expiryDate&quot;: &quot;2026-01-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Exercitationem illum necessitatibus praesentium dolorem iste molestiae. Architecto in magnam illo at. Temporibus voluptatem ut suscipit distinctio.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aut quisquam corporis omnis corrupti aliquam cupiditate quis.&quot;,
+                &quot;Et ratione et nemo quas sunt placeat earum.&quot;,
+                &quot;Necessitatibus unde sint aut atque est omnis esse sit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Rem aut atque recusandae libero.&quot;,
+                &quot;Reprehenderit quis ipsum rerum est quae dicta.&quot;,
+                &quot;Tempore nihil nisi voluptates inventore.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 165,
+            &quot;latitude&quot;: &quot;-74.41046000&quot;,
+            &quot;longitude&quot;: &quot;63.67813200&quot;,
+            &quot;locationDescription&quot;: &quot;64068 Bria Union\nWittingburgh, MD 35933&quot;,
+            &quot;benefits&quot;: [
+                &quot;Enim consectetur aperiam sunt ex nulla libero.&quot;,
+                &quot;Omnis expedita aperiam dolorum natus ut.&quot;,
+                &quot;Qui aut nobis ut dicta deleniti.&quot;
+            ],
+            &quot;sectorId&quot;: 199,
+            &quot;extra&quot;: &quot;Sed distinctio sit nobis adipisci velit quasi cumque. Consequatur omnis fugiat a autem. Pariatur est et ipsum unde ad aut corrupti totam. Molestiae at quidem beatae optio quo architecto.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;127&quot;,
+            &quot;title&quot;: &quot;Telephone Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Telephone%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Illum quo sequi modi officia nostrum. Rerum aut quis saepe dolorem eum ut. Eligendi omnis labore quo officiis sit ad et exercitationem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 22,
+            &quot;programId&quot;: 43,
+            &quot;tags&quot;: [
+                &quot;molestiae&quot;,
+                &quot;id&quot;,
+                &quot;dolorem&quot;
+            ],
+            &quot;duration&quot;: 111,
+            &quot;expiryDate&quot;: &quot;2025-09-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Non facilis aut nisi praesentium. Velit aperiam exercitationem aut sunt. Officia sint minima non eaque. Et aut dolore amet ipsam possimus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Praesentium non dolorem qui expedita corrupti alias iure.&quot;,
+                &quot;Tenetur eligendi culpa consequatur.&quot;,
+                &quot;Labore ipsam et dolorem sunt voluptas velit itaque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Culpa sunt est et explicabo pariatur.&quot;,
+                &quot;Voluptates possimus adipisci rem consequatur ratione.&quot;,
+                &quot;Quasi nemo consectetur quia veritatis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 164,
+            &quot;latitude&quot;: &quot;35.47192200&quot;,
+            &quot;longitude&quot;: &quot;-128.11764000&quot;,
+            &quot;locationDescription&quot;: &quot;5302 Metz Street Suite 830\nHandland, AR 35584&quot;,
+            &quot;benefits&quot;: [
+                &quot;Maiores fugiat iusto architecto modi harum.&quot;,
+                &quot;A in perferendis similique consequuntur labore blanditiis.&quot;,
+                &quot;Officia autem omnis molestiae dolorem corporis.&quot;
+            ],
+            &quot;sectorId&quot;: 198,
+            &quot;extra&quot;: &quot;Dolor nostrum quas possimus ut iure. Quia voluptate ipsum aut est. Pariatur et quia cupiditate deserunt. Deserunt reiciendis non doloribus quo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;126&quot;,
+            &quot;title&quot;: &quot;Actor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Actor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Accusantium sed molestiae assumenda quae est. Rerum omnis exercitationem explicabo optio aperiam repudiandae. Iure sequi quas enim dolorem voluptate. Maiores rerum quae eos ducimus assumenda ipsum.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 21,
+            &quot;programId&quot;: 42,
+            &quot;tags&quot;: [
+                &quot;ut&quot;,
+                &quot;voluptatum&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 150,
+            &quot;expiryDate&quot;: &quot;2025-10-03T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ut voluptatem ut facere aut quibusdam quo. Ut est eligendi est ut reiciendis eligendi fugiat. In doloribus magni officiis voluptas ullam eum eius.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Repudiandae nobis consequatur neque impedit.&quot;,
+                &quot;Ullam quasi ut enim et.&quot;,
+                &quot;Voluptas recusandae delectus earum aut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolorem omnis rem ut.&quot;,
+                &quot;Et aperiam illo id.&quot;,
+                &quot;Omnis officiis nihil dolorem incidunt et quaerat velit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 163,
+            &quot;latitude&quot;: &quot;-88.27073700&quot;,
+            &quot;longitude&quot;: &quot;-77.38528500&quot;,
+            &quot;locationDescription&quot;: &quot;33828 Molly Heights\nPort Brodyport, MN 38781&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatem quas a velit minus consequatur ullam.&quot;,
+                &quot;Voluptate ad eum recusandae nesciunt.&quot;,
+                &quot;Beatae error excepturi facere eligendi commodi.&quot;
+            ],
+            &quot;sectorId&quot;: 197,
+            &quot;extra&quot;: &quot;Voluptatibus eum maxime aut ad eveniet sit. Repellendus qui dolorem aperiam atque. Impedit labore maxime consequuntur velit omnis placeat magnam. Consectetur perferendis molestias ducimus dolores labore.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;125&quot;,
+            &quot;title&quot;: &quot;Plant and System Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Plant%20and%20System%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Fugiat ut ullam quasi dolor vel eum laudantium. Consequatur repellendus facilis quia. Ut dolorem molestias ut.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 21,
+            &quot;programId&quot;: 42,
+            &quot;tags&quot;: [
+                &quot;facilis&quot;,
+                &quot;inventore&quot;,
+                &quot;dolor&quot;
+            ],
+            &quot;duration&quot;: 200,
+            &quot;expiryDate&quot;: &quot;2026-02-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Deleniti cumque aut distinctio quas maiores doloremque unde. Quo sequi ut sapiente quidem omnis quas praesentium enim.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Rerum veritatis eligendi maxime.&quot;,
+                &quot;Hic qui harum culpa illo voluptates mollitia dolor.&quot;,
+                &quot;Reiciendis aut voluptas consequatur ut tenetur.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aut facere soluta et sed similique iusto.&quot;,
+                &quot;Dolorum maiores corporis a ut voluptates sed.&quot;,
+                &quot;Necessitatibus laboriosam iste aut enim ex.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 162,
+            &quot;latitude&quot;: &quot;32.95967000&quot;,
+            &quot;longitude&quot;: &quot;179.17177400&quot;,
+            &quot;locationDescription&quot;: &quot;3108 Lucas Mountains\nForrestbury, UT 38717&quot;,
+            &quot;benefits&quot;: [
+                &quot;Eligendi et dolorum rerum minus.&quot;,
+                &quot;Qui accusantium omnis est nulla eos adipisci.&quot;,
+                &quot;Impedit quia omnis sapiente.&quot;
+            ],
+            &quot;sectorId&quot;: 196,
+            &quot;extra&quot;: &quot;Ipsam magni expedita omnis voluptas et distinctio ab debitis. Eum sit voluptatem voluptatem quos officiis. Quibusdam non facere maxime deserunt possimus quam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;124&quot;,
+            &quot;title&quot;: &quot;Coating Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Coating%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Laboriosam quidem aut mollitia reprehenderit. Qui nemo sit consequuntur magni sit. Sed sequi est omnis sint sint natus eum deleniti. Mollitia et eos dolore mollitia velit.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 21,
+            &quot;programId&quot;: 42,
+            &quot;tags&quot;: [
+                &quot;cupiditate&quot;,
+                &quot;similique&quot;,
+                &quot;voluptas&quot;
+            ],
+            &quot;duration&quot;: 291,
+            &quot;expiryDate&quot;: &quot;2025-11-21T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eum sunt velit aut accusantium eaque voluptas. Est eum voluptates doloribus omnis repellat amet. Dolorem et blanditiis quod rerum error et pariatur.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nihil atque excepturi magni veniam.&quot;,
+                &quot;Sint ipsam et tempore.&quot;,
+                &quot;Nesciunt quaerat accusamus nihil eos distinctio eaque quo.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatem est et et illo non nostrum est.&quot;,
+                &quot;Hic necessitatibus unde est.&quot;,
+                &quot;Illo et fuga et voluptates earum rerum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 161,
+            &quot;latitude&quot;: &quot;6.31423200&quot;,
+            &quot;longitude&quot;: &quot;61.15293500&quot;,
+            &quot;locationDescription&quot;: &quot;60519 Daija Tunnel\nNew Thora, RI 56722-5649&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nisi impedit quia rerum in.&quot;,
+                &quot;Sit nam veniam aut dolorum saepe aut non voluptatem.&quot;,
+                &quot;Quis cum dolorum in quibusdam ad quisquam.&quot;
+            ],
+            &quot;sectorId&quot;: 195,
+            &quot;extra&quot;: &quot;Doloribus iusto autem sint. Sed ratione eveniet eos similique ea exercitationem sed. Id natus ut distinctio non doloremque distinctio. Reiciendis velit nemo exercitationem facilis delectus vero.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;123&quot;,
+            &quot;title&quot;: &quot;Milling Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Milling%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut temporibus et ad sunt vel blanditiis sapiente ipsum. Vel quod qui qui laborum. Quaerat aliquid ipsa voluptatem ea consequatur nam.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 21,
+            &quot;programId&quot;: 41,
+            &quot;tags&quot;: [
+                &quot;eaque&quot;,
+                &quot;est&quot;,
+                &quot;voluptatem&quot;
+            ],
+            &quot;duration&quot;: 67,
+            &quot;expiryDate&quot;: &quot;2026-02-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Laborum dolor quos maxime voluptas vero. A architecto et possimus laborum velit quae optio. Quia et ducimus accusamus. Unde dolorem at rerum sapiente.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Tempore culpa eum cupiditate voluptas.&quot;,
+                &quot;Ut eos itaque perspiciatis.&quot;,
+                &quot;Illo officia sit perspiciatis aut laudantium.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quia aut quae cumque qui quibusdam et voluptatem.&quot;,
+                &quot;Quaerat et amet at aperiam rerum quam.&quot;,
+                &quot;Debitis omnis et eum exercitationem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 160,
+            &quot;latitude&quot;: &quot;48.80340600&quot;,
+            &quot;longitude&quot;: &quot;-7.21409500&quot;,
+            &quot;locationDescription&quot;: &quot;554 Vinnie Mill\nNew Alva, MS 58119&quot;,
+            &quot;benefits&quot;: [
+                &quot;Enim aut possimus labore exercitationem.&quot;,
+                &quot;Dolore id sit facere laborum excepturi eum quis.&quot;,
+                &quot;Nulla sint doloremque fugiat similique vitae voluptatem.&quot;
+            ],
+            &quot;sectorId&quot;: 194,
+            &quot;extra&quot;: &quot;Fugit ex possimus quaerat iste numquam. Maxime neque non illum sunt illo placeat eos. Et quam id ipsum sequi. Perferendis placeat distinctio magni iste sit et facere.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;122&quot;,
+            &quot;title&quot;: &quot;Numerical Control Machine Tool Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Numerical%20Control%20Machine%20Tool%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sit enim alias quia. Quis qui iure beatae qui qui accusantium voluptas. Omnis velit a in. Atque pariatur illo eos a.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 21,
+            &quot;programId&quot;: 41,
+            &quot;tags&quot;: [
+                &quot;ratione&quot;,
+                &quot;iure&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 307,
+            &quot;expiryDate&quot;: &quot;2026-01-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Quasi sed eum ipsa eligendi impedit id. Voluptatibus eum aut qui sint dolor sed magnam. Minima aut rem quas placeat.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Laudantium est maiores qui consequuntur.&quot;,
+                &quot;Soluta corrupti temporibus non molestiae voluptatem qui ut.&quot;,
+                &quot;Consectetur cupiditate et deleniti ea est.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Vel rerum quis ut excepturi natus dicta.&quot;,
+                &quot;Quidem nemo harum maiores iusto eos minima molestiae.&quot;,
+                &quot;Dolorum earum tempora ratione nam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 159,
+            &quot;latitude&quot;: &quot;-22.85811000&quot;,
+            &quot;longitude&quot;: &quot;46.54588600&quot;,
+            &quot;locationDescription&quot;: &quot;774 Watsica Shore\nTerencechester, ND 56038-0135&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolor dolorem cupiditate distinctio consequuntur.&quot;,
+                &quot;Sed rerum enim aut et.&quot;,
+                &quot;In et ducimus est nisi beatae nobis.&quot;
+            ],
+            &quot;sectorId&quot;: 193,
+            &quot;extra&quot;: &quot;Totam molestias atque beatae eum officia repellendus saepe sunt. Distinctio voluptas in tempore iure. Suscipit enim eum necessitatibus dicta quibusdam molestias sit.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;121&quot;,
+            &quot;title&quot;: &quot;Clinical School Psychologist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Clinical%20School%20Psychologist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quod asperiores ea iste deserunt eos delectus. Dolor consequatur quia temporibus voluptate quos ad laboriosam soluta. Illo qui ipsa eos.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 21,
+            &quot;programId&quot;: 41,
+            &quot;tags&quot;: [
+                &quot;quo&quot;,
+                &quot;et&quot;,
+                &quot;eveniet&quot;
+            ],
+            &quot;duration&quot;: 74,
+            &quot;expiryDate&quot;: &quot;2026-01-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Rem et quis dolore. Labore ab id non occaecati doloribus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aspernatur animi at dolores rerum quibusdam atque.&quot;,
+                &quot;Exercitationem est maxime ad quia repudiandae asperiores distinctio.&quot;,
+                &quot;Tenetur nihil tempore fugiat.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut voluptatem fugiat incidunt consectetur et.&quot;,
+                &quot;Porro minima minima in nisi.&quot;,
+                &quot;Rerum voluptatem nulla laborum excepturi vel et dolores provident.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 158,
+            &quot;latitude&quot;: &quot;8.64334600&quot;,
+            &quot;longitude&quot;: &quot;-27.77706400&quot;,
+            &quot;locationDescription&quot;: &quot;207 Bergnaum Keys Suite 291\nMarcelinamouth, IN 14046&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ut nihil similique aut sint voluptas suscipit non qui.&quot;,
+                &quot;Sunt sit ut itaque vel eligendi molestias.&quot;,
+                &quot;Omnis eligendi pariatur sit ut facilis nam.&quot;
+            ],
+            &quot;sectorId&quot;: 192,
+            &quot;extra&quot;: &quot;Nihil similique molestias blanditiis illo praesentium iure. Alias iste esse ea provident vitae dolorem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;120&quot;,
+            &quot;title&quot;: &quot;Medical Assistant Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Medical%20Assistant%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quaerat voluptate sapiente possimus nemo reiciendis id. Accusantium sed tempora quia quae laboriosam reprehenderit beatae. Ipsum est quia ut quia. Necessitatibus enim est ut architecto perspiciatis sit.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 20,
+            &quot;programId&quot;: 40,
+            &quot;tags&quot;: [
+                &quot;accusamus&quot;,
+                &quot;earum&quot;,
+                &quot;quas&quot;
+            ],
+            &quot;duration&quot;: 68,
+            &quot;expiryDate&quot;: &quot;2025-11-22T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sed ipsam sit doloribus beatae dolorem mollitia. Corporis eum consequuntur minima sapiente excepturi nobis officiis sapiente. Quae ex voluptatem id qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Veritatis quia modi aliquid et rerum veniam.&quot;,
+                &quot;Quia aspernatur itaque quibusdam qui neque.&quot;,
+                &quot;Omnis beatae et sint et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolores sint eveniet molestias.&quot;,
+                &quot;Aut doloremque enim veniam exercitationem eligendi.&quot;,
+                &quot;Et ab vel quis est natus voluptate.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 157,
+            &quot;latitude&quot;: &quot;51.78242600&quot;,
+            &quot;longitude&quot;: &quot;-129.84375400&quot;,
+            &quot;locationDescription&quot;: &quot;2041 Shakira Lakes Apt. 103\nSouth Adrianborough, NE 69208-6997&quot;,
+            &quot;benefits&quot;: [
+                &quot;Autem recusandae dignissimos rem.&quot;,
+                &quot;Adipisci nisi ut culpa expedita modi.&quot;,
+                &quot;Nostrum voluptate id eum dolores corrupti.&quot;
+            ],
+            &quot;sectorId&quot;: 191,
+            &quot;extra&quot;: &quot;Minima rerum voluptatem reprehenderit odio doloribus. Voluptates aut voluptas dolores ipsa aut. Itaque alias officiis et et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;119&quot;,
+            &quot;title&quot;: &quot;Special Education Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Special%20Education%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Laudantium consequatur consequuntur nulla reiciendis eos tenetur natus non. Qui libero dolore et esse. Et laboriosam et cupiditate recusandae dolor dolorem. Omnis ad nobis magnam ipsum et delectus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 20,
+            &quot;programId&quot;: 40,
+            &quot;tags&quot;: [
+                &quot;non&quot;,
+                &quot;dignissimos&quot;,
+                &quot;in&quot;
+            ],
+            &quot;duration&quot;: 178,
+            &quot;expiryDate&quot;: &quot;2026-03-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eius dolores officiis neque. Quia voluptatum et maiores ab placeat explicabo. Expedita accusamus id rerum odit quibusdam ut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quibusdam doloremque tempora blanditiis odio perspiciatis.&quot;,
+                &quot;A incidunt velit earum ut eos dicta totam quis.&quot;,
+                &quot;Dolor pariatur sapiente numquam voluptatum distinctio sapiente et optio.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut cupiditate asperiores ad voluptate.&quot;,
+                &quot;Nihil et labore voluptates facilis eum aut quae.&quot;,
+                &quot;Dicta veniam totam culpa explicabo.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 156,
+            &quot;latitude&quot;: &quot;2.09228800&quot;,
+            &quot;longitude&quot;: &quot;-77.67591900&quot;,
+            &quot;locationDescription&quot;: &quot;7151 Larson Trafficway Apt. 599\nKochview, LA 82783-5052&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quae maiores autem autem nemo est et.&quot;,
+                &quot;Recusandae reprehenderit voluptatem voluptatem facere et reiciendis temporibus explicabo.&quot;,
+                &quot;Et rerum deserunt et non architecto.&quot;
+            ],
+            &quot;sectorId&quot;: 190,
+            &quot;extra&quot;: &quot;Sed minima molestias ducimus. Enim consequatur labore sit recusandae est reiciendis. Et vel modi assumenda recusandae qui possimus voluptatum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;118&quot;,
+            &quot;title&quot;: &quot;GED Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=GED%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ratione aliquid unde vero facilis dignissimos. Eos totam provident dicta quia occaecati distinctio et. Ducimus sint velit cum qui sint.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 20,
+            &quot;programId&quot;: 40,
+            &quot;tags&quot;: [
+                &quot;velit&quot;,
+                &quot;pariatur&quot;,
+                &quot;explicabo&quot;
+            ],
+            &quot;duration&quot;: 120,
+            &quot;expiryDate&quot;: &quot;2025-12-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Distinctio quo labore laudantium ut consectetur. Non veritatis voluptatem vel nihil deserunt totam. Libero dicta aut incidunt excepturi totam porro.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut odit est quis et eum quia aperiam.&quot;,
+                &quot;Quibusdam neque voluptates perferendis itaque sunt nulla eum.&quot;,
+                &quot;Ab veniam eveniet quis sed laborum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sed dolorum eos non.&quot;,
+                &quot;Tenetur sit sint voluptatum aspernatur voluptas ab iste aspernatur.&quot;,
+                &quot;Dolores explicabo id quod voluptatum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 155,
+            &quot;latitude&quot;: &quot;-63.39067700&quot;,
+            &quot;longitude&quot;: &quot;-122.25827400&quot;,
+            &quot;locationDescription&quot;: &quot;589 Bergnaum Valleys\nMayertton, ND 32542-3646&quot;,
+            &quot;benefits&quot;: [
+                &quot;Fugit iusto eum dolorem fugit eos omnis.&quot;,
+                &quot;Aliquam velit ut esse et quasi voluptatum.&quot;,
+                &quot;Adipisci aperiam molestias amet itaque veritatis sed rem.&quot;
+            ],
+            &quot;sectorId&quot;: 189,
+            &quot;extra&quot;: &quot;Et et voluptates suscipit cupiditate quo. Voluptatem asperiores ipsum sint enim expedita. Ratione atque doloribus molestias maiores nobis. Maiores qui quasi tenetur quis aspernatur cum natus sed.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;117&quot;,
+            &quot;title&quot;: &quot;Dental Hygienist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dental%20Hygienist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptatem nesciunt nesciunt et. At reiciendis tempore eius quo. Quis voluptas accusantium rerum est voluptas nobis. Odit deleniti vitae unde dolor officia atque voluptas totam. Et natus beatae nostrum quam vel quam possimus.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 20,
+            &quot;programId&quot;: 39,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;est&quot;,
+                &quot;qui&quot;
+            ],
+            &quot;duration&quot;: 333,
+            &quot;expiryDate&quot;: &quot;2025-10-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Molestias sunt qui laborum culpa debitis. Nemo quisquam qui dicta voluptatem et magnam. Sapiente rerum quos aliquid similique fugiat voluptates nam. Expedita veniam voluptatibus laboriosam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quae quo esse odit corrupti et adipisci.&quot;,
+                &quot;Totam est totam ut maxime.&quot;,
+                &quot;Cupiditate architecto iusto esse laboriosam cumque natus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Reprehenderit voluptates ut autem vel.&quot;,
+                &quot;Odit et nihil voluptas tempora.&quot;,
+                &quot;Ex quod sequi dolor et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 154,
+            &quot;latitude&quot;: &quot;29.95284000&quot;,
+            &quot;longitude&quot;: &quot;13.04807300&quot;,
+            &quot;locationDescription&quot;: &quot;2550 Hartmann Coves\nWest Coy, AK 72071&quot;,
+            &quot;benefits&quot;: [
+                &quot;Vel commodi deserunt quis iusto sit libero molestias.&quot;,
+                &quot;Optio quia deleniti est.&quot;,
+                &quot;Eius pariatur rerum id.&quot;
+            ],
+            &quot;sectorId&quot;: 188,
+            &quot;extra&quot;: &quot;Exercitationem id iure sit et. Soluta similique quia ut non. Voluptas enim maiores animi quam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;116&quot;,
+            &quot;title&quot;: &quot;Transportation Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Transportation%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut alias nihil ut esse id aut minima. Est numquam debitis quaerat nam sed harum natus. Eaque velit et dolorem. Et molestias eos non optio beatae velit.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 20,
+            &quot;programId&quot;: 39,
+            &quot;tags&quot;: [
+                &quot;voluptate&quot;,
+                &quot;quisquam&quot;,
+                &quot;qui&quot;
+            ],
+            &quot;duration&quot;: 88,
+            &quot;expiryDate&quot;: &quot;2026-02-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Velit numquam est ab ut illum voluptas rerum. Incidunt placeat est quisquam tenetur. Et nihil quis officiis voluptatibus doloremque et omnis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illo ipsa rem dolorum voluptas.&quot;,
+                &quot;Rerum et cum excepturi dolorum distinctio perferendis rerum.&quot;,
+                &quot;Ut quas autem exercitationem eos enim in aut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et laboriosam dolores deserunt doloribus quod sapiente quia.&quot;,
+                &quot;Eum velit ipsam modi omnis doloremque quis.&quot;,
+                &quot;Quo quidem corrupti numquam quasi et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 153,
+            &quot;latitude&quot;: &quot;63.24231400&quot;,
+            &quot;longitude&quot;: &quot;-132.26281700&quot;,
+            &quot;locationDescription&quot;: &quot;408 Tevin Pass Suite 971\nHaleyborough, ND 30097-4049&quot;,
+            &quot;benefits&quot;: [
+                &quot;Rerum voluptate neque consequatur.&quot;,
+                &quot;Et debitis pariatur asperiores ea nulla tempora laudantium rerum.&quot;,
+                &quot;Inventore est nisi explicabo delectus consequuntur consectetur laboriosam.&quot;
+            ],
+            &quot;sectorId&quot;: 187,
+            &quot;extra&quot;: &quot;Odit consequuntur officiis atque nam. Voluptatem nisi perspiciatis rerum est nemo et. Nihil ut aspernatur porro. Ab necessitatibus praesentium et labore eos praesentium.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;115&quot;,
+            &quot;title&quot;: &quot;Public Relations Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Public%20Relations%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sapiente debitis amet sequi vel mollitia animi autem ex. Qui impedit iusto adipisci quisquam asperiores. Voluptas eum omnis deserunt quos.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 20,
+            &quot;programId&quot;: 39,
+            &quot;tags&quot;: [
+                &quot;numquam&quot;,
+                &quot;laborum&quot;,
+                &quot;vel&quot;
+            ],
+            &quot;duration&quot;: 92,
+            &quot;expiryDate&quot;: &quot;2026-02-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Laudantium commodi delectus porro officia. Iure aut dicta aut et. Et ut excepturi necessitatibus veritatis neque aperiam voluptatum porro. Eligendi similique nihil commodi harum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quos sit magni dolore consequatur quia hic.&quot;,
+                &quot;Recusandae cupiditate corrupti id.&quot;,
+                &quot;Dolore reprehenderit nisi dolore blanditiis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et aut repudiandae similique officia quia adipisci.&quot;,
+                &quot;Deserunt sit pariatur dicta cupiditate dolores aut.&quot;,
+                &quot;Quasi qui sed at inventore nulla beatae.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 152,
+            &quot;latitude&quot;: &quot;10.17463400&quot;,
+            &quot;longitude&quot;: &quot;110.74462000&quot;,
+            &quot;locationDescription&quot;: &quot;9394 Murl Plains\nNew Franz, MD 90925&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aliquid doloremque nihil quia amet.&quot;,
+                &quot;Numquam aut optio vel eum amet blanditiis.&quot;,
+                &quot;Quo ipsa sunt repellendus quam temporibus.&quot;
+            ],
+            &quot;sectorId&quot;: 186,
+            &quot;extra&quot;: &quot;Voluptas eum similique error veniam consequatur est veniam. Rerum id nesciunt facere similique quia ut. Culpa earum consequuntur voluptatem odit iure aut laboriosam cumque. Dolorem a eum est qui qui.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;114&quot;,
+            &quot;title&quot;: &quot;Geography Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Geography%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ea quo sed qui voluptatem recusandae animi perferendis. Et repellat eum sed incidunt qui neque odio. Rerum et dolorem et.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 19,
+            &quot;programId&quot;: 38,
+            &quot;tags&quot;: [
+                &quot;illum&quot;,
+                &quot;et&quot;,
+                &quot;non&quot;
+            ],
+            &quot;duration&quot;: 155,
+            &quot;expiryDate&quot;: &quot;2025-11-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aspernatur veritatis distinctio ullam quia odit expedita alias. Ut quo quam voluptas. Autem sed placeat odit cumque dolores assumenda animi. In perferendis reprehenderit in sint accusamus necessitatibus repellat.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Facilis cupiditate et quos eveniet.&quot;,
+                &quot;Et culpa quia qui occaecati sunt in.&quot;,
+                &quot;Nemo veritatis magnam ut assumenda saepe non perspiciatis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Asperiores sint autem aperiam eos occaecati ab vitae voluptatibus.&quot;,
+                &quot;Repudiandae molestias magnam minima.&quot;,
+                &quot;Cupiditate aliquid numquam ratione consequatur ut nihil.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 151,
+            &quot;latitude&quot;: &quot;-72.91882500&quot;,
+            &quot;longitude&quot;: &quot;-165.32392000&quot;,
+            &quot;locationDescription&quot;: &quot;582 Stoltenberg Mountain\nGoodwinburgh, MN 04869&quot;,
+            &quot;benefits&quot;: [
+                &quot;Occaecati sunt exercitationem sed rerum modi aut.&quot;,
+                &quot;Est repudiandae atque ipsa quos sit.&quot;,
+                &quot;Eius alias ut rerum in reprehenderit.&quot;
+            ],
+            &quot;sectorId&quot;: 185,
+            &quot;extra&quot;: &quot;Pariatur fugit omnis eius amet voluptatem ullam. Reiciendis placeat et qui inventore et. Amet natus rerum vitae eius beatae dolores quas. Rerum cumque minus consequatur facere fugit. Labore quibusdam consequatur aut accusamus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;113&quot;,
+            &quot;title&quot;: &quot;Valve Repairer OR Regulator Repairer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Valve%20Repairer%20OR%20Regulator%20Repairer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Molestiae et est est consequatur reiciendis. Voluptatem exercitationem cupiditate reiciendis voluptate unde consequatur.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 19,
+            &quot;programId&quot;: 38,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;et&quot;,
+                &quot;enim&quot;
+            ],
+            &quot;duration&quot;: 80,
+            &quot;expiryDate&quot;: &quot;2025-12-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Earum nemo cumque non unde eius aut labore. Facilis enim quia sit enim molestias perferendis. Animi non id vel nulla dolorem ut ut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Molestiae natus quo et qui.&quot;,
+                &quot;Et necessitatibus placeat animi non.&quot;,
+                &quot;Aut dolor voluptatem voluptas.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quaerat ea quaerat voluptate et temporibus culpa et.&quot;,
+                &quot;Aut iure quibusdam natus et exercitationem.&quot;,
+                &quot;Id perferendis aperiam incidunt eos.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 150,
+            &quot;latitude&quot;: &quot;62.42914300&quot;,
+            &quot;longitude&quot;: &quot;11.84490900&quot;,
+            &quot;locationDescription&quot;: &quot;4390 Robyn Views Suite 203\nPort Lilianemouth, MO 32425&quot;,
+            &quot;benefits&quot;: [
+                &quot;Autem necessitatibus placeat aut.&quot;,
+                &quot;Reprehenderit sit deserunt molestias quod.&quot;,
+                &quot;Eligendi sed velit pariatur nihil aut fugit nemo.&quot;
+            ],
+            &quot;sectorId&quot;: 184,
+            &quot;extra&quot;: &quot;Consequatur quae veniam eius asperiores quia temporibus vel. Qui laborum consequuntur vel unde et omnis. Et commodi accusantium fugit nemo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;112&quot;,
+            &quot;title&quot;: &quot;Exhibit Designer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Exhibit%20Designer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ea suscipit sit quia non. Consequatur excepturi corrupti velit rem ut. Placeat aut qui earum aut consequatur qui. Optio repudiandae sint optio sunt.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 19,
+            &quot;programId&quot;: 38,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;nihil&quot;,
+                &quot;illo&quot;
+            ],
+            &quot;duration&quot;: 362,
+            &quot;expiryDate&quot;: &quot;2026-03-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Assumenda qui eum eius autem. Maxime nesciunt unde voluptatibus in non possimus. Velit ea dolorem animi aperiam adipisci qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Debitis earum minus quam aut.&quot;,
+                &quot;Et culpa quia velit commodi aut qui atque.&quot;,
+                &quot;Explicabo esse explicabo sint molestiae excepturi ut ea.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Est facere dolorem qui illum consequatur.&quot;,
+                &quot;Est quas et hic porro est sit illum.&quot;,
+                &quot;Ab sed est est et nesciunt veniam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 149,
+            &quot;latitude&quot;: &quot;23.52835600&quot;,
+            &quot;longitude&quot;: &quot;171.53950800&quot;,
+            &quot;locationDescription&quot;: &quot;902 Milo Lodge\nNew Kayli, AK 94736&quot;,
+            &quot;benefits&quot;: [
+                &quot;Et autem explicabo commodi consequuntur eum dolores.&quot;,
+                &quot;Cupiditate cupiditate reprehenderit fugiat sed et.&quot;,
+                &quot;Corporis dicta omnis sint dignissimos.&quot;
+            ],
+            &quot;sectorId&quot;: 183,
+            &quot;extra&quot;: &quot;Corporis blanditiis officia dolore saepe ducimus. Illo labore non tempora quos eius labore et. Ut ipsa explicabo maxime unde esse. Id repellendus doloribus consectetur repellat accusantium ducimus et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;111&quot;,
+            &quot;title&quot;: &quot;Distribution Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Distribution%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Accusamus dolorem beatae recusandae. Et voluptas cumque cum consectetur nemo voluptatem aliquid sunt. Deleniti possimus animi et aut ratione possimus. Dolores aut at expedita ut id earum rem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 19,
+            &quot;programId&quot;: 37,
+            &quot;tags&quot;: [
+                &quot;non&quot;,
+                &quot;fugiat&quot;,
+                &quot;sed&quot;
+            ],
+            &quot;duration&quot;: 297,
+            &quot;expiryDate&quot;: &quot;2025-11-25T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Fugit esse magni temporibus sed vitae corporis. Maxime sit quasi pariatur fugit dolorem libero. Qui dolorem ducimus magnam quis impedit nisi eaque. Similique non omnis facere quia accusamus vitae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Deleniti vero harum facere veritatis laborum.&quot;,
+                &quot;Eum aliquid ducimus voluptas qui ab.&quot;,
+                &quot;Pariatur error aut qui consequatur consequatur provident fugit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Illum quae aut consequatur sed.&quot;,
+                &quot;Dolor et repellat provident mollitia delectus vitae unde non.&quot;,
+                &quot;Laboriosam provident tempore pariatur ex.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 148,
+            &quot;latitude&quot;: &quot;15.07773500&quot;,
+            &quot;longitude&quot;: &quot;-120.40035800&quot;,
+            &quot;locationDescription&quot;: &quot;29946 Shirley Keys\nEnafort, VA 71849&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quo commodi beatae ratione dolor.&quot;,
+                &quot;Nam molestias voluptatem sapiente officiis in et officiis eius.&quot;,
+                &quot;Odio et porro quidem illo alias.&quot;
+            ],
+            &quot;sectorId&quot;: 182,
+            &quot;extra&quot;: &quot;Velit esse in et recusandae aspernatur. Qui commodi consectetur quisquam laborum modi. Aut aut dolorem rerum beatae tempore ab necessitatibus. Velit voluptatum rerum reprehenderit est omnis facilis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;110&quot;,
+            &quot;title&quot;: &quot;Emergency Management Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Emergency%20Management%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quidem non unde et illo. Unde quod perspiciatis in molestiae ipsam nemo. Numquam illo neque veritatis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 19,
+            &quot;programId&quot;: 37,
+            &quot;tags&quot;: [
+                &quot;quis&quot;,
+                &quot;vel&quot;,
+                &quot;saepe&quot;
+            ],
+            &quot;duration&quot;: 123,
+            &quot;expiryDate&quot;: &quot;2025-12-20T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatem tenetur et sint deserunt magnam. Quis explicabo non voluptatem rerum. Ex non tempore debitis veritatis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illum et ea et consequatur doloribus autem dolor.&quot;,
+                &quot;Ab voluptates dolor sint facere non nesciunt ducimus voluptatum.&quot;,
+                &quot;Eligendi minima voluptatem et doloribus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Nihil vero doloribus fuga quis quam non a.&quot;,
+                &quot;Quos qui molestiae rerum quibusdam quo praesentium dignissimos labore.&quot;,
+                &quot;Rem cum eum vel nihil.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 147,
+            &quot;latitude&quot;: &quot;48.75078600&quot;,
+            &quot;longitude&quot;: &quot;164.42425600&quot;,
+            &quot;locationDescription&quot;: &quot;5558 Maximillian Hills Suite 543\nPort Itzelmouth, NE 88163&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sapiente id et est animi maiores.&quot;,
+                &quot;Sed sit laborum accusantium ut est voluptatem praesentium.&quot;,
+                &quot;Dolorum pariatur sunt est eos beatae occaecati.&quot;
+            ],
+            &quot;sectorId&quot;: 181,
+            &quot;extra&quot;: &quot;Qui consequatur vero sunt dolores voluptas veniam id. Dolore id temporibus dolorem placeat. Cupiditate perspiciatis occaecati quasi autem magnam veniam. Porro quas voluptatem rem cum repellat repellendus omnis sunt.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;109&quot;,
+            &quot;title&quot;: &quot;Veterinary Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Veterinary%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;In laudantium qui accusamus molestias. Dicta non sunt ut ut ipsam dolor. Eaque accusamus possimus sint ut.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 19,
+            &quot;programId&quot;: 37,
+            &quot;tags&quot;: [
+                &quot;fugiat&quot;,
+                &quot;pariatur&quot;,
+                &quot;illum&quot;
+            ],
+            &quot;duration&quot;: 166,
+            &quot;expiryDate&quot;: &quot;2026-02-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nam occaecati veniam expedita mollitia et quisquam in quod. Enim aliquam quibusdam ad corporis. Officiis et et repudiandae voluptas non eius.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eos labore nulla qui maiores aut quis aspernatur.&quot;,
+                &quot;Mollitia ducimus sit vero provident asperiores sint ut.&quot;,
+                &quot;Vel quae assumenda nemo quo assumenda laudantium atque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Placeat enim aut eligendi dicta ut ea.&quot;,
+                &quot;Quasi iste in aliquam.&quot;,
+                &quot;Impedit dicta deserunt quis aut harum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 146,
+            &quot;latitude&quot;: &quot;34.43964500&quot;,
+            &quot;longitude&quot;: &quot;61.69572000&quot;,
+            &quot;locationDescription&quot;: &quot;754 Nia Mission Apt. 386\nDickinsonmouth, VT 84913-0512&quot;,
+            &quot;benefits&quot;: [
+                &quot;Eligendi reprehenderit qui itaque voluptatibus eum laudantium voluptas.&quot;,
+                &quot;Laboriosam minus nobis assumenda qui rerum odit modi.&quot;,
+                &quot;Minus consequuntur ducimus alias repellat quia.&quot;
+            ],
+            &quot;sectorId&quot;: 180,
+            &quot;extra&quot;: &quot;Est quidem numquam nisi non. Enim asperiores rem dicta sit itaque quos. Sint reprehenderit quo esse necessitatibus iusto quia est.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;108&quot;,
+            &quot;title&quot;: &quot;Housekeeping Supervisor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Housekeeping%20Supervisor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dolores dicta sit illo fuga. Placeat qui qui laborum. Iure ab laborum aperiam placeat voluptatem iste.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 18,
+            &quot;programId&quot;: 36,
+            &quot;tags&quot;: [
+                &quot;quos&quot;,
+                &quot;sed&quot;,
+                &quot;iusto&quot;
+            ],
+            &quot;duration&quot;: 301,
+            &quot;expiryDate&quot;: &quot;2026-01-12T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Asperiores deleniti qui quo soluta ducimus. Modi ad amet perferendis in commodi nisi. Iste aperiam nemo autem officia in. Voluptatum ut quidem eveniet qui aspernatur nam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Voluptatem tempore id ea laborum autem eius.&quot;,
+                &quot;Saepe accusamus perspiciatis quo sequi deserunt minima.&quot;,
+                &quot;Blanditiis hic reiciendis esse culpa perferendis voluptate.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Provident perspiciatis veniam facere nesciunt sit.&quot;,
+                &quot;Nemo quidem fugiat eos consequuntur ducimus officiis nisi.&quot;,
+                &quot;Sint illum amet voluptatem enim exercitationem et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 145,
+            &quot;latitude&quot;: &quot;60.43647500&quot;,
+            &quot;longitude&quot;: &quot;-135.77491600&quot;,
+            &quot;locationDescription&quot;: &quot;9616 Mozell Estates Apt. 016\nZiemannhaven, KY 85254-8380&quot;,
+            &quot;benefits&quot;: [
+                &quot;Itaque neque dolor ut culpa et nobis velit.&quot;,
+                &quot;Earum harum distinctio occaecati assumenda dolores omnis.&quot;,
+                &quot;Cumque iure excepturi blanditiis.&quot;
+            ],
+            &quot;sectorId&quot;: 179,
+            &quot;extra&quot;: &quot;Et asperiores debitis architecto accusantium atque. Quo est cum debitis qui. Alias est dolor est ipsum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;107&quot;,
+            &quot;title&quot;: &quot;Carpet Installer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Carpet%20Installer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consequuntur et ut dicta culpa. Ut perspiciatis nostrum minus consectetur incidunt libero reiciendis quod. Veritatis sequi dolorem quo et nesciunt.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 18,
+            &quot;programId&quot;: 36,
+            &quot;tags&quot;: [
+                &quot;voluptatem&quot;,
+                &quot;totam&quot;,
+                &quot;atque&quot;
+            ],
+            &quot;duration&quot;: 216,
+            &quot;expiryDate&quot;: &quot;2026-02-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Saepe aut aut tempore excepturi non. Praesentium quisquam quo et quasi repellendus. Quisquam quia sint at iste fugit veritatis et fugit. Sint ut atque qui animi corporis totam minima.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sequi nihil fugit quia dolores culpa.&quot;,
+                &quot;Dolorem soluta consectetur in saepe itaque est doloribus.&quot;,
+                &quot;Mollitia sint consectetur enim beatae neque blanditiis in.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolorem quam rerum quod sint.&quot;,
+                &quot;Perspiciatis odio non autem ducimus.&quot;,
+                &quot;Dolores eius neque accusantium non.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 144,
+            &quot;latitude&quot;: &quot;87.43071600&quot;,
+            &quot;longitude&quot;: &quot;-41.90053500&quot;,
+            &quot;locationDescription&quot;: &quot;730 Ubaldo Points\nQuitzonport, KS 64307-8719&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ipsum corrupti sequi nam vel ratione expedita necessitatibus.&quot;,
+                &quot;Velit ipsa nemo nulla corrupti.&quot;,
+                &quot;Cupiditate necessitatibus odio nam soluta.&quot;
+            ],
+            &quot;sectorId&quot;: 178,
+            &quot;extra&quot;: &quot;Possimus doloribus est totam minus sequi ad corrupti eaque. Omnis sint in nam laudantium. Placeat excepturi ducimus repellat aut. Quas cum qui et eaque in veritatis mollitia.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;106&quot;,
+            &quot;title&quot;: &quot;Medical Sales Representative Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Medical%20Sales%20Representative%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Nostrum vitae quam voluptate in odit. Illo inventore voluptatibus consectetur possimus magnam ut qui. Id repellat perferendis et totam. Consequatur suscipit aut sed dolores.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 18,
+            &quot;programId&quot;: 36,
+            &quot;tags&quot;: [
+                &quot;voluptas&quot;,
+                &quot;aut&quot;,
+                &quot;laboriosam&quot;
+            ],
+            &quot;duration&quot;: 265,
+            &quot;expiryDate&quot;: &quot;2026-01-14T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut dolorem doloribus ratione officiis. Nesciunt et aut beatae at itaque facilis. Ex dolores explicabo optio delectus tempora. Omnis voluptatem fugit maxime aliquid deserunt.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Beatae voluptas magnam iure facilis.&quot;,
+                &quot;Voluptas vitae aut ipsum itaque et.&quot;,
+                &quot;Est rem cupiditate iusto ut omnis quo rem velit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ea aut et quod aut quod et voluptates.&quot;,
+                &quot;Minus et sapiente odit reiciendis deserunt.&quot;,
+                &quot;Est consequatur saepe doloribus pariatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 143,
+            &quot;latitude&quot;: &quot;50.09970000&quot;,
+            &quot;longitude&quot;: &quot;-11.76620500&quot;,
+            &quot;locationDescription&quot;: &quot;736 Reanna Forges\nKrajcikfurt, IL 74231&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aut sunt quis molestiae.&quot;,
+                &quot;Nihil quasi consequuntur recusandae quasi sed enim rem eos.&quot;,
+                &quot;Neque totam possimus numquam deserunt.&quot;
+            ],
+            &quot;sectorId&quot;: 177,
+            &quot;extra&quot;: &quot;Repellendus corrupti possimus quibusdam facere quo earum. Quod corrupti non eaque qui est porro. Similique asperiores quia cum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;105&quot;,
+            &quot;title&quot;: &quot;Physical Scientist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Physical%20Scientist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Harum fuga hic quo ducimus corrupti ut et. Accusantium fugiat sunt et. Atque doloremque molestiae aliquid similique. Tempora quos nesciunt sed corrupti minus velit.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 18,
+            &quot;programId&quot;: 35,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;deserunt&quot;,
+                &quot;nam&quot;
+            ],
+            &quot;duration&quot;: 308,
+            &quot;expiryDate&quot;: &quot;2026-01-08T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Veritatis veniam et sed harum blanditiis soluta minima. Laudantium consectetur quaerat et dolorem nihil voluptatibus rerum. Ullam est tenetur dolorem quibusdam animi nihil. Autem harum eum officia nulla cupiditate minima nostrum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Autem esse omnis iste nihil sed.&quot;,
+                &quot;Quam autem quas porro.&quot;,
+                &quot;Est id deleniti aut et eos alias.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Deleniti voluptatem pariatur unde.&quot;,
+                &quot;Necessitatibus tempora eaque totam doloremque fuga sapiente.&quot;,
+                &quot;Quisquam odit facere assumenda ipsum saepe sapiente et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 142,
+            &quot;latitude&quot;: &quot;-86.05726100&quot;,
+            &quot;longitude&quot;: &quot;-78.22368000&quot;,
+            &quot;locationDescription&quot;: &quot;8464 Bailey Neck\nCorwinmouth, FL 00977&quot;,
+            &quot;benefits&quot;: [
+                &quot;Maiores aliquam corrupti quia architecto nobis ab.&quot;,
+                &quot;Dolorum ex ipsum nemo consequatur ullam eveniet.&quot;,
+                &quot;Placeat adipisci quos velit qui at ex porro molestiae.&quot;
+            ],
+            &quot;sectorId&quot;: 176,
+            &quot;extra&quot;: &quot;Excepturi assumenda consequatur cum ut enim quam officia. Iste non quia beatae neque neque. Ut omnis optio voluptate hic.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;104&quot;,
+            &quot;title&quot;: &quot;Electrical Engineer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Electrical%20Engineer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ab odio ut quasi sed tempora porro. Ipsum placeat eaque ipsum veritatis inventore maxime pariatur. Architecto autem earum aperiam quod voluptatibus nemo quam. Odio aut aut sunt nulla et.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 18,
+            &quot;programId&quot;: 35,
+            &quot;tags&quot;: [
+                &quot;ratione&quot;,
+                &quot;quaerat&quot;,
+                &quot;nihil&quot;
+            ],
+            &quot;duration&quot;: 169,
+            &quot;expiryDate&quot;: &quot;2025-12-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sapiente ad voluptatem sint aliquid odit consequatur. Aliquid neque eveniet delectus et enim. Necessitatibus quam in magnam consequatur enim odio. Totam cupiditate eligendi eos quam fuga quia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Saepe eaque incidunt a ad.&quot;,
+                &quot;Id fuga dolores placeat.&quot;,
+                &quot;Ut omnis ea et sapiente eos.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quam consequatur cum tempora quia.&quot;,
+                &quot;Rem cupiditate qui hic ipsa.&quot;,
+                &quot;Temporibus pariatur perspiciatis cupiditate eum ut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 141,
+            &quot;latitude&quot;: &quot;-68.93539600&quot;,
+            &quot;longitude&quot;: &quot;-35.69097300&quot;,
+            &quot;locationDescription&quot;: &quot;245 Hayes Light\nLake Delores, CA 52292&quot;,
+            &quot;benefits&quot;: [
+                &quot;Error voluptatem illo occaecati consequuntur illo in eos.&quot;,
+                &quot;Iure saepe eligendi vero facilis ut repudiandae ratione.&quot;,
+                &quot;Sed quae eligendi culpa perferendis minima.&quot;
+            ],
+            &quot;sectorId&quot;: 175,
+            &quot;extra&quot;: &quot;Quasi in molestiae ipsam velit voluptatem est. Aut debitis voluptate harum ipsum. Recusandae occaecati hic libero sunt qui. Voluptatem saepe officia aut velit qui. Nemo et distinctio modi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;103&quot;,
+            &quot;title&quot;: &quot;Sales Person Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Sales%20Person%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vero ea dolorem itaque. Pariatur tempora non pariatur in id. Ad reiciendis incidunt ut similique aliquam quidem. Et qui repellendus quibusdam amet est culpa veritatis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 18,
+            &quot;programId&quot;: 35,
+            &quot;tags&quot;: [
+                &quot;voluptas&quot;,
+                &quot;pariatur&quot;,
+                &quot;quia&quot;
+            ],
+            &quot;duration&quot;: 246,
+            &quot;expiryDate&quot;: &quot;2026-02-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui qui culpa accusamus nobis dolorum facere. Qui vel alias voluptatem error incidunt. Beatae est voluptatibus eligendi. Qui nihil minus unde quos aspernatur velit eaque. Et quia autem minus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Architecto vel natus ab cupiditate dolor ad.&quot;,
+                &quot;Quaerat dolorem illum in et dicta quidem sit.&quot;,
+                &quot;Recusandae et eum enim aspernatur quis vel eligendi quisquam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Placeat fugiat esse voluptas quam soluta itaque velit.&quot;,
+                &quot;Minus consectetur minus non sunt.&quot;,
+                &quot;Amet cupiditate odit dolor.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 140,
+            &quot;latitude&quot;: &quot;84.72865300&quot;,
+            &quot;longitude&quot;: &quot;117.15409900&quot;,
+            &quot;locationDescription&quot;: &quot;66570 Lamar Ports\nSouth Noelside, MN 00704&quot;,
+            &quot;benefits&quot;: [
+                &quot;A esse minus ipsa quas repudiandae.&quot;,
+                &quot;Vitae qui nobis quasi officiis magni.&quot;,
+                &quot;Itaque explicabo consequatur sapiente harum corrupti.&quot;
+            ],
+            &quot;sectorId&quot;: 174,
+            &quot;extra&quot;: &quot;Voluptatem sunt ut enim sed labore cum. In suscipit eligendi explicabo facere.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;102&quot;,
+            &quot;title&quot;: &quot;Precision Lens Grinders and Polisher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Precision%20Lens%20Grinders%20and%20Polisher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Qui harum in qui. Id exercitationem inventore laborum id ab minima. Qui aut fugiat commodi dolores amet non non aspernatur.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 17,
+            &quot;programId&quot;: 34,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;magnam&quot;,
+                &quot;iusto&quot;
+            ],
+            &quot;duration&quot;: 311,
+            &quot;expiryDate&quot;: &quot;2025-10-14T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Deleniti molestiae consequuntur ut odit pariatur quasi. Perspiciatis et debitis doloribus impedit. Vero quas illum numquam voluptas maxime.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Saepe sapiente excepturi inventore qui non ullam.&quot;,
+                &quot;Dolor ex mollitia optio.&quot;,
+                &quot;Et qui placeat unde esse voluptatem aut velit quisquam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sapiente ut corrupti sit voluptates magni minus.&quot;,
+                &quot;Commodi porro quisquam accusamus consequatur rerum a omnis.&quot;,
+                &quot;Et repellendus dolorum pariatur voluptas beatae dolor sit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 139,
+            &quot;latitude&quot;: &quot;1.32051500&quot;,
+            &quot;longitude&quot;: &quot;135.17407200&quot;,
+            &quot;locationDescription&quot;: &quot;436 Schowalter Course Suite 112\nEast Glenmouth, MS 09309&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ipsam rerum repellendus nostrum eius.&quot;,
+                &quot;Enim earum esse repellat.&quot;,
+                &quot;Dolor voluptatem perspiciatis provident ea et officiis ut.&quot;
+            ],
+            &quot;sectorId&quot;: 173,
+            &quot;extra&quot;: &quot;Omnis quaerat ex ipsam fugit necessitatibus et. Qui et iusto suscipit soluta suscipit. Minus soluta quis perferendis nihil molestias voluptate officiis omnis. Aut quae voluptate qui corrupti nihil. Alias quibusdam consequuntur ut et vitae sit expedita ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;101&quot;,
+            &quot;title&quot;: &quot;Home Health Aide Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Home%20Health%20Aide%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Tenetur nemo exercitationem eveniet doloribus temporibus magni tenetur. Est eum nihil provident architecto nihil facere. Dolorem mollitia sequi molestiae et maiores voluptate id. Esse est officiis reprehenderit sint voluptatibus nemo corrupti.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 17,
+            &quot;programId&quot;: 34,
+            &quot;tags&quot;: [
+                &quot;veniam&quot;,
+                &quot;ea&quot;,
+                &quot;distinctio&quot;
+            ],
+            &quot;duration&quot;: 150,
+            &quot;expiryDate&quot;: &quot;2026-02-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Hic doloribus omnis omnis ullam soluta non modi. Assumenda eius id amet earum tenetur et. Iusto unde a ad distinctio.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quae labore quos voluptatem similique aliquam doloremque voluptatem architecto.&quot;,
+                &quot;Corporis qui cumque ut.&quot;,
+                &quot;Officia vero natus occaecati unde.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Reprehenderit quis est delectus nemo sit ea.&quot;,
+                &quot;Et eius sit quod eligendi quod est saepe.&quot;,
+                &quot;Dolorem vero pariatur optio autem neque.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 138,
+            &quot;latitude&quot;: &quot;-68.45346800&quot;,
+            &quot;longitude&quot;: &quot;32.00058400&quot;,
+            &quot;locationDescription&quot;: &quot;91184 Marilou Knolls\nHesterhaven, GA 95754-1568&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptas laboriosam provident eligendi quae omnis deserunt fugit.&quot;,
+                &quot;Dolorem cupiditate nesciunt vel unde sunt.&quot;,
+                &quot;Dolore omnis dolores odit.&quot;
+            ],
+            &quot;sectorId&quot;: 172,
+            &quot;extra&quot;: &quot;Voluptatem ex aut quae consequuntur fugit ipsum. Rerum enim eos laudantium eos. Qui eos a et architecto ad exercitationem vel.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;100&quot;,
+            &quot;title&quot;: &quot;Philosophy and Religion Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Philosophy%20and%20Religion%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Suscipit omnis laborum doloribus ex sit incidunt ut. Ut eum minima veritatis tenetur necessitatibus nihil. Consequatur laudantium expedita ducimus laborum similique.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 17,
+            &quot;programId&quot;: 34,
+            &quot;tags&quot;: [
+                &quot;magnam&quot;,
+                &quot;eum&quot;,
+                &quot;qui&quot;
+            ],
+            &quot;duration&quot;: 285,
+            &quot;expiryDate&quot;: &quot;2025-10-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut voluptatem veritatis ut sed. Expedita nisi molestias dolores. Cupiditate earum omnis corrupti est id qui impedit dolores.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Non laboriosam et ut sit.&quot;,
+                &quot;Quia a enim expedita et quibusdam fuga.&quot;,
+                &quot;Repellendus doloribus laboriosam deleniti culpa.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Non saepe consequatur aut inventore.&quot;,
+                &quot;Consequuntur corrupti neque inventore ea.&quot;,
+                &quot;Voluptatum reprehenderit magni delectus exercitationem eos et porro.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 137,
+            &quot;latitude&quot;: &quot;-17.42487200&quot;,
+            &quot;longitude&quot;: &quot;62.44526900&quot;,
+            &quot;locationDescription&quot;: &quot;24312 Cummings Summit\nRichieside, IA 58265-5075&quot;,
+            &quot;benefits&quot;: [
+                &quot;Enim porro ut ut voluptas quibusdam et autem.&quot;,
+                &quot;Quibusdam sit ducimus numquam animi et omnis deserunt.&quot;,
+                &quot;Dignissimos recusandae temporibus quas vero officiis consequuntur dolore.&quot;
+            ],
+            &quot;sectorId&quot;: 171,
+            &quot;extra&quot;: &quot;Similique enim deserunt minima vitae autem laudantium quo. Sunt magni nihil ut unde. Est asperiores iste velit quia asperiores.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;99&quot;,
+            &quot;title&quot;: &quot;Production Planning Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Production%20Planning%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et eius ut fugiat accusantium. Accusamus vitae commodi ducimus aut autem.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 17,
+            &quot;programId&quot;: 33,
+            &quot;tags&quot;: [
+                &quot;fugit&quot;,
+                &quot;sequi&quot;,
+                &quot;ut&quot;
+            ],
+            &quot;duration&quot;: 33,
+            &quot;expiryDate&quot;: &quot;2026-01-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Velit sit atque rerum. Et saepe atque error magni aut minus fugit. Accusamus voluptatem omnis quae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Animi eos perspiciatis hic quia eaque quo sit nam.&quot;,
+                &quot;Commodi molestiae quae id voluptatem qui doloremque libero.&quot;,
+                &quot;Aut voluptas tenetur quod perspiciatis exercitationem ipsam molestiae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Inventore et est mollitia praesentium quo omnis.&quot;,
+                &quot;Culpa et neque alias labore quo.&quot;,
+                &quot;Saepe impedit ipsam consectetur ex quis molestiae laboriosam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 136,
+            &quot;latitude&quot;: &quot;-17.70268300&quot;,
+            &quot;longitude&quot;: &quot;-67.81372300&quot;,
+            &quot;locationDescription&quot;: &quot;65702 Blick Light Apt. 119\nNew Quincy, SC 10606-4167&quot;,
+            &quot;benefits&quot;: [
+                &quot;Vitae quasi delectus minima veritatis quo placeat.&quot;,
+                &quot;Ut quisquam labore eos cum perferendis distinctio qui.&quot;,
+                &quot;Ea eius impedit dolores tenetur et et vero ipsum.&quot;
+            ],
+            &quot;sectorId&quot;: 170,
+            &quot;extra&quot;: &quot;Est quis dignissimos nam quod pariatur nihil dolores. In quae aperiam magnam dignissimos magni. Voluptates praesentium placeat quidem qui et fuga. Nesciunt dolorem placeat totam ducimus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;98&quot;,
+            &quot;title&quot;: &quot;Lodging Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Lodging%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quia dolor consequatur nostrum debitis excepturi. Cupiditate sunt fuga ipsa. Iusto assumenda reiciendis corporis accusamus id velit.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 17,
+            &quot;programId&quot;: 33,
+            &quot;tags&quot;: [
+                &quot;rem&quot;,
+                &quot;sed&quot;,
+                &quot;aut&quot;
+            ],
+            &quot;duration&quot;: 121,
+            &quot;expiryDate&quot;: &quot;2025-10-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nesciunt blanditiis vitae necessitatibus aliquam beatae. Atque quisquam corrupti qui voluptatem ut. Eum dolor dolores dolorem consectetur nihil. Molestiae quidem quo necessitatibus consequatur vel. Possimus voluptas sint quia architecto similique.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Cumque non quisquam accusantium in porro.&quot;,
+                &quot;Aut libero quis omnis qui.&quot;,
+                &quot;Ipsa qui recusandae maiores ex minima quia est.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ratione sed et tempora aliquam ducimus porro rem.&quot;,
+                &quot;Voluptas dolorem aut in quam voluptatem.&quot;,
+                &quot;Nisi reiciendis excepturi autem nulla at fugiat.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 135,
+            &quot;latitude&quot;: &quot;63.01928600&quot;,
+            &quot;longitude&quot;: &quot;154.47121300&quot;,
+            &quot;locationDescription&quot;: &quot;471 Maritza Hills\nJulianaberg, VT 12348-1278&quot;,
+            &quot;benefits&quot;: [
+                &quot;Deserunt molestiae libero earum officiis laborum ad.&quot;,
+                &quot;Voluptatem ad molestiae omnis velit reprehenderit sunt et.&quot;,
+                &quot;Ea magnam ratione rerum voluptas ex beatae ipsa.&quot;
+            ],
+            &quot;sectorId&quot;: 169,
+            &quot;extra&quot;: &quot;Asperiores eius odit quam eum ut. Modi rerum provident nulla ut voluptas.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;97&quot;,
+            &quot;title&quot;: &quot;Maintenance Equipment Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Maintenance%20Equipment%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Omnis fugiat ipsa at quod excepturi porro et. Deserunt in laudantium ut minus. Tempora quidem et rerum. Minus et non dignissimos impedit praesentium.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 17,
+            &quot;programId&quot;: 33,
+            &quot;tags&quot;: [
+                &quot;velit&quot;,
+                &quot;dolorem&quot;,
+                &quot;quod&quot;
+            ],
+            &quot;duration&quot;: 276,
+            &quot;expiryDate&quot;: &quot;2025-11-17T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut qui non natus fuga possimus facilis minus. Aspernatur porro consequatur ipsa ipsa. Voluptas laboriosam aut totam quasi est aliquam non. Nihil enim molestiae laudantium illo et et.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Doloremque culpa harum est enim.&quot;,
+                &quot;Repellat quidem autem repellat consectetur sunt.&quot;,
+                &quot;Perspiciatis mollitia quam autem quasi velit id.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Laboriosam sed quos aut aut ratione.&quot;,
+                &quot;Doloribus aut numquam quia dolores.&quot;,
+                &quot;Vero sit nobis enim ut perferendis et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 134,
+            &quot;latitude&quot;: &quot;57.63084800&quot;,
+            &quot;longitude&quot;: &quot;165.74087400&quot;,
+            &quot;locationDescription&quot;: &quot;610 Toy Islands\nSwaniawskiberg, PA 35230-8257&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolores nihil voluptas maiores libero hic.&quot;,
+                &quot;In dolor odit architecto incidunt autem et.&quot;,
+                &quot;Illo id repellat omnis ut.&quot;
+            ],
+            &quot;sectorId&quot;: 168,
+            &quot;extra&quot;: &quot;Nobis dolorem ab sapiente corporis numquam. Debitis quod qui exercitationem vel ex.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;96&quot;,
+            &quot;title&quot;: &quot;Administrative Services Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Administrative%20Services%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Repudiandae dolor suscipit provident minima. Asperiores sit qui optio et tempora. Et enim molestias minus minus odit qui distinctio. Et consequatur iste provident laudantium unde tempore aperiam minima.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 16,
+            &quot;programId&quot;: 32,
+            &quot;tags&quot;: [
+                &quot;ratione&quot;,
+                &quot;voluptatum&quot;,
+                &quot;doloremque&quot;
+            ],
+            &quot;duration&quot;: 310,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Delectus eum natus totam dolorem eveniet ex. Dignissimos tenetur dignissimos provident ab non non dolor. Et pariatur dolorem ducimus consequatur rerum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aut possimus beatae ullam neque consequuntur possimus accusamus.&quot;,
+                &quot;Eius reprehenderit beatae harum illum praesentium nihil sit eos.&quot;,
+                &quot;Quis ut consequatur vitae ut et et eum architecto.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Blanditiis illum est qui sint voluptate voluptate.&quot;,
+                &quot;Totam impedit eaque eligendi rem.&quot;,
+                &quot;Voluptatem rerum occaecati maxime et asperiores.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 133,
+            &quot;latitude&quot;: &quot;27.33791600&quot;,
+            &quot;longitude&quot;: &quot;82.06076400&quot;,
+            &quot;locationDescription&quot;: &quot;5489 Cleveland Estates Suite 091\nNorth Ethylport, AL 19869-3537&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ipsa ipsum vero cupiditate asperiores debitis.&quot;,
+                &quot;Sint accusamus voluptatem aspernatur et quo incidunt porro.&quot;,
+                &quot;Optio unde et illum mollitia temporibus voluptas quasi.&quot;
+            ],
+            &quot;sectorId&quot;: 167,
+            &quot;extra&quot;: &quot;Est eum iste dignissimos qui ut non qui quia. Enim et dolor deserunt molestiae recusandae quisquam odio. Quisquam possimus natus eum repellat. Quo corporis et est dolorum a laboriosam cumque ut. Accusamus beatae molestiae voluptatibus laudantium et dolorem dolor.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;95&quot;,
+            &quot;title&quot;: &quot;Database Administrator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Database%20Administrator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est corrupti consequatur beatae ab ut ipsum. Et consectetur neque debitis nemo. Blanditiis qui consequatur vel ipsum et.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 16,
+            &quot;programId&quot;: 32,
+            &quot;tags&quot;: [
+                &quot;est&quot;,
+                &quot;eum&quot;,
+                &quot;non&quot;
+            ],
+            &quot;duration&quot;: 273,
+            &quot;expiryDate&quot;: &quot;2025-09-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Velit in quia dignissimos qui quia aut. Dolore asperiores consequatur exercitationem modi aut quia voluptatibus. Explicabo occaecati molestiae quidem. Amet et nam ab eligendi reiciendis sit enim.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolor voluptate enim sed.&quot;,
+                &quot;Quibusdam consequuntur qui eum voluptatem commodi libero.&quot;,
+                &quot;Nemo facilis sed excepturi eum autem iure.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;A occaecati cum et minima autem ea.&quot;,
+                &quot;Molestiae illo magnam non qui.&quot;,
+                &quot;Amet earum non reiciendis iusto mollitia est doloribus assumenda.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 132,
+            &quot;latitude&quot;: &quot;45.59685200&quot;,
+            &quot;longitude&quot;: &quot;43.33427800&quot;,
+            &quot;locationDescription&quot;: &quot;362 Josefa Cape Apt. 269\nSouth Nelda, ND 38388&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ducimus occaecati omnis explicabo rerum.&quot;,
+                &quot;Dolores nesciunt similique illo.&quot;,
+                &quot;Doloremque sit iste amet.&quot;
+            ],
+            &quot;sectorId&quot;: 166,
+            &quot;extra&quot;: &quot;Velit consequatur molestiae repudiandae error nulla saepe doloribus. Natus asperiores ut magnam aliquam est voluptatem quasi. Ea magnam iusto aspernatur ut dolor facere qui.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;94&quot;,
+            &quot;title&quot;: &quot;Infantry Officer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Infantry%20Officer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sint sequi distinctio earum occaecati dicta. Consequuntur laudantium ab eos qui itaque earum inventore quis. Ut et a aspernatur recusandae.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 16,
+            &quot;programId&quot;: 32,
+            &quot;tags&quot;: [
+                &quot;ipsum&quot;,
+                &quot;consequatur&quot;,
+                &quot;tempora&quot;
+            ],
+            &quot;duration&quot;: 227,
+            &quot;expiryDate&quot;: &quot;2025-11-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui suscipit ad rerum et dolor neque voluptatem. Libero voluptatem et aut cupiditate natus. Iure laboriosam voluptatum repellat sed et quod et. Dolorem excepturi odio exercitationem et aliquid voluptate doloremque. Pariatur facilis aut adipisci quae.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Veniam sed ut aliquid dolore iure est.&quot;,
+                &quot;Quidem reiciendis dolorem saepe corporis.&quot;,
+                &quot;Et unde eos cumque ipsa nulla.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Excepturi doloremque at modi rerum sapiente odio fuga.&quot;,
+                &quot;Est quis ipsa quam at quia aperiam omnis a.&quot;,
+                &quot;Deleniti vel rerum perferendis ratione.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 131,
+            &quot;latitude&quot;: &quot;-33.82519500&quot;,
+            &quot;longitude&quot;: &quot;-141.99686400&quot;,
+            &quot;locationDescription&quot;: &quot;939 Curtis Valleys Suite 996\nPort Elenorborough, OH 42707&quot;,
+            &quot;benefits&quot;: [
+                &quot;Blanditiis ut facilis iste unde quia vitae id.&quot;,
+                &quot;Praesentium est unde et qui.&quot;,
+                &quot;Perspiciatis dolor et et voluptatibus natus non repellendus.&quot;
+            ],
+            &quot;sectorId&quot;: 165,
+            &quot;extra&quot;: &quot;Vero nulla a a. Illum harum non voluptate sed quasi laboriosam dolore aut. Quia atque esse qui laudantium. Consequatur ratione eius voluptas officiis non laboriosam eum aliquid.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;93&quot;,
+            &quot;title&quot;: &quot;Personal Care Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Personal%20Care%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eius ex et sed est repudiandae. Necessitatibus natus aliquid esse sed fugit harum perspiciatis minima. Fugiat ipsam voluptas rerum magni.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 16,
+            &quot;programId&quot;: 31,
+            &quot;tags&quot;: [
+                &quot;ut&quot;,
+                &quot;omnis&quot;,
+                &quot;iure&quot;
+            ],
+            &quot;duration&quot;: 351,
+            &quot;expiryDate&quot;: &quot;2026-01-10T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Fuga voluptas quaerat qui. Asperiores dolor sit quae eos ab vel. Est ullam sit est ut molestiae amet. Omnis quia deleniti hic.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aperiam nihil atque modi voluptatem quod.&quot;,
+                &quot;Nihil eum consequuntur eveniet autem.&quot;,
+                &quot;Nihil amet illo modi incidunt quis et magnam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Tenetur quia rerum consequuntur vel.&quot;,
+                &quot;Sint minus sit facere necessitatibus ab et.&quot;,
+                &quot;Est repellendus quaerat sed.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 130,
+            &quot;latitude&quot;: &quot;-27.33145400&quot;,
+            &quot;longitude&quot;: &quot;84.20487800&quot;,
+            &quot;locationDescription&quot;: &quot;13755 Borer Radial\nEast Havenfort, VA 23970&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatem consectetur dolore sed.&quot;,
+                &quot;Non earum autem asperiores impedit.&quot;,
+                &quot;Et assumenda ipsum mollitia porro ad illum.&quot;
+            ],
+            &quot;sectorId&quot;: 164,
+            &quot;extra&quot;: &quot;Velit ex aut aut ut qui. Commodi soluta quod fugit eius pariatur suscipit qui. Autem illum molestiae repellat quis sed unde aliquid.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;92&quot;,
+            &quot;title&quot;: &quot;Mold Maker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Mold%20Maker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Qui id aspernatur et velit repellat architecto nisi dolorem. Exercitationem at assumenda amet facilis sed aut quia. Ex voluptas aut voluptatem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 16,
+            &quot;programId&quot;: 31,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;dolor&quot;,
+                &quot;ex&quot;
+            ],
+            &quot;duration&quot;: 307,
+            &quot;expiryDate&quot;: &quot;2026-01-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aliquid ipsam harum et magni tempora ab. Cupiditate sunt non nihil facilis a non. Velit harum consequatur ipsam perspiciatis quo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quod quia reprehenderit maxime aut.&quot;,
+                &quot;Quia nihil consectetur voluptatem ducimus quisquam reprehenderit aliquid.&quot;,
+                &quot;Quidem incidunt iusto nisi.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Similique ipsum necessitatibus ut voluptas natus tempore fugit.&quot;,
+                &quot;Vitae sit aut minus provident.&quot;,
+                &quot;Alias cum consequuntur quos cum voluptas distinctio.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 129,
+            &quot;latitude&quot;: &quot;-2.43865200&quot;,
+            &quot;longitude&quot;: &quot;154.90436300&quot;,
+            &quot;locationDescription&quot;: &quot;368 Skiles Plaza Suite 989\nWest Ahmadtown, KY 91206-4157&quot;,
+            &quot;benefits&quot;: [
+                &quot;Esse minima est non est asperiores molestiae accusantium.&quot;,
+                &quot;Aut sit ut iste laudantium nisi.&quot;,
+                &quot;Nihil velit accusantium commodi reprehenderit.&quot;
+            ],
+            &quot;sectorId&quot;: 163,
+            &quot;extra&quot;: &quot;Saepe sint quia animi iusto et facere. Quasi harum dolore deleniti rerum quia. Aspernatur expedita repudiandae optio aut provident repellendus iste. Veniam nostrum dignissimos tempora sint.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;91&quot;,
+            &quot;title&quot;: &quot;Health Specialties Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Health%20Specialties%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quis cupiditate cumque rerum ipsam voluptatem optio aut. Nobis corrupti itaque animi facere sequi exercitationem labore. Ex cupiditate dolores ea vel quae.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 16,
+            &quot;programId&quot;: 31,
+            &quot;tags&quot;: [
+                &quot;rerum&quot;,
+                &quot;in&quot;,
+                &quot;a&quot;
+            ],
+            &quot;duration&quot;: 172,
+            &quot;expiryDate&quot;: &quot;2025-10-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nobis hic nihil expedita iure eligendi porro optio. Nam possimus perferendis non nobis. Quam blanditiis omnis voluptatum qui tempora quod et. Eveniet nam ipsa impedit blanditiis numquam. Eum eum aperiam rem quo autem eveniet voluptatem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;In et consequatur ipsum numquam incidunt.&quot;,
+                &quot;Excepturi ipsum quo voluptates.&quot;,
+                &quot;Distinctio commodi accusantium qui exercitationem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Est ipsa sequi et voluptatem totam ea.&quot;,
+                &quot;Unde omnis ut laborum totam vel officia laudantium corporis.&quot;,
+                &quot;Eos assumenda veniam expedita sapiente aut aut eum voluptatibus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 128,
+            &quot;latitude&quot;: &quot;11.60635700&quot;,
+            &quot;longitude&quot;: &quot;-4.51928000&quot;,
+            &quot;locationDescription&quot;: &quot;8332 Mills Mountains Suite 051\nNew Kiana, AZ 91222-0938&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sed non voluptas harum neque sit neque et.&quot;,
+                &quot;Repellat sit consequatur voluptate ut labore dolor.&quot;,
+                &quot;Minima ut pariatur unde ut.&quot;
+            ],
+            &quot;sectorId&quot;: 162,
+            &quot;extra&quot;: &quot;Voluptate sunt veniam et non. Perferendis similique qui et aut soluta. Ducimus sed et modi et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;90&quot;,
+            &quot;title&quot;: &quot;Pastry Chef Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Pastry%20Chef%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consequuntur labore laborum qui. Sint recusandae culpa illo odio omnis qui qui. Quos corporis sed ad molestiae sunt nobis et. Cupiditate illo voluptatem ut omnis dolor earum.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 15,
+            &quot;programId&quot;: 30,
+            &quot;tags&quot;: [
+                &quot;sequi&quot;,
+                &quot;velit&quot;,
+                &quot;consequatur&quot;
+            ],
+            &quot;duration&quot;: 331,
+            &quot;expiryDate&quot;: &quot;2026-01-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nam repellat cumque aut omnis. Et ea deleniti sit rem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut soluta illum quia non unde ut.&quot;,
+                &quot;Repudiandae illum voluptatum maiores et quia recusandae.&quot;,
+                &quot;Ut voluptas sint molestiae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sunt qui at temporibus nihil voluptatum dicta sed.&quot;,
+                &quot;Corporis error odio reiciendis id corporis et vel.&quot;,
+                &quot;Consequatur unde minus et quo nulla natus quo et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 127,
+            &quot;latitude&quot;: &quot;17.97689100&quot;,
+            &quot;longitude&quot;: &quot;-80.06658000&quot;,
+            &quot;locationDescription&quot;: &quot;835 Trantow Ferry Suite 062\nEast Gia, HI 59327-3671&quot;,
+            &quot;benefits&quot;: [
+                &quot;Repellendus quia maxime ea magnam est delectus dolore.&quot;,
+                &quot;Sit exercitationem blanditiis necessitatibus magnam dicta eum.&quot;,
+                &quot;Totam dolorum quia labore aut aut sed sit.&quot;
+            ],
+            &quot;sectorId&quot;: 161,
+            &quot;extra&quot;: &quot;Eos animi est odit autem ea quia. Nihil quisquam voluptate voluptate a voluptatem dolore ut. Est magni a maiores. Magnam est amet exercitationem ut praesentium quod iusto aliquam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;89&quot;,
+            &quot;title&quot;: &quot;Mathematical Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Mathematical%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Omnis quia tempore explicabo aperiam. Vitae est nisi officiis explicabo aliquam. Et velit sunt vero esse sint consectetur occaecati. In rerum aut ipsa saepe voluptatem molestiae numquam.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 15,
+            &quot;programId&quot;: 30,
+            &quot;tags&quot;: [
+                &quot;asperiores&quot;,
+                &quot;aut&quot;,
+                &quot;assumenda&quot;
+            ],
+            &quot;duration&quot;: 349,
+            &quot;expiryDate&quot;: &quot;2025-12-21T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Natus voluptates esse et consequatur dolore possimus porro. Explicabo iste odit non delectus sed nesciunt. Iste aut eligendi nobis ad esse in. Architecto repellat inventore id dicta.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sequi ducimus fuga sit suscipit.&quot;,
+                &quot;Delectus dicta repellat et est quibusdam assumenda.&quot;,
+                &quot;Quidem facere rerum minus deleniti.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Recusandae nam porro quia sit id sint vel.&quot;,
+                &quot;Facilis aperiam beatae ea numquam odio eos repudiandae.&quot;,
+                &quot;Et ullam perferendis fugiat distinctio aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 126,
+            &quot;latitude&quot;: &quot;-7.64854600&quot;,
+            &quot;longitude&quot;: &quot;5.27813500&quot;,
+            &quot;locationDescription&quot;: &quot;73515 Gorczany Stravenue Suite 036\nMcGlynnfort, MT 67003&quot;,
+            &quot;benefits&quot;: [
+                &quot;Non doloribus ea corrupti adipisci neque.&quot;,
+                &quot;Quasi voluptatibus reprehenderit ut cupiditate nam sunt quisquam.&quot;,
+                &quot;Non optio sunt qui a dolorem et.&quot;
+            ],
+            &quot;sectorId&quot;: 160,
+            &quot;extra&quot;: &quot;Sed repellat numquam rerum doloribus molestias. Rerum debitis rerum id consectetur dignissimos. Ex consequatur autem quisquam. Ut esse dolor vel velit omnis. Iure minima corporis alias dicta perferendis officiis maiores.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;88&quot;,
+            &quot;title&quot;: &quot;Archivist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Archivist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Iste eveniet corrupti et iure vero cum provident. Eaque voluptatem ut id nam. Voluptatem corporis non facere ipsam harum officiis dignissimos. Consequatur omnis et tempore ipsa.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 15,
+            &quot;programId&quot;: 30,
+            &quot;tags&quot;: [
+                &quot;at&quot;,
+                &quot;et&quot;,
+                &quot;pariatur&quot;
+            ],
+            &quot;duration&quot;: 265,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nostrum velit qui consequatur nihil tempora quo non. Quia aliquam qui ut alias facere vel. Perferendis et et molestias id repellendus consequuntur aspernatur. Tempora harum consequatur sed quia cupiditate facilis est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quas iure in eveniet sint amet quis cupiditate.&quot;,
+                &quot;Eaque quae in perspiciatis et ratione molestiae labore eos.&quot;,
+                &quot;Et reiciendis at soluta nemo aut rem et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;A ut perferendis ut qui sed.&quot;,
+                &quot;Laborum ad distinctio eos sit.&quot;,
+                &quot;Illo voluptas doloribus aut soluta libero inventore ratione.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 125,
+            &quot;latitude&quot;: &quot;-19.15966200&quot;,
+            &quot;longitude&quot;: &quot;-175.83280500&quot;,
+            &quot;locationDescription&quot;: &quot;3797 Schmeler Gardens Apt. 670\nLake Demario, MT 01531&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nam incidunt sunt quod aspernatur iure dicta voluptatem.&quot;,
+                &quot;Ducimus temporibus ea asperiores quaerat.&quot;,
+                &quot;Tempore architecto nihil debitis omnis cumque.&quot;
+            ],
+            &quot;sectorId&quot;: 159,
+            &quot;extra&quot;: &quot;Repellat illo corrupti et quo voluptatibus autem. Vitae omnis sint soluta repellendus fugiat.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;87&quot;,
+            &quot;title&quot;: &quot;Electric Motor Repairer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Electric%20Motor%20Repairer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dicta odio commodi earum accusantium provident laboriosam. Est architecto ut sunt iste et aut. Magni sequi repudiandae ad aliquid voluptatem minus a. Iste qui vel sint deleniti ad. Rerum quia dolores eum.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 15,
+            &quot;programId&quot;: 29,
+            &quot;tags&quot;: [
+                &quot;nulla&quot;,
+                &quot;dolorum&quot;,
+                &quot;maiores&quot;
+            ],
+            &quot;duration&quot;: 36,
+            &quot;expiryDate&quot;: &quot;2025-10-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Non totam dolorem corporis. Voluptatem temporibus aperiam et repellendus perspiciatis. Ut quam perspiciatis voluptatum aut veniam delectus qui nobis. Qui harum molestiae eaque nesciunt.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Rem natus est molestiae accusantium suscipit asperiores est.&quot;,
+                &quot;Necessitatibus deserunt consectetur et minus.&quot;,
+                &quot;Alias aut id eum corrupti ratione nisi omnis molestiae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Officia rerum soluta quis alias libero velit.&quot;,
+                &quot;Quae animi explicabo consequatur exercitationem dolore quam facilis et.&quot;,
+                &quot;Tempora quae impedit pariatur possimus consequatur esse.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 124,
+            &quot;latitude&quot;: &quot;-64.74973000&quot;,
+            &quot;longitude&quot;: &quot;32.79222200&quot;,
+            &quot;locationDescription&quot;: &quot;621 Greenfelder Roads\nPort Ruthe, NV 17206&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ut neque explicabo quisquam consequatur et qui aut.&quot;,
+                &quot;Voluptate quod iure quae aut.&quot;,
+                &quot;Nam ducimus cupiditate corporis ut omnis illo.&quot;
+            ],
+            &quot;sectorId&quot;: 158,
+            &quot;extra&quot;: &quot;Dolorem totam aut impedit consequatur asperiores nobis. Ullam molestiae vero vero esse reiciendis est.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;86&quot;,
+            &quot;title&quot;: &quot;Hotel Desk Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Hotel%20Desk%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sed et modi enim voluptas. Ipsa et laboriosam error error voluptatum et nihil. Nesciunt quis vitae quia autem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 15,
+            &quot;programId&quot;: 29,
+            &quot;tags&quot;: [
+                &quot;ullam&quot;,
+                &quot;non&quot;,
+                &quot;tempore&quot;
+            ],
+            &quot;duration&quot;: 166,
+            &quot;expiryDate&quot;: &quot;2025-10-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatibus quia sunt cumque iste asperiores. Est animi soluta aut et aut unde. Natus esse maiores beatae quas tempora quibusdam recusandae. Tenetur minus itaque ut quis consequuntur voluptas dignissimos.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Qui rerum est quas eius magni.&quot;,
+                &quot;Repudiandae asperiores consequatur laborum esse quas excepturi deleniti.&quot;,
+                &quot;Molestiae est sit optio voluptatum quis sed distinctio.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatibus est ab perspiciatis ut.&quot;,
+                &quot;Illum facere ut molestiae adipisci rem quas assumenda.&quot;,
+                &quot;Molestiae occaecati incidunt cumque consectetur qui dolorum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 123,
+            &quot;latitude&quot;: &quot;-59.15163300&quot;,
+            &quot;longitude&quot;: &quot;40.15584400&quot;,
+            &quot;locationDescription&quot;: &quot;8504 Jevon Overpass\nPort Miracle, NE 73767-2988&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sed quia quam deserunt totam inventore sequi non.&quot;,
+                &quot;Eius magni fuga repellendus sequi.&quot;,
+                &quot;Dolorum dignissimos dolores minus non laborum.&quot;
+            ],
+            &quot;sectorId&quot;: 157,
+            &quot;extra&quot;: &quot;Iste tenetur autem molestias doloremque ut porro qui deserunt. Minus dolorem pariatur dolorum. Amet deserunt minima maxime aut. Assumenda ut animi iste voluptas aperiam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;85&quot;,
+            &quot;title&quot;: &quot;Radio Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Radio%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eos dolorem aut fugiat dolorem sit praesentium. Modi labore incidunt voluptas rerum repellat vitae quia corrupti.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 15,
+            &quot;programId&quot;: 29,
+            &quot;tags&quot;: [
+                &quot;dolore&quot;,
+                &quot;aliquid&quot;,
+                &quot;facere&quot;
+            ],
+            &quot;duration&quot;: 264,
+            &quot;expiryDate&quot;: &quot;2026-02-16T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Assumenda amet consequatur velit nam vero necessitatibus enim. Rem ea nihil corporis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Molestiae debitis aperiam aliquam.&quot;,
+                &quot;Occaecati exercitationem reprehenderit enim reprehenderit officia aut.&quot;,
+                &quot;Corrupti consequuntur odio quia quia quia amet.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et laboriosam sit et neque quia aperiam.&quot;,
+                &quot;Quasi fugit qui alias ea.&quot;,
+                &quot;Quidem aut quisquam qui nobis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 122,
+            &quot;latitude&quot;: &quot;-25.27538000&quot;,
+            &quot;longitude&quot;: &quot;-100.48672400&quot;,
+            &quot;locationDescription&quot;: &quot;7962 Wehner Brook\nWest Tamiashire, NM 25431-2973&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dolor culpa totam in dolores molestiae fugit.&quot;,
+                &quot;Culpa voluptatum error et aut et non sint.&quot;,
+                &quot;Recusandae dolore aut ut error molestiae voluptatem consequatur.&quot;
+            ],
+            &quot;sectorId&quot;: 156,
+            &quot;extra&quot;: &quot;Dolore voluptatum et aut minima sed rerum laborum. Consequatur commodi qui omnis asperiores culpa ad. Reiciendis repudiandae est nemo minima explicabo illo. Voluptatem minus incidunt quaerat voluptatem nostrum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;84&quot;,
+            &quot;title&quot;: &quot;Fabric Pressers Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Fabric%20Pressers%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Perferendis rerum eaque aut saepe rerum saepe. Quisquam quaerat et voluptatum inventore odit quis laudantium. Et accusamus voluptatem cumque ut consequatur.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 14,
+            &quot;programId&quot;: 28,
+            &quot;tags&quot;: [
+                &quot;eligendi&quot;,
+                &quot;facilis&quot;,
+                &quot;vero&quot;
+            ],
+            &quot;duration&quot;: 247,
+            &quot;expiryDate&quot;: &quot;2025-11-01T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Corporis quia velit id temporibus et laborum. Sint aut molestiae ullam odio et.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Harum nam non amet et quis.&quot;,
+                &quot;Voluptates repellendus beatae omnis illo laudantium aut saepe.&quot;,
+                &quot;Soluta quia sint blanditiis est.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ab velit deleniti et.&quot;,
+                &quot;Assumenda velit qui placeat similique est.&quot;,
+                &quot;Aspernatur ut non non repudiandae eius tenetur beatae illo.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 121,
+            &quot;latitude&quot;: &quot;36.84046300&quot;,
+            &quot;longitude&quot;: &quot;5.16477500&quot;,
+            &quot;locationDescription&quot;: &quot;9156 Lavinia Turnpike Suite 412\nPort Jerrold, TX 41904&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sint ut nam soluta perferendis repudiandae officia error.&quot;,
+                &quot;Magni mollitia nostrum et ut voluptates.&quot;,
+                &quot;Aut ut omnis unde aut minus vitae.&quot;
+            ],
+            &quot;sectorId&quot;: 155,
+            &quot;extra&quot;: &quot;Reprehenderit accusantium est tenetur reiciendis. Necessitatibus voluptates numquam fugit. Iusto magni sunt dignissimos et quam molestiae. Facilis asperiores sit tempora minus dolor qui.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;83&quot;,
+            &quot;title&quot;: &quot;Washing Equipment Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Washing%20Equipment%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Necessitatibus placeat beatae dolores eligendi aperiam officiis in. Unde necessitatibus id placeat atque. Voluptas et fugit ea laudantium et. Nam vel quibusdam laborum quibusdam iusto consequatur in.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 14,
+            &quot;programId&quot;: 28,
+            &quot;tags&quot;: [
+                &quot;sed&quot;,
+                &quot;pariatur&quot;,
+                &quot;dicta&quot;
+            ],
+            &quot;duration&quot;: 215,
+            &quot;expiryDate&quot;: &quot;2025-10-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Distinctio qui tenetur repellat omnis non. Perferendis consequatur fugiat aut. Architecto quaerat provident quas. Perferendis itaque tempora officiis perferendis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Recusandae et laudantium consequatur est.&quot;,
+                &quot;Accusantium quam sed quasi explicabo.&quot;,
+                &quot;Debitis quia fugit nulla officiis illo quae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Corrupti est id iste praesentium necessitatibus ab aliquid.&quot;,
+                &quot;Consequatur fuga voluptas quaerat occaecati recusandae.&quot;,
+                &quot;Iusto et eos enim sit est magni.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 120,
+            &quot;latitude&quot;: &quot;-41.29888000&quot;,
+            &quot;longitude&quot;: &quot;9.63002400&quot;,
+            &quot;locationDescription&quot;: &quot;414 Mertz Isle Suite 820\nHilbertburgh, FL 30926&quot;,
+            &quot;benefits&quot;: [
+                &quot;Autem dolores eos eum ut dolorem.&quot;,
+                &quot;Fugiat harum inventore eaque quas est sed.&quot;,
+                &quot;In iusto repudiandae illum.&quot;
+            ],
+            &quot;sectorId&quot;: 154,
+            &quot;extra&quot;: &quot;Ut rerum veritatis perspiciatis tempore in. Ut ut voluptatem quia nemo est quia ipsam minus. Sit aut dolorem quia perferendis libero quibusdam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;82&quot;,
+            &quot;title&quot;: &quot;Chef Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chef%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Magnam commodi et numquam illo dicta. Repellendus incidunt et et dolorem unde sunt. Molestias ab laboriosam quasi quis. Id enim doloribus hic et amet velit odit ad.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 14,
+            &quot;programId&quot;: 28,
+            &quot;tags&quot;: [
+                &quot;unde&quot;,
+                &quot;sequi&quot;,
+                &quot;quo&quot;
+            ],
+            &quot;duration&quot;: 290,
+            &quot;expiryDate&quot;: &quot;2025-09-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Rem vel sequi quia in magnam ea eos. Et recusandae optio beatae officiis aut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nulla tempora nesciunt et praesentium assumenda.&quot;,
+                &quot;Suscipit aut sint dolorem placeat laborum velit.&quot;,
+                &quot;Ex tempore omnis at est dolorem quibusdam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aliquam temporibus deserunt nihil ut aut facilis.&quot;,
+                &quot;Id et in aut id necessitatibus deleniti tempora.&quot;,
+                &quot;Reiciendis enim quia sit nulla omnis nam recusandae voluptatem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 119,
+            &quot;latitude&quot;: &quot;-71.98333700&quot;,
+            &quot;longitude&quot;: &quot;-51.57528000&quot;,
+            &quot;locationDescription&quot;: &quot;83144 Adella Dale\nGibsonfort, PA 38589-6708&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dignissimos aut sint libero accusamus architecto expedita in.&quot;,
+                &quot;Consectetur eos culpa aut saepe.&quot;,
+                &quot;Facere laudantium officiis laboriosam possimus.&quot;
+            ],
+            &quot;sectorId&quot;: 153,
+            &quot;extra&quot;: &quot;Optio iusto perspiciatis assumenda et ea qui. Corporis possimus sunt corrupti quod fugiat. Non repellendus doloribus natus provident.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;81&quot;,
+            &quot;title&quot;: &quot;Furniture Finisher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Furniture%20Finisher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ipsam voluptas dicta quia nihil omnis earum voluptatum nostrum. Id dignissimos qui accusamus rerum laboriosam deserunt dignissimos deleniti.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 14,
+            &quot;programId&quot;: 27,
+            &quot;tags&quot;: [
+                &quot;similique&quot;,
+                &quot;est&quot;,
+                &quot;ab&quot;
+            ],
+            &quot;duration&quot;: 184,
+            &quot;expiryDate&quot;: &quot;2025-10-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Tempora nulla itaque quia. Deserunt voluptas eveniet nemo consequuntur saepe laudantium vel magnam. Voluptatem amet enim id harum id perferendis sint quo. Sit ut laudantium officia expedita est dolorem qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Veniam corporis aliquam non veniam eos tenetur aliquam.&quot;,
+                &quot;Suscipit eum velit iste voluptatem.&quot;,
+                &quot;Ut culpa fugiat id molestiae incidunt quia eaque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Similique non est expedita consequuntur facere dolore.&quot;,
+                &quot;Qui iusto itaque accusamus ab enim assumenda.&quot;,
+                &quot;Dicta ab animi ut deleniti et exercitationem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 118,
+            &quot;latitude&quot;: &quot;-26.30706200&quot;,
+            &quot;longitude&quot;: &quot;-81.31542300&quot;,
+            &quot;locationDescription&quot;: &quot;447 Rath Avenue\nHelenemouth, MI 04292&quot;,
+            &quot;benefits&quot;: [
+                &quot;Recusandae quis aut id laudantium sequi.&quot;,
+                &quot;Qui repellat voluptas et et debitis repudiandae.&quot;,
+                &quot;Autem eveniet ut praesentium corrupti.&quot;
+            ],
+            &quot;sectorId&quot;: 152,
+            &quot;extra&quot;: &quot;Sed aut nesciunt ea qui. Impedit consequatur dolores atque unde animi unde et. Optio est laborum atque impedit autem dolorem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;80&quot;,
+            &quot;title&quot;: &quot;Animal Husbandry Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Animal%20Husbandry%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Asperiores similique excepturi omnis vero dolorem. Aut est nam non omnis saepe molestiae magni. Reprehenderit id repellat molestiae.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 14,
+            &quot;programId&quot;: 27,
+            &quot;tags&quot;: [
+                &quot;autem&quot;,
+                &quot;repudiandae&quot;,
+                &quot;dolore&quot;
+            ],
+            &quot;duration&quot;: 277,
+            &quot;expiryDate&quot;: &quot;2025-11-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Magni repellat sit suscipit quia nostrum et hic. Fugiat in recusandae deleniti et est. Necessitatibus modi sed voluptatibus rerum quis eum odio.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Distinctio perferendis sunt doloremque nulla ut mollitia et.&quot;,
+                &quot;Voluptate repellendus explicabo inventore.&quot;,
+                &quot;Sint vel consequatur similique sunt quasi ut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Architecto vel voluptas sapiente voluptas.&quot;,
+                &quot;Deserunt ut explicabo animi rerum quaerat dicta.&quot;,
+                &quot;Aut delectus dolorem porro labore.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 117,
+            &quot;latitude&quot;: &quot;-57.01135600&quot;,
+            &quot;longitude&quot;: &quot;-122.13900500&quot;,
+            &quot;locationDescription&quot;: &quot;4429 Gay Prairie\nForrestland, OR 33818-4456&quot;,
+            &quot;benefits&quot;: [
+                &quot;Accusamus aut ea et ipsa in non quas.&quot;,
+                &quot;Quod voluptates voluptate veniam incidunt voluptatum.&quot;,
+                &quot;Eaque inventore ab voluptatum earum cumque temporibus.&quot;
+            ],
+            &quot;sectorId&quot;: 151,
+            &quot;extra&quot;: &quot;Dicta laboriosam sit magnam corporis sit laborum. Mollitia nobis qui magni aut ipsa. Consequatur magni eos dolores non quo accusamus velit. Aut occaecati voluptates ducimus numquam voluptates.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;79&quot;,
+            &quot;title&quot;: &quot;Stonemason Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Stonemason%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Inventore perferendis vel assumenda in illo est. Incidunt ut consectetur quo sint laudantium ea. Est veritatis libero error tempora excepturi error quasi velit.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 14,
+            &quot;programId&quot;: 27,
+            &quot;tags&quot;: [
+                &quot;sed&quot;,
+                &quot;quia&quot;,
+                &quot;inventore&quot;
+            ],
+            &quot;duration&quot;: 323,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ducimus hic dignissimos eius laboriosam et voluptas maxime. Nulla dolorum ea sapiente animi dicta unde est. Dolor voluptatem ut omnis praesentium. Sunt ea ab deserunt sit et blanditiis accusamus eaque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sequi voluptas eaque officia eaque tempora error rerum soluta.&quot;,
+                &quot;Consequatur adipisci voluptate quaerat minus ut.&quot;,
+                &quot;Saepe qui dolore nihil ullam ducimus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Facere eveniet quos atque necessitatibus.&quot;,
+                &quot;Quam tempore voluptatem amet non.&quot;,
+                &quot;Laboriosam quaerat quasi corporis libero ab placeat voluptatibus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 116,
+            &quot;latitude&quot;: &quot;55.27100400&quot;,
+            &quot;longitude&quot;: &quot;-10.99871700&quot;,
+            &quot;locationDescription&quot;: &quot;942 Darian Keys Apt. 810\nDickiview, HI 69852-2063&quot;,
+            &quot;benefits&quot;: [
+                &quot;Eveniet repudiandae velit ut et ullam sint.&quot;,
+                &quot;Maxime suscipit voluptatem error harum et ullam aut.&quot;,
+                &quot;Provident voluptas at ratione autem qui autem.&quot;
+            ],
+            &quot;sectorId&quot;: 150,
+            &quot;extra&quot;: &quot;Ea veritatis molestiae rerum sed est assumenda. Repellat quasi nisi possimus nam voluptatem qui facere. Fugit eos itaque dolores est soluta illo alias. Enim rerum qui et culpa odio voluptate rerum et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;78&quot;,
+            &quot;title&quot;: &quot;Brake Machine Setter Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Brake%20Machine%20Setter%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aspernatur cumque dolorem est neque. Quisquam quod voluptates molestiae perferendis non dignissimos. Temporibus eum minus et eligendi esse repudiandae soluta. Est repudiandae minima amet rem cumque voluptas ab doloremque.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 13,
+            &quot;programId&quot;: 26,
+            &quot;tags&quot;: [
+                &quot;accusamus&quot;,
+                &quot;pariatur&quot;,
+                &quot;sed&quot;
+            ],
+            &quot;duration&quot;: 157,
+            &quot;expiryDate&quot;: &quot;2025-09-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sit quos aut dolores sit ex itaque. Repellendus qui omnis rerum perferendis deleniti. Reiciendis cupiditate omnis occaecati nulla ut autem ab. Alias aut ut eos dolores in.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;In iste tempore ipsa nesciunt modi accusantium ut.&quot;,
+                &quot;Hic dolorem enim maxime eum.&quot;,
+                &quot;Sint pariatur accusamus quia vel.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;A dolor vitae nihil asperiores tempore expedita error enim.&quot;,
+                &quot;Aut facilis nesciunt explicabo magnam.&quot;,
+                &quot;Non aliquid vel ratione perspiciatis quia qui odio.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 115,
+            &quot;latitude&quot;: &quot;12.82820100&quot;,
+            &quot;longitude&quot;: &quot;93.16036300&quot;,
+            &quot;locationDescription&quot;: &quot;6417 Willms Highway Suite 848\nEast Jamilview, GA 77654-4335&quot;,
+            &quot;benefits&quot;: [
+                &quot;Labore quia qui illo.&quot;,
+                &quot;Nobis et expedita inventore ratione eveniet neque tenetur.&quot;,
+                &quot;Rem voluptatem corrupti earum praesentium quos.&quot;
+            ],
+            &quot;sectorId&quot;: 149,
+            &quot;extra&quot;: &quot;Ut fugit iusto consequatur doloremque blanditiis. Totam velit est et. Eaque sunt veritatis sunt neque iusto. Eum et eum est quidem laborum. Provident facilis veniam quo non.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;77&quot;,
+            &quot;title&quot;: &quot;Mental Health Counselor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Mental%20Health%20Counselor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Fuga aut quis distinctio sed natus enim delectus. Esse harum sequi voluptas natus. Tempora temporibus velit rem qui ducimus eos. Dicta amet rerum odit id rem. Consequatur modi ullam magnam nemo rerum unde autem.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 13,
+            &quot;programId&quot;: 26,
+            &quot;tags&quot;: [
+                &quot;similique&quot;,
+                &quot;sunt&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 117,
+            &quot;expiryDate&quot;: &quot;2026-03-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Error nobis quae id voluptatibus. Pariatur et est ut iure quam voluptatem molestiae quo. Quasi ea id sed minus inventore hic. Voluptas aliquam eos ullam mollitia incidunt dolores.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Deleniti in et rem ipsum natus debitis.&quot;,
+                &quot;Sapiente beatae adipisci sed.&quot;,
+                &quot;Vero est sit provident veniam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Eum ipsum sed porro.&quot;,
+                &quot;Animi rerum dolorem quos ut sit sint eum quidem.&quot;,
+                &quot;Error veniam nostrum expedita molestiae repellendus est et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 114,
+            &quot;latitude&quot;: &quot;29.67404700&quot;,
+            &quot;longitude&quot;: &quot;64.26995700&quot;,
+            &quot;locationDescription&quot;: &quot;8762 Heathcote Forges\nSchillerview, HI 38918&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatem odio omnis qui quia.&quot;,
+                &quot;Cum enim necessitatibus minus earum dolorem.&quot;,
+                &quot;Quia sit unde nemo veritatis maxime tenetur ea.&quot;
+            ],
+            &quot;sectorId&quot;: 148,
+            &quot;extra&quot;: &quot;Repellat iure quis numquam dolorem voluptate alias. Mollitia est possimus nisi nisi. Aut perferendis qui quaerat. Sapiente assumenda velit ut doloribus omnis eum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;76&quot;,
+            &quot;title&quot;: &quot;Chiropractor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chiropractor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Beatae quisquam beatae et possimus. Quam corrupti temporibus quibusdam aliquid et. Inventore quia sint id neque in porro aperiam. Sed dicta velit libero et.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 13,
+            &quot;programId&quot;: 26,
+            &quot;tags&quot;: [
+                &quot;odit&quot;,
+                &quot;recusandae&quot;,
+                &quot;eos&quot;
+            ],
+            &quot;duration&quot;: 274,
+            &quot;expiryDate&quot;: &quot;2025-10-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Magnam earum harum dolorem optio repellat a. Ut saepe dicta doloribus quasi ut qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sit libero quam sunt sint voluptas laudantium.&quot;,
+                &quot;Delectus aliquid adipisci assumenda non qui et.&quot;,
+                &quot;Nisi non placeat ipsam voluptas.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quis molestias corrupti rerum labore.&quot;,
+                &quot;Ipsa fuga nobis veniam voluptas sit natus atque.&quot;,
+                &quot;Neque enim rerum voluptate qui nihil a et neque.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 113,
+            &quot;latitude&quot;: &quot;-59.01153600&quot;,
+            &quot;longitude&quot;: &quot;158.77998900&quot;,
+            &quot;locationDescription&quot;: &quot;12743 Ferry Vista Suite 938\nEast Nico, NV 27582&quot;,
+            &quot;benefits&quot;: [
+                &quot;Hic dolor consequatur molestiae ut.&quot;,
+                &quot;Et dolor doloribus tenetur repellat iste quidem nam pariatur.&quot;,
+                &quot;Ratione quidem quos modi est quis.&quot;
+            ],
+            &quot;sectorId&quot;: 147,
+            &quot;extra&quot;: &quot;Non aliquid sed quo excepturi id eum sit. Provident reprehenderit corrupti omnis et molestiae.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;75&quot;,
+            &quot;title&quot;: &quot;Transit Police OR Railroad Police Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Transit%20Police%20OR%20Railroad%20Police%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Deleniti explicabo molestias dolorem et odit est. Distinctio illo natus eum sint.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 13,
+            &quot;programId&quot;: 25,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;similique&quot;,
+                &quot;sit&quot;
+            ],
+            &quot;duration&quot;: 301,
+            &quot;expiryDate&quot;: &quot;2026-01-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eligendi cum quae hic iure assumenda quibusdam quos fugit. Esse consequatur quia totam consequatur cum neque voluptas. Animi corporis in consequatur dolorem atque ipsam. Totam qui reiciendis totam nostrum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Unde et aliquid quibusdam architecto eveniet non.&quot;,
+                &quot;Qui doloribus voluptas repellat inventore.&quot;,
+                &quot;In ipsa provident et asperiores eveniet quisquam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Accusamus alias temporibus sed quaerat necessitatibus sit voluptas.&quot;,
+                &quot;Qui et maiores eum est impedit dolores.&quot;,
+                &quot;Ullam distinctio autem numquam aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 112,
+            &quot;latitude&quot;: &quot;-57.69105700&quot;,
+            &quot;longitude&quot;: &quot;-101.95324200&quot;,
+            &quot;locationDescription&quot;: &quot;26559 Gislason Corners Apt. 467\nWest Lailachester, MO 72495&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nostrum ut assumenda et deserunt quis et.&quot;,
+                &quot;Id suscipit quas iure et debitis repudiandae eveniet.&quot;,
+                &quot;Qui dignissimos harum atque.&quot;
+            ],
+            &quot;sectorId&quot;: 146,
+            &quot;extra&quot;: &quot;Temporibus eos voluptas omnis voluptas beatae adipisci ut. Enim ipsam quam sapiente earum optio itaque dicta. Quis iste ut ea aliquid eveniet qui.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;74&quot;,
+            &quot;title&quot;: &quot;Railroad Inspector Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Railroad%20Inspector%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consectetur nihil sunt velit suscipit tenetur ab sed quibusdam. Explicabo perspiciatis sequi est doloribus. Quas commodi amet voluptas sunt ipsum quae earum sequi. Et reprehenderit possimus eius et vitae itaque non necessitatibus. Corrupti cumque ea neque earum.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 13,
+            &quot;programId&quot;: 25,
+            &quot;tags&quot;: [
+                &quot;molestiae&quot;,
+                &quot;ab&quot;,
+                &quot;ut&quot;
+            ],
+            &quot;duration&quot;: 356,
+            &quot;expiryDate&quot;: &quot;2026-03-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Porro consectetur incidunt incidunt culpa perferendis. Libero sapiente quia ut corporis. Voluptatem sit ut ut illum est qui. Maxime dolore explicabo minima quisquam. Blanditiis voluptatem ea iure et soluta consectetur.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Enim omnis repellendus ex consequuntur aliquid qui quia voluptatem.&quot;,
+                &quot;Animi tempore voluptatem minima ea qui eaque.&quot;,
+                &quot;Officia rerum aspernatur et ipsum eligendi quis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Eum doloribus magni praesentium ipsa dolores.&quot;,
+                &quot;Tempore in quae voluptas consequuntur ut.&quot;,
+                &quot;Commodi nobis dolor velit tempora in.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 111,
+            &quot;latitude&quot;: &quot;71.55280400&quot;,
+            &quot;longitude&quot;: &quot;-70.09596300&quot;,
+            &quot;locationDescription&quot;: &quot;2470 Myrtie Neck\nSouth Rosehaven, DE 35899-2763&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sed voluptas aliquid accusamus ut.&quot;,
+                &quot;Et aut perspiciatis molestiae natus.&quot;,
+                &quot;Quia ducimus sit beatae non.&quot;
+            ],
+            &quot;sectorId&quot;: 145,
+            &quot;extra&quot;: &quot;Incidunt eveniet voluptas consequuntur pariatur. Ducimus quasi dolorem molestiae sunt totam voluptatem quaerat. Dignissimos provident quos unde et perferendis sunt sequi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;73&quot;,
+            &quot;title&quot;: &quot;Title Examiner Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Title%20Examiner%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est eaque autem perferendis voluptates ab. Et modi quam et molestias aliquid. Quidem beatae porro perferendis cumque.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 13,
+            &quot;programId&quot;: 25,
+            &quot;tags&quot;: [
+                &quot;quibusdam&quot;,
+                &quot;modi&quot;,
+                &quot;sit&quot;
+            ],
+            &quot;duration&quot;: 92,
+            &quot;expiryDate&quot;: &quot;2025-09-25T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Excepturi numquam non ullam unde neque. Porro quia ipsum veritatis corporis veniam ea. In aut dolore sint voluptatem at.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolore est eius earum est magnam.&quot;,
+                &quot;Nemo accusamus doloribus ea voluptate suscipit laboriosam corporis.&quot;,
+                &quot;Et ullam molestias dolore minus occaecati.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Est eaque odio consequatur debitis quo quasi reiciendis perspiciatis.&quot;,
+                &quot;Dolorum ut aspernatur quaerat.&quot;,
+                &quot;Vel dolores facere incidunt autem et vel sit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 110,
+            &quot;latitude&quot;: &quot;28.47768200&quot;,
+            &quot;longitude&quot;: &quot;90.90319800&quot;,
+            &quot;locationDescription&quot;: &quot;65734 Andrew Ways Apt. 470\nEast Aric, MO 65597-4944&quot;,
+            &quot;benefits&quot;: [
+                &quot;Tenetur labore quas ea illum est similique.&quot;,
+                &quot;Officia odio et rerum ut earum.&quot;,
+                &quot;Labore et dolores maxime sequi pariatur magnam.&quot;
+            ],
+            &quot;sectorId&quot;: 144,
+            &quot;extra&quot;: &quot;Nostrum deserunt molestias quo. Autem impedit sunt rerum dolorem unde dolorum. Maiores soluta at voluptas non necessitatibus. Voluptate laborum architecto repellendus dolor est.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;72&quot;,
+            &quot;title&quot;: &quot;Janitor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Janitor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Omnis dolores enim dolorum voluptas quae et fuga. Voluptatem porro laborum consequatur nesciunt.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 12,
+            &quot;programId&quot;: 24,
+            &quot;tags&quot;: [
+                &quot;consectetur&quot;,
+                &quot;porro&quot;,
+                &quot;ducimus&quot;
+            ],
+            &quot;duration&quot;: 228,
+            &quot;expiryDate&quot;: &quot;2026-02-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Odio commodi ducimus excepturi nihil. Incidunt delectus cum dignissimos. Magnam hic earum omnis quaerat debitis quisquam quo. Modi ut praesentium quia minima omnis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quae consectetur nihil voluptatem doloremque culpa sequi aliquam.&quot;,
+                &quot;Et cum perferendis omnis.&quot;,
+                &quot;Voluptatum repellat quidem aut laboriosam assumenda.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sed est quaerat debitis officia aliquam.&quot;,
+                &quot;Fugit corrupti officia dolorem.&quot;,
+                &quot;Itaque magni tenetur autem dolorem qui accusantium sit rerum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 109,
+            &quot;latitude&quot;: &quot;56.02098300&quot;,
+            &quot;longitude&quot;: &quot;66.65811900&quot;,
+            &quot;locationDescription&quot;: &quot;2671 Jaclyn Knoll Suite 394\nLake Mireille, WA 65845&quot;,
+            &quot;benefits&quot;: [
+                &quot;Rem voluptatem et eligendi dolores maiores dignissimos.&quot;,
+                &quot;Ex adipisci dolorum molestiae.&quot;,
+                &quot;Architecto laborum magni quibusdam dolorem ducimus.&quot;
+            ],
+            &quot;sectorId&quot;: 143,
+            &quot;extra&quot;: &quot;Labore voluptas et nisi nihil distinctio. Voluptatum deleniti adipisci modi voluptates nam dolores qui id. Consequuntur ut distinctio minima fuga dolorem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;71&quot;,
+            &quot;title&quot;: &quot;Obstetrician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Obstetrician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et consectetur autem ducimus et reiciendis eos quae est. Dicta at vero reiciendis amet cupiditate est. Cum ut autem repudiandae eum. Et autem eius quis ex eveniet.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 12,
+            &quot;programId&quot;: 24,
+            &quot;tags&quot;: [
+                &quot;ipsam&quot;,
+                &quot;possimus&quot;,
+                &quot;beatae&quot;
+            ],
+            &quot;duration&quot;: 282,
+            &quot;expiryDate&quot;: &quot;2026-02-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ut autem mollitia reiciendis optio atque rerum possimus. Quia est labore adipisci esse qui. Vel hic libero ea iste ducimus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dicta doloribus facere quibusdam ab dolorem.&quot;,
+                &quot;Quae omnis vel molestiae architecto omnis.&quot;,
+                &quot;Similique eaque totam sed sit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sed molestias consequatur amet aut reiciendis est.&quot;,
+                &quot;Et ex suscipit non maiores iste.&quot;,
+                &quot;Et nostrum amet rerum sit iusto.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 108,
+            &quot;latitude&quot;: &quot;-31.40157400&quot;,
+            &quot;longitude&quot;: &quot;111.95871300&quot;,
+            &quot;locationDescription&quot;: &quot;829 Myrl Square\nWymanbury, NY 22058-7781&quot;,
+            &quot;benefits&quot;: [
+                &quot;Molestias assumenda voluptatibus et tempore.&quot;,
+                &quot;Est accusantium ut unde.&quot;,
+                &quot;Est est ex praesentium.&quot;
+            ],
+            &quot;sectorId&quot;: 142,
+            &quot;extra&quot;: &quot;Nulla et temporibus hic mollitia voluptas. Veniam facere totam quia quam. Velit rerum nesciunt natus ut perspiciatis ea. Vitae aspernatur aperiam quia.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;70&quot;,
+            &quot;title&quot;: &quot;Educational Counselor OR Vocationall Counselor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Educational%20Counselor%20OR%20Vocationall%20Counselor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eaque aut enim sit eligendi. Non suscipit ut voluptatum alias. Ullam aspernatur saepe est delectus.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 12,
+            &quot;programId&quot;: 24,
+            &quot;tags&quot;: [
+                &quot;dicta&quot;,
+                &quot;saepe&quot;,
+                &quot;odio&quot;
+            ],
+            &quot;duration&quot;: 230,
+            &quot;expiryDate&quot;: &quot;2025-10-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nihil eius qui adipisci voluptates occaecati dignissimos aut. Earum quis tempora id laudantium nesciunt et sit. Nihil earum culpa porro incidunt voluptates qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quasi sapiente blanditiis eos nostrum.&quot;,
+                &quot;Sit doloremque sapiente aut nihil.&quot;,
+                &quot;Sunt necessitatibus et soluta velit enim omnis voluptatem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Tempore libero rerum nulla harum ex.&quot;,
+                &quot;Ut ipsam cumque autem nostrum.&quot;,
+                &quot;Voluptatem sequi molestias dicta qui nemo.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 107,
+            &quot;latitude&quot;: &quot;-42.31957100&quot;,
+            &quot;longitude&quot;: &quot;41.11550400&quot;,
+            &quot;locationDescription&quot;: &quot;7182 Prohaska Inlet Suite 014\nNew Jermain, SD 22928-3887&quot;,
+            &quot;benefits&quot;: [
+                &quot;Necessitatibus corporis aliquam corrupti sit et dolores nihil.&quot;,
+                &quot;Aut blanditiis ipsa corrupti nam dolor ut.&quot;,
+                &quot;Fugit ullam pariatur similique id sapiente voluptas deleniti ut.&quot;
+            ],
+            &quot;sectorId&quot;: 141,
+            &quot;extra&quot;: &quot;Deserunt sit minus sunt. Corporis possimus quod quibusdam impedit quidem iure. Architecto voluptatibus totam fugiat sapiente et sapiente vitae esse.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;69&quot;,
+            &quot;title&quot;: &quot;Healthcare Practitioner Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Healthcare%20Practitioner%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et fugit dignissimos omnis debitis. Consectetur quo adipisci quia odio ut. Tenetur et eos sed est necessitatibus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 12,
+            &quot;programId&quot;: 23,
+            &quot;tags&quot;: [
+                &quot;odit&quot;,
+                &quot;ab&quot;,
+                &quot;repudiandae&quot;
+            ],
+            &quot;duration&quot;: 136,
+            &quot;expiryDate&quot;: &quot;2026-03-10T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Nam suscipit modi laborum ipsum qui aliquid perferendis. Laborum libero repellendus et omnis exercitationem eveniet. Voluptatibus asperiores sint vel qui et non. Pariatur dolorum totam nihil soluta aut corporis quis culpa.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Corrupti consectetur est libero voluptas quis.&quot;,
+                &quot;Voluptatibus laborum incidunt animi blanditiis quo ut.&quot;,
+                &quot;Ut qui beatae alias molestiae accusantium.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Animi cumque voluptatem quia voluptas et laudantium ut.&quot;,
+                &quot;Tempora deleniti optio et est odio harum possimus consequuntur.&quot;,
+                &quot;Exercitationem pariatur dignissimos placeat reiciendis eius itaque recusandae.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 106,
+            &quot;latitude&quot;: &quot;-76.24538000&quot;,
+            &quot;longitude&quot;: &quot;-1.62758200&quot;,
+            &quot;locationDescription&quot;: &quot;20057 Konopelski Ports\nSilaston, AK 57442-3113&quot;,
+            &quot;benefits&quot;: [
+                &quot;Est excepturi qui assumenda reprehenderit et ratione fuga sed.&quot;,
+                &quot;Sed beatae cum fugiat cupiditate vel.&quot;,
+                &quot;Fugiat minus non sint commodi veniam.&quot;
+            ],
+            &quot;sectorId&quot;: 140,
+            &quot;extra&quot;: &quot;Omnis voluptatem expedita id qui. Quia sed inventore ducimus at nobis asperiores non. Voluptatum sunt est in voluptatum tenetur suscipit illo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;68&quot;,
+            &quot;title&quot;: &quot;Exhibit Designer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Exhibit%20Designer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Excepturi molestias consequatur aut neque. Quo at laudantium possimus aperiam id aspernatur et qui.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 12,
+            &quot;programId&quot;: 23,
+            &quot;tags&quot;: [
+                &quot;aperiam&quot;,
+                &quot;necessitatibus&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 297,
+            &quot;expiryDate&quot;: &quot;2025-11-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolorem in omnis est. Temporibus eum ratione distinctio atque. Natus non sint saepe quisquam praesentium tenetur. Officia deserunt sed veritatis alias est eligendi.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolorum molestiae eos sunt et qui.&quot;,
+                &quot;Suscipit dolor sint qui qui alias porro.&quot;,
+                &quot;Maxime nesciunt laudantium voluptas et accusantium corrupti.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Minima animi sapiente beatae maiores ratione.&quot;,
+                &quot;Dignissimos nihil corrupti nam quia occaecati nulla.&quot;,
+                &quot;Neque ratione aspernatur quisquam et molestiae sed.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 105,
+            &quot;latitude&quot;: &quot;-6.79337000&quot;,
+            &quot;longitude&quot;: &quot;118.65387100&quot;,
+            &quot;locationDescription&quot;: &quot;792 Logan Throughway Suite 066\nBergeberg, CA 58086-1228&quot;,
+            &quot;benefits&quot;: [
+                &quot;Impedit quis a quia neque.&quot;,
+                &quot;Cum fuga debitis consectetur eos.&quot;,
+                &quot;Nihil qui voluptates minus similique voluptatem a.&quot;
+            ],
+            &quot;sectorId&quot;: 139,
+            &quot;extra&quot;: &quot;Qui ea et error quas accusamus. Accusamus alias debitis voluptatem. Perspiciatis vitae placeat nam veritatis. Odit rerum in ipsa autem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;67&quot;,
+            &quot;title&quot;: &quot;Compacting Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Compacting%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Cupiditate suscipit quo fugit id necessitatibus. Dolorem earum aut totam tenetur. Aut suscipit dolore suscipit aliquam iure nobis. Accusantium minima quis eligendi. Non ipsum et dolores ut dignissimos.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 12,
+            &quot;programId&quot;: 23,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;excepturi&quot;,
+                &quot;debitis&quot;
+            ],
+            &quot;duration&quot;: 157,
+            &quot;expiryDate&quot;: &quot;2025-10-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Quia fugiat eum et adipisci vel. Et id odit dolores est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Autem doloribus cum eum veritatis sapiente.&quot;,
+                &quot;Sunt quibusdam eveniet eos eaque voluptate.&quot;,
+                &quot;Consectetur deserunt aliquam quia doloremque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Nam rem perspiciatis adipisci voluptatibus id doloribus fugiat.&quot;,
+                &quot;Voluptate voluptate ut voluptas iste occaecati fugiat.&quot;,
+                &quot;Id quia consequuntur dolorem sint placeat explicabo.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 104,
+            &quot;latitude&quot;: &quot;-68.60283000&quot;,
+            &quot;longitude&quot;: &quot;-76.21925700&quot;,
+            &quot;locationDescription&quot;: &quot;353 Lavina Spur\nDuBuquebury, ID 08981&quot;,
+            &quot;benefits&quot;: [
+                &quot;Molestias voluptatem similique est accusamus qui dolorem non.&quot;,
+                &quot;Eum dolore ducimus repellat enim autem officia.&quot;,
+                &quot;Exercitationem voluptatibus asperiores debitis et nobis quis natus necessitatibus.&quot;
+            ],
+            &quot;sectorId&quot;: 138,
+            &quot;extra&quot;: &quot;Temporibus vitae maxime qui molestias accusantium. Quia quis rerum mollitia laudantium. Est maxime aspernatur corrupti illum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;66&quot;,
+            &quot;title&quot;: &quot;Emergency Medical Technician and Paramedic Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Emergency%20Medical%20Technician%20and%20Paramedic%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dignissimos ex asperiores aliquam ut voluptatem praesentium aperiam. Qui debitis excepturi numquam voluptatum eum.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 11,
+            &quot;programId&quot;: 22,
+            &quot;tags&quot;: [
+                &quot;et&quot;,
+                &quot;saepe&quot;,
+                &quot;repellat&quot;
+            ],
+            &quot;duration&quot;: 235,
+            &quot;expiryDate&quot;: &quot;2025-10-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Est vitae rerum nostrum. Sed rerum nihil inventore beatae. Totam est minima vel numquam magnam. Odio iure cupiditate distinctio rerum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Voluptas rerum eos et nisi maxime aut.&quot;,
+                &quot;Quod qui consequuntur ea quis placeat.&quot;,
+                &quot;Facilis sapiente placeat magni aut dolorem voluptatem perspiciatis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Neque fugit voluptatem enim.&quot;,
+                &quot;Accusamus est illo nulla deserunt autem.&quot;,
+                &quot;Cupiditate et minima ut aut ipsa.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 103,
+            &quot;latitude&quot;: &quot;47.86154500&quot;,
+            &quot;longitude&quot;: &quot;142.78182000&quot;,
+            &quot;locationDescription&quot;: &quot;28314 Moore Ports Suite 614\nFaheytown, IA 73470&quot;,
+            &quot;benefits&quot;: [
+                &quot;Odio ut et doloremque nisi consectetur voluptas esse.&quot;,
+                &quot;Maiores voluptatem tenetur fuga est dolorum.&quot;,
+                &quot;Vero ipsa voluptatem saepe quod.&quot;
+            ],
+            &quot;sectorId&quot;: 137,
+            &quot;extra&quot;: &quot;Ut eius totam et dolorem et ullam doloribus. Perspiciatis sint et ipsa qui. Incidunt eligendi quis nesciunt hic. Praesentium et sit repellendus molestias sed hic enim.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;65&quot;,
+            &quot;title&quot;: &quot;Computer Repairer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Computer%20Repairer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Omnis est nobis omnis quae. Necessitatibus eos perferendis qui occaecati aut vitae ex. Quas omnis eius voluptatibus in blanditiis quia. Quam voluptatibus minus aspernatur earum consequuntur suscipit ea.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 11,
+            &quot;programId&quot;: 22,
+            &quot;tags&quot;: [
+                &quot;aliquid&quot;,
+                &quot;cupiditate&quot;,
+                &quot;non&quot;
+            ],
+            &quot;duration&quot;: 75,
+            &quot;expiryDate&quot;: &quot;2026-01-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et placeat omnis cum corporis. Accusantium voluptate rem quia ea. Aut officia deleniti eveniet explicabo natus illo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Architecto ipsum veritatis blanditiis.&quot;,
+                &quot;Accusamus veniam earum hic maxime nobis.&quot;,
+                &quot;Ea quidem in doloribus dicta voluptates.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut sunt est quasi rerum repellat nihil ratione sit.&quot;,
+                &quot;Quo et laborum corrupti qui ipsum vitae.&quot;,
+                &quot;Animi dolor dolorem pariatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 102,
+            &quot;latitude&quot;: &quot;25.09630900&quot;,
+            &quot;longitude&quot;: &quot;-77.60476700&quot;,
+            &quot;locationDescription&quot;: &quot;56577 Hauck Estate Suite 604\nPort Harold, FL 26393&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aut accusamus explicabo in beatae veritatis consequatur non.&quot;,
+                &quot;Incidunt occaecati nisi voluptatem.&quot;,
+                &quot;Optio omnis nihil eos dolores quisquam.&quot;
+            ],
+            &quot;sectorId&quot;: 136,
+            &quot;extra&quot;: &quot;Praesentium expedita impedit nostrum atque ut. Et unde consectetur odio id vero repudiandae optio. Nihil omnis sed consequatur eius consequatur. Voluptatibus maiores temporibus est aut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;64&quot;,
+            &quot;title&quot;: &quot;Dietetic Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dietetic%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptates autem distinctio officia delectus non inventore voluptatem. Accusamus sit eaque nisi et veritatis doloremque dolores.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 11,
+            &quot;programId&quot;: 22,
+            &quot;tags&quot;: [
+                &quot;sit&quot;,
+                &quot;provident&quot;,
+                &quot;similique&quot;
+            ],
+            &quot;duration&quot;: 363,
+            &quot;expiryDate&quot;: &quot;2026-01-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sit sunt rerum quasi repellat. Facilis possimus enim libero quos eos. Ex dolor nihil laboriosam tenetur ducimus dolores. Maxime deserunt ratione aut laborum eaque. Incidunt rem iusto minus voluptatibus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Optio eos quam voluptate rerum est.&quot;,
+                &quot;Commodi eligendi excepturi quia corrupti numquam quo numquam rem.&quot;,
+                &quot;Molestiae consequatur inventore minus vel.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptate ipsum aliquam illo placeat expedita quis cum.&quot;,
+                &quot;Qui quidem ut voluptatibus qui aut enim.&quot;,
+                &quot;Eveniet itaque quasi voluptas vero nulla.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 101,
+            &quot;latitude&quot;: &quot;-44.71818900&quot;,
+            &quot;longitude&quot;: &quot;-133.48187200&quot;,
+            &quot;locationDescription&quot;: &quot;5833 Medhurst Canyon Apt. 178\nWest Breannabury, AZ 24319-9827&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ea id quia quis fugiat quibusdam quae.&quot;,
+                &quot;Dolores magni esse est itaque eos beatae.&quot;,
+                &quot;Et in et autem qui dolor consequuntur laboriosam.&quot;
+            ],
+            &quot;sectorId&quot;: 135,
+            &quot;extra&quot;: &quot;Voluptatem exercitationem eveniet delectus sint tempore. Et ut sint ut consequatur ad laborum praesentium. Eius ut natus eos et quibusdam cum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;63&quot;,
+            &quot;title&quot;: &quot;Industrial Engineer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Industrial%20Engineer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dolores doloremque in impedit ratione est eius sit nihil. Eveniet illum et culpa voluptatem temporibus ea at. Maiores architecto ipsum magnam velit molestiae quaerat impedit nesciunt. Animi dolorem velit in omnis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 11,
+            &quot;programId&quot;: 21,
+            &quot;tags&quot;: [
+                &quot;dolor&quot;,
+                &quot;et&quot;,
+                &quot;occaecati&quot;
+            ],
+            &quot;duration&quot;: 152,
+            &quot;expiryDate&quot;: &quot;2025-12-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aperiam quaerat id maxime optio tempore repudiandae adipisci iusto. Vitae iste similique dolores ad eveniet dolore velit. Doloribus omnis est velit molestiae deleniti sit saepe omnis. Harum nihil fugiat dolor perferendis qui. Accusantium voluptates eos quo facilis cumque perspiciatis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quisquam veniam dolor impedit sapiente iusto quia.&quot;,
+                &quot;Et fugiat non rerum id et magni.&quot;,
+                &quot;Omnis deserunt ducimus voluptatum similique.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatem et molestiae architecto accusamus porro sit quo.&quot;,
+                &quot;Recusandae aperiam quisquam omnis soluta enim at.&quot;,
+                &quot;Molestias suscipit nobis consequatur omnis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 100,
+            &quot;latitude&quot;: &quot;0.12957500&quot;,
+            &quot;longitude&quot;: &quot;141.90154800&quot;,
+            &quot;locationDescription&quot;: &quot;993 Janiya Meadows\nSouth Garfieldchester, GA 71555-1759&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ea ea ut alias officia illum.&quot;,
+                &quot;Molestiae nesciunt cupiditate eum id neque.&quot;,
+                &quot;Qui dolorem expedita sunt dolor ut ipsam.&quot;
+            ],
+            &quot;sectorId&quot;: 134,
+            &quot;extra&quot;: &quot;Aut consequatur debitis quidem veritatis. Perferendis sed ut iure dolorum delectus atque voluptatem nostrum. Tempora laborum deserunt quasi quia officia. Et iusto facere qui cum nihil repudiandae est.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;62&quot;,
+            &quot;title&quot;: &quot;Geological Data Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Geological%20Data%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Maxime quis in est sed et ipsam. Quae vitae sint harum necessitatibus deserunt.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 11,
+            &quot;programId&quot;: 21,
+            &quot;tags&quot;: [
+                &quot;dicta&quot;,
+                &quot;vitae&quot;,
+                &quot;autem&quot;
+            ],
+            &quot;duration&quot;: 209,
+            &quot;expiryDate&quot;: &quot;2026-01-17T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Exercitationem fugit dolores dicta laudantium. Minima ut nostrum earum reprehenderit consequatur nulla aut repellendus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sit ut dignissimos in delectus.&quot;,
+                &quot;Ipsa quis fugit voluptas quam rerum minus sit.&quot;,
+                &quot;Porro fuga non pariatur omnis dicta blanditiis sit commodi.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Debitis natus consequatur illum occaecati.&quot;,
+                &quot;Vero voluptas sit ut enim aut aut.&quot;,
+                &quot;Aliquam necessitatibus et modi id in hic.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 99,
+            &quot;latitude&quot;: &quot;-0.54577900&quot;,
+            &quot;longitude&quot;: &quot;80.47367400&quot;,
+            &quot;locationDescription&quot;: &quot;6927 Reyna Groves\nNorth Josiahton, NC 45111&quot;,
+            &quot;benefits&quot;: [
+                &quot;Veritatis quia ut minima voluptatibus quia sunt.&quot;,
+                &quot;Sed ut deleniti et deleniti.&quot;,
+                &quot;Sed aliquam delectus vero nam dignissimos.&quot;
+            ],
+            &quot;sectorId&quot;: 133,
+            &quot;extra&quot;: &quot;Sit corrupti beatae tenetur. Numquam eveniet optio in delectus officiis eum hic. Similique nam maiores omnis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;61&quot;,
+            &quot;title&quot;: &quot;Outdoor Power Equipment Mechanic Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Outdoor%20Power%20Equipment%20Mechanic%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aut placeat eligendi dolores rem. Omnis aliquam deserunt quaerat natus magnam assumenda. Maxime minima aut quis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 11,
+            &quot;programId&quot;: 21,
+            &quot;tags&quot;: [
+                &quot;laboriosam&quot;,
+                &quot;sed&quot;,
+                &quot;saepe&quot;
+            ],
+            &quot;duration&quot;: 245,
+            &quot;expiryDate&quot;: &quot;2025-12-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatem id architecto non dolores labore adipisci. Itaque delectus tempore sint et in. Quos dicta atque minus enim ipsam. Minus nesciunt sunt impedit.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Exercitationem facilis voluptatum at.&quot;,
+                &quot;Dolores quia in beatae perferendis illum velit aut architecto.&quot;,
+                &quot;Necessitatibus magni dolorem fuga provident ut neque eaque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Accusamus qui placeat hic at repellendus.&quot;,
+                &quot;At eaque et voluptate dolores.&quot;,
+                &quot;Velit voluptas et sequi nulla officiis earum enim.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 98,
+            &quot;latitude&quot;: &quot;-85.84026300&quot;,
+            &quot;longitude&quot;: &quot;44.45197200&quot;,
+            &quot;locationDescription&quot;: &quot;622 Reina Points Apt. 847\nSouth Coltonport, MT 12472&quot;,
+            &quot;benefits&quot;: [
+                &quot;Impedit occaecati et quis aut eos vel.&quot;,
+                &quot;Culpa alias dolores accusamus eum possimus.&quot;,
+                &quot;Ut optio qui quasi voluptas eos quae nostrum.&quot;
+            ],
+            &quot;sectorId&quot;: 132,
+            &quot;extra&quot;: &quot;Doloribus et quidem est omnis natus expedita minima. Exercitationem possimus reiciendis sint molestiae quia. Dolorum et nostrum distinctio laborum et voluptates nam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;60&quot;,
+            &quot;title&quot;: &quot;Traffic Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Traffic%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;A itaque corporis ullam dolorem nam aperiam. Animi est odio expedita. Velit perspiciatis vitae dolor et. Maiores ex dolores nisi velit est atque quo.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 10,
+            &quot;programId&quot;: 20,
+            &quot;tags&quot;: [
+                &quot;velit&quot;,
+                &quot;placeat&quot;,
+                &quot;repellendus&quot;
+            ],
+            &quot;duration&quot;: 278,
+            &quot;expiryDate&quot;: &quot;2025-10-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eius iusto amet blanditiis laboriosam. Ea eum vero omnis accusantium illo at. Asperiores beatae aut molestiae quo voluptatem. Consectetur aut et repellendus impedit voluptas doloribus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Magnam ducimus quis dicta velit ipsum ut dolores doloremque.&quot;,
+                &quot;Dolores fugit aliquid illum autem possimus adipisci tempora laborum.&quot;,
+                &quot;Quia non accusamus reprehenderit odio.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Molestiae qui aliquam et minima.&quot;,
+                &quot;Reprehenderit eum ipsum quia veniam dolores nostrum reprehenderit.&quot;,
+                &quot;Non illum voluptatem dignissimos similique sed optio.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 97,
+            &quot;latitude&quot;: &quot;-12.83734700&quot;,
+            &quot;longitude&quot;: &quot;36.69466900&quot;,
+            &quot;locationDescription&quot;: &quot;129 Queen Forge\nNew Leathaland, MI 47173-0939&quot;,
+            &quot;benefits&quot;: [
+                &quot;Vel esse illo et vero non aliquam rerum soluta.&quot;,
+                &quot;Explicabo nobis error voluptates fugiat voluptas officiis adipisci.&quot;,
+                &quot;Quidem necessitatibus dignissimos dolorem maiores.&quot;
+            ],
+            &quot;sectorId&quot;: 131,
+            &quot;extra&quot;: &quot;Non magnam corporis voluptas eaque laudantium tempora. Qui voluptatem deserunt in nobis molestias velit. Vitae quos ullam in ratione nostrum fugiat. Commodi soluta et vitae magnam et aut doloremque.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;59&quot;,
+            &quot;title&quot;: &quot;Agricultural Sciences Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Agricultural%20Sciences%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est facilis quae hic qui. Quo et numquam labore accusamus est. Quidem nihil quo illum ut enim. Porro est dolorem aut quia similique nam voluptatem.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 10,
+            &quot;programId&quot;: 20,
+            &quot;tags&quot;: [
+                &quot;ut&quot;,
+                &quot;est&quot;,
+                &quot;vel&quot;
+            ],
+            &quot;duration&quot;: 36,
+            &quot;expiryDate&quot;: &quot;2026-02-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Culpa accusamus maiores aut aliquam facilis est iste. Illum voluptate impedit molestiae dignissimos aut. Distinctio quis ut labore doloribus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ad molestias repellendus error est in.&quot;,
+                &quot;Provident aperiam numquam tempore cupiditate.&quot;,
+                &quot;Natus rerum cupiditate qui.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Fugit ullam ut omnis corporis omnis.&quot;,
+                &quot;Id aut inventore possimus adipisci.&quot;,
+                &quot;Harum illum aspernatur odit soluta et sed.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 96,
+            &quot;latitude&quot;: &quot;31.92234000&quot;,
+            &quot;longitude&quot;: &quot;-51.46927900&quot;,
+            &quot;locationDescription&quot;: &quot;106 Domenico Junctions\nEast Shirley, WI 43613&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nemo iure atque molestias consequuntur iusto sapiente illo.&quot;,
+                &quot;Minus eius ea excepturi commodi quaerat.&quot;,
+                &quot;Asperiores accusamus quo ut.&quot;
+            ],
+            &quot;sectorId&quot;: 130,
+            &quot;extra&quot;: &quot;Dolorum minus eligendi et ex maiores. Eveniet aliquid et facere magnam aut aut. A ipsa aut doloribus tenetur. Et tempora ipsum ea enim aperiam explicabo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;58&quot;,
+            &quot;title&quot;: &quot;Benefits Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Benefits%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Rem neque qui pariatur itaque animi odit eum voluptas. Aliquid quo consequatur et explicabo ipsum. Iure dolores iure sint dolorem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 10,
+            &quot;programId&quot;: 20,
+            &quot;tags&quot;: [
+                &quot;voluptatum&quot;,
+                &quot;cupiditate&quot;,
+                &quot;consequatur&quot;
+            ],
+            &quot;duration&quot;: 253,
+            &quot;expiryDate&quot;: &quot;2026-01-06T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Rerum nulla asperiores sit doloribus voluptates quaerat magni enim. Laboriosam nemo mollitia aut earum. Officiis labore debitis cum placeat consectetur similique. Temporibus voluptate voluptas perferendis qui aperiam voluptatem facere.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Deleniti quia molestiae deleniti nam.&quot;,
+                &quot;Quis pariatur vel et cupiditate quam iure voluptatem.&quot;,
+                &quot;Corporis illo quod neque omnis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Minus sint et illum.&quot;,
+                &quot;Consectetur porro nihil cumque itaque aut eius magni.&quot;,
+                &quot;Blanditiis recusandae sint ut ducimus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 95,
+            &quot;latitude&quot;: &quot;-39.81255400&quot;,
+            &quot;longitude&quot;: &quot;145.15090000&quot;,
+            &quot;locationDescription&quot;: &quot;645 Crona Tunnel Suite 601\nPort Jazmynshire, NY 00242-7866&quot;,
+            &quot;benefits&quot;: [
+                &quot;Mollitia aperiam qui voluptatem tempore excepturi.&quot;,
+                &quot;Nobis harum accusantium dignissimos iste dolore distinctio.&quot;,
+                &quot;Reiciendis non accusamus vitae placeat repellat voluptatibus.&quot;
+            ],
+            &quot;sectorId&quot;: 129,
+            &quot;extra&quot;: &quot;Porro ea rerum eos aperiam facilis eum et. Id voluptas nisi enim suscipit. Totam ut ut incidunt asperiores nisi modi temporibus. Distinctio autem ut iure qui architecto a.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;57&quot;,
+            &quot;title&quot;: &quot;Insurance Claims Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Insurance%20Claims%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Rerum deserunt quod aut sit. Eum magni placeat hic provident officia. Quo accusamus ipsa labore hic ea.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 10,
+            &quot;programId&quot;: 19,
+            &quot;tags&quot;: [
+                &quot;molestiae&quot;,
+                &quot;iusto&quot;,
+                &quot;laborum&quot;
+            ],
+            &quot;duration&quot;: 287,
+            &quot;expiryDate&quot;: &quot;2025-10-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Consequatur soluta et qui quia qui accusantium ex dicta. Quidem voluptatem quaerat aliquid saepe. Corrupti officiis sunt iure sapiente qui vel. Cupiditate dolor vel et perspiciatis adipisci.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et earum illo facilis similique.&quot;,
+                &quot;Repellendus id eaque eaque ut.&quot;,
+                &quot;Quas reiciendis in dignissimos fugit quisquam in.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Porro aut modi cum occaecati voluptatem aliquam odit laboriosam.&quot;,
+                &quot;Rerum et vel aspernatur vitae dolorem quas.&quot;,
+                &quot;Ut alias fugiat eius nostrum aliquam est.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 94,
+            &quot;latitude&quot;: &quot;88.08217800&quot;,
+            &quot;longitude&quot;: &quot;-11.32991800&quot;,
+            &quot;locationDescription&quot;: &quot;1740 Reichel Motorway Apt. 043\nHacketttown, CT 16545-9869&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatem voluptatem illo officia et.&quot;,
+                &quot;Enim et maxime aut assumenda soluta qui.&quot;,
+                &quot;Dolores et molestiae cum recusandae enim alias aspernatur.&quot;
+            ],
+            &quot;sectorId&quot;: 128,
+            &quot;extra&quot;: &quot;Enim delectus quas omnis blanditiis suscipit voluptatibus quam. Tempora non veritatis est non occaecati hic. Ipsam non illo est. Nulla ullam ratione dolorum reprehenderit doloribus quia.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;56&quot;,
+            &quot;title&quot;: &quot;Marriage and Family Therapist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Marriage%20and%20Family%20Therapist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quia ut vel quo harum sint recusandae. Aut labore recusandae facilis numquam. Est unde sint perferendis et consequatur. Possimus voluptates sint praesentium.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 10,
+            &quot;programId&quot;: 19,
+            &quot;tags&quot;: [
+                &quot;voluptatem&quot;,
+                &quot;occaecati&quot;,
+                &quot;architecto&quot;
+            ],
+            &quot;duration&quot;: 62,
+            &quot;expiryDate&quot;: &quot;2025-11-20T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Perspiciatis minus repellendus id accusantium dolorum et recusandae. Consequatur ratione quia sed magni tenetur fugiat. Quidem iste sit mollitia eum veritatis in rerum. Consectetur eaque suscipit placeat magnam officia quae et.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Temporibus repellat accusamus aut sint doloremque laboriosam.&quot;,
+                &quot;Nemo ducimus voluptas est praesentium cum repudiandae qui quia.&quot;,
+                &quot;Ullam accusantium necessitatibus est consequatur.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptas est omnis facilis aliquid vero voluptas.&quot;,
+                &quot;Ullam et totam pariatur hic nesciunt.&quot;,
+                &quot;Consectetur magni corporis at est velit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 93,
+            &quot;latitude&quot;: &quot;84.57459300&quot;,
+            &quot;longitude&quot;: &quot;53.93488600&quot;,
+            &quot;locationDescription&quot;: &quot;75724 Bartell Brook Suite 806\nNorth Noe, NE 26631&quot;,
+            &quot;benefits&quot;: [
+                &quot;Facere rerum sunt illo ducimus.&quot;,
+                &quot;Tempore laboriosam vel reiciendis amet.&quot;,
+                &quot;Incidunt recusandae qui est aut odio.&quot;
+            ],
+            &quot;sectorId&quot;: 127,
+            &quot;extra&quot;: &quot;Rem aut et suscipit qui vero qui. Rerum id tempora quo officiis. Aperiam ullam velit doloribus et eos ut quia. Ut nobis quae nostrum adipisci voluptatem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;55&quot;,
+            &quot;title&quot;: &quot;Chemist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Chemist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ab perspiciatis quas assumenda aliquam eaque expedita. Est ex quis consequatur quas qui eaque. Magni tempore dolor enim qui consequatur molestias consequatur.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 10,
+            &quot;programId&quot;: 19,
+            &quot;tags&quot;: [
+                &quot;minus&quot;,
+                &quot;laboriosam&quot;,
+                &quot;at&quot;
+            ],
+            &quot;duration&quot;: 326,
+            &quot;expiryDate&quot;: &quot;2025-10-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Corporis quae aut recusandae. Facere minima non rerum quas aut unde. Dolorem facilis et quo ullam. Voluptatum molestiae cumque autem est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Suscipit nostrum officia assumenda officiis officiis provident.&quot;,
+                &quot;Nesciunt eius nobis non et.&quot;,
+                &quot;Ipsa sunt aut sapiente et recusandae repellendus autem modi.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Suscipit quia voluptas porro eaque.&quot;,
+                &quot;Recusandae eos excepturi ea repellat maiores doloribus.&quot;,
+                &quot;Dolor dolor dolorum aliquam dolorem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 92,
+            &quot;latitude&quot;: &quot;-27.68600800&quot;,
+            &quot;longitude&quot;: &quot;83.84256400&quot;,
+            &quot;locationDescription&quot;: &quot;8527 Hodkiewicz Throughway Apt. 955\nCeasarchester, MN 41775-5369&quot;,
+            &quot;benefits&quot;: [
+                &quot;Consequatur explicabo aut est sit error et recusandae.&quot;,
+                &quot;Et ratione eligendi dicta dolorum est nam eum.&quot;,
+                &quot;Illum facilis voluptatum tenetur doloribus veniam.&quot;
+            ],
+            &quot;sectorId&quot;: 126,
+            &quot;extra&quot;: &quot;Inventore illum molestiae dolore voluptatum vero culpa. Consequatur magnam voluptas provident sit est. Quisquam libero quia voluptatibus voluptates repellat officia. Eum enim ipsum et odio error voluptatem omnis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;54&quot;,
+            &quot;title&quot;: &quot;Home Economics Teacher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Home%20Economics%20Teacher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Officiis quas numquam quia omnis voluptatem ipsum. Quasi consequatur optio voluptas id. Ea qui sit sint. Vel asperiores sint totam adipisci sunt officiis ut laboriosam.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 9,
+            &quot;programId&quot;: 18,
+            &quot;tags&quot;: [
+                &quot;pariatur&quot;,
+                &quot;ratione&quot;,
+                &quot;explicabo&quot;
+            ],
+            &quot;duration&quot;: 296,
+            &quot;expiryDate&quot;: &quot;2025-10-26T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Excepturi unde in maxime veniam qui consequatur. Est a molestiae est autem voluptas iusto quo sed. Voluptatem voluptatem aperiam quia quam. Omnis ad sit ducimus vel nisi ex.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illum est repellendus enim inventore.&quot;,
+                &quot;Molestias aut distinctio nobis excepturi.&quot;,
+                &quot;Distinctio quas enim minima culpa non doloremque similique.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Assumenda voluptas suscipit porro.&quot;,
+                &quot;Nam sunt esse quod laborum quis corrupti expedita.&quot;,
+                &quot;Doloremque enim deleniti corrupti et et deserunt porro ea.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 91,
+            &quot;latitude&quot;: &quot;-83.87365200&quot;,
+            &quot;longitude&quot;: &quot;34.11548000&quot;,
+            &quot;locationDescription&quot;: &quot;9700 Antwon Ridge\nOranside, SD 99937&quot;,
+            &quot;benefits&quot;: [
+                &quot;Est sit aspernatur aut repudiandae quae aliquid.&quot;,
+                &quot;Odio et veritatis fugiat cupiditate quam soluta doloremque.&quot;,
+                &quot;Sequi quia quo explicabo quidem.&quot;
+            ],
+            &quot;sectorId&quot;: 125,
+            &quot;extra&quot;: &quot;Est incidunt ipsam nihil doloribus. Minus numquam sunt nulla. Impedit id quo non aut tempora veniam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;53&quot;,
+            &quot;title&quot;: &quot;Fiber Product Cutting Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Fiber%20Product%20Cutting%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eaque repellat excepturi aut quasi doloremque. Odio qui incidunt consequatur aliquam et recusandae recusandae. Et rem tenetur tempora numquam libero in.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 9,
+            &quot;programId&quot;: 18,
+            &quot;tags&quot;: [
+                &quot;placeat&quot;,
+                &quot;nisi&quot;,
+                &quot;iure&quot;
+            ],
+            &quot;duration&quot;: 201,
+            &quot;expiryDate&quot;: &quot;2025-10-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Minima rerum rem enim sunt. Et consequatur aut est. Fuga aut ea blanditiis earum reprehenderit eum ut amet.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eligendi nihil omnis voluptatem velit saepe aliquid.&quot;,
+                &quot;Expedita et voluptatem ad.&quot;,
+                &quot;Quasi id mollitia aspernatur aut illo.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Eius officia amet consequatur aperiam et eaque rem.&quot;,
+                &quot;Non dolorem dolorem tempora.&quot;,
+                &quot;Doloremque magni iure quas laborum animi.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 90,
+            &quot;latitude&quot;: &quot;54.12354100&quot;,
+            &quot;longitude&quot;: &quot;111.60562800&quot;,
+            &quot;locationDescription&quot;: &quot;74436 Dewayne Ferry\nSouth Elyssa, UT 28597&quot;,
+            &quot;benefits&quot;: [
+                &quot;Consequatur aut quia harum ratione et.&quot;,
+                &quot;Ut sed harum saepe ullam.&quot;,
+                &quot;Vel porro ipsam repellat neque tempora quo.&quot;
+            ],
+            &quot;sectorId&quot;: 124,
+            &quot;extra&quot;: &quot;Assumenda quos repudiandae nihil iusto eos. Dolores nam nihil aut. Officia sapiente eaque expedita qui consequatur omnis sunt. Odio id delectus illum cumque.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;52&quot;,
+            &quot;title&quot;: &quot;Food Service Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Food%20Service%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Distinctio aut fuga laboriosam tempore ipsam est. Et omnis sapiente nulla deleniti ut. Eum et voluptates iusto sit. Quas et molestiae aut magnam fugiat voluptatem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 9,
+            &quot;programId&quot;: 18,
+            &quot;tags&quot;: [
+                &quot;sint&quot;,
+                &quot;odit&quot;,
+                &quot;velit&quot;
+            ],
+            &quot;duration&quot;: 47,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Est et rerum vero illo error sit. Est atque illum eligendi repellat. Consequuntur praesentium animi voluptatem consequuntur modi et. Voluptatibus suscipit commodi nostrum iusto. Et nihil veritatis excepturi temporibus nulla voluptatum aut voluptatum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Consequatur quam ullam qui ut doloribus.&quot;,
+                &quot;Quisquam harum voluptatem non ut sequi.&quot;,
+                &quot;Saepe dolorem sunt sunt.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolorem eum deserunt nostrum velit tenetur.&quot;,
+                &quot;Ut quis quos non soluta consequatur aut velit.&quot;,
+                &quot;Necessitatibus voluptas cupiditate doloremque rerum perferendis sed nihil.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 89,
+            &quot;latitude&quot;: &quot;6.03023000&quot;,
+            &quot;longitude&quot;: &quot;67.59936000&quot;,
+            &quot;locationDescription&quot;: &quot;92812 Douglas Pine\nAntoneburgh, KY 93043-5806&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nam repudiandae aut incidunt dolores.&quot;,
+                &quot;Incidunt maiores magni dolores.&quot;,
+                &quot;Ex rerum vitae debitis totam in.&quot;
+            ],
+            &quot;sectorId&quot;: 123,
+            &quot;extra&quot;: &quot;Nostrum eligendi aut voluptatem quibusdam repellendus et et molestiae. Sit sed voluptatem quod veritatis nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;51&quot;,
+            &quot;title&quot;: &quot;Operations Research Analyst Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Operations%20Research%20Analyst%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aut ut non enim provident. Rem nulla minus dolorum. Totam rerum corporis in magni neque est. Quidem eum alias laborum repudiandae.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 9,
+            &quot;programId&quot;: 17,
+            &quot;tags&quot;: [
+                &quot;rerum&quot;,
+                &quot;velit&quot;,
+                &quot;ratione&quot;
+            ],
+            &quot;duration&quot;: 261,
+            &quot;expiryDate&quot;: &quot;2025-10-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sapiente facere optio reprehenderit velit. Sed repudiandae aliquam quibusdam nam unde exercitationem sequi.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Numquam provident velit harum minus.&quot;,
+                &quot;Nemo qui rerum aut tempora consequuntur reiciendis quaerat et.&quot;,
+                &quot;Beatae laboriosam illo at ut fugiat itaque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Reprehenderit provident alias ut est eos.&quot;,
+                &quot;Expedita optio velit itaque molestiae aut aut dolorem dolor.&quot;,
+                &quot;Veritatis incidunt praesentium dolorem sunt.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 88,
+            &quot;latitude&quot;: &quot;-22.98560400&quot;,
+            &quot;longitude&quot;: &quot;-116.10094400&quot;,
+            &quot;locationDescription&quot;: &quot;3366 Tromp Stravenue\nWest Adelestad, OR 03190-6890&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ut quas omnis ducimus ut autem corporis ut.&quot;,
+                &quot;Reprehenderit accusantium alias est itaque ad nostrum qui.&quot;,
+                &quot;Deserunt aliquid possimus nesciunt est.&quot;
+            ],
+            &quot;sectorId&quot;: 122,
+            &quot;extra&quot;: &quot;Temporibus voluptatem et quaerat occaecati earum qui qui. Nostrum alias natus perspiciatis nisi voluptas error quia voluptas. Officiis vel non veniam sed excepturi error. Est non et voluptas vitae aut pariatur fugiat.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;50&quot;,
+            &quot;title&quot;: &quot;Computer Systems Analyst Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Computer%20Systems%20Analyst%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut quod aut quis eos laudantium. Nesciunt doloribus facilis reprehenderit dolores dolorem expedita. Et deleniti culpa et veniam pariatur esse aut quaerat.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 9,
+            &quot;programId&quot;: 17,
+            &quot;tags&quot;: [
+                &quot;perferendis&quot;,
+                &quot;ut&quot;,
+                &quot;deleniti&quot;
+            ],
+            &quot;duration&quot;: 255,
+            &quot;expiryDate&quot;: &quot;2025-11-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptas dolorem quibusdam eaque dolorem voluptatem sit. A eveniet iure excepturi est. Aut ut expedita possimus nemo est quas eius accusamus. Necessitatibus consequatur est neque est molestiae quod ea.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolorem in laboriosam velit voluptatibus quasi et.&quot;,
+                &quot;Consequuntur iusto dicta voluptatibus non autem iusto praesentium.&quot;,
+                &quot;Qui dolor a sunt qui omnis id.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sed voluptatem quia id consectetur.&quot;,
+                &quot;Iusto laudantium et soluta quasi maiores enim.&quot;,
+                &quot;Et cumque quaerat soluta hic rerum sed.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 87,
+            &quot;latitude&quot;: &quot;-56.78114500&quot;,
+            &quot;longitude&quot;: &quot;67.35858300&quot;,
+            &quot;locationDescription&quot;: &quot;340 Hettinger Mountains Apt. 212\nEast Jennifer, CO 54974&quot;,
+            &quot;benefits&quot;: [
+                &quot;Possimus quis est dolor recusandae.&quot;,
+                &quot;Reprehenderit qui distinctio magni eveniet non dolores.&quot;,
+                &quot;Animi repellat voluptatem provident sed quis corporis est.&quot;
+            ],
+            &quot;sectorId&quot;: 121,
+            &quot;extra&quot;: &quot;Reiciendis culpa velit dolorem eius qui. Ut maiores accusamus quo provident repellendus sit harum commodi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;49&quot;,
+            &quot;title&quot;: &quot;Commercial and Industrial Designer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Commercial%20and%20Industrial%20Designer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consequatur enim dolorum voluptatibus fugiat qui. Explicabo laudantium accusamus odit harum voluptatem consequatur libero. Quasi enim enim nam sunt eius enim. Voluptate sequi beatae inventore consequatur corporis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 9,
+            &quot;programId&quot;: 17,
+            &quot;tags&quot;: [
+                &quot;sit&quot;,
+                &quot;itaque&quot;,
+                &quot;voluptas&quot;
+            ],
+            &quot;duration&quot;: 51,
+            &quot;expiryDate&quot;: &quot;2025-11-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Velit laudantium soluta praesentium porro reiciendis asperiores omnis. Dolores consectetur autem omnis voluptas ut. Quod repellat animi minus ipsa. Vel inventore facilis incidunt quia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Earum fuga culpa suscipit quis omnis.&quot;,
+                &quot;Magni ex eius vel repellat ut.&quot;,
+                &quot;Iure veniam sint impedit neque est et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Hic nemo vel dolores perspiciatis dolor.&quot;,
+                &quot;Veniam autem vero magnam dolorem.&quot;,
+                &quot;Qui maxime totam voluptate nisi et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 86,
+            &quot;latitude&quot;: &quot;-26.86819200&quot;,
+            &quot;longitude&quot;: &quot;-26.49655200&quot;,
+            &quot;locationDescription&quot;: &quot;8182 Angie Common\nPort Aditya, AZ 71675&quot;,
+            &quot;benefits&quot;: [
+                &quot;Modi aut suscipit repudiandae itaque ut.&quot;,
+                &quot;Odit quo beatae est in quis maxime.&quot;,
+                &quot;Cumque exercitationem voluptas culpa aperiam est sequi velit.&quot;
+            ],
+            &quot;sectorId&quot;: 120,
+            &quot;extra&quot;: &quot;Unde praesentium magni asperiores cupiditate. Ut accusantium inventore repudiandae iure. Laudantium inventore sed harum quasi dolorem nulla.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;48&quot;,
+            &quot;title&quot;: &quot;Audio and Video Equipment Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Audio%20and%20Video%20Equipment%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Accusamus recusandae quae omnis rerum suscipit earum tempore. Qui et numquam cupiditate aspernatur et. Incidunt a et accusamus deserunt qui quo.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 8,
+            &quot;programId&quot;: 16,
+            &quot;tags&quot;: [
+                &quot;placeat&quot;,
+                &quot;ducimus&quot;,
+                &quot;magni&quot;
+            ],
+            &quot;duration&quot;: 121,
+            &quot;expiryDate&quot;: &quot;2026-01-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Autem beatae veniam eaque consequatur quaerat cupiditate odit. Assumenda quis rerum fugit libero. Pariatur corporis exercitationem sed. Voluptatibus maiores assumenda tempore voluptatem corrupti ad ipsa. Eius quas veritatis quod et in est hic.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Alias cumque iure optio sunt inventore vel cum.&quot;,
+                &quot;Veritatis suscipit et sed laborum commodi est.&quot;,
+                &quot;Quasi officia pariatur quis eum quam iste necessitatibus vero.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Nam et numquam eligendi sed.&quot;,
+                &quot;Labore non voluptates dolores unde et omnis expedita culpa.&quot;,
+                &quot;Quae distinctio est earum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 85,
+            &quot;latitude&quot;: &quot;17.68551600&quot;,
+            &quot;longitude&quot;: &quot;95.31127200&quot;,
+            &quot;locationDescription&quot;: &quot;48348 Bartell Mills\nNorth Irma, WV 11791&quot;,
+            &quot;benefits&quot;: [
+                &quot;Expedita ducimus temporibus debitis quaerat.&quot;,
+                &quot;Corrupti dolores id earum non.&quot;,
+                &quot;Vitae quo et nemo ea expedita aut.&quot;
+            ],
+            &quot;sectorId&quot;: 119,
+            &quot;extra&quot;: &quot;Quas ea vitae quidem ipsum. Qui excepturi nulla officia qui unde cumque laboriosam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;47&quot;,
+            &quot;title&quot;: &quot;Pipefitter Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Pipefitter%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Iste qui neque omnis est sit id. Sed rerum molestias ab natus voluptas. Libero dolores excepturi quis quos.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 8,
+            &quot;programId&quot;: 16,
+            &quot;tags&quot;: [
+                &quot;fugiat&quot;,
+                &quot;suscipit&quot;,
+                &quot;architecto&quot;
+            ],
+            &quot;duration&quot;: 48,
+            &quot;expiryDate&quot;: &quot;2025-11-01T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Rem consequatur qui qui cupiditate. Omnis nesciunt qui quis ea modi omnis. Possimus voluptas deserunt placeat non explicabo ea.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolores iusto tempora ut nihil consequatur cum maiores sed.&quot;,
+                &quot;Ratione et quam qui hic.&quot;,
+                &quot;At culpa quod consectetur voluptatem atque modi assumenda et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut doloremque sint alias nisi.&quot;,
+                &quot;Quis necessitatibus eligendi aliquid.&quot;,
+                &quot;Velit accusamus hic quisquam at et voluptas.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 84,
+            &quot;latitude&quot;: &quot;1.54194300&quot;,
+            &quot;longitude&quot;: &quot;-38.80886500&quot;,
+            &quot;locationDescription&quot;: &quot;372 Trantow Rapids Apt. 001\nKaraberg, MN 62170&quot;,
+            &quot;benefits&quot;: [
+                &quot;Vitae qui consequatur provident neque totam nihil culpa.&quot;,
+                &quot;Omnis qui iste est quae nulla.&quot;,
+                &quot;Enim architecto qui alias voluptatibus consequuntur a ea.&quot;
+            ],
+            &quot;sectorId&quot;: 118,
+            &quot;extra&quot;: &quot;Voluptas non sit velit qui laudantium. Aperiam mollitia vel dolores necessitatibus sit. Aut voluptates sunt non. Et quia hic rem recusandae.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;46&quot;,
+            &quot;title&quot;: &quot;Movers Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Movers%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Labore aut illo non eum. Quisquam dolor ut rem architecto ab qui. Ad voluptas ipsam est ut nam praesentium nulla. Dolores consequuntur veniam sit error facere rerum. Et beatae provident quo et fuga rerum voluptatem.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 8,
+            &quot;programId&quot;: 16,
+            &quot;tags&quot;: [
+                &quot;voluptas&quot;,
+                &quot;mollitia&quot;,
+                &quot;voluptas&quot;
+            ],
+            &quot;duration&quot;: 177,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et sed qui saepe itaque. Voluptas harum laborum culpa et. Soluta dolores soluta dolorum expedita est. Consequuntur et officiis voluptatem eaque est quasi dolores.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Fugiat est nesciunt voluptatem.&quot;,
+                &quot;Eum tenetur voluptatem doloribus neque sapiente aut aut.&quot;,
+                &quot;Velit nisi ut et ipsam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aut ut harum ut et.&quot;,
+                &quot;Quo ad amet hic aut veniam.&quot;,
+                &quot;Eum a repudiandae quia cupiditate inventore.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 83,
+            &quot;latitude&quot;: &quot;78.39007000&quot;,
+            &quot;longitude&quot;: &quot;-169.61149500&quot;,
+            &quot;locationDescription&quot;: &quot;961 Eichmann Bypass Suite 809\nEast Margotport, UT 48466&quot;,
+            &quot;benefits&quot;: [
+                &quot;Minima soluta itaque qui eos voluptas deleniti magni.&quot;,
+                &quot;Hic nobis aliquam qui dignissimos.&quot;,
+                &quot;Aut iste accusamus consequatur expedita accusantium.&quot;
+            ],
+            &quot;sectorId&quot;: 117,
+            &quot;extra&quot;: &quot;Alias ipsam esse nemo quia molestiae. Magnam ducimus sit tempore accusamus ipsam. Et et et tenetur temporibus delectus assumenda.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;45&quot;,
+            &quot;title&quot;: &quot;User Experience Researcher Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=User%20Experience%20Researcher%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et voluptatem nostrum minus quibusdam expedita ut. Doloribus quaerat exercitationem esse. Ullam qui iure delectus dolorem.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 8,
+            &quot;programId&quot;: 15,
+            &quot;tags&quot;: [
+                &quot;enim&quot;,
+                &quot;aliquam&quot;,
+                &quot;a&quot;
+            ],
+            &quot;duration&quot;: 206,
+            &quot;expiryDate&quot;: &quot;2026-03-05T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;A quos temporibus modi velit fugit. Nobis maiores ullam ut alias ut. Labore et omnis est quaerat iusto. Cum enim tempore rerum blanditiis hic.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Fuga et consequatur cumque quam et.&quot;,
+                &quot;Qui tempore illum dignissimos vitae.&quot;,
+                &quot;Reprehenderit cum minus ut eaque sit itaque quis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Amet cumque hic dolor at.&quot;,
+                &quot;Libero sit pariatur sequi ad voluptatem provident alias.&quot;,
+                &quot;Et esse molestias officiis corporis est quo dolor.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 82,
+            &quot;latitude&quot;: &quot;-83.77680800&quot;,
+            &quot;longitude&quot;: &quot;-1.09573600&quot;,
+            &quot;locationDescription&quot;: &quot;4446 Hand Common\nFatimamouth, NH 27247&quot;,
+            &quot;benefits&quot;: [
+                &quot;Inventore tempora magnam et.&quot;,
+                &quot;Iure dignissimos quas occaecati saepe animi rerum.&quot;,
+                &quot;Quia quibusdam excepturi nemo tenetur consequuntur.&quot;
+            ],
+            &quot;sectorId&quot;: 116,
+            &quot;extra&quot;: &quot;Voluptas rerum error in natus nam minus molestias. Sunt rem qui rerum voluptatem similique distinctio in.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;44&quot;,
+            &quot;title&quot;: &quot;Construction Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Construction%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vel deleniti voluptatum ipsam sed explicabo. Consectetur consequuntur autem eos blanditiis. Quis quibusdam aut est non cum.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 8,
+            &quot;programId&quot;: 15,
+            &quot;tags&quot;: [
+                &quot;unde&quot;,
+                &quot;pariatur&quot;,
+                &quot;praesentium&quot;
+            ],
+            &quot;duration&quot;: 338,
+            &quot;expiryDate&quot;: &quot;2026-01-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Atque aperiam eum rerum. Id similique possimus unde non. Non recusandae inventore consequatur aliquam sapiente neque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et qui molestias labore id veniam quod et.&quot;,
+                &quot;Eos omnis modi quaerat expedita itaque dolores.&quot;,
+                &quot;Repellendus autem iste dolores fugit consequatur.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ipsam magnam et sit eius dolores voluptatum illum.&quot;,
+                &quot;Corrupti repellendus error qui autem recusandae nesciunt magnam.&quot;,
+                &quot;Et illo ipsam est mollitia.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 81,
+            &quot;latitude&quot;: &quot;-42.53971000&quot;,
+            &quot;longitude&quot;: &quot;-73.96272500&quot;,
+            &quot;locationDescription&quot;: &quot;3399 Benedict Ways Apt. 303\nJamisonburgh, WY 92035-0291&quot;,
+            &quot;benefits&quot;: [
+                &quot;Itaque minus autem fuga libero eum vitae.&quot;,
+                &quot;Praesentium qui voluptatibus exercitationem reprehenderit fuga voluptas.&quot;,
+                &quot;Ullam aliquam aliquid blanditiis voluptates labore.&quot;
+            ],
+            &quot;sectorId&quot;: 115,
+            &quot;extra&quot;: &quot;Culpa ratione dolores dolore reprehenderit eum itaque. Sapiente et sed facere debitis est mollitia numquam. Et porro nemo itaque consectetur neque quam. Consequatur itaque rerum ut non.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;43&quot;,
+            &quot;title&quot;: &quot;Coil Winders Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Coil%20Winders%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et facere minus ut qui hic est. Sunt odit dolorem modi dolores quam. Eveniet quaerat sed odit vel aut. A quisquam pariatur omnis ducimus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 8,
+            &quot;programId&quot;: 15,
+            &quot;tags&quot;: [
+                &quot;nisi&quot;,
+                &quot;fuga&quot;,
+                &quot;neque&quot;
+            ],
+            &quot;duration&quot;: 174,
+            &quot;expiryDate&quot;: &quot;2025-12-04T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dicta dignissimos est non. Accusantium enim optio minima inventore earum vel veritatis. Totam perspiciatis animi nostrum consequatur ipsam molestias repellat qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Necessitatibus sit sapiente enim autem asperiores nihil quisquam.&quot;,
+                &quot;Voluptas doloremque sint sit laborum sunt.&quot;,
+                &quot;Placeat quidem tenetur enim veritatis voluptatem aliquam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Est modi quos reiciendis at odio animi accusantium.&quot;,
+                &quot;Debitis delectus quia debitis impedit architecto fuga.&quot;,
+                &quot;Expedita aut nesciunt quis est praesentium consequatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 80,
+            &quot;latitude&quot;: &quot;23.73497900&quot;,
+            &quot;longitude&quot;: &quot;-62.09850900&quot;,
+            &quot;locationDescription&quot;: &quot;245 Lauriane Lodge\nWatersview, MO 84091-6275&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quia non beatae perferendis et unde quam.&quot;,
+                &quot;Incidunt voluptas tenetur sed harum itaque numquam.&quot;,
+                &quot;In impedit vel libero quia et suscipit enim.&quot;
+            ],
+            &quot;sectorId&quot;: 114,
+            &quot;extra&quot;: &quot;Non quod dolorum omnis voluptatem molestias voluptatem hic. Cum dolorem eaque nihil repellat similique et et. Est occaecati est omnis totam sapiente.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;42&quot;,
+            &quot;title&quot;: &quot;Custom Tailor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Custom%20Tailor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Magni nostrum ad recusandae et veniam sapiente quod ea. Harum ut omnis quo qui quo. Laborum sit autem qui ullam.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 7,
+            &quot;programId&quot;: 14,
+            &quot;tags&quot;: [
+                &quot;voluptas&quot;,
+                &quot;in&quot;,
+                &quot;quo&quot;
+            ],
+            &quot;duration&quot;: 352,
+            &quot;expiryDate&quot;: &quot;2025-12-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Totam ullam debitis consequatur eum delectus. Reprehenderit doloremque aliquid excepturi. Nobis architecto ipsam aspernatur officia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Qui eius autem molestiae sed non fugit aperiam explicabo.&quot;,
+                &quot;Est quis veritatis explicabo nihil ex sit quae.&quot;,
+                &quot;Quia qui odio cumque magni consectetur velit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Repellat est reiciendis magni eveniet laborum et ut.&quot;,
+                &quot;Consequatur porro suscipit nihil veniam reprehenderit sunt ullam.&quot;,
+                &quot;Tenetur quasi dolor quis velit blanditiis commodi possimus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 79,
+            &quot;latitude&quot;: &quot;70.49140900&quot;,
+            &quot;longitude&quot;: &quot;62.03685600&quot;,
+            &quot;locationDescription&quot;: &quot;1552 Haven Radial Apt. 995\nMylesberg, OK 60836&quot;,
+            &quot;benefits&quot;: [
+                &quot;Animi et quis praesentium ducimus.&quot;,
+                &quot;Eum dolorem reiciendis qui repellat nisi.&quot;,
+                &quot;Voluptas enim necessitatibus delectus aut sit quia.&quot;
+            ],
+            &quot;sectorId&quot;: 113,
+            &quot;extra&quot;: &quot;Necessitatibus eaque illum in a placeat. Facilis aspernatur deleniti aliquam consequatur amet. Et aut non eum sequi quia quaerat dolor.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;41&quot;,
+            &quot;title&quot;: &quot;Forest and Conservation Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Forest%20and%20Conservation%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Iste cum ipsam officiis magni culpa quis. Est hic odio molestiae esse labore repudiandae. Quas cum id doloremque molestiae dolorum rerum enim. Voluptatem quia enim est.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 7,
+            &quot;programId&quot;: 14,
+            &quot;tags&quot;: [
+                &quot;laborum&quot;,
+                &quot;omnis&quot;,
+                &quot;aut&quot;
+            ],
+            &quot;duration&quot;: 263,
+            &quot;expiryDate&quot;: &quot;2025-10-14T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Non eos vero fugiat magnam perferendis. Ut repudiandae ab exercitationem maxime sed. Ad reprehenderit excepturi reprehenderit repellendus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quae blanditiis dolorem excepturi quidem.&quot;,
+                &quot;Cupiditate porro perspiciatis quod aliquam eligendi.&quot;,
+                &quot;Reprehenderit qui at est.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Placeat sunt et accusantium distinctio ut.&quot;,
+                &quot;Ratione non officia quia ea sunt est eum.&quot;,
+                &quot;Culpa non consequatur eligendi ut nisi.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 78,
+            &quot;latitude&quot;: &quot;10.86605900&quot;,
+            &quot;longitude&quot;: &quot;-158.01220700&quot;,
+            &quot;locationDescription&quot;: &quot;94645 Walker Park\nNorth Alvina, KY 42740&quot;,
+            &quot;benefits&quot;: [
+                &quot;Natus impedit neque ut.&quot;,
+                &quot;Aut voluptatem ex provident tempora.&quot;,
+                &quot;Quisquam magnam sunt nulla repudiandae est quod consequatur.&quot;
+            ],
+            &quot;sectorId&quot;: 112,
+            &quot;extra&quot;: &quot;Cumque vel voluptatem nemo exercitationem sed minima ipsa. Nemo ut repellendus ipsa ut quas voluptas sequi. Autem magnam mollitia dolores eos. Suscipit rerum beatae qui magnam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;40&quot;,
+            &quot;title&quot;: &quot;Probation Officers and Correctional Treatment Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Probation%20Officers%20and%20Correctional%20Treatment%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptates velit quia dolorem odit sequi corporis aliquid. Molestiae delectus eum molestias voluptatum minima ea. Assumenda ratione optio illum ut.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 7,
+            &quot;programId&quot;: 14,
+            &quot;tags&quot;: [
+                &quot;maxime&quot;,
+                &quot;maxime&quot;,
+                &quot;vel&quot;
+            ],
+            &quot;duration&quot;: 199,
+            &quot;expiryDate&quot;: &quot;2026-02-08T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Neque dolor harum et. Illo totam aliquid amet iusto sit non aut. Autem cupiditate officia consequatur nisi consequuntur. Ut earum odio ut dolores. Omnis qui non id neque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quaerat magni voluptatem pariatur ut.&quot;,
+                &quot;Repellendus consequuntur nostrum officia qui libero ea.&quot;,
+                &quot;Quibusdam commodi ex quia.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Rerum aut magnam voluptate ea qui est.&quot;,
+                &quot;Exercitationem vero eaque ut facere.&quot;,
+                &quot;Quidem et nihil ipsa harum repudiandae corporis iste ad.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 77,
+            &quot;latitude&quot;: &quot;-17.09605400&quot;,
+            &quot;longitude&quot;: &quot;-131.86851900&quot;,
+            &quot;locationDescription&quot;: &quot;9478 Joelle Freeway\nO&#039;Reillyhaven, AR 78895&quot;,
+            &quot;benefits&quot;: [
+                &quot;Facilis nam eos nemo praesentium mollitia.&quot;,
+                &quot;Quia beatae deleniti saepe sapiente facere nisi.&quot;,
+                &quot;Sunt aliquam a alias.&quot;
+            ],
+            &quot;sectorId&quot;: 111,
+            &quot;extra&quot;: &quot;Ut possimus magni molestiae omnis. Commodi accusamus qui reiciendis voluptatem veritatis et. Iste quisquam excepturi dolores sed.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;39&quot;,
+            &quot;title&quot;: &quot;Welding Machine Tender Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Welding%20Machine%20Tender%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Magni qui provident beatae vero amet aliquid. Maiores hic praesentium similique facere. Maiores deleniti ipsam saepe.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 7,
+            &quot;programId&quot;: 13,
+            &quot;tags&quot;: [
+                &quot;cupiditate&quot;,
+                &quot;ipsum&quot;,
+                &quot;provident&quot;
+            ],
+            &quot;duration&quot;: 185,
+            &quot;expiryDate&quot;: &quot;2026-03-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Reprehenderit et hic animi laudantium. Recusandae optio exercitationem eos enim voluptatem sapiente. Praesentium magnam voluptatibus id quas accusantium architecto in. Possimus aut delectus consequatur voluptatibus non.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut molestias dolorum itaque voluptatum.&quot;,
+                &quot;Quisquam officia et aliquam doloremque vero praesentium fugiat.&quot;,
+                &quot;Cumque non facilis autem omnis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Porro dignissimos nihil cupiditate fugiat sunt ullam.&quot;,
+                &quot;Ut omnis eveniet aut accusamus suscipit dolorum.&quot;,
+                &quot;Tenetur aliquam ut fuga eligendi vero totam sint.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 76,
+            &quot;latitude&quot;: &quot;85.77289200&quot;,
+            &quot;longitude&quot;: &quot;-64.48569200&quot;,
+            &quot;locationDescription&quot;: &quot;48594 Filiberto Mall Suite 333\nSouth Tyshawnchester, AK 76389&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nulla qui ut autem est eaque velit.&quot;,
+                &quot;Delectus voluptatem a quia consequatur non ad natus.&quot;,
+                &quot;Animi dolorum illo et minima ipsa numquam et.&quot;
+            ],
+            &quot;sectorId&quot;: 110,
+            &quot;extra&quot;: &quot;Reprehenderit eum aliquid reprehenderit. Et odit molestias maxime earum eius similique.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;38&quot;,
+            &quot;title&quot;: &quot;Pharmacy Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Pharmacy%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptate odit qui doloribus quo nisi labore voluptatibus. Asperiores accusamus sunt sunt. Vel similique deserunt voluptas velit saepe accusantium rerum. Dolorum quas omnis animi libero.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 7,
+            &quot;programId&quot;: 13,
+            &quot;tags&quot;: [
+                &quot;sequi&quot;,
+                &quot;ad&quot;,
+                &quot;consequatur&quot;
+            ],
+            &quot;duration&quot;: 339,
+            &quot;expiryDate&quot;: &quot;2025-12-25T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Eius sequi alias eligendi soluta. Et enim illo aut. Provident nesciunt quis iste. Et eum eos id et odit.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ut debitis dolores tenetur quia odit sapiente sed voluptatibus.&quot;,
+                &quot;Est qui ipsum voluptatem qui ipsam quod animi.&quot;,
+                &quot;Sunt qui sit asperiores et debitis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Mollitia voluptatem aut temporibus dignissimos voluptas quia et eveniet.&quot;,
+                &quot;Quas natus est et dolor hic qui libero.&quot;,
+                &quot;Eaque nisi consequatur unde aliquam est atque.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 75,
+            &quot;latitude&quot;: &quot;-48.82951100&quot;,
+            &quot;longitude&quot;: &quot;67.22425400&quot;,
+            &quot;locationDescription&quot;: &quot;6333 Tillman Unions Apt. 792\nClementineview, KY 07191-2047&quot;,
+            &quot;benefits&quot;: [
+                &quot;Incidunt rerum perferendis porro dolores.&quot;,
+                &quot;Distinctio quam iure delectus dolore deserunt voluptatem.&quot;,
+                &quot;Fugiat aliquam aut ullam placeat velit vel natus.&quot;
+            ],
+            &quot;sectorId&quot;: 109,
+            &quot;extra&quot;: &quot;Temporibus quo quia iste eveniet facilis qui. Delectus et molestiae nisi. In dolore cupiditate numquam corporis. Aspernatur et vitae dolor ut vero explicabo.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;37&quot;,
+            &quot;title&quot;: &quot;Janitor Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Janitor%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Iusto est asperiores nisi odit maiores sapiente. Consequatur aperiam esse expedita mollitia. Officiis aliquid et illum dicta nobis dolor. Voluptate quas error dolor ad tempore corrupti ut libero.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 7,
+            &quot;programId&quot;: 13,
+            &quot;tags&quot;: [
+                &quot;voluptas&quot;,
+                &quot;aut&quot;,
+                &quot;molestiae&quot;
+            ],
+            &quot;duration&quot;: 206,
+            &quot;expiryDate&quot;: &quot;2026-01-10T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Repudiandae in aut ut voluptatem consequuntur. Similique ab voluptates quos asperiores voluptas est. Et qui dolore modi vel. Non omnis sed est consequatur ratione id. Architecto nobis et doloremque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ex ad labore voluptas voluptatem et aut.&quot;,
+                &quot;A odio molestias debitis omnis rerum.&quot;,
+                &quot;Exercitationem aut corrupti incidunt debitis sed quo.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Iure libero nam in quia eum vitae ea.&quot;,
+                &quot;Dignissimos accusamus nobis ut dolores iure.&quot;,
+                &quot;Vitae incidunt magni totam quos nostrum omnis veritatis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 74,
+            &quot;latitude&quot;: &quot;-88.87856100&quot;,
+            &quot;longitude&quot;: &quot;-29.47667500&quot;,
+            &quot;locationDescription&quot;: &quot;9200 Schneider Junctions Suite 726\nBergnaumside, IA 60627-9514&quot;,
+            &quot;benefits&quot;: [
+                &quot;Mollitia vero quis voluptate qui.&quot;,
+                &quot;Assumenda et ab ullam esse eveniet.&quot;,
+                &quot;Amet voluptatem quas est eum incidunt.&quot;
+            ],
+            &quot;sectorId&quot;: 108,
+            &quot;extra&quot;: &quot;Ab sint quaerat rerum aliquam qui alias dolor. Repudiandae autem ipsa nulla nemo quia fuga. Sint voluptatum quisquam dolore sed facere repellat. Repellendus vero odio ex aut facere.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;36&quot;,
+            &quot;title&quot;: &quot;Irradiated-Fuel Handler Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Irradiated-Fuel%20Handler%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quaerat nam temporibus ea inventore. Et ratione ut perspiciatis quaerat accusantium rerum asperiores. Accusamus debitis accusamus rerum.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 6,
+            &quot;programId&quot;: 12,
+            &quot;tags&quot;: [
+                &quot;libero&quot;,
+                &quot;omnis&quot;,
+                &quot;adipisci&quot;
+            ],
+            &quot;duration&quot;: 78,
+            &quot;expiryDate&quot;: &quot;2026-01-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Provident ipsum praesentium a quas libero. Dolor aut sint consequuntur. Aut exercitationem ut odit. Voluptatum dolor accusantium quia qui reiciendis quasi numquam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Delectus omnis ullam fugit possimus distinctio doloremque repellendus.&quot;,
+                &quot;Velit incidunt excepturi rerum quos quia et deserunt.&quot;,
+                &quot;Quis et natus ab quaerat et quam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Totam qui voluptates laudantium nesciunt et.&quot;,
+                &quot;Aspernatur aliquid quia earum sit impedit impedit.&quot;,
+                &quot;Aut molestiae illum facere aut nemo nam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 73,
+            &quot;latitude&quot;: &quot;85.37777100&quot;,
+            &quot;longitude&quot;: &quot;166.55138400&quot;,
+            &quot;locationDescription&quot;: &quot;579 Beier Villages Apt. 449\nNew Isidro, NC 75510-7674&quot;,
+            &quot;benefits&quot;: [
+                &quot;Minima rerum ratione temporibus reiciendis modi exercitationem.&quot;,
+                &quot;Sint repudiandae aut quia dignissimos accusantium fuga deleniti.&quot;,
+                &quot;Quisquam aliquid eius aut eum.&quot;
+            ],
+            &quot;sectorId&quot;: 107,
+            &quot;extra&quot;: &quot;Quo ipsa repudiandae reiciendis nostrum assumenda sed ex quis. Eius et velit quidem minima quod voluptates expedita. Quia laboriosam nihil ea officiis animi voluptatem eum. Autem consequatur ea odit nam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;35&quot;,
+            &quot;title&quot;: &quot;Industrial Engineer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Industrial%20Engineer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est voluptatum fugit culpa. Ut sunt incidunt dolor occaecati magni. Omnis ipsam libero et alias. Ipsum dolores quis rerum consequatur et consequatur cupiditate eaque.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 6,
+            &quot;programId&quot;: 12,
+            &quot;tags&quot;: [
+                &quot;itaque&quot;,
+                &quot;veritatis&quot;,
+                &quot;qui&quot;
+            ],
+            &quot;duration&quot;: 73,
+            &quot;expiryDate&quot;: &quot;2025-11-01T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Molestiae omnis nihil nihil voluptate voluptatum. Ullam quibusdam temporibus eum. Laudantium neque qui est reiciendis distinctio cum. Quam amet odit atque.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et non delectus similique accusantium exercitationem dolorem numquam.&quot;,
+                &quot;Voluptates repellat ut rerum omnis est.&quot;,
+                &quot;Cumque et quidem eius ea voluptatem eos.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut nulla sint voluptatem tempora eum.&quot;,
+                &quot;Doloribus dolorem quae aspernatur nesciunt eligendi dignissimos omnis nesciunt.&quot;,
+                &quot;Dolores in dolorum cumque officia odio doloribus corporis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 72,
+            &quot;latitude&quot;: &quot;19.19451200&quot;,
+            &quot;longitude&quot;: &quot;-105.92887600&quot;,
+            &quot;locationDescription&quot;: &quot;4564 Schumm Wall Apt. 320\nJovannyport, CA 49882-5516&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aspernatur non voluptatem assumenda nobis autem.&quot;,
+                &quot;Aliquam dolorem omnis ipsum sint voluptatum accusamus.&quot;,
+                &quot;Quas iusto qui harum quia temporibus.&quot;
+            ],
+            &quot;sectorId&quot;: 106,
+            &quot;extra&quot;: &quot;Et nostrum harum voluptatum autem. Et est nihil quia occaecati. Eos minima ipsa eos ut illo. Provident cum aut dolores aspernatur deserunt ea perferendis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;34&quot;,
+            &quot;title&quot;: &quot;Precision Dyer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Precision%20Dyer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Nihil non illum quas perspiciatis. Sunt necessitatibus occaecati consequatur sed non. Sint odio autem impedit necessitatibus ea sunt quidem. Deleniti et iure soluta doloribus.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 6,
+            &quot;programId&quot;: 12,
+            &quot;tags&quot;: [
+                &quot;quia&quot;,
+                &quot;aut&quot;,
+                &quot;ad&quot;
+            ],
+            &quot;duration&quot;: 51,
+            &quot;expiryDate&quot;: &quot;2025-12-08T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Explicabo occaecati est nostrum quo. Sequi harum corrupti omnis corrupti. Eos et sed nostrum velit nobis ipsum incidunt.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Explicabo eos non ab sunt perferendis cumque molestiae est.&quot;,
+                &quot;Accusamus optio nesciunt rerum et fuga.&quot;,
+                &quot;Aliquid hic eum qui eos quia sed recusandae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Impedit sed atque necessitatibus omnis facere quae.&quot;,
+                &quot;Id nobis quisquam consequatur iure facilis ut a.&quot;,
+                &quot;Delectus assumenda fuga maiores repellendus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 71,
+            &quot;latitude&quot;: &quot;41.04019300&quot;,
+            &quot;longitude&quot;: &quot;167.70838100&quot;,
+            &quot;locationDescription&quot;: &quot;599 Montana Heights Suite 746\nVeronaview, LA 29340-6328&quot;,
+            &quot;benefits&quot;: [
+                &quot;Amet similique at aperiam non eaque dolores sapiente.&quot;,
+                &quot;Eos saepe magni laborum.&quot;,
+                &quot;Nihil perferendis provident molestias officiis non culpa.&quot;
+            ],
+            &quot;sectorId&quot;: 105,
+            &quot;extra&quot;: &quot;Praesentium vero nostrum nemo. Magni enim corporis dolor magni odio unde officiis. Facilis nemo inventore in magni quia.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;33&quot;,
+            &quot;title&quot;: &quot;Night Security Guard Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Night%20Security%20Guard%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Aliquid et quia quasi nobis. Voluptatem nobis voluptas voluptatum et. Doloribus commodi mollitia blanditiis autem et. Magnam possimus quasi ducimus autem.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 6,
+            &quot;programId&quot;: 11,
+            &quot;tags&quot;: [
+                &quot;id&quot;,
+                &quot;voluptas&quot;,
+                &quot;sit&quot;
+            ],
+            &quot;duration&quot;: 87,
+            &quot;expiryDate&quot;: &quot;2025-11-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Quas voluptatum debitis sint sunt quae. Fugit nostrum et ea modi soluta sunt impedit. Quod ut deleniti dicta magnam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Adipisci sed ut animi dolore accusamus.&quot;,
+                &quot;Veniam sit ut aut eos ea.&quot;,
+                &quot;Accusantium et et vero excepturi ut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Earum ut aut necessitatibus rerum.&quot;,
+                &quot;Quidem porro quaerat voluptas enim aut laudantium.&quot;,
+                &quot;Et cumque corporis dolore velit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 70,
+            &quot;latitude&quot;: &quot;66.35191700&quot;,
+            &quot;longitude&quot;: &quot;151.50839100&quot;,
+            &quot;locationDescription&quot;: &quot;69787 Alec Pines\nOrlandofurt, NC 01367&quot;,
+            &quot;benefits&quot;: [
+                &quot;Commodi quo necessitatibus ratione dicta quas quibusdam.&quot;,
+                &quot;Eligendi eos temporibus esse vitae.&quot;,
+                &quot;Et voluptatem at similique sed hic praesentium.&quot;
+            ],
+            &quot;sectorId&quot;: 104,
+            &quot;extra&quot;: &quot;Culpa consectetur facilis eligendi dolorem autem. Voluptatibus deleniti sint facilis nihil cumque adipisci adipisci praesentium. Ut tempora eius maxime vel ullam molestias aut. Iure aut rerum nihil consectetur libero.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;32&quot;,
+            &quot;title&quot;: &quot;Metal-Refining Furnace Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Metal-Refining%20Furnace%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et quia sunt laboriosam rerum aliquid ut eligendi. Saepe saepe sunt commodi qui fugiat sunt non. Vel sed autem quis officiis consectetur voluptatem hic. Sunt voluptatum non facilis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 6,
+            &quot;programId&quot;: 11,
+            &quot;tags&quot;: [
+                &quot;eveniet&quot;,
+                &quot;ea&quot;,
+                &quot;est&quot;
+            ],
+            &quot;duration&quot;: 105,
+            &quot;expiryDate&quot;: &quot;2025-12-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et enim dolor eligendi libero nihil voluptatum ut facilis. Iusto perferendis sint architecto quaerat neque autem delectus et. Aut magnam iste quaerat autem. Aut labore doloremque molestiae blanditiis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Itaque officia nemo blanditiis culpa qui cupiditate.&quot;,
+                &quot;Rerum aliquid ducimus suscipit molestiae dolore.&quot;,
+                &quot;Rerum voluptatibus sequi a recusandae iusto aut aliquam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut unde assumenda magnam nihil iusto porro ut.&quot;,
+                &quot;Quasi optio accusamus molestiae cum.&quot;,
+                &quot;Necessitatibus sit architecto dolorem impedit.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 69,
+            &quot;latitude&quot;: &quot;-48.26041000&quot;,
+            &quot;longitude&quot;: &quot;-163.21371600&quot;,
+            &quot;locationDescription&quot;: &quot;378 Kuhn Expressway Apt. 150\nEast Pietro, OK 16468-8522&quot;,
+            &quot;benefits&quot;: [
+                &quot;Dignissimos assumenda non ut quo voluptas et nemo.&quot;,
+                &quot;Corrupti deleniti aut nesciunt quae quia voluptatem perspiciatis.&quot;,
+                &quot;Non magni earum iste aut in iste.&quot;
+            ],
+            &quot;sectorId&quot;: 103,
+            &quot;extra&quot;: &quot;Consequuntur vitae quod et consequuntur fuga. Aut quis possimus quidem rerum. Ratione inventore quod alias ut voluptatem dolore necessitatibus. Inventore a qui nemo rerum ipsam qui odit et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;31&quot;,
+            &quot;title&quot;: &quot;Dredge Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Dredge%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Veniam illo quos et. Repudiandae cum corporis fugit voluptatem quaerat eligendi beatae. Eveniet est et laborum non ut libero natus.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 6,
+            &quot;programId&quot;: 11,
+            &quot;tags&quot;: [
+                &quot;excepturi&quot;,
+                &quot;qui&quot;,
+                &quot;officia&quot;
+            ],
+            &quot;duration&quot;: 178,
+            &quot;expiryDate&quot;: &quot;2025-12-12T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sed deserunt qui et assumenda. Et sit quis ducimus reprehenderit magni. Modi cupiditate dolor natus adipisci distinctio necessitatibus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Sint velit sed officia harum.&quot;,
+                &quot;Sapiente enim voluptas vitae id quia sit nostrum.&quot;,
+                &quot;Quas dolor aperiam atque aut occaecati.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Consequuntur laboriosam totam fugiat soluta aspernatur ullam vel.&quot;,
+                &quot;Consectetur quod et magni aut deleniti inventore.&quot;,
+                &quot;Nam labore aut neque esse.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 68,
+            &quot;latitude&quot;: &quot;-3.30012400&quot;,
+            &quot;longitude&quot;: &quot;-145.81120800&quot;,
+            &quot;locationDescription&quot;: &quot;735 Miller Island\nKunzebury, TN 18477-1211&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quis totam qui qui quam.&quot;,
+                &quot;Ad aut enim aut aut numquam.&quot;,
+                &quot;Ipsa mollitia enim dolore numquam.&quot;
+            ],
+            &quot;sectorId&quot;: 102,
+            &quot;extra&quot;: &quot;Sed facilis aut rerum aut quod. Porro aut et reprehenderit laboriosam. Similique inventore repudiandae architecto rerum. Expedita esse consectetur dolor earum nesciunt quaerat necessitatibus ipsam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:08.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;30&quot;,
+            &quot;title&quot;: &quot;Social Service Specialists Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Social%20Service%20Specialists%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est itaque perferendis vitae sint. Itaque animi ab voluptatem architecto delectus. Sit similique a suscipit accusantium necessitatibus odio veniam delectus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 5,
+            &quot;programId&quot;: 10,
+            &quot;tags&quot;: [
+                &quot;temporibus&quot;,
+                &quot;dignissimos&quot;,
+                &quot;voluptates&quot;
+            ],
+            &quot;duration&quot;: 111,
+            &quot;expiryDate&quot;: &quot;2026-02-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Exercitationem nemo omnis dolores saepe officia dolorum. Reprehenderit voluptate rem temporibus repudiandae odio quibusdam. Voluptas voluptas vero consequuntur. Sit accusamus ipsa incidunt et sint.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Est vitae dolor autem sapiente voluptas officiis illo.&quot;,
+                &quot;Nam et recusandae dignissimos sint voluptates dolorem.&quot;,
+                &quot;Repellendus quo quis maiores magni.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Nam provident voluptate voluptate sunt illo nemo illum dolorum.&quot;,
+                &quot;Voluptate corporis aut veritatis vel a voluptatibus.&quot;,
+                &quot;Explicabo non porro voluptatem mollitia fugiat.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 67,
+            &quot;latitude&quot;: &quot;-70.87266200&quot;,
+            &quot;longitude&quot;: &quot;7.48849700&quot;,
+            &quot;locationDescription&quot;: &quot;35116 Sporer Via Suite 975\nLake Chanelchester, WY 48686&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nesciunt illum illo saepe temporibus possimus.&quot;,
+                &quot;Possimus est molestiae temporibus asperiores nesciunt dolor eos.&quot;,
+                &quot;Aut vel quia et et.&quot;
+            ],
+            &quot;sectorId&quot;: 101,
+            &quot;extra&quot;: &quot;Rerum cupiditate voluptatem incidunt voluptatem. Magnam doloribus incidunt eveniet omnis porro. Perspiciatis vel eaque illo iste vel deserunt eum. Quia corporis porro libero facere et sint.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;29&quot;,
+            &quot;title&quot;: &quot;Packaging Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Packaging%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Minima rerum quo quo odio possimus dolore assumenda aut. Adipisci voluptates provident animi. Ut explicabo accusantium porro. Amet et voluptas quia est illo et.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 5,
+            &quot;programId&quot;: 10,
+            &quot;tags&quot;: [
+                &quot;asperiores&quot;,
+                &quot;quia&quot;,
+                &quot;illum&quot;
+            ],
+            &quot;duration&quot;: 240,
+            &quot;expiryDate&quot;: &quot;2025-12-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Rerum consequatur magnam ex omnis enim. Qui non repellat consequuntur consectetur. Minima est itaque aut cum libero odit.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Optio reprehenderit quas consequatur.&quot;,
+                &quot;Quia rerum natus ut qui eos ut.&quot;,
+                &quot;Iste voluptatibus provident explicabo hic.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Qui impedit adipisci rerum rerum iusto et.&quot;,
+                &quot;Accusantium molestiae voluptatem optio harum qui.&quot;,
+                &quot;Consequatur soluta aut asperiores aspernatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 66,
+            &quot;latitude&quot;: &quot;-19.28738500&quot;,
+            &quot;longitude&quot;: &quot;-18.49623300&quot;,
+            &quot;locationDescription&quot;: &quot;778 Ayla Green\nDaughertyshire, OH 70589-1560&quot;,
+            &quot;benefits&quot;: [
+                &quot;Error eligendi porro corrupti vel quidem quisquam.&quot;,
+                &quot;Dignissimos id sit eos quam ab quis.&quot;,
+                &quot;Excepturi eius et inventore.&quot;
+            ],
+            &quot;sectorId&quot;: 100,
+            &quot;extra&quot;: &quot;Quia et sint possimus voluptate optio vel et. Voluptate sit molestias et non et eius provident. Quod molestiae neque id est earum sint. Doloribus iure possimus vitae ea. Aliquid consequuntur minima et ipsa est ab doloribus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;28&quot;,
+            &quot;title&quot;: &quot;Embalmer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Embalmer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Molestiae excepturi qui vel assumenda libero omnis ut. Aut nisi est quos. Laboriosam accusamus consequatur laboriosam alias. Sequi nisi hic optio et optio.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 5,
+            &quot;programId&quot;: 10,
+            &quot;tags&quot;: [
+                &quot;minima&quot;,
+                &quot;quidem&quot;,
+                &quot;esse&quot;
+            ],
+            &quot;duration&quot;: 251,
+            &quot;expiryDate&quot;: &quot;2025-11-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ea corrupti et nobis ea nemo. Occaecati voluptas error doloribus accusamus odit. Molestias error exercitationem eos est qui accusantium ipsum. Et quisquam sunt quia eius quia exercitationem maiores.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quaerat aut eveniet temporibus nulla.&quot;,
+                &quot;Et aut ea tempora.&quot;,
+                &quot;Deleniti ut expedita doloribus laudantium.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Perspiciatis ullam odit libero quas et natus eaque.&quot;,
+                &quot;Harum in eaque magni quasi natus ad quia.&quot;,
+                &quot;Ea consequatur ab iure eveniet officiis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 65,
+            &quot;latitude&quot;: &quot;-38.96289500&quot;,
+            &quot;longitude&quot;: &quot;-165.23482700&quot;,
+            &quot;locationDescription&quot;: &quot;250 Marianna Fords\nOmahaven, IL 33938-5941&quot;,
+            &quot;benefits&quot;: [
+                &quot;Repellendus cum illum totam pariatur.&quot;,
+                &quot;Provident et neque deleniti possimus.&quot;,
+                &quot;Id qui minima aut unde aut nam.&quot;
+            ],
+            &quot;sectorId&quot;: 99,
+            &quot;extra&quot;: &quot;Aut culpa officiis officia libero. Fugiat a aut et. Totam ut repudiandae corporis aperiam animi aliquam assumenda. Praesentium nobis illum commodi quas nam repellat.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;27&quot;,
+            &quot;title&quot;: &quot;Oral Surgeon Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Oral%20Surgeon%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Dicta unde voluptatibus eveniet iste consequuntur eligendi. Aperiam eum dolores totam. Quis aut accusamus et nam temporibus eligendi occaecati aut. Qui tempore ipsam quia labore tempora.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 5,
+            &quot;programId&quot;: 9,
+            &quot;tags&quot;: [
+                &quot;reiciendis&quot;,
+                &quot;cupiditate&quot;,
+                &quot;magni&quot;
+            ],
+            &quot;duration&quot;: 161,
+            &quot;expiryDate&quot;: &quot;2026-01-16T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Error dolores iure ut consequatur ducimus ea. Harum et reiciendis quis et mollitia odit. Quibusdam qui minima nam velit. Corporis veniam voluptatum blanditiis qui sit.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et quia sit dolor nisi.&quot;,
+                &quot;Dolores laborum enim veritatis facere consequatur illo ullam.&quot;,
+                &quot;Fugit sed quia tempore rerum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quam perferendis quia itaque nisi aperiam ut.&quot;,
+                &quot;Veniam eum et vero possimus voluptatum.&quot;,
+                &quot;Quibusdam sit nisi minus dolorum perferendis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 64,
+            &quot;latitude&quot;: &quot;62.67179700&quot;,
+            &quot;longitude&quot;: &quot;-175.85962400&quot;,
+            &quot;locationDescription&quot;: &quot;1211 Shakira Lake\nLucianoland, NE 23289&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatum sed eos consequuntur voluptatem dolorum esse.&quot;,
+                &quot;In odit nihil suscipit cum earum.&quot;,
+                &quot;Ut aut deserunt dignissimos et natus eligendi est ipsam.&quot;
+            ],
+            &quot;sectorId&quot;: 98,
+            &quot;extra&quot;: &quot;Asperiores aut tenetur provident placeat fugit fugiat ad. Ab dolores assumenda dolores placeat sed voluptatem. Voluptas id dolor sit.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;26&quot;,
+            &quot;title&quot;: &quot;Tree Trimmer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Tree%20Trimmer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Nulla cumque sit voluptatem repudiandae. Eos et dolor omnis quasi.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 5,
+            &quot;programId&quot;: 9,
+            &quot;tags&quot;: [
+                &quot;fugit&quot;,
+                &quot;optio&quot;,
+                &quot;possimus&quot;
+            ],
+            &quot;duration&quot;: 144,
+            &quot;expiryDate&quot;: &quot;2025-11-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Quidem molestiae maiores id. Illo omnis praesentium quia omnis et sunt laudantium. Consequatur odio consequuntur distinctio voluptatem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Facere eos vitae voluptas eum praesentium.&quot;,
+                &quot;Doloribus et omnis vel veniam assumenda quidem.&quot;,
+                &quot;Ducimus ea praesentium vero eos laboriosam ut.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Suscipit maxime id numquam minima aliquid molestias.&quot;,
+                &quot;Velit esse voluptates qui sint aliquid.&quot;,
+                &quot;Reprehenderit quo laborum incidunt doloremque reiciendis repudiandae.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 63,
+            &quot;latitude&quot;: &quot;-89.64770900&quot;,
+            &quot;longitude&quot;: &quot;173.74025000&quot;,
+            &quot;locationDescription&quot;: &quot;13925 Mariela Curve\nSouth Layne, LA 27204-4105&quot;,
+            &quot;benefits&quot;: [
+                &quot;Omnis rerum explicabo qui.&quot;,
+                &quot;Sunt consequatur doloribus ipsam magni.&quot;,
+                &quot;Error minima sapiente sed consequuntur.&quot;
+            ],
+            &quot;sectorId&quot;: 97,
+            &quot;extra&quot;: &quot;Consequuntur rem ad nihil quis. Ducimus accusantium qui sunt vel. Et dolor rerum perferendis natus. Quo quis eos est esse.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;25&quot;,
+            &quot;title&quot;: &quot;PR Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=PR%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Earum itaque eum praesentium ea iure ab. Non sed eveniet mollitia ad.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 5,
+            &quot;programId&quot;: 9,
+            &quot;tags&quot;: [
+                &quot;aut&quot;,
+                &quot;voluptate&quot;,
+                &quot;velit&quot;
+            ],
+            &quot;duration&quot;: 360,
+            &quot;expiryDate&quot;: &quot;2025-10-09T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Suscipit animi vel id provident et. Neque et commodi quasi dolorem similique sequi magni consectetur. Quidem ducimus cumque ullam totam est quo molestias.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Odit voluptatum deserunt aliquam exercitationem temporibus saepe.&quot;,
+                &quot;Eos architecto minima consequuntur quis provident qui neque.&quot;,
+                &quot;Placeat cumque quasi qui ipsam mollitia ipsa enim.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Doloremque reprehenderit corrupti dicta.&quot;,
+                &quot;Sed blanditiis provident expedita id repellat quam corrupti.&quot;,
+                &quot;Aut exercitationem laboriosam quas odio illum accusamus.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 62,
+            &quot;latitude&quot;: &quot;-62.22225200&quot;,
+            &quot;longitude&quot;: &quot;-142.92004100&quot;,
+            &quot;locationDescription&quot;: &quot;25353 Martina Oval Apt. 383\nNew Melvina, ID 33741&quot;,
+            &quot;benefits&quot;: [
+                &quot;Saepe occaecati sapiente cumque nihil dolore ut unde.&quot;,
+                &quot;Ut libero explicabo voluptas laboriosam occaecati ut omnis.&quot;,
+                &quot;Nobis voluptatem qui non.&quot;
+            ],
+            &quot;sectorId&quot;: 96,
+            &quot;extra&quot;: &quot;Quaerat deserunt optio harum assumenda quo autem omnis. Id nulla maiores iure sit velit. Aut voluptatibus sint et aspernatur assumenda iure. Rem voluptatem suscipit excepturi aut alias exercitationem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;24&quot;,
+            &quot;title&quot;: &quot;Airfield Operations Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Airfield%20Operations%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Earum quam iusto eaque quas. Consequatur expedita voluptas nobis ducimus exercitationem assumenda. Veniam in quo autem quod commodi ut inventore. Maiores eos suscipit voluptatibus sint consequatur repellat doloribus. Asperiores minus unde cumque culpa dolores omnis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 4,
+            &quot;programId&quot;: 8,
+            &quot;tags&quot;: [
+                &quot;vel&quot;,
+                &quot;a&quot;,
+                &quot;optio&quot;
+            ],
+            &quot;duration&quot;: 345,
+            &quot;expiryDate&quot;: &quot;2026-02-03T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Et ipsa debitis architecto. Veniam et sit explicabo vel unde omnis reiciendis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Odio possimus et illum modi quaerat expedita.&quot;,
+                &quot;Velit sunt exercitationem dolor qui ab.&quot;,
+                &quot;Harum qui atque dolorem rerum saepe corporis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut dolorum voluptas quasi sed nemo harum.&quot;,
+                &quot;Et rem voluptatem molestiae aut est.&quot;,
+                &quot;Facilis quos eum accusamus repudiandae dolorum eum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 61,
+            &quot;latitude&quot;: &quot;41.35744000&quot;,
+            &quot;longitude&quot;: &quot;-51.37426500&quot;,
+            &quot;locationDescription&quot;: &quot;6813 Candice Summit\nNew Tessie, KY 13484-6461&quot;,
+            &quot;benefits&quot;: [
+                &quot;Exercitationem doloremque expedita dignissimos optio expedita et autem hic.&quot;,
+                &quot;Omnis consectetur libero nemo voluptatum.&quot;,
+                &quot;Autem fugiat accusantium omnis similique voluptatum.&quot;
+            ],
+            &quot;sectorId&quot;: 95,
+            &quot;extra&quot;: &quot;Accusamus quidem sed sed est praesentium omnis. Assumenda adipisci repudiandae perferendis possimus est quidem esse qui. A et tenetur suscipit rerum est. Nobis sapiente dolor excepturi maiores itaque enim facilis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;23&quot;,
+            &quot;title&quot;: &quot;Industrial Safety Engineer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Industrial%20Safety%20Engineer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quae deserunt tenetur quo earum. Nemo magni doloremque omnis omnis sit odio voluptatem. Excepturi voluptatem fuga nam recusandae. Et ea consectetur quas dicta temporibus nesciunt.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 4,
+            &quot;programId&quot;: 8,
+            &quot;tags&quot;: [
+                &quot;pariatur&quot;,
+                &quot;autem&quot;,
+                &quot;sit&quot;
+            ],
+            &quot;duration&quot;: 326,
+            &quot;expiryDate&quot;: &quot;2026-02-20T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Non reprehenderit rerum ut et. Labore fuga officiis aut amet.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quis eos sequi maxime.&quot;,
+                &quot;Labore et sed et voluptatum.&quot;,
+                &quot;Aut doloremque quia quo placeat.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolores qui blanditiis dolorem.&quot;,
+                &quot;In laudantium totam nihil voluptatem a voluptatum.&quot;,
+                &quot;Ea aut quo nesciunt maiores ipsum qui placeat.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 60,
+            &quot;latitude&quot;: &quot;65.41535400&quot;,
+            &quot;longitude&quot;: &quot;-117.81514000&quot;,
+            &quot;locationDescription&quot;: &quot;21734 Klein Neck Suite 363\nNorth Leathastad, NJ 40997&quot;,
+            &quot;benefits&quot;: [
+                &quot;Laudantium quae at corporis et veritatis explicabo.&quot;,
+                &quot;Molestiae molestiae repellendus voluptatem minus laborum ea.&quot;,
+                &quot;Ducimus quos omnis placeat molestias sit.&quot;
+            ],
+            &quot;sectorId&quot;: 94,
+            &quot;extra&quot;: &quot;Sed sit optio repudiandae vero. Amet deleniti quia harum exercitationem qui quae autem. Et esse excepturi aut optio qui blanditiis. Aut et perferendis qui voluptas. Accusamus omnis aut qui temporibus dignissimos iure.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;22&quot;,
+            &quot;title&quot;: &quot;Textile Knitting Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Textile%20Knitting%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Nihil consectetur quam ut repudiandae ratione. Error rem explicabo maiores sint ut incidunt. Ipsum ea et molestiae cumque minus sit est qui. Nemo vero repellat accusantium provident.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 4,
+            &quot;programId&quot;: 8,
+            &quot;tags&quot;: [
+                &quot;fugiat&quot;,
+                &quot;nihil&quot;,
+                &quot;optio&quot;
+            ],
+            &quot;duration&quot;: 198,
+            &quot;expiryDate&quot;: &quot;2026-02-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut blanditiis et beatae nostrum quo aut placeat suscipit. Quidem in illum eveniet. Magni unde ut nesciunt provident minus tenetur et fugit.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Temporibus quibusdam ipsa veritatis architecto omnis vel excepturi fugit.&quot;,
+                &quot;Id aspernatur harum perferendis maiores ut accusantium aut consequatur.&quot;,
+                &quot;Rerum distinctio asperiores sit assumenda dicta vitae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aperiam fuga exercitationem aut et.&quot;,
+                &quot;Non quos maiores ullam sunt cum deserunt eum.&quot;,
+                &quot;Laboriosam debitis expedita hic unde ipsam eos.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 59,
+            &quot;latitude&quot;: &quot;-27.19273400&quot;,
+            &quot;longitude&quot;: &quot;151.36343500&quot;,
+            &quot;locationDescription&quot;: &quot;304 Stiedemann Ways\nMarksfort, OK 11284-6204&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aut et iste consequatur consectetur at saepe.&quot;,
+                &quot;Autem deserunt incidunt dolorem exercitationem occaecati.&quot;,
+                &quot;Natus tenetur accusamus vel cupiditate sed quas libero perferendis.&quot;
+            ],
+            &quot;sectorId&quot;: 93,
+            &quot;extra&quot;: &quot;Aut quidem nobis necessitatibus. Esse et rerum ut et voluptates quam fugiat. Maxime esse sequi repellat fugiat ut et ut eaque. Aspernatur placeat qui atque similique et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;21&quot;,
+            &quot;title&quot;: &quot;Home Health Aide Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Home%20Health%20Aide%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Mollitia provident nemo quisquam sint veritatis molestiae. Quaerat provident totam nostrum fugiat. Et ut et culpa vero nihil quaerat et.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 4,
+            &quot;programId&quot;: 7,
+            &quot;tags&quot;: [
+                &quot;laborum&quot;,
+                &quot;vitae&quot;,
+                &quot;soluta&quot;
+            ],
+            &quot;duration&quot;: 51,
+            &quot;expiryDate&quot;: &quot;2025-10-30T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Alias autem beatae deserunt at in. Aspernatur beatae odit numquam ratione molestias. Recusandae in magnam omnis maiores vel dolores nisi. Quisquam laborum deserunt distinctio omnis eaque veritatis qui. Et molestias voluptatem molestiae id sit quam consectetur.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Et aut quam omnis.&quot;,
+                &quot;Officia ab delectus a est.&quot;,
+                &quot;Sunt dolor sit et qui sit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatem laborum voluptatibus rem ut et.&quot;,
+                &quot;Et necessitatibus laborum minima vitae autem.&quot;,
+                &quot;Eum omnis suscipit et et inventore quis.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 58,
+            &quot;latitude&quot;: &quot;21.51243300&quot;,
+            &quot;longitude&quot;: &quot;151.84799800&quot;,
+            &quot;locationDescription&quot;: &quot;88624 Mills Mews\nKozeyburgh, WV 99655-5875&quot;,
+            &quot;benefits&quot;: [
+                &quot;Quidem inventore nemo est sequi.&quot;,
+                &quot;Inventore quia hic eos molestiae similique sit.&quot;,
+                &quot;Nemo quo est quisquam aut et quos.&quot;
+            ],
+            &quot;sectorId&quot;: 92,
+            &quot;extra&quot;: &quot;Quia sed tenetur excepturi optio aut commodi. Fugit et aliquid modi cum accusantium. Inventore molestias harum eos voluptas.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;20&quot;,
+            &quot;title&quot;: &quot;Technical Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Technical%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Et qui voluptatem ab molestiae libero recusandae sit. Adipisci ullam architecto sed quisquam nostrum. Fugit alias omnis aliquam accusantium dolor pariatur.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 4,
+            &quot;programId&quot;: 7,
+            &quot;tags&quot;: [
+                &quot;nihil&quot;,
+                &quot;dolores&quot;,
+                &quot;laborum&quot;
+            ],
+            &quot;duration&quot;: 157,
+            &quot;expiryDate&quot;: &quot;2025-12-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Distinctio qui minus ipsam consequatur molestiae. Hic sit velit quasi et minus ut voluptatem. Quis et qui neque repellendus nihil.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quidem vel asperiores optio aliquid quia iure ipsam quia.&quot;,
+                &quot;Debitis eum veniam quae ratione.&quot;,
+                &quot;Qui sit reprehenderit perferendis suscipit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatibus omnis eius veniam occaecati non.&quot;,
+                &quot;Eaque quis voluptate officia id quia maxime.&quot;,
+                &quot;Rem temporibus dicta cupiditate est quia laboriosam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 57,
+            &quot;latitude&quot;: &quot;-42.18277400&quot;,
+            &quot;longitude&quot;: &quot;-144.42726500&quot;,
+            &quot;locationDescription&quot;: &quot;263 Skyla Trail Suite 289\nNew Mariam, LA 56522&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nostrum doloribus omnis omnis tempore consequatur.&quot;,
+                &quot;Est magni accusantium omnis cupiditate eos beatae illo harum.&quot;,
+                &quot;Vero saepe ipsam eos voluptas voluptatem quod.&quot;
+            ],
+            &quot;sectorId&quot;: 91,
+            &quot;extra&quot;: &quot;Ipsa unde quis nemo iusto nihil. Rerum earum quo sapiente quasi cumque laborum. Quia voluptas alias in.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;19&quot;,
+            &quot;title&quot;: &quot;Nuclear Power Reactor Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Nuclear%20Power%20Reactor%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quibusdam nostrum quod aut necessitatibus. Quis vero voluptatem suscipit accusamus. Suscipit dolores aut tempora quibusdam. Eius voluptas dolore sapiente ab et atque iure.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 4,
+            &quot;programId&quot;: 7,
+            &quot;tags&quot;: [
+                &quot;doloribus&quot;,
+                &quot;molestiae&quot;,
+                &quot;fugit&quot;
+            ],
+            &quot;duration&quot;: 173,
+            &quot;expiryDate&quot;: &quot;2025-11-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Id accusantium error et sit ducimus qui. Sit velit nobis est illo. Molestias iusto quam quia autem fuga modi tenetur enim. Esse fuga optio esse ullam est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Illo consequuntur totam ipsum.&quot;,
+                &quot;Quaerat non magnam ut soluta libero inventore fugiat placeat.&quot;,
+                &quot;Consectetur ut sequi dolorem sit.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatibus neque facere cumque iste earum aut tempora.&quot;,
+                &quot;Soluta incidunt illum non.&quot;,
+                &quot;Odio aut doloribus vel fugiat accusamus ea.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 56,
+            &quot;latitude&quot;: &quot;-55.92808600&quot;,
+            &quot;longitude&quot;: &quot;28.56984200&quot;,
+            &quot;locationDescription&quot;: &quot;53344 Lakin Coves Suite 934\nLorenaborough, TN 88826&quot;,
+            &quot;benefits&quot;: [
+                &quot;Aperiam corporis rerum dolores.&quot;,
+                &quot;Ipsam iste repellendus aut rerum.&quot;,
+                &quot;Aut facilis repellat corporis molestiae similique accusantium.&quot;
+            ],
+            &quot;sectorId&quot;: 90,
+            &quot;extra&quot;: &quot;Provident vel aut est sapiente quia. Facere distinctio est et laborum corporis. Beatae laudantium occaecati rerum voluptatem dolorem nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;18&quot;,
+            &quot;title&quot;: &quot;Coil Winders Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Coil%20Winders%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quo rerum accusamus et. Nam sunt perferendis dolor illum eum. Eum quo quas eos quis nisi est quia.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 3,
+            &quot;programId&quot;: 6,
+            &quot;tags&quot;: [
+                &quot;nam&quot;,
+                &quot;libero&quot;,
+                &quot;ad&quot;
+            ],
+            &quot;duration&quot;: 313,
+            &quot;expiryDate&quot;: &quot;2025-10-18T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Provident iste eius consequatur ad. Expedita et velit consequuntur tempore consequatur perspiciatis. Quo excepturi quam in. Atque voluptas laudantium ut voluptas et illo numquam.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Alias ipsum eos suscipit ea dicta.&quot;,
+                &quot;Ab ullam temporibus ut dolorum sed.&quot;,
+                &quot;Vitae eum labore delectus ex voluptatem exercitationem rerum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut omnis assumenda consequatur occaecati placeat.&quot;,
+                &quot;Temporibus assumenda magnam explicabo velit officia fugit et ut.&quot;,
+                &quot;Aperiam et totam consequatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 55,
+            &quot;latitude&quot;: &quot;-76.43951800&quot;,
+            &quot;longitude&quot;: &quot;-173.29811800&quot;,
+            &quot;locationDescription&quot;: &quot;197 Schroeder Glen\nNew Theronburgh, CA 21169-7519&quot;,
+            &quot;benefits&quot;: [
+                &quot;Animi iste et temporibus asperiores porro aspernatur laudantium.&quot;,
+                &quot;Corporis provident rerum voluptas quia ut.&quot;,
+                &quot;Est adipisci illo et quaerat reprehenderit aut.&quot;
+            ],
+            &quot;sectorId&quot;: 89,
+            &quot;extra&quot;: &quot;Quos mollitia nisi facilis consectetur natus eos ut at. Pariatur labore atque dolor quam et. Reprehenderit saepe qui fugiat dicta dolore.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;17&quot;,
+            &quot;title&quot;: &quot;Trainer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Trainer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Incidunt sed iure beatae. Ipsum corrupti voluptates perspiciatis. Quia vel similique voluptatum omnis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 3,
+            &quot;programId&quot;: 6,
+            &quot;tags&quot;: [
+                &quot;natus&quot;,
+                &quot;culpa&quot;,
+                &quot;provident&quot;
+            ],
+            &quot;duration&quot;: 302,
+            &quot;expiryDate&quot;: &quot;2025-11-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolorum accusamus voluptates qui harum magnam. Voluptas et ex magnam eveniet. Officiis quibusdam at doloribus praesentium consequatur aliquam debitis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Voluptatem rem provident repudiandae at asperiores.&quot;,
+                &quot;Dolorum praesentium ducimus quod est.&quot;,
+                &quot;Velit modi sed quia magni.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolores autem aut distinctio est qui totam illum.&quot;,
+                &quot;Natus accusamus quia pariatur eos enim consectetur atque.&quot;,
+                &quot;Optio ut recusandae iusto et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 54,
+            &quot;latitude&quot;: &quot;-64.48329600&quot;,
+            &quot;longitude&quot;: &quot;151.05123900&quot;,
+            &quot;locationDescription&quot;: &quot;48202 German Plains Suite 403\nPearliehaven, UT 61467-4592&quot;,
+            &quot;benefits&quot;: [
+                &quot;Nobis porro quam molestiae sit dolores.&quot;,
+                &quot;Eaque cupiditate aut repellat qui sequi.&quot;,
+                &quot;Suscipit ullam excepturi corrupti.&quot;
+            ],
+            &quot;sectorId&quot;: 88,
+            &quot;extra&quot;: &quot;Distinctio dolorum earum laborum deleniti amet rem commodi. Quia nemo ad repellendus tempora iste. Et ad aliquam est cupiditate magnam. Repudiandae nostrum sapiente rerum nobis.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;16&quot;,
+            &quot;title&quot;: &quot;RN Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=RN%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Vel asperiores qui laborum omnis voluptatem voluptatibus rerum. Aut praesentium ipsa eius. Et aut at facere consequuntur enim labore. Corporis ducimus a nam. Ut hic quia dicta rerum.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 3,
+            &quot;programId&quot;: 6,
+            &quot;tags&quot;: [
+                &quot;unde&quot;,
+                &quot;enim&quot;,
+                &quot;suscipit&quot;
+            ],
+            &quot;duration&quot;: 68,
+            &quot;expiryDate&quot;: &quot;2026-02-16T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Iusto aperiam voluptatum voluptatem. Reiciendis voluptatum hic eum quod. Doloremque dolores itaque libero quod adipisci sit ab.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nemo natus nam alias exercitationem molestias rerum ut vel.&quot;,
+                &quot;Sit non velit possimus et eum culpa quia.&quot;,
+                &quot;Culpa fugiat aut fugiat pariatur ipsam.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Accusamus debitis aliquid magnam.&quot;,
+                &quot;Exercitationem ea voluptatem ab iste quia.&quot;,
+                &quot;Dicta vero nisi suscipit repellendus voluptatem sapiente et.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 53,
+            &quot;latitude&quot;: &quot;-66.79563800&quot;,
+            &quot;longitude&quot;: &quot;-4.60016200&quot;,
+            &quot;locationDescription&quot;: &quot;67443 Joseph Pass Apt. 618\nGrantville, CO 19658&quot;,
+            &quot;benefits&quot;: [
+                &quot;Rerum pariatur iure ut et quos sit quam ipsa.&quot;,
+                &quot;Et aut aliquam aspernatur sint.&quot;,
+                &quot;Et sit qui est qui.&quot;
+            ],
+            &quot;sectorId&quot;: 87,
+            &quot;extra&quot;: &quot;Iure ab aspernatur deserunt maiores in qui ut. Recusandae vel autem ipsa adipisci. Quis similique fuga sequi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;15&quot;,
+            &quot;title&quot;: &quot;Marine Oiler Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Marine%20Oiler%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Qui laboriosam iure vitae. Cupiditate ut consequatur minima natus. Provident optio ducimus quibusdam labore non velit. Aut harum deleniti incidunt illum et aliquid.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 3,
+            &quot;programId&quot;: 5,
+            &quot;tags&quot;: [
+                &quot;est&quot;,
+                &quot;dolor&quot;,
+                &quot;deleniti&quot;
+            ],
+            &quot;duration&quot;: 98,
+            &quot;expiryDate&quot;: &quot;2025-12-15T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Consequatur numquam et quisquam aut itaque. Qui dolore eos aliquid et dolorem. Quod est nihil aut corporis. Nobis omnis nihil cum sed consequatur est.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Ea corrupti sint odit labore consequuntur.&quot;,
+                &quot;Est reiciendis eveniet qui veniam sit.&quot;,
+                &quot;Itaque qui et tempora impedit aperiam unde.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Voluptatem aut nemo aut qui.&quot;,
+                &quot;Omnis velit iste reprehenderit quia.&quot;,
+                &quot;Sit nostrum vel in asperiores accusantium.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 52,
+            &quot;latitude&quot;: &quot;-55.28802700&quot;,
+            &quot;longitude&quot;: &quot;36.50944000&quot;,
+            &quot;locationDescription&quot;: &quot;777 Nichole Parkways\nNicolaborough, WV 32357-0192&quot;,
+            &quot;benefits&quot;: [
+                &quot;Est neque omnis officia voluptate eum.&quot;,
+                &quot;Et exercitationem vero porro eum autem omnis.&quot;,
+                &quot;Qui saepe excepturi tempore ipsa voluptatum voluptas eligendi adipisci.&quot;
+            ],
+            &quot;sectorId&quot;: 86,
+            &quot;extra&quot;: &quot;Suscipit recusandae cumque sit deserunt iusto vel exercitationem. Sunt ea porro iste sed repellendus minus. Ea voluptatem provident inventore deleniti et. Voluptate inventore dolorum sapiente deserunt numquam.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;14&quot;,
+            &quot;title&quot;: &quot;Woodworking Machine Setter Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Woodworking%20Machine%20Setter%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Laborum vel dolore voluptatem maiores accusamus quasi. Quo officia sed omnis commodi. Voluptatem repellendus quia eligendi enim sapiente vel corrupti. In perspiciatis saepe sed. Modi accusamus adipisci ea enim.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 3,
+            &quot;programId&quot;: 5,
+            &quot;tags&quot;: [
+                &quot;magnam&quot;,
+                &quot;voluptate&quot;,
+                &quot;ut&quot;
+            ],
+            &quot;duration&quot;: 328,
+            &quot;expiryDate&quot;: &quot;2025-11-27T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Sunt molestias id non ea culpa. Placeat incidunt ad sed veniam aliquam. Tenetur cum voluptas magni voluptas dicta sit. Aut aut perspiciatis fuga autem nam nihil.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Vitae enim distinctio nihil sunt.&quot;,
+                &quot;In deserunt quidem aut laborum.&quot;,
+                &quot;Hic dolores dolores praesentium et perferendis ut tenetur.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Eos dolores voluptates eveniet quasi sint.&quot;,
+                &quot;Ab dolorem voluptates dolor aperiam culpa.&quot;,
+                &quot;Qui tenetur officia dolor incidunt et impedit aliquid incidunt.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 51,
+            &quot;latitude&quot;: &quot;-15.38233100&quot;,
+            &quot;longitude&quot;: &quot;-41.64850900&quot;,
+            &quot;locationDescription&quot;: &quot;150 Osinski Stream\nNorth Mckayla, AR 03793&quot;,
+            &quot;benefits&quot;: [
+                &quot;Sint non culpa dicta ratione.&quot;,
+                &quot;Ab qui ratione illum dolor doloremque animi non corporis.&quot;,
+                &quot;A et dolores est praesentium.&quot;
+            ],
+            &quot;sectorId&quot;: 85,
+            &quot;extra&quot;: &quot;Optio dolores ipsum ut reprehenderit qui. Provident non rerum tempora temporibus. Veritatis qui ad saepe.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;13&quot;,
+            &quot;title&quot;: &quot;Credit Checkers Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Credit%20Checkers%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Molestiae temporibus totam adipisci. Corrupti laborum amet aut enim error odit. Sunt harum quidem et vero eveniet ut sunt.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 3,
+            &quot;programId&quot;: 5,
+            &quot;tags&quot;: [
+                &quot;sed&quot;,
+                &quot;sed&quot;,
+                &quot;ea&quot;
+            ],
+            &quot;duration&quot;: 282,
+            &quot;expiryDate&quot;: &quot;2026-02-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolorum molestiae enim et sequi suscipit eveniet et. Sint rerum deserunt laborum maiores fugit nihil iste. Debitis aspernatur placeat deleniti dolorem non eos error ducimus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quae modi est et qui voluptatem voluptas.&quot;,
+                &quot;Beatae aperiam iure sed omnis ipsa vero.&quot;,
+                &quot;Aut sapiente nemo commodi nostrum autem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut aut perferendis velit consequatur est et fugit.&quot;,
+                &quot;Architecto aut sed atque sequi veritatis beatae.&quot;,
+                &quot;Doloribus officiis consectetur a cum provident odio tenetur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 50,
+            &quot;latitude&quot;: &quot;45.02282800&quot;,
+            &quot;longitude&quot;: &quot;59.32384200&quot;,
+            &quot;locationDescription&quot;: &quot;337 Vesta Ramp Suite 896\nNew Janet, OH 33649-5059&quot;,
+            &quot;benefits&quot;: [
+                &quot;Tempore aspernatur eveniet sint omnis ad.&quot;,
+                &quot;Libero quis officiis consectetur a fugiat non.&quot;,
+                &quot;Aut dolorum velit quia ut.&quot;
+            ],
+            &quot;sectorId&quot;: 84,
+            &quot;extra&quot;: &quot;Officiis doloremque ut omnis est consequuntur doloribus. Fugiat aspernatur reiciendis corporis neque molestiae quidem.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;12&quot;,
+            &quot;title&quot;: &quot;Tool Sharpener Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Tool%20Sharpener%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut corporis sint voluptatem. Recusandae totam mollitia et sed enim et possimus. Voluptatibus distinctio voluptates dolorem non voluptas accusamus molestiae. Ex alias et aperiam itaque.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 2,
+            &quot;programId&quot;: 4,
+            &quot;tags&quot;: [
+                &quot;non&quot;,
+                &quot;itaque&quot;,
+                &quot;perferendis&quot;
+            ],
+            &quot;duration&quot;: 253,
+            &quot;expiryDate&quot;: &quot;2025-11-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Voluptatem aperiam quod minima dolore sed cum est. Suscipit omnis fuga et at aut qui voluptate. Dignissimos dolorem id quos natus repellendus neque ut.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Libero odio blanditiis voluptatem illo.&quot;,
+                &quot;Corporis et perspiciatis libero possimus ab eveniet suscipit alias.&quot;,
+                &quot;Sit ut asperiores quos minus qui eligendi mollitia.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Vel et quo aut incidunt voluptas.&quot;,
+                &quot;Eligendi aut laborum iusto voluptas sed.&quot;,
+                &quot;Fugit ducimus totam delectus iusto vel.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 49,
+            &quot;latitude&quot;: &quot;-23.07954000&quot;,
+            &quot;longitude&quot;: &quot;-123.04213200&quot;,
+            &quot;locationDescription&quot;: &quot;343 Harvey Brook\nNelsport, TX 31838&quot;,
+            &quot;benefits&quot;: [
+                &quot;Maxime et quae magni distinctio delectus non est.&quot;,
+                &quot;Laboriosam recusandae quia voluptas ea.&quot;,
+                &quot;Aspernatur quia non quidem et ducimus.&quot;
+            ],
+            &quot;sectorId&quot;: 83,
+            &quot;extra&quot;: &quot;Qui sit cupiditate ipsum ea accusantium non. Illo recusandae tenetur ut enim qui. Rerum recusandae aut eligendi facere.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;11&quot;,
+            &quot;title&quot;: &quot;Numerical Tool Programmer OR Process Control Programmer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Numerical%20Tool%20Programmer%20OR%20Process%20Control%20Programmer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eum qui asperiores tenetur magni ut dolores vel. A doloremque quos soluta quam recusandae aut quidem cupiditate. Labore aut possimus saepe debitis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 2,
+            &quot;programId&quot;: 4,
+            &quot;tags&quot;: [
+                &quot;aut&quot;,
+                &quot;sed&quot;,
+                &quot;ipsa&quot;
+            ],
+            &quot;duration&quot;: 314,
+            &quot;expiryDate&quot;: &quot;2026-03-12T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Dolor assumenda cum facere consequuntur. Maxime eos aspernatur repellendus incidunt adipisci quia velit illo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolorum pariatur aut officia quis officia fugit omnis quasi.&quot;,
+                &quot;Cupiditate perspiciatis expedita assumenda dicta voluptatem.&quot;,
+                &quot;Recusandae soluta odit dignissimos omnis dolor distinctio quasi blanditiis.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Saepe dicta exercitationem eaque.&quot;,
+                &quot;Non deleniti delectus harum.&quot;,
+                &quot;Quidem et dignissimos voluptas dolorem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 48,
+            &quot;latitude&quot;: &quot;20.06738700&quot;,
+            &quot;longitude&quot;: &quot;-86.40275700&quot;,
+            &quot;locationDescription&quot;: &quot;831 Madelynn Road Suite 815\nWest Murl, LA 61315-4638&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatem minus quae sunt repellendus deleniti fugiat.&quot;,
+                &quot;Ut debitis atque consequatur est neque alias reprehenderit.&quot;,
+                &quot;Mollitia eos dolorum impedit consequatur commodi id.&quot;
+            ],
+            &quot;sectorId&quot;: 82,
+            &quot;extra&quot;: &quot;In suscipit dolores quia harum laudantium repellendus omnis. Neque vel rem iusto nihil vel. Perspiciatis sed voluptatem porro explicabo nesciunt. Qui sit tempora inventore voluptatem accusamus delectus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;title&quot;: &quot;HR Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=HR%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Recusandae quasi quaerat voluptatum praesentium aut officiis. Temporibus nihil qui ab distinctio praesentium. Accusamus voluptatem quisquam consectetur. Excepturi omnis accusamus dolorum voluptates vel officia. Fugit dicta incidunt accusamus.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 2,
+            &quot;programId&quot;: 4,
+            &quot;tags&quot;: [
+                &quot;perspiciatis&quot;,
+                &quot;aperiam&quot;,
+                &quot;illum&quot;
+            ],
+            &quot;duration&quot;: 186,
+            &quot;expiryDate&quot;: &quot;2026-02-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Expedita ipsum sit totam voluptas. Animi deserunt voluptate est sequi ad enim. Nam cum vel laboriosam. Ea dicta itaque incidunt odio voluptas dolorem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Dolor adipisci explicabo excepturi voluptas distinctio.&quot;,
+                &quot;Voluptatibus voluptatem repellat accusantium.&quot;,
+                &quot;Optio dicta suscipit sapiente iste quas.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dicta vitae expedita fugit.&quot;,
+                &quot;Exercitationem a at non iste molestiae dignissimos vero.&quot;,
+                &quot;Saepe ab qui odit voluptas sed consequatur.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 47,
+            &quot;latitude&quot;: &quot;-86.69587800&quot;,
+            &quot;longitude&quot;: &quot;-70.23929900&quot;,
+            &quot;locationDescription&quot;: &quot;93290 Clovis Union\nBergstromtown, NM 46789&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ea id assumenda qui cumque tempora consequatur.&quot;,
+                &quot;Ipsum qui sunt voluptatem ut excepturi.&quot;,
+                &quot;Temporibus id est quod rerum.&quot;
+            ],
+            &quot;sectorId&quot;: 81,
+            &quot;extra&quot;: &quot;Quia est assumenda iste quo. Itaque autem ut facere quia temporibus est.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;title&quot;: &quot;Supervisor Fire Fighting Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Supervisor%20Fire%20Fighting%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ad incidunt magni nulla consequuntur sit. Optio quod temporibus distinctio et reprehenderit. Ut occaecati eaque commodi ab et consectetur. Repellat voluptatem iusto et nobis dolor consequatur blanditiis.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 2,
+            &quot;programId&quot;: 3,
+            &quot;tags&quot;: [
+                &quot;pariatur&quot;,
+                &quot;ab&quot;,
+                &quot;officia&quot;
+            ],
+            &quot;duration&quot;: 95,
+            &quot;expiryDate&quot;: &quot;2025-09-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Minus qui natus eveniet ex minima sit. Magni eos qui sunt expedita assumenda earum deserunt impedit. Sunt velit quidem id nisi dolorem eos qui.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nesciunt eveniet voluptas aut.&quot;,
+                &quot;Saepe animi soluta qui autem.&quot;,
+                &quot;Sed repellat magnam fuga quia cumque.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Corporis quod eum exercitationem et voluptatem rerum unde accusantium.&quot;,
+                &quot;Ipsam molestiae similique et.&quot;,
+                &quot;Quia et aut laudantium qui.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 46,
+            &quot;latitude&quot;: &quot;38.86306400&quot;,
+            &quot;longitude&quot;: &quot;64.59771800&quot;,
+            &quot;locationDescription&quot;: &quot;1983 Weissnat Plains\nNew Ara, NE 38590&quot;,
+            &quot;benefits&quot;: [
+                &quot;Ab distinctio aliquam quia non dolores magnam quod.&quot;,
+                &quot;Est harum ex aut inventore pariatur pariatur sunt est.&quot;,
+                &quot;Eum sit eum officia recusandae accusantium.&quot;
+            ],
+            &quot;sectorId&quot;: 80,
+            &quot;extra&quot;: &quot;Quod aliquid voluptatem repellendus quaerat. Deserunt ullam maxime incidunt dolor eos. Et autem nihil commodi ut suscipit cumque. Eius odit aut quia sed animi vel.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;title&quot;: &quot;HR Manager Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=HR%20Manager%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Voluptates perferendis consequatur culpa similique non est sed. Nam unde velit libero inventore accusantium.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 2,
+            &quot;programId&quot;: 3,
+            &quot;tags&quot;: [
+                &quot;aspernatur&quot;,
+                &quot;sit&quot;,
+                &quot;sapiente&quot;
+            ],
+            &quot;duration&quot;: 201,
+            &quot;expiryDate&quot;: &quot;2026-02-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Qui velit voluptatem voluptatem rem quos. Voluptatem dolorum sunt nemo aperiam aliquid. Laboriosam fugiat tempora exercitationem est doloremque ea quidem.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quo reprehenderit vel fugiat iure excepturi.&quot;,
+                &quot;Maxime amet ut asperiores nam.&quot;,
+                &quot;Iure suscipit molestias voluptas rerum aut facilis rerum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Aspernatur accusamus officiis ut ut est.&quot;,
+                &quot;Tenetur rem quos est libero consequatur sequi nostrum.&quot;,
+                &quot;Alias illum consequatur quisquam at aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 45,
+            &quot;latitude&quot;: &quot;-43.99422700&quot;,
+            &quot;longitude&quot;: &quot;-101.49323700&quot;,
+            &quot;locationDescription&quot;: &quot;2035 Jadyn Place Apt. 796\nLehnertown, OK 41666-4532&quot;,
+            &quot;benefits&quot;: [
+                &quot;Rerum possimus corporis ratione sunt sint nam et.&quot;,
+                &quot;Voluptatum vel aliquid est a qui voluptas.&quot;,
+                &quot;Quia consequatur voluptatem quod qui.&quot;
+            ],
+            &quot;sectorId&quot;: 79,
+            &quot;extra&quot;: &quot;Reprehenderit incidunt omnis totam delectus magni. Minima molestiae ut id. Similique quia nostrum aspernatur aspernatur neque odio. Rerum rerum cumque modi rerum repellendus minus.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;title&quot;: &quot;Command Control Center Specialist Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Command%20Control%20Center%20Specialist%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quo repellendus occaecati repudiandae fugiat dolorum. Velit quam accusantium et rerum praesentium autem. Fuga culpa ab perspiciatis molestiae voluptatibus eos.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 2,
+            &quot;programId&quot;: 3,
+            &quot;tags&quot;: [
+                &quot;optio&quot;,
+                &quot;sint&quot;,
+                &quot;rerum&quot;
+            ],
+            &quot;duration&quot;: 325,
+            &quot;expiryDate&quot;: &quot;2025-11-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Pariatur quia tempore est impedit eum illo velit qui. Sed labore et qui est ea porro quo. Eveniet ullam facilis est. Quia quisquam deleniti eius distinctio. Nam suscipit suscipit ut ad non.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Labore et cupiditate dolorem ratione vel inventore nobis.&quot;,
+                &quot;A fuga et quisquam autem.&quot;,
+                &quot;Rem quis id et voluptates.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Ut modi dolores cumque nihil.&quot;,
+                &quot;Eum at in non nobis illo ut incidunt.&quot;,
+                &quot;Exercitationem totam assumenda mollitia est dolorem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 44,
+            &quot;latitude&quot;: &quot;-23.88884700&quot;,
+            &quot;longitude&quot;: &quot;-127.13362700&quot;,
+            &quot;locationDescription&quot;: &quot;5749 Pacocha Road\nRobertshaven, IA 15341-1102&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptatum quo et animi ea quibusdam ut fugit nam.&quot;,
+                &quot;Aspernatur cum exercitationem nisi porro repudiandae.&quot;,
+                &quot;Optio qui eos consectetur est id hic.&quot;
+            ],
+            &quot;sectorId&quot;: 78,
+            &quot;extra&quot;: &quot;Rerum quisquam qui explicabo soluta omnis qui distinctio. Dolor eius molestiae excepturi sit voluptate et. Quasi ut eos non.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;title&quot;: &quot;Cutting Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Cutting%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Sequi perspiciatis ut ratione molestiae. Illo quae sunt dolore eaque fugit maxime ut fuga. Eos sed sunt nisi recusandae recusandae expedita libero. Corrupti enim qui unde magnam minima eaque.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 1,
+            &quot;programId&quot;: 2,
+            &quot;tags&quot;: [
+                &quot;consectetur&quot;,
+                &quot;velit&quot;,
+                &quot;in&quot;
+            ],
+            &quot;duration&quot;: 273,
+            &quot;expiryDate&quot;: &quot;2026-02-17T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Vero modi recusandae quia beatae nobis quam eos dolores. Blanditiis impedit omnis aliquid odit sint non dolores facere. Amet velit accusamus quibusdam temporibus quam at.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Nihil dolorum et nobis voluptas doloremque et.&quot;,
+                &quot;Voluptatum est id reiciendis.&quot;,
+                &quot;Non at quia quae a.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quidem nihil officiis eveniet officiis et aut.&quot;,
+                &quot;Unde dolore quis aut animi possimus veritatis.&quot;,
+                &quot;Nemo dolor architecto architecto nihil.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 43,
+            &quot;latitude&quot;: &quot;53.96986800&quot;,
+            &quot;longitude&quot;: &quot;161.26107500&quot;,
+            &quot;locationDescription&quot;: &quot;41674 Hickle Extensions\nLake Bonita, MD 22576&quot;,
+            &quot;benefits&quot;: [
+                &quot;Et adipisci ratione aliquid adipisci dignissimos molestiae.&quot;,
+                &quot;Corrupti quasi eos ipsa ut.&quot;,
+                &quot;Velit quaerat qui sed voluptates iure.&quot;
+            ],
+            &quot;sectorId&quot;: 77,
+            &quot;extra&quot;: &quot;Sint fugiat in magnam et. Consequatur laudantium autem ipsam velit temporibus architecto. Aperiam fuga eligendi voluptatum. Ipsam voluptatibus suscipit odio sunt aliquam et.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;title&quot;: &quot;Electrolytic Plating Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Electrolytic%20Plating%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Nihil maiores dolor fugiat reprehenderit nulla aspernatur. Iure et et labore atque. Perferendis ipsa quia occaecati eum consequatur soluta incidunt. Doloribus minus minima modi ad.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 1,
+            &quot;programId&quot;: 2,
+            &quot;tags&quot;: [
+                &quot;ea&quot;,
+                &quot;odio&quot;,
+                &quot;deleniti&quot;
+            ],
+            &quot;duration&quot;: 119,
+            &quot;expiryDate&quot;: &quot;2025-09-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Est qui in dignissimos voluptatibus officia velit quam. Sint est alias aliquam qui consequuntur. Ipsum omnis aut dolorum qui ea et autem. Atque minima dolorum numquam sit natus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Tenetur magni quidem vitae dolor.&quot;,
+                &quot;Sit voluptas quos numquam consequatur quia animi.&quot;,
+                &quot;Qui doloribus sint est voluptatibus sint.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Velit placeat recusandae ex magni.&quot;,
+                &quot;Soluta qui similique sit ut.&quot;,
+                &quot;Dolor et quo sed facere dolor quia voluptatem in.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 42,
+            &quot;latitude&quot;: &quot;19.32535200&quot;,
+            &quot;longitude&quot;: &quot;-105.38792500&quot;,
+            &quot;locationDescription&quot;: &quot;28320 Dicki Fort Suite 568\nEast Maud, ND 34878&quot;,
+            &quot;benefits&quot;: [
+                &quot;Alias facilis non qui ullam est similique.&quot;,
+                &quot;Nihil nesciunt aut consectetur et similique.&quot;,
+                &quot;Quo qui debitis repellat enim quo aliquam.&quot;
+            ],
+            &quot;sectorId&quot;: 76,
+            &quot;extra&quot;: &quot;Quas quos dolorem temporibus ipsum laborum harum quia suscipit. Et tempora earum doloribus atque quod officia adipisci.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;216&quot;,
+            &quot;title&quot;: &quot;Materials Inspector Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Materials%20Inspector%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Porro quia sint reiciendis mollitia. Nobis in et necessitatibus tempore et expedita maiores. Eum adipisci omnis rem mollitia.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 36,
+            &quot;programId&quot;: 72,
+            &quot;tags&quot;: [
+                &quot;ea&quot;,
+                &quot;fugit&quot;,
+                &quot;sunt&quot;
+            ],
+            &quot;duration&quot;: 87,
+            &quot;expiryDate&quot;: &quot;2025-10-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Laboriosam dolores non sed. Voluptatem quis consectetur impedit perspiciatis. Sed similique ducimus rerum aliquid nam nam at.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aut magni natus nobis quo.&quot;,
+                &quot;Excepturi ad explicabo omnis.&quot;,
+                &quot;Id aut sunt ad aut nisi necessitatibus voluptatem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Sequi deserunt aperiam rerum quas et et.&quot;,
+                &quot;Et voluptatibus qui ut voluptatibus voluptatem repudiandae cum.&quot;,
+                &quot;Commodi qui beatae id inventore aut.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 253,
+            &quot;latitude&quot;: &quot;9.24002200&quot;,
+            &quot;longitude&quot;: &quot;129.22992500&quot;,
+            &quot;locationDescription&quot;: &quot;7172 Hoyt Walk\nPort Gerardberg, ND 11445-7453&quot;,
+            &quot;benefits&quot;: [
+                &quot;Non sint sunt corporis nisi.&quot;,
+                &quot;Vitae at maxime aut ipsum esse.&quot;,
+                &quot;Asperiores laudantium corporis laborum vel sit et perferendis.&quot;
+            ],
+            &quot;sectorId&quot;: 287,
+            &quot;extra&quot;: &quot;Rerum at temporibus amet. Maxime repellendus occaecati voluptates ea dolores corporis. Sit reiciendis eos odio voluptates et et. Tenetur officiis numquam sint minus soluta voluptate.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;215&quot;,
+            &quot;title&quot;: &quot;Elementary and Secondary School Administrators Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Elementary%20and%20Secondary%20School%20Administrators%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Cum hic et praesentium provident. Aliquam quis ut voluptas necessitatibus asperiores nostrum rerum. Aut porro ullam libero in vero dignissimos.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 36,
+            &quot;programId&quot;: 72,
+            &quot;tags&quot;: [
+                &quot;voluptatibus&quot;,
+                &quot;et&quot;,
+                &quot;maxime&quot;
+            ],
+            &quot;duration&quot;: 178,
+            &quot;expiryDate&quot;: &quot;2025-11-29T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Laborum quod temporibus sed. Aperiam omnis iste est consequatur eum aut aut facilis. Officia praesentium et doloribus. Est qui molestiae mollitia eveniet.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Possimus perferendis ut quis et qui.&quot;,
+                &quot;Perspiciatis temporibus qui qui est ut possimus dolore.&quot;,
+                &quot;Quia unde repudiandae accusantium libero.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Porro aut alias aut vero.&quot;,
+                &quot;Reprehenderit tempore rem officiis possimus amet vitae.&quot;,
+                &quot;Magnam eveniet reiciendis omnis quis excepturi autem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 252,
+            &quot;latitude&quot;: &quot;-53.83557400&quot;,
+            &quot;longitude&quot;: &quot;78.29578000&quot;,
+            &quot;locationDescription&quot;: &quot;9504 Will Estates\nHudsonberg, HI 09099&quot;,
+            &quot;benefits&quot;: [
+                &quot;Atque voluptatem ea labore commodi non iste.&quot;,
+                &quot;Doloremque deserunt velit perspiciatis officia quod.&quot;,
+                &quot;Et quidem qui aut corrupti perspiciatis facilis velit.&quot;
+            ],
+            &quot;sectorId&quot;: 286,
+            &quot;extra&quot;: &quot;Quidem voluptas error dolores qui ut tempore. Molestias ad quas ad quia. Consequatur quia a aperiam quae natus natus officia. Iste nihil velit voluptatem ut sint ullam tenetur.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;214&quot;,
+            &quot;title&quot;: &quot;Computer Systems Analyst Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Computer%20Systems%20Analyst%20Opportunity&quot;,
+            &quot;description&quot;: &quot;In natus inventore amet nesciunt et sapiente excepturi. Tempore sint nihil id et amet natus quasi. Architecto aut mollitia eum quia atque harum.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 36,
+            &quot;programId&quot;: 72,
+            &quot;tags&quot;: [
+                &quot;pariatur&quot;,
+                &quot;nesciunt&quot;,
+                &quot;nihil&quot;
+            ],
+            &quot;duration&quot;: 118,
+            &quot;expiryDate&quot;: &quot;2025-10-06T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Accusantium harum at exercitationem. At qui itaque veniam necessitatibus possimus ullam totam. Similique dignissimos sed est sunt. Nihil dolorum molestiae dignissimos deserunt vel explicabo.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Minus perferendis molestiae illum ipsa perspiciatis vel.&quot;,
+                &quot;Sapiente architecto aliquid iste aut dolore aut laudantium.&quot;,
+                &quot;Officia rem quis esse incidunt sed.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quaerat sit rerum ut amet et et rerum.&quot;,
+                &quot;Inventore voluptate eos ut qui et praesentium eveniet.&quot;,
+                &quot;Hic minima amet dolor non aut aliquam eveniet maxime.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 251,
+            &quot;latitude&quot;: &quot;-23.41073400&quot;,
+            &quot;longitude&quot;: &quot;55.82098400&quot;,
+            &quot;locationDescription&quot;: &quot;23919 Emard Course Suite 507\nPort Chadhaven, VT 73161-9712&quot;,
+            &quot;benefits&quot;: [
+                &quot;Et beatae officia quas dolor.&quot;,
+                &quot;Nihil qui odio laboriosam non.&quot;,
+                &quot;Enim maxime autem pariatur perspiciatis maxime et eaque.&quot;
+            ],
+            &quot;sectorId&quot;: 285,
+            &quot;extra&quot;: &quot;Ducimus et corrupti officia quod consequuntur vero. Temporibus impedit inventore et. Ratione et esse iste velit.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;213&quot;,
+            &quot;title&quot;: &quot;Plating Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Plating%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Excepturi omnis accusantium et commodi occaecati rerum saepe dolore. Voluptatum suscipit et cum voluptatibus qui. Provident omnis accusamus aut tempora eos culpa.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 36,
+            &quot;programId&quot;: 71,
+            &quot;tags&quot;: [
+                &quot;placeat&quot;,
+                &quot;alias&quot;,
+                &quot;molestiae&quot;
+            ],
+            &quot;duration&quot;: 299,
+            &quot;expiryDate&quot;: &quot;2026-01-19T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ut libero quo inventore qui. Quaerat adipisci quo nam amet amet et quis. Provident non velit assumenda amet eligendi. Asperiores dicta nemo tenetur sunt quaerat.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Quod voluptatem magni non.&quot;,
+                &quot;Fuga debitis voluptatem accusamus aut rerum.&quot;,
+                &quot;Sunt adipisci porro et eos et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Unde quibusdam adipisci aut aut consequatur dolor.&quot;,
+                &quot;Consectetur dolorum non assumenda sit voluptatem est aspernatur rerum.&quot;,
+                &quot;Ratione et sit facere magni dolorem.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 250,
+            &quot;latitude&quot;: &quot;27.77079500&quot;,
+            &quot;longitude&quot;: &quot;97.01884000&quot;,
+            &quot;locationDescription&quot;: &quot;3468 Bahringer Vista\nSouth Jarodton, PA 15882&quot;,
+            &quot;benefits&quot;: [
+                &quot;Debitis fugiat quidem ipsum qui quaerat quis.&quot;,
+                &quot;Veniam eum id voluptatem voluptatum.&quot;,
+                &quot;Sunt libero architecto aut minus.&quot;
+            ],
+            &quot;sectorId&quot;: 284,
+            &quot;extra&quot;: &quot;Inventore enim repudiandae fuga distinctio et ut. In maiores quo vero beatae excepturi fugiat nisi laborum. Non praesentium atque nesciunt tempore est. Sunt qui aspernatur nostrum tenetur dolorum ut sint.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;212&quot;,
+            &quot;title&quot;: &quot;Interpreter OR Translator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Interpreter%20OR%20Translator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Consequatur enim quos sint earum nulla commodi. Voluptatum consequatur velit aut quas voluptatum. Id et ea sit. Eius labore est atque quibusdam neque consequatur libero.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 36,
+            &quot;programId&quot;: 71,
+            &quot;tags&quot;: [
+                &quot;qui&quot;,
+                &quot;et&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 199,
+            &quot;expiryDate&quot;: &quot;2025-12-23T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Iure reprehenderit ut sint nulla sint omnis repellendus. Quidem eveniet omnis tempore qui consequatur voluptatem magnam. Ut aut autem odio.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Eum eum eaque nobis mollitia eos et quo voluptas.&quot;,
+                &quot;Dolores aut optio qui reiciendis ab omnis.&quot;,
+                &quot;Quibusdam et quis quod velit et.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolores sed et non nobis alias.&quot;,
+                &quot;Quod culpa voluptatum et quas ut eius explicabo.&quot;,
+                &quot;Ullam vitae possimus ullam qui labore quaerat repellendus at.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 249,
+            &quot;latitude&quot;: &quot;62.79542800&quot;,
+            &quot;longitude&quot;: &quot;24.50431500&quot;,
+            &quot;locationDescription&quot;: &quot;920 VonRueden Forges\nPort Jairoview, CO 53190&quot;,
+            &quot;benefits&quot;: [
+                &quot;Rerum earum dolor atque aut eius vel tempore.&quot;,
+                &quot;Placeat fuga vel fugit sed rerum.&quot;,
+                &quot;Ipsa velit quasi minima ipsa ad voluptatibus qui.&quot;
+            ],
+            &quot;sectorId&quot;: 283,
+            &quot;extra&quot;: &quot;Autem ea omnis quibusdam impedit qui. Explicabo voluptas nisi at deleniti corporis. Consequatur sed sint impedit magni. Voluptatem eveniet debitis aliquam est eos tempora error.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;211&quot;,
+            &quot;title&quot;: &quot;Municipal Clerk Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Municipal%20Clerk%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Qui cum necessitatibus voluptatibus qui quia qui. Fuga dolorem natus at corrupti recusandae perferendis. Consequuntur libero quod possimus rerum. Eos doloremque et sed provident sint.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 36,
+            &quot;programId&quot;: 71,
+            &quot;tags&quot;: [
+                &quot;ratione&quot;,
+                &quot;aut&quot;,
+                &quot;sed&quot;
+            ],
+            &quot;duration&quot;: 335,
+            &quot;expiryDate&quot;: &quot;2026-01-02T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Fugit eum nostrum saepe eius. Ipsa qui aut asperiores dolorem. Ducimus eveniet eos praesentium.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Consequatur placeat repellendus velit ducimus est repudiandae ipsa.&quot;,
+                &quot;Ut beatae rerum repudiandae.&quot;,
+                &quot;Eos rerum aut soluta suscipit itaque consequatur laborum saepe.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Tempora minima quis sunt molestiae.&quot;,
+                &quot;Maiores ut temporibus aspernatur ut aut error.&quot;,
+                &quot;Numquam ut nobis dolorum nostrum iure enim blanditiis enim.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 248,
+            &quot;latitude&quot;: &quot;16.36106200&quot;,
+            &quot;longitude&quot;: &quot;61.97317300&quot;,
+            &quot;locationDescription&quot;: &quot;52162 Sidney Pine\nNorth Marcland, WY 39446&quot;,
+            &quot;benefits&quot;: [
+                &quot;Qui qui ut voluptas velit voluptatem inventore.&quot;,
+                &quot;Sed quia eos labore occaecati enim neque occaecati.&quot;,
+                &quot;Expedita ipsam occaecati eius totam esse.&quot;
+            ],
+            &quot;sectorId&quot;: 282,
+            &quot;extra&quot;: &quot;Pariatur sunt aut animi architecto quia quo. Explicabo rem consequatur quo nostrum libero quis. Tempore quia animi est nihil et consequatur.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;210&quot;,
+            &quot;title&quot;: &quot;Electronic Drafter Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Electronic%20Drafter%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Est voluptas eveniet ut. Numquam sit quia exercitationem libero nam. Quo itaque reiciendis quidem corrupti qui optio.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 35,
+            &quot;programId&quot;: 70,
+            &quot;tags&quot;: [
+                &quot;beatae&quot;,
+                &quot;est&quot;,
+                &quot;et&quot;
+            ],
+            &quot;duration&quot;: 80,
+            &quot;expiryDate&quot;: &quot;2026-02-11T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Perspiciatis sit voluptatem molestiae incidunt eius cum atque. Mollitia voluptatum corrupti maxime in consectetur. Earum alias autem quisquam ut dolorem suscipit eum.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Animi nostrum consequuntur sint officia.&quot;,
+                &quot;Ut repudiandae et cumque hic saepe quia.&quot;,
+                &quot;Ducimus fugit sunt vel et amet est nesciunt ducimus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Exercitationem qui ut non tempora rem totam rerum consectetur.&quot;,
+                &quot;Iste eum recusandae doloremque est qui.&quot;,
+                &quot;Et tenetur sint omnis dolores neque dolorum.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 247,
+            &quot;latitude&quot;: &quot;22.30730000&quot;,
+            &quot;longitude&quot;: &quot;81.98988600&quot;,
+            &quot;locationDescription&quot;: &quot;1676 Homenick View Suite 483\nNorth Michelefort, NV 86676&quot;,
+            &quot;benefits&quot;: [
+                &quot;Molestiae et voluptas nostrum repudiandae nam ut.&quot;,
+                &quot;Qui molestias culpa adipisci debitis et nostrum.&quot;,
+                &quot;Atque tenetur corporis quia ut.&quot;
+            ],
+            &quot;sectorId&quot;: 281,
+            &quot;extra&quot;: &quot;Accusamus totam facere nostrum qui. Recusandae a quia magni laborum non. Itaque incidunt iure qui harum asperiores ut.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;209&quot;,
+            &quot;title&quot;: &quot;Pest Control Worker Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Pest%20Control%20Worker%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Eligendi quaerat temporibus laboriosam et. Molestiae nulla ducimus eum adipisci et enim deserunt sequi. Sit illo labore occaecati quisquam id consequatur ullam.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 35,
+            &quot;programId&quot;: 70,
+            &quot;tags&quot;: [
+                &quot;placeat&quot;,
+                &quot;consequuntur&quot;,
+                &quot;cumque&quot;
+            ],
+            &quot;duration&quot;: 324,
+            &quot;expiryDate&quot;: &quot;2025-11-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Occaecati esse rerum impedit. Saepe quia qui nihil ut consectetur. Velit qui quos nisi ullam. Earum ad amet et quasi labore in.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Aut occaecati quae autem accusantium earum facere.&quot;,
+                &quot;Omnis incidunt sint minima possimus non.&quot;,
+                &quot;Eligendi at quia laborum laborum recusandae.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Et veritatis quisquam voluptatem.&quot;,
+                &quot;Rem nam maxime qui accusantium ut quos nihil.&quot;,
+                &quot;Deserunt blanditiis iusto amet impedit amet dolore sed.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 246,
+            &quot;latitude&quot;: &quot;-77.80676700&quot;,
+            &quot;longitude&quot;: &quot;-114.55270800&quot;,
+            &quot;locationDescription&quot;: &quot;454 Keebler Summit\nEast Maverickland, KY 78202-0755&quot;,
+            &quot;benefits&quot;: [
+                &quot;Unde omnis nihil et fuga nam.&quot;,
+                &quot;Nostrum laborum sed qui non quis tempore.&quot;,
+                &quot;Dignissimos corrupti adipisci mollitia sed tempora tenetur.&quot;
+            ],
+            &quot;sectorId&quot;: 280,
+            &quot;extra&quot;: &quot;Sed sequi et est ut repudiandae amet voluptatum. Nisi doloremque ad et deleniti odit consequuntur. Facere excepturi cupiditate eligendi recusandae. At esse rerum rerum nisi labore.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;208&quot;,
+            &quot;title&quot;: &quot;Buffing and Polishing Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Buffing%20and%20Polishing%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quidem non non velit. In sint ipsum tempore enim voluptatem quo. Nihil cumque distinctio et fugiat rerum beatae. Molestias expedita quis quod dolore facere voluptatem.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 35,
+            &quot;programId&quot;: 70,
+            &quot;tags&quot;: [
+                &quot;soluta&quot;,
+                &quot;corrupti&quot;,
+                &quot;at&quot;
+            ],
+            &quot;duration&quot;: 340,
+            &quot;expiryDate&quot;: &quot;2025-09-28T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Aut quae qui modi et rem. Eos fuga aut nam id ea voluptatum quidem consequatur. Ut ut minus sed tempore maiores sit. Quasi ut aut quia.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Esse voluptatem omnis nam et vel sapiente temporibus quidem.&quot;,
+                &quot;Quia ipsam laboriosam reiciendis et.&quot;,
+                &quot;Neque cum recusandae delectus est facilis architecto dolorem.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Dolores maiores minus asperiores voluptas nisi dolorem iure.&quot;,
+                &quot;Aut minima corporis aut modi nam.&quot;,
+                &quot;Ex necessitatibus tenetur qui rerum eum ipsa occaecati.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 245,
+            &quot;latitude&quot;: &quot;-75.87344100&quot;,
+            &quot;longitude&quot;: &quot;84.71364200&quot;,
+            &quot;locationDescription&quot;: &quot;795 Alda Courts\nMurraytown, GA 97456-8399&quot;,
+            &quot;benefits&quot;: [
+                &quot;Cum ullam consequatur quasi dolor quod sed est.&quot;,
+                &quot;Iusto reiciendis voluptatem voluptas adipisci quidem sed.&quot;,
+                &quot;Veritatis alias vel hic rerum quidem.&quot;
+            ],
+            &quot;sectorId&quot;: 279,
+            &quot;extra&quot;: &quot;Qui vel ut est aut. Nesciunt eius ut occaecati iure et tempora totam consequatur. Et odio sit nostrum facilis voluptas dolore. Laboriosam sit rerum quam ipsa rerum.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;207&quot;,
+            &quot;title&quot;: &quot;Aircraft Mechanics OR Aircraft Service Technician Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Aircraft%20Mechanics%20OR%20Aircraft%20Service%20Technician%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Quidem repellendus rem illo inventore omnis error. Quia asperiores perferendis ea sint nobis cupiditate. Culpa esse nobis et numquam facilis quod quis.&quot;,
+            &quot;status&quot;: &quot;active&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 35,
+            &quot;programId&quot;: 69,
+            &quot;tags&quot;: [
+                &quot;velit&quot;,
+                &quot;neque&quot;,
+                &quot;ipsa&quot;
+            ],
+            &quot;duration&quot;: 202,
+            &quot;expiryDate&quot;: &quot;2025-12-13T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Ut quasi magni libero maiores sapiente aliquid illo sunt. Sequi aut et eos suscipit corrupti. In adipisci reiciendis aut laboriosam perspiciatis.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Blanditiis nesciunt id repellat et.&quot;,
+                &quot;Excepturi reiciendis quia consectetur sit aliquid quaerat.&quot;,
+                &quot;Aut iste et non aperiam maxime molestiae mollitia.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Tempora qui quo ex sit rerum dolorum.&quot;,
+                &quot;Aut ipsum voluptas iure porro et quae earum laudantium.&quot;,
+                &quot;Expedita rem consequuntur ut dolorum culpa.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 244,
+            &quot;latitude&quot;: &quot;43.29473100&quot;,
+            &quot;longitude&quot;: &quot;85.84183700&quot;,
+            &quot;locationDescription&quot;: &quot;4042 Rebeka Meadow Suite 240\nNew Moisesside, AK 39559&quot;,
+            &quot;benefits&quot;: [
+                &quot;Perferendis ut nobis est est sapiente.&quot;,
+                &quot;Velit velit dolor accusantium aut adipisci molestias.&quot;,
+                &quot;Aspernatur magnam laudantium odio quas sint nam et.&quot;
+            ],
+            &quot;sectorId&quot;: 278,
+            &quot;extra&quot;: &quot;Voluptatem nesciunt cum ipsum eveniet harum voluptas. Aut necessitatibus et dolores nihil.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;206&quot;,
+            &quot;title&quot;: &quot;Astronomer Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Astronomer%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Nobis alias veniam est ullam rerum deserunt iste aspernatur. Sit et placeat labore facere sit vitae. Veritatis delectus placeat reprehenderit earum. Amet ipsum illo dignissimos. Officia illo accusantium quia minima.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 35,
+            &quot;programId&quot;: 69,
+            &quot;tags&quot;: [
+                &quot;totam&quot;,
+                &quot;non&quot;,
+                &quot;blanditiis&quot;
+            ],
+            &quot;duration&quot;: 245,
+            &quot;expiryDate&quot;: &quot;2025-10-07T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;Fugit voluptate sequi ducimus quisquam voluptatibus magni quas voluptas. Voluptas eaque et et aut. Possimus dolore iusto sunt quidem et. Aspernatur suscipit ipsum et maxime voluptatem aperiam accusamus.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Voluptatem et iure nostrum laboriosam.&quot;,
+                &quot;Sunt est reprehenderit et quis iure non delectus.&quot;,
+                &quot;Vel et voluptas consequuntur facere aut maiores eum.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Quae et fuga non beatae.&quot;,
+                &quot;Ea qui quidem eos ipsam.&quot;,
+                &quot;Ut sapiente quod deserunt sunt.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 243,
+            &quot;latitude&quot;: &quot;-77.61604200&quot;,
+            &quot;longitude&quot;: &quot;126.03820600&quot;,
+            &quot;locationDescription&quot;: &quot;86968 Jenkins Course\nEast Zakaryport, CO 30423-8878&quot;,
+            &quot;benefits&quot;: [
+                &quot;Voluptate vel dolores ut ducimus neque.&quot;,
+                &quot;Consequatur et vitae voluptatem deserunt fugit voluptatibus ea.&quot;,
+                &quot;Autem est sequi minus ipsam pariatur vitae.&quot;
+            ],
+            &quot;sectorId&quot;: 277,
+            &quot;extra&quot;: &quot;Architecto deserunt dolorem rerum pariatur. Quia ut officiis enim consequatur ut tempora iusto. Occaecati distinctio ea occaecati nisi.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+        },
+        {
+            &quot;type&quot;: &quot;opportunities&quot;,
+            &quot;id&quot;: &quot;205&quot;,
+            &quot;title&quot;: &quot;Extruding and Drawing Machine Operator Opportunity&quot;,
+            &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Extruding%20and%20Drawing%20Machine%20Operator%20Opportunity&quot;,
+            &quot;description&quot;: &quot;Ut quia quo mollitia odio vel delectus veritatis. Expedita non quasi ipsum architecto sunt. Officia exercitationem dolor modi et. Non accusamus enim modi pariatur aut quia.&quot;,
+            &quot;status&quot;: &quot;closed&quot;,
+            &quot;isFeatured&quot;: false,
+            &quot;organizationId&quot;: 35,
+            &quot;programId&quot;: 69,
+            &quot;tags&quot;: [
+                &quot;beatae&quot;,
+                &quot;molestias&quot;,
+                &quot;pariatur&quot;
+            ],
+            &quot;duration&quot;: 138,
+            &quot;expiryDate&quot;: &quot;2026-02-24T00:00:00.000000Z&quot;,
+            &quot;aboutTheRole&quot;: &quot;A qui corrupti dolore repudiandae repudiandae quia repellat adipisci. Modi aliquid qui quo consequuntur. Eaque ut voluptas tempora consectetur ducimus iste voluptatem. Enim porro dolor veritatis et minima earum optio.&quot;,
+            &quot;keyResponsibilities&quot;: [
+                &quot;Rerum maiores voluptate illum enim consequatur.&quot;,
+                &quot;Id aut sequi assumenda repudiandae eligendi nobis doloremque.&quot;,
+                &quot;Consectetur cupiditate qui accusamus.&quot;
+            ],
+            &quot;requiredSkills&quot;: [
+                &quot;Qui et doloremque deleniti debitis nemo.&quot;,
+                &quot;Aut dolorum a voluptatem est commodi in.&quot;,
+                &quot;Aperiam fugit possimus itaque ipsam ut libero aperiam.&quot;
+            ],
+            &quot;timeCommitment&quot;: [
+                &quot;5 hours per week&quot;,
+                &quot;3 months minimum&quot;,
+                &quot;Flexible schedule&quot;
+            ],
+            &quot;locationId&quot;: 242,
+            &quot;latitude&quot;: &quot;-87.73279700&quot;,
+            &quot;longitude&quot;: &quot;-112.83529300&quot;,
+            &quot;locationDescription&quot;: &quot;909 Breanne Island\nEast Madalineton, DE 76792&quot;,
+            &quot;benefits&quot;: [
+                &quot;Id sed aut dolores et fuga harum.&quot;,
+                &quot;Praesentium praesentium corporis quae.&quot;,
+                &quot;Veritatis beatae qui libero ab quod.&quot;
+            ],
+            &quot;sectorId&quot;: 276,
+            &quot;extra&quot;: &quot;Quia architecto eligendi qui nihil iste exercitationem. Aut mollitia et a porro repudiandae. Assumenda voluptatem officiis quibusdam iusto consectetur. Ut saepe dolor officia recusandae rerum optio vitae.&quot;,
+            &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
         }
-    ],
-    &quot;opportunities&quot;: []
+    ]
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -27036,7 +37618,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Neque et ab distinctio numquam in in corrupti et. Porro pariatur voluptatem et esse non. Omnis et ab iusto voluptates sequi corrupti incidunt earum. Quibusdam corporis enim ut velit sed molestias officia.\n\nPlaceat aut cupiditate sit aut. Distinctio in molestiae nemo tempore. Molestias rem quis iste nobis. Aut quis fugiat aut delectus amet.\n\nEa autem quo libero eveniet enim neque fugit. Accusamus nihil quidem ut hic doloremque voluptas. Aut quisquam facilis et molestiae ut voluptate consequatur. Consequatur voluptatibus quo suscipit officia animi sed rerum.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -27120,7 +37702,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Et voluptas assumenda est iure animi.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27139,7 +37721,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Recusandae natus in suscipit est et.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27200,7 +37782,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Qui modi accusamus ut suscipit. Dignissimos tenetur veritatis velit assumenda rerum aliquam. Cumque aut quo sit.\n\nEst esse vel quis et voluptatem et atque. Sed quia animi ut quia ratione sint est modi. Nulla ad consequatur ut nemo. Voluptatum animi omnis aut quod maxime soluta ducimus.\n\nExpedita saepe quod quas et. Est aut ducimus minima distinctio ullam vel. Veniam explicabo aperiam sint commodi eaque voluptatum accusantium.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -27284,7 +37866,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quo porro sit necessitatibus dolorem omnis recusandae iste est.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27303,7 +37885,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut aut aliquid amet sint voluptas.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27364,7 +37946,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Sit dolores magnam voluptas tenetur veritatis. Est reprehenderit ratione velit pariatur. Et incidunt laboriosam et sunt maiores. Ut nihil sit nam labore qui suscipit.\n\nUt modi dolor inventore hic nemo. Laborum ut voluptatem quae consectetur qui dolorem facilis. Atque excepturi autem sed similique et et dolore consectetur.\n\nDistinctio vitae impedit sed. Veniam sit quia aut repellat hic temporibus asperiores.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -27448,7 +38030,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptas magnam qui voluptatem velit qui.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27467,7 +38049,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptates ut voluptatem quos commodi aliquid voluptas.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27528,7 +38110,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Pariatur eius voluptatem fuga quis voluptate. Eligendi nemo harum illo harum autem velit. Maiores sit et illo numquam nisi aut et. Molestiae et deserunt reprehenderit ipsum.\n\nFugit molestiae ipsa voluptas neque est. Quo aspernatur dolor dolore consectetur. Consequuntur odio quia omnis dolores et voluptatem.\n\nVoluptas amet eveniet et magni. Possimus maxime sequi commodi iure. Et sapiente velit sapiente itaque laboriosam fugiat. Voluptatum sit quibusdam est exercitationem et consequatur aut. Nostrum nesciunt enim nobis voluptatem.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -27612,7 +38194,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Autem libero dolorum ut adipisci ullam aspernatur illo iste.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27631,7 +38213,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Eius deleniti et ut occaecati dolor omnis et laudantium.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27692,7 +38274,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Ipsam ut veritatis ipsum est sed illo officia. Ipsum ratione quae dicta praesentium soluta. Facere quo vel at facilis mollitia sequi fugiat. Et aut sint quisquam ea officiis impedit.\n\nAut maiores aut eum recusandae explicabo. Consequatur est aut beatae totam incidunt aliquid illo ad. Rerum facilis omnis qui voluptatem quia ut vel velit.\n\nNon explicabo dolorem consequuntur facilis quaerat sit. Nihil quam saepe blanditiis tenetur. Est sit cupiditate voluptates aliquam minima. Et sed rerum rerum ut et eos mollitia recusandae.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -27776,7 +38358,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut voluptatibus voluptas quis quaerat et.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27795,7 +38377,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Nisi nihil minima corrupti magni dolore distinctio.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27856,7 +38438,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Mollitia accusantium quam assumenda iure laudantium. Est ut repellendus distinctio veritatis voluptatibus. Dolores in nihil consequatur voluptates. Et et et quia autem nulla possimus.\n\nEst consequatur aut aspernatur. Nihil culpa unde officiis laborum. Sit saepe nihil placeat blanditiis odio pariatur. Voluptas voluptatem ad labore sed.\n\nAccusamus accusamus voluptatem soluta nesciunt et. Numquam dicta ratione quibusdam consectetur neque. Laudantium vel voluptas minus omnis.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -27940,7 +38522,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Dolor et necessitatibus accusamus voluptatem.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -27959,7 +38541,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut consectetur est rem reprehenderit iste ut.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28020,7 +38602,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Ad veniam nam aut non aut porro sint. Voluptas architecto consequatur officiis qui recusandae odit. Autem hic reprehenderit accusantium in ex exercitationem sint.\n\nOccaecati totam autem velit est pariatur ea et. Omnis ut aut quaerat ducimus iusto officia. Voluptatum earum optio fugit molestiae placeat. Molestiae neque quas et et sit quod.\n\nAut veritatis magni consequatur deleniti perspiciatis ipsam. Rem iusto numquam voluptas autem ipsam nam totam voluptatem. Mollitia omnis dolor nulla facere iste.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -28104,7 +38686,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Aliquam quis occaecati natus soluta fugiat.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28123,7 +38705,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Iure eius vel voluptas ut.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28184,7 +38766,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Quos alias reprehenderit inventore perferendis quasi voluptas ad. Non expedita harum non rerum magni.\n\nQuam ut quia cupiditate quos repellat quas et. Aut dolorem odio reiciendis omnis sequi non repudiandae. Quo minima consectetur natus accusantium ab autem error voluptatibus.\n\nDolor laboriosam sed voluptate saepe. Molestiae aut excepturi quasi nostrum. Qui laboriosam reiciendis illum et excepturi.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -28268,7 +38850,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Sequi quibusdam eaque qui velit.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28287,7 +38869,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quaerat culpa illo fuga accusamus et laboriosam incidunt.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28348,7 +38930,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Dolores ut repellat voluptate aut ipsam incidunt necessitatibus. Rem repellat vitae eum laborum ut adipisci. Ut sit non aut quo dolorem modi fugit. Non quia beatae numquam ut non.\n\nId quia ratione et eligendi explicabo quaerat. Quaerat cumque nesciunt rerum quo consequatur enim inventore. Consequuntur occaecati totam qui non perferendis.\n\nVeniam et cupiditate non possimus cumque reiciendis. Eaque ipsa excepturi ratione dignissimos vel illo. Dicta laudantium maiores dolore dolores incidunt reiciendis explicabo. Vitae nobis facere consequatur aperiam voluptas. Sit voluptatem optio enim non unde fuga consequatur.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -28432,7 +39014,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Omnis porro labore debitis est temporibus laudantium.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28451,7 +39033,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Magni sunt ut maiores nesciunt aut dolor.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28512,7 +39094,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Sequi cupiditate error qui consequatur. Et recusandae explicabo aliquam. Consequuntur et quia et ea corrupti sed. Dolores tempore quia itaque omnis. Ut eligendi nam quo laborum sit nemo ab.\n\nIure dolorem inventore qui sequi voluptatum ex. Illo non molestias sed omnis est deleniti quis. Ipsam blanditiis assumenda fugiat tenetur. Optio dolores aut impedit esse. Molestias corporis quas et a qui.\n\nOdit sed voluptas a dolor mollitia. Dolorum voluptatibus dolore exercitationem molestiae. Maiores sunt rerum quas id culpa delectus. Magnam alias et sequi aliquid. Sit enim ipsam accusamus est ratione.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -28596,7 +39178,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Assumenda voluptatibus ut qui vitae maiores.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28615,7 +39197,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Nesciunt et deleniti animi et magnam reiciendis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28676,7 +39258,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Modi eaque commodi blanditiis temporibus et odio. Necessitatibus porro consequuntur perspiciatis qui commodi et. Illum quasi enim eum quis.\n\nConsequatur ducimus cumque molestiae corporis exercitationem soluta voluptas. Cum fugiat quis soluta et earum omnis. Vitae consequatur vel veniam.\n\nIusto iste asperiores aut et consequatur sed quidem. Et eos perspiciatis optio ullam vel assumenda officiis. Ut dicta porro alias aut animi.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -28760,7 +39342,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptate est iusto eos molestiae illo et.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28779,7 +39361,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut nostrum esse quidem et quos temporibus.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28840,7 +39422,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Et unde dolor et sit facere. Voluptatem dolore dolorem placeat omnis consequatur accusamus possimus. Commodi consectetur minima blanditiis praesentium qui adipisci facere.\n\nAut debitis voluptatem placeat fugit possimus. Omnis qui ut quisquam incidunt. A officia perspiciatis eos libero in dolorem. Accusamus quasi vel mollitia.\n\nConsectetur molestiae molestias rerum reiciendis. Amet magni fugit adipisci quia. Soluta aut veniam ipsam iure minima. Eum voluptatem molestiae nihil veritatis consequuntur.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -28924,7 +39506,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Aut et est ut qui hic amet.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -28943,7 +39525,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Repudiandae iure dolor labore quis porro voluptatibus.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29004,7 +39586,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Esse quaerat dolorem quasi sit culpa ex ad. Est sed omnis vitae omnis harum alias voluptatibus. Voluptates mollitia minima similique sapiente distinctio repudiandae. A mollitia necessitatibus nesciunt iure voluptate dolor nostrum incidunt.\n\nIusto velit veniam culpa ut et dolorum dolorem. Voluptates perferendis nemo unde porro numquam dolores. Est repellendus adipisci et rerum labore delectus. Officia amet molestias asperiores et.\n\nDoloribus dolorum voluptas a nobis aspernatur dolorem ipsam. Laborum inventore at qui. Voluptatem et et et voluptatem repellendus excepturi et et.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29088,7 +39670,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ex molestiae expedita illo.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29107,7 +39689,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Possimus deserunt veritatis deserunt temporibus assumenda sed molestiae.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29168,7 +39750,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Rerum delectus quam voluptatem reiciendis ut. Veniam accusamus aut et veniam sunt. Corporis consectetur autem eum molestias qui.\n\nQuia nostrum aperiam aut nihil fuga in omnis. Itaque maiores non a possimus maxime. Natus consequatur beatae sunt minima.\n\nRecusandae reprehenderit ut ut. Corrupti non distinctio dicta fugit. Sequi sit eveniet est voluptatem. Qui aperiam quae sed harum qui et.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29252,7 +39834,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quae mollitia consequatur ipsam facilis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29271,7 +39853,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Dolorem veritatis et nihil similique omnis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29332,7 +39914,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 2,
                 &quot;content&quot;: &quot;Id alias modi perspiciatis quis corrupti. Atque consectetur voluptate quae. Laborum id temporibus odit asperiores vero sint accusamus quidem. Nostrum voluptatum quia sint doloribus rerum.\n\nRem ut omnis animi nobis sunt. Quo consequatur pariatur enim illo itaque. Voluptatem sunt illum quia alias quasi. Et aut maxime amet. Accusamus enim omnis nesciunt numquam.\n\nNon incidunt distinctio et ea. Repellat sunt eos velit. Velit non odit labore expedita quia quidem nihil. Delectus voluptatem omnis consequatur asperiores sit ut.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29416,7 +39998,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quibusdam porro perspiciatis excepturi atque voluptatum.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29435,7 +40017,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Consequuntur et ipsa doloremque aut possimus veniam.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29496,7 +40078,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Sit omnis delectus amet et itaque quaerat laborum asperiores. Et officiis sed consequuntur. Enim non omnis nihil aut eos impedit. Eligendi quo placeat omnis aut nisi aut.\n\nDeleniti dolorem eos sunt nostrum. Dolor maxime aliquid sint consequatur. Occaecati fugiat ex recusandae quae expedita. Nesciunt dolorem illo ut. Ut ducimus autem provident impedit.\n\nOptio blanditiis sed beatae esse. Sequi necessitatibus et ut harum ducimus architecto et. Iusto iusto adipisci voluptatem tempore doloribus. Mollitia et suscipit ab quia est. Porro natus mollitia aut sit quisquam esse.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29559,7 +40141,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Officiis quo ut qui necessitatibus fugit nesciunt exercitationem nemo.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29587,7 +40169,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Harum recusandae sapiente similique qui quidem sit saepe fugiat. Magnam et quam non veritatis natus aut debitis. Culpa ducimus aliquam magnam non ab magni. Vero laudantium voluptatem eos et.\n\nBeatae tenetur rem quibusdam laborum velit saepe. Quidem quo labore animi est modi recusandae dolorem et. Totam consequatur adipisci eligendi culpa laudantium facilis sed.\n\nVoluptas quia et doloremque quas. Cupiditate fuga atque voluptates eos ducimus quidem maxime. Totam magnam maiores harum quisquam aut.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29650,7 +40232,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Voluptatem cumque voluptatibus omnis laudantium ratione maxime voluptatem occaecati.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29678,7 +40260,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Perspiciatis quia hic quas animi molestiae dolores. Error pariatur odit ut. Alias soluta voluptates sed quidem modi.\n\nCumque quia dolor nobis et officia est. Occaecati dolor sed odit molestiae omnis sed.\n\nOccaecati et est modi sunt est debitis quis. Quidem et similique mollitia quas.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29741,7 +40323,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Quaerat alias aspernatur dolores esse accusantium iste est.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29769,7 +40351,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;A enim reprehenderit voluptatum. Error temporibus nisi maiores odio et minus. Occaecati autem et sapiente.\n\nOmnis consequuntur dolorum asperiores nobis. Ut praesentium inventore illo quos. Molestias sed voluptas non ipsa.\n\nNulla est sed officiis vitae. Autem laudantium ex non temporibus incidunt inventore ut. Ut eaque nostrum natus illum ipsa consequuntur velit. Expedita consequatur officia fuga.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29832,7 +40414,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Occaecati eveniet laboriosam tenetur.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29860,7 +40442,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Ut sunt nostrum sed qui. Omnis ipsum quia qui quis tempora velit. Voluptatibus quis sed enim officiis consequatur autem. Et at neque architecto assumenda.\n\nOptio quam nam saepe. Quam in accusantium qui voluptas enim iusto sunt. Dolorem in porro eos odit vel esse qui beatae. Et est ut dolore unde.\n\nQui aliquam soluta quis cupiditate est sit eum praesentium. Dicta incidunt perspiciatis tenetur cupiditate ut a facere modi. Illum officiis iste id rerum.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -29923,7 +40505,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Et omnis fugiat ea nisi omnis.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -29951,7 +40533,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Magni officiis accusantium et consectetur ab. Et deleniti corporis enim perferendis. Eum dolores minus ex corporis nemo dolores veritatis.\n\nEa tempora quisquam dolor nesciunt omnis sint. Aut aliquid rerum in unde exercitationem sapiente officia. Ut dignissimos modi quia voluptas. Aliquam repellendus rerum et est ipsa ut officiis.\n\nSequi eaque voluptates voluptatibus sint illo nam. Repudiandae illum inventore excepturi non iusto numquam. Maxime sit explicabo ut quibusdam.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30014,7 +40596,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Id placeat minima unde et qui.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -30042,7 +40624,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Eos quod perferendis ut facere commodi architecto porro. Est hic ut accusamus et earum amet. Expedita ratione eius non. Illo quo veritatis fugit.\n\nAut nesciunt reprehenderit cum quo non aliquam consequatur. Tempore nihil et labore architecto minus. Tenetur eum omnis explicabo. Et fugit incidunt itaque.\n\nAnimi rerum et id perspiciatis rerum voluptatem tenetur. Voluptatum cumque dolores alias amet nobis. Quia quibusdam voluptates explicabo at. Officia doloremque vitae aut voluptate assumenda.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30105,7 +40687,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Natus cupiditate nihil vel aut.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -30133,7 +40715,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Ut rerum dolorem ut perspiciatis eveniet praesentium omnis. Eaque incidunt explicabo rem soluta nihil aut. Eligendi repudiandae et soluta dolor. Voluptates vel fugit non voluptatibus. Occaecati quisquam non iure iste dolorem.\n\nId atque cupiditate exercitationem pariatur quaerat cum. Numquam ut placeat error aut. Veritatis quas est eaque exercitationem. Voluptate nesciunt nulla libero perspiciatis.\n\nMolestiae explicabo similique maiores et veritatis porro quisquam doloremque. Voluptatem id eum tenetur dolor excepturi. Iusto officia et quia officiis. Repudiandae enim eligendi delectus quo non corporis non expedita.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30196,7 +40778,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Cupiditate non repellat velit dicta perspiciatis repellendus voluptatem.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -30224,7 +40806,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Saepe maxime molestias repellendus sed consequatur et magnam. Non explicabo eaque aspernatur veritatis deserunt tempore. Vel fuga a velit sed voluptatem sit rerum consequatur. In repudiandae dolorem praesentium.\n\nAut fugiat neque sit saepe a fugiat laudantium. Molestiae veniam vel quo. Error ea distinctio in voluptas vel.\n\nEnim omnis aut dolores. A qui ad eius distinctio quia magnam. Quae commodi tenetur necessitatibus consequuntur ipsa ratione magni.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30287,7 +40869,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Dignissimos ad repellendus modi fugiat.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -30315,7 +40897,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 1,
                 &quot;content&quot;: &quot;Architecto natus sunt natus sunt assumenda. Non provident enim quidem sit. Nostrum maiores soluta consequuntur architecto quia.\n\nEt dolore incidunt accusamus eligendi facere aperiam. Et provident quod et esse enim ea.\n\nAnimi ipsum minima ut error enim. Non provident veniam beatae esse sit harum repudiandae.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30378,7 +40960,7 @@ response.json()</code></pre>                                        </div>
                         &quot;attributes&quot;: {
                             &quot;content&quot;: &quot;Ut quae sit eum.&quot;,
                             &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                            &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                            &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                             &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
                         },
                         &quot;relationships&quot;: {
@@ -30406,7 +40988,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Quasi a quos ipsa tempore dolorem id cupiditate. Aliquam consequatur velit quas possimus necessitatibus eum. Qui et voluptatem nulla et accusantium nam ad praesentium. Atque aspernatur magni quidem tempore. Consequatur neque quis accusantium.\n\nPerferendis aut nihil cum. Quis vitae et ut doloribus sed. Nihil nisi incidunt tenetur.\n\nQuasi qui illo ut aut. Illum molestiae qui ad est sunt saepe. Qui et harum vero cum velit. Maiores eos tempora voluptatem placeat.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30486,7 +41068,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Delectus sunt exercitationem nisi ducimus voluptatem. Odit a earum architecto deleniti qui. Dignissimos ex officia ipsam tempore minus fuga.\n\nIpsam at maiores eligendi placeat autem. Hic perspiciatis harum aut sint molestiae.\n\nDolorem placeat sapiente quisquam quisquam. Ducimus cumque corrupti debitis repellendus et quisquam sit. Doloremque beatae alias quaerat possimus a.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30566,7 +41148,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Voluptate eos aliquid voluptas iusto vitae facilis voluptas tenetur. Rerum possimus necessitatibus saepe quos reiciendis voluptas quis. Et molestiae voluptatem voluptatibus sed blanditiis voluptates.\n\nSimilique et et id officiis sunt ut. Modi dolorem sequi vel voluptas exercitationem rerum quam. Nihil omnis voluptas ut distinctio pariatur.\n\nIpsa autem ullam maxime nisi ex et sint voluptatem. Nihil repellat qui voluptatem rerum. Quis rem ad vitae delectus reprehenderit sint commodi.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30646,7 +41228,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Et distinctio officiis non dolorem aut atque iure. Soluta doloribus quasi hic est impedit.\n\nId provident nulla dolores provident. Neque accusamus perferendis excepturi ad quaerat architecto.\n\nQuos voluptatum in qui impedit quia veritatis aut qui. Nobis est consequatur rem culpa reiciendis. Eligendi dicta totam omnis blanditiis. Ut saepe quia repellendus aut atque facilis labore.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30726,7 +41308,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Occaecati soluta quas dicta aliquid. Iusto qui ipsum iste non quo aut vel.\n\nIn officia sit alias sunt. Quidem impedit ex odio velit ut sunt quibusdam. Quia sit iste rerum est. Aut reprehenderit aut labore.\n\nEx harum dolorem officiis deleniti. Delectus sequi nesciunt aut nemo asperiores magni. Minus quis illo ducimus explicabo iure dolores nihil et. Accusamus nihil voluptatum ut temporibus quas ad amet.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30806,7 +41388,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Quia voluptas qui dolor sint temporibus repellat earum. Quia ut sit ut doloribus maxime blanditiis temporibus. Possimus eligendi quibusdam autem voluptates.\n\nCorporis ipsum repellat magnam hic vero voluptatem quidem. Placeat porro id exercitationem dolores qui omnis dolorem. Et pariatur aut debitis. Asperiores quia consequatur illum ut id autem velit.\n\nEos aspernatur odit beatae tempore. Eum vero sed consequuntur maxime iure. Et nihil delectus voluptates perferendis.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30886,7 +41468,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Ut et voluptate totam ad at mollitia. Labore et sint a natus sunt inventore vel. Labore et ut ratione et molestias. Totam voluptatem voluptatem at sit.\n\nQuisquam nihil cum ut in quo quasi ullam. Mollitia eaque soluta quod quaerat. Qui reprehenderit est perspiciatis dolorum omnis voluptas doloremque dolor. Debitis quos ut quod veniam.\n\nPossimus aliquid distinctio totam placeat ipsum vel. In qui iure nostrum culpa occaecati dolore aperiam atque. Repudiandae rerum necessitatibus asperiores magnam esse. Non autem omnis sed ut corporis occaecati.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -30966,7 +41548,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Et dolores qui voluptates quo velit in. Sunt distinctio ducimus qui soluta sint dolores nihil. Consequatur mollitia veritatis quo corporis. Corrupti eveniet vero est qui.\n\nExplicabo accusantium aut ut perferendis. Excepturi neque est at beatae aspernatur quasi amet.\n\nBlanditiis tenetur qui dolorem facere id error. Sunt qui assumenda libero porro. Atque ut suscipit est architecto qui ipsam.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -31046,7 +41628,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Quaerat debitis molestiae rerum ea ipsa sunt. Neque deleniti quis assumenda sunt vel est. Optio qui sunt et assumenda natus.\n\nIllo odio voluptatibus in laudantium adipisci doloribus rerum. Tempore et dignissimos est distinctio magnam. Qui aut minus vel voluptates tempora alias ipsa. Omnis suscipit ratione harum eum.\n\nVoluptas voluptates earum sequi aut repellendus et rerum. Ab odio dolor corrupti vel. Quaerat earum atque fuga et.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -31126,7 +41708,7 @@ response.json()</code></pre>                                        </div>
                 &quot;commentCount&quot;: 0,
                 &quot;content&quot;: &quot;Est est sequi perspiciatis ipsa dicta. Sunt similique necessitatibus saepe sed eveniet voluptate ex. Nemo architecto sunt in explicabo.\n\nUt consectetur repudiandae fugiat aut. Ut excepturi quasi dignissimos atque. A suscipit ipsum est rerum et eum quam. Et consequatur voluptate natus ad.\n\nId alias quibusdam esse quaerat. Dolorem voluptates dignissimos iure id. Dolore molestiae iusto dolorem nisi beatae vel.&quot;,
                 &quot;createdAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;,
-                &quot;createdAtReadable&quot;: &quot;15 minutes ago&quot;,
+                &quot;createdAtReadable&quot;: &quot;2 hours ago&quot;,
                 &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07+00:00&quot;
             },
             &quot;relationships&quot;: {
@@ -32920,24 +43502,35 @@ response.json()</code></pre>                                        </div>
         },
         {
             &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;72&quot;,
+            &quot;id&quot;: &quot;4&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Earum iusto dignissimos odio nisi dolor.&quot;,
-                &quot;description&quot;: &quot;Similique praesentium porro at unde rerum ut ratione. Quo minus rerum temporibus ex. Officiis laboriosam et natus mollitia qui harum. Aut exercitationem sint libero ut ea iusto et.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Earum%20iusto%20dignissimos%20odio%20nisi%20dolor.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+                &quot;title&quot;: &quot;Voluptatem aut consequuntur autem et dolorem voluptatem voluptate.&quot;,
+                &quot;description&quot;: &quot;Sapiente ex sed exercitationem molestiae eius eos animi. Numquam cumque qui magnam sit atque laboriosam laboriosam. Earum voluptas et est reiciendis ut tempora. Commodi odit sit porro dolore aspernatur porro iste.&quot;,
+                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptatem%20aut%20consequuntur%20autem%20et%20dolorem%20voluptatem%20voluptate.&quot;,
+                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
             }
         },
         {
             &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;71&quot;,
+            &quot;id&quot;: &quot;3&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Consectetur dolores deserunt dolore ducimus illo est perspiciatis.&quot;,
-                &quot;description&quot;: &quot;Sapiente consectetur et rerum provident quisquam iusto esse. A ducimus et adipisci ut non velit. Illum vitae rerum est. Magni itaque doloribus accusantium beatae iure quia ducimus.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Consectetur%20dolores%20deserunt%20dolore%20ducimus%20illo%20est%20perspiciatis.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
+                &quot;title&quot;: &quot;Ullam ut earum ut impedit asperiores.&quot;,
+                &quot;description&quot;: &quot;Culpa ea ut voluptate et nihil. Molestiae maxime amet repellat harum vel qui. Consequatur iusto qui harum consequatur sed.&quot;,
+                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ullam%20ut%20earum%20ut%20impedit%20asperiores.&quot;,
+                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+            }
+        },
+        {
+            &quot;type&quot;: &quot;programs&quot;,
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;attributes&quot;: {
+                &quot;title&quot;: &quot;Omnis in sit aliquid et et ad explicabo.&quot;,
+                &quot;description&quot;: &quot;Dolorem repellendus tempore nemo aut totam aut illum. Tempore magnam quae unde est asperiores architecto optio. Aut occaecati unde et odit. Qui numquam pariatur ipsam consequatur maxime.&quot;,
+                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Omnis%20in%20sit%20aliquid%20et%20et%20ad%20explicabo.&quot;,
+                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
+                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
             }
         },
         {
@@ -33668,35 +44261,24 @@ response.json()</code></pre>                                        </div>
         },
         {
             &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;4&quot;,
+            &quot;id&quot;: &quot;72&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Voluptatem aut consequuntur autem et dolorem voluptatem voluptate.&quot;,
-                &quot;description&quot;: &quot;Sapiente ex sed exercitationem molestiae eius eos animi. Numquam cumque qui magnam sit atque laboriosam laboriosam. Earum voluptas et est reiciendis ut tempora. Commodi odit sit porro dolore aspernatur porro iste.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Voluptatem%20aut%20consequuntur%20autem%20et%20dolorem%20voluptatem%20voluptate.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+                &quot;title&quot;: &quot;Earum iusto dignissimos odio nisi dolor.&quot;,
+                &quot;description&quot;: &quot;Similique praesentium porro at unde rerum ut ratione. Quo minus rerum temporibus ex. Officiis laboriosam et natus mollitia qui harum. Aut exercitationem sint libero ut ea iusto et.&quot;,
+                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Earum%20iusto%20dignissimos%20odio%20nisi%20dolor.&quot;,
+                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
             }
         },
         {
             &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;3&quot;,
+            &quot;id&quot;: &quot;71&quot;,
             &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Ullam ut earum ut impedit asperiores.&quot;,
-                &quot;description&quot;: &quot;Culpa ea ut voluptate et nihil. Molestiae maxime amet repellat harum vel qui. Consequatur iusto qui harum consequatur sed.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Ullam%20ut%20earum%20ut%20impedit%20asperiores.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
-            }
-        },
-        {
-            &quot;type&quot;: &quot;programs&quot;,
-            &quot;id&quot;: &quot;2&quot;,
-            &quot;attributes&quot;: {
-                &quot;title&quot;: &quot;Omnis in sit aliquid et et ad explicabo.&quot;,
-                &quot;description&quot;: &quot;Dolorem repellendus tempore nemo aut totam aut illum. Tempore magnam quae unde est asperiores architecto optio. Aut occaecati unde et odit. Qui numquam pariatur ipsam consequatur maxime.&quot;,
-                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Omnis%20in%20sit%20aliquid%20et%20et%20ad%20explicabo.&quot;,
-                &quot;createdAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;,
-                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:07.000000Z&quot;
+                &quot;title&quot;: &quot;Consectetur dolores deserunt dolore ducimus illo est perspiciatis.&quot;,
+                &quot;description&quot;: &quot;Sapiente consectetur et rerum provident quisquam iusto esse. A ducimus et adipisci ut non velit. Illum vitae rerum est. Magni itaque doloribus accusantium beatae iure quia ducimus.&quot;,
+                &quot;cover&quot;: &quot;https://placehold.co/400x225.png?text=Consectetur%20dolores%20deserunt%20dolore%20ducimus%20illo%20est%20perspiciatis.&quot;,
+                &quot;createdAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;,
+                &quot;updatedAt&quot;: &quot;2025-09-13T13:07:09.000000Z&quot;
             }
         }
     ]
