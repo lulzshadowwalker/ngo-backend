@@ -12,6 +12,8 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 
 class ProgramResource extends Resource
 {
@@ -37,6 +39,11 @@ class ProgramResource extends Resource
             ->schema([
                 Forms\Components\Section::make('Program Details')
                     ->schema([
+                        SpatieMediaLibraryFileUpload::make('cover')
+                            ->collection(Program::MEDIA_COLLECTION_COVER)
+                            ->image()
+                            ->required(),
+
                         Forms\Components\TextInput::make('title')
                             ->label('Title')
                             ->required()
@@ -64,6 +71,12 @@ class ProgramResource extends Resource
     {
         return $table
             ->columns([
+                SpatieMediaLibraryImageColumn::make('cover')
+                    ->collection(Program::MEDIA_COLLECTION_COVER)
+                    ->label('Cover')
+                    ->height(50)
+                    ->width(100),
+
                 Tables\Columns\TextColumn::make('title')
                     ->searchable()
                     ->sortable()

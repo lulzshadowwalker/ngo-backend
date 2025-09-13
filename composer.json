@@ -9,6 +9,7 @@
         "php": "^8.2",
         "cyrildewit/eloquent-viewable": "^7.0",
         "filament/filament": "^3.3",
+        "filament/spatie-laravel-media-library-plugin": "^3.2",
         "google/apiclient": "^2.18",
         "knuckleswtf/scribe": "^5.3",
         "laravel/framework": "^12.0",

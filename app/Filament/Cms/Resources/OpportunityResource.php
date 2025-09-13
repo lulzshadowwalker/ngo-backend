@@ -15,6 +15,8 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 
 class OpportunityResource extends Resource
 {
@@ -40,6 +42,11 @@ class OpportunityResource extends Resource
             ->schema([
                 Forms\Components\Section::make('Basic Information')
                     ->schema([
+                        SpatieMediaLibraryFileUpload::make('cover')
+                            ->collection(Opportunity::MEDIA_COLLECTION_COVER)
+                            ->image()
+                            ->required(),
+
                         Forms\Components\TextInput::make('title')
                             ->label('Title')
                             ->required()
@@ -191,6 +198,12 @@ class OpportunityResource extends Resource
     {
         return $table
             ->columns([
+                SpatieMediaLibraryImageColumn::make('cover')
+                    ->collection(Opportunity::MEDIA_COLLECTION_COVER)
+                    ->label('Cover')
+                    ->height(50)
+                    ->width(100),
+
                 Tables\Columns\TextColumn::make('title')
                     ->searchable()
                     ->sortable()

@@ -13,13 +13,16 @@ use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Builder;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
+use Illuminate\Database\Eloquent\Casts\Attribute;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 use Laravel\Scout\Searchable;
 use Spatie\Translatable\HasTranslations;
 
 #[ObservedBy(PostObserver::class)]
-class Post extends Model implements Viewable
+class Post extends Model implements Viewable, HasMedia
 {
-    use HasFactory, InteractsWithViews, Searchable, BelongsToOrganization, HasTranslations;
+    use HasFactory, InteractsWithViews, Searchable, BelongsToOrganization, HasTranslations, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
@@ -93,5 +96,37 @@ class Post extends Model implements Viewable
             'sector_id' => $this->sector_id,
             'created_at' => $this->created_at?->timestamp,
         ];
+    }
+
+    const MEDIA_COLLECTION_COVER = 'cover';
+
+    public function registerMediaCollections(): void
+    {
+        $fallback = 'https://placehold.co/400x225.png?text=' . str_replace(' ', '%20', $this->title);
+
+        $this->addMediaCollection(self::MEDIA_COLLECTION_COVER)
+            ->singleFile()
+            ->useFallbackUrl($fallback);
+    }
+
+    /**
+     * Get the cover URL.
+     */
+    public function cover(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_COVER) ?:
+                null
+        );
+    }
+
+    /**
+     * Get the cover file.
+     */
+    public function coverFile(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
+        );
     }
 }

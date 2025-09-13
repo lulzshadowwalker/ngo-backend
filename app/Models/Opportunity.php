@@ -14,12 +14,15 @@ use Spatie\Translatable\HasTranslations;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+use Illuminate\Database\Eloquent\Casts\Attribute;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 use Laravel\Scout\Searchable;
 
 #[ObservedBy(OpportunityObserver::class)]
-class Opportunity extends Model implements Viewable
+class Opportunity extends Model implements Viewable, HasMedia
 {
-    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews;
+    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
@@ -138,5 +141,37 @@ class Opportunity extends Model implements Viewable
             'tags_ar' => $this->getTranslation('tags', 'ar'),
             'created_at' => $this->created_at?->timestamp,
         ];
+    }
+
+    const MEDIA_COLLECTION_COVER = 'cover';
+
+    public function registerMediaCollections(): void
+    {
+        $fallback = 'https://placehold.co/400x225.png?text=' . str_replace(' ', '%20', $this->title);
+
+        $this->addMediaCollection(self::MEDIA_COLLECTION_COVER)
+            ->singleFile()
+            ->useFallbackUrl($fallback);
+    }
+
+    /**
+     * Get the cover URL.
+     */
+    public function cover(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_COVER) ?:
+                null
+        );
+    }
+
+    /**
+     * Get the cover file.
+     */
+    public function coverFile(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
+        );
     }
 }

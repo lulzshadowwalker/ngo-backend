@@ -10,8 +10,8 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 
 class PostResource extends Resource
 {
@@ -23,6 +23,10 @@ class PostResource extends Resource
     {
         return $form
             ->schema([
+                SpatieMediaLibraryFileUpload::make('cover')
+                    ->collection(Post::MEDIA_COLLECTION_COVER)
+                    ->image()
+                    ->required(),
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->translatable(),
@@ -37,6 +41,11 @@ class PostResource extends Resource
     {
         return $table
             ->columns([
+                SpatieMediaLibraryImageColumn::make('cover')
+                    ->collection(Post::MEDIA_COLLECTION_COVER)
+                    ->label('Cover')
+                    ->height(50)
+                    ->width(100),
                 Tables\Columns\TextColumn::make('title')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('views_count')

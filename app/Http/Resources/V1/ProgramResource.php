@@ -20,6 +20,7 @@ class ProgramResource extends JsonResource
             'attributes' => [
                 'title' => $this->title,
                 'description' => $this->description,
+                'cover' => $this->cover,
                 'createdAt' => $this->created_at,
                 'updatedAt' => $this->updated_at,
             ],

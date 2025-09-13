@@ -19,6 +19,7 @@ class OpportunityResource extends JsonResource
             'type' => 'opportunities',
             'id' => (string) $this->id,
             'title' => $this->title,
+            'cover' => $this->cover,
             'description' => $this->description,
             'status' => $this->status,
             'isFeatured' => $this->is_featured,
