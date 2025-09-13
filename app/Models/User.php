@@ -119,10 +119,54 @@ class User extends Authenticatable implements HasMedia, FilamentUser
         return $this->hasMany(Follow::class);
     }
 
-    public function followingOrganizations()
+
+
+    /**
+     * Get organizations that this user is following (cleaner approach)
+     */
+    public function followedOrganizations()
     {
-        return $this->belongsToMany(Organization::class, 'follows', 'user_id', 'organization_id')
-            ->withTimestamps();
+        return $this->hasManyThrough(
+            Organization::class,
+            Follow::class,
+            'user_id',
+            'id',
+            'id',
+            'followable_id'
+        )->where('follows.followable_type', Organization::class);
+    }
+
+    /**
+     * Follow an organization or individual
+     */
+    public function follow($followable)
+    {
+        return $this->follows()->firstOrCreate([
+            'followable_id' => $followable->id,
+            'followable_type' => get_class($followable),
+        ]);
+    }
+
+    /**
+     * Unfollow an organization or individual
+     */
+    public function unfollow($followable)
+    {
+        return $this->follows()
+            ->where('followable_id', $followable->id)
+            ->where('followable_type', get_class($followable))
+            ->delete();
+    }
+
+    /**
+     * Check if user is following a specific entity
+     */
+    public function isFollowing($followable): bool
+    {
+        return $this->follows()
+            ->where('followable_id', $followable->id)
+            ->where('followable_type', get_class($followable))
+            ->exists();
     }
 
     public function preferences(): HasOne

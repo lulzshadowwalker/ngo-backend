@@ -28,8 +28,8 @@ class IndividualResource extends JsonResource
                 'location' => LocationResource::make($this->location),
                 'skills' => SkillResource::collection($this->skills),
                 'volunteeringInterests' => VolunteeringInterestResource::collection($this->volunteeringInterests),
-                'applications' => ApplicationResource::collection($this->applications),
-                'following' => OrganizationResource::collection($this->user->followingOrganizations),
+                'applications' => ApplicationResource::collection($this->user->applications),
+                'following' => OrganizationResource::collection($this->user->followedOrganizations),
             ],
         ];
     }
