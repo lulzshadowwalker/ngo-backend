@@ -178,7 +178,7 @@ class OpportunityResource extends Resource
 
                 Forms\Components\Section::make('Additional Information')
                     ->schema([
-                        Forms\Components\RichEditor::make('extra')
+                        Forms\Components\MarkdownEditor::make('extra')
                             ->label('Extra Information')
                             ->helperText('Any additional information you want to include')
                             ->columnSpanFull()
