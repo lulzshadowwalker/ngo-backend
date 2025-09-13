@@ -3,7 +3,7 @@
 namespace Tests\Feature\Http\Controllers\Api;
 
 use App\Enums\Language;
-use App\Http\Resources\UserPreferencesResource;
+use App\Http\Resources\V1\UserPreferencesResource;
 use App\Models\User;
 use App\Models\UserPreferences;
 use Illuminate\Foundation\Testing\RefreshDatabase;

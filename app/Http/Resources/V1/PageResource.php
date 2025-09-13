@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Resources;
+namespace App\Http\Resources\V1;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class AuthTokenResource extends JsonResource
+class PageResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -15,11 +15,12 @@ class AuthTokenResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'type' => 'auth-token',
-            'id' => $this->accessToken,
+            'type' => 'page',
+            'id' => (string) $this->id,
             'attributes' => [
-                'token' => $this->accessToken,
-                'role' => $this->role->value,
+                'title' => $this->title,
+                'slug' => $this->slug,
+                'content' => $this->content,
             ],
         ];
     }

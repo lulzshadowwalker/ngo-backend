@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\UpdateUserPreferencesRequest;
-use App\Http\Resources\UserPreferencesResource;
+use App\Http\Resources\V1\UserPreferencesResource;
 use Illuminate\Support\Facades\Auth;
 
 class UserPreferencesController extends Controller

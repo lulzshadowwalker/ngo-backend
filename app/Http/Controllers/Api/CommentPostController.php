@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\StorePostCommentRequest;
-use App\Http\Resources\CommentResource;
-use App\Http\Resources\PostResource;
+use App\Http\Resources\V1\CommentResource;
+use App\Http\Resources\V1\PostResource;
 use App\Models\Post;
 
 //  TODO: Move requests and resources into v1/

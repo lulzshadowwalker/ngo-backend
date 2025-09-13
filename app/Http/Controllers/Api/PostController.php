@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Filters\PostFilter;
 use App\Http\Requests\V1\SearchPostRequest;
-use App\Http\Resources\PostResource;
+use App\Http\Resources\V1\PostResource;
 use App\Models\Post;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 

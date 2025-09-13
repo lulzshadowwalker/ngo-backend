@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Enums\Role;
 use App\Http\Controllers\Controller;
-use App\Http\Resources\AuthTokenResource;
+use App\Http\Resources\V1\AuthTokenResource;
 use App\Support\AccessToken;
 use Illuminate\Http\Request;
 

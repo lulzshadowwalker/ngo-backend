@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\LocationResource;
+use App\Http\Resources\V1\LocationResource;
 use App\Models\Location;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 

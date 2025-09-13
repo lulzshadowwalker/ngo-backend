@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Enums\Role;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\StoreRegisterOrganizationRequest;
-use App\Http\Resources\AuthTokenResource;
+use App\Http\Resources\V1\AuthTokenResource;
 use App\Models\User;
 use App\Support\AccessToken;
 use Illuminate\Support\Facades\DB;

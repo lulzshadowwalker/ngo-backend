@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\CommentResource;
+use App\Http\Resources\V1\CommentResource;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 

@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\SkillResource;
+use App\Http\Resources\V1\SkillResource;
 use App\Models\Skill;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;

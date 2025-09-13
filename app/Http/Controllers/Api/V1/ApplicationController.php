@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\ApplicationStatus;
 use App\Http\Controllers\Controller;
-use App\Http\Resources\ApplicationResource;
+use App\Http\Resources\V1\ApplicationResource;
 use App\Models\Application;
 use App\Models\ApplicationForm;
 use App\Models\ApplicationResponse;

@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\SupportTicketResource;
+use App\Http\Resources\V1\SupportTicketResource;
 use App\Models\SupportTicket;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;

@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\IndividualResource;
+use App\Http\Resources\V1\IndividualResource;
 use Exception;
-// use App\Http\Resources\ClientResource;
+// use App\Http\Resources\V1\ClientResource;
 
 class ProfileController extends Controller
 {

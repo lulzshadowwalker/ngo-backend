@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\SearchOrganizationRequest;
-use App\Http\Resources\OrganizationResource;
+use App\Http\Resources\V1\OrganizationResource;
 use App\Models\Organization;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 

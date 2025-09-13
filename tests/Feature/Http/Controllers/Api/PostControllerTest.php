@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\PostResource;
+use App\Http\Resources\V1\PostResource;
 use App\Models\Post;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;

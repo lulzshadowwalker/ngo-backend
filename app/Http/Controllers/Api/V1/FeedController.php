@@ -4,9 +4,9 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\SearchFeedRequest;
-use App\Http\Resources\OpportunityResource;
-use App\Http\Resources\OrganizationResource;
-use App\Http\Resources\ProgramResource;
+use App\Http\Resources\V1\OpportunityResource;
+use App\Http\Resources\V1\OrganizationResource;
+use App\Http\Resources\V1\ProgramResource;
 use App\Models\Organization;
 use App\Models\Program;
 use App\Models\Opportunity;

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Resources;
+namespace App\Http\Resources\V1;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class ProgramResource extends JsonResource
+class UserPreferencesResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -15,11 +15,12 @@ class ProgramResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'type' => 'programs',
+            'type' => 'user-preferences',
             'id' => (string) $this->id,
             'attributes' => [
-                'title' => $this->title,
-                'description' => $this->description,
+                'language' => $this->language,
+                'emailNotifications' => $this->email_notifications,
+                'pushNotifications' => $this->push_notifications,
                 'createdAt' => $this->created_at,
                 'updatedAt' => $this->updated_at,
             ],

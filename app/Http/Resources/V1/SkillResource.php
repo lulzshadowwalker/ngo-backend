@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Resources;
+namespace App\Http\Resources\V1;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class LikeResource extends JsonResource
+class SkillResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,12 +16,14 @@ class LikeResource extends JsonResource
     public function toArray($request)
     {
         return [
-            "type" => "likes",
+            "type" => "skills",
             "id" => (string) $this->id,
             "attributes" => [
-                "createdAt" =>  $this->created_at->toIso8601String(),
-                "updatedAt" =>  $this->updated_at->toIso8601String(),
+                "name" => $this->name,
+                "createdAt" => $this->created_at->toIso8601String(),
+                "updatedAt" => $this->updated_at->toIso8601String(),
             ],
+            "relationships" => (object) [],
         ];
     }
 }

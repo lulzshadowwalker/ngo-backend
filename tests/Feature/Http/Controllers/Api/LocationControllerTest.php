@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\LocationResource;
+use App\Http\Resources\V1\LocationResource;
 use App\Models\Location;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;

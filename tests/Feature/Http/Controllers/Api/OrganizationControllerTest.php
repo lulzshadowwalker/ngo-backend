@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\OrganizationResource;
+use App\Http\Resources\V1\OrganizationResource;
 use App\Models\Organization;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -55,7 +55,7 @@ class OrganizationControllerTest extends TestCase
         $user = User::factory()->create();
         $this->actingAs($user);
         $organization = Organization::factory()->create();
-        
+
         // Create a follow relationship using the Follow model
         $organization->follows()->create(['user_id' => $user->id]);
 

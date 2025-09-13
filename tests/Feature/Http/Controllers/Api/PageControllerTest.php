@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\PageResource;
+use App\Http\Resources\V1\PageResource;
 use App\Models\Page;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;

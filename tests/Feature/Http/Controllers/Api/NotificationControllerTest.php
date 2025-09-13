@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Http\Controllers\Api;
 
-use App\Http\Resources\NotificationResource;
+use App\Http\Resources\V1\NotificationResource;
 use App\Models\User;
 use App\Notifications\FakeDatabaseNotification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
