@@ -47,6 +47,7 @@ class OpportunityResource extends JsonResource
                 return [
                     'id' => $this->organization->id,
                     'name' => $this->organization->name,
+                    'logo' => $this->organization->logo,
                     'bio' => $this->whenNotNull($this->organization->bio),
                     'website' => $this->whenNotNull($this->organization->website),
                     'locationId' => $this->whenNotNull($this->organization->location_id),

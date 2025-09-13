@@ -8,9 +8,11 @@ use App\Models\Organization;
 use App\Models\Sector;
 use Carbon\Carbon;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -21,9 +23,9 @@ class OrganizationResource extends Resource
     protected static ?string $model = Organization::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-building-office';
-    
+
     protected static ?string $navigationGroup = 'User Management';
-    
+
     protected static ?int $navigationSort = 2;
 
     public static function getNavigationBadge(): ?string
@@ -35,7 +37,7 @@ class OrganizationResource extends Resource
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::count();
-        
+
         if ($count === 0) return 'danger';
         if ($count <= 25) return 'warning';
         return 'success';
@@ -80,11 +82,17 @@ class OrganizationResource extends Resource
                     ->description('Basic organization information and identity')
                     ->aside()
                     ->schema([
+                        SpatieMediaLibraryFileUpload::make('logo')
+                            ->collection(Organization::MEDIA_COLLECTION_LOGO)
+                            ->image()
+                            ->required(),
+
                         Forms\Components\TextInput::make('name')
                             ->required()
                             ->placeholder('Enter organization name')
                             ->live(onBlur: true)
-                            ->afterStateUpdated(fn (string $context, $state, Forms\Set $set) => 
+                            ->afterStateUpdated(
+                                fn(string $context, $state, Forms\Set $set) =>
                                 $context === 'create' ? $set('slug', Str::slug($state)) : null
                             ),
 
@@ -120,13 +128,13 @@ class OrganizationResource extends Resource
                                     ->placeholder('Describe this sector...')
                                     ->rows(3),
                             ]),
-                            
+
                         Forms\Components\Select::make('location_id')
                             ->label('Location')
                             ->relationship('location', 'city')
                             ->searchable()
                             ->preload()
-                            ->getOptionLabelFromRecordUsing(fn (Location $record): string => "{$record->city}, {$record->country}")
+                            ->getOptionLabelFromRecordUsing(fn(Location $record): string => "{$record->city}, {$record->country}")
                             ->placeholder('Select location')
                             ->createOptionForm([
                                 Forms\Components\TextInput::make('city')
@@ -155,6 +163,11 @@ class OrganizationResource extends Resource
     {
         return $table
             ->columns([
+                SpatieMediaLibraryImageColumn::make('logo')
+                    ->collection(Organization::MEDIA_COLLECTION_LOGO)
+                    ->label('Logo')
+                    ->circular(),
+
                 Tables\Columns\TextColumn::make('name')
                     ->searchable()
                     ->sortable()
@@ -183,13 +196,14 @@ class OrganizationResource extends Resource
                     ->label('Location')
                     ->searchable()
                     ->sortable()
-                    ->formatStateUsing(fn ($record): string => 
+                    ->formatStateUsing(
+                        fn($record): string =>
                         $record->location ? "{$record->location->city}, {$record->location->country}" : 'Not specified'
                     ),
 
                 Tables\Columns\TextColumn::make('website')
                     ->searchable()
-                    ->url(fn ($record) => $record->website)
+                    ->url(fn($record) => $record->website)
                     ->openUrlInNewTab()
                     ->icon('heroicon-o-globe-alt')
                     ->limit(30)
@@ -233,14 +247,14 @@ class OrganizationResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->since()
-                    ->tooltip(fn ($state): string => $state->format('M j, Y g:i A')),
+                    ->tooltip(fn($state): string => $state->format('M j, Y g:i A')),
 
                 Tables\Columns\TextColumn::make('updated_at')
                     ->label('Last Updated')
                     ->dateTime()
                     ->sortable()
                     ->since()
-                    ->tooltip(fn ($state): string => $state->format('M j, Y g:i A'))
+                    ->tooltip(fn($state): string => $state->format('M j, Y g:i A'))
                     ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
@@ -255,16 +269,17 @@ class OrganizationResource extends Resource
                     ->multiple()
                     ->preload()
                     ->searchable()
-                    ->getOptionLabelFromRecordUsing(fn (Location $record): string => "{$record->city}, {$record->country}"),
+                    ->getOptionLabelFromRecordUsing(fn(Location $record): string => "{$record->city}, {$record->country}"),
 
                 Tables\Filters\Filter::make('has_website')
                     ->label('Has Website')
-                    ->query(fn (Builder $query): Builder => $query->whereNotNull('website'))
+                    ->query(fn(Builder $query): Builder => $query->whereNotNull('website'))
                     ->toggle(),
 
                 Tables\Filters\Filter::make('popular_organizations')
                     ->label('Popular (10+ Followers)')
-                    ->query(fn (Builder $query): Builder => 
+                    ->query(
+                        fn(Builder $query): Builder =>
                         $query->whereHas('follows', function (Builder $query) {
                             $query->havingRaw('COUNT(*) >= 10');
                         })
@@ -273,7 +288,7 @@ class OrganizationResource extends Resource
 
                 Tables\Filters\Filter::make('active_organizations')
                     ->label('Active (Has Posts)')
-                    ->query(fn (Builder $query): Builder => $query->has('posts'))
+                    ->query(fn(Builder $query): Builder => $query->has('posts'))
                     ->toggle(),
 
                 Tables\Filters\Filter::make('created_at')
@@ -287,11 +302,11 @@ class OrganizationResource extends Resource
                         return $query
                             ->when(
                                 $data['created_from'],
-                                fn (Builder $query, $date): Builder => $query->whereDate('created_at', '>=', $date),
+                                fn(Builder $query, $date): Builder => $query->whereDate('created_at', '>=', $date),
                             )
                             ->when(
                                 $data['created_until'],
-                                fn (Builder $query, $date): Builder => $query->whereDate('created_at', '<=', $date),
+                                fn(Builder $query, $date): Builder => $query->whereDate('created_at', '<=', $date),
                             );
                     })
                     ->indicateUsing(function (array $data): array {
@@ -316,7 +331,7 @@ class OrganizationResource extends Resource
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
-                    
+
                     Tables\Actions\BulkAction::make('export_organizations')
                         ->label('Export Organizations')
                         ->icon('heroicon-o-document-arrow-down')

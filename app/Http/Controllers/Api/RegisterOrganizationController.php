@@ -6,6 +6,7 @@ use App\Enums\Role;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\StoreRegisterOrganizationRequest;
 use App\Http\Resources\V1\AuthTokenResource;
+use App\Models\Organization;
 use App\Models\User;
 use App\Support\AccessToken;
 use Illuminate\Support\Facades\DB;
@@ -59,6 +60,9 @@ class RegisterOrganizationController extends Controller
             if ($request->avatar()) {
                 $user->addMedia($request->avatar())
                     ->toMediaCollection(User::MEDIA_COLLECTION_AVATAR);
+
+                $organization->addMedia($request->avatar())
+                    ->toMediaCollection(Organization::MEDIA_COLLECTION_LOGO);
             }
 
             $accessToken = $user->createToken(config('app.name'))->plainTextToken;

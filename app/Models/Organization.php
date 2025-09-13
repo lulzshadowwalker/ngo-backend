@@ -10,12 +10,15 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Auth;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+use Illuminate\Support\Str;
 use Laravel\Scout\Searchable;
 
 #[ObservedBy(OrganizationObserver::class)]
-class Organization extends Model
+class Organization extends Model implements HasMedia
 {
-    use HasFactory, Searchable;
+    use HasFactory, Searchable, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
@@ -107,5 +110,37 @@ class Organization extends Model
             'sector_id' => $this->sector_id,
             'location_id' => $this->location_id,
         ];
+    }
+
+    const MEDIA_COLLECTION_LOGO = 'logo';
+
+    public function registerMediaCollections(): void
+    {
+        $name = Str::replace(" ", "+", $this->name);
+
+        $this->addMediaCollection(self::MEDIA_COLLECTION_LOGO)
+            ->singleFile()
+            ->useFallbackUrl("https://ui-logos.com/api/?name={$name}");
+    }
+
+    /**
+     * Get the logo URL.
+     */
+    public function logo(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_LOGO) ?:
+                null
+        );
+    }
+
+    /**
+     * Get the logo file.
+     */
+    public function logoFile(): Attribute
+    {
+        return Attribute::get(
+            fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_LOGO) ?: null
+        );
     }
 }
