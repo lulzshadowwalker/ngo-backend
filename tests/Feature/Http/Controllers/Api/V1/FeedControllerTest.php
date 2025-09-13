@@ -18,7 +18,6 @@ class FeedControllerTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->seed();
     }
 
     public function test_following_feed_returns_posts_from_followed_organizations_for_authenticated_user()

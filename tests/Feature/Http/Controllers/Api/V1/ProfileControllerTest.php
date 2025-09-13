@@ -23,7 +23,6 @@ class ProfileControllerTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->seed();
         Storage::fake('public');
     }
 

@@ -8,7 +8,7 @@ use Laravel\Scout\EngineManager;
 class ScoutImportAll extends Command
 {
     protected $signature = 'scout:import-all';
-    protected $description = 'Import all models configured for Laravel Scout';
+    protected $description = 'Index and import all models configured for Laravel Scout';
 
     public function handle()
     {
