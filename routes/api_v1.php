@@ -23,6 +23,7 @@ use App\Http\Controllers\Api\V1\ApplicationController;
 use App\Http\Controllers\Api\V1\FeedController;
 use App\Http\Controllers\Api\V1\OpportunityController;
 use App\Http\Controllers\Api\V1\ProgramController;
+use App\Http\Controllers\Api\V1\VolunteeringInterestController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/auth/register/individuals', [RegisterIndividualController::class, 'store'])->name('api.v1.auth.register.individuals');
@@ -50,6 +51,9 @@ Route::delete('/organizations/{organization:slug}/follows', [FollowOrganizationC
 
 Route::get('/skills', [SkillController::class, 'index'])->name('api.v1.skills.index');
 Route::get('/skills/{skill}', [SkillController::class, 'show'])->name('api.v1.skills.show');
+
+Route::get('/volunteering-interests', [VolunteeringInterestController::class, 'index'])->name('api.v1.volunteering-interests.index');
+Route::get('/volunteering-interests/{volunteeringInterest}', [VolunteeringInterestController::class, 'show'])->name('api.v1.volunteering-interests.show');
 
 Route::get('/sectors', [SectorController::class, 'index'])->name('api.v1.sectors.index');
 Route::get('/sectors/{sector}', [SectorController::class, 'show'])->name('api.v1.sectors.show');
