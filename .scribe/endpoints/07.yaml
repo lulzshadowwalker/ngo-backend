@@ -1,174 +1,199 @@
-name: 'Comments & Likes'
+name: Opportunities
 description: ''
 endpoints:
   -
     httpMethods:
-      - POST
-    uri: 'api/v1/posts/{post_slug}/like'
-    metadata:
-      groupName: 'Comments & Likes'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Like a post'
-      description: |-
-        Add a like to a specific post. If the user has already liked the post,
-        this endpoint will update the existing like record. Authentication is required.
-      authenticated: true
-      deprecated: false
-      custom: []
-    headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      post:
-        name: post
-        description: 'The slug of the post to like.'
-        required: true
-        example: environmental-conservation-initiative
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
-      - DELETE
-    uri: 'api/v1/posts/{post_slug}/like'
-    metadata:
-      groupName: 'Comments & Likes'
-      groupDescription: ''
-      subgroup: ''
-      subgroupDescription: ''
-      title: 'Unlike a post'
-      description: |-
-        Remove a like from a specific post. If the user hasn't liked the post,
-        this endpoint will have no effect. Authentication is required.
-      authenticated: true
-      deprecated: false
-      custom: []
-    headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      post:
-        name: post
-        description: 'The slug of the post to unlike.'
-        required: true
-        example: environmental-conservation-initiative
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
-    bodyParameters: []
-    cleanBodyParameters: []
-    fileParameters: []
-    responses: []
-    responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
-    controller: null
-    method: null
-    route: null
-    custom: []
-  -
-    httpMethods:
       - GET
-    uri: 'api/v1/posts/{post_slug}/comments'
+    uri: api/v1/opportunities
     metadata:
-      groupName: 'Comments & Likes'
+      groupName: Opportunities
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'List post comments'
-      description: 'Retrieve all comments for a specific post.'
+      title: 'List Opportunities'
+      description: 'Display a paginated list of active opportunities with filtering.'
       authenticated: false
       deprecated: false
       custom: []
     headers:
       Content-Type: application/json
       Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
-        example: 1
-        type: integer
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      post:
-        name: post
-        description: 'The slug of the post.'
-        required: true
-        example: environmental-conservation-initiative
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters:
+      location:
+        name: location
+        description: 'Filter by location description.'
+        required: false
+        example: '"New York"'
         type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
         custom: []
-    cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
-    queryParameters: []
-    cleanQueryParameters: []
+      latitude:
+        name: latitude
+        description: 'Latitude for radius search.'
+        required: false
+        example: 40.7128
+        type: number
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      longitude:
+        name: longitude
+        description: 'Longitude for radius search.'
+        required: false
+        example: -74.006
+        type: number
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      radius:
+        name: radius
+        description: 'Radius in kilometers for location search.'
+        required: false
+        example: 10
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      tags:
+        name: tags
+        description: 'Comma-separated list of tags to filter by.'
+        required: false
+        example: '"education,health"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      skills:
+        name: skills
+        description: 'Comma-separated list of skills to filter by.'
+        required: false
+        example: '"php,project management"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      organization_id:
+        name: organization_id
+        description: 'Filter by organization ID.'
+        required: false
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      sector_id:
+        name: sector_id
+        description: 'Filter by sector ID.'
+        required: false
+        example: 2
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      max_duration:
+        name: max_duration
+        description: 'Filter by maximum duration.'
+        required: false
+        example: 30
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      expiry_date_from:
+        name: expiry_date_from
+        description: 'date Filter by expiry date from.'
+        required: false
+        example: '"2025-12-01"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      expiry_date_to:
+        name: expiry_date_to
+        description: 'date Filter by expiry date to.'
+        required: false
+        example: '"2025-12-31"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      search:
+        name: search
+        description: 'Search in title and description.'
+        required: false
+        example: '"volunteer"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      sort_by:
+        name: sort_by
+        description: "Sort field. Allowed: 'created_at', 'expiry_date', 'duration'. Default: 'created_at'."
+        required: false
+        example: '"expiry_date"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      sort_direction:
+        name: sort_direction
+        description: "Sort direction. Allowed: 'asc', 'desc'. Default: 'desc'."
+        required: false
+        example: '"asc"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      per_page:
+        name: per_page
+        description: 'Number of items per page. Default: 20. Max: 100.'
+        required: false
+        example: 50
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      location: '"New York"'
+      latitude: 40.7128
+      longitude: -74.006
+      radius: 10
+      tags: '"education,health"'
+      skills: '"php,project management"'
+      organization_id: 1
+      sector_id: 2
+      max_duration: 30
+      expiry_date_from: '"2025-12-01"'
+      expiry_date_to: '"2025-12-31"'
+      search: '"volunteer"'
+      sort_by: '"expiry_date"'
+      sort_direction: '"asc"'
+      per_page: 50
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 200
+        content: '{"data":[],"meta":{"total":0,"perPage":50,"currentPage":1,"lastPage":1,"from":null,"to":null},"links":{"first":"https:\/\/ngo-backend.test\/api\/v1\/opportunities?page=1","last":"https:\/\/ngo-backend.test\/api\/v1\/opportunities?page=1","prev":null,"next":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -183,134 +208,215 @@ endpoints:
     custom: []
   -
     httpMethods:
-      - POST
-    uri: 'api/v1/posts/{post_slug}/comments'
+      - GET
+    uri: api/v1/opportunities/featured
     metadata:
-      groupName: 'Comments & Likes'
+      groupName: Opportunities
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Create a new comment'
-      description: 'Add a new comment to a specific post. Authentication is required.'
-      authenticated: true
+      title: 'Get Featured Opportunities'
+      description: 'Get a list of featured or recommended opportunities.'
+      authenticated: false
       deprecated: false
       custom: []
     headers:
-      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
-    urlParameters:
-      post_slug:
-        name: post_slug
-        description: 'The slug of the post.'
-        required: true
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters:
+      limit:
+        name: limit
+        description: 'The number of featured opportunities to return. Default: 6.'
+        required: false
+        example: 4
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      limit: 4
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/opportunities/stats
+    metadata:
+      groupName: Opportunities
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get Opportunity Stats'
+      description: 'Get statistics for opportunities for the homepage.'
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"total_opportunities":103,"total_organizations":36,"opportunities_this_month":103}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/opportunities/search
+    metadata:
+      groupName: Opportunities
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Search Opportunities'
+      description: ''
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters:
+      query:
+        name: query
+        description: 'The search term.'
+        required: false
+        example: '"developer"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      sector:
+        name: sector
+        description: 'Filter by sector ID.'
+        required: false
         example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      query: '"developer"'
+      sector: 1
+    bodyParameters:
+      sector:
+        name: sector
+        description: 'The <code>id</code> of an existing record in the sectors table.'
+        required: false
+        example: 16
         type: integer
         enumValues: []
         exampleWasSpecified: false
         nullable: false
         custom: []
-      post:
-        name: post
-        description: 'The slug of the post to comment on.'
+    cleanBodyParameters:
+      sector: 16
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/opportunities/{id}'
+    metadata:
+      groupName: Opportunities
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get Opportunity'
+      description: 'Display the specified opportunity with full details.'
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the opportunity.'
         required: true
-        example: environmental-conservation-initiative
+        example: '1'
         type: string
         enumValues: []
         exampleWasSpecified: true
         nullable: false
         custom: []
     cleanUrlParameters:
-      post_slug: 1
-      post: environmental-conservation-initiative
+      id: '1'
     queryParameters: []
     cleanQueryParameters: []
-    bodyParameters:
-      data.relationships.comments.data.attributes:
-        name: data.relationships.comments.data.attributes
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships.comments.data:
-        name: data.relationships.comments.data
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships.comments:
-        name: data.relationships.comments
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships:
-        name: data.relationships
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data:
-        name: data
-        description: ''
-        required: false
-        example: []
-        type: object
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      data.relationships.comments.data.attributes.content:
-        name: data.relationships.comments.data.attributes.content
-        description: ''
-        required: true
-        example: architecto
-        type: string
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      content:
-        name: content
-        description: 'The comment content.'
-        required: true
-        example: 'This is a great initiative!'
-        type: string
-        enumValues: []
-        exampleWasSpecified: true
-        nullable: false
-        custom: []
-    cleanBodyParameters:
-      data:
-        relationships:
-          comments:
-            data:
-              attributes:
-                content: architecto
-      content: 'This is a great initiative!'
+    bodyParameters: []
+    cleanBodyParameters: []
     fileParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"type":"opportunities","id":"1","title":"Editor Opportunity","cover":"https:\/\/placehold.co\/400x225.png?text=Editor%20Opportunity","description":"Accusantium expedita officiis rerum et est doloremque reprehenderit. Quod ut inventore qui sit dolorum. Voluptatem magni ea qui inventore. At tenetur incidunt amet.","status":"active","isFeatured":false,"organizationId":1,"programId":1,"tags":["velit","consectetur","alias"],"duration":131,"expiryDate":"2025-10-28T00:00:00.000000Z","aboutTheRole":"Sed quam totam eaque. Expedita voluptatem dicta a dolor dignissimos. Voluptatem sequi libero assumenda quis.","keyResponsibilities":["Similique omnis aliquam velit magnam.","Ut nesciunt aliquam quo blanditiis provident in.","Natus dolorem quo sint voluptas ut."],"requiredSkills":["Iure non et quia et labore molestiae.","Saepe explicabo est nihil aut excepturi repellendus molestiae.","Est at nobis et fugiat quod debitis et."],"timeCommitment":["5 hours per week","3 months minimum","Flexible schedule"],"locationId":38,"latitude":"55.13560800","longitude":"52.54589500","locationDescription":"8239 Schneider Divide\nEast Nicolastown, NH 77893-4604","benefits":["Sapiente non laborum illo corrupti qui.","Itaque consequatur quod quasi qui.","Vel aut a et eos rem repudiandae."],"sectorId":72,"extra":"Ea quidem mollitia sequi omnis quas vitae. Dolor quia modi nihil perferendis voluptatem. Rerum explicabo dicta officia inventore reprehenderit corrupti sit. Nihil sint ut ut id et nihil.","createdAt":"2025-09-13T13:07:07.000000Z","updatedAt":"2025-09-13T13:07:07.000000Z","organization":{"id":1,"name":"Claude Jenkins","logo":"https:\/\/ui-logos.com\/api\/?name=Claude+Jenkins","bio":"Deserunt aliquid veniam ut sed voluptates illum vel reprehenderit.","website":"http:\/\/www.lesch.org\/quaerat-dicta-numquam-hic-itaque-dignissimos-voluptatem.html","locationId":2},"program":{"id":1,"title":"Ex veritatis saepe non optio.","description":"Corrupti eligendi fugit neque id. Ipsam amet alias aut. Fugiat et atque vel ullam officiis voluptas rerum."},"sector":{"id":72,"name":"Prof. Kelley Kihn"},"applicationForm":null}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
     responseFields: []
-    auth:
-      - headers
-      - Authorization
-      - 'Bearer Bearer sample-token'
+    auth: []
     controller: null
     method: null
     route: null

@@ -96,7 +96,7 @@ endpoints:
         name: data.attributes.language
         description: ''
         required: false
-        example: en
+        example: ar
         type: string
         enumValues:
           - en
@@ -179,7 +179,7 @@ endpoints:
     cleanBodyParameters:
       data:
         attributes:
-          language: en
+          language: ar
           pushNotifications: true
           emailNotifications: false
           profileVisibility: private

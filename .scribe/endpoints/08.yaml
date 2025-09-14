@@ -1,36 +1,57 @@
-name: Pages
+name: Applications
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/v1/pages
+    uri: api/v1/applications
     metadata:
-      groupName: Pages
+      groupName: Applications
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'List all pages'
-      description: |-
-        Retrieve a list of all static pages in the system.
-        Pages contain static content like About Us, Terms of Service, etc.
-      authenticated: false
+      title: "Display a listing of the user's applications"
+      description: ''
+      authenticated: true
       deprecated: false
       custom: []
     headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
     urlParameters: []
     cleanUrlParameters: []
-    queryParameters: []
-    cleanQueryParameters: []
+    queryParameters:
+      user_id:
+        name: user_id
+        description: 'The ID of the user to retrieve applications for. Will be replaced by authenticated user.'
+        required: false
+        example: 16
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      per_page:
+        name: per_page
+        description: 'Number of items per page. Defaults to 10.'
+        required: false
+        example: 15
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      user_id: 16
+      per_page: 15
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
     responses:
       -
         status: 200
-        content: '{"data":[]}'
+        content: '{"data":[],"meta":{"total":0,"perPage":15,"currentPage":1,"lastPage":1,"from":null,"to":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -38,42 +59,40 @@ endpoints:
         description: null
         custom: []
     responseFields: []
-    auth: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
     controller: null
     method: null
     route: null
     custom: []
   -
     httpMethods:
-      - GET
-    uri: 'api/v1/pages/{slug}'
+      - POST
+    uri: api/v1/applications
     metadata:
-      groupName: Pages
+      groupName: Applications
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Get page details'
-      description: 'Retrieve detailed information about a specific page including its content.'
-      authenticated: false
+      title: 'Store a newly created application'
+      description: ''
+      authenticated: true
       deprecated: false
       custom: []
     headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
       Content-Type: application/json
       Accept: application/json
-    urlParameters:
-      slug:
-        name: slug
-        description: 'The slug of the page.'
-        required: true
-        example: architecto
-        type: string
-        enumValues: []
-        exampleWasSpecified: false
-        nullable: false
-        custom: []
-      page:
-        name: page
-        description: 'The ID of the page.'
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      opportunity_id:
+        name: opportunity_id
+        description: 'The ID of the opportunity being applied for.'
         required: true
         example: 1
         type: integer
@@ -81,11 +100,127 @@ endpoints:
         exampleWasSpecified: true
         nullable: false
         custom: []
+      user_id:
+        name: user_id
+        description: 'The ID of the user applying (will be replaced by authenticated user).'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      responses:
+        name: responses
+        description: 'An array of responses to the application form fields.'
+        required: true
+        example:
+          - architecto
+        type: 'string[]'
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      'responses[].form_field_id':
+        name: 'responses[].form_field_id'
+        description: 'The <code>id</code> of an existing record in the form_fields table.'
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      'responses[].value':
+        name: 'responses[].value'
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      'responses.*.form_field_id':
+        name: 'responses.*.form_field_id'
+        description: 'The ID of the form field.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      'responses.*.value':
+        name: 'responses.*.value'
+        description: "The user's response to the field."
+        required: true
+        example: '"I have 5 years of experience."'
+        type: mixed
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      opportunity_id: 1
+      user_id: 1
+      responses:
+        - architecto
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/applications/{id}'
+    metadata:
+      groupName: Applications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Display the specified application'
+      description: ''
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the application.'
+        required: true
+        example: '"1"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
     cleanUrlParameters:
-      slug: architecto
-      page: 1
-    queryParameters: []
-    cleanQueryParameters: []
+      id: '"1"'
+    queryParameters:
+      user_id:
+        name: user_id
+        description: 'The ID of the user (for validation, will be replaced by authenticated user).'
+        required: false
+        example: 16
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanQueryParameters:
+      user_id: 16
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
@@ -94,7 +229,7 @@ endpoints:
         status: 404
         content: |-
           {
-              "message": "No query results for model [App\\Models\\Page] architecto"
+              "message": "No query results for model [App\\Models\\Application]."
           }
         headers:
           cache-control: 'no-cache, private'
@@ -103,7 +238,155 @@ endpoints:
         description: null
         custom: []
     responseFields: []
-    auth: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - PATCH
+    uri: 'api/v1/applications/{id}'
+    metadata:
+      groupName: Applications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Update the specified application (only for draft applications)'
+      description: ''
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the application to update.'
+        required: true
+        example: '"1"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      id: '"1"'
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      responses:
+        name: responses
+        description: 'An array of new responses.'
+        required: true
+        example:
+          - architecto
+        type: 'string[]'
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      'responses[].form_field_id':
+        name: 'responses[].form_field_id'
+        description: 'The <code>id</code> of an existing record in the form_fields table.'
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      'responses[].value':
+        name: 'responses[].value'
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      'responses.*.form_field_id':
+        name: 'responses.*.form_field_id'
+        description: 'The ID of the form field.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      'responses.*.value':
+        name: 'responses.*.value'
+        description: "The user's new response."
+        required: true
+        example: '"My updated answer."'
+        type: mixed
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      responses:
+        - architecto
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/applications/{id}'
+    metadata:
+      groupName: Applications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Remove the specified application (only for pending applications)'
+      description: ''
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the application to delete.'
+        required: true
+        example: '"1"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      id: '"1"'
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
     controller: null
     method: null
     route: null

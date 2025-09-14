@@ -1,0 +1,297 @@
+name: Notifications
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/notifications
+    metadata:
+      groupName: Notifications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'List Notifications'
+      description: 'List all notifications for the authenticated user.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/notifications/{id}'
+    metadata:
+      groupName: Notifications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get Notification'
+      description: 'Get a specific notification by its ID.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the notification.'
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      notification:
+        name: notification
+        description: 'The ID of the notification.'
+        required: true
+        example: '"8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      id: architecto
+      notification: '"8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"'
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - PATCH
+    uri: 'api/v1/notifications/{notification_id}/read'
+    metadata:
+      groupName: Notifications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Mark Notification as Read'
+      description: 'Mark a specific notification as read.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      notification_id:
+        name: notification_id
+        description: 'The ID of the notification.'
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      notification:
+        name: notification
+        description: 'The ID of the notification.'
+        required: true
+        example: '"8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      notification_id: architecto
+      notification: '"8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"'
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - PATCH
+    uri: api/v1/notifications/read
+    metadata:
+      groupName: Notifications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Mark All as Read'
+      description: 'Mark all unread notifications as read.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/notifications/{notification_id}'
+    metadata:
+      groupName: Notifications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete Notification'
+      description: 'Delete a specific notification.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      notification_id:
+        name: notification_id
+        description: 'The ID of the notification.'
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      notification:
+        name: notification
+        description: 'The ID of the notification.'
+        required: true
+        example: '"8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      notification_id: architecto
+      notification: '"8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"'
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: api/v1/notifications
+    metadata:
+      groupName: Notifications
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete All Notifications'
+      description: 'Delete all notifications for the authenticated user.'
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Authorization: 'Bearer Bearer {YOUR_AUTH_TOKEN}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer Bearer sample-token'
+    controller: null
+    method: null
+    route: null
+    custom: []
