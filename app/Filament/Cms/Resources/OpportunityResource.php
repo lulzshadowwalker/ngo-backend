@@ -63,18 +63,21 @@ class OpportunityResource extends Resource
                         SpatieMediaLibraryFileUpload::make('cover')
                             ->collection(Opportunity::MEDIA_COLLECTION_COVER)
                             ->image()
+                            ->columnSpanFull()
                             ->required(),
 
                         Forms\Components\TextInput::make('title')
                             ->label('Title')
                             ->required()
                             ->maxLength(255)
+                            ->columnSpanFull()
                             ->translatable(),
 
                         Forms\Components\Textarea::make('description')
                             ->label('Description')
                             ->required()
                             ->rows(3)
+                            ->columnSpanFull()
                             ->translatable(),
 
                         Forms\Components\Select::make('program_id')
