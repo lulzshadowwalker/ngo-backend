@@ -59,6 +59,7 @@ class RegisterOrganizationController extends Controller
 
             if ($request->avatar()) {
                 $user->addMedia($request->avatar())
+                    ->preservingOriginal()
                     ->toMediaCollection(User::MEDIA_COLLECTION_AVATAR);
 
                 $organization->addMedia($request->avatar())

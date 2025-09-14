@@ -19,6 +19,7 @@ class RegisterOrganizationControllerTest extends TestCase
     {
         $location = Location::factory()->create();
         $sector = Sector::factory()->create();
+        $logo = File::image('logo.png');
 
         $response = $this->postJson(route('api.v1.auth.register.organizations'), [
             'data' => [
@@ -28,6 +29,7 @@ class RegisterOrganizationControllerTest extends TestCase
                     'contactEmail' => 'contact@example.com',
                     'password' => 'password',
                     'website' => 'https://example.com',
+                    'logo' => $logo,
                     'bio' => 'We are an example organization.',
                 ],
                 'relationships' => [
