@@ -90,10 +90,10 @@ class Organization extends Model implements HasMedia
     public function following(): Attribute
     {
         return Attribute::get(function (): bool {
-            if (! Auth::check()) return false;
+            if (! Auth::guard('sanctum')->check()) return false;
 
             return $this->follows()
-                ->where('user_id', Auth::id())
+                ->where('user_id', Auth::guard('sanctum')->id())
                 ->exists();
         });
     }
