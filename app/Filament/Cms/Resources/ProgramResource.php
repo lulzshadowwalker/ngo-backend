@@ -60,12 +60,14 @@ class ProgramResource extends Resource
                         SpatieMediaLibraryFileUpload::make('cover')
                             ->collection(Program::MEDIA_COLLECTION_COVER)
                             ->image()
+                            ->columnSpanFull()
                             ->required(),
 
                         Forms\Components\TextInput::make('title')
                             ->label('Title')
                             ->required()
                             ->maxLength(255)
+                            ->columnSpanFull()
                             ->translatable(),
 
                         Forms\Components\Select::make('status')
