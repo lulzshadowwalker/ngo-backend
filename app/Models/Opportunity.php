@@ -127,6 +127,11 @@ class Opportunity extends Model implements Viewable, HasMedia
         return $this->hasMany(Application::class);
     }
 
+    public function shouldBeSearchable(): bool
+    {
+        return $this->status === OpportunityStatus::Active;
+    }
+
     public function toSearchableArray(): array
     {
         return [
