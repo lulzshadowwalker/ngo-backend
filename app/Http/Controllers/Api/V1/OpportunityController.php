@@ -13,7 +13,28 @@ use Illuminate\Http\Request;
 class OpportunityController extends Controller
 {
     /**
-     * Display a paginated list of active opportunities with filtering
+     * List Opportunities
+     *
+     * Display a paginated list of active opportunities with filtering.
+     *
+     * @group Opportunities
+     * @unauthenticated
+     *
+     * @queryParam location string Filter by location description. Example: "New York"
+     * @queryParam latitude float Latitude for radius search. Example: 40.7128
+     * @queryParam longitude float Longitude for radius search. Example: -74.0060
+     * @queryParam radius integer Radius in kilometers for location search. Example: 10
+     * @queryParam tags string Comma-separated list of tags to filter by. Example: "education,health"
+     * @queryParam skills string Comma-separated list of skills to filter by. Example: "php,project management"
+     * @queryParam organization_id integer Filter by organization ID. Example: 1
+     * @queryParam sector_id integer Filter by sector ID. Example: 2
+     * @queryParam max_duration integer Filter by maximum duration. Example: 30
+     * @queryParam expiry_date_from date Filter by expiry date from. Example: "2025-12-01"
+     * @queryParam expiry_date_to date Filter by expiry date to. Example: "2025-12-31"
+     * @queryParam search string Search in title and description. Example: "volunteer"
+     * @queryParam sort_by string Sort field. Allowed: 'created_at', 'expiry_date', 'duration'. Default: 'created_at'. Example: "expiry_date"
+     * @queryParam sort_direction string Sort direction. Allowed: 'asc', 'desc'. Default: 'desc'. Example: "asc"
+     * @queryParam per_page integer Number of items per page. Default: 20. Max: 100. Example: 50
      */
     public function index(Request $request): JsonResponse
     {
@@ -134,7 +155,14 @@ class OpportunityController extends Controller
     }
 
     /**
-     * Display the specified opportunity with full details
+     * Get Opportunity
+     *
+     * Display the specified opportunity with full details.
+     *
+     * @group Opportunities
+     * @unauthenticated
+     *
+     * @urlParam id string required The ID of the opportunity. Example: 1
      */
     public function show(string $id): JsonResponse
     {
@@ -156,6 +184,15 @@ class OpportunityController extends Controller
         ]);
     }
 
+    /**
+     * Search Opportunities
+     *
+     * @group Opportunities
+     * @unauthenticated
+     *
+     * @queryParam query string The search term. Example: "developer"
+     * @queryParam sector integer Filter by sector ID. Example: 1
+     */
     public function search(SearchOpportunityRequest $request)
     {
         $query = $request->input('query', '') ?? '';
@@ -174,7 +211,14 @@ class OpportunityController extends Controller
     }
 
     /**
-     * Get featured/recommended opportunities
+     * Get Featured Opportunities
+     *
+     * Get a list of featured or recommended opportunities.
+     *
+     * @group Opportunities
+     * @unauthenticated
+     *
+     * @queryParam limit integer The number of featured opportunities to return. Default: 6. Example: 4
      */
     public function featured(Request $request): JsonResponse
     {
@@ -193,7 +237,12 @@ class OpportunityController extends Controller
     }
 
     /**
-     * Get opportunities statistics for homepage
+     * Get Opportunity Stats
+     *
+     * Get statistics for opportunities for the homepage.
+     *
+     * @group Opportunities
+     * @unauthenticated
      */
     public function stats(): JsonResponse
     {

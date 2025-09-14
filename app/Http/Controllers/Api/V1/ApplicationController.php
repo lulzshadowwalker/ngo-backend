@@ -19,6 +19,12 @@ class ApplicationController extends Controller
 {
     /**
      * Display a listing of the user's applications
+     *
+     * @group Applications
+     * @authenticated
+     *
+     * @queryParam user_id integer The ID of the user to retrieve applications for. Will be replaced by authenticated user.
+     * @queryParam per_page integer Number of items per page. Defaults to 10. Example: 15
      */
     public function index(Request $request): JsonResponse
     {
@@ -56,6 +62,15 @@ class ApplicationController extends Controller
 
     /**
      * Store a newly created application
+     *
+     * @group Applications
+     * @authenticated
+     *
+     * @bodyParam opportunity_id integer required The ID of the opportunity being applied for. Example: 1
+     * @bodyParam user_id integer required The ID of the user applying (will be replaced by authenticated user). Example: 1
+     * @bodyParam responses array required An array of responses to the application form fields.
+     * @bodyParam responses.*.form_field_id integer required The ID of the form field. Example: 1
+     * @bodyParam responses.*.value mixed required The user's response to the field. Example: "I have 5 years of experience."
      */
     public function store(Request $request): JsonResponse
     {
@@ -145,6 +160,12 @@ class ApplicationController extends Controller
 
     /**
      * Display the specified application
+     *
+     * @group Applications
+     * @authenticated
+     *
+     * @urlParam id string required The ID of the application. Example: "1"
+     * @queryParam user_id integer The ID of the user (for validation, will be replaced by authenticated user).
      */
     public function show(Request $request, string $id): JsonResponse
     {
@@ -170,6 +191,15 @@ class ApplicationController extends Controller
 
     /**
      * Update the specified application (only for draft applications)
+     *
+     * @group Applications
+     * @authenticated
+     *
+     * @urlParam id string required The ID of the application to update. Example: "1"
+     *
+     * @bodyParam responses array required An array of new responses.
+     * @bodyParam responses.*.form_field_id integer required The ID of the form field. Example: 1
+     * @bodyParam responses.*.value mixed required The user's new response. Example: "My updated answer."
      */
     public function update(Request $request, string $id): JsonResponse
     {
@@ -241,6 +271,11 @@ class ApplicationController extends Controller
 
     /**
      * Remove the specified application (only for pending applications)
+     *
+     * @group Applications
+     * @authenticated
+     *
+     * @urlParam id string required The ID of the application to delete. Example: "1"
      */
     public function destroy(Request $request, string $id): JsonResponse
     {

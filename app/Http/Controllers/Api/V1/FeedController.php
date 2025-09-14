@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\Auth;
 
 class FeedController extends Controller
 {
+    /**
+     * Get Following Feed
+     *
+     * Get the feed for organizations the user follows.
+     *
+     * @group Feed
+     * @authenticated
+     */
     public function following()
     {
         $user = Auth::user();
@@ -45,6 +53,14 @@ class FeedController extends Controller
         ]);
     }
 
+    /**
+     * Get Recent Feed
+     *
+     * Get the most recent posts and opportunities.
+     *
+     * @group Feed
+     * @unauthenticated
+     */
     public function recent()
     {
         $posts = Post::with(['organization', 'likes', 'comments'])
@@ -62,6 +78,17 @@ class FeedController extends Controller
         ]);
     }
 
+    /**
+     * Search Feed
+     *
+     * Search for organizations, programs, or opportunities.
+     *
+     * @group Feed
+     * @unauthenticated
+     *
+     * @queryParam query string required The search term. Example: "tech"
+     * @queryParam type string Filter by type. Can be one of `organization`, `program`, `opportunity`. Example: "organization"
+     */
     public function search(SearchFeedRequest $request)
     {
         $query = $request->input('query', '');
