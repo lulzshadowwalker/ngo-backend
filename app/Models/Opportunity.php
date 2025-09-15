@@ -12,7 +12,6 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Spatie\Translatable\HasTranslations;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
-use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Spatie\MediaLibrary\HasMedia;
@@ -20,9 +19,9 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Laravel\Scout\Searchable;
 
 #[ObservedBy(OpportunityObserver::class)]
-class Opportunity extends Model implements Viewable, HasMedia
+class Opportunity extends Model implements HasMedia
 {
-    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews, InteractsWithMedia;
+    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.

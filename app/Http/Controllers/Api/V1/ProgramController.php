@@ -34,8 +34,6 @@ class ProgramController extends Controller
      */
     public function show(Program $program)
     {
-        views($program)->record();
-
         return ProgramResource::make($program);
     }
 

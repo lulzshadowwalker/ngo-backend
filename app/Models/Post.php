@@ -12,7 +12,6 @@ use App\Filters\QueryFilter;
 use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Builder;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
-use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -20,9 +19,9 @@ use Laravel\Scout\Searchable;
 use Spatie\Translatable\HasTranslations;
 
 #[ObservedBy(PostObserver::class)]
-class Post extends Model implements Viewable, HasMedia
+class Post extends Model implements HasMedia
 {
-    use HasFactory, InteractsWithViews, Searchable, BelongsToOrganization, HasTranslations, InteractsWithMedia;
+    use HasFactory, Searchable, BelongsToOrganization, HasTranslations, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.

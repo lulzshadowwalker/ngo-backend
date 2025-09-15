@@ -86,14 +86,6 @@ class PostResource extends Resource
                     ->sortable()
                     ->limit(50),
 
-                Tables\Columns\TextColumn::make('views_count')
-                    ->getStateUsing(fn(Post $record): int => views($record)->count())
-                    ->label('Views')
-                    ->alignRight()
-                    ->badge()
-                    ->icon('heroicon-o-eye')
-                    ->sortable(),
-
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Published At')
                     ->description(fn(Post $record): string => $record->created_at?->diffForHumans() ?? '')
@@ -131,7 +123,6 @@ class PostResource extends Resource
     public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
     {
         return [
-            'Views' => views($record)->count() . ' views',
             'Published' => $record->created_at?->format('M j, Y') ?? 'Draft',
             'Updated' => $record->updated_at?->diffForHumans() ?? 'Never',
         ];

@@ -49,8 +49,6 @@ class PostController extends ApiController
      */
     public function show(Post $post)
     {
-        views($post)->record();
-
         $includes = ["likes", "comments", "organization", "sector"];
         foreach ($includes as $include) {
             if ($this->include($include)) {

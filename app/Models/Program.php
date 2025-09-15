@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Translatable\HasTranslations;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
-use CyrildeWit\EloquentViewable\Contracts\Viewable;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Spatie\MediaLibrary\HasMedia;
@@ -19,9 +18,9 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Laravel\Scout\Searchable;
 
 #[ObservedBy(ProgramObserver::class)]
-class Program extends Model implements Viewable, HasMedia
+class Program extends Model implements HasMedia
 {
-    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithViews, InteractsWithMedia;
+    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.

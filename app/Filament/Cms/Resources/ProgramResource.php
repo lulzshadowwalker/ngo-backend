@@ -119,13 +119,6 @@ class ProgramResource extends Resource
                     ->color('gray')
                     ->sortable(),
 
-                Tables\Columns\TextColumn::make('views_count')
-                    ->getStateUsing(fn(Program $record): int => views($record)->count())
-                    ->label('Views')
-                    ->badge()
-                    ->icon('heroicon-o-eye')
-                    ->sortable(),
-
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Created')
                     ->dateTime('M j, Y')
@@ -164,7 +157,6 @@ class ProgramResource extends Resource
         return [
             'Status' => $record->status->getLabel(),
             'Opportunities' => $record->opportunities_count ?? 0 . ' opportunities',
-            'Views' => views($record)->count() . ' views',
             'Created' => $record->created_at?->format('M j, Y') ?? 'Unknown',
         ];
     }
