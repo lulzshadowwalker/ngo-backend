@@ -20,6 +20,7 @@ class IndividualResource extends JsonResource
             'attributes' => [
                 'name' => $this->user->name,
                 'email' => $this->user->email,
+                'phone' => $this->phone,
                 'avatar' => $this->user->avatar,
                 'bio' => $this->bio,
                 'birthdate' => $this->birthdate,
