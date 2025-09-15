@@ -19,7 +19,7 @@ class Individual extends Model
      *
      * @var array
      */
-    protected $fillable = ["bio", "birthdate", "location_id", "user_id"];
+    protected $fillable = ["bio", "birthdate", "phone", "location_id", "user_id"];
 
     /**
      * Get the attributes that should be cast.
@@ -52,9 +52,9 @@ class Individual extends Model
             ->withTimestamps();
     }
 
-    public function volunteeringInterests(): HasMany
+    public function volunteeringInterests(): BelongsToMany
     {
-        return $this->hasMany(VolunteeringInterest::class);
+        return $this->belongsToMany(VolunteeringInterest::class);
     }
 
     public function individualPreferences(): HasOne

@@ -11,11 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('volunteering_interests', function (Blueprint $table) {
-            $table->id();
-            $table->json('name');
-            $table->foreignId('individual_id')->constrained('individuals');
-            $table->timestamps();
+        Schema::table('individuals', function (Blueprint $table) {
+            $table->string('phone')->nullable();
         });
     }
 
@@ -24,6 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('volunteering_interests');
+        Schema::table('individuals', function (Blueprint $table) {
+            $table->dropColumn('phone');
+        });
     }
 };

@@ -17,9 +17,13 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
         return [
             'data.attributes.name' => 'required|string|max:255',
             'data.attributes.email' => ['required', 'email', 'max:255', new UniqueEmailRule()],
+            'data.attributes.bio' => 'nullable|string|max:1000',
+            'data.attributes.phone' => 'nullable|string|max:20',
             'data.attributes.password' => 'required|string|min:8',
             'data.attributes.avatar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
             'data.relationships.location.data.id' => 'nullable|exists:locations,id',
+            'data.relationships.volunteeringInterests.data.*.id' => 'nullable|exists:volunteering_interests,id',
+            'data.relationships.skills.data.*.id' => 'nullable|exists:skills,id',
         ];
     }
 
@@ -46,5 +50,38 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
     public function location(): ?int
     {
         return $this->input('data.relationships.location.data.id');
+    }
+
+    public function bio(): ?string
+    {
+        return $this->input('data.attributes.bio');
+    }
+
+    public function birthdate(): ?string
+    {
+        return $this->input('data.attributes.birthdate');
+    }
+
+    public function phone(): ?string
+    {
+        return $this->input('data.attributes.phone');
+    }
+
+    public function volunteeringInterests(): array
+    {
+        return collect($this->input('data.relationships.volunteeringInterests.data', []))
+            ->pluck('id')
+            ->filter()
+            ->map(fn ($id) => (int) $id)
+            ->toArray();
+    }
+
+    public function skills(): array
+    {
+        return collect($this->input('data.relationships.skills.data', []))
+            ->pluck('id')
+            ->filter()
+            ->map(fn ($id) => (int) $id)
+            ->toArray();
     }
 }

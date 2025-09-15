@@ -25,6 +25,7 @@ class IndividualFactory extends Factory
             'user_id' => User::factory(),
             'bio' => fake()->optional()->sentence(),
             'birthdate' => fake()->optional()->date(),
+            'phone' => fake()->optional()->phoneNumber(),
             'location_id' => Location::factory(),
         ];
     }

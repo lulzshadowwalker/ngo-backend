@@ -39,9 +39,16 @@ class RegisterIndividualController extends Controller
             ]);
 
             $user->assignRole(Role::individual->value);
-            $user->individual()->create([
+            $individual = $user->individual()->create([
                 'location_id' => $request->location(),
+                'bio' => $request->bio(),
+                'birthdate' => $request->birthdate(),
+                'phone' => $request->phone(),
             ]);
+
+            $individual->volunteeringInterests()->attach($request->volunteeringInterests());
+
+            $individual->skills()->attach($request->skills());
 
             if ($request->avatar()) {
                 $user->addMedia($request->avatar())

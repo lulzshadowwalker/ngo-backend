@@ -2,7 +2,6 @@
 
 namespace Database\Factories;
 
-use App\Models\Individual;
 use App\Models\VolunteeringInterest;
 
 class VolunteeringInterestFactory extends BaseFactory
@@ -21,7 +20,6 @@ class VolunteeringInterestFactory extends BaseFactory
     {
         return [
             'name' => $this->localized(fn() => fake()->name()),
-            'individual_id' => Individual::factory(),
         ];
     }
 }
