@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Spatie\Translatable\HasTranslations;
 
@@ -35,7 +34,7 @@ class VolunteeringInterest extends Model
 
     public $translatable = ['name'];
 
-    public function individual(): BelongsToMany
+    public function individuals(): BelongsToMany
     {
         return $this->belongsToMany(Individual::class);
     }
