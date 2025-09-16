@@ -226,7 +226,7 @@ return [
                 'search-parameters' => [
                     'query_by' => 'name,slug,bio,website',
                     'exhaustive_search' => true,
-                ]
+                ],
             ],
 
             Post::class => [
@@ -247,7 +247,7 @@ return [
                 'search-parameters' => [
                     'query_by' => 'title_en,title_ar,content_en,content_ar,slug',
                     'exhaustive_search' => true,
-                ]
+                ],
             ],
 
             Opportunity::class => [
@@ -269,7 +269,7 @@ return [
                 'search-parameters' => [
                     'query_by' => 'title_en,title_ar,description_en,description_ar,tags_en,tags_ar',
                     'exhaustive_search' => true,
-                ]
+                ],
             ],
 
             Program::class => [
@@ -287,7 +287,7 @@ return [
                 'search-parameters' => [
                     'query_by' => 'title_en,title_ar,description_en,description_ar',
                     'exhaustive_search' => true,
-                ]
+                ],
             ],
         ],
     ],

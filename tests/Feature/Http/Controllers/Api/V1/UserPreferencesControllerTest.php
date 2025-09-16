@@ -49,8 +49,8 @@ class UserPreferencesControllerTest extends TestCase
                     'language' => 'ar',
                     'emailNotifications' => false,
                     'pushNotifications' => false,
-                ]
-            ]
+                ],
+            ],
         ])->assertOk();
 
         $user->refresh();

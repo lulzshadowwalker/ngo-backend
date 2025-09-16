@@ -11,12 +11,13 @@ class ChangePasswordController extends Controller
 {
     /**
      * Change user password
-     * 
+     *
      * Change the authenticated user's password by providing current password and new password.
      *
      * @group Authentication
+     *
      * @authenticated
-     * 
+     *
      * @bodyParam data.attributes.current_password string required The user's current password. Example: currentPassword123
      * @bodyParam data.attributes.new_password string required The new password (minimum 8 characters). Example: newSecurePassword123
      * @bodyParam data.attributes.new_password_confirmation string required New password confirmation. Example: newSecurePassword123
@@ -30,7 +31,7 @@ class ChangePasswordController extends Controller
                 'string',
                 'min:8',
                 'confirmed',
-                'different:data.attributes.current_password'
+                'different:data.attributes.current_password',
             ],
         ], [
             'data.attributes.new_password.confirmed' => 'The new password confirmation does not match.',
@@ -42,7 +43,7 @@ class ChangePasswordController extends Controller
         $newPassword = $request->input('data.attributes.new_password');
 
         // Verify current password
-        if (!Hash::check($currentPassword, $user->password)) {
+        if (! Hash::check($currentPassword, $user->password)) {
             return response()->json([
                 'errors' => [
                     [
@@ -50,10 +51,10 @@ class ChangePasswordController extends Controller
                         'title' => 'Validation Error',
                         'detail' => 'The current password is incorrect.',
                         'source' => [
-                            'pointer' => '/data/attributes/current_password'
-                        ]
-                    ]
-                ]
+                            'pointer' => '/data/attributes/current_password',
+                        ],
+                    ],
+                ],
             ], 422);
         }
 
@@ -70,8 +71,8 @@ class ChangePasswordController extends Controller
                 'type' => 'password-change',
                 'attributes' => [
                     'message' => 'Password has been changed successfully.',
-                ]
-            ]
+                ],
+            ],
         ], 200);
     }
 }

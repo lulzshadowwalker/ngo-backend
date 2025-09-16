@@ -11,4 +11,3 @@ trait WithPages
         $this->seed(PageSeeder::class);
     }
 }
-

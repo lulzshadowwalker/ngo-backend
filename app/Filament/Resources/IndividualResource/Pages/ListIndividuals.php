@@ -29,7 +29,7 @@ class ListIndividuals extends ListRecords
                 ->action(function () {
                     $locations = Location::all();
                     $skills = Skill::all();
-                    
+
                     for ($i = 0; $i < 15; $i++) {
                         // Create user
                         $user = User::factory()->create();
@@ -55,7 +55,7 @@ class ListIndividuals extends ListRecords
                             'Environmental Protection', 'Education Support', 'Healthcare Assistance',
                             'Community Development', 'Youth Mentoring', 'Animal Welfare',
                             'Disaster Relief', 'Poverty Alleviation', 'Technology Training',
-                            'Arts & Culture', 'Senior Care', 'Food Security'
+                            'Arts & Culture', 'Senior Care', 'Food Security',
                         ];
 
                         foreach (fake()->randomElements($interests, rand(1, 3)) as $interest) {

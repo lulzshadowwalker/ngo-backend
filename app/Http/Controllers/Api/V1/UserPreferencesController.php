@@ -11,11 +11,12 @@ class UserPreferencesController extends Controller
 {
     /**
      * Get user preferences
-     * 
+     *
      * Retrieve the current user's preferences. If no preferences exist,
      * default preferences will be created and returned.
      *
      * @group User Management
+     *
      * @authenticated
      */
     public function index()
@@ -29,13 +30,14 @@ class UserPreferencesController extends Controller
 
     /**
      * Update user preferences
-     * 
+     *
      * Update the authenticated user's preferences. Only provided fields will be updated;
      * other preferences will remain unchanged.
      *
      * @group User Management
+     *
      * @authenticated
-     * 
+     *
      * @bodyParam language string optional The preferred language (en, es, fr, etc.). Example: en
      * @bodyParam email_notifications boolean optional Enable/disable email notifications. Example: true
      * @bodyParam push_notifications boolean optional Enable/disable push notifications. Example: false

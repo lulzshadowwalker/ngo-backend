@@ -18,4 +18,3 @@ trait WithAdmin
         $this->actingAs($user);
     }
 }
-

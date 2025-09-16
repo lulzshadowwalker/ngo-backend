@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Models\Individual;
 use App\Models\Location;
 use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class IndividualFactory extends Factory
 {

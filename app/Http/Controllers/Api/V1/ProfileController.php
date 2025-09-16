@@ -19,11 +19,12 @@ class ProfileController extends Controller
 {
     /**
      * Get current user profile
-     * 
+     *
      * Retrieve the authenticated user's profile information. Returns different
      * data structures based on the user type (individual, organization, etc.).
      *
      * @group User Management
+     *
      * @authenticated
      */
     public function index()
@@ -42,7 +43,9 @@ class ProfileController extends Controller
 
     /**
      * Update the profile.
+     *
      * @group User Management
+     *
      * @authenticated
      */
     public function update()

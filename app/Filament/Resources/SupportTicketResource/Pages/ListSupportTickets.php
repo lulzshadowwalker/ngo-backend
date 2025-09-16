@@ -25,7 +25,7 @@ class ListSupportTickets extends ListRecords
                 ->color('gray')
                 ->action(function () {
                     $users = User::all();
-                    
+
                     if ($users->isEmpty()) {
                         return;
                     }
@@ -38,7 +38,7 @@ class ListSupportTickets extends ListRecords
 
                     for ($i = 0; $i < 10; $i++) {
                         \App\Models\SupportTicket::create([
-                            'number' => 'TICKET-' . str_pad(
+                            'number' => 'TICKET-'.str_pad(
                                 (\App\Models\SupportTicket::max('id') ?? 0) + $i + 1,
                                 6,
                                 '0',

@@ -18,6 +18,7 @@ class OpportunityController extends Controller
      * Display a paginated list of active opportunities with filtering.
      *
      * @group Opportunities
+     *
      * @unauthenticated
      *
      * @queryParam location string Filter by location description. Example: "New York"
@@ -60,10 +61,10 @@ class OpportunityController extends Controller
             $query->whereNotNull('latitude')
                 ->whereNotNull('longitude')
                 ->whereRaw(
-                    "ST_Distance_Sphere(
+                    'ST_Distance_Sphere(
                         POINT(longitude, latitude),
                         POINT(?, ?)
-                    ) <= ?",
+                    ) <= ?',
                     [$lng, $lat, $radius * 1000] // Convert km to meters
                 );
         }
@@ -160,6 +161,7 @@ class OpportunityController extends Controller
      * Display the specified opportunity with full details.
      *
      * @group Opportunities
+     *
      * @unauthenticated
      *
      * @urlParam id string required The ID of the opportunity. Example: 1
@@ -172,7 +174,7 @@ class OpportunityController extends Controller
             'sector:id,name',
             'applicationForm.formFields' => function ($query) {
                 $query->orderBy('sort_order');
-            }
+            },
         ])
             ->where('status', OpportunityStatus::Active)
             ->findOrFail($id);
@@ -186,6 +188,7 @@ class OpportunityController extends Controller
      * Search Opportunities
      *
      * @group Opportunities
+     *
      * @unauthenticated
      *
      * @queryParam query string The search term. Example: "developer"
@@ -214,6 +217,7 @@ class OpportunityController extends Controller
      * Get a list of featured or recommended opportunities.
      *
      * @group Opportunities
+     *
      * @unauthenticated
      *
      * @queryParam limit integer The number of featured opportunities to return. Default: 6. Example: 4
@@ -240,6 +244,7 @@ class OpportunityController extends Controller
      * Get statistics for opportunities for the homepage.
      *
      * @group Opportunities
+     *
      * @unauthenticated
      */
     public function stats(): JsonResponse

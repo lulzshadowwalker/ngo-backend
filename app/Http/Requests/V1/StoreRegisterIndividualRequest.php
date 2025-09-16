@@ -16,7 +16,7 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
     {
         return [
             'data.attributes.name' => 'required|string|max:255',
-            'data.attributes.email' => ['required', 'email', 'max:255', new UniqueEmailRule()],
+            'data.attributes.email' => ['required', 'email', 'max:255', new UniqueEmailRule],
             'data.attributes.bio' => 'nullable|string|max:1000',
             'data.attributes.phone' => 'nullable|string|max:20',
             'data.attributes.password' => 'required|string|min:8',

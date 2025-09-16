@@ -3,15 +3,14 @@
 namespace App\Filament\Cms\Resources;
 
 use App\Filament\Cms\Resources\PostResource\Pages;
-use App\Filament\Cms\Resources\PostResource\RelationManagers;
 use App\Models\Post;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use Filament\Tables\Table;
-use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
+use Filament\Tables\Table;
 
 class PostResource extends Resource
 {
@@ -30,14 +29,20 @@ class PostResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::count();
+
         return $count > 0 ? (string) $count : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::count();
-        if ($count === 0) return 'danger';
-        if ($count <= 25) return 'warning';
+        if ($count === 0) {
+            return 'danger';
+        }
+        if ($count <= 25) {
+            return 'warning';
+        }
+
         return 'success';
     }
 
@@ -88,7 +93,7 @@ class PostResource extends Resource
 
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Published At')
-                    ->description(fn(Post $record): string => $record->created_at?->diffForHumans() ?? '')
+                    ->description(fn (Post $record): string => $record->created_at?->diffForHumans() ?? '')
                     ->alignRight()
                     ->dateTime('M j, Y')
                     ->sortable(),
@@ -101,7 +106,7 @@ class PostResource extends Resource
             ])
             ->filters([
                 Tables\Filters\Filter::make('recent')
-                    ->query(fn(\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->where('created_at', '>=', now()->subDays(30)))
+                    ->query(fn (\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->where('created_at', '>=', now()->subDays(30)))
                     ->label('Recent Posts'),
             ])
             ->actions([

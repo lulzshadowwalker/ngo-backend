@@ -4,8 +4,6 @@ namespace App\Listeners;
 
 use App\Events\ApplicationStatusChanged;
 use App\Notifications\ApplicationStatusChangedNotification;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 
 class SendApplicationStatusChangedNotification
 {

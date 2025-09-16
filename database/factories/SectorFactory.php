@@ -19,7 +19,7 @@ class SectorFactory extends BaseFactory
     public function definition(): array
     {
         return [
-            'name' => $this->localized(fn() => fake()->name()),
+            'name' => $this->localized(fn () => fake()->name()),
         ];
     }
 }

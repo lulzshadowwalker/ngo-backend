@@ -6,7 +6,6 @@ use App\Enums\SupportTicketStatus;
 use App\Filament\Resources\SupportTicketResource;
 use App\Models\User;
 use Filament\Actions;
-use Filament\Notifications\Notification;
 use Filament\Resources\Pages\CreateRecord;
 
 class CreateSupportTicket extends CreateRecord
@@ -49,7 +48,7 @@ class CreateSupportTicket extends CreateRecord
     {
         // Auto-generate ticket number if not provided
         if (empty($data['number'])) {
-            $data['number'] = 'TICKET-' . str_pad(
+            $data['number'] = 'TICKET-'.str_pad(
                 (\App\Models\SupportTicket::max('id') ?? 0) + 1,
                 6,
                 '0',

@@ -2,8 +2,8 @@
 
 namespace App\Notifications;
 
-use App\Models\Application;
 use App\Enums\ApplicationStatus;
+use App\Models\Application;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
@@ -70,10 +70,10 @@ class ApplicationStatusChangedNotification extends Notification implements Shoul
         $status = $this->application->status->value;
 
         return [
-            "title" => trans('notifications.application-status-changed.title', [
+            'title' => trans('notifications.application-status-changed.title', [
                 'status' => $this->application->status->label(),
             ], $language),
-            "body" => trans("notifications.application-status-changed.{$status}.body", [
+            'body' => trans("notifications.application-status-changed.{$status}.body", [
                 'opportunity' => $opportunityTitle,
                 'organization' => $organization->name,
             ], $language),

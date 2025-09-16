@@ -7,7 +7,6 @@ use App\Models\Sector;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Testing\File;
-use Illuminate\Support\Facades\Storage;
 use Tests\TestCase;
 use Tests\Traits\WithRoles;
 

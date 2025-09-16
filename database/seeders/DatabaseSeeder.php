@@ -2,22 +2,21 @@
 
 namespace Database\Seeders;
 
-use Spatie\Permission\Models\Role as SpatieRole;
 use App\Enums\Role;
-use App\Models\Skill;
-use App\Models\User;
-use App\Models\Organization;
-use App\Models\Post;
 use App\Models\Comment;
-use App\Models\Like;
 use App\Models\Follow;
 use App\Models\Individual;
 use App\Models\IndividualPreference;
+use App\Models\Like;
 use App\Models\Opportunity;
+use App\Models\Organization;
+use App\Models\Post;
 use App\Models\Program;
-use Database\Factories\IndividualPreferenceFactory;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Skill;
+use App\Models\User;
 use Illuminate\Database\Seeder;
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Spatie\Permission\Models\Role as SpatieRole;
 
 class DatabaseSeeder extends Seeder
 {
@@ -79,8 +78,8 @@ class DatabaseSeeder extends Seeder
         Skill::factory(10)->create();
 
         User::factory()->create([
-            "name" => "Test User",
-            "email" => "test@example.com",
+            'name' => 'Test User',
+            'email' => 'test@example.com',
         ]);
 
         foreach (Organization::all() as $organization) {

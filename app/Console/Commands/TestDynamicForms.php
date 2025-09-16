@@ -2,13 +2,24 @@
 
 namespace App\Console\Commands;
 
-use App\Enums\{ApplicationStatus, FormFieldType, OpportunityStatus, ProgramStatus};
-use App\Models\{Application, ApplicationForm, FormField, Opportunity, Organization, Program, Sector, User};
+use App\Enums\ApplicationStatus;
+use App\Enums\FormFieldType;
+use App\Enums\OpportunityStatus;
+use App\Enums\ProgramStatus;
+use App\Models\Application;
+use App\Models\ApplicationForm;
+use App\Models\FormField;
+use App\Models\Opportunity;
+use App\Models\Organization;
+use App\Models\Program;
+use App\Models\Sector;
+use App\Models\User;
 use Illuminate\Console\Command;
 
 class TestDynamicForms extends Command
 {
     protected $signature = 'test:dynamic-forms';
+
     protected $description = 'Test the dynamic forms system end-to-end';
 
     public function handle()
@@ -17,8 +28,9 @@ class TestDynamicForms extends Command
 
         // Get or create test organization
         $org = Organization::first();
-        if (!$org) {
+        if (! $org) {
             $this->error('No organizations found. Please create one first.');
+
             return;
         }
 
@@ -109,7 +121,7 @@ class TestDynamicForms extends Command
 
         // Create a sample user for testing application submission
         $user = User::firstOrCreate([
-            'email' => 'volunteer@example.com'
+            'email' => 'volunteer@example.com',
         ], [
             'name' => 'John Volunteer',
             'password' => bcrypt('password'),

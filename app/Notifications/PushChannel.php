@@ -4,8 +4,8 @@ namespace App\Notifications;
 
 use App\Contracts\PushNotificationService;
 use App\Services\FirebasePushNotification\UserNotificationStrategy;
-use Illuminate\Notifications\Notification;
 use App\Support\PushNotification;
+use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Log;
 
 /**

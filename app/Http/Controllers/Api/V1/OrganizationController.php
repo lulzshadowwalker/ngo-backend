@@ -18,6 +18,7 @@ class OrganizationController extends Controller
      * contact information, and operational status.
      *
      * @group Organizations
+     *
      * @unauthenticated
      *
      * @return AnonymousResourceCollection
@@ -35,6 +36,7 @@ class OrganizationController extends Controller
      * contact details, and operational information.
      *
      * @group Organizations
+     *
      * @unauthenticated
      *
      * @urlParam organization string required The slug of the organization. Example: green-earth-foundation
@@ -44,6 +46,7 @@ class OrganizationController extends Controller
     public function show(Organization $organization)
     {
         $organization->load('location', 'sector');
+
         return OrganizationResource::make($organization);
     }
 
@@ -54,6 +57,7 @@ class OrganizationController extends Controller
      * to find organizations by name or description, facilitating easier discovery of NGOs.
      *
      * @group Organizations
+     *
      * @unauthenticated
      *
      * @queryParam query string required The search query string. Example: health

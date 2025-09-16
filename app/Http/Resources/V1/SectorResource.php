@@ -16,15 +16,15 @@ class SectorResource extends JsonResource
     public function toArray($request)
     {
         return [
-            "type" => "sectors",
-            "id" => (string) $this->id,
-            "attributes" => [
-                "name" => $this->name,
-                "description" => $this->description,
-                "createdAt" => $this->created_at->toIso8601String(),
-                "updatedAt" => $this->updated_at->toIso8601String(),
+            'type' => 'sectors',
+            'id' => (string) $this->id,
+            'attributes' => [
+                'name' => $this->name,
+                'description' => $this->description,
+                'createdAt' => $this->created_at->toIso8601String(),
+                'updatedAt' => $this->updated_at->toIso8601String(),
             ],
-            "relationships" => (object) [],
+            'relationships' => (object) [],
         ];
     }
 }

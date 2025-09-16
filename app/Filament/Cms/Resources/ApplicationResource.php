@@ -30,14 +30,20 @@ class ApplicationResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+
         return $count > 0 ? (string) $count : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
-        if ($count === 0) return 'danger';
-        if ($count <= 25) return 'warning';
+        if ($count === 0) {
+            return 'danger';
+        }
+        if ($count <= 25) {
+            return 'warning';
+        }
+
         return 'success';
     }
 
@@ -64,12 +70,12 @@ class ApplicationResource extends Resource
 
                         Forms\Components\DateTimePicker::make('reviewed_at')
                             ->label('Reviewed At')
-                            ->visible(fn(callable $get) => $get('status') === ApplicationStatus::Approved->value)
+                            ->visible(fn (callable $get) => $get('status') === ApplicationStatus::Approved->value)
                             ->default(now()),
 
                         Forms\Components\DateTimePicker::make('completed_at')
                             ->label('Completed At')
-                            ->visible(fn(callable $get) => $get('status') === ApplicationStatus::Approved->value)
+                            ->visible(fn (callable $get) => $get('status') === ApplicationStatus::Approved->value)
                             ->default(now()),
 
                         Forms\Components\Textarea::make('notes')
@@ -181,11 +187,11 @@ class ApplicationResource extends Resource
                     ->relationship('opportunity', 'title'),
 
                 Tables\Filters\Filter::make('submitted_today')
-                    ->query(fn(Builder $query): Builder => $query->whereDate('submitted_at', today()))
+                    ->query(fn (Builder $query): Builder => $query->whereDate('submitted_at', today()))
                     ->label('Submitted Today'),
 
                 Tables\Filters\Filter::make('needs_review')
-                    ->query(fn(Builder $query): Builder => $query->where('status', ApplicationStatus::Pending))
+                    ->query(fn (Builder $query): Builder => $query->where('status', ApplicationStatus::Pending))
                     ->label('Needs Review'),
             ])
             ->actions([
@@ -235,7 +241,7 @@ class ApplicationResource extends Resource
 
     public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
     {
-        return ($record->user?->name ?? 'Unknown User') . ' - ' . ($record->opportunity?->title ?? 'Unknown Opportunity');
+        return ($record->user?->name ?? 'Unknown User').' - '.($record->opportunity?->title ?? 'Unknown Opportunity');
     }
 
     public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array

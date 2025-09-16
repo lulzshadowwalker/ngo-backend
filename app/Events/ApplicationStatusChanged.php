@@ -2,8 +2,8 @@
 
 namespace App\Events;
 
-use App\Models\Application;
 use App\Enums\ApplicationStatus;
+use App\Models\Application;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

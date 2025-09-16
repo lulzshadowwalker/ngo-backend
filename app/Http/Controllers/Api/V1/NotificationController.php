@@ -16,6 +16,7 @@ class NotificationController extends ApiController
      * List all notifications for the authenticated user.
      *
      * @group Notifications
+     *
      * @authenticated
      */
     public function index()
@@ -29,6 +30,7 @@ class NotificationController extends ApiController
      * Get a specific notification by its ID.
      *
      * @group Notifications
+     *
      * @authenticated
      *
      * @urlParam notification string required The ID of the notification. Example: "8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"
@@ -44,6 +46,7 @@ class NotificationController extends ApiController
      * Mark a specific notification as read.
      *
      * @group Notifications
+     *
      * @authenticated
      *
      * @urlParam notification string required The ID of the notification. Example: "8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"
@@ -61,6 +64,7 @@ class NotificationController extends ApiController
      * Mark all unread notifications as read.
      *
      * @group Notifications
+     *
      * @authenticated
      */
     public function markAllAsRead()
@@ -76,6 +80,7 @@ class NotificationController extends ApiController
      * Delete a specific notification.
      *
      * @group Notifications
+     *
      * @authenticated
      *
      * @urlParam notification string required The ID of the notification. Example: "8f4c4a7-6f48-4b3a-8b1e-5b9a1b3b7e3a"
@@ -95,12 +100,13 @@ class NotificationController extends ApiController
      * Delete all notifications for the authenticated user.
      *
      * @group Notifications
+     *
      * @authenticated
      */
     public function destroyAll()
     {
         //  NOTE: not entirely sure if this is required but doesn't hurt to have it
-        return  DB::transaction(function () {
+        return DB::transaction(function () {
             Auth::user()->notifications()->delete();
 
             return $this->response

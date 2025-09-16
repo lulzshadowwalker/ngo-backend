@@ -11,7 +11,6 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 
-
 class AdminSupportTicketReceivedNotification extends Notification implements ShouldQueue
 {
     use Queueable;
@@ -41,7 +40,7 @@ class AdminSupportTicketReceivedNotification extends Notification implements Sho
                 Action::make('go-to-ticket')
                     ->button()
                     ->label('View Ticket')
-                    ->url(SupportTicketResource::getUrl('edit', ['record' => $this->supportTicket]))
+                    ->url(SupportTicketResource::getUrl('edit', ['record' => $this->supportTicket])),
             ])
             ->icon(SupportTicketResource::getNavigationIcon())
             ->getDatabaseMessage();

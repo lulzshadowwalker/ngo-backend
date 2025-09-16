@@ -5,22 +5,21 @@ namespace App\Models;
 use App\Enums\ProgramStatus;
 use App\Observers\ProgramObserver;
 use App\Traits\BelongsToOrganization;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Spatie\Translatable\HasTranslations;
-use CyrildeWit\EloquentViewable\InteractsWithViews;
-use Illuminate\Database\Eloquent\Attributes\ObservedBy;
-use Illuminate\Database\Eloquent\Casts\Attribute;
+use Laravel\Scout\Searchable;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
-use Laravel\Scout\Searchable;
+use Spatie\Translatable\HasTranslations;
 
 #[ObservedBy(ProgramObserver::class)]
 class Program extends Model implements HasMedia
 {
-    use HasFactory, HasTranslations, BelongsToOrganization, Searchable, InteractsWithMedia;
+    use BelongsToOrganization, HasFactory, HasTranslations, InteractsWithMedia, Searchable;
 
     /**
      * The attributes that are mass assignable.
@@ -81,7 +80,7 @@ class Program extends Model implements HasMedia
 
     public function registerMediaCollections(): void
     {
-        $fallback = 'https://placehold.co/400x225.png?text=' . str_replace(' ', '%20', $this->title);
+        $fallback = 'https://placehold.co/400x225.png?text='.str_replace(' ', '%20', $this->title);
 
         $this->addMediaCollection(self::MEDIA_COLLECTION_COVER)
             ->singleFile()
@@ -94,7 +93,7 @@ class Program extends Model implements HasMedia
     public function cover(): Attribute
     {
         return Attribute::get(
-            fn() => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_COVER) ?:
+            fn () => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_COVER) ?:
                 null
         );
     }
@@ -105,7 +104,7 @@ class Program extends Model implements HasMedia
     public function coverFile(): Attribute
     {
         return Attribute::get(
-            fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
+            fn () => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
         );
     }
 }

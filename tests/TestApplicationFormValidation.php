@@ -1,10 +1,10 @@
 <?php
 
 // Simple test script to verify application form validation
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
-use App\Models\{ApplicationForm, Opportunity, Organization};
-use Illuminate\Database\Eloquent\Collection;
+use App\Models\Opportunity;
+use App\Models\Organization;
 
 // Simulate the validation logic
 function testOpportunityFiltering(): void

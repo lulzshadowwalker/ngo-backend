@@ -6,14 +6,12 @@ use App\Enums\ApplicationStatus;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\V1\ApplicationResource;
 use App\Models\Application;
-use App\Models\ApplicationForm;
 use App\Models\ApplicationResponse;
 use App\Models\Opportunity;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Validation\ValidationException;
 
 class ApplicationController extends Controller
 {
@@ -21,6 +19,7 @@ class ApplicationController extends Controller
      * Display a listing of the user's applications
      *
      * @group Applications
+     *
      * @authenticated
      *
      * @queryParam user_id integer The ID of the user to retrieve applications for. Will be replaced by authenticated user.
@@ -32,7 +31,7 @@ class ApplicationController extends Controller
         // For now, we'll accept user_id as a parameter for testing
         $userId = $request->get('user_id');
 
-        if (!$userId) {
+        if (! $userId) {
             return response()->json([
                 'message' => 'User ID is required',
             ], 400);
@@ -41,7 +40,7 @@ class ApplicationController extends Controller
         $applications = Application::with([
             'opportunity:id,title,description,expiry_date',
             'organization:id,name,bio',
-            'applicationForm:id,title,description'
+            'applicationForm:id,title,description',
         ])
             ->where('user_id', $userId)
             ->orderBy('created_at', 'desc')
@@ -64,6 +63,7 @@ class ApplicationController extends Controller
      * Store a newly created application
      *
      * @group Applications
+     *
      * @authenticated
      *
      * @bodyParam opportunity_id integer required The ID of the opportunity being applied for. Example: 1
@@ -127,8 +127,8 @@ class ApplicationController extends Controller
             foreach ($request->responses as $responseData) {
                 $formField = $formFields->get($responseData['form_field_id']);
 
-                if (!$formField) {
-                    throw new \Exception('Invalid form field ID: ' . $responseData['form_field_id']);
+                if (! $formField) {
+                    throw new \Exception('Invalid form field ID: '.$responseData['form_field_id']);
                 }
 
                 // TODO: Add more specific validation based on field type
@@ -162,9 +162,11 @@ class ApplicationController extends Controller
      * Display the specified application
      *
      * @group Applications
+     *
      * @authenticated
      *
      * @urlParam id string required The ID of the application. Example: "1"
+     *
      * @queryParam user_id integer The ID of the user (for validation, will be replaced by authenticated user).
      */
     public function show(Request $request, string $id): JsonResponse
@@ -176,7 +178,7 @@ class ApplicationController extends Controller
             'opportunity:id,title,description,expiry_date',
             'organization:id,name,bio',
             'applicationForm:id,title,description',
-            'responses.formField'
+            'responses.formField',
         ])
             ->where('id', $id)
             ->when($userId, function ($query, $userId) {
@@ -193,6 +195,7 @@ class ApplicationController extends Controller
      * Update the specified application (only for draft applications)
      *
      * @group Applications
+     *
      * @authenticated
      *
      * @urlParam id string required The ID of the application to update. Example: "1"
@@ -273,6 +276,7 @@ class ApplicationController extends Controller
      * Remove the specified application (only for pending applications)
      *
      * @group Applications
+     *
      * @authenticated
      *
      * @urlParam id string required The ID of the application to delete. Example: "1"

@@ -2,33 +2,32 @@
 
 namespace App\Models;
 
+use App\Filters\QueryFilter;
 use App\Observers\PostObserver;
+use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use App\Filters\QueryFilter;
-use App\Traits\BelongsToOrganization;
-use Illuminate\Database\Eloquent\Builder;
-use CyrildeWit\EloquentViewable\InteractsWithViews;
-use Illuminate\Database\Eloquent\Casts\Attribute;
+use Laravel\Scout\Searchable;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
-use Laravel\Scout\Searchable;
 use Spatie\Translatable\HasTranslations;
 
 #[ObservedBy(PostObserver::class)]
 class Post extends Model implements HasMedia
 {
-    use HasFactory, Searchable, BelongsToOrganization, HasTranslations, InteractsWithMedia;
+    use BelongsToOrganization, HasFactory, HasTranslations, InteractsWithMedia, Searchable;
 
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $fillable = ["title", "slug", "content", "organization_id", "sector_id"];
+    protected $fillable = ['title', 'slug', 'content', 'organization_id', 'sector_id'];
 
     /**
      * Get the attributes that should be cast.
@@ -38,12 +37,12 @@ class Post extends Model implements HasMedia
     protected function casts(): array
     {
         return [
-            "id" => "integer",
-            "organization_id" => "integer",
+            'id' => 'integer',
+            'organization_id' => 'integer',
         ];
     }
 
-    public $translatable = ["title", "content"];
+    public $translatable = ['title', 'content'];
 
     /**
      * @return BelongsTo<Organization,Post>
@@ -58,7 +57,7 @@ class Post extends Model implements HasMedia
      */
     public function comments(): MorphMany
     {
-        return $this->morphMany(Comment::class, "commentable");
+        return $this->morphMany(Comment::class, 'commentable');
     }
 
     /**
@@ -66,11 +65,11 @@ class Post extends Model implements HasMedia
      */
     public function likes(): MorphMany
     {
-        return $this->morphMany(Like::class, "likeable");
+        return $this->morphMany(Like::class, 'likeable');
     }
 
     /**
-     * @param Builder<Model> $builder
+     * @param  Builder<Model>  $builder
      */
     public function scopeFilter(Builder $builder, QueryFilter $filters): Builder
     {
@@ -101,7 +100,7 @@ class Post extends Model implements HasMedia
 
     public function registerMediaCollections(): void
     {
-        $fallback = 'https://placehold.co/400x225.png?text=' . str_replace(' ', '%20', $this->title);
+        $fallback = 'https://placehold.co/400x225.png?text='.str_replace(' ', '%20', $this->title);
 
         $this->addMediaCollection(self::MEDIA_COLLECTION_COVER)
             ->singleFile()
@@ -114,7 +113,7 @@ class Post extends Model implements HasMedia
     public function cover(): Attribute
     {
         return Attribute::get(
-            fn() => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_COVER) ?:
+            fn () => $this->getFirstMediaUrl(self::MEDIA_COLLECTION_COVER) ?:
                 null
         );
     }
@@ -125,7 +124,7 @@ class Post extends Model implements HasMedia
     public function coverFile(): Attribute
     {
         return Attribute::get(
-            fn() => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
+            fn () => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
         );
     }
 }

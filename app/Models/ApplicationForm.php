@@ -11,7 +11,7 @@ use Spatie\Translatable\HasTranslations;
 
 class ApplicationForm extends Model
 {
-    use HasFactory, HasTranslations, BelongsToOrganization;
+    use BelongsToOrganization, HasFactory, HasTranslations;
 
     /**
      * The attributes that are mass assignable.

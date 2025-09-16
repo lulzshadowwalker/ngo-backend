@@ -56,9 +56,10 @@ class ProgramCreatedNotification extends Notification implements ShouldQueue
         $language = $notifiable->preferences->language->value ?? 'en';
         $organization = $this->program->organization;
         $programTitle = $this->program->getTranslation('title', $language);
+
         return [
-            "title" => trans('notifications.program-created.title', ['organization' => $organization->name], $language),
-            "body" => trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $programTitle], $language),
+            'title' => trans('notifications.program-created.title', ['organization' => $organization->name], $language),
+            'body' => trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $programTitle], $language),
         ];
     }
 }

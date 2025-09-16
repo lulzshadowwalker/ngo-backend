@@ -2,7 +2,6 @@
 
 namespace Tests\Feature\Http\Controllers\Api\V1;
 
-use App\Models\Individual;
 use App\Models\Organization;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;

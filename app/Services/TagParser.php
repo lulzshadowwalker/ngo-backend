@@ -9,7 +9,7 @@ class TagParser
     /**
      * Default delimiter for separating tags.
      */
-    private const DEFAULT_DELIMITER = ",";
+    private const DEFAULT_DELIMITER = ',';
 
     /**
      * Maximum allowed tag length.
@@ -24,12 +24,13 @@ class TagParser
     /**
      * Parse a string of comma-separated tags into an array of clean strings.
      *
-     * @param string|null $input The input string containing tags
-     * @param string $delimiter The delimiter to split tags by (default: comma)
-     * @param bool $caseSensitive Whether tags should be case-sensitive (default: false)
-     * @param bool $allowDuplicates Whether to allow duplicate tags (default: false)
-     * @param int|null $maxTags Maximum number of tags to return (default: null for no limit)
+     * @param  string|null  $input  The input string containing tags
+     * @param  string  $delimiter  The delimiter to split tags by (default: comma)
+     * @param  bool  $caseSensitive  Whether tags should be case-sensitive (default: false)
+     * @param  bool  $allowDuplicates  Whether to allow duplicate tags (default: false)
+     * @param  int|null  $maxTags  Maximum number of tags to return (default: null for no limit)
      * @return array<string> Array of cleaned tag strings
+     *
      * @throws InvalidArgumentException When input is invalid
      */
     public function parse(
@@ -40,21 +41,21 @@ class TagParser
         ?int $maxTags = null
     ): array {
         // Handle null or empty input
-        if ($input === null || trim($input) === "") {
+        if ($input === null || trim($input) === '') {
             return [];
         }
 
         // Validate delimiter
         if (empty(trim($delimiter))) {
             throw new InvalidArgumentException(
-                "Delimiter cannot be empty or whitespace only."
+                'Delimiter cannot be empty or whitespace only.'
             );
         }
 
         // Validate max tags
         if ($maxTags !== null && $maxTags < 0) {
             throw new InvalidArgumentException(
-                "Maximum tags count cannot be negative."
+                'Maximum tags count cannot be negative.'
             );
         }
 
@@ -66,7 +67,7 @@ class TagParser
             $cleanedTag = $this->cleanTag($tag);
 
             // Skip empty tags after cleaning
-            if ($cleanedTag === "") {
+            if ($cleanedTag === '') {
                 continue;
             }
 
@@ -81,10 +82,10 @@ class TagParser
                 : mb_strtolower($cleanedTag);
 
             // Handle duplicates
-            if (!$allowDuplicates) {
+            if (! $allowDuplicates) {
                 $compareArray = $caseSensitive
                     ? $cleanedTags
-                    : array_map("mb_strtolower", $cleanedTags);
+                    : array_map('mb_strtolower', $cleanedTags);
                 if (in_array($finalTag, $compareArray, true)) {
                     continue;
                 }
@@ -114,11 +115,11 @@ class TagParser
     /**
      * Parse tags and return as a comma-separated string.
      *
-     * @param string|null $input The input string containing tags
-     * @param string $delimiter The delimiter to split tags by (default: comma)
-     * @param bool $caseSensitive Whether tags should be case-sensitive (default: false)
-     * @param bool $allowDuplicates Whether to allow duplicate tags (default: false)
-     * @param int|null $maxTags Maximum number of tags to return (default: null for no limit)
+     * @param  string|null  $input  The input string containing tags
+     * @param  string  $delimiter  The delimiter to split tags by (default: comma)
+     * @param  bool  $caseSensitive  Whether tags should be case-sensitive (default: false)
+     * @param  bool  $allowDuplicates  Whether to allow duplicate tags (default: false)
+     * @param  int|null  $maxTags  Maximum number of tags to return (default: null for no limit)
      * @return string Comma-separated string of cleaned tags
      */
     public function parseToString(
@@ -135,13 +136,14 @@ class TagParser
             $allowDuplicates,
             $maxTags
         );
-        return implode(", ", $tags);
+
+        return implode(', ', $tags);
     }
 
     /**
      * Parse tags with custom settings for common use cases.
      *
-     * @param string|null $input The input string containing tags
+     * @param  string|null  $input  The input string containing tags
      * @return array<string> Array of cleaned tag strings with default settings
      */
     public function parseSimple(?string $input): array
@@ -152,8 +154,8 @@ class TagParser
     /**
      * Parse tags with strict validation (case-sensitive, no duplicates).
      *
-     * @param string|null $input The input string containing tags
-     * @param int|null $maxTags Maximum number of tags to return
+     * @param  string|null  $input  The input string containing tags
+     * @param  int|null  $maxTags  Maximum number of tags to return
      * @return array<string> Array of cleaned tag strings
      */
     public function parseStrict(?string $input, ?int $maxTags = null): array
@@ -170,7 +172,7 @@ class TagParser
     /**
      * Parse tags with relaxed validation (case-insensitive, allows duplicates).
      *
-     * @param string|null $input The input string containing tags
+     * @param  string|null  $input  The input string containing tags
      * @return array<string> Array of cleaned tag strings
      */
     public function parseRelaxed(?string $input): array
@@ -181,7 +183,7 @@ class TagParser
     /**
      * Clean and normalize a single tag.
      *
-     * @param string $tag The raw tag string
+     * @param  string  $tag  The raw tag string
      * @return string The cleaned tag string
      */
     private function cleanTag(string $tag): string
@@ -190,10 +192,10 @@ class TagParser
         $cleaned = trim($tag);
 
         // Remove multiple consecutive spaces and replace with single space
-        $cleaned = preg_replace("/\s+/", " ", $cleaned);
+        $cleaned = preg_replace("/\s+/", ' ', $cleaned);
 
         // Remove special characters that might cause issues (but keep alphanumeric, spaces, hyphens, underscores)
-        $cleaned = preg_replace("/[^\p{L}\p{N}\s\-_]/u", "", $cleaned);
+        $cleaned = preg_replace("/[^\p{L}\p{N}\s\-_]/u", '', $cleaned);
 
         // Trim again after character removal
         $cleaned = trim($cleaned);
@@ -204,8 +206,8 @@ class TagParser
     /**
      * Validate if a string contains valid tags.
      *
-     * @param string|null $input The input string to validate
-     * @param string $delimiter The delimiter to split tags by
+     * @param  string|null  $input  The input string to validate
+     * @param  string  $delimiter  The delimiter to split tags by
      * @return bool True if the input contains valid tags
      */
     public function isValid(
@@ -214,7 +216,8 @@ class TagParser
     ): bool {
         try {
             $tags = $this->parse($input, $delimiter);
-            return !empty($tags);
+
+            return ! empty($tags);
         } catch (InvalidArgumentException) {
             return false;
         }
@@ -223,8 +226,8 @@ class TagParser
     /**
      * Count the number of valid tags in the input.
      *
-     * @param string|null $input The input string containing tags
-     * @param string $delimiter The delimiter to split tags by
+     * @param  string|null  $input  The input string containing tags
+     * @param  string  $delimiter  The delimiter to split tags by
      * @return int Number of valid tags
      */
     public function count(

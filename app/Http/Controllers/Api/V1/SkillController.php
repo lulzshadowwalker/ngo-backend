@@ -16,6 +16,7 @@ class SkillController extends Controller
      * Skills are used to categorize user expertise and organization needs.
      *
      * @group Skills & Locations
+     *
      * @unauthenticated
      *
      * @return AnonymousResourceCollection
@@ -32,6 +33,7 @@ class SkillController extends Controller
      * including its description and related information.
      *
      * @group Skills & Locations
+     *
      * @unauthenticated
      *
      * @urlParam skill integer required The ID of the skill. Example: 1

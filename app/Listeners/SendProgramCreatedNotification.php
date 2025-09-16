@@ -4,8 +4,6 @@ namespace App\Listeners;
 
 use App\Events\ProgramCreated;
 use App\Notifications\ProgramCreatedNotification;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 
 class SendProgramCreatedNotification
 {

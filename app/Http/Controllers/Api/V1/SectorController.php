@@ -15,6 +15,7 @@ class SectorController extends Controller
      * Retrieve a list of all available sectors in the system.
      *
      * @group Sectors
+     *
      * @unauthenticated
      *
      * @return AnonymousResourceCollection
@@ -30,6 +31,7 @@ class SectorController extends Controller
      * Retrieve detailed information about a specific sector.
      *
      * @group Sectors
+     *
      * @unauthenticated
      *
      * @urlParam sector integer required The ID of the sector. Example: 1

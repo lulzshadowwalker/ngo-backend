@@ -3,23 +3,24 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Password;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Events\PasswordReset;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 
 class ResetPasswordController extends Controller
 {
     /**
      * Reset password
-     * 
+     *
      * Reset user password using the token sent via email.
      *
      * @group Authentication
+     *
      * @unauthenticated
-     * 
+     *
      * @bodyParam data.attributes.token string required The password reset token. Example: abc123def456
      * @bodyParam data.attributes.email string required The user's email address. Example: john.doe@example.com
      * @bodyParam data.attributes.password string required The new password (minimum 8 characters). Example: newSecurePassword123
@@ -44,7 +45,7 @@ class ResetPasswordController extends Controller
 
         $status = Password::reset($credentials, function ($user, $password) {
             $user->forceFill([
-                'password' => Hash::make($password)
+                'password' => Hash::make($password),
             ])->setRememberToken(Str::random(60));
 
             $user->save();
@@ -63,8 +64,8 @@ class ResetPasswordController extends Controller
                 'type' => 'password-reset',
                 'attributes' => [
                     'message' => 'Password has been reset successfully.',
-                ]
-            ]
+                ],
+            ],
         ], 200);
     }
 }

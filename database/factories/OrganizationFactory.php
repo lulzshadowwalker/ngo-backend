@@ -2,11 +2,10 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use App\Models\Location;
 use App\Models\Organization;
 use App\Models\Sector;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class OrganizationFactory extends Factory
 {

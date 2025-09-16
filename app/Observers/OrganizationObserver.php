@@ -10,7 +10,6 @@ class OrganizationObserver
     /**
      * Handle the Organization "creating" event.
      *
-     * @param  \App\Models\Organization  $organization
      * @return void
      */
     public function creating(Organization $organization)
@@ -18,12 +17,12 @@ class OrganizationObserver
         if (empty($organization->slug)) {
             $baseSlug = Str::of($organization->name)
                 ->lower()
-                ->replaceMatches("/[^a-z0-9]/i", "")
+                ->replaceMatches('/[^a-z0-9]/i', '')
                 ->__toString();
             $slug = $baseSlug;
             $i = 1;
-            while (Organization::where("slug", $slug)->exists()) {
-                $slug = $baseSlug . "-" . $i++;
+            while (Organization::where('slug', $slug)->exists()) {
+                $slug = $baseSlug.'-'.$i++;
             }
             $organization->slug = $slug;
         }

@@ -11,7 +11,6 @@ class PostObserver
     /**
      * Handle the Post "creating" event.
      *
-     * @param  \App\Models\Post  $post
      * @return void
      */
     public function creating(Post $post)
@@ -21,7 +20,7 @@ class PostObserver
             $slug = $baseSlug;
             $i = 1;
             while (Post::where('slug', $slug)->exists()) {
-                $slug = $baseSlug . '-' . $i++;
+                $slug = $baseSlug.'-'.$i++;
             }
             $post->slug = $slug;
         }

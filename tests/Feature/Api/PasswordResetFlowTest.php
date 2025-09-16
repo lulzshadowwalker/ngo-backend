@@ -3,11 +3,11 @@
 namespace Tests\Feature\Api;
 
 use App\Models\User;
+use App\Notifications\CustomResetPasswordNotification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Notification;
-use App\Notifications\CustomResetPasswordNotification;
+use Illuminate\Support\Facades\Password;
 use Tests\TestCase;
 
 class PasswordResetFlowTest extends TestCase
@@ -17,7 +17,7 @@ class PasswordResetFlowTest extends TestCase
     public function test_complete_password_reset_flow()
     {
         Notification::fake();
-        
+
         // Create a user
         $user = User::factory()->create([
             'email' => 'user@example.com',
@@ -127,7 +127,7 @@ class PasswordResetFlowTest extends TestCase
     public function test_password_reset_tokens_are_user_specific()
     {
         Notification::fake();
-        
+
         $userA = User::factory()->create(['email' => 'usera@example.com']);
         $userB = User::factory()->create(['email' => 'userb@example.com']);
 

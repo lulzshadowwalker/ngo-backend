@@ -2,12 +2,12 @@
 
 namespace Tests\Feature\Http\Controllers\Api\V1;
 
-use App\Models\User;
-use App\Models\Organization;
-use App\Models\Post;
-use App\Models\Opportunity;
 use App\Models\Follow;
 use App\Models\Individual;
+use App\Models\Opportunity;
+use App\Models\Organization;
+use App\Models\Post;
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -61,15 +61,15 @@ class FeedControllerTest extends TestCase
                         'relationships' => [
                             'organization',
                         ],
-                    ]
+                    ],
                 ],
                 'profileCompletion',
             ]);
 
         // Assert only posts from followed organizations are returned
         $postIds = collect($response->json('posts'))->pluck('id')->toArray();
-        $this->assertContains((string)$followedPost->id, $postIds);
-        $this->assertNotContains((string)$notFollowedPost->id, $postIds);
+        $this->assertContains((string) $followedPost->id, $postIds);
+        $this->assertNotContains((string) $notFollowedPost->id, $postIds);
     }
 
     public function test_following_feed_requires_authentication()
@@ -114,7 +114,7 @@ class FeedControllerTest extends TestCase
                         'relationships' => [
                             'organization',
                         ],
-                    ]
+                    ],
                 ],
                 'opportunities' => [
                     '*' => [
@@ -125,14 +125,14 @@ class FeedControllerTest extends TestCase
                         'status',
                         'organizationId',
                         'organization',
-                    ]
+                    ],
                 ],
             ]);
 
         // Assert all posts are returned
         $postIds = collect($response->json('posts'))->pluck('id')->toArray();
-        $this->assertContains((string)$post1->id, $postIds);
-        $this->assertContains((string)$post2->id, $postIds);
+        $this->assertContains((string) $post1->id, $postIds);
+        $this->assertContains((string) $post2->id, $postIds);
 
         // Assert opportunities are limited to 3
         $opportunities = $response->json('opportunities');
@@ -203,8 +203,8 @@ class FeedControllerTest extends TestCase
         $response->assertStatus(200);
 
         $posts = $response->json('posts');
-        $this->assertEquals((string)$newPost->id, $posts[0]['id']);
-        $this->assertEquals((string)$oldPost->id, $posts[1]['id']);
+        $this->assertEquals((string) $newPost->id, $posts[0]['id']);
+        $this->assertEquals((string) $oldPost->id, $posts[1]['id']);
     }
 
     public function test_recent_feed_orders_posts_by_latest()
@@ -228,15 +228,15 @@ class FeedControllerTest extends TestCase
         $posts = $response->json('posts');
 
         // Find our specific posts in the response
-        $newPostInResponse = collect($posts)->firstWhere('id', (string)$newPost->id);
-        $oldPostInResponse = collect($posts)->firstWhere('id', (string)$oldPost->id);
+        $newPostInResponse = collect($posts)->firstWhere('id', (string) $newPost->id);
+        $oldPostInResponse = collect($posts)->firstWhere('id', (string) $oldPost->id);
 
         $this->assertNotNull($newPostInResponse, 'New post should be in response');
         $this->assertNotNull($oldPostInResponse, 'Old post should be in response');
 
         // Find their positions
-        $newPostIndex = collect($posts)->search(fn($post) => $post['id'] === (string)$newPost->id);
-        $oldPostIndex = collect($posts)->search(fn($post) => $post['id'] === (string)$oldPost->id);
+        $newPostIndex = collect($posts)->search(fn ($post) => $post['id'] === (string) $newPost->id);
+        $oldPostIndex = collect($posts)->search(fn ($post) => $post['id'] === (string) $oldPost->id);
 
         $this->assertLessThan($oldPostIndex, $newPostIndex, 'New post should come before old post');
     }

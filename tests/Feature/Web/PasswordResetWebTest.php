@@ -4,8 +4,8 @@ namespace Tests\Feature\Web;
 
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Password;
 use Tests\TestCase;
 
 class PasswordResetWebTest extends TestCase
@@ -17,7 +17,7 @@ class PasswordResetWebTest extends TestCase
         $user = User::factory()->create(['email' => 'test@example.com']);
         $token = Password::createToken($user);
 
-        $response = $this->get(route('password.reset', ['token' => $token]) . '?email=test@example.com');
+        $response = $this->get(route('password.reset', ['token' => $token]).'?email=test@example.com');
 
         $response->assertStatus(200)
             ->assertSee('Reset Password')

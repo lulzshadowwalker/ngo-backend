@@ -83,7 +83,7 @@ class ManageDocsCommand extends Command
             '.scribe',
             'resources/views/scribe',
             'public/vendor/scribe',
-            'storage/app/private/scribe'
+            'storage/app/private/scribe',
         ];
 
         foreach ($paths as $path) {
@@ -102,7 +102,7 @@ class ManageDocsCommand extends Command
         $this->info('📖 Documentation will be available at: http://localhost:8000/docs');
         $this->newLine();
         $this->comment('Press Ctrl+C to stop the server');
-        
+
         Process::run(['php', 'artisan', 'serve'])->throw();
     }
 
@@ -113,7 +113,7 @@ class ManageDocsCommand extends Command
 
         // Check if Scribe is installed
         $scribeInstalled = class_exists('Knuckles\Scribe\ScribeServiceProvider');
-        $this->line('Scribe Package: ' . ($scribeInstalled ? '✅ Installed' : '❌ Not installed'));
+        $this->line('Scribe Package: '.($scribeInstalled ? '✅ Installed' : '❌ Not installed'));
 
         // Check documentation files
         $files = [
@@ -122,7 +122,7 @@ class ManageDocsCommand extends Command
             'Assets' => 'public/vendor/scribe',
             'Postman Collection' => 'storage/app/private/scribe/collection.json',
             'OpenAPI Spec' => 'storage/app/private/scribe/openapi.yaml',
-            'Extraction Data' => '.scribe'
+            'Extraction Data' => '.scribe',
         ];
 
         $this->newLine();
@@ -142,9 +142,9 @@ class ManageDocsCommand extends Command
             $this->line("   Type: {$config['type']}");
             $this->line("   Base URL: {$config['base_url']}");
             $this->line("   Title: {$config['title']}");
-            $this->line("   Auth Enabled: " . ($config['auth']['enabled'] ? 'Yes' : 'No'));
-            $this->line("   Postman: " . ($config['postman']['enabled'] ? 'Enabled' : 'Disabled'));
-            $this->line("   OpenAPI: " . ($config['openapi']['enabled'] ? 'Enabled' : 'Disabled'));
+            $this->line('   Auth Enabled: '.($config['auth']['enabled'] ? 'Yes' : 'No'));
+            $this->line('   Postman: '.($config['postman']['enabled'] ? 'Enabled' : 'Disabled'));
+            $this->line('   OpenAPI: '.($config['openapi']['enabled'] ? 'Enabled' : 'Disabled'));
         }
 
         if ($scribeInstalled && File::exists('resources/views/scribe')) {
@@ -156,7 +156,7 @@ class ManageDocsCommand extends Command
     private function showDocumentationUrls()
     {
         $baseUrl = config('app.url', 'http://localhost:8000');
-        
+
         $this->comment('📖 Documentation URLs:');
         $this->line("   Web Documentation: {$baseUrl}/docs");
         $this->line("   Postman Collection: {$baseUrl}/docs.postman");

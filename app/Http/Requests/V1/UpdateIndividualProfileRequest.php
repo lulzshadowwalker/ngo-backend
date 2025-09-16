@@ -15,7 +15,7 @@ class UpdateIndividualProfileRequest extends BaseFormRequest
     {
         return [
             'data.attributes.name' => 'sometimes|string|max:255',
-            'data.attributes.email' => 'sometimes|email|max:255|unique:users,email,' . $this->user()->id,
+            'data.attributes.email' => 'sometimes|email|max:255|unique:users,email,'.$this->user()->id,
             'data.attributes.avatar' => 'sometimes|nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
             'avatar' => 'sometimes|nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
             'data.attributes.bio' => 'sometimes|nullable|string|max:1000',
@@ -59,6 +59,7 @@ class UpdateIndividualProfileRequest extends BaseFormRequest
     public function skills(): array
     {
         $skills = $this->input('data.relationships.skills.data', []);
+
         return collect($skills)->pluck('id')->toArray();
     }
 }

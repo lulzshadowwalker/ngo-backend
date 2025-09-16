@@ -12,10 +12,11 @@ class SupportTicketController extends ApiController
 {
     /**
      * List user support tickets
-     * 
+     *
      * Retrieve all support tickets for the authenticated user.
      *
      * @group Support Tickets
+     *
      * @authenticated
      */
     public function index()
@@ -27,12 +28,13 @@ class SupportTicketController extends ApiController
 
     /**
      * Create a new support ticket
-     * 
+     *
      * Submit a new support ticket. Can be used by both authenticated and unauthenticated users.
      *
      * @group Support Tickets
+     *
      * @unauthenticated
-     * 
+     *
      * @bodyParam subject string required The subject of the support ticket. Example: Account login issue
      * @bodyParam message string required The detailed message describing the issue. Example: I am unable to log into my account after password reset.
      * @bodyParam email string required The contact email address. Example: user@example.com
@@ -49,13 +51,14 @@ class SupportTicketController extends ApiController
 
     /**
      * Get support ticket details
-     * 
+     *
      * Retrieve detailed information about a specific support ticket.
      * The ticket must belong to the authenticated user.
      *
      * @group Support Tickets
+     *
      * @authenticated
-     * 
+     *
      * @urlParam supportTicket integer required The ID of the support ticket. Example: 1
      */
     public function show(SupportTicket $supportTicket)

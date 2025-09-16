@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Individual extends Model
@@ -19,7 +18,7 @@ class Individual extends Model
      *
      * @var array
      */
-    protected $fillable = ["bio", "birthdate", "phone", "location_id", "user_id"];
+    protected $fillable = ['bio', 'birthdate', 'phone', 'location_id', 'user_id'];
 
     /**
      * Get the attributes that should be cast.
@@ -29,10 +28,10 @@ class Individual extends Model
     protected function casts(): array
     {
         return [
-            "id" => "integer",
-            "location_id" => "integer",
-            "user_id" => "integer",
-            "birthdate" => "date",
+            'id' => 'integer',
+            'location_id' => 'integer',
+            'user_id' => 'integer',
+            'birthdate' => 'date',
         ];
     }
 
@@ -72,7 +71,7 @@ class Individual extends Model
         return Attribute::get(function (): int {
             $completionPoints = 0;
 
-            if (!empty($this->bio)) {
+            if (! empty($this->bio)) {
                 $completionPoints++;
             }
 

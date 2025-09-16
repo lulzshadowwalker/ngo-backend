@@ -31,14 +31,20 @@ class ApplicationFormResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+
         return $count > 0 ? (string) $count : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
-        if ($count === 0) return 'danger';
-        if ($count <= 25) return 'warning';
+        if ($count === 0) {
+            return 'danger';
+        }
+        if ($count <= 25) {
+            return 'warning';
+        }
+
         return 'success';
     }
 
@@ -73,7 +79,7 @@ class ApplicationFormResource extends Resource
                                 $opportunities = Opportunity::where('organization_id', Auth::user()?->organization_id)
                                     ->whereDoesntHave('applicationForm')
                                     ->get()
-                                    ->mapWithKeys(fn($opp) => [$opp->id => $opp->getTranslation('title', 'en')]);
+                                    ->mapWithKeys(fn ($opp) => [$opp->id => $opp->getTranslation('title', 'en')]);
 
                                 return $opportunities->count() > 0
                                     ? $opportunities
@@ -91,6 +97,7 @@ class ApplicationFormResource extends Resource
                                 $availableOpportunities = Opportunity::where('organization_id', Auth::user()?->organization_id)
                                     ->whereDoesntHave('applicationForm')
                                     ->count();
+
                                 return $availableOpportunities === 0;
                             }),
 
@@ -127,7 +134,7 @@ class ApplicationFormResource extends Resource
                                     ->required()
                                     ->options(FormFieldType::class)
                                     ->reactive()
-                                    ->afterStateUpdated(fn(callable $set) => $set('options', null)), // Clear options when type changes
+                                    ->afterStateUpdated(fn (callable $set) => $set('options', null)), // Clear options when type changes
 
                                 Forms\Components\TextInput::make('label')
                                     ->label('Field Label')
@@ -155,6 +162,7 @@ class ApplicationFormResource extends Resource
                                         } else {
                                             $typeValue = $type;
                                         }
+
                                         return in_array($typeValue, [FormFieldType::Select->value, FormFieldType::Checkbox->value]);
                                     })
                                     ->placeholder('Type an option and press Enter')
@@ -173,7 +181,7 @@ class ApplicationFormResource extends Resource
                             ])
                             ->columns(3)
                             ->collapsible()
-                            ->itemLabel(fn(array $state): ?string => $state['label']['en'] ?? null)
+                            ->itemLabel(fn (array $state): ?string => $state['label']['en'] ?? null)
                             ->addActionLabel('Add Form Field')
                             ->reorderable('sort_order')
                             ->orderColumn('sort_order'),
@@ -250,15 +258,15 @@ class ApplicationFormResource extends Resource
 
     public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
     {
-        return $record->title . ' (' . ($record->opportunity?->title ?? 'No Opportunity') . ')';
+        return $record->title.' ('.($record->opportunity?->title ?? 'No Opportunity').')';
     }
 
     public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
     {
         return [
             'Opportunity' => $record->opportunity?->title ?? 'Not specified',
-            'Fields' => $record->formFields()->count() . ' fields',
-            'Applications' => $record->applications()->count() . ' submitted',
+            'Fields' => $record->formFields()->count().' fields',
+            'Applications' => $record->applications()->count().' submitted',
             'Status' => $record->is_active ? 'Active' : 'Inactive',
             'Created' => $record->created_at?->format('M j, Y') ?? 'Unknown',
         ];

@@ -12,12 +12,13 @@ class ForgotPasswordController extends Controller
 {
     /**
      * Send password reset link
-     * 
+     *
      * Send a password reset link to the user's email address.
      *
      * @group Authentication
+     *
      * @unauthenticated
-     * 
+     *
      * @bodyParam data.attributes.email string required The user's email address. Example: john.doe@example.com
      */
     public function store(Request $request)
@@ -34,8 +35,8 @@ class ForgotPasswordController extends Controller
                     'type' => 'password-reset-request',
                     'attributes' => [
                         'message' => 'Password reset link sent to your email address.',
-                    ]
-                ]
+                    ],
+                ],
             ], 200);
         }
 
@@ -52,8 +53,8 @@ class ForgotPasswordController extends Controller
                 'type' => 'password-reset-request',
                 'attributes' => [
                     'message' => 'Password reset link sent to your email address.',
-                ]
-            ]
+                ],
+            ],
         ], 200);
     }
 }

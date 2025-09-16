@@ -23,6 +23,7 @@ class SkillResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::count();
+
         return $count > 0 ? (string) $count : null;
     }
 
@@ -36,6 +37,7 @@ class SkillResource extends Resource
         if ($count < 20) {
             return 'warning';
         }
+
         return 'success';
     }
 
@@ -53,7 +55,7 @@ class SkillResource extends Resource
                             ->maxLength(255)
                             ->placeholder('e.g. Project Management')
                             ->translatable(),
-                    ])
+                    ]),
             ]);
     }
 

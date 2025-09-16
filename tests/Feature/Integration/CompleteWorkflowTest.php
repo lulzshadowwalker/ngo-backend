@@ -7,7 +7,6 @@ use App\Enums\FormFieldType;
 use App\Enums\OpportunityStatus;
 use App\Models\Application;
 use App\Models\ApplicationForm;
-use App\Models\ApplicationResponse;
 use App\Models\FormField;
 use App\Models\Location;
 use App\Models\Opportunity;
@@ -24,15 +23,25 @@ class CompleteWorkflowTest extends TestCase
     use RefreshDatabase, WithFaker;
 
     private User $ngoUser;
+
     private User $individualUser;
+
     private Organization $organization;
+
     private Sector $sector;
+
     private Location $location;
+
     private Program $program;
+
     private Opportunity $opportunity;
+
     private ApplicationForm $applicationForm;
+
     private FormField $nameField;
+
     private FormField $emailField;
+
     private Application $application;
 
     protected function setUp(): void
@@ -106,11 +115,11 @@ class CompleteWorkflowTest extends TestCase
         $this->program = Program::factory()->create([
             'title' => [
                 'en' => 'Community Health Education Program',
-                'ar' => 'برنامج التثقيف الصحي المجتمعي'
+                'ar' => 'برنامج التثقيف الصحي المجتمعي',
             ],
             'description' => [
                 'en' => 'A comprehensive program to educate communities about health practices',
-                'ar' => 'برنامج شامل لتثقيف المجتمعات حول الممارسات الصحية'
+                'ar' => 'برنامج شامل لتثقيف المجتمعات حول الممارسات الصحية',
             ],
             'organization_id' => $this->organization->id,
         ]);
@@ -119,11 +128,11 @@ class CompleteWorkflowTest extends TestCase
         $this->opportunity = Opportunity::factory()->create([
             'title' => [
                 'en' => 'Community Health Educator',
-                'ar' => 'مثقف صحي مجتمعي'
+                'ar' => 'مثقف صحي مجتمعي',
             ],
             'description' => [
                 'en' => 'Help educate communities about healthy living practices',
-                'ar' => 'ساعد في تثقيف المجتمعات حول ممارسات الحياة الصحية'
+                'ar' => 'ساعد في تثقيف المجتمعات حول ممارسات الحياة الصحية',
             ],
             'organization_id' => $this->organization->id,
             'program_id' => $this->program->id,
@@ -135,17 +144,17 @@ class CompleteWorkflowTest extends TestCase
             'expiry_date' => now()->addMonths(3),
             'tags' => [
                 'en' => ['health education', 'community outreach', 'teaching'],
-                'ar' => ['تعليم صحي', 'توعية مجتمعية', 'تدريس']
+                'ar' => ['تعليم صحي', 'توعية مجتمعية', 'تدريس'],
             ],
             'required_skills' => [
                 'en' => ['communication skills', 'health knowledge'],
-                'ar' => ['مهارات التواصل', 'المعرفة الصحية']
+                'ar' => ['مهارات التواصل', 'المعرفة الصحية'],
             ],
             'latitude' => '31.95000000',
             'longitude' => '35.93330000',
             'location_description' => [
                 'en' => 'Community centers in Amman',
-                'ar' => 'المراكز المجتمعية في عمان'
+                'ar' => 'المراكز المجتمعية في عمان',
             ],
         ]);
 
@@ -155,11 +164,11 @@ class CompleteWorkflowTest extends TestCase
             'organization_id' => $this->organization->id,
             'title' => [
                 'en' => 'Health Educator Application Form',
-                'ar' => 'نموذج طلب مثقف صحي'
+                'ar' => 'نموذج طلب مثقف صحي',
             ],
             'description' => [
                 'en' => 'Please complete this form to apply for the health educator position',
-                'ar' => 'يرجى إكمال هذا النموذج للتقدم لمنصب المثقف الصحي'
+                'ar' => 'يرجى إكمال هذا النموذج للتقدم لمنصب المثقف الصحي',
             ],
             'is_active' => true,
         ]);
@@ -170,11 +179,11 @@ class CompleteWorkflowTest extends TestCase
             'type' => FormFieldType::Text,
             'label' => [
                 'en' => 'Full Name',
-                'ar' => 'الاسم الكامل'
+                'ar' => 'الاسم الكامل',
             ],
             'placeholder' => [
                 'en' => 'Enter your full name',
-                'ar' => 'أدخل اسمك الكامل'
+                'ar' => 'أدخل اسمك الكامل',
             ],
             'is_required' => true,
             'sort_order' => 1,
@@ -185,18 +194,18 @@ class CompleteWorkflowTest extends TestCase
             'type' => FormFieldType::Email,
             'label' => [
                 'en' => 'Email Address',
-                'ar' => 'عنوان البريد الإلكتروني'
+                'ar' => 'عنوان البريد الإلكتروني',
             ],
             'placeholder' => [
                 'en' => 'Enter your email address',
-                'ar' => 'أدخل عنوان بريدك الإلكتروني'
+                'ar' => 'أدخل عنوان بريدك الإلكتروني',
             ],
             'is_required' => true,
             'sort_order' => 2,
         ]);
     }
 
-    private function testOpportunityDiscoveryEndpoints(): void
+    private function test_opportunity_discovery_endpoints(): void
     {
         // Test 1: Get all opportunities
         $response = $this->getJson('/api/v1/opportunities');
@@ -217,7 +226,7 @@ class CompleteWorkflowTest extends TestCase
                         'organization' => ['id', 'name'],
                         'program' => ['id', 'title'],
                         'sector' => ['id', 'name'],
-                    ]
+                    ],
                 ],
                 'meta' => ['total', 'perPage', 'currentPage'],
             ]);
@@ -229,8 +238,8 @@ class CompleteWorkflowTest extends TestCase
         $response->assertStatus(200)
             ->assertJsonStructure([
                 'data' => [
-                    '*' => ['id', 'title', 'isFeatured']
-                ]
+                    '*' => ['id', 'title', 'isFeatured'],
+                ],
             ]);
 
         $featuredData = $response->json('data');
@@ -244,8 +253,8 @@ class CompleteWorkflowTest extends TestCase
                 'data' => [
                     'total_opportunities',
                     'total_organizations',
-                    'opportunities_this_month'
-                ]
+                    'opportunities_this_month',
+                ],
             ]);
 
         // Test 4: Get specific opportunity with form details
@@ -279,10 +288,10 @@ class CompleteWorkflowTest extends TestCase
                             'type',
                             'label',
                             'isRequired',
-                        ]
-                    ]
-                ]
-            ]
+                        ],
+                    ],
+                ],
+            ],
         ]);
 
         $opportunityData = $response->json('data');
@@ -290,7 +299,7 @@ class CompleteWorkflowTest extends TestCase
         $this->assertNotEmpty($opportunityData['applicationForm']['formFields']);
     }
 
-    private function testApplicationSubmissionWorkflow(): void
+    private function test_application_submission_workflow(): void
     {
         // Test 1: Submit application
         $applicationData = [
@@ -299,13 +308,13 @@ class CompleteWorkflowTest extends TestCase
             'responses' => [
                 [
                     'form_field_id' => $this->nameField->id,
-                    'value' => 'John Volunteer Applicant'
+                    'value' => 'John Volunteer Applicant',
                 ],
                 [
                     'form_field_id' => $this->emailField->id,
-                    'value' => 'john.applicant@example.com'
-                ]
-            ]
+                    'value' => 'john.applicant@example.com',
+                ],
+            ],
         ];
 
         $response = $this->postJson('/api/v1/applications', $applicationData);
@@ -319,9 +328,9 @@ class CompleteWorkflowTest extends TestCase
                     'status',
                     'submittedAt',
                     'responses' => [
-                        '*' => ['formFieldId', 'value']
-                    ]
-                ]
+                        '*' => ['formFieldId', 'value'],
+                    ],
+                ],
             ]);
 
         $this->application = Application::find($response->json('data.id'));
@@ -340,11 +349,11 @@ class CompleteWorkflowTest extends TestCase
         $response = $this->postJson('/api/v1/applications', $applicationData);
         $response->assertStatus(400)
             ->assertJson([
-                'message' => 'You have already submitted an application for this opportunity'
+                'message' => 'You have already submitted an application for this opportunity',
             ]);
     }
 
-    private function testApplicationManagementWorkflow(): void
+    private function test_application_management_workflow(): void
     {
         // Test 1: List user's applications
         $response = $this->getJson("/api/v1/applications?user_id={$this->individualUser->id}");
@@ -357,10 +366,10 @@ class CompleteWorkflowTest extends TestCase
                         'status',
                         'submittedAt',
                         'opportunity' => ['id', 'title'],
-                        'organization' => ['id', 'name']
-                    ]
+                        'organization' => ['id', 'name'],
+                    ],
                 ],
-                'meta' => ['total']
+                'meta' => ['total'],
             ]);
 
         $this->assertEquals(1, $response->json('meta.total'));
@@ -376,10 +385,10 @@ class CompleteWorkflowTest extends TestCase
                         '*' => [
                             'formFieldId',
                             'value',
-                            'formField' => ['type', 'label']
-                        ]
-                    ]
-                ]
+                            'formField' => ['type', 'label'],
+                        ],
+                    ],
+                ],
             ]);
 
         // Test 3: Update application (while still pending)
@@ -388,19 +397,19 @@ class CompleteWorkflowTest extends TestCase
             'responses' => [
                 [
                     'form_field_id' => $this->nameField->id,
-                    'value' => 'John Updated Volunteer'
+                    'value' => 'John Updated Volunteer',
                 ],
                 [
                     'form_field_id' => $this->emailField->id,
-                    'value' => 'john.updated@example.com'
-                ]
-            ]
+                    'value' => 'john.updated@example.com',
+                ],
+            ],
         ];
 
         $response = $this->patchJson("/api/v1/applications/{$this->application->id}", $updatedData);
         $response->assertStatus(200)
             ->assertJson([
-                'message' => 'Application updated successfully'
+                'message' => 'Application updated successfully',
             ]);
 
         // Verify the update
@@ -416,11 +425,11 @@ class CompleteWorkflowTest extends TestCase
         $response = $this->patchJson("/api/v1/applications/{$this->application->id}", $updatedData);
         $response->assertStatus(400)
             ->assertJson([
-                'message' => 'Cannot update application that has already been reviewed'
+                'message' => 'Cannot update application that has already been reviewed',
             ]);
     }
 
-    private function testAdvancedFiltering(): void
+    private function test_advanced_filtering(): void
     {
         // Test 1: Filter by tags
         $response = $this->getJson('/api/v1/opportunities?tags=health education');
@@ -464,7 +473,7 @@ class CompleteWorkflowTest extends TestCase
         $response = $this->postJson('/api/v1/applications', [
             'opportunity_id' => 99999,
             'user_id' => $this->individualUser->id,
-            'responses' => []
+            'responses' => [],
         ]);
         $response->assertStatus(422)
             ->assertJsonValidationErrors(['opportunity_id']);
@@ -476,9 +485,9 @@ class CompleteWorkflowTest extends TestCase
             'responses' => [
                 [
                     'form_field_id' => 99999,
-                    'value' => 'test'
-                ]
-            ]
+                    'value' => 'test',
+                ],
+            ],
         ]);
         $response->assertStatus(422);
 

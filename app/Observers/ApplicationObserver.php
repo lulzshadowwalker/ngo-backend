@@ -2,9 +2,9 @@
 
 namespace App\Observers;
 
-use App\Models\Application;
-use App\Events\ApplicationStatusChanged;
 use App\Enums\ApplicationStatus;
+use App\Events\ApplicationStatusChanged;
+use App\Models\Application;
 
 class ApplicationObserver
 {

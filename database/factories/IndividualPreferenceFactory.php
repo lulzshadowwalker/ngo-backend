@@ -3,10 +3,9 @@
 namespace Database\Factories;
 
 use App\Enums\ProfileVisibility;
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use App\Models\Individual;
 use App\Models\IndividualPreference;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class IndividualPreferenceFactory extends Factory
 {

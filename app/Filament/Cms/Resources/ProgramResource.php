@@ -6,14 +6,14 @@ use App\Enums\ProgramStatus;
 use App\Filament\Cms\Resources\ProgramResource\Pages;
 use App\Models\Program;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
-use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
-use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 
 class ProgramResource extends Resource
 {
@@ -32,14 +32,20 @@ class ProgramResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+
         return $count > 0 ? (string) $count : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
-        if ($count === 0) return 'danger';
-        if ($count <= 25) return 'warning';
+        if ($count === 0) {
+            return 'danger';
+        }
+        if ($count <= 25) {
+            return 'warning';
+        }
+
         return 'success';
     }
 
@@ -156,7 +162,7 @@ class ProgramResource extends Resource
     {
         return [
             'Status' => $record->status->getLabel(),
-            'Opportunities' => $record->opportunities_count ?? 0 . ' opportunities',
+            'Opportunities' => $record->opportunities_count ?? 0 .' opportunities',
             'Created' => $record->created_at?->format('M j, Y') ?? 'Unknown',
         ];
     }

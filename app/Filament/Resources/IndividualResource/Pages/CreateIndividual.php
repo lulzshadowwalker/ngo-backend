@@ -36,8 +36,8 @@ class CreateIndividual extends CreateRecord
                 ->action(function () {
                     // Get or create a random user with individual role
                     $user = User::individuals()->inRandomOrder()->first();
-                    
-                    if (!$user) {
+
+                    if (! $user) {
                         $user = User::factory()->create();
                         $user->assignRole(Role::individual->value);
                     }
@@ -64,7 +64,7 @@ class CreateIndividual extends CreateRecord
         // Ensure the selected user has the individual role
         if (isset($data['user_id'])) {
             $user = User::find($data['user_id']);
-            if ($user && !$user->hasRole(Role::individual->value)) {
+            if ($user && ! $user->hasRole(Role::individual->value)) {
                 $user->assignRole(Role::individual->value);
             }
         }

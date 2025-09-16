@@ -8,10 +8,10 @@ use App\Http\Resources\V1\OpportunityResource;
 use App\Http\Resources\V1\OrganizationResource;
 use App\Http\Resources\V1\PostResource;
 use App\Http\Resources\V1\ProgramResource;
-use App\Models\Organization;
-use App\Models\Program;
 use App\Models\Opportunity;
+use App\Models\Organization;
 use App\Models\Post;
+use App\Models\Program;
 use Illuminate\Support\Facades\Auth;
 
 class FeedController extends Controller
@@ -22,6 +22,7 @@ class FeedController extends Controller
      * Get the feed for organizations the user follows.
      *
      * @group Feed
+     *
      * @authenticated
      */
     public function following()
@@ -59,6 +60,7 @@ class FeedController extends Controller
      * Get the most recent posts and opportunities.
      *
      * @group Feed
+     *
      * @unauthenticated
      */
     public function recent()
@@ -84,6 +86,7 @@ class FeedController extends Controller
      * Search for organizations, programs, or opportunities.
      *
      * @group Feed
+     *
      * @unauthenticated
      *
      * @queryParam query string required The search term. Example: "tech"

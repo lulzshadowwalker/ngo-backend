@@ -6,7 +6,6 @@ use App\Enums\Role;
 use App\Filament\Resources\IndividualResource\Pages;
 use App\Models\Individual;
 use App\Models\Location;
-use App\Models\Skill;
 use App\Models\User;
 use Carbon\Carbon;
 use Filament\Forms;
@@ -22,37 +21,43 @@ class IndividualResource extends Resource
     protected static ?string $model = Individual::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-user';
-    
+
     protected static ?string $navigationGroup = 'User Management';
-    
+
     protected static ?int $navigationSort = 1;
 
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::count();
+
         return $count > 0 ? (string) $count : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::count();
-        
-        if ($count === 0) return 'danger';
-        if ($count <= 50) return 'warning';
+
+        if ($count === 0) {
+            return 'danger';
+        }
+        if ($count <= 50) {
+            return 'warning';
+        }
+
         return 'success';
     }
 
     public static function getGlobalSearchResultTitle(Model $record): string
     {
-        return $record->user->name . ' (' . $record->user->email . ')';
+        return $record->user->name.' ('.$record->user->email.')';
     }
 
     public static function getGlobalSearchResultDetails(Model $record): array
     {
         return [
             'Email' => $record->user->email,
-            'Location' => $record->location?->city . ', ' . $record->location?->country,
-            'Skills' => $record->skills->count() . ' skills',
+            'Location' => $record->location?->city.', '.$record->location?->country,
+            'Skills' => $record->skills->count().' skills',
             'Joined' => $record->created_at->diffForHumans(),
         ];
     }
@@ -104,9 +109,10 @@ class IndividualResource extends Resource
                             ->createOptionUsing(function (array $data): int {
                                 $user = User::create($data);
                                 $user->assignRole(Role::individual->value);
+
                                 return $user->id;
                             }),
-                            
+
                         Forms\Components\Select::make('location_id')
                             ->label('Location')
                             ->relationship('location', 'city')
@@ -180,7 +186,7 @@ class IndividualResource extends Resource
                 Tables\Columns\ImageColumn::make('user.avatarFile')
                     ->label('Avatar')
                     ->circular()
-                    ->defaultImageUrl(fn ($record) => "https://ui-avatars.com/api/?name=" . urlencode($record->user->name)),
+                    ->defaultImageUrl(fn ($record) => 'https://ui-avatars.com/api/?name='.urlencode($record->user->name)),
 
                 Tables\Columns\TextColumn::make('user.name')
                     ->label('Name')
@@ -202,8 +208,7 @@ class IndividualResource extends Resource
                     ->label('Location')
                     ->searchable()
                     ->sortable()
-                    ->formatStateUsing(fn ($record): string => 
-                        $record->location ? "{$record->location->city}, {$record->location->country}" : 'Not specified'
+                    ->formatStateUsing(fn ($record): string => $record->location ? "{$record->location->city}, {$record->location->country}" : 'Not specified'
                     ),
 
                 Tables\Columns\TextColumn::make('skills')
@@ -227,8 +232,7 @@ class IndividualResource extends Resource
                     ->label('Age')
                     ->date()
                     ->sortable()
-                    ->formatStateUsing(fn ($state): string => 
-                        $state ? Carbon::parse($state)->age . ' years old' : 'Not specified'
+                    ->formatStateUsing(fn ($state): string => $state ? Carbon::parse($state)->age.' years old' : 'Not specified'
                     )
                     ->toggleable(isToggledHiddenByDefault: true),
 
@@ -274,25 +278,23 @@ class IndividualResource extends Resource
                         return $query
                             ->when(
                                 $data['min_age'],
-                                fn (Builder $query, $age): Builder => 
-                                    $query->whereDate('birthdate', '<=', now()->subYears($age)),
+                                fn (Builder $query, $age): Builder => $query->whereDate('birthdate', '<=', now()->subYears($age)),
                             )
                             ->when(
                                 $data['max_age'],
-                                fn (Builder $query, $age): Builder => 
-                                    $query->whereDate('birthdate', '>=', now()->subYears($age)),
+                                fn (Builder $query, $age): Builder => $query->whereDate('birthdate', '>=', now()->subYears($age)),
                             );
                     })
                     ->indicateUsing(function (array $data): array {
                         $indicators = [];
 
                         if ($data['min_age'] ?? null) {
-                            $indicators[] = Tables\Filters\Indicator::make('Min age: ' . $data['min_age'])
+                            $indicators[] = Tables\Filters\Indicator::make('Min age: '.$data['min_age'])
                                 ->removeField('min_age');
                         }
 
                         if ($data['max_age'] ?? null) {
-                            $indicators[] = Tables\Filters\Indicator::make('Max age: ' . $data['max_age'])
+                            $indicators[] = Tables\Filters\Indicator::make('Max age: '.$data['max_age'])
                                 ->removeField('max_age');
                         }
 
@@ -321,12 +323,12 @@ class IndividualResource extends Resource
                         $indicators = [];
 
                         if ($data['created_from'] ?? null) {
-                            $indicators[] = Tables\Filters\Indicator::make('Joined from ' . Carbon::parse($data['created_from'])->toFormattedDateString())
+                            $indicators[] = Tables\Filters\Indicator::make('Joined from '.Carbon::parse($data['created_from'])->toFormattedDateString())
                                 ->removeField('created_from');
                         }
 
                         if ($data['created_until'] ?? null) {
-                            $indicators[] = Tables\Filters\Indicator::make('Joined until ' . Carbon::parse($data['created_until'])->toFormattedDateString())
+                            $indicators[] = Tables\Filters\Indicator::make('Joined until '.Carbon::parse($data['created_until'])->toFormattedDateString())
                                 ->removeField('created_until');
                         }
 
@@ -335,13 +337,13 @@ class IndividualResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
-                
+
                 Tables\Actions\ActionGroup::make([
                     Tables\Actions\Action::make('view_profile')
                         ->label('View Profile')
                         ->icon('heroicon-o-eye')
                         ->color('info')
-                        ->url(fn (Individual $record): string => "#") // TODO: Add profile URL when available
+                        ->url(fn (Individual $record): string => '#') // TODO: Add profile URL when available
                         ->openUrlInNewTab(),
 
                     Tables\Actions\Action::make('send_message')
@@ -357,15 +359,15 @@ class IndividualResource extends Resource
 
                     Tables\Actions\DeleteAction::make(),
                 ])
-                ->icon('heroicon-m-ellipsis-vertical')
-                ->size('sm')
-                ->color('gray')
-                ->button(),
+                    ->icon('heroicon-m-ellipsis-vertical')
+                    ->size('sm')
+                    ->color('gray')
+                    ->button(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
-                    
+
                     Tables\Actions\BulkAction::make('export_contacts')
                         ->label('Export Contacts')
                         ->icon('heroicon-o-document-arrow-down')

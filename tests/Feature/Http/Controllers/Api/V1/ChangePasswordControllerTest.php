@@ -69,10 +69,10 @@ class ChangePasswordControllerTest extends TestCase
                         'title' => 'Validation Error',
                         'detail' => 'The current password is incorrect.',
                         'source' => [
-                            'pointer' => '/data/attributes/current_password'
-                        ]
-                    ]
-                ]
+                            'pointer' => '/data/attributes/current_password',
+                        ],
+                    ],
+                ],
             ]);
 
         // Verify password was not changed

@@ -34,7 +34,7 @@ class CreateOrganization extends CreateRecord
                 ->color('gray')
                 ->action(function () {
                     $orgName = fake()->company();
-                    
+
                     $this->form->fill([
                         'name' => $orgName,
                         'slug' => Str::slug($orgName),
@@ -52,16 +52,16 @@ class CreateOrganization extends CreateRecord
     protected function mutateFormDataBeforeCreate(array $data): array
     {
         // Ensure slug is generated if not provided
-        if (empty($data['slug']) && !empty($data['name'])) {
+        if (empty($data['slug']) && ! empty($data['name'])) {
             $data['slug'] = Str::slug($data['name']);
         }
 
         // Ensure slug is unique
         $originalSlug = $data['slug'];
         $counter = 1;
-        
+
         while (\App\Models\Organization::where('slug', $data['slug'])->exists()) {
-            $data['slug'] = $originalSlug . '-' . $counter;
+            $data['slug'] = $originalSlug.'-'.$counter;
             $counter++;
         }
 

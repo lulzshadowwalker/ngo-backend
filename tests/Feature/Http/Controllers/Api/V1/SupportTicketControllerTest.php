@@ -23,7 +23,7 @@ class SupportTicketControllerTest extends TestCase
 
         $response = $this->getJson(route('api.v1.support-tickets.index'));
         $response->assertOk()
-            ->assertExactJson($resource->response()->getData(true));;
+            ->assertExactJson($resource->response()->getData(true));
     }
 
     public function test_it_shows_a_single_support_ticket_for_the_current_user(): void

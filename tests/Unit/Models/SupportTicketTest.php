@@ -3,7 +3,6 @@
 namespace Tests\Unit\Models;
 
 use App\Events\SupportTicketReceived;
-use App\Models\Client;
 use App\Models\SupportTicket;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;

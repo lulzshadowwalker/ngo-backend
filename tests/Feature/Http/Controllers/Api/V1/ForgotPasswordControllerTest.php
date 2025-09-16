@@ -3,10 +3,9 @@
 namespace Tests\Feature\Http\Controllers\Api\V1;
 
 use App\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\Password;
-use Illuminate\Support\Facades\Notification;
 use App\Notifications\CustomResetPasswordNotification;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Notification;
 use Tests\TestCase;
 
 class ForgotPasswordControllerTest extends TestCase

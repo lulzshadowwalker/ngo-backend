@@ -13,18 +13,19 @@ class PostController extends ApiController
 {
     /**
      * List all posts
-     * 
+     *
      * Retrieve a paginated list of posts with optional filtering capabilities.
      * Posts can be filtered by various criteria such as organization, date, or status.
      *
      * @group Posts
+     *
      * @unauthenticated
-     * 
+     *
      * @queryParam organization_id integer Filter posts by organization ID. Example: 1
      * @queryParam status string Filter posts by status (active, draft, archived). Example: active
      * @queryParam search string Search posts by title or content. Example: environment
      * @queryParam include string Include related data (comma-separated: likes,comments,organization). Example: likes,comments
-     * 
+     *
      * @return AnonymousResourceCollection
      */
     public function index(PostFilter $filters)
@@ -34,22 +35,24 @@ class PostController extends ApiController
 
     /**
      * Get post details
-     * 
+     *
      * Retrieve detailed information about a specific post using its slug.
      * You can include related data such as likes, comments, and organization details
      * using the include parameter.
      *
      * @group Posts
+     *
      * @unauthenticated
-     * 
+     *
      * @urlParam post string required The slug of the post. Example: environmental-conservation-initiative
+     *
      * @queryParam include string Include related data (comma-separated: likes,comments,organization). Example: likes,comments,organization
-     * 
+     *
      * @return PostResource
      */
     public function show(Post $post)
     {
-        $includes = ["likes", "comments", "organization", "sector"];
+        $includes = ['likes', 'comments', 'organization', 'sector'];
         foreach ($includes as $include) {
             if ($this->include($include)) {
                 $post->load($include);
@@ -66,6 +69,7 @@ class PostController extends ApiController
      * to find posts by title or content, facilitating easier discovery of relevant information.
      *
      * @group Posts
+     *
      * @unauthenticated
      *
      * @queryParam query string required The search query string. Example: health

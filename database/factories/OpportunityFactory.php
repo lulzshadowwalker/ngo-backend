@@ -23,12 +23,12 @@ class OpportunityFactory extends Factory
     {
         return [
             'title' => [
-                'en' => $this->faker->jobTitle() . ' Opportunity',
-                'ar' => 'فرصة ' . $this->faker->words(2, true),
+                'en' => $this->faker->jobTitle().' Opportunity',
+                'ar' => 'فرصة '.$this->faker->words(2, true),
             ],
             'description' => [
                 'en' => $this->faker->paragraph(),
-                'ar' => $this->faker->paragraph() . ' باللغة العربية',
+                'ar' => $this->faker->paragraph().' باللغة العربية',
             ],
             'status' => $this->faker->randomElement(OpportunityStatus::cases()),
             'organization_id' => Organization::factory(),
@@ -41,7 +41,7 @@ class OpportunityFactory extends Factory
             'expiry_date' => $this->faker->dateTimeBetween('+1 week', '+6 months'),
             'about_the_role' => [
                 'en' => $this->faker->paragraph(),
-                'ar' => $this->faker->paragraph() . ' باللغة العربية',
+                'ar' => $this->faker->paragraph().' باللغة العربية',
             ],
             'key_responsibilities' => [
                 'en' => $this->faker->sentences(3),
@@ -69,7 +69,7 @@ class OpportunityFactory extends Factory
             'sector_id' => Sector::factory(),
             'extra' => [
                 'en' => $this->faker->paragraph(),
-                'ar' => $this->faker->paragraph() . ' معلومات إضافية',
+                'ar' => $this->faker->paragraph().' معلومات إضافية',
             ],
         ];
     }

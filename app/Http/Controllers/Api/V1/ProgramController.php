@@ -15,6 +15,7 @@ class ProgramController extends Controller
      * List all programs.
      *
      * @group Programs
+     *
      * @unauthenticated
      */
     public function index()
@@ -28,6 +29,7 @@ class ProgramController extends Controller
      * Get a specific program by its ID.
      *
      * @group Programs
+     *
      * @unauthenticated
      *
      * @urlParam program integer required The ID of the program. Example: 1
@@ -43,6 +45,7 @@ class ProgramController extends Controller
      * Search for programs.
      *
      * @group Programs
+     *
      * @unauthenticated
      *
      * @queryParam query string The search term. Example: "education"

@@ -4,8 +4,6 @@ namespace App\Listeners;
 
 use App\Events\OpportunityCreated;
 use App\Notifications\OpportunityCreatedNotification;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 
 class SendOpportunityCreatedNotification
 {

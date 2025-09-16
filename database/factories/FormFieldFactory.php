@@ -2,9 +2,9 @@
 
 namespace Database\Factories;
 
-use App\Models\FormField;
-use App\Models\ApplicationForm;
 use App\Enums\FormFieldType;
+use App\Models\ApplicationForm;
+use App\Models\FormField;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class FormFieldFactory extends Factory
@@ -26,11 +26,11 @@ class FormFieldFactory extends Factory
             'type' => fake()->randomElement(FormFieldType::cases()),
             'label' => [
                 'en' => fake()->words(2, true),
-                'ar' => 'تسمية الحقل'
+                'ar' => 'تسمية الحقل',
             ],
             'placeholder' => [
                 'en' => fake()->sentence(3),
-                'ar' => 'نص تلميحي'
+                'ar' => 'نص تلميحي',
             ],
             'is_required' => fake()->boolean(70),
             'sort_order' => fake()->numberBetween(1, 10),

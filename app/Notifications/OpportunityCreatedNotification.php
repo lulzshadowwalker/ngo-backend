@@ -67,12 +67,13 @@ class OpportunityCreatedNotification extends Notification implements ShouldQueue
         $program = $this->opportunity->program;
         $programTitle = $program?->getTranslation('title', $language) ?? '';
         $opportunityTitle = $this->opportunity->getTranslation('title', $language);
+
         return [
-            "title" => trans('notifications.opportunity-created.title', [
+            'title' => trans('notifications.opportunity-created.title', [
                 'organization' => $organization->name,
                 'program' => $programTitle,
             ], $language),
-            "body" => trans('notifications.opportunity-created.body', [
+            'body' => trans('notifications.opportunity-created.body', [
                 'organization' => $organization->name,
                 'program' => $programTitle,
                 'title' => $opportunityTitle,

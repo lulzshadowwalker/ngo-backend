@@ -16,11 +16,11 @@ class LikeResource extends JsonResource
     public function toArray($request)
     {
         return [
-            "type" => "likes",
-            "id" => (string) $this->id,
-            "attributes" => [
-                "createdAt" =>  $this->created_at->toIso8601String(),
-                "updatedAt" =>  $this->updated_at->toIso8601String(),
+            'type' => 'likes',
+            'id' => (string) $this->id,
+            'attributes' => [
+                'createdAt' => $this->created_at->toIso8601String(),
+                'updatedAt' => $this->updated_at->toIso8601String(),
             ],
         ];
     }

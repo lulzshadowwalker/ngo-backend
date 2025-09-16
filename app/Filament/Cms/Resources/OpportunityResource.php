@@ -9,14 +9,14 @@ use App\Models\Opportunity;
 use App\Models\Program;
 use App\Models\Sector;
 use Filament\Forms;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
-use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
-use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 
 class OpportunityResource extends Resource
 {
@@ -35,14 +35,20 @@ class OpportunityResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
+
         return $count > 0 ? (string) $count : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $count = static::getModel()::where('organization_id', Auth::user()?->organization_id)->count();
-        if ($count === 0) return 'danger';
-        if ($count <= 25) return 'warning';
+        if ($count === 0) {
+            return 'danger';
+        }
+        if ($count <= 25) {
+            return 'warning';
+        }
+
         return 'success';
     }
 
@@ -83,9 +89,9 @@ class OpportunityResource extends Resource
                         Forms\Components\Select::make('program_id')
                             ->label('Program')
                             ->required()
-                            ->options(fn() => Program::where('organization_id', Auth::user()?->organization_id)
+                            ->options(fn () => Program::where('organization_id', Auth::user()?->organization_id)
                                 ->get()
-                                ->mapWithKeys(fn($program) => [$program->id => $program->getTranslation('title', 'en')]))
+                                ->mapWithKeys(fn ($program) => [$program->id => $program->getTranslation('title', 'en')]))
                             ->searchable()
                             ->createOptionForm([
                                 Forms\Components\TextInput::make('title')
@@ -97,6 +103,7 @@ class OpportunityResource extends Resource
                             ])
                             ->createOptionUsing(function (array $data): int {
                                 $data['organization_id'] = Auth::user()->organization_id;
+
                                 return Program::create($data)->getKey();
                             }),
 
@@ -265,7 +272,7 @@ class OpportunityResource extends Resource
                     ->label('Deadline')
                     ->date('M j, Y')
                     ->sortable()
-                    ->color(fn(Opportunity $record) => $record->expiry_date?->isPast() ? 'danger' : 'success'),
+                    ->color(fn (Opportunity $record) => $record->expiry_date?->isPast() ? 'danger' : 'success'),
 
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Created')
@@ -285,11 +292,11 @@ class OpportunityResource extends Resource
                     ->relationship('sector', 'name'),
 
                 Tables\Filters\Filter::make('active_opportunities')
-                    ->query(fn(\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->where('status', OpportunityStatus::Active))
+                    ->query(fn (\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->where('status', OpportunityStatus::Active))
                     ->label('Active Only'),
 
                 Tables\Filters\Filter::make('expiring_soon')
-                    ->query(fn(\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->whereBetween('expiry_date', [now(), now()->addDays(7)]))
+                    ->query(fn (\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->whereBetween('expiry_date', [now(), now()->addDays(7)]))
                     ->label('Expiring Soon'),
             ])
             ->actions([
@@ -306,7 +313,7 @@ class OpportunityResource extends Resource
 
     public static function getGlobalSearchResultTitle(\Illuminate\Database\Eloquent\Model $record): string
     {
-        return $record->title . ' (' . ($record->program?->title ?? 'No Program') . ')';
+        return $record->title.' ('.($record->program?->title ?? 'No Program').')';
     }
 
     public static function getGlobalSearchResultDetails(\Illuminate\Database\Eloquent\Model $record): array
@@ -315,7 +322,7 @@ class OpportunityResource extends Resource
             'Program' => $record->program?->title ?? 'Not specified',
             'Status' => $record->status->getLabel(),
             'Sector' => $record->sector?->name ?? 'Not specified',
-            'Duration' => $record->duration ? $record->duration . ' days' : 'Not specified',
+            'Duration' => $record->duration ? $record->duration.' days' : 'Not specified',
             'Deadline' => $record->expiry_date?->format('M j, Y') ?? 'No deadline',
         ];
     }

@@ -26,11 +26,11 @@ class ApplicationFormFactory extends Factory
             'organization_id' => Organization::factory(),
             'title' => [
                 'en' => fake()->sentence(4),
-                'ar' => 'نموذج طلب تطوع'
+                'ar' => 'نموذج طلب تطوع',
             ],
             'description' => [
                 'en' => fake()->paragraph(),
-                'ar' => 'وصف نموذج طلب التطوع'
+                'ar' => 'وصف نموذج طلب التطوع',
             ],
             'is_active' => true,
         ];

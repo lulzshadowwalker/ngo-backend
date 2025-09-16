@@ -17,7 +17,7 @@ class NotificationControllerTest extends TestCase
 
     protected User $user;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -47,11 +47,11 @@ class NotificationControllerTest extends TestCase
         $notification = $this->user->notifications->first();
         $resource = NotificationResource::make($notification);
         $request = Request::create(route('api.v1.notifications.show', [
-            'notification' => $notification
+            'notification' => $notification,
         ]), 'get');
 
         $this->getJson(route('api.v1.notifications.show', [
-            'notification' => $notification
+            'notification' => $notification,
         ]))
             ->assertStatus(Response::HTTP_OK)
             ->assertExactJson(
@@ -69,12 +69,11 @@ class NotificationControllerTest extends TestCase
 
         $resource = NotificationResource::make($readNotification);
         $request = Request::create(route('api.v1.notifications.mark-as-read', [
-            'notification' => $notification
+            'notification' => $notification,
         ]), 'patch');
 
-
         $this->patchJson(route('api.v1.notifications.mark-as-read', [
-            'notification' => $notification
+            'notification' => $notification,
         ]))
             ->assertStatus(Response::HTTP_OK)
             ->assertExactJson(
@@ -101,11 +100,11 @@ class NotificationControllerTest extends TestCase
         $notification = $this->user->notifications->first();
 
         $request = Request::create(route('api.v1.notifications.destroy.single', [
-            'notification' => $notification
+            'notification' => $notification,
         ]), 'delete');
 
         $this->deleteJson(route('api.v1.notifications.destroy.single', [
-            'notification' => $notification
+            'notification' => $notification,
         ]))
             ->assertStatus(Response::HTTP_OK);
     }

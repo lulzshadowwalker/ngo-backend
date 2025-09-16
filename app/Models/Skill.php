@@ -16,7 +16,7 @@ class Skill extends Model
      *
      * @var array
      */
-    protected $fillable = ["name"];
+    protected $fillable = ['name'];
 
     /**
      * Get the attributes that should be cast.
@@ -26,7 +26,7 @@ class Skill extends Model
     protected function casts(): array
     {
         return [
-            "id" => "integer",
+            'id' => 'integer',
         ];
     }
 

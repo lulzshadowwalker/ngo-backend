@@ -17,23 +17,23 @@ class CommentResource extends JsonResource
     public function toArray($request)
     {
         return [
-            "type" => "comments",
-            "id" => (string) $this->id,
-            "attributes" => [
-                "content" => $this->content,
-                "createdAt" => $this->created_at->toIso8601String(),
-                "createdAtReadable" => $this->created_at->diffForHumans(),
-                "updatedAt" => $this->updated_at,
+            'type' => 'comments',
+            'id' => (string) $this->id,
+            'attributes' => [
+                'content' => $this->content,
+                'createdAt' => $this->created_at->toIso8601String(),
+                'createdAtReadable' => $this->created_at->diffForHumans(),
+                'updatedAt' => $this->updated_at,
             ],
-            "relationships" => [
-                "user" => [
-                    "data" => [
-                        "type" => "users",
-                        "id" => (string) $this->user_id,
+            'relationships' => [
+                'user' => [
+                    'data' => [
+                        'type' => 'users',
+                        'id' => (string) $this->user_id,
                     ],
                 ],
             ],
-            "includes" => (object) [
+            'includes' => (object) [
                 // "user" => new UserResource($this->whenLoaded('user')),
             ],
         ];

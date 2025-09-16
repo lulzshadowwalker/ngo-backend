@@ -20,29 +20,35 @@ class SupportTicketResource extends Resource
     protected static ?string $model = SupportTicket::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-ticket';
-    
+
     protected static ?string $navigationGroup = 'Support Management';
-    
+
     protected static ?int $navigationSort = 1;
 
     public static function getNavigationBadge(): ?string
     {
         $openCount = static::getModel()::where('status', SupportTicketStatus::Open)->count();
+
         return $openCount > 0 ? (string) $openCount : null;
     }
 
     public static function getNavigationBadgeColor(): ?string
     {
         $openCount = static::getModel()::where('status', SupportTicketStatus::Open)->count();
-        
-        if ($openCount === 0) return 'success';
-        if ($openCount <= 5) return 'warning';
+
+        if ($openCount === 0) {
+            return 'success';
+        }
+        if ($openCount <= 5) {
+            return 'warning';
+        }
+
         return 'danger';
     }
 
     public static function getGlobalSearchResultTitle(Model $record): string
     {
-        return '#' . $record->number . ' - ' . $record->subject . ' (' . $record->status->getLabel() . ')';
+        return '#'.$record->number.' - '.$record->subject.' ('.$record->status->getLabel().')';
     }
 
     public static function getGlobalSearchResultDetails(Model $record): array
@@ -141,6 +147,7 @@ class SupportTicketResource extends Resource
                         if (strlen($state) <= 50) {
                             return null;
                         }
+
                         return $state;
                     }),
 
@@ -211,12 +218,12 @@ class SupportTicketResource extends Resource
                         $indicators = [];
 
                         if ($data['created_from'] ?? null) {
-                            $indicators[] = Tables\Filters\Indicator::make('Created from ' . Carbon::parse($data['created_from'])->toFormattedDateString())
+                            $indicators[] = Tables\Filters\Indicator::make('Created from '.Carbon::parse($data['created_from'])->toFormattedDateString())
                                 ->removeField('created_from');
                         }
 
                         if ($data['created_until'] ?? null) {
-                            $indicators[] = Tables\Filters\Indicator::make('Created until ' . Carbon::parse($data['created_until'])->toFormattedDateString())
+                            $indicators[] = Tables\Filters\Indicator::make('Created until '.Carbon::parse($data['created_until'])->toFormattedDateString())
                                 ->removeField('created_until');
                         }
 
@@ -225,7 +232,7 @@ class SupportTicketResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
-                
+
                 Tables\Actions\ActionGroup::make([
                     Tables\Actions\Action::make('mark_in_progress')
                         ->label('Mark In Progress')
@@ -257,15 +264,15 @@ class SupportTicketResource extends Resource
                         ->modalHeading('Reopen ticket')
                         ->modalDescription('Are you sure you want to reopen this ticket?'),
                 ])
-                ->icon('heroicon-m-ellipsis-vertical')
-                ->size('sm')
-                ->color('gray')
-                ->button(),
+                    ->icon('heroicon-m-ellipsis-vertical')
+                    ->size('sm')
+                    ->color('gray')
+                    ->button(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
-                    
+
                     Tables\Actions\BulkAction::make('mark_in_progress')
                         ->label('Mark as In Progress')
                         ->icon('heroicon-o-arrow-path')

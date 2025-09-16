@@ -16,6 +16,7 @@ class VolunteeringInterestController extends Controller
      * Volunteering interests are used to categorize user expertise and organization needs.
      *
      * @group Skills & Locations
+     *
      * @unauthenticated
      *
      * @return AnonymousResourceCollection
@@ -32,6 +33,7 @@ class VolunteeringInterestController extends Controller
      * including its description and related information.
      *
      * @group Skills & Locations
+     *
      * @unauthenticated
      *
      * @urlParam volunteeringInterest integer required The ID of the volunteering interest. Example: 1

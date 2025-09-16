@@ -21,8 +21,8 @@ class PostFactory extends BaseFactory
     public function definition(): array
     {
         return [
-            'title' => $this->localized(fn() => fake()->sentence(4)),
-            'content' => $this->localized(fn() => fake()->paragraphs(3, true)),
+            'title' => $this->localized(fn () => fake()->sentence(4)),
+            'content' => $this->localized(fn () => fake()->paragraphs(3, true)),
             'organization_id' => Organization::factory(),
             'sector_id' => Sector::factory(),
         ];

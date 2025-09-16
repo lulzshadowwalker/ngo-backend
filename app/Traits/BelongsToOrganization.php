@@ -5,10 +5,9 @@ namespace App\Traits;
 /**
  * Adds global scope to where organization_id is the same as the authenticated user's organization_id.
  * given that 1. we have auth user 2. user->isOrganizer.
- * 
+ *
  * It applies to query scopes and when e.g. creating a new model
  */
-
 trait BelongsToOrganization
 {
     public static function bootBelongsToOrganization()

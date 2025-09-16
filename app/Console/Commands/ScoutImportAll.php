@@ -7,6 +7,7 @@ use Illuminate\Console\Command;
 class ScoutImportAll extends Command
 {
     protected $signature = 'scout:import-all';
+
     protected $description = 'Index and import all models configured for Laravel Scout';
 
     public function handle()

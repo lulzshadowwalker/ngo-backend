@@ -8,7 +8,7 @@ use Filament\Support\Contracts\HasLabel;
 
 // TODO: Rename enum cases to follow a consistent naming convention (lowercase)
 
-enum SupportTicketStatus: string implements HasLabel, HasColor, HasIcon
+enum SupportTicketStatus: string implements HasColor, HasIcon, HasLabel
 {
     case Open = 'open';
     case InProgress = 'in-progress';
@@ -33,7 +33,7 @@ enum SupportTicketStatus: string implements HasLabel, HasColor, HasIcon
         return $this->label();
     }
 
-    public function getColor(): string | array | null
+    public function getColor(): string|array|null
     {
         return match ($this) {
             self::Open => 'info',

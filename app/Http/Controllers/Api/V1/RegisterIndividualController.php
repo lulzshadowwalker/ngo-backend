@@ -20,6 +20,7 @@ class RegisterIndividualController extends Controller
      * and location. Returns an authentication token upon successful registration.
      *
      * @group Authentication
+     *
      * @unauthenticated
      *
      * @bodyParam name string required The full name of the individual. Example: John Doe

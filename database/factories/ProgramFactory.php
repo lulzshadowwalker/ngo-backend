@@ -21,11 +21,11 @@ class ProgramFactory extends Factory
         return [
             'title' => [
                 'en' => $this->faker->sentence(),
-                'ar' => 'برنامج ' . $this->faker->words(3, true),
+                'ar' => 'برنامج '.$this->faker->words(3, true),
             ],
             'description' => [
                 'en' => $this->faker->paragraph(),
-                'ar' => $this->faker->paragraph() . ' باللغة العربية',
+                'ar' => $this->faker->paragraph().' باللغة العربية',
             ],
             'status' => $this->faker->randomElement(ProgramStatus::cases()),
             'organization_id' => Organization::factory(),

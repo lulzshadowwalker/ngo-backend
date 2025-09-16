@@ -3,8 +3,8 @@
 namespace App\Filament\Components;
 
 use App\Services\TagParser;
-use Filament\Forms\Components\TagsInput;
 use Closure;
+use Filament\Forms\Components\TagsInput;
 
 class TagsField extends TagsInput
 {
@@ -13,13 +13,13 @@ class TagsField extends TagsInput
     public function __construct()
     {
         parent::__construct();
-        $this->tagParser = new TagParser();
+        $this->tagParser = new TagParser;
 
         // Set default configuration for tags
         $this->separator(',')
             ->splitKeys(['Tab', 'Enter'])
             ->placeholder('Enter tags separated by commas...')
-            ->helperText('Enter comma-separated tags. Maximum ' . $this->tagParser->getMaxTagsCount() . ' tags allowed.');
+            ->helperText('Enter comma-separated tags. Maximum '.$this->tagParser->getMaxTagsCount().' tags allowed.');
     }
 
     /**
@@ -32,17 +32,17 @@ class TagsField extends TagsInput
         // Add custom validation for tags
         $field->rules([
             'array',
-            'max:' . (new TagParser())->getMaxTagsCount(),
+            'max:'.(new TagParser)->getMaxTagsCount(),
             function (string $attribute, $value, Closure $fail) {
                 if (is_array($value)) {
-                    $tagParser = new TagParser();
+                    $tagParser = new TagParser;
                     foreach ($value as $tag) {
                         if (mb_strlen($tag) > $tagParser->getMaxTagLength()) {
                             $fail("Each tag must be no longer than {$tagParser->getMaxTagLength()} characters.");
                         }
                     }
                 }
-            }
+            },
         ]);
 
         return $field;
@@ -53,7 +53,7 @@ class TagsField extends TagsInput
      */
     public function parseTagString(?string $input): array
     {
-        if (!$input) {
+        if (! $input) {
             return [];
         }
 

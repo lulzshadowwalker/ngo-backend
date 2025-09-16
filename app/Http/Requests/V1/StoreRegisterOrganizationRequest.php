@@ -16,7 +16,7 @@ class StoreRegisterOrganizationRequest extends BaseFormRequest
     {
         return [
             'data.attributes.name' => 'required|string|max:255',
-            'data.attributes.email' => ['required', 'email', 'max:255', new UniqueEmailRule()],
+            'data.attributes.email' => ['required', 'email', 'max:255', new UniqueEmailRule],
             'data.attributes.password' => 'required|string|min:8',
             'data.attributes.logo' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
             'data.relationships.location.data.id' => 'nullable|exists:locations,id',
