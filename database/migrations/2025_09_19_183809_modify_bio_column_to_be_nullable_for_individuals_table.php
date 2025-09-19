@@ -11,9 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('volunteering_interests', function (Blueprint $table) {
-            $table->dropForeign('volunteering_interests_individual_id_foreign');
-            $table->dropColumn('individual_id');
+        Schema::table('individuals', function (Blueprint $table) {
+            $table->json('bio')->nullable()->change();
         });
     }
 
@@ -22,8 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('volunteering_interests', function (Blueprint $table) {
-            $table->foreignId('individual_id')->constrained('individuals')->nullable();
+        Schema::table('individuals', function (Blueprint $table) {
+            $table->json('bio')->change();
         });
     }
 };

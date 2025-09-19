@@ -8,10 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Spatie\Translatable\HasTranslations;
 
 class Individual extends Model
 {
-    use HasFactory;
+    use HasFactory, HasTranslations;
 
     /**
      * The attributes that are mass assignable.
@@ -35,6 +36,8 @@ class Individual extends Model
         ];
     }
 
+    public array $translatable = ['bio'];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
@@ -49,11 +52,6 @@ class Individual extends Model
     {
         return $this->belongsToMany(Skill::class, 'individual_skill', 'individual_id', 'skill_id')
             ->withTimestamps();
-    }
-
-    public function volunteeringInterests(): BelongsToMany
-    {
-        return $this->belongsToMany(VolunteeringInterest::class);
     }
 
     public function individualPreferences(): HasOne
@@ -85,5 +83,11 @@ class Individual extends Model
 
             return $completionPoints;
         });
+    }
+
+    public function sectors(): BelongsToMany
+    {
+        return $this->belongsToMany(Sector::class, 'individual_sector', 'individual_id', 'sector_id')
+            ->withTimestamps();
     }
 }

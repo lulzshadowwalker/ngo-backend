@@ -164,7 +164,7 @@ class IndividualResource extends Resource
                             ])
                             ->columnSpanFull(),
 
-                        Forms\Components\Repeater::make('volunteeringInterests')
+                        Forms\Components\Repeater::make('sectors')
                             ->label('Volunteering Interests')
                             ->relationship()
                             ->schema([
@@ -218,15 +218,6 @@ class IndividualResource extends Resource
                     ->limitList(3)
                     ->expandableLimitedList()
                     ->getStateUsing(fn ($record) => $record->skills->pluck('name')),
-
-                Tables\Columns\TextColumn::make('volunteeringInterests')
-                    ->label('Interests')
-                    ->listWithLineBreaks()
-                    ->bulleted()
-                    ->limitList(2)
-                    ->expandableLimitedList()
-                    ->getStateUsing(fn ($record) => $record->volunteeringInterests->pluck('name'))
-                    ->toggleable(isToggledHiddenByDefault: true),
 
                 Tables\Columns\TextColumn::make('birthdate')
                     ->label('Age')

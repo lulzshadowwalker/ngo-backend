@@ -47,7 +47,7 @@ class RegisterIndividualController extends Controller
                 'phone' => $request->phone(),
             ]);
 
-            $individual->volunteeringInterests()->attach($request->volunteeringInterests());
+            $individual->sectors()->attach($request->sectors());
 
             $individual->skills()->attach($request->skills());
 

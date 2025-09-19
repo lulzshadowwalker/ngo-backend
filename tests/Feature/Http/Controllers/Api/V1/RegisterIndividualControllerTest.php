@@ -3,9 +3,9 @@
 namespace Tests\Feature\Http\Controllers\Api\V1;
 
 use App\Models\Location;
+use App\Models\Sector;
 use App\Models\Skill;
 use App\Models\User;
-use App\Models\VolunteeringInterest;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Testing\File;
 use Tests\TestCase;
@@ -18,7 +18,7 @@ class RegisterIndividualControllerTest extends TestCase
     public function test_it_registers_an_individual(): void
     {
         $skills = Skill::factory()->count(3)->create();
-        $volunteeringInterests = VolunteeringInterest::factory()->count(2)->create();
+        $sectors = Sector::factory()->count(2)->create();
         $location = Location::factory()->create();
         $avatar = File::image('avatar.jpg', 200, 200);
 
@@ -42,8 +42,8 @@ class RegisterIndividualControllerTest extends TestCase
                     'skills' => [
                         'data' => $skills->map(fn ($skill) => ['id' => $skill->id])->toArray(),
                     ],
-                    'volunteeringInterests' => [
-                        'data' => $volunteeringInterests->map(fn ($interest) => ['id' => $interest->id])->toArray(),
+                    'sectors' => [
+                        'data' => $sectors->map(fn ($sector) => ['id' => $sector->id])->toArray(),
                     ],
                 ],
             ],
@@ -68,6 +68,6 @@ class RegisterIndividualControllerTest extends TestCase
         $this->assertEquals('1990-01-01', $user->individual->birthdate->toDateString());
         $this->assertEquals($location->id, $user->individual->location_id);
         $this->assertCount(3, $user->individual->skills);
-        $this->assertCount(2, $user->individual->volunteeringInterests);
+        $this->assertCount(2, $user->individual->sectors);
     }
 }

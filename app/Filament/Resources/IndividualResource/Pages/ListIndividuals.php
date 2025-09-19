@@ -50,7 +50,7 @@ class ListIndividuals extends ListRecords
                             );
                         }
 
-                        // Create volunteering interests
+                        // Create Sectors
                         $interests = [
                             'Environmental Protection', 'Education Support', 'Healthcare Assistance',
                             'Community Development', 'Youth Mentoring', 'Animal Welfare',
@@ -59,7 +59,7 @@ class ListIndividuals extends ListRecords
                         ];
 
                         foreach (fake()->randomElements($interests, rand(1, 3)) as $interest) {
-                            $individual->volunteeringInterests()->create([
+                            $individual->sectors()->create([
                                 'name' => $interest,
                             ]);
                         }

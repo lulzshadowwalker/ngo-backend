@@ -48,7 +48,7 @@ class CreateIndividual extends CreateRecord
                         'birthdate' => fake()->dateTimeBetween('-65 years', '-18 years')->format('Y-m-d'),
                         'location_id' => Location::inRandomOrder()->first()?->id,
                         'skills' => Skill::inRandomOrder()->limit(rand(2, 5))->pluck('id')->toArray(),
-                        'volunteeringInterests' => collect([
+                        'sectors' => collect([
                             ['name' => fake()->randomElement(['Environmental Protection', 'Education Support', 'Healthcare Assistance', 'Community Development', 'Youth Mentoring'])],
                             ['name' => fake()->randomElement(['Animal Welfare', 'Disaster Relief', 'Poverty Alleviation', 'Technology Training', 'Arts & Culture'])],
                         ])->random(rand(1, 2))->toArray(),

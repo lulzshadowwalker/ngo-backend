@@ -110,7 +110,7 @@ class ProfileControllerTest extends TestCase
 
         $this->assertDatabaseHas('individuals', [
             'id' => $individual->id,
-            'bio' => 'Updated bio text',
+            'bio->en' => 'Updated bio text',
         ]);
     }
 

@@ -58,16 +58,16 @@ class CompleteWorkflowTest extends TestCase
     public function test_complete_volunteer_application_workflow()
     {
         // Step 1: Test opportunity discovery API
-        $this->testOpportunityDiscoveryEndpoints();
+        $this->test_opportunity_discovery_endpoints();
 
         // Step 2: Test application submission API
-        $this->testApplicationSubmissionWorkflow();
+        $this->test_application_submission_workflow();
 
         // Step 3: Test application management API
-        $this->testApplicationManagementWorkflow();
+        $this->test_application_management_workflow();
 
         // Step 4: Test filtering and search functionality
-        $this->testAdvancedFiltering();
+        $this->test_advanced_filtering();
 
         $this->assertTrue(true, 'Complete workflow test passed successfully!');
     }

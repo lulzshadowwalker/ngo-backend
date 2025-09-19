@@ -22,7 +22,7 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
             'data.attributes.password' => 'required|string|min:8',
             'data.attributes.avatar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4048',
             'data.relationships.location.data.id' => 'nullable|exists:locations,id',
-            'data.relationships.volunteeringInterests.data.*.id' => 'nullable|exists:volunteering_interests,id',
+            'data.relationships.sectors.data.*.id' => 'nullable|exists:sectors,id',
             'data.relationships.skills.data.*.id' => 'nullable|exists:skills,id',
         ];
     }
@@ -67,9 +67,9 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
         return $this->input('data.attributes.phone');
     }
 
-    public function volunteeringInterests(): array
+    public function sectors(): array
     {
-        return collect($this->input('data.relationships.volunteeringInterests.data', []))
+        return collect($this->input('data.relationships.sectors.data', []))
             ->pluck('id')
             ->filter()
             ->map(fn ($id) => (int) $id)

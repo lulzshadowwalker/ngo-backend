@@ -11,16 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('individual_volunteering_interest', function (Blueprint $table) {
+        Schema::create('individual_sector', function (Blueprint $table) {
             $table->id();
             $table->foreignId('individual_id')
-                ->constrained('individuals', 'id', 'fk_ind_vol_interest_individual')
+                ->constrained('individuals')
                 ->onDelete('cascade');
-            $table->foreignId('volunteering_interest_id')
-                ->constrained('volunteering_interests', 'id', 'fk_ind_vol_interest_volunteering')
+            $table->foreignId('sector_id')
+                ->constrained('sectors', 'id')
                 ->onDelete('cascade');
             $table->timestamps();
-            $table->unique(['individual_id', 'volunteering_interest_id'], 'ind_vol_vol_interest_unique');
+            $table->unique(['individual_id', 'sector_id']);
         });
     }
 
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('individual_volunteering_interest');
+        Schema::dropIfExists('individual_sector');
     }
 };
