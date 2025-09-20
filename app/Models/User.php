@@ -250,4 +250,16 @@ class User extends Authenticatable implements FilamentUser, HasMedia
         $this->deactivated_at = now();
         $this->save();
     }
+
+    public function activate(): void
+    {
+        $this->status = UserStatus::active;
+        $this->deactivated_at = null;
+        $this->save();
+    }
+
+    public function isActive(): Attribute
+    {
+        return Attribute::get(fn (): bool => $this->status === UserStatus::active);
+    }
 }

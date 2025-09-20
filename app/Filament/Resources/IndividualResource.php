@@ -3,6 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Enums\Role;
+use App\Enums\UserStatus;
 use App\Filament\Resources\IndividualResource\Pages;
 use App\Models\Individual;
 use App\Models\Location;
@@ -91,6 +92,7 @@ class IndividualResource extends Resource
                             ->required()
                             ->searchable()
                             ->preload()
+                            ->columnSpanFull()
                             ->getOptionLabelFromRecordUsing(fn (User $record): string => "{$record->name} ({$record->email})")
                             ->placeholder('Select a user account')
                             ->createOptionForm([
@@ -128,7 +130,8 @@ class IndividualResource extends Resource
                                     ->required()
                                     ->placeholder('Enter country name'),
                             ]),
-                    ]),
+                    ])
+                    ->columns(2),
 
                 Forms\Components\Section::make('Personal Information')
                     ->description('Individual profile details and personal information')
@@ -144,7 +147,8 @@ class IndividualResource extends Resource
                             ->label('Biography')
                             ->placeholder('Tell us about yourself, your experience, and what motivates you...')
                             ->rows(4)
-                            ->columnSpanFull(),
+                            ->columnSpanFull()
+                            ->translatable(),
                     ]),
 
                 Forms\Components\Section::make('Skills & Interests')
@@ -196,6 +200,11 @@ class IndividualResource extends Resource
                     ->copyMessage('Name copied!')
                     ->copyMessageDuration(1500),
 
+                Tables\Columns\TextColumn::make('user.status')
+                    ->label('Status')
+                    ->badge()
+                    ->sortable(),
+
                 Tables\Columns\TextColumn::make('user.email')
                     ->label('Email')
                     ->searchable()
@@ -208,7 +217,8 @@ class IndividualResource extends Resource
                     ->label('Location')
                     ->searchable()
                     ->sortable()
-                    ->formatStateUsing(fn ($record): string => $record->location ? "{$record->location->city}, {$record->location->country}" : 'Not specified'
+                    ->formatStateUsing(
+                        fn ($record): string => $record->location ? "{$record->location->city}, {$record->location->country}" : 'Not specified'
                     ),
 
                 Tables\Columns\TextColumn::make('skills')
@@ -223,7 +233,8 @@ class IndividualResource extends Resource
                     ->label('Age')
                     ->date()
                     ->sortable()
-                    ->formatStateUsing(fn ($state): string => $state ? Carbon::parse($state)->age.' years old' : 'Not specified'
+                    ->formatStateUsing(
+                        fn ($state): string => $state ? Carbon::parse($state)->age.' years old' : 'Not specified'
                     )
                     ->toggleable(isToggledHiddenByDefault: true),
 
@@ -243,6 +254,11 @@ class IndividualResource extends Resource
                     ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
+                Tables\Filters\SelectFilter::make('user_status')
+                    ->label('Status')
+                    ->options(UserStatus::class)
+                    ->attribute('user.status'),
+
                 Tables\Filters\SelectFilter::make('location')
                     ->relationship('location', 'city')
                     ->multiple()
@@ -330,33 +346,51 @@ class IndividualResource extends Resource
                 Tables\Actions\EditAction::make(),
 
                 Tables\Actions\ActionGroup::make([
-                    Tables\Actions\Action::make('view_profile')
-                        ->label('View Profile')
-                        ->icon('heroicon-o-eye')
-                        ->color('info')
-                        ->url(fn (Individual $record): string => '#') // TODO: Add profile URL when available
-                        ->openUrlInNewTab(),
+                    Tables\Actions\Action::make('activate')
+                        ->label('Activate')
+                        ->visible(fn ($record) => ! $record->user->isActive)
+                        ->color(fn ($record) => UserStatus::active->getColor())
+                        ->icon(fn ($record) => UserStatus::active->getIcon())
+                        ->action(fn ($record) => $record->user->activate()),
 
-                    Tables\Actions\Action::make('send_message')
-                        ->label('Send Message')
-                        ->icon('heroicon-o-chat-bubble-left')
-                        ->color('success')
-                        ->action(function (Individual $record) {
-                            // TODO: Implement messaging functionality
-                        })
-                        ->requiresConfirmation()
-                        ->modalHeading('Send Message')
-                        ->modalDescription('This feature will be implemented soon.'),
-
-                    Tables\Actions\DeleteAction::make(),
-                ])
-                    ->icon('heroicon-m-ellipsis-vertical')
-                    ->size('sm')
-                    ->color('gray')
-                    ->button(),
+                    Tables\Actions\Action::make('deactivate')
+                        ->label('Deactivate')
+                        ->visible(fn ($record) => $record->user->isActive)
+                        ->color(fn ($record) => UserStatus::inactive->getColor())
+                        ->icon(fn ($record) => UserStatus::inactive->getIcon())
+                        ->action(fn ($record) => $record->user->deactivate()),
+                ]),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\BulkAction::make('activate_users')
+                        ->label('Activate Selected')
+                        ->icon('heroicon-o-check-circle')
+                        ->color('success')
+                        ->action(function ($records) {
+                            foreach ($records as $record) {
+                                $record->user->update(['status' => UserStatus::active]);
+                            }
+                        })
+                        ->requiresConfirmation()
+                        ->modalHeading('Activate User Accounts')
+                        ->modalDescription('This will activate all selected user accounts, allowing them to access the platform.')
+                        ->deselectRecordsAfterCompletion(),
+
+                    Tables\Actions\BulkAction::make('deactivate_users')
+                        ->label('Deactivate Selected')
+                        ->icon('heroicon-o-x-circle')
+                        ->color('danger')
+                        ->action(function ($records) {
+                            foreach ($records as $record) {
+                                $record->user->update(['status' => UserStatus::inactive]);
+                            }
+                        })
+                        ->requiresConfirmation()
+                        ->modalHeading('Deactivate User Accounts')
+                        ->modalDescription('This will deactivate all selected user accounts, preventing them from accessing the platform.')
+                        ->deselectRecordsAfterCompletion(),
+
                     Tables\Actions\DeleteBulkAction::make(),
 
                     Tables\Actions\BulkAction::make('export_contacts')
