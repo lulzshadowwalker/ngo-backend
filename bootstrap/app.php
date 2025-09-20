@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\ActiveUserMiddleware;
 use App\Http\Middleware\DefaultAcceptJsonHeader;
 use App\Http\Middleware\LanguageMiddleware;
 use App\Http\Response\JsonResponseBuilder;
@@ -42,6 +43,7 @@ return Application::configure(basePath: dirname(__DIR__))
             // 'throttle:api',
             DefaultAcceptJsonHeader::class,
             LanguageMiddleware::class,
+            ActiveUserMiddleware::class,
             // SandboxMiddleware::class,
             SubstituteBindings::class,
         ]);

@@ -24,6 +24,7 @@ use App\Http\Controllers\Api\V1\SectorController;
 use App\Http\Controllers\Api\V1\SkillController;
 use App\Http\Controllers\Api\V1\SupportTicketController;
 use App\Http\Controllers\Api\V1\UserPreferencesController;
+use App\Http\Middleware\ActiveUserMiddleware;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/auth/register/individuals', [RegisterIndividualController::class, 'store'])->name('api.v1.auth.register.individuals');
@@ -32,7 +33,7 @@ Route::post('/auth/login', [LoginController::class, 'store'])->name('api.v1.auth
 Route::post('/auth/forgot-password', [ForgotPasswordController::class, 'store'])->name('api.v1.auth.forgot-password');
 Route::post('/auth/reset-password', [ResetPasswordController::class, 'store'])->name('api.v1.auth.reset-password');
 Route::post('/auth/change-password', [ChangePasswordController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.auth.change-password');
-Route::post('/auth/deactivate', [DeactivateAccountController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.auth.deactivate');
+Route::post('/auth/deactivate', [DeactivateAccountController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.auth.deactivate')->withoutMiddleware(ActiveUserMiddleware::class);
 
 Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.index');
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');
