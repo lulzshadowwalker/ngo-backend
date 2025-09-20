@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Enums\Role;
+use App\Models\ApplicationForm;
 use App\Models\Comment;
 use App\Models\Follow;
 use App\Models\Individual;
@@ -91,5 +92,7 @@ class DatabaseSeeder extends Seeder
                     ->create();
             }
         }
+
+        ApplicationForm::factory(10)->create();
     }
 }
