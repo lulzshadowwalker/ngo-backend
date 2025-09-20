@@ -5,6 +5,7 @@ namespace App\Models;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 
 use App\Enums\Role;
+use App\Enums\UserStatus;
 use App\Notifications\CustomResetPasswordNotification;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;
@@ -32,7 +33,7 @@ class User extends Authenticatable implements FilamentUser, HasMedia
      *
      * @var list<string>
      */
-    protected $fillable = ['name', 'email', 'password', 'organization_id'];
+    protected $fillable = ['name', 'email', 'password', 'organization_id', 'status', 'deactivated_at'];
 
     /**
      * The attributes that should be hidden for serialization.
@@ -50,7 +51,9 @@ class User extends Authenticatable implements FilamentUser, HasMedia
     {
         return [
             'email_verified_at' => 'datetime',
+            'deactivated_at' => 'datetime',
             'password' => 'hashed',
+            'status' => UserStatus::class,
         ];
     }
 
@@ -239,5 +242,12 @@ class User extends Authenticatable implements FilamentUser, HasMedia
     public function applications(): HasMany
     {
         return $this->hasMany(Application::class);
+    }
+
+    public function deactivate(): void
+    {
+        $this->status = UserStatus::inactive;
+        $this->deactivated_at = now();
+        $this->save();
     }
 }
