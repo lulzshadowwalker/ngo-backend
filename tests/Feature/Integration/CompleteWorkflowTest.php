@@ -336,6 +336,7 @@ class CompleteWorkflowTest extends TestCase
         $this->application = Application::find($response->json('data.id'));
         $this->assertNotNull($this->application);
         $this->assertEquals(ApplicationStatus::Pending, $this->application->status);
+        $this->assertEquals($this->individualUser->id, $this->application->user_id);
 
         // Test 2: Verify application was created with correct responses
         $this->assertEquals(2, $this->application->responses()->count());
