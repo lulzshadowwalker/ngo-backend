@@ -3,9 +3,11 @@
 namespace App\Models;
 
 use App\Enums\OpportunityStatus;
+use App\Filters\QueryFilter;
 use App\Observers\OpportunityObserver;
 use App\Traits\BelongsToOrganization;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -176,5 +178,13 @@ class Opportunity extends Model implements HasMedia
         return Attribute::get(
             fn () => $this->getFirstMedia(self::MEDIA_COLLECTION_COVER) ?: null
         );
+    }
+
+    /**
+     * @param  Builder<Model>  $builder
+     */
+    public function scopeFilter(Builder $builder, QueryFilter $filters): Builder
+    {
+        return $filters->apply($builder);
     }
 }
