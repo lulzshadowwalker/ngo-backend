@@ -39,6 +39,11 @@ Route::get('/me/preferences', [UserPreferencesController::class, 'index'])->midd
 Route::patch('/me/preferences', [UserPreferencesController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.preferences.update');
 Route::get('/me', [ProfileController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.profile.index');
 Route::patch('/me', [ProfileController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.update');
+// WARNING: Do NOT remove this POST route!
+// PHP/Laravel cannot parse multipart/form-data for PATCH requests (see https://github.com/laravel/framework/issues/13457)
+// This POST route is REQUIRED for mobile apps and file uploads using multipart/form-data.
+// Always use PATCH for JSON, but use POST for file uploads or any multipart requests.
+Route::post('/me', [ProfileController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.profile.update.post');
 
 Route::get('/feed/search', [FeedController::class, 'search'])->name('api.v1.feed.search');
 Route::get('/feed/following', [FeedController::class, 'following'])->middleware('auth:sanctum')->name('api.v1.feed.following');

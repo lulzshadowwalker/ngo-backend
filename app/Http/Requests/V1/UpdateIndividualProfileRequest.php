@@ -23,6 +23,8 @@ class UpdateIndividualProfileRequest extends BaseFormRequest
             'data.relationships.location.data.id' => 'sometimes|nullable|exists:locations,id',
             'data.relationships.skills.data' => 'sometimes|array',
             'data.relationships.skills.data.*.id' => 'required_with:data.relationships.skills.data|exists:skills,id',
+            'data.relationships.sectors.data' => 'sometimes|array',
+            'data.relationships.sectors.data.*.id' => 'required_with:data.relationships.sectors.data|exists:sectors,id',
         ];
     }
 

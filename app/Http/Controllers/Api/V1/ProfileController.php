@@ -10,6 +10,7 @@ use App\Http\Resources\V1\OrganizationProfileResource;
 use App\Models\Organization;
 use App\Models\User;
 use Exception;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -48,42 +49,37 @@ class ProfileController extends Controller
      *
      * @authenticated
      */
-    public function update()
+    public function update(Request $request)
     {
         $user = Auth::user();
 
-        // Handle file uploads first (outside transaction)
-        $avatarFile = null;
-        $logoFile = null;
-
-        if ($user->isIndividual) {
-            $request = app(UpdateIndividualProfileRequest::class);
-            if ($request->avatar()) {
-                $avatarFile = $request->avatar();
-            }
-        } elseif ($user->isOrganizer) {
-            $request = app(UpdateOrganizationProfileRequest::class);
-            if ($request->logo()) {
-                $logoFile = $request->logo();
-            }
-        }
-
-        return DB::transaction(function () use ($user, $avatarFile, $logoFile) {
+        return DB::transaction(function () use ($user, $request) {
             switch (true) {
                 case $user->isIndividual:
-                    return $this->updateIndividual($user, $avatarFile);
+                    $formRequest = UpdateIndividualProfileRequest::createFrom($request);
+                    $formRequest->setContainer(app())->setRedirector(app('redirect'));
+                    $formRequest->validateResolved();
+
+                    return $this->updateIndividual($user, $formRequest);
                 case $user->isOrganizer:
-                    return $this->updateOrganization($user, $logoFile);
+                    $formRequest = UpdateOrganizationProfileRequest::createFrom($request);
+                    $formRequest->setContainer(app())->setRedirector(app('redirect'));
+                    $formRequest->validateResolved();
+
+                    return $this->updateOrganization($user, $formRequest);
                 default:
                     throw new Exception('User type not recognized');
             }
         });
     }
 
-    private function updateIndividual(User $user, $avatarFile = null)
+    private function updateIndividual(User $user, UpdateIndividualProfileRequest $request)
     {
-        $request = UpdateIndividualProfileRequest::createFrom(request());
-        $request->setContainer(app())->validateResolved();
+        // Handle file uploads first (outside transaction)
+        $avatarFile = null;
+        if ($request->avatar()) {
+            $avatarFile = $request->avatar();
+        }
 
         $individual = $user->individual;
 
@@ -128,10 +124,13 @@ class ProfileController extends Controller
         return IndividualResource::make($individual->load(['location', 'skills']));
     }
 
-    private function updateOrganization(User $user, $logoFile = null)
+    private function updateOrganization(User $user, UpdateOrganizationProfileRequest $request)
     {
-        $request = UpdateOrganizationProfileRequest::createFrom(request());
-        $request->setContainer(app())->validateResolved();
+        // Handle file uploads first (outside transaction)
+        $logoFile = null;
+        if ($request->logo()) {
+            $logoFile = $request->logo();
+        }
 
         $organization = $user->organization;
 
