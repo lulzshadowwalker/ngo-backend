@@ -164,7 +164,8 @@ class IndividualResource extends Resource
                             ->createOptionForm([
                                 Forms\Components\TextInput::make('name')
                                     ->required()
-                                    ->placeholder('Enter skill name'),
+                                    ->placeholder('Enter skill name')
+                                    ->translatable(),
                             ])
                             ->columnSpanFull(),
 
@@ -174,7 +175,8 @@ class IndividualResource extends Resource
                             ->schema([
                                 Forms\Components\TextInput::make('name')
                                     ->required()
-                                    ->placeholder('Enter area of interest'),
+                                    ->placeholder('Enter area of interest')
+                                    ->translatable(),
                             ])
                             ->addActionLabel('Add Interest')
                             ->columnSpanFull()
