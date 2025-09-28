@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\OpportunityStatus;
+use App\Filters\OpportunityFilter;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\V1\SearchOpportunityRequest;
 use App\Http\Resources\V1\OpportunityResource;
@@ -37,11 +38,12 @@ class OpportunityController extends Controller
      * @queryParam sort_direction string Sort direction. Allowed: 'asc', 'desc'. Default: 'desc'. Example: "asc"
      * @queryParam per_page integer Number of items per page. Default: 20. Max: 100. Example: 50
      */
-    public function index(Request $request): JsonResponse
+    public function index(Request $request, OpportunityFilter $filters): JsonResponse
     {
         $query = Opportunity::query()
             ->with(['organization:id,name', 'program:id,title', 'sector:id,name'])
             ->where('status', OpportunityStatus::Active)
+            ->filter($filters)
             ->where('expiry_date', '>', now());
 
         // Location-based filtering

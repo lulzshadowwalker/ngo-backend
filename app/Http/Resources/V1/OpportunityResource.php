@@ -16,7 +16,7 @@ class OpportunityResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'type' => 'opportunities',
+            'type' => 'opportunity',
             'id' => (string) $this->id,
             'title' => $this->title,
             'cover' => $this->cover,
