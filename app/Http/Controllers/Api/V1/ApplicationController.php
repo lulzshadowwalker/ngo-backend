@@ -10,6 +10,7 @@ use App\Models\ApplicationResponse;
 use App\Models\Opportunity;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
@@ -27,9 +28,7 @@ class ApplicationController extends Controller
      */
     public function index(Request $request): JsonResponse
     {
-        // TODO: Add authentication middleware to get user_id
-        // For now, we'll accept user_id as a parameter for testing
-        $userId = $request->get('user_id');
+        $userId = Auth::id();
 
         if (! $userId) {
             return response()->json([
@@ -76,7 +75,6 @@ class ApplicationController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'opportunity_id' => 'required|exists:opportunities,id',
-            'user_id' => 'required|integer', // TODO: Remove when auth is implemented
             'responses' => 'required|array',
             'responses.*.form_field_id' => 'required|exists:form_fields,id',
             'responses.*.value' => 'required',
@@ -89,33 +87,31 @@ class ApplicationController extends Controller
             ], 422);
         }
 
-        try {
-            $opportunity = Opportunity::with('applicationForm.formFields')->findOrFail($request->opportunity_id);
+        $opportunity = Opportunity::with('applicationForm.formFields')->findOrFail($request->opportunity_id);
 
-            // Check if opportunity is still active and not expired
-            if ($opportunity->status !== \App\Enums\OpportunityStatus::Active || $opportunity->expiry_date < now()) {
-                return response()->json([
-                    'message' => 'This opportunity is no longer available for applications',
-                ], 400);
-            }
+        // Check if opportunity is still active and not expired
+        if ($opportunity->status !== \App\Enums\OpportunityStatus::Active || $opportunity->expiry_date < now()) {
+            return response()->json([
+                'message' => 'This opportunity is no longer available for applications',
+            ], 400);
+        }
 
-            // Check if user already has an application for this opportunity
-            $existingApplication = Application::where('user_id', $request->user_id)
-                ->where('opportunity_id', $request->opportunity_id)
-                ->first();
+        // Check if user already has an application for this opportunity
+        $existingApplication = Application::where('user_id', Auth::id())
+            ->where('opportunity_id', $request->opportunity_id)
+            ->first();
 
-            if ($existingApplication) {
-                return response()->json([
-                    'message' => 'You have already submitted an application for this opportunity',
-                ], 400);
-            }
+        if ($existingApplication) {
+            return response()->json([
+                'message' => 'You have already submitted an application for this opportunity',
+            ], 400);
+        }
 
-            DB::beginTransaction();
-
+        return DB::transaction(function () use ($request, $opportunity) {
             // Create the application
             $application = Application::create([
                 'application_form_id' => $opportunity->applicationForm->id,
-                'user_id' => $request->user_id,
+                'user_id' => Auth::id(),
                 'opportunity_id' => $request->opportunity_id,
                 'organization_id' => $opportunity->organization_id,
                 'status' => ApplicationStatus::Pending,
@@ -140,22 +136,13 @@ class ApplicationController extends Controller
                 ]);
             }
 
-            DB::commit();
-
             $application->load(['opportunity', 'organization', 'applicationForm', 'responses.formField']);
 
             return response()->json([
                 'message' => 'Application submitted successfully',
                 'data' => new ApplicationResource($application),
             ], 201);
-        } catch (\Exception $e) {
-            DB::rollBack();
-
-            return response()->json([
-                'message' => 'Failed to submit application',
-                'error' => $e->getMessage(),
-            ], 500);
-        }
+        });
     }
 
     /**
@@ -171,8 +158,7 @@ class ApplicationController extends Controller
      */
     public function show(Request $request, string $id): JsonResponse
     {
-        // TODO: Add authentication middleware and ensure user can only see their own applications
-        $userId = $request->get('user_id');
+        $userId = Auth::id();
 
         $application = Application::with([
             'opportunity:id,title,description,expiry_date',
@@ -208,8 +194,7 @@ class ApplicationController extends Controller
     {
         $application = Application::findOrFail($id);
 
-        // TODO: Add authentication to ensure user owns this application
-        if ($request->filled('user_id') && $application->user_id != $request->user_id) {
+        if ($application->user_id != Auth::id()) {
             return response()->json([
                 'message' => 'Unauthorized',
             ], 403);
@@ -235,9 +220,7 @@ class ApplicationController extends Controller
             ], 422);
         }
 
-        try {
-            DB::beginTransaction();
-
+        return DB::transaction(function () use ($request, $application) {
             if ($request->has('responses')) {
                 // Delete existing responses and create new ones
                 $application->responses()->delete();
@@ -254,22 +237,13 @@ class ApplicationController extends Controller
 
             $application->touch(); // Update the updated_at timestamp
 
-            DB::commit();
-
             $application->load(['opportunity', 'organization', 'applicationForm', 'responses.formField']);
 
             return response()->json([
                 'message' => 'Application updated successfully',
                 'data' => new ApplicationResource($application),
             ]);
-        } catch (\Exception $e) {
-            DB::rollBack();
-
-            return response()->json([
-                'message' => 'Failed to update application',
-                'error' => $e->getMessage(),
-            ], 500);
-        }
+        });
     }
 
     /**
@@ -285,8 +259,7 @@ class ApplicationController extends Controller
     {
         $application = Application::findOrFail($id);
 
-        // TODO: Add authentication to ensure user owns this application
-        if ($request->filled('user_id') && $application->user_id != $request->user_id) {
+        if ($application->user_id != Auth::id()) {
             return response()->json([
                 'message' => 'Unauthorized',
             ], 403);
@@ -299,25 +272,14 @@ class ApplicationController extends Controller
             ], 400);
         }
 
-        try {
-            DB::beginTransaction();
-
+        return DB::transaction(function () use ($application) {
             // Delete responses first due to foreign key constraints
             $application->responses()->delete();
             $application->delete();
 
-            DB::commit();
-
             return response()->json([
                 'message' => 'Application deleted successfully',
             ]);
-        } catch (\Exception $e) {
-            DB::rollBack();
-
-            return response()->json([
-                'message' => 'Failed to delete application',
-                'error' => $e->getMessage(),
-            ], 500);
-        }
+        });
     }
 }

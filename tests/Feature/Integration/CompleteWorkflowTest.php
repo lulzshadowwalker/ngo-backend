@@ -304,7 +304,6 @@ class CompleteWorkflowTest extends TestCase
         // Test 1: Submit application
         $applicationData = [
             'opportunity_id' => $this->opportunity->id,
-            'user_id' => $this->individualUser->id, // In real app, this would come from auth
             'responses' => [
                 [
                     'form_field_id' => $this->nameField->id,
@@ -316,6 +315,8 @@ class CompleteWorkflowTest extends TestCase
                 ],
             ],
         ];
+
+        $this->actingAs($this->individualUser);
 
         $response = $this->postJson('/api/v1/applications', $applicationData);
         $response->assertStatus(201)
@@ -357,7 +358,9 @@ class CompleteWorkflowTest extends TestCase
     private function test_application_management_workflow(): void
     {
         // Test 1: List user's applications
-        $response = $this->getJson("/api/v1/applications?user_id={$this->individualUser->id}");
+        $this->actingAs($this->individualUser);
+
+        $response = $this->getJson('/api/v1/applications');
         $response->assertStatus(200)
             ->assertJsonStructure([
                 'data' => [
@@ -376,7 +379,7 @@ class CompleteWorkflowTest extends TestCase
         $this->assertEquals(1, $response->json('meta.total'));
 
         // Test 2: View specific application
-        $response = $this->getJson("/api/v1/applications/{$this->application->id}?user_id={$this->individualUser->id}");
+        $response = $this->getJson("/api/v1/applications/{$this->application->id}");
         $response->assertStatus(200)
             ->assertJsonStructure([
                 'data' => [
@@ -394,7 +397,6 @@ class CompleteWorkflowTest extends TestCase
 
         // Test 3: Update application (while still pending)
         $updatedData = [
-            'user_id' => $this->individualUser->id,
             'responses' => [
                 [
                     'form_field_id' => $this->nameField->id,
@@ -432,6 +434,8 @@ class CompleteWorkflowTest extends TestCase
 
     private function test_advanced_filtering(): void
     {
+        // No authentication needed for opportunity filtering endpoints
+
         // Test 1: Filter by tags
         $response = $this->getJson('/api/v1/opportunities?tags=health education');
         $response->assertStatus(200);
@@ -470,10 +474,12 @@ class CompleteWorkflowTest extends TestCase
      */
     public function test_error_handling_scenarios()
     {
+        // Authenticate as individual user for these tests
+        $this->actingAs($this->individualUser);
+
         // Test 1: Submit application for non-existent opportunity
         $response = $this->postJson('/api/v1/applications', [
             'opportunity_id' => 99999,
-            'user_id' => $this->individualUser->id,
             'responses' => [],
         ]);
         $response->assertStatus(422)
@@ -482,7 +488,6 @@ class CompleteWorkflowTest extends TestCase
         // Test 2: Submit application with invalid form field
         $response = $this->postJson('/api/v1/applications', [
             'opportunity_id' => $this->opportunity->id,
-            'user_id' => $this->individualUser->id,
             'responses' => [
                 [
                     'form_field_id' => 99999,
@@ -497,7 +502,8 @@ class CompleteWorkflowTest extends TestCase
         $response->assertStatus(404);
 
         // Test 4: View non-existent application
-        $response = $this->getJson('/api/v1/applications/99999?user_id=1');
+        $this->actingAs($this->individualUser);
+        $response = $this->getJson('/api/v1/applications/99999');
         $response->assertStatus(404);
     }
 

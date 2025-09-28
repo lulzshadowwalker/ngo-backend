@@ -75,11 +75,11 @@ Route::get('/opportunities/stats', [OpportunityController::class, 'stats'])->nam
 Route::get('/opportunities/search', [OpportunityController::class, 'search'])->name('api.v1.opportunities.search');
 Route::get('/opportunities/{id}', [OpportunityController::class, 'show'])->name('api.v1.opportunities.show');
 
-Route::get('/applications', [ApplicationController::class, 'index'])->name('api.v1.applications.index');
-Route::post('/applications', [ApplicationController::class, 'store'])->name('api.v1.applications.store');
-Route::get('/applications/{id}', [ApplicationController::class, 'show'])->name('api.v1.applications.show');
-Route::patch('/applications/{id}', [ApplicationController::class, 'update'])->name('api.v1.applications.update');
-Route::delete('/applications/{id}', [ApplicationController::class, 'destroy'])->name('api.v1.applications.destroy');
+Route::get('/applications', [ApplicationController::class, 'index'])->middleware('auth:sanctum')->name('api.v1.applications.index');
+Route::post('/applications', [ApplicationController::class, 'store'])->middleware('auth:sanctum')->name('api.v1.applications.store');
+Route::get('/applications/{id}', [ApplicationController::class, 'show'])->middleware('auth:sanctum')->name('api.v1.applications.show');
+Route::patch('/applications/{id}', [ApplicationController::class, 'update'])->middleware('auth:sanctum')->name('api.v1.applications.update');
+Route::delete('/applications/{id}', [ApplicationController::class, 'destroy'])->middleware('auth:sanctum')->name('api.v1.applications.destroy');
 
 Route::get('/posts', [PostController::class, 'index'])->name('api.v1.posts.index');
 Route::get('/posts/search', [PostController::class, 'search'])->name('api.v1.posts.search');
