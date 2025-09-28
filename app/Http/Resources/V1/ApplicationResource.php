@@ -14,6 +14,10 @@ class ApplicationResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
+        if ($request->routeIs('api.v1.profile.*')) {
+            $this->load('opportunity.organization');
+        }
+
         return [
             'type' => 'application',
             'id' => (string) $this->id,
