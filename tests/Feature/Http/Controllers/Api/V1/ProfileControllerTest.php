@@ -165,6 +165,38 @@ class ProfileControllerTest extends TestCase
         $this->assertFalse($individual->skills()->where('id', $skills[2]->id)->exists());
     }
 
+    public function test_it_updates_individual_profile_with_sectors()
+    {
+        $individual = Individual::factory()->create();
+        $individual->user->assignRole(Role::individual->value);
+        $sectors = Sector::factory(3)->create();
+        $this->actingAs($individual->user);
+
+        $response = $this->patchJson(route('api.v1.profile.update'), [
+            'data' => [
+                'relationships' => [
+                    'sectors' => [
+                        'data' => [
+                            ['id' => $sectors[0]->id],
+                            ['id' => $sectors[1]->id],
+                        ],
+                    ],
+                ],
+            ],
+        ]);
+
+        $response->assertOk();
+
+        $this->assertDatabaseHas('individual_sector', [
+            'individual_id' => $individual->id,
+            'sector_id' => $sectors[0]->id,
+        ]);
+        $this->assertDatabaseHas('individual_sector', [
+            'individual_id' => $individual->id,
+            'sector_id' => $sectors[1]->id,
+        ]);
+    }
+
     public function test_it_updates_individual_profile_with_avatar()
     {
         Storage::fake('local');

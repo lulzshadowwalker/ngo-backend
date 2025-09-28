@@ -62,4 +62,11 @@ class UpdateIndividualProfileRequest extends BaseFormRequest
 
         return collect($skills)->pluck('id')->toArray();
     }
+
+    public function sectors(): array
+    {
+        $sectors = $this->input('data.relationships.sectors.data', []);
+
+        return collect($sectors)->pluck('id')->toArray();
+    }
 }

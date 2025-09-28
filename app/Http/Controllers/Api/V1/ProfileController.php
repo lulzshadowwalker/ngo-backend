@@ -120,6 +120,11 @@ class ProfileController extends Controller
             $individual->skills()->sync($request->skills());
         }
 
+        // Handle sectors
+        if ($request->has('data.relationships.sectors.data')) {
+            $individual->sectors()->sync($request->sectors());
+        }
+
         return IndividualResource::make($individual->load(['location', 'skills']));
     }
 
