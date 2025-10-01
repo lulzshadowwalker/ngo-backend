@@ -3,9 +3,7 @@
 namespace App\Filament\Pages;
 
 use App\Enums\Audience;
-use App\Models\User;
 use App\Services\FirebasePushNotification\AudienceNotificationStrategy;
-use App\Services\FirebasePushNotification\UserNotificationStrategy;
 use App\Support\PushNotification as SupportPushNotification;
 use Exception;
 use Filament\Actions\Action;
@@ -62,15 +60,6 @@ class PushNotification extends Page
                             ->preload()
                             ->required(),
 
-                        Forms\Components\FileUpload::make('image')
-                            ->label('Image')
-                            ->image()
-                            ->imageEditor()
-                            ->openable()
-                            ->downloadable()
-                            ->storeFiles(false)
-                            ->maxSize(4 * 1024 * 1024),
-
                         Forms\Components\TextInput::make('title')
                             ->label('Title')
                             ->placeholder('Short and catchy title (e.g., Limited Time Offer)')
@@ -104,10 +93,6 @@ class PushNotification extends Page
 
             // TODO: use PushNotificationService instead
             (new AudienceNotificationStrategy)->send($notification, $this->data['audience']);
-            $user = User::first();
-            $user->deviceTokens()->create(
-                ['toke']
-            )(new UserNotificationStrategy)->send($notification, null);
 
             $this->form->fill();
 
