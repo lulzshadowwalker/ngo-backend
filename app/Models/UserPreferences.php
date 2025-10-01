@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\Language;
+use App\Notifications\PushChannel;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -50,7 +51,7 @@ class UserPreferences extends Model
         return Attribute::get(fn (): array => array_keys(array_filter([
             'database' => true,
             'mail' => $this->email_notifications,
-            'push' => $this->push_notifications,
+            PushChannel::class => $this->push_notifications,
         ])));
     }
 }
