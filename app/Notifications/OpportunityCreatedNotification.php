@@ -3,6 +3,7 @@
 namespace App\Notifications;
 
 use App\Models\Opportunity;
+use App\Support\DatabaseNotification;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
@@ -68,16 +69,16 @@ class OpportunityCreatedNotification extends Notification implements ShouldQueue
         $programTitle = $program?->getTranslation('title', $language) ?? '';
         $opportunityTitle = $this->opportunity->getTranslation('title', $language);
 
-        return [
-            'title' => trans('notifications.opportunity-created.title', [
+        return (new DatabaseNotification(
+            title: trans('notifications.opportunity-created.title', [
                 'organization' => $organization->name,
                 'program' => $programTitle,
             ], $language),
-            'body' => trans('notifications.opportunity-created.body', [
+            message: trans('notifications.opportunity-created.body', [
                 'organization' => $organization->name,
                 'program' => $programTitle,
                 'title' => $opportunityTitle,
             ], $language),
-        ];
+        ))->toArray();
     }
 }

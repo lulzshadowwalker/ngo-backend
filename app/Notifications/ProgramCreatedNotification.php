@@ -3,6 +3,7 @@
 namespace App\Notifications;
 
 use App\Models\Program;
+use App\Support\DatabaseNotification;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
@@ -57,9 +58,9 @@ class ProgramCreatedNotification extends Notification implements ShouldQueue
         $organization = $this->program->organization;
         $programTitle = $this->program->getTranslation('title', $language);
 
-        return [
-            'title' => trans('notifications.program-created.title', ['organization' => $organization->name], $language),
-            'body' => trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $programTitle], $language),
-        ];
+        return (new DatabaseNotification(
+            title: trans('notifications.program-created.title', ['organization' => $organization->name], $language),
+            message: trans('notifications.program-created.body', ['organization' => $organization->name, 'title' => $programTitle], $language),
+        ))->toArray();
     }
 }

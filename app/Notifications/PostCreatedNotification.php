@@ -3,6 +3,7 @@
 namespace App\Notifications;
 
 use App\Models\Post;
+use App\Support\DatabaseNotification;
 use App\Support\PushNotification;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -69,9 +70,9 @@ class PostCreatedNotification extends Notification implements ShouldQueue
         $language = $notifiable->preferences->language->value;
         $organization = $this->post->organization->name;
 
-        return [
-            'title' => trans('notifications.post-created.title', ['organization' => $organization], $language),
-            'body' => trans('notifications.post-created.body', ['organization' => $organization, 'title' => $this->post->getTranslation('title', $language)], $language),
-        ];
+        return (new DatabaseNotification(
+            title: trans('notifications.post-created.title', ['organization' => $organization], $language),
+            message: trans('notifications.post-created.body', ['organization' => $organization, 'title' => $this->post->getTranslation('title', $language)], $language),
+        ))->toArray();
     }
 }
