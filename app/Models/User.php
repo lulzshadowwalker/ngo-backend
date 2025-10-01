@@ -262,4 +262,9 @@ class User extends Authenticatable implements FilamentUser, HasMedia
     {
         return Attribute::get(fn (): bool => $this->status === UserStatus::active);
     }
+
+    public function deviceTokens(): HasMany
+    {
+        return $this->hasMany(DeviceToken::class);
+    }
 }

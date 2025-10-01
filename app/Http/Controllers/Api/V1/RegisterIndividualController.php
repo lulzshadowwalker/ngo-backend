@@ -40,6 +40,11 @@ class RegisterIndividualController extends Controller
             ]);
 
             $user->assignRole(Role::individual->value);
+
+            if ($deviceToken = $request->deviceToken()) {
+                $user->deviceTokens()->firstOrCreate(['token' => $deviceToken]);
+            }
+
             $individual = $user->individual()->create([
                 'location_id' => $request->location(),
                 'bio' => $request->bio(),

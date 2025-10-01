@@ -46,6 +46,11 @@ class RegisterOrganizationController extends Controller
             ]);
 
             $user->assignRole(Role::organization->value);
+
+            if ($deviceToken = $request->deviceToken()) {
+                $user->deviceTokens()->firstOrCreate(['token' => $deviceToken]);
+            }
+
             $organization = $user->organization()->create([
                 'name' => $request->name(),
                 'location_id' => $request->location(),

@@ -70,4 +70,73 @@ class RegisterIndividualControllerTest extends TestCase
         $this->assertCount(3, $user->individual->skills);
         $this->assertCount(2, $user->individual->sectors);
     }
+
+    public function test_individual_can_register_with_device_token(): void
+    {
+        $location = Location::factory()->create();
+        $deviceToken = 'sample_device_token_123';
+
+        $skills = Skill::factory()->count(3)->create();
+        $sectors = Sector::factory()->count(2)->create();
+        $avatar = File::image('avatar.jpg', 200, 200);
+
+        $response = $this->postJson(route('api.v1.auth.register.individuals'), [
+            'data' => [
+                'attributes' => [
+                    'name' => 'John Doe',
+                    'email' => 'john@example.com',
+                    'phone' => '123-456-7890',
+                    'bio' => 'Lorem ipsum dolor sit amet.',
+                    'birthdate' => '1990-01-01',
+                    'password' => 'password',
+                    'avatar' => $avatar,
+                ],
+                'relationships' => [
+                    'location' => [
+                        'data' => [
+                            'id' => $location->id,
+                        ],
+                    ],
+                    'skills' => [
+                        'data' => $skills->map(fn ($skill) => ['id' => $skill->id])->toArray(),
+                    ],
+                    'sectors' => [
+                        'data' => $sectors->map(fn ($sector) => ['id' => $sector->id])->toArray(),
+                    ],
+                    'deviceTokens' => [
+                        'data' => [
+                            'attributes' => [
+                                'token' => $deviceToken,
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ]);
+
+        $response->assertStatus(201);
+
+        $user = User::first();
+
+        $this->assertNotNull($user);
+        $this->assertNotNull($user->individual);
+        $this->assertTrue($user->isIndividual);
+        $this->assertFalse($user->isOrganizer);
+        $this->assertFalse($user->isAdmin);
+
+        $this->assertNotNull($user->avatar);
+
+        $this->assertEquals('John Doe', $user->name);
+        $this->assertEquals('john@example.com', $user->email);
+        $this->assertEquals('123-456-7890', $user->individual->phone);
+        $this->assertEquals('Lorem ipsum dolor sit amet.', $user->individual->bio);
+        $this->assertEquals('1990-01-01', $user->individual->birthdate->toDateString());
+        $this->assertEquals($location->id, $user->individual->location_id);
+        $this->assertCount(3, $user->individual->skills);
+        $this->assertCount(2, $user->individual->sectors);
+        $this->assertDatabaseHas('device_tokens', [
+            'user_id' => $user->id,
+            'token' => $deviceToken,
+        ]);
+    }
 }

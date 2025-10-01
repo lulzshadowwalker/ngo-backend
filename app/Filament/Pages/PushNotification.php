@@ -3,7 +3,9 @@
 namespace App\Filament\Pages;
 
 use App\Enums\Audience;
+use App\Models\User;
 use App\Services\FirebasePushNotification\AudienceNotificationStrategy;
+use App\Services\FirebasePushNotification\UserNotificationStrategy;
 use App\Support\PushNotification as SupportPushNotification;
 use Exception;
 use Filament\Actions\Action;
@@ -102,6 +104,10 @@ class PushNotification extends Page
 
             // TODO: use PushNotificationService instead
             (new AudienceNotificationStrategy)->send($notification, $this->data['audience']);
+            $user = User::first();
+            $user->deviceTokens()->create(
+                ['toke']
+            )(new UserNotificationStrategy)->send($notification, null);
 
             $this->form->fill();
 

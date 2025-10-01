@@ -9,8 +9,8 @@ use Filament\Support\Contracts\HasLabel;
 enum Audience: string implements HasColor, HasIcon, HasLabel
 {
     case all = 'all';
-    case individuals = 'individuals';
-    case organizations = 'organizations';
+    case individuals = 'individual';
+    case organizations = 'organization';
 
     public function label(): string
     {

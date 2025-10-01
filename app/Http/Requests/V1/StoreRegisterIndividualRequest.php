@@ -24,6 +24,7 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
             'data.relationships.location.data.id' => 'nullable|exists:locations,id',
             'data.relationships.sectors.data.*.id' => 'nullable|exists:sectors,id',
             'data.relationships.skills.data.*.id' => 'nullable|exists:skills,id',
+            'data.relationships.deviceTokens.data.attributes.token' => 'nullable|string',
         ];
     }
 
@@ -83,5 +84,10 @@ class StoreRegisterIndividualRequest extends BaseFormRequest
             ->filter()
             ->map(fn ($id) => (int) $id)
             ->toArray();
+    }
+
+    public function deviceToken(): ?string
+    {
+        return $this->input('data.relationships.deviceTokens.data.attributes.token');
     }
 }

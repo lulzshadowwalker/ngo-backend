@@ -15,6 +15,10 @@ class OpportunityResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
+        if ($request->routeIs('api.v1.profile.*')) {
+            $this->load('organization', 'program', 'sector', 'applicationForm.formFields');
+        }
+
         return [
             'type' => 'opportunity',
             'id' => (string) $this->id,

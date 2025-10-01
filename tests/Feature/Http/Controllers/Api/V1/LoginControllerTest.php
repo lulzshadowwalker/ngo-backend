@@ -55,4 +55,46 @@ class LoginControllerTest extends TestCase
                 'message' => 'Invalid credentials',
             ]);
     }
+
+    public function test_user_can_send_device_token_with_login_request()
+    {
+        $user = \App\Models\User::factory()->create([
+            'password' => bcrypt('securePassword123'),
+        ]);
+
+        $deviceToken = 'sample_device_token_123';
+
+        $response = $this->postJson(route('api.v1.auth.login'), [
+            'data' => [
+                'attributes' => [
+                    'email' => $user->email,
+                    'password' => 'securePassword123',
+                ],
+                'relationships' => [
+                    'deviceTokens' => [
+                        'data' => [
+                            'attributes' => [
+                                'token' => $deviceToken,
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ]);
+
+        $response->assertStatus(200)
+            ->assertJsonStructure([
+                'data' => [
+                    'attributes' => [
+                        'token',
+                        'role',
+                    ],
+                ],
+            ]);
+
+        $this->assertDatabaseHas('device_tokens', [
+            'user_id' => $user->id,
+            'token' => $deviceToken,
+        ]);
+    }
 }

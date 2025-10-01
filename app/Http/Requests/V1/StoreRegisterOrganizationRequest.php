@@ -24,6 +24,7 @@ class StoreRegisterOrganizationRequest extends BaseFormRequest
             'data.attributes.contactEmail' => 'nullable|email|max:255',
             'data.attributes.website' => 'nullable|string|max:255|url',
             'data.attributes.bio' => 'nullable|string|max:1000',
+            'data.relationships.deviceTokens.data.attributes.token' => 'nullable|string',
         ];
     }
 
@@ -70,5 +71,10 @@ class StoreRegisterOrganizationRequest extends BaseFormRequest
     public function bio(): ?string
     {
         return $this->input('data.attributes.bio');
+    }
+
+    public function deviceToken(): ?string
+    {
+        return $this->input('data.relationships.deviceTokens.data.attributes.token');
     }
 }

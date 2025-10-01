@@ -27,6 +27,7 @@ class LoginController extends Controller
         $request->validate([
             'data.attributes.email' => 'required|email',
             'data.attributes.password' => 'required|string|min:8',
+            'data.relationships.deviceTokens.data.attributes.token' => 'nullable|string',
         ]);
         $email = $request->input('data.attributes.email');
         $password = $request->input('data.attributes.password');
@@ -41,6 +42,10 @@ class LoginController extends Controller
         }
 
         $user = auth('web')->user();
+
+        if ($deviceToken = $request->input('data.relationships.deviceTokens.data.attributes.token')) {
+            $user->deviceTokens()->firstOrCreate(['token' => $deviceToken]);
+        }
 
         $accessToken = $user->createToken(config('app.name'))->plainTextToken;
 
