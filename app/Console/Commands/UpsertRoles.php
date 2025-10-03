@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Enums\Role;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 use Spatie\Permission\Models\Role as SpatieRole;
 
 class UpsertRoles extends Command
@@ -29,10 +30,12 @@ class UpsertRoles extends Command
     {
         $this->info('Upserting roles ..');
 
-        foreach (Role::cases() as $role) {
-            // TODO: Is this the proper way to use a guard
-            SpatieRole::findOrCreate($role->value, 'web');
-        }
+        DB::transaction(function () {
+            foreach (Role::cases() as $role) {
+                // TODO: Is this the proper way to use a guard
+                SpatieRole::findOrCreate($role->value, 'web');
+            }
+        });
 
         $this->info('Roles upserted successfully');
     }

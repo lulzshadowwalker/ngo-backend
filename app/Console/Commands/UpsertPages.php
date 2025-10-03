@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Page;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 
 class UpsertPages extends Command
 {
@@ -28,18 +29,20 @@ class UpsertPages extends Command
             ],
         ];
 
-        foreach ($pages as $page) {
-            if (Page::where('title', 'like', '%'.$page['title']['en'].'%')->exists()) {
-                $this->info('Page with title "'.$page['title']['en'].'" already exists, skipping');
+        DB::transaction(function () use ($pages) {
+            foreach ($pages as $page) {
+                if (Page::where('title', 'like', '%'.$page['title']['en'].'%')->exists()) {
+                    $this->info('Page with title "'.$page['title']['en'].'" already exists, skipping');
 
-                continue;
+                    continue;
+                }
+
+                Page::firstOrCreate(
+                    ['title' => $page['title']],
+                    ['content' => $page['content']]
+                );
             }
-
-            Page::firstOrCreate(
-                ['title' => $page['title']],
-                ['content' => $page['content']]
-            );
-        }
+        });
 
         $this->info('Pages upserted successfully');
     }
