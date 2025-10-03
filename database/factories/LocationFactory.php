@@ -3,9 +3,8 @@
 namespace Database\Factories;
 
 use App\Models\Location;
-use Illuminate\Database\Eloquent\Factories\Factory;
 
-class LocationFactory extends Factory
+class LocationFactory extends BaseFactory
 {
     /**
      * The name of the factory's corresponding model.
@@ -20,8 +19,8 @@ class LocationFactory extends Factory
     public function definition(): array
     {
         return [
-            'city' => fake()->city(),
-            'country' => fake()->country(),
+            'city' => $this->localized(fn () => fake()->city()),
+            'country' => $this->localized(fn () => fake()->country()),
         ];
     }
 }
