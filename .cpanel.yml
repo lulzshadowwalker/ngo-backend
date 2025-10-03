@@ -1,4 +1,32 @@
 ---
 deployment:
   tasks:
-    - echo "✅ cPanel YAML recognized"
+    - cd /home/rjpl43t4e04n/repositories/ngo
+
+    # Ensure correct branch
+    - git checkout main || exit 1
+    - git pull origin main || exit 1
+
+    # Install PHP dependencies
+    - composer install --no-interaction --prefer-dist --optimize-autoloader || exit 1
+
+    # Ensure correct .env is in place
+    # - ln -sf /home/rjpl43t4e04n/.env.production .env
+
+    # Laravel migrations
+    - if [ -f artisan ]; then php artisan migrate --force; fi
+
+    # Laravel caches & optimization
+    - php artisan optimize:clear
+    - php artisan storage:link || true
+    - php artisan livewire:publish --assets || true
+    - php artisan optimize
+
+    # Scout indexing (optional)
+    - php artisan scout:import-all || echo "Scout import failed, skipping"
+
+    # Horizon termination (if using queues, optional)
+    - php artisan horizon:terminate || echo "Horizon terminate failed, skipping"
+
+    # Deployment complete
+    - echo "✅ Deployment completed successfully!"
