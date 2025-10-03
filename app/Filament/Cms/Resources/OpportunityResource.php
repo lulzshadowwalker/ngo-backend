@@ -112,8 +112,7 @@ class OpportunityResource extends Resource
                             ->options(OpportunityStatus::class)
                             ->required()
                             ->default(OpportunityStatus::Active),
-                    ])
-                    ->columns(2),
+                    ]),
 
                 Forms\Components\Section::make('Opportunity Details')
                     ->description('Specific role information and requirements')
@@ -151,8 +150,7 @@ class OpportunityResource extends Resource
                             ->options(Sector::pluck('name', 'id'))
                             ->required()
                             ->searchable(),
-                    ])
-                    ->columns(2),
+                    ]),
 
                 Forms\Components\Section::make('Requirements & Responsibilities')
                     ->description('Key responsibilities and skills required for this opportunity')
@@ -177,8 +175,7 @@ class OpportunityResource extends Resource
                             ->label('Benefits')
                             ->helperText('Enter each benefit as a separate item (max 10 items)')
                             ->translatable(),
-                    ])
-                    ->columns(2),
+                    ]),
 
                 Forms\Components\Section::make('Location Information')
                     ->description('Geographic details and location specifics')
@@ -214,8 +211,7 @@ class OpportunityResource extends Resource
                             ->rows(2)
                             ->columnSpanFull()
                             ->translatable(),
-                    ])
-                    ->columns(3),
+                    ]),
 
                 Forms\Components\Section::make('Additional Information')
                     ->description('Extra details and supplementary information')
