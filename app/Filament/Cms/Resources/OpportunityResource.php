@@ -136,7 +136,6 @@ class OpportunityResource extends Resource
                             ->suffix('Days')
                             ->helperText('Duration in days (1-365 days)')
                             ->minValue(1)
-                            ->maxValue(365)
                             ->step(1),
 
                         Forms\Components\DatePicker::make('expiry_date')
