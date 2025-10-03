@@ -183,8 +183,9 @@ class OpportunityResource extends Resource
                     ->schema([
                         Forms\Components\Select::make('location_id')
                             ->label('Location')
-                            ->options(Location::selectRaw("id, CONCAT(city, ', ', country) as location")
-                                ->pluck('location', 'id'))
+                            ->options(fn () => Location::all()->mapWithKeys(fn ($location) => [
+                                $location->id => $location->getTranslation('city', app()->getLocale()).', '.$location->getTranslation('country', app()->getLocale()),
+                            ]))
                             ->searchable(),
 
                         Forms\Components\TextInput::make('latitude')
