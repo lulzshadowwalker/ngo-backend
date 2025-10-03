@@ -127,10 +127,12 @@ class OrganizationResource extends Resource
                             ->createOptionForm([
                                 Forms\Components\TextInput::make('name')
                                     ->required()
-                                    ->placeholder('Enter sector name'),
+                                    ->placeholder('Enter sector name')
+                                    ->translatable(),
                                 Forms\Components\Textarea::make('description')
                                     ->placeholder('Describe this sector...')
-                                    ->rows(3),
+                                    ->rows(3)
+                                    ->translatable(),
                             ]),
 
                         Forms\Components\Select::make('location_id')
@@ -143,10 +145,12 @@ class OrganizationResource extends Resource
                             ->createOptionForm([
                                 Forms\Components\TextInput::make('city')
                                     ->required()
-                                    ->placeholder('Enter city name'),
+                                    ->placeholder('Enter city name')
+                                    ->translatable(),
                                 Forms\Components\TextInput::make('country')
                                     ->required()
-                                    ->placeholder('Enter country name'),
+                                    ->placeholder('Enter country name')
+                                    ->translatable(),
                             ]),
                     ]),
 
