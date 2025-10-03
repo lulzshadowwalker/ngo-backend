@@ -4,6 +4,7 @@ namespace App\Filament\Cms\Resources;
 
 use App\Filament\Cms\Resources\PostResource\Pages;
 use App\Models\Post;
+use App\Models\Sector;
 use Filament\Forms;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
@@ -63,6 +64,13 @@ class PostResource extends Resource
                             ->required()
                             ->maxLength(255)
                             ->translatable(),
+
+                        Forms\Components\Select::make('sector_id')
+                            ->label('Sector')
+                            ->options(fn () => Sector::all()->mapWithKeys(fn ($sector) => [
+                                $sector->id => $sector->getTranslation('name', app()->getLocale()),
+                            ]))
+                            ->searchable(),
                     ]),
 
                 Forms\Components\Section::make('Content')
@@ -91,6 +99,11 @@ class PostResource extends Resource
                     ->sortable()
                     ->limit(50),
 
+                Tables\Columns\TextColumn::make('sector.name')
+                    ->label('Sector')
+                    ->sortable()
+                    ->toggleable(),
+
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Published At')
                     ->description(fn (Post $record): string => $record->created_at?->diffForHumans() ?? '')
@@ -105,6 +118,9 @@ class PostResource extends Resource
                     ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
+                Tables\Filters\SelectFilter::make('sector')
+                    ->relationship('sector', 'name'),
+
                 Tables\Filters\Filter::make('recent')
                     ->query(fn (\Illuminate\Database\Eloquent\Builder $query): \Illuminate\Database\Eloquent\Builder => $query->where('created_at', '>=', now()->subDays(30)))
                     ->label('Recent Posts'),
