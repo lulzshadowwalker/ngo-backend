@@ -66,14 +66,12 @@ class ProgramResource extends Resource
                         SpatieMediaLibraryFileUpload::make('cover')
                             ->collection(Program::MEDIA_COLLECTION_COVER)
                             ->image()
-                            ->columnSpanFull()
                             ->required(),
 
                         Forms\Components\TextInput::make('title')
                             ->label('Title')
                             ->required()
                             ->maxLength(255)
-                            ->columnSpanFull()
                             ->translatable(),
 
                         Forms\Components\Select::make('status')
@@ -81,8 +79,7 @@ class ProgramResource extends Resource
                             ->options(ProgramStatus::class)
                             ->required()
                             ->default(ProgramStatus::Active),
-                    ])
-                    ->columns(2),
+                    ]),
 
                 Forms\Components\Section::make('Description')
                     ->description('Detailed program description and objectives')
