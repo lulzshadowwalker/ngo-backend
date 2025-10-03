@@ -3,7 +3,7 @@ set -e
 
 APP_DIR="/home/rjpl43t4e04n/repositories/ngo"
 BRANCH="main"
-PHP_BIN="/opt/cpanel/ea-php82/root/usr/bin/php" 
+PHP_BIN="/usr/local/bin/php" 
 NVM_DIR="$HOME/.nvm"
 
 echo "🚀 Starting deployment..."
