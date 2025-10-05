@@ -22,7 +22,7 @@ class OrganizationResource extends JsonResource
                 'name' => $this->name,
                 'slug' => $this->slug,
                 'bio' => $this->bio,
-                'logo' => $this->users->first()?->avatar,
+                'logo' => $this->logo,
                 'website' => $this->website,
                 'sector' => $this->sector->name,
                 'location' => $this->location->city.', '.$this->location->country,
