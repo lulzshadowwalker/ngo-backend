@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers\Api\V1;
 
+use App\Contracts\ResponseBuilder;
 use App\Enums\Role;
+use App\Enums\UserStatus;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\V1\AuthTokenResource;
 use App\Support\AccessToken;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class LoginController extends Controller
 {
@@ -42,6 +45,18 @@ class LoginController extends Controller
         }
 
         $user = auth('web')->user();
+
+        if ($user->status === UserStatus::inactive) {
+            $response = app(ResponseBuilder::class);
+            $response->error(
+                title: 'Account Inactive',
+                detail: 'Your account has been deactivated. Please contact support for more information.',
+                code: Response::HTTP_FORBIDDEN,
+                indicator: 'DEACTIVATED',
+            );
+
+            return $response->build(Response::HTTP_FORBIDDEN);
+        }
 
         if ($deviceToken = $request->input('data.relationships.deviceTokens.data.attributes.token')) {
             $user->deviceTokens()->firstOrCreate(['token' => $deviceToken]);
