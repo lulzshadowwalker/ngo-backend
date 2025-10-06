@@ -74,6 +74,7 @@ class ApplicationFormResource extends Resource
                         Forms\Components\Select::make('opportunity_id')
                             ->label('Opportunity')
                             ->required()
+                            ->columnSpanFull()
                             ->options(function () {
                                 // Only show opportunities that don't already have an application form
                                 $opportunities = Opportunity::where('organization_id', Auth::user()?->organization_id)
@@ -105,12 +106,14 @@ class ApplicationFormResource extends Resource
                             ->label('Form Title')
                             ->required()
                             ->maxLength(255)
+                            ->columnSpanFull()
                             ->default('Application Form')
                             ->translatable(),
 
                         Forms\Components\Textarea::make('description')
                             ->label('Form Description')
                             ->rows(3)
+                            ->columnSpanFull()
                             ->placeholder('Instructions for applicants...')
                             ->translatable(),
 
@@ -118,8 +121,7 @@ class ApplicationFormResource extends Resource
                             ->label('Form Active')
                             ->helperText('Toggle to enable/disable application submissions')
                             ->default(true),
-                    ])
-                    ->columns(2),
+                    ]),
 
                 Forms\Components\Section::make('Form Fields')
                     ->description('Configure the fields that applicants will fill out')
@@ -128,6 +130,7 @@ class ApplicationFormResource extends Resource
                         Forms\Components\Repeater::make('formFields')
                             ->relationship()
                             ->label('Form Fields')
+                            ->columnSpanFull()
                             ->schema([
                                 Forms\Components\Select::make('type')
                                     ->label('Field Type')
@@ -157,7 +160,11 @@ class ApplicationFormResource extends Resource
                                     ->helperText('For select/checkbox fields - type option and press Enter')
                                     ->visible(function (callable $get) {
                                         $type = $get('type');
-                                        if (is_object($type)) {
+
+                                        // Handle both enum objects and string values
+                                        if ($type instanceof FormFieldType) {
+                                            $typeValue = $type->value;
+                                        } elseif (is_object($type) && isset($type->value)) {
                                             $typeValue = $type->value;
                                         } else {
                                             $typeValue = $type;
@@ -166,7 +173,8 @@ class ApplicationFormResource extends Resource
                                         return in_array($typeValue, [FormFieldType::Select->value, FormFieldType::Checkbox->value]);
                                     })
                                     ->placeholder('Type an option and press Enter')
-                                    ->splitKeys(['Enter', 'Tab', ','])
+                                    ->splitKeys(['Enter', 'Tab'])
+                                    ->reorderable()
                                     ->translatable(),
 
                                 Forms\Components\Toggle::make('is_required')
@@ -179,7 +187,7 @@ class ApplicationFormResource extends Resource
                                     ->default(0)
                                     ->step(1),
                             ])
-                            ->columns(3)
+                            ->columns(1)
                             ->collapsible()
                             ->itemLabel(fn (array $state): ?string => $state['label']['en'] ?? null)
                             ->addActionLabel('Add Form Field')
