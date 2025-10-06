@@ -3,6 +3,7 @@
 namespace App\Filament\Cms\Resources;
 
 use App\Enums\ApplicationStatus;
+use App\Enums\FormFieldType;
 use App\Filament\Cms\Resources\ApplicationResource\Pages;
 use App\Models\Application;
 use Filament\Forms;
@@ -51,7 +52,7 @@ class ApplicationResource extends Resource
     {
         return parent::getEloquentQuery()
             ->where('organization_id', Auth::user()?->organization_id)
-            ->with(['user', 'opportunity', 'applicationForm']);
+            ->with(['user', 'opportunity', 'applicationForm', 'responses.formField']);
     }
 
     public static function form(Form $form): Form
@@ -66,15 +67,18 @@ class ApplicationResource extends Resource
                             ->label('Application Status')
                             ->options(ApplicationStatus::class)
                             ->required()
+                            ->columnSpanFull()
                             ->reactive(),
 
                         Forms\Components\DateTimePicker::make('reviewed_at')
                             ->label('Reviewed At')
+                            ->columnSpanFull()
                             ->visible(fn (callable $get) => $get('status') === ApplicationStatus::Approved->value)
                             ->default(now()),
 
                         Forms\Components\DateTimePicker::make('completed_at')
                             ->label('Completed At')
+                            ->columnSpanFull()
                             ->visible(fn (callable $get) => $get('status') === ApplicationStatus::Approved->value)
                             ->default(now()),
 
@@ -83,34 +87,32 @@ class ApplicationResource extends Resource
                             ->placeholder('Add internal notes about this application...')
                             ->rows(4)
                             ->columnSpanFull(),
-                    ])
-                    ->columns(2),
+                    ]),
 
                 Forms\Components\Section::make('Application Information')
                     ->description('Read-only application and applicant details')
                     ->aside()
                     ->schema([
-                        Forms\Components\TextInput::make('user.name')
+                        Forms\Components\Placeholder::make('applicant_name')
                             ->label('Applicant')
-                            ->disabled(),
+                            ->content(fn ($record) => $record?->user?->name ?? 'No applicant'),
 
-                        Forms\Components\TextInput::make('user.email')
+                        Forms\Components\Placeholder::make('applicant_email')
                             ->label('Email')
-                            ->disabled(),
+                            ->content(fn ($record) => $record?->user?->email ?? 'No email'),
 
-                        Forms\Components\TextInput::make('opportunity.title')
+                        Forms\Components\Placeholder::make('opportunity_title')
                             ->label('Opportunity')
-                            ->disabled(),
+                            ->content(fn ($record) => $record?->opportunity?->getTranslation('title', 'en') ?? 'No opportunity'),
 
-                        Forms\Components\TextInput::make('applicationForm.title')
+                        Forms\Components\Placeholder::make('form_title')
                             ->label('Form Used')
-                            ->disabled(),
+                            ->content(fn ($record) => $record?->applicationForm?->getTranslation('title', 'en') ?? 'No form'),
 
-                        Forms\Components\TextInput::make('submitted_at')
+                        Forms\Components\Placeholder::make('submitted_date')
                             ->label('Submitted')
-                            ->disabled(),
+                            ->content(fn ($record) => $record?->submitted_at?->format('M j, Y g:i A') ?? 'Not submitted'),
                     ])
-                    ->columns(2)
                     ->collapsed(),
 
                 Forms\Components\Section::make('Application Responses')
@@ -119,17 +121,62 @@ class ApplicationResource extends Resource
                     ->schema([
                         Forms\Components\Repeater::make('responses')
                             ->relationship()
+                            ->columnSpanFull()
                             ->schema([
-                                Forms\Components\TextInput::make('formField.label')
+                                Forms\Components\Placeholder::make('question')
                                     ->label('Question')
-                                    ->disabled(),
+                                    ->content(fn ($record) => $record?->formField?->getTranslation('label', 'en') ?? 'No question'),
 
-                                Forms\Components\Textarea::make('response_value')
+                                Forms\Components\Placeholder::make('answer')
                                     ->label('Answer')
-                                    ->rows(2)
-                                    ->disabled(),
+                                    ->content(function ($record) {
+                                        if (! $record?->value && ! $record?->file_path) {
+                                            return 'No answer';
+                                        }
+
+                                        // Handle file uploads - check if it's a file type field
+                                        if ($record?->formField?->type === FormFieldType::File) {
+                                            // Check if file_path exists (preferred) or value contains filename
+                                            $filePath = $record->file_path ?: $record->value;
+
+                                            if ($filePath) {
+                                                $fileName = basename($filePath);
+                                                $downloadUrl = route('application.download-file', [
+                                                    'application' => $record->application_id,
+                                                    'response' => $record->id,
+                                                ]);
+
+                                                return new \Illuminate\Support\HtmlString(
+                                                    '<div class="flex items-center space-x-2">'.
+                                                        '<span class="text-sm text-gray-600">File uploaded:</span>'.
+                                                        '<a href="'.$downloadUrl.'" target="_blank" '.
+                                                        'class="inline-flex items-center px-3 py-1 text-xs font-medium text-white bg-primary-600 rounded-md hover:bg-primary-500 transition-colors">'.
+                                                        '<svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">'.
+                                                        '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>'.
+                                                        '</svg>'.
+                                                        'Download '.$fileName.
+                                                        '</a>'.
+                                                        '</div>'
+                                                );
+                                            } else {
+                                                return 'File field but no file uploaded';
+                                            }
+                                        }
+
+                                        // Handle regular responses
+                                        if ($record?->value) {
+                                            // Handle array values (for checkboxes, etc.)
+                                            if (is_array($record->value)) {
+                                                return implode(', ', $record->value);
+                                            }
+
+                                            return (string) $record->value;
+                                        }
+
+                                        return 'No answer';
+                                    }),
                             ])
-                            ->columns(2)
+                            ->columns(1)
                             ->addable(false)
                             ->deletable(false)
                             ->reorderable(false),
