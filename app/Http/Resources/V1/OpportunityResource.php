@@ -88,7 +88,7 @@ class OpportunityResource extends JsonResource
                                 'helpText' => $field->help_text,
                                 'isRequired' => $field->is_required,
                                 'sortOrder' => $field->sort_order,
-                                'options' => $field->options,
+                                'options' => empty($field->options) ? [] : $field->options,
                                 'validationRules' => $field->validation_rules,
                             ];
                         })
