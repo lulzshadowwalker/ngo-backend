@@ -47,7 +47,7 @@ return [
     |
     */
 
-    'queue' => env('SCOUT_QUEUE', true),
+    'queue' => env('SCOUT_QUEUE', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -239,7 +239,7 @@ return [
                         ['name' => 'content_en', 'type' => 'string', 'locale' => 'en'],
                         ['name' => 'content_ar', 'type' => 'string', 'locale' => 'ar'],
                         ['name' => 'organization_id', 'type' => 'int32'],
-                        ['name' => 'sector_id', 'type' => 'int32'],
+                        ['name' => 'sector_id', 'type' => 'int32', 'optional' => true],
                         ['name' => 'created_at', 'type' => 'int64'],
                     ],
                     'default_sorting_field' => 'created_at',

@@ -26,6 +26,32 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        // $admin = \App\Models\User::create([
+        //     'name' => 'Admin',
+        //     'email' => 'ngo962jo@gmail.com',
+        //     'email_verified_at' => now(),
+        //     'password' => 'l+AHP(0Y14Rv',
+        //     'remember_token' => \Illuminate\Support\Str::random(10),
+        //     'organization_id' => null,
+        // ]);
+
+        // $admin->assignRole(\App\Enums\Role::admin->value);
+
+        // ----
+
+        // $admin = \App\Models\User::create([
+        //     'name' => 'Admin',
+        //     'email' => 'ngo962jo@gmail.com',
+        //     'email_verified_at' => now(),
+        //     'password' => 'l+AHP(0Y14Rv',
+        //     'remember_token' => \Illuminate\Support\Str::random(10),
+        //     'organization_id' => null,
+        // ]);
+
+        // $admin->assignRole(\App\Enums\Role::admin->value);
+
+        // ----
+
         $this->call([RoleSeeder::class]);
 
         User::factory(10)->create();
