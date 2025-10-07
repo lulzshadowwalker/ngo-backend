@@ -142,8 +142,8 @@ class Opportunity extends Model implements HasMedia
             'description_ar' => $this->getTranslation('description', 'ar'),
             'organization_id' => $this->organization_id,
             'sector_id' => $this->sector_id,
-            'tags_en' => $this->getTranslation('tags', 'en'),
-            'tags_ar' => $this->getTranslation('tags', 'ar'),
+            'tags_en' => explode(',', $this->getTranslation('tags', 'en') ?? ''),
+            'tags_ar' => explode(',', $this->getTranslation('tags', 'ar') ?? ''),
             'created_at' => $this->created_at?->timestamp,
         ];
     }
