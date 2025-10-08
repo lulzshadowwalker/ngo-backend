@@ -34,8 +34,8 @@ class OpportunityFactory extends Factory
             'organization_id' => Organization::factory(),
             'program_id' => Program::factory(),
             'tags' => [
-                'en' => $this->faker->words(3),
-                'ar' => ['تطوع', 'مهارات', 'تدريب'],
+                'en' => implode(',', ['volunteer', 'skills', 'training']),
+                'ar' => implode(',', ['تطوع', 'مهارات', 'تدريب']),
             ],
             'duration' => $this->faker->numberBetween(30, 365),
             'expiry_date' => $this->faker->dateTimeBetween('+1 week', '+6 months'),

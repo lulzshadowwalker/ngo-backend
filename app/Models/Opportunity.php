@@ -134,6 +134,9 @@ class Opportunity extends Model implements HasMedia
 
     public function toSearchableArray(): array
     {
+        $tagsEnglish = $this->getTranslation('tags', 'en') ?? '';
+        $tagsArabic = $this->getTranslation('tags', 'ar') ?? '';
+
         return [
             'id' => (string) $this->id,
             'title_en' => $this->getTranslation('title', 'en'),
@@ -142,8 +145,10 @@ class Opportunity extends Model implements HasMedia
             'description_ar' => $this->getTranslation('description', 'ar'),
             'organization_id' => $this->organization_id,
             'sector_id' => $this->sector_id,
-            'tags_en' => explode(',', $this->getTranslation('tags', 'en') ?? ''),
-            'tags_ar' => explode(',', $this->getTranslation('tags', 'ar') ?? ''),
+
+            // NOTE: Only in testing it appears to somehow be in array in some cases
+            'tags_en' => is_array($tagsEnglish) ? $tagsEnglish : explode(',', $tagsEnglish),
+            'tags_ar' => is_array($tagsArabic) ? $tagsArabic : explode(',', $tagsArabic),
             'created_at' => $this->created_at?->timestamp,
         ];
     }
