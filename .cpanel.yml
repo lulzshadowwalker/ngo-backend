@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - cd /home/rjpl43t4e04n/repositories/ngo
+    - cd /home/rjpl43t4e04n/public_html/platform
 
     # Ensure correct branch
     - git checkout main || exit 1
